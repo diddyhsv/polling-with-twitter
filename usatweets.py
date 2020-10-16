@@ -5,8 +5,8 @@ auth.set_access_token("375259383-N8N1XlbuvwCZeJEihALTvgjlCWatwgrnlkI2aNHj", "yRu
 
 #pip install -U textblob-de
 
-  #import nltk
-  #nltk.download('punkt')
+#import nltk
+#nltk.download('punkt')
 
 from textblob_de import TextBlobDE as TextBlob #2
 text1 = '''Das ist alles wunderschön. Ich freue mich.''' #3`
@@ -36,8 +36,9 @@ nopostweets = 0
 searchQuery = "#biden2020 OR #trump2020 OR #BidenForPresident OR #TrumpForPresident OR #TeamTrump OR #TeamJoe OR #MAGA OR #GoJoe OR #KAG OR #BlueWave2020 OR #VoteRed OR #VoteBlue"  # this is what we're searching for 
 maxTweets = 10000000 # Some arbitrary large number
 tweetsPerQry = 100  # this is the max the API permits
-fName = '/Volumes/TOSHIBA/tweetsusa200820.txt' # We'll store the tweets in a text file.
-
+fName = '/Volumes/TOSHIBA/tweetsusa201014.txt' # We'll store the tweets in a text file.
+sin = "2020-10-14"
+til = "2020-10-15"
 
 # If results from a specific ID onwards are reqd, set since_id to that ID.
 # else default to no lower limit, go as far back as API allows
@@ -54,68 +55,68 @@ with open(fName, 'w') as f:
         try:
             if (max_id <= 0):
                 if (not sinceId):
-                    new_tweets = api.search(q=searchQuery, count=tweetsPerQry, lang="en", tweet_mode='extended', since="2020-08-20", until="2020-08-21")
+                    new_tweets = api.search(q=searchQuery, count=tweetsPerQry, lang="en", tweet_mode='extended', since=sin, until=til)
                     time.sleep(5)
                     for elem in new_tweets:
-                          blob = TextBlob(elem.full_text)
-                          totalpolarity = totalpolarity + blob.sentiment.polarity
-                          try:
+                        blob = TextBlob(elem.full_text)
+                        totalpolarity = totalpolarity + blob.sentiment.polarity
+                        try:
                             print("RETWEETED TWEET")
                             print(elem.retweeted_status.full_text)
                             print("from")
                             print(elem.user.location)
                             print("---------------------")
                             if ("Deutschland" in elem.retweeted_status.user.location) or ("Deutschland" in elem.user.location):
-                              nopostweets = nopostweets + 1
+                                nopostweets = nopostweets + 1
 
-                          except AttributeError: 
+                        except AttributeError:
                             print(elem.full_text)
                             print("from")
                             print(elem.user.location)
                             print("---------------------")
                             if "Deutschland" in elem.user.location:
-                              nopostweets = nopostweets + 1
+                                nopostweets = nopostweets + 1
                 else:
                     time.sleep(5)
                     new_tweets = api.search(q=searchQuery, count=tweetsPerQry,
-                                            since_id=sinceId, lang="en", tweet_mode='extended', since="2020-08-20", until="2020-08-21")
+                                            since_id=sinceId, lang="en", tweet_mode='extended', since=sin, until=til)
                     for elem in new_tweets:
-                          blob = TextBlob(elem.full_text)
-                          totalpolarity = totalpolarity + blob.sentiment.polarity
-                          try:
+                        blob = TextBlob(elem.full_text)
+                        totalpolarity = totalpolarity + blob.sentiment.polarity
+                        try:
                             if ("Deutschland" in elem.retweeted_status.user.location) or ("Deutschland" in elem.user.location):
-                              nopostweets = nopostweets + 1
-                          except AttributeError: 
+                                nopostweets = nopostweets + 1
+                        except AttributeError:
                             if "Deutschland" in elem.user.location:
-                              nopostweets = nopostweets + 1
+                                nopostweets = nopostweets + 1
             else:
                 if (not sinceId):
                     time.sleep(5)
                     new_tweets = api.search(q=searchQuery, count=tweetsPerQry,
-                                            max_id=str(max_id - 1),lang="en",tweet_mode='extended', since="2020-08-20", until="2020-08-21")
+                                            max_id=str(max_id - 1),lang="en",tweet_mode='extended', since=sin, until=til)
                     for elem in new_tweets:
-                          blob = TextBlob(elem.full_text)
-                          totalpolarity = totalpolarity + blob.sentiment.polarity
-                          try:
+                        blob = TextBlob(elem.full_text)
+                        totalpolarity = totalpolarity + blob.sentiment.polarity
+                        try:
                             if ("Deutschland" in elem.retweeted_status.user.location) or ("Deutschland" in elem.user.location):
-                              nopostweets = nopostweets + 1
-                          except AttributeError: 
+                                nopostweets = nopostweets + 1
+                        except AttributeError:
                             if "Deutschland" in elem.user.location:
-                              nopostweets = nopostweets + 1
+                                nopostweets = nopostweets + 1
                 else:
                     time.sleep(5)
                     new_tweets = api.search(q=searchQuery, count=tweetsPerQry,
                                             max_id=str(max_id - 1),
-                                            since_id=sinceId,lang="en",tweet_mode='extended',since="2020-08-20", until="2020-08-21")
+                                            since_id=sinceId,lang="en",tweet_mode='extended',since=sin, until=til)
                     for elem in new_tweets:
-                          blob = TextBlob(elem.full_text)
-                          totalpolarity = totalpolarity + blob.sentiment.polarity
-                          try:
+                        blob = TextBlob(elem.full_text)
+                        totalpolarity = totalpolarity + blob.sentiment.polarity
+                        try:
                             if ("Deutschland" in elem.retweeted_status.user.location) or ("Deutschland" in elem.user.location):
-                              nopostweets = nopostweets + 1
-                          except AttributeError: 
+                                nopostweets = nopostweets + 1
+                        except AttributeError:
                             if "Deutschland" in elem.user.location:
-                              nopostweets = nopostweets + 1
+                                nopostweets = nopostweets + 1
             if not new_tweets:
                 print("No more tweets found")
                 break
