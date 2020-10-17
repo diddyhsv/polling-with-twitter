@@ -1,3 +1,5 @@
+#this uses sentiment analysis and counts the number of positive tweets for each candidate
+
 from textblob import TextBlob as TextBlob #2
 from pymongo import MongoClient
 # pprint library is used to make the output look more pretty
