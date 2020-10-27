@@ -267,7 +267,7 @@ db=client.TWITTERUSA
 collection = db['tweets']
 cursor = collection.find({"retweeted_status.full_text":{"$exists": "true"}})
 for tw in cursor:
-    district = sortloc("#vorered", tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
+    district = sortloc("#votered", tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
     if(district != "null"):
         if(district == "mo1"):
             sortEthnic(mo1tl, mo1tb, mo1tw, tw)
@@ -1996,7 +1996,7 @@ for tw in cursor:
 
 cursor = collection.find({"retweeted_status.full_text":{"$exists": "false"}})
 for tw in cursor:
-    district = sortloc("#vorered", tw["user"]["location"], tw["full_text"].lower())
+    district = sortloc("#votered", tw["user"]["location"], tw["full_text"].lower())
     if(district != "null"):
         if(district == "mo1"):
             sortEthnic(mo1tl, mo1tb, mo1tw, tw)

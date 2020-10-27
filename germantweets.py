@@ -36,9 +36,9 @@ nopostweets = 0
 searchQuery = "AfD OR #AfD OR @AfD OR CDU OR #CDU OR @CDU OR CSU OR #CSU OR @CSU OR SPD OR #SPD OR @spdde OR Grüne OR Grünen OR #Grüne OR @Die_Gruenen OR Linke OR Linken OR #Linke OR @dieLinke OR @FDP OR FDP OR #FDP"  # this is what we're searching for 
 maxTweets = 10000000 # Some arbitrary large number
 tweetsPerQry = 100  # this is the max the API permits
-fName = '/Volumes/TOSHIBA/tweetsgermany201014.txt' # We'll store the tweets in a text file.
-sin = "2020-10-14"
-til = "2020-10-15"
+fName = '/Volumes/TOSHIBA/tweetsgermany201024.txt' # We'll store the tweets in a text file.
+sin = "2020-10-24"
+til = "2020-10-25"
 
 # If results from a specific ID onwards are reqd, set since_id to that ID.
 # else default to no lower limit, go as far back as API allows
