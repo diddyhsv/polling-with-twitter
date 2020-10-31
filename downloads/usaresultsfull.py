@@ -1,13 +1,14 @@
+import sys
+sys.path.append("..")
 from pymongo import MongoClient
 # pprint library is used to make the output look more pretty
 from pprint import pprint
 import pickle
-import sys
-sys.path.append("..")
 from sortlocation import sortloc
 
 #this uses sets to count the number of users that tweeted pro trump/biden, without any weighting regarding sex or ethnicity
 #calculates based on districts, and for full state
+
 
 
 trumpmo, bidenmo = set(), set() #trumpmo1, bidenmo1, trumpmo2, bidenmo2, trumpmo3, bidenmo3, trumpmo4, bidenmo4, trumpmo5, bidenmo5, trumpmo6, bidenmo6, trumpmo7, bidenmo7, trumpmo8, bidenmo8 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
@@ -118,7 +119,8 @@ trumpor, bidenor, trumpor1, bidenor1, trumpor2, bidenor2, trumpor3, bidenor3, tr
 
 
 
-
+#			trumpmo1.add(tw["user"]["id"])
+#trumpmo.add(tw["user"]["id"])
 
 # connect to MongoDB, change the << MONGODB URL >> to reflect your own connection string
 client = MongoClient(port=27017)
@@ -5321,6 +5323,7 @@ for tw in cursor:
 		elif(district == "ar4"):
 			bidenar4.add(tw["user"]["id"])
 			bidenar.add(tw["user"]["id"])
+
 
 
 
