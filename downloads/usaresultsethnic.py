@@ -181,7 +181,7 @@ db=client.TWITTERUSA
 collection = db['tweets']
 cursor = collection.find({"retweeted_status.full_text":{"$exists": "true"}})
 for tw in cursor:
-    district = sortloc("#trump2020", tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
+    district = sortloc(["#trump2020", "#votered"], tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
     if(district != "null"):
         if(district == "mo1"):
             sortEthnic(mo1tl, mo1tb, mo1tw, tw)
@@ -1044,7 +1044,7 @@ for tw in cursor:
             sortEthnic(ar3tl, ar3tb, ar3tw, tw)
         elif(district == "ar4"):
             sortEthnic(ar4tl, ar4tb, ar4tw, tw)
-    district = sortloc("#biden2020", tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
+    district = sortloc(["#biden2020", "#voteblue"], tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
     if(district != "null"):
         if(district == "mo1"):
             sortEthnic(mo1bl, mo1bb, mo1bw, tw)
@@ -1910,7 +1910,7 @@ for tw in cursor:
 
 cursor = collection.find({"retweeted_status.full_text":{"$exists": "false"}})
 for tw in cursor:
-    district = sortloc("#trump2020", tw["user"]["location"], tw["full_text"].lower())
+    district = sortloc(["#trump2020", "#votered"], tw["user"]["location"], tw["full_text"].lower())
     if(district != "null"):
         if(district == "mo1"):
             sortEthnic(mo1tl, mo1tb, mo1tw, tw)
@@ -2773,7 +2773,7 @@ for tw in cursor:
             sortEthnic(ar3tl, ar3tb, ar3tw, tw)
         elif(district == "ar4"):
             sortEthnic(ar4tl, ar4tb, ar4tw, tw)
-    district = sortloc("#biden2020", tw["user"]["location"], tw["full_text"].lower())
+    district = sortloc(["#biden2020", "#voteblue"], tw["user"]["location"], tw["full_text"].lower())
     if(district != "null"):
         if(district == "mo1"):
             sortEthnic(mo1bl, mo1bb, mo1bw, tw)

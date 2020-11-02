@@ -210,59 +210,59 @@ def calcStateResult(name, tlat, tbla, twhi, blat, bbla, bwhi, plat, pbla, pwhi):
 #	results.append(name + " - Trump: " + str((tl*plat)+(tw*pwhi)) + "; Biden: " + str((bl*plat)+(bw*pwhi)))
 
 
-# mo1tl, mo1tb, mo1tw, mo1bl, mo1bb, mo1bw, mo2tl, mo2tb, mo2tw, mo2bl, mo2bb, mo2bw, mo3tl, mo3tb, mo3tw, mo3bl, mo3bb, mo3bw, mo4tl, mo4tb, mo4tw, mo4bl, mo4bb, mo4bw, mo5tl, mo5tb, mo5tw, mo5bl, mo5bb, mo5bw, mo6tl, mo6tb, mo6tw, mo6bl, mo6bb, mo6bw, mo7tl, mo7tb, mo7tw, mo7bl, mo7bb, mo7bw, mo8tl, mo8tb, mo8tw, mo8bl, mo8bb, mo8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# co1tl, co1tb, co1tw, co1bl, co1bb, co1bw, co2tl, co2tb, co2tw, co2bl, co2bb, co2bw, co3tl, co3tb, co3tw, co3bl, co3bb, co3bw, co4tl, co4tb, co4tw, co4bl, co4bb, co4bw, co5tl, co5tb, co5tw, co5bl, co5bb, co5bw, co6tl, co6tb, co6tw, co6bl, co6bb, co6bw, co7tl, co7tb, co7tw, co7bl, co7bb, co7bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# sc1tl, sc1tb, sc1tw, sc1bl, sc1bb, sc1bw, sc2tl, sc2tb, sc2tw, sc2bl, sc2bb, sc2bw, sc3tl, sc3tb, sc3tw, sc3bl, sc3bb, sc3bw, sc4tl, sc4tb, sc4tw, sc4bl, sc4bb, sc4bw, sc5tl, sc5tb, sc5tw, sc5bl, sc5bb, sc5bw, sc6bl, sc6bb, sc6bw, sc6tl, sc6tb, sc6tw, sc7tl, sc7tb, sc7tw, sc7bl, sc7bb, sc7bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# mn1tl, mn1tb, mn1tw, mn1bl, mn1bb, mn1bw, mn2tl, mn2tb, mn2tw, mn2bl, mn2bb, mn2bw, mn3tl, mn3tb, mn3tw, mn3bl, mn3bb, mn3bw, mn4tl, mn4tb, mn4tw, mn4bl, mn4bb, mn4bw, mn5tl, mn5tb, mn5tw, mn5bl, mn5bb, mn5bw, mn6tl, mn6tb, mn6tw, mn6bl, mn6bb, mn6bw, mn7tl, mn7tb, mn7tw, mn7bl, mn7bb, mn7bw, mn8tl, mn8tb, mn8tw, mn8bl, mn8bb, mn8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# in1tl, in1tb, in1tw, in1bl, in1bb, in1bw, in2tl, in2tb, in2tw, in2bl, in2bb, in2bw, in3tl, in3tb, in3tw, in3bl, in3bb, in3bw, in4tl, in4tb, in4tw, in4bl, in4bb, in4bw, in5tl, in5tb, in5tw, in5bl, in5bb, in5bw, in6tl, in6tb, in6tw, in6bl, in6bb, in6bw, in7tl, in7tb, in7tw, in7bl, in7bb, in7bw, in8tl, in8tb, in8tw, in8bl, in8bb, in8bw, in9tl, in9tb, in9tw, in9bl, in9bb, in9bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# md1tl, md1tb, md1tw, md1bl, md1bb, md1bw, md2tl, md2tb, md2tw, md2bl, md2bb, md2bw, md3tl, md3tb, md3tw, md3bl, md3bb, md3bw, md4tl, md4tb, md4tw, md4bl, md4bb, md4bw, md5tl, md5tb, md5tw, md5bl, md5bb, md5bw, md6tl, md6tb, md6tw, md6bl, md6bb, md6bw, md7tl, md7tb, md7tw, md7bl, md7bb, md7bw, md8tl, md8tb, md8tw, md8bl, md8bb, md8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# sd1tl, sd1tb, sd1tw, sd1bl, sd1bb, sd1bw =  [], [], [], [], [], []
-# vt1tl, vt1tb, vt1tw, vt1bl, vt1bb, vt1bw =  [], [], [], [], [], []
-# nd1tl, nd1tb, nd1tw, nd1bl, nd1bb, nd1bw =  [], [], [], [], [], []
-# de1tl, de1tb, de1tw, de1bl, de1bb, de1bw =  [], [], [], [], [], []
-# mt1tl, mt1tb, mt1tw, mt1bl, mt1bb, mt1bw =  [], [], [], [], [], []
-# ne1tl, ne1tb, ne1tw, ne1bl, ne1bb, ne1bw, ne2tl, ne2tb, ne2tw, ne2bl, ne2bb, ne2bw, ne3tl, ne3tb, ne3tw, ne3bl, ne3bb, ne3bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# mi1tl, mi1tb, mi1tw, mi1bl, mi1bb, mi1bw, mi2tl, mi2tb, mi2tw, mi2bl, mi2bb, mi2bw, mi3tl, mi3tb, mi3tw, mi3bl, mi3bb, mi3bw, mi4tl, mi4tb, mi4tw, mi4bl, mi4bb, mi4bw, mi5tl, mi5tb, mi5tw, mi5bl, mi5bb, mi5bw, mi6tl, mi6tb, mi6tw, mi6bl, mi6bb, mi6bw, mi7tl, mi7tb, mi7tw, mi7bl, mi7bb, mi7bw, mi8tl, mi8tb, mi8tw, mi8bl, mi8bb, mi8bw, mi9tl, mi9tb, mi9tw, mi9bl, mi9bb, mi9bw, mi10tl, mi10tb, mi10tw, mi10bl, mi10bb, mi10bw, mi11tl, mi11tb, mi11tw, mi11bl, mi11bb, mi11bw, mi12tl, mi12tb, mi12tw, mi12bl, mi12bb, mi12bw, mi13tl, mi13tb, mi13tw, mi13bl, mi13bb, mi13bw, mi14tl, mi14tb, mi14tw, mi14bl, mi14bb, mi14bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# ma1tl, ma1tb, ma1tw, ma1bl, ma1bb, ma1bw, ma2tl, ma2tb, ma2tw, ma2bl, ma2bb, ma2bw, ma3tl, ma3tb, ma3tw, ma3bl, ma3bb, ma3bw, ma4tl, ma4tb, ma4tw, ma4bl, ma4bb, ma4bw, ma5tl, ma5tb, ma5tw, ma5bl, ma5bb, ma5bw, ma6tl, ma6tb, ma6tw, ma6bl, ma6bb, ma6bw, ma7tl, ma7tb, ma7tw, ma7bl, ma7bb, ma7bw, ma8tl, ma8tb, ma8tw, ma8bl, ma8bb, ma8bw, ma9tl, ma9tb, ma9tw, ma9bl, ma9bb, ma9bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# va1tl, va1tb, va1tw, va1bl, va1bb, va1bw, va2tl, va2tb, va2tw, va2bl, va2bb, va2bw, va3tl, va3tb, va3tw, va3bl, va3bb, va3bw, va4tl, va4tb, va4tw, va4bl, va4bb, va4bw, va5tl, va5tb, va5tw, va5bl, va5bb, va5bw, va6tl, va6tb, va6tw, va6bl, va6bb, va6bw, va7tl, va7tb, va7tw, va7bl, va7bb, va7bw, va8tl, va8tb, va8tw, va8bl, va8bb, va8bw, va9tl, va9tb, va9tw, va9bl, va9bb, va9bw, va10tl, va10tb, va10tw, va10bl, va10bb, va10bw, va11tl, va11tb, va11tw, va11bl, va11bb, va11bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# me1tl, me1tb, me1tw, me1bl, me1bb, me1bw, me2tl, me2tb, me2tw, me2bl, me2bb, me2bw =  [], [], [], [], [], [], [], [], [], [], [], []
-# id1tl, id1tb, id1tw, id1bl, id1bb, id1bw, id2tl, id2tb, id2tw, id2bl, id2bb, id2bw =  [], [], [], [], [], [], [], [], [], [], [], []
-# wi1tl, wi1tb, wi1tw, wi1bl, wi1bb, wi1bw, wi2tl, wi2tb, wi2tw, wi2bl, wi2bb, wi2bw, wi3tl, wi3tb, wi3tw, wi3bl, wi3bb, wi3bw, wi4tl, wi4tb, wi4tw, wi4bl, wi4bb, wi4bw, wi5tl, wi5tb, wi5tw, wi5bl, wi5bb, wi5bw, wi6tl, wi6tb, wi6tw, wi6bl, wi6bb, wi6bw, wi7tl, wi7tb, wi7tw, wi7bl, wi7bb, wi7bw, wi8tl, wi8tb, wi8tw, wi8bl, wi8bb, wi8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# wv1tl, wv1tb, wv1tw, wv1bl, wv1bb, wv1bw, wv2tl, wv2tb, wv2tw, wv2bl, wv2bb, wv2bw, wv3tl, wv3tb, wv3tw, wv3bl, wv3bb, wv3bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# ia1tl, ia1tb, ia1tw, ia1bl, ia1bb, ia1bw, ia2tl, ia2tb, ia2tw, ia2bl, ia2bb, ia2bw, ia3tl, ia3tb, ia3tw, ia3bl, ia3bb, ia3bw, ia4tl, ia4tb, ia4tw, ia4bl, ia4bb, ia4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# ms1tl, ms1tb, ms1tw, ms1bl, ms1bb, ms1bw, ms2tl, ms2tb, ms2tw, ms2bl, ms2bb, ms2bw, ms3tl, ms3tb, ms3tw, ms3bl, ms3bb, ms3bw, ms4tl, ms4tb, ms4tw, ms4bl, ms4bb, ms4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# hi1tl, hi1tb, hi1tw, hi1bl, hi1bb, hi1bw, hi2tl, hi2tb, hi2tw, hi2bl, hi2bb, hi2bw =  [], [], [], [], [], [], [], [], [], [], [], []
-# ri1bl, ri1bb, ri1bw, ri1tl, ri1tb, ri1tw, ri2bl, ri2bb, ri2bw, ri2tl, ri2tb, ri2tw =  [], [], [], [], [], [], [], [], [], [], [], []
-# wa1tl, wa1tb, wa1tw, wa1bl, wa1bb, wa1bw, wa2tl, wa2tb, wa2tw, wa2bl, wa2bb, wa2bw, wa3tl, wa3tb, wa3tw, wa3bl, wa3bb, wa3bw, wa4tl, wa4tb, wa4tw, wa4bl, wa4bb, wa4bw, wa5tl, wa5tb, wa5tw, wa5bl, wa5bb, wa5bw, wa6tl, wa6tb, wa6tw, wa6bl, wa6bb, wa6bw, wa7tl, wa7tb, wa7tw, wa7bl, wa7bb, wa7bw, wa8tl, wa8tb, wa8tw, wa8bl, wa8bb, wa8bw, wa9tl, wa9tb, wa9tw, wa9bl, wa9bb, wa9bw, wa10tl, wa10tb, wa10tw, wa10bl, wa10bb, wa10bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# fl1tl, fl1tb, fl1tw, fl1bl, fl1bb, fl1bw, fl2tl, fl2tb, fl2tw, fl2bl, fl2bb, fl2bw, fl3tl, fl3tb, fl3tw, fl3bl, fl3bb, fl3bw, fl4tl, fl4tb, fl4tw, fl4bl, fl4bb, fl4bw, fl5tl, fl5tb, fl5tw, fl5bl, fl5bb, fl5bw, fl6tl, fl6tb, fl6tw, fl6bl, fl6bb, fl6bw, fl7tl, fl7tb, fl7tw, fl7bl, fl7bb, fl7bw, fl8tl, fl8tb, fl8tw, fl8bl, fl8bb, fl8bw, fl9tl, fl9tb, fl9tw, fl9bl, fl9bb, fl9bw, fl10tl, fl10tb, fl10tw, fl10bl, fl10bb, fl10bw, fl11tl, fl11tb, fl11tw, fl11bl, fl11bb, fl11bw, fl12tl, fl12tb, fl12tw, fl12bl, fl12bb, fl12bw, fl13tl, fl13tb, fl13tw, fl13bl, fl13bb, fl13bw, fl14tl, fl14tb, fl14tw, fl14bl, fl14bb, fl14bw, fl15tl, fl15tb, fl15tw, fl15bl, fl15bb, fl15bw, fl16tl, fl16tb, fl16tw, fl16bl, fl16bb, fl16bw, fl17tl, fl17tb, fl17tw, fl17bl, fl17bb, fl17bw, fl18tl, fl18tb, fl18tw, fl18bl, fl18bb, fl18bw, fl19tl, fl19tb, fl19tw, fl19bl, fl19bb, fl19bw, fl20tl, fl20tb, fl20tw, fl20bl, fl20bb, fl20bw, fl21tl, fl21tb, fl21tw, fl21bl, fl21bb, fl21bw, fl22tl, fl22tb, fl22tw, fl22bl, fl22bb, fl22bw, fl23tl, fl23tb, fl23tw, fl23bl, fl23bb, fl23bw, fl24tl, fl24tb, fl24tw, fl24bl, fl24bb, fl24bw, fl25tl, fl25tb, fl25tw, fl25bl, fl25bb, fl25bw, fl26tl, fl26tb, fl26tw, fl26bl, fl26bb, fl26bw, fl27tl, fl27tb, fl27tw, fl27bl, fl27bb, fl27bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# al1tl, al1tb, al1tw, al1bl, al1bb, al1bw, al2tl, al2tb, al2tw, al2bl, al2bb, al2bw, al3tl, al3tb, al3tw, al3bl, al3bb, al3bw, al4tl, al4tb, al4tw, al4bl, al4bb, al4bw, al5tl, al5tb, al5tw, al5bl, al5bb, al5bw, al6tl, al6tb, al6tw, al6bl, al6bb, al6bw, al7bl, al7bb, al7bw, al7tl, al7tb, al7tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# il1tl, il1tb, il1tw, il1bl, il1bb, il1bw, il2tl, il2tb, il2tw, il2bl, il2bb, il2bw, il3tl, il3tb, il3tw, il3bl, il3bb, il3bw, il4tl, il4tb, il4tw, il4bl, il4bb, il4bw, il5tl, il5tb, il5tw, il5bl, il5bb, il5bw, il6tl, il6tb, il6tw, il6bl, il6bb, il6bw, il7tl, il7tb, il7tw, il7bl, il7bb, il7bw, il8tl, il8tb, il8tw, il8bl, il8bb, il8bw, il9tl, il9tb, il9tw, il9bl, il9bb, il9bw, il10tl, il10tb, il10tw, il10bl, il10bb, il10bw, il11tl, il11tb, il11tw, il11bl, il11bb, il11bw, il12tl, il12tb, il12tw, il12bl, il12bb, il12bw, il13tl, il13tb, il13tw, il13bl, il13bb, il13bw, il14tl, il14tb, il14tw, il14bl, il14bb, il14bw, il15tl, il15tb, il15tw, il15bl, il15bb, il15bw, il16tl, il16tb, il16tw, il16bl, il16bb, il16bw, il17tl, il17tb, il17tw, il17bl, il17bb, il17bw, il18bl, il18bb, il18bw, il18tl, il18tb, il18tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# ca1tl, ca1tb, ca1tw, ca1bl, ca1bb, ca1bw, ca2tl, ca2tb, ca2tw, ca2bl, ca2bb, ca2bw, ca3tl, ca3tb, ca3tw, ca3bl, ca3bb, ca3bw, ca4tl, ca4tb, ca4tw, ca4bl, ca4bb, ca4bw, ca5tl, ca5tb, ca5tw, ca5bl, ca5bb, ca5bw, ca6tl, ca6tb, ca6tw, ca6bl, ca6bb, ca6bw, ca7tl, ca7tb, ca7tw, ca7bl, ca7bb, ca7bw, ca8tl, ca8tb, ca8tw, ca8bl, ca8bb, ca8bw, ca9tl, ca9tb, ca9tw, ca9bl, ca9bb, ca9bw, ca10tl, ca10tb, ca10tw, ca10bl, ca10bb, ca10bw, ca11tl, ca11tb, ca11tw, ca11bl, ca11bb, ca11bw, ca12tl, ca12tb, ca12tw, ca12bl, ca12bb, ca12bw, ca13tl, ca13tb, ca13tw, ca13bl, ca13bb, ca13bw, ca14tl, ca14tb, ca14tw, ca14bl, ca14bb, ca14bw, ca15tl, ca15tb, ca15tw, ca15bl, ca15bb, ca15bw, ca16tl, ca16tb, ca16tw, ca16bl, ca16bb, ca16bw, ca17tl, ca17tb, ca17tw, ca17bl, ca17bb, ca17bw, ca18tl, ca18tb, ca18tw, ca18bl, ca18bb, ca18bw, ca19bl, ca19bb, ca19bw, ca19tl, ca19tb, ca19tw, ca20tl, ca20tb, ca20tw, ca20bl, ca20bb, ca20bw, ca21tl, ca21tb, ca21tw, ca21bl, ca21bb, ca21bw, ca22tl, ca22tb, ca22tw, ca22bl, ca22bb, ca22bw, ca23tl, ca23tb, ca23tw, ca23bl, ca23bb, ca23bw, ca24tl, ca24tb, ca24tw, ca24bl, ca24bb, ca24bw, ca25tl, ca25tb, ca25tw, ca25bl, ca25bb, ca25bw, ca26tl, ca26tb, ca26tw, ca26bl, ca26bb, ca26bw, ca27tl, ca27tb, ca27tw, ca27bl, ca27bb, ca27bw, ca28tl, ca28tb, ca28tw, ca28bl, ca28bb, ca28bw, ca29tl, ca29tb, ca29tw, ca29bl, ca29bb, ca29bw, ca30tl, ca30tb, ca30tw, ca30bl, ca30bb, ca30bw, ca31tl, ca31tb, ca31tw, ca31bl, ca31bb, ca31bw, ca32tl, ca32tb, ca32tw, ca32bl, ca32bb, ca32bw, ca33tl, ca33tb, ca33tw, ca33bl, ca33bb, ca33bw, ca34tl, ca34tb, ca34tw, ca34bl, ca34bb, ca34bw, ca35tl, ca35tb, ca35tw, ca35bl, ca35bb, ca35bw, ca36tl, ca36tb, ca36tw, ca36bl, ca36bb, ca36bw, ca37tl, ca37tb, ca37tw, ca37bl, ca37bb, ca37bw, ca38tl, ca38tb, ca38tw, ca38bl, ca38bb, ca38bw, ca39tl, ca39tb, ca39tw, ca39bl, ca39bb, ca39bw, ca40tl, ca40tb, ca40tw, ca40bl, ca40bb, ca40bw, ca41tl, ca41tb, ca41tw, ca41bl, ca41bb, ca41bw, ca42tl, ca42tb, ca42tw, ca42bl, ca42bb, ca42bw, ca43tl, ca43tb, ca43tw, ca43bl, ca43bb, ca43bw, ca44tl, ca44tb, ca44tw, ca44bl, ca44bb, ca44bw, ca45tl, ca45tb, ca45tw, ca45bl, ca45bb, ca45bw, ca46tl, ca46tb, ca46tw, ca46bl, ca46bb, ca46bw, ca47tl, ca47tb, ca47tw, ca47bl, ca47bb, ca47bw, ca48tl, ca48tb, ca48tw, ca48bl, ca48bb, ca48bw, ca49tl, ca49tb, ca49tw, ca49bl, ca49bb, ca49bw, ca50tl, ca50tb, ca50tw, ca50bl, ca50bb, ca50bw, ca51tl, ca51tb, ca51tw, ca51bl, ca51bb, ca51bw, ca52tl, ca52tb, ca52tw, ca52bl, ca52bb, ca52bw, ca53tl, ca53tb, ca53tw, ca53bl, ca53bb, ca53bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# ks1tl, ks1tb, ks1tw, ks1bl, ks1bb, ks1bw, ks2tl, ks2tb, ks2tw, ks2bl, ks2bb, ks2bw, ks3tl, ks3tb, ks3tw, ks3bl, ks3bb, ks3bw, ks4tl, ks4tb, ks4tw, ks4bl, ks4bb, ks4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# ga1tl, ga1tb, ga1tw, ga1bl, ga1bb, ga1bw, ga2tl, ga2tb, ga2tw, ga2bl, ga2bb, ga2bw, ga3tl, ga3tb, ga3tw, ga3bl, ga3bb, ga3bw, ga4tl, ga4tb, ga4tw, ga4bl, ga4bb, ga4bw, ga5tl, ga5tb, ga5tw, ga5bl, ga5bb, ga5bw, ga6tl, ga6tb, ga6tw, ga6bl, ga6bb, ga6bw, ga7tl, ga7tb, ga7tw, ga7bl, ga7bb, ga7bw, ga8tl, ga8tb, ga8tw, ga8bl, ga8bb, ga8bw, ga9tl, ga9tb, ga9tw, ga9bl, ga9bb, ga9bw, ga10tl, ga10tb, ga10tw, ga10bl, ga10bb, ga10bw, ga11tl, ga11tb, ga11tw, ga11bl, ga11bb, ga11bw, ga12tl, ga12tb, ga12tw, ga12bl, ga12bb, ga12bw, ga13tl, ga13tb, ga13tw, ga13bl, ga13bb, ga13bw, ga14tl, ga14tb, ga14tw, ga14bl, ga14bb, ga14bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# az1tl, az1tb, az1tw, az1bl, az1bb, az1bw, az2tl, az2tb, az2tw, az2bl, az2bb, az2bw, az3bl, az3bb, az3bw, az3tl, az3tb, az3tw, az4tl, az4tb, az4tw, az4bl, az4bb, az4bw, az5tl, az5tb, az5tw, az5bl, az5bb, az5bw, az6tl, az6tb, az6tw, az6bl, az6bb, az6bw, az7bl, az7bb, az7bw, az7tl, az7tb, az7tw, az8tl, az8tb, az8tw, az8bl, az8bb, az8bw, az9bl, az9bb, az9bw, az9tl, az9tb, az9tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# ak1tl, ak1tb, ak1tw, ak1bl, ak1bb, ak1bw =  [], [], [], [], [], []
-# ar1tl, ar1tb, ar1tw, ar1bl, ar1bb, ar1bw, ar2tl, ar2tb, ar2tw, ar2bl, ar2bb, ar2bw, ar3tl, ar3tb, ar3tw, ar3bl, ar3bb, ar3bw, ar4tl, ar4tb, ar4tw, ar4bl, ar4bb, ar4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# nj1tl, nj1tb, nj1tw, nj1bl, nj1bb, nj1bw, nj2tl, nj2tb, nj2tw, nj2bl, nj2bb, nj2bw, nj3tl, nj3tb, nj3tw, nj3bl, nj3bb, nj3bw, nj4tl, nj4tb, nj4tw, nj4bl, nj4bb, nj4bw, nj5tl, nj5tb, nj5tw, nj5bl, nj5bb, nj5bw, nj6tl, nj6tb, nj6tw, nj6bl, nj6bb, nj6bw, nj7tl, nj7tb, nj7tw, nj7bl, nj7bb, nj7bw, nj8tl, nj8tb, nj8tw, nj8bl, nj8bb, nj8bw, nj9tl, nj9tb, nj9tw, nj9bl, nj9bb, nj9bw, nj10tl, nj10tb, nj10tw, nj10bl, nj10bb, nj10bw, nj11tl, nj11tb, nj11tw, nj11bl, nj11bb, nj11bw, nj12tl, nj12tb, nj12tw, nj12bl, nj12bb, nj12bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# nv1tl, nv1tb, nv1tw, nv1bl, nv1bb, nv1bw, nv2tl, nv2tb, nv2tw, nv2bl, nv2bb, nv2bw, nv3tl, nv3tb, nv3tw, nv3bl, nv3bb, nv3bw, nv4tl, nv4tb, nv4tw, nv4bl, nv4bb, nv4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# nh1tl, nh1tb, nh1tw, nh1bl, nh1bb, nh1bw, nh2tl, nh2tb, nh2tw, nh2bl, nh2bb, nh2bw =  [], [], [], [], [], [], [], [], [], [], [], []
-# nc1tl, nc1tb, nc1tw, nc1bl, nc1bb, nc1bw, nc2tl, nc2tb, nc2tw, nc2bl, nc2bb, nc2bw, nc3tl, nc3tb, nc3tw, nc3bl, nc3bb, nc3bw, nc4tl, nc4tb, nc4tw, nc4bl, nc4bb, nc4bw, nc5tl, nc5tb, nc5tw, nc5bl, nc5bb, nc5bw, nc6tl, nc6tb, nc6tw, nc6bl, nc6bb, nc6bw, nc7tl, nc7tb, nc7tw, nc7bl, nc7bb, nc7bw, nc8tl, nc8tb, nc8tw, nc8bl, nc8bb, nc8bw, nc9tl, nc9tb, nc9tw, nc9bl, nc9bb, nc9bw, nc10tl, nc10tb, nc10tw, nc10bl, nc10bb, nc10bw, nc11tl, nc11tb, nc11tw, nc11bl, nc11bb, nc11bw, nc12tl, nc12tb, nc12tw, nc12bl, nc12bb, nc12bw, nc13tl, nc13tb, nc13tw, nc13bl, nc13bb, nc13bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# tx1tl, tx1tb, tx1tw, tx1bl, tx1bb, tx1bw, tx2tl, tx2tb, tx2tw, tx2bl, tx2bb, tx2bw, tx3tl, tx3tb, tx3tw, tx3bl, tx3bb, tx3bw, tx4tl, tx4tb, tx4tw, tx4bl, tx4bb, tx4bw, tx5tl, tx5tb, tx5tw, tx5bl, tx5bb, tx5bw, tx6tl, tx6tb, tx6tw, tx6bl, tx6bb, tx6bw, tx7tl, tx7tb, tx7tw, tx7bl, tx7bb, tx7bw, tx8tl, tx8tb, tx8tw, tx8bl, tx8bb, tx8bw, tx9tl, tx9tb, tx9tw, tx9bl, tx9bb, tx9bw, tx10tl, tx10tb, tx10tw, tx10bl, tx10bb, tx10bw, tx11tl, tx11tb, tx11tw, tx11bl, tx11bb, tx11bw, tx12tl, tx12tb, tx12tw, tx12bl, tx12bb, tx12bw, tx13tl, tx13tb, tx13tw, tx13bl, tx13bb, tx13bw, tx14tl, tx14tb, tx14tw, tx14bl, tx14bb, tx14bw, tx15tl, tx15tb, tx15tw, tx15bl, tx15bb, tx15bw, tx16tl, tx16tb, tx16tw, tx16bl, tx16bb, tx16bw, tx17tl, tx17tb, tx17tw, tx17bl, tx17bb, tx17bw, tx18tl, tx18tb, tx18tw, tx18bl, tx18bb, tx18bw, tx19tl, tx19tb, tx19tw, tx19bl, tx19bb, tx19bw, tx20tl, tx20tb, tx20tw, tx20bl, tx20bb, tx20bw, tx21tl, tx21tb, tx21tw, tx21bl, tx21bb, tx21bw, tx22tl, tx22tb, tx22tw, tx22bl, tx22bb, tx22bw, tx23tl, tx23tb, tx23tw, tx23bl, tx23bb, tx23bw, tx24tl, tx24tb, tx24tw, tx24bl, tx24bb, tx24bw, tx25tl, tx25tb, tx25tw, tx25bl, tx25bb, tx25bw, tx26tl, tx26tb, tx26tw, tx26bl, tx26bb, tx26bw, tx27tl, tx27tb, tx27tw, tx27bl, tx27bb, tx27bw, tx28tl, tx28tb, tx28tw, tx28bl, tx28bb, tx28bw, tx29tl, tx29tb, tx29tw, tx29bl, tx29bb, tx29bw, tx30tl, tx30tb, tx30tw, tx30bl, tx30bb, tx30bw, tx31tl, tx31tb, tx31tw, tx31bl, tx31bb, tx31bw, tx32tl, tx32tb, tx32tw, tx32bl, tx32bb, tx32bw, tx33tl, tx33tb, tx33tw, tx33bl, tx33bb, tx33bw, tx34tl, tx34tb, tx34tw, tx34bl, tx34bb, tx34bw, tx35tl, tx35tb, tx35tw, tx35bl, tx35bb, tx35bw, tx36tl, tx36tb, tx36tw, tx36bl, tx36bb, tx36bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# tn1tl, tn1tb, tn1tw, tn1bl, tn1bb, tn1bw, tn2tl, tn2tb, tn2tw, tn2bl, tn2bb, tn2bw, tn3tl, tn3tb, tn3tw, tn3bl, tn3bb, tn3bw, tn4tl, tn4tb, tn4tw, tn4bl, tn4bb, tn4bw, tn5bl, tn5bb, tn5bw, tn5tl, tn5tb, tn5tw, tn6tl, tn6tb, tn6tw, tn6bl, tn6bb, tn6bw, tn7tl, tn7tb, tn7tw, tn7bl, tn7bb, tn7bw, tn8tl, tn8tb, tn8tw, tn8bl, tn8bb, tn8bw, tn9bl, tn9bb, tn9bw, tn9tl, tn9tb, tn9tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# nm1tl, nm1tb, nm1tw, nm1bl, nm1bb, nm1bw, nm2tl, nm2tb, nm2tw, nm2bl, nm2bb, nm2bw, nm3tl, nm3tb, nm3tw, nm3bl, nm3bb, nm3bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# ny1tl, ny1tb, ny1tw, ny1bl, ny1bb, ny1bw, ny2tl, ny2tb, ny2tw, ny2bl, ny2bb, ny2bw, ny3tl, ny3tb, ny3tw, ny3bl, ny3bb, ny3bw, ny4tl, ny4tb, ny4tw, ny4bl, ny4bb, ny4bw, ny5tl, ny5tb, ny5tw, ny5bl, ny5bb, ny5bw, ny6tl, ny6tb, ny6tw, ny6bl, ny6bb, ny6bw, ny7tl, ny7tb, ny7tw, ny7bl, ny7bb, ny7bw, ny8tl, ny8tb, ny8tw, ny8bl, ny8bb, ny8bw, ny9tl, ny9tb, ny9tw, ny9bl, ny9bb, ny9bw, ny10tl, ny10tb, ny10tw, ny10bl, ny10bb, ny10bw, ny11tl, ny11tb, ny11tw, ny11bl, ny11bb, ny11bw, ny12tl, ny12tb, ny12tw, ny12bl, ny12bb, ny12bw, ny13tl, ny13tb, ny13tw, ny13bl, ny13bb, ny13bw, ny14tl, ny14tb, ny14tw, ny14bl, ny14bb, ny14bw, ny15tl, ny15tb, ny15tw, ny15bl, ny15bb, ny15bw, ny16tl, ny16tb, ny16tw, ny16bl, ny16bb, ny16bw, ny17tl, ny17tb, ny17tw, ny17bl, ny17bb, ny17bw, ny18tl, ny18tb, ny18tw, ny18bl, ny18bb, ny18bw, ny19tl, ny19tb, ny19tw, ny19bl, ny19bb, ny19bw, ny20tl, ny20tb, ny20tw, ny20bl, ny20bb, ny20bw, ny21tl, ny21tb, ny21tw, ny21bl, ny21bb, ny21bw, ny22tl, ny22tb, ny22tw, ny22bl, ny22bb, ny22bw, ny23tl, ny23tb, ny23tw, ny23bl, ny23bb, ny23bw, ny24tl, ny24tb, ny24tw, ny24bl, ny24bb, ny24bw, ny25tl, ny25tb, ny25tw, ny25bl, ny25bb, ny25bw, ny26tl, ny26tb, ny26tw, ny26bl, ny26bb, ny26bw, ny27tl, ny27tb, ny27tw, ny27bl, ny27bb, ny27bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# wy1tl, wy1tb, wy1tw, wy1bl, wy1bb, wy1bw =  [], [], [], [], [], []
-# pa1tl, pa1tb, pa1tw, pa1bl, pa1bb, pa1bw, pa2tl, pa2tb, pa2tw, pa2bl, pa2bb, pa2bw, pa3tl, pa3tb, pa3tw, pa3bl, pa3bb, pa3bw, pa4tl, pa4tb, pa4tw, pa4bl, pa4bb, pa4bw, pa5tl, pa5tb, pa5tw, pa5bl, pa5bb, pa5bw, pa6tl, pa6tb, pa6tw, pa6bl, pa6bb, pa6bw, pa7tl, pa7tb, pa7tw, pa7bl, pa7bb, pa7bw, pa8tl, pa8tb, pa8tw, pa8bl, pa8bb, pa8bw, pa9tl, pa9tb, pa9tw, pa9bl, pa9bb, pa9bw, pa10tl, pa10tb, pa10tw, pa10bl, pa10bb, pa10bw, pa11tl, pa11tb, pa11tw, pa11bl, pa11bb, pa11bw, pa12tl, pa12tb, pa12tw, pa12bl, pa12bb, pa12bw, pa13tl, pa13tb, pa13tw, pa13bl, pa13bb, pa13bw, pa14tl, pa14tb, pa14tw, pa14bl, pa14bb, pa14bw, pa15tl, pa15tb, pa15tw, pa15bl, pa15bb, pa15bw, pa16tl, pa16tb, pa16tw, pa16bl, pa16bb, pa16bw, pa17tl, pa17tb, pa17tw, pa17bl, pa17bb, pa17bw, pa18tl, pa18tb, pa18tw, pa18bl, pa18bb, pa18bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# ct1tl, ct1tb, ct1tw, ct1bl, ct1bb, ct1bw, ct2tl, ct2tb, ct2tw, ct2bl, ct2bb, ct2bw, ct3tl, ct3tb, ct3tw, ct3bl, ct3bb, ct3bw, ct4tl, ct4tb, ct4tw, ct4bl, ct4bb, ct4bw, ct5tl, ct5tb, ct5tw, ct5bl, ct5bb, ct5bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# ky1tl, ky1tb, ky1tw, ky1bl, ky1bb, ky1bw, ky2tl, ky2tb, ky2tw, ky2bl, ky2bb, ky2bw, ky3tl, ky3tb, ky3tw, ky3bl, ky3bb, ky3bw, ky4tl, ky4tb, ky4tw, ky4bl, ky4bb, ky4bw, ky5tl, ky5tb, ky5tw, ky5bl, ky5bb, ky5bw, ky6tl, ky6tb, ky6tw, ky6bl, ky6bb, ky6bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# la1tl, la1tb, la1tw, la1bl, la1bb, la1bw, la2tl, la2tb, la2tw, la2bl, la2bb, la2bw, la3tl, la3tb, la3tw, la3bl, la3bb, la3bw, la4tl, la4tb, la4tw, la4bl, la4bb, la4bw, la5tl, la5tb, la5tw, la5bl, la5bb, la5bw, la6tl, la6tb, la6tw, la6bl, la6bb, la6bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# ok1tl, ok1tb, ok1tw, ok1bl, ok1bb, ok1bw, ok2tl, ok2tb, ok2tw, ok2bl, ok2bb, ok2bw, ok3tl, ok3tb, ok3tw, ok3bl, ok3bb, ok3bw, ok4tl, ok4tb, ok4tw, ok4bl, ok4bb, ok4bw, ok5tl, ok5tb, ok5tw, ok5bl, ok5bb, ok5bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# ut1tl, ut1tb, ut1tw, ut1bl, ut1bb, ut1bw, ut2tl, ut2tb, ut2tw, ut2bl, ut2bb, ut2bw, ut3tl, ut3tb, ut3tw, ut3bl, ut3bb, ut3bw, ut4tl, ut4tb, ut4tw, ut4bl, ut4bb, ut4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# oh1tl, oh1tb, oh1tw, oh1bl, oh1bb, oh1bw, oh2tl, oh2tb, oh2tw, oh2bl, oh2bb, oh2bw, oh3tl, oh3tb, oh3tw, oh3bl, oh3bb, oh3bw, oh4tl, oh4tb, oh4tw, oh4bl, oh4bb, oh4bw, oh5tl, oh5tb, oh5tw, oh5bl, oh5bb, oh5bw, oh6tl, oh6tb, oh6tw, oh6bl, oh6bb, oh6bw, oh7tl, oh7tb, oh7tw, oh7bl, oh7bb, oh7bw, oh8tl, oh8tb, oh8tw, oh8bl, oh8bb, oh8bw, oh9tl, oh9tb, oh9tw, oh9bl, oh9bb, oh9bw, oh10tl, oh10tb, oh10tw, oh10bl, oh10bb, oh10bw, oh11tl, oh11tb, oh11tw, oh11bl, oh11bb, oh11bw, oh12tl, oh12tb, oh12tw, oh12bl, oh12bb, oh12bw, oh13tl, oh13tb, oh13tw, oh13bl, oh13bb, oh13bw, oh14tl, oh14tb, oh14tw, oh14bl, oh14bb, oh14bw, oh15tl, oh15tb, oh15tw, oh15bl, oh15bb, oh15bw, oh16tl, oh16tb, oh16tw, oh16bl, oh16bb, oh16bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-# or1tl, or1tb, or1tw, or1bl, or1bb, or1bw, or2tl, or2tb, or2tw, or2bl, or2bb, or2bw, or3tl, or3tb, or3tw, or3bl, or3bb, or3bw, or4tl, or4tb, or4tw, or4bl, or4bb, or4bw, or5tl, or5tb, or5tw, or5bl, or5bb, or5bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+mo1tl, mo1tb, mo1tw, mo1bl, mo1bb, mo1bw, mo2tl, mo2tb, mo2tw, mo2bl, mo2bb, mo2bw, mo3tl, mo3tb, mo3tw, mo3bl, mo3bb, mo3bw, mo4tl, mo4tb, mo4tw, mo4bl, mo4bb, mo4bw, mo5tl, mo5tb, mo5tw, mo5bl, mo5bb, mo5bw, mo6tl, mo6tb, mo6tw, mo6bl, mo6bb, mo6bw, mo7tl, mo7tb, mo7tw, mo7bl, mo7bb, mo7bw, mo8tl, mo8tb, mo8tw, mo8bl, mo8bb, mo8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+co1tl, co1tb, co1tw, co1bl, co1bb, co1bw, co2tl, co2tb, co2tw, co2bl, co2bb, co2bw, co3tl, co3tb, co3tw, co3bl, co3bb, co3bw, co4tl, co4tb, co4tw, co4bl, co4bb, co4bw, co5tl, co5tb, co5tw, co5bl, co5bb, co5bw, co6tl, co6tb, co6tw, co6bl, co6bb, co6bw, co7tl, co7tb, co7tw, co7bl, co7bb, co7bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+sc1tl, sc1tb, sc1tw, sc1bl, sc1bb, sc1bw, sc2tl, sc2tb, sc2tw, sc2bl, sc2bb, sc2bw, sc3tl, sc3tb, sc3tw, sc3bl, sc3bb, sc3bw, sc4tl, sc4tb, sc4tw, sc4bl, sc4bb, sc4bw, sc5tl, sc5tb, sc5tw, sc5bl, sc5bb, sc5bw, sc6bl, sc6bb, sc6bw, sc6tl, sc6tb, sc6tw, sc7tl, sc7tb, sc7tw, sc7bl, sc7bb, sc7bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+mn1tl, mn1tb, mn1tw, mn1bl, mn1bb, mn1bw, mn2tl, mn2tb, mn2tw, mn2bl, mn2bb, mn2bw, mn3tl, mn3tb, mn3tw, mn3bl, mn3bb, mn3bw, mn4tl, mn4tb, mn4tw, mn4bl, mn4bb, mn4bw, mn5tl, mn5tb, mn5tw, mn5bl, mn5bb, mn5bw, mn6tl, mn6tb, mn6tw, mn6bl, mn6bb, mn6bw, mn7tl, mn7tb, mn7tw, mn7bl, mn7bb, mn7bw, mn8tl, mn8tb, mn8tw, mn8bl, mn8bb, mn8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+in1tl, in1tb, in1tw, in1bl, in1bb, in1bw, in2tl, in2tb, in2tw, in2bl, in2bb, in2bw, in3tl, in3tb, in3tw, in3bl, in3bb, in3bw, in4tl, in4tb, in4tw, in4bl, in4bb, in4bw, in5tl, in5tb, in5tw, in5bl, in5bb, in5bw, in6tl, in6tb, in6tw, in6bl, in6bb, in6bw, in7tl, in7tb, in7tw, in7bl, in7bb, in7bw, in8tl, in8tb, in8tw, in8bl, in8bb, in8bw, in9tl, in9tb, in9tw, in9bl, in9bb, in9bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+md1tl, md1tb, md1tw, md1bl, md1bb, md1bw, md2tl, md2tb, md2tw, md2bl, md2bb, md2bw, md3tl, md3tb, md3tw, md3bl, md3bb, md3bw, md4tl, md4tb, md4tw, md4bl, md4bb, md4bw, md5tl, md5tb, md5tw, md5bl, md5bb, md5bw, md6tl, md6tb, md6tw, md6bl, md6bb, md6bw, md7tl, md7tb, md7tw, md7bl, md7bb, md7bw, md8tl, md8tb, md8tw, md8bl, md8bb, md8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+sd1tl, sd1tb, sd1tw, sd1bl, sd1bb, sd1bw =  [], [], [], [], [], []
+vt1tl, vt1tb, vt1tw, vt1bl, vt1bb, vt1bw =  [], [], [], [], [], []
+nd1tl, nd1tb, nd1tw, nd1bl, nd1bb, nd1bw =  [], [], [], [], [], []
+de1tl, de1tb, de1tw, de1bl, de1bb, de1bw =  [], [], [], [], [], []
+mt1tl, mt1tb, mt1tw, mt1bl, mt1bb, mt1bw =  [], [], [], [], [], []
+ne1tl, ne1tb, ne1tw, ne1bl, ne1bb, ne1bw, ne2tl, ne2tb, ne2tw, ne2bl, ne2bb, ne2bw, ne3tl, ne3tb, ne3tw, ne3bl, ne3bb, ne3bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+mi1tl, mi1tb, mi1tw, mi1bl, mi1bb, mi1bw, mi2tl, mi2tb, mi2tw, mi2bl, mi2bb, mi2bw, mi3tl, mi3tb, mi3tw, mi3bl, mi3bb, mi3bw, mi4tl, mi4tb, mi4tw, mi4bl, mi4bb, mi4bw, mi5tl, mi5tb, mi5tw, mi5bl, mi5bb, mi5bw, mi6tl, mi6tb, mi6tw, mi6bl, mi6bb, mi6bw, mi7tl, mi7tb, mi7tw, mi7bl, mi7bb, mi7bw, mi8tl, mi8tb, mi8tw, mi8bl, mi8bb, mi8bw, mi9tl, mi9tb, mi9tw, mi9bl, mi9bb, mi9bw, mi10tl, mi10tb, mi10tw, mi10bl, mi10bb, mi10bw, mi11tl, mi11tb, mi11tw, mi11bl, mi11bb, mi11bw, mi12tl, mi12tb, mi12tw, mi12bl, mi12bb, mi12bw, mi13tl, mi13tb, mi13tw, mi13bl, mi13bb, mi13bw, mi14tl, mi14tb, mi14tw, mi14bl, mi14bb, mi14bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+ma1tl, ma1tb, ma1tw, ma1bl, ma1bb, ma1bw, ma2tl, ma2tb, ma2tw, ma2bl, ma2bb, ma2bw, ma3tl, ma3tb, ma3tw, ma3bl, ma3bb, ma3bw, ma4tl, ma4tb, ma4tw, ma4bl, ma4bb, ma4bw, ma5tl, ma5tb, ma5tw, ma5bl, ma5bb, ma5bw, ma6tl, ma6tb, ma6tw, ma6bl, ma6bb, ma6bw, ma7tl, ma7tb, ma7tw, ma7bl, ma7bb, ma7bw, ma8tl, ma8tb, ma8tw, ma8bl, ma8bb, ma8bw, ma9tl, ma9tb, ma9tw, ma9bl, ma9bb, ma9bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+va1tl, va1tb, va1tw, va1bl, va1bb, va1bw, va2tl, va2tb, va2tw, va2bl, va2bb, va2bw, va3tl, va3tb, va3tw, va3bl, va3bb, va3bw, va4tl, va4tb, va4tw, va4bl, va4bb, va4bw, va5tl, va5tb, va5tw, va5bl, va5bb, va5bw, va6tl, va6tb, va6tw, va6bl, va6bb, va6bw, va7tl, va7tb, va7tw, va7bl, va7bb, va7bw, va8tl, va8tb, va8tw, va8bl, va8bb, va8bw, va9tl, va9tb, va9tw, va9bl, va9bb, va9bw, va10tl, va10tb, va10tw, va10bl, va10bb, va10bw, va11tl, va11tb, va11tw, va11bl, va11bb, va11bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+me1tl, me1tb, me1tw, me1bl, me1bb, me1bw, me2tl, me2tb, me2tw, me2bl, me2bb, me2bw =  [], [], [], [], [], [], [], [], [], [], [], []
+id1tl, id1tb, id1tw, id1bl, id1bb, id1bw, id2tl, id2tb, id2tw, id2bl, id2bb, id2bw =  [], [], [], [], [], [], [], [], [], [], [], []
+wi1tl, wi1tb, wi1tw, wi1bl, wi1bb, wi1bw, wi2tl, wi2tb, wi2tw, wi2bl, wi2bb, wi2bw, wi3tl, wi3tb, wi3tw, wi3bl, wi3bb, wi3bw, wi4tl, wi4tb, wi4tw, wi4bl, wi4bb, wi4bw, wi5tl, wi5tb, wi5tw, wi5bl, wi5bb, wi5bw, wi6tl, wi6tb, wi6tw, wi6bl, wi6bb, wi6bw, wi7tl, wi7tb, wi7tw, wi7bl, wi7bb, wi7bw, wi8tl, wi8tb, wi8tw, wi8bl, wi8bb, wi8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+wv1tl, wv1tb, wv1tw, wv1bl, wv1bb, wv1bw, wv2tl, wv2tb, wv2tw, wv2bl, wv2bb, wv2bw, wv3tl, wv3tb, wv3tw, wv3bl, wv3bb, wv3bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+ia1tl, ia1tb, ia1tw, ia1bl, ia1bb, ia1bw, ia2tl, ia2tb, ia2tw, ia2bl, ia2bb, ia2bw, ia3tl, ia3tb, ia3tw, ia3bl, ia3bb, ia3bw, ia4tl, ia4tb, ia4tw, ia4bl, ia4bb, ia4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+ms1tl, ms1tb, ms1tw, ms1bl, ms1bb, ms1bw, ms2tl, ms2tb, ms2tw, ms2bl, ms2bb, ms2bw, ms3tl, ms3tb, ms3tw, ms3bl, ms3bb, ms3bw, ms4tl, ms4tb, ms4tw, ms4bl, ms4bb, ms4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+hi1tl, hi1tb, hi1tw, hi1bl, hi1bb, hi1bw, hi2tl, hi2tb, hi2tw, hi2bl, hi2bb, hi2bw =  [], [], [], [], [], [], [], [], [], [], [], []
+ri1bl, ri1bb, ri1bw, ri1tl, ri1tb, ri1tw, ri2bl, ri2bb, ri2bw, ri2tl, ri2tb, ri2tw =  [], [], [], [], [], [], [], [], [], [], [], []
+wa1tl, wa1tb, wa1tw, wa1bl, wa1bb, wa1bw, wa2tl, wa2tb, wa2tw, wa2bl, wa2bb, wa2bw, wa3tl, wa3tb, wa3tw, wa3bl, wa3bb, wa3bw, wa4tl, wa4tb, wa4tw, wa4bl, wa4bb, wa4bw, wa5tl, wa5tb, wa5tw, wa5bl, wa5bb, wa5bw, wa6tl, wa6tb, wa6tw, wa6bl, wa6bb, wa6bw, wa7tl, wa7tb, wa7tw, wa7bl, wa7bb, wa7bw, wa8tl, wa8tb, wa8tw, wa8bl, wa8bb, wa8bw, wa9tl, wa9tb, wa9tw, wa9bl, wa9bb, wa9bw, wa10tl, wa10tb, wa10tw, wa10bl, wa10bb, wa10bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+fl1tl, fl1tb, fl1tw, fl1bl, fl1bb, fl1bw, fl2tl, fl2tb, fl2tw, fl2bl, fl2bb, fl2bw, fl3tl, fl3tb, fl3tw, fl3bl, fl3bb, fl3bw, fl4tl, fl4tb, fl4tw, fl4bl, fl4bb, fl4bw, fl5tl, fl5tb, fl5tw, fl5bl, fl5bb, fl5bw, fl6tl, fl6tb, fl6tw, fl6bl, fl6bb, fl6bw, fl7tl, fl7tb, fl7tw, fl7bl, fl7bb, fl7bw, fl8tl, fl8tb, fl8tw, fl8bl, fl8bb, fl8bw, fl9tl, fl9tb, fl9tw, fl9bl, fl9bb, fl9bw, fl10tl, fl10tb, fl10tw, fl10bl, fl10bb, fl10bw, fl11tl, fl11tb, fl11tw, fl11bl, fl11bb, fl11bw, fl12tl, fl12tb, fl12tw, fl12bl, fl12bb, fl12bw, fl13tl, fl13tb, fl13tw, fl13bl, fl13bb, fl13bw, fl14tl, fl14tb, fl14tw, fl14bl, fl14bb, fl14bw, fl15tl, fl15tb, fl15tw, fl15bl, fl15bb, fl15bw, fl16tl, fl16tb, fl16tw, fl16bl, fl16bb, fl16bw, fl17tl, fl17tb, fl17tw, fl17bl, fl17bb, fl17bw, fl18tl, fl18tb, fl18tw, fl18bl, fl18bb, fl18bw, fl19tl, fl19tb, fl19tw, fl19bl, fl19bb, fl19bw, fl20tl, fl20tb, fl20tw, fl20bl, fl20bb, fl20bw, fl21tl, fl21tb, fl21tw, fl21bl, fl21bb, fl21bw, fl22tl, fl22tb, fl22tw, fl22bl, fl22bb, fl22bw, fl23tl, fl23tb, fl23tw, fl23bl, fl23bb, fl23bw, fl24tl, fl24tb, fl24tw, fl24bl, fl24bb, fl24bw, fl25tl, fl25tb, fl25tw, fl25bl, fl25bb, fl25bw, fl26tl, fl26tb, fl26tw, fl26bl, fl26bb, fl26bw, fl27tl, fl27tb, fl27tw, fl27bl, fl27bb, fl27bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+al1tl, al1tb, al1tw, al1bl, al1bb, al1bw, al2tl, al2tb, al2tw, al2bl, al2bb, al2bw, al3tl, al3tb, al3tw, al3bl, al3bb, al3bw, al4tl, al4tb, al4tw, al4bl, al4bb, al4bw, al5tl, al5tb, al5tw, al5bl, al5bb, al5bw, al6tl, al6tb, al6tw, al6bl, al6bb, al6bw, al7bl, al7bb, al7bw, al7tl, al7tb, al7tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+il1tl, il1tb, il1tw, il1bl, il1bb, il1bw, il2tl, il2tb, il2tw, il2bl, il2bb, il2bw, il3tl, il3tb, il3tw, il3bl, il3bb, il3bw, il4tl, il4tb, il4tw, il4bl, il4bb, il4bw, il5tl, il5tb, il5tw, il5bl, il5bb, il5bw, il6tl, il6tb, il6tw, il6bl, il6bb, il6bw, il7tl, il7tb, il7tw, il7bl, il7bb, il7bw, il8tl, il8tb, il8tw, il8bl, il8bb, il8bw, il9tl, il9tb, il9tw, il9bl, il9bb, il9bw, il10tl, il10tb, il10tw, il10bl, il10bb, il10bw, il11tl, il11tb, il11tw, il11bl, il11bb, il11bw, il12tl, il12tb, il12tw, il12bl, il12bb, il12bw, il13tl, il13tb, il13tw, il13bl, il13bb, il13bw, il14tl, il14tb, il14tw, il14bl, il14bb, il14bw, il15tl, il15tb, il15tw, il15bl, il15bb, il15bw, il16tl, il16tb, il16tw, il16bl, il16bb, il16bw, il17tl, il17tb, il17tw, il17bl, il17bb, il17bw, il18bl, il18bb, il18bw, il18tl, il18tb, il18tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+ca1tl, ca1tb, ca1tw, ca1bl, ca1bb, ca1bw, ca2tl, ca2tb, ca2tw, ca2bl, ca2bb, ca2bw, ca3tl, ca3tb, ca3tw, ca3bl, ca3bb, ca3bw, ca4tl, ca4tb, ca4tw, ca4bl, ca4bb, ca4bw, ca5tl, ca5tb, ca5tw, ca5bl, ca5bb, ca5bw, ca6tl, ca6tb, ca6tw, ca6bl, ca6bb, ca6bw, ca7tl, ca7tb, ca7tw, ca7bl, ca7bb, ca7bw, ca8tl, ca8tb, ca8tw, ca8bl, ca8bb, ca8bw, ca9tl, ca9tb, ca9tw, ca9bl, ca9bb, ca9bw, ca10tl, ca10tb, ca10tw, ca10bl, ca10bb, ca10bw, ca11tl, ca11tb, ca11tw, ca11bl, ca11bb, ca11bw, ca12tl, ca12tb, ca12tw, ca12bl, ca12bb, ca12bw, ca13tl, ca13tb, ca13tw, ca13bl, ca13bb, ca13bw, ca14tl, ca14tb, ca14tw, ca14bl, ca14bb, ca14bw, ca15tl, ca15tb, ca15tw, ca15bl, ca15bb, ca15bw, ca16tl, ca16tb, ca16tw, ca16bl, ca16bb, ca16bw, ca17tl, ca17tb, ca17tw, ca17bl, ca17bb, ca17bw, ca18tl, ca18tb, ca18tw, ca18bl, ca18bb, ca18bw, ca19bl, ca19bb, ca19bw, ca19tl, ca19tb, ca19tw, ca20tl, ca20tb, ca20tw, ca20bl, ca20bb, ca20bw, ca21tl, ca21tb, ca21tw, ca21bl, ca21bb, ca21bw, ca22tl, ca22tb, ca22tw, ca22bl, ca22bb, ca22bw, ca23tl, ca23tb, ca23tw, ca23bl, ca23bb, ca23bw, ca24tl, ca24tb, ca24tw, ca24bl, ca24bb, ca24bw, ca25tl, ca25tb, ca25tw, ca25bl, ca25bb, ca25bw, ca26tl, ca26tb, ca26tw, ca26bl, ca26bb, ca26bw, ca27tl, ca27tb, ca27tw, ca27bl, ca27bb, ca27bw, ca28tl, ca28tb, ca28tw, ca28bl, ca28bb, ca28bw, ca29tl, ca29tb, ca29tw, ca29bl, ca29bb, ca29bw, ca30tl, ca30tb, ca30tw, ca30bl, ca30bb, ca30bw, ca31tl, ca31tb, ca31tw, ca31bl, ca31bb, ca31bw, ca32tl, ca32tb, ca32tw, ca32bl, ca32bb, ca32bw, ca33tl, ca33tb, ca33tw, ca33bl, ca33bb, ca33bw, ca34tl, ca34tb, ca34tw, ca34bl, ca34bb, ca34bw, ca35tl, ca35tb, ca35tw, ca35bl, ca35bb, ca35bw, ca36tl, ca36tb, ca36tw, ca36bl, ca36bb, ca36bw, ca37tl, ca37tb, ca37tw, ca37bl, ca37bb, ca37bw, ca38tl, ca38tb, ca38tw, ca38bl, ca38bb, ca38bw, ca39tl, ca39tb, ca39tw, ca39bl, ca39bb, ca39bw, ca40tl, ca40tb, ca40tw, ca40bl, ca40bb, ca40bw, ca41tl, ca41tb, ca41tw, ca41bl, ca41bb, ca41bw, ca42tl, ca42tb, ca42tw, ca42bl, ca42bb, ca42bw, ca43tl, ca43tb, ca43tw, ca43bl, ca43bb, ca43bw, ca44tl, ca44tb, ca44tw, ca44bl, ca44bb, ca44bw, ca45tl, ca45tb, ca45tw, ca45bl, ca45bb, ca45bw, ca46tl, ca46tb, ca46tw, ca46bl, ca46bb, ca46bw, ca47tl, ca47tb, ca47tw, ca47bl, ca47bb, ca47bw, ca48tl, ca48tb, ca48tw, ca48bl, ca48bb, ca48bw, ca49tl, ca49tb, ca49tw, ca49bl, ca49bb, ca49bw, ca50tl, ca50tb, ca50tw, ca50bl, ca50bb, ca50bw, ca51tl, ca51tb, ca51tw, ca51bl, ca51bb, ca51bw, ca52tl, ca52tb, ca52tw, ca52bl, ca52bb, ca52bw, ca53tl, ca53tb, ca53tw, ca53bl, ca53bb, ca53bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+ks1tl, ks1tb, ks1tw, ks1bl, ks1bb, ks1bw, ks2tl, ks2tb, ks2tw, ks2bl, ks2bb, ks2bw, ks3tl, ks3tb, ks3tw, ks3bl, ks3bb, ks3bw, ks4tl, ks4tb, ks4tw, ks4bl, ks4bb, ks4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+ga1tl, ga1tb, ga1tw, ga1bl, ga1bb, ga1bw, ga2tl, ga2tb, ga2tw, ga2bl, ga2bb, ga2bw, ga3tl, ga3tb, ga3tw, ga3bl, ga3bb, ga3bw, ga4tl, ga4tb, ga4tw, ga4bl, ga4bb, ga4bw, ga5tl, ga5tb, ga5tw, ga5bl, ga5bb, ga5bw, ga6tl, ga6tb, ga6tw, ga6bl, ga6bb, ga6bw, ga7tl, ga7tb, ga7tw, ga7bl, ga7bb, ga7bw, ga8tl, ga8tb, ga8tw, ga8bl, ga8bb, ga8bw, ga9tl, ga9tb, ga9tw, ga9bl, ga9bb, ga9bw, ga10tl, ga10tb, ga10tw, ga10bl, ga10bb, ga10bw, ga11tl, ga11tb, ga11tw, ga11bl, ga11bb, ga11bw, ga12tl, ga12tb, ga12tw, ga12bl, ga12bb, ga12bw, ga13tl, ga13tb, ga13tw, ga13bl, ga13bb, ga13bw, ga14tl, ga14tb, ga14tw, ga14bl, ga14bb, ga14bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+az1tl, az1tb, az1tw, az1bl, az1bb, az1bw, az2tl, az2tb, az2tw, az2bl, az2bb, az2bw, az3bl, az3bb, az3bw, az3tl, az3tb, az3tw, az4tl, az4tb, az4tw, az4bl, az4bb, az4bw, az5tl, az5tb, az5tw, az5bl, az5bb, az5bw, az6tl, az6tb, az6tw, az6bl, az6bb, az6bw, az7bl, az7bb, az7bw, az7tl, az7tb, az7tw, az8tl, az8tb, az8tw, az8bl, az8bb, az8bw, az9bl, az9bb, az9bw, az9tl, az9tb, az9tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+ak1tl, ak1tb, ak1tw, ak1bl, ak1bb, ak1bw =  [], [], [], [], [], []
+ar1tl, ar1tb, ar1tw, ar1bl, ar1bb, ar1bw, ar2tl, ar2tb, ar2tw, ar2bl, ar2bb, ar2bw, ar3tl, ar3tb, ar3tw, ar3bl, ar3bb, ar3bw, ar4tl, ar4tb, ar4tw, ar4bl, ar4bb, ar4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+nj1tl, nj1tb, nj1tw, nj1bl, nj1bb, nj1bw, nj2tl, nj2tb, nj2tw, nj2bl, nj2bb, nj2bw, nj3tl, nj3tb, nj3tw, nj3bl, nj3bb, nj3bw, nj4tl, nj4tb, nj4tw, nj4bl, nj4bb, nj4bw, nj5tl, nj5tb, nj5tw, nj5bl, nj5bb, nj5bw, nj6tl, nj6tb, nj6tw, nj6bl, nj6bb, nj6bw, nj7tl, nj7tb, nj7tw, nj7bl, nj7bb, nj7bw, nj8tl, nj8tb, nj8tw, nj8bl, nj8bb, nj8bw, nj9tl, nj9tb, nj9tw, nj9bl, nj9bb, nj9bw, nj10tl, nj10tb, nj10tw, nj10bl, nj10bb, nj10bw, nj11tl, nj11tb, nj11tw, nj11bl, nj11bb, nj11bw, nj12tl, nj12tb, nj12tw, nj12bl, nj12bb, nj12bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+nv1tl, nv1tb, nv1tw, nv1bl, nv1bb, nv1bw, nv2tl, nv2tb, nv2tw, nv2bl, nv2bb, nv2bw, nv3tl, nv3tb, nv3tw, nv3bl, nv3bb, nv3bw, nv4tl, nv4tb, nv4tw, nv4bl, nv4bb, nv4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+nh1tl, nh1tb, nh1tw, nh1bl, nh1bb, nh1bw, nh2tl, nh2tb, nh2tw, nh2bl, nh2bb, nh2bw =  [], [], [], [], [], [], [], [], [], [], [], []
+nc1tl, nc1tb, nc1tw, nc1bl, nc1bb, nc1bw, nc2tl, nc2tb, nc2tw, nc2bl, nc2bb, nc2bw, nc3tl, nc3tb, nc3tw, nc3bl, nc3bb, nc3bw, nc4tl, nc4tb, nc4tw, nc4bl, nc4bb, nc4bw, nc5tl, nc5tb, nc5tw, nc5bl, nc5bb, nc5bw, nc6tl, nc6tb, nc6tw, nc6bl, nc6bb, nc6bw, nc7tl, nc7tb, nc7tw, nc7bl, nc7bb, nc7bw, nc8tl, nc8tb, nc8tw, nc8bl, nc8bb, nc8bw, nc9tl, nc9tb, nc9tw, nc9bl, nc9bb, nc9bw, nc10tl, nc10tb, nc10tw, nc10bl, nc10bb, nc10bw, nc11tl, nc11tb, nc11tw, nc11bl, nc11bb, nc11bw, nc12tl, nc12tb, nc12tw, nc12bl, nc12bb, nc12bw, nc13tl, nc13tb, nc13tw, nc13bl, nc13bb, nc13bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+tx1tl, tx1tb, tx1tw, tx1bl, tx1bb, tx1bw, tx2tl, tx2tb, tx2tw, tx2bl, tx2bb, tx2bw, tx3tl, tx3tb, tx3tw, tx3bl, tx3bb, tx3bw, tx4tl, tx4tb, tx4tw, tx4bl, tx4bb, tx4bw, tx5tl, tx5tb, tx5tw, tx5bl, tx5bb, tx5bw, tx6tl, tx6tb, tx6tw, tx6bl, tx6bb, tx6bw, tx7tl, tx7tb, tx7tw, tx7bl, tx7bb, tx7bw, tx8tl, tx8tb, tx8tw, tx8bl, tx8bb, tx8bw, tx9tl, tx9tb, tx9tw, tx9bl, tx9bb, tx9bw, tx10tl, tx10tb, tx10tw, tx10bl, tx10bb, tx10bw, tx11tl, tx11tb, tx11tw, tx11bl, tx11bb, tx11bw, tx12tl, tx12tb, tx12tw, tx12bl, tx12bb, tx12bw, tx13tl, tx13tb, tx13tw, tx13bl, tx13bb, tx13bw, tx14tl, tx14tb, tx14tw, tx14bl, tx14bb, tx14bw, tx15tl, tx15tb, tx15tw, tx15bl, tx15bb, tx15bw, tx16tl, tx16tb, tx16tw, tx16bl, tx16bb, tx16bw, tx17tl, tx17tb, tx17tw, tx17bl, tx17bb, tx17bw, tx18tl, tx18tb, tx18tw, tx18bl, tx18bb, tx18bw, tx19tl, tx19tb, tx19tw, tx19bl, tx19bb, tx19bw, tx20tl, tx20tb, tx20tw, tx20bl, tx20bb, tx20bw, tx21tl, tx21tb, tx21tw, tx21bl, tx21bb, tx21bw, tx22tl, tx22tb, tx22tw, tx22bl, tx22bb, tx22bw, tx23tl, tx23tb, tx23tw, tx23bl, tx23bb, tx23bw, tx24tl, tx24tb, tx24tw, tx24bl, tx24bb, tx24bw, tx25tl, tx25tb, tx25tw, tx25bl, tx25bb, tx25bw, tx26tl, tx26tb, tx26tw, tx26bl, tx26bb, tx26bw, tx27tl, tx27tb, tx27tw, tx27bl, tx27bb, tx27bw, tx28tl, tx28tb, tx28tw, tx28bl, tx28bb, tx28bw, tx29tl, tx29tb, tx29tw, tx29bl, tx29bb, tx29bw, tx30tl, tx30tb, tx30tw, tx30bl, tx30bb, tx30bw, tx31tl, tx31tb, tx31tw, tx31bl, tx31bb, tx31bw, tx32tl, tx32tb, tx32tw, tx32bl, tx32bb, tx32bw, tx33tl, tx33tb, tx33tw, tx33bl, tx33bb, tx33bw, tx34tl, tx34tb, tx34tw, tx34bl, tx34bb, tx34bw, tx35tl, tx35tb, tx35tw, tx35bl, tx35bb, tx35bw, tx36tl, tx36tb, tx36tw, tx36bl, tx36bb, tx36bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+tn1tl, tn1tb, tn1tw, tn1bl, tn1bb, tn1bw, tn2tl, tn2tb, tn2tw, tn2bl, tn2bb, tn2bw, tn3tl, tn3tb, tn3tw, tn3bl, tn3bb, tn3bw, tn4tl, tn4tb, tn4tw, tn4bl, tn4bb, tn4bw, tn5bl, tn5bb, tn5bw, tn5tl, tn5tb, tn5tw, tn6tl, tn6tb, tn6tw, tn6bl, tn6bb, tn6bw, tn7tl, tn7tb, tn7tw, tn7bl, tn7bb, tn7bw, tn8tl, tn8tb, tn8tw, tn8bl, tn8bb, tn8bw, tn9bl, tn9bb, tn9bw, tn9tl, tn9tb, tn9tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+nm1tl, nm1tb, nm1tw, nm1bl, nm1bb, nm1bw, nm2tl, nm2tb, nm2tw, nm2bl, nm2bb, nm2bw, nm3tl, nm3tb, nm3tw, nm3bl, nm3bb, nm3bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+ny1tl, ny1tb, ny1tw, ny1bl, ny1bb, ny1bw, ny2tl, ny2tb, ny2tw, ny2bl, ny2bb, ny2bw, ny3tl, ny3tb, ny3tw, ny3bl, ny3bb, ny3bw, ny4tl, ny4tb, ny4tw, ny4bl, ny4bb, ny4bw, ny5tl, ny5tb, ny5tw, ny5bl, ny5bb, ny5bw, ny6tl, ny6tb, ny6tw, ny6bl, ny6bb, ny6bw, ny7tl, ny7tb, ny7tw, ny7bl, ny7bb, ny7bw, ny8tl, ny8tb, ny8tw, ny8bl, ny8bb, ny8bw, ny9tl, ny9tb, ny9tw, ny9bl, ny9bb, ny9bw, ny10tl, ny10tb, ny10tw, ny10bl, ny10bb, ny10bw, ny11tl, ny11tb, ny11tw, ny11bl, ny11bb, ny11bw, ny12tl, ny12tb, ny12tw, ny12bl, ny12bb, ny12bw, ny13tl, ny13tb, ny13tw, ny13bl, ny13bb, ny13bw, ny14tl, ny14tb, ny14tw, ny14bl, ny14bb, ny14bw, ny15tl, ny15tb, ny15tw, ny15bl, ny15bb, ny15bw, ny16tl, ny16tb, ny16tw, ny16bl, ny16bb, ny16bw, ny17tl, ny17tb, ny17tw, ny17bl, ny17bb, ny17bw, ny18tl, ny18tb, ny18tw, ny18bl, ny18bb, ny18bw, ny19tl, ny19tb, ny19tw, ny19bl, ny19bb, ny19bw, ny20tl, ny20tb, ny20tw, ny20bl, ny20bb, ny20bw, ny21tl, ny21tb, ny21tw, ny21bl, ny21bb, ny21bw, ny22tl, ny22tb, ny22tw, ny22bl, ny22bb, ny22bw, ny23tl, ny23tb, ny23tw, ny23bl, ny23bb, ny23bw, ny24tl, ny24tb, ny24tw, ny24bl, ny24bb, ny24bw, ny25tl, ny25tb, ny25tw, ny25bl, ny25bb, ny25bw, ny26tl, ny26tb, ny26tw, ny26bl, ny26bb, ny26bw, ny27tl, ny27tb, ny27tw, ny27bl, ny27bb, ny27bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+wy1tl, wy1tb, wy1tw, wy1bl, wy1bb, wy1bw =  [], [], [], [], [], []
+pa1tl, pa1tb, pa1tw, pa1bl, pa1bb, pa1bw, pa2tl, pa2tb, pa2tw, pa2bl, pa2bb, pa2bw, pa3tl, pa3tb, pa3tw, pa3bl, pa3bb, pa3bw, pa4tl, pa4tb, pa4tw, pa4bl, pa4bb, pa4bw, pa5tl, pa5tb, pa5tw, pa5bl, pa5bb, pa5bw, pa6tl, pa6tb, pa6tw, pa6bl, pa6bb, pa6bw, pa7tl, pa7tb, pa7tw, pa7bl, pa7bb, pa7bw, pa8tl, pa8tb, pa8tw, pa8bl, pa8bb, pa8bw, pa9tl, pa9tb, pa9tw, pa9bl, pa9bb, pa9bw, pa10tl, pa10tb, pa10tw, pa10bl, pa10bb, pa10bw, pa11tl, pa11tb, pa11tw, pa11bl, pa11bb, pa11bw, pa12tl, pa12tb, pa12tw, pa12bl, pa12bb, pa12bw, pa13tl, pa13tb, pa13tw, pa13bl, pa13bb, pa13bw, pa14tl, pa14tb, pa14tw, pa14bl, pa14bb, pa14bw, pa15tl, pa15tb, pa15tw, pa15bl, pa15bb, pa15bw, pa16tl, pa16tb, pa16tw, pa16bl, pa16bb, pa16bw, pa17tl, pa17tb, pa17tw, pa17bl, pa17bb, pa17bw, pa18tl, pa18tb, pa18tw, pa18bl, pa18bb, pa18bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+ct1tl, ct1tb, ct1tw, ct1bl, ct1bb, ct1bw, ct2tl, ct2tb, ct2tw, ct2bl, ct2bb, ct2bw, ct3tl, ct3tb, ct3tw, ct3bl, ct3bb, ct3bw, ct4tl, ct4tb, ct4tw, ct4bl, ct4bb, ct4bw, ct5tl, ct5tb, ct5tw, ct5bl, ct5bb, ct5bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+ky1tl, ky1tb, ky1tw, ky1bl, ky1bb, ky1bw, ky2tl, ky2tb, ky2tw, ky2bl, ky2bb, ky2bw, ky3tl, ky3tb, ky3tw, ky3bl, ky3bb, ky3bw, ky4tl, ky4tb, ky4tw, ky4bl, ky4bb, ky4bw, ky5tl, ky5tb, ky5tw, ky5bl, ky5bb, ky5bw, ky6tl, ky6tb, ky6tw, ky6bl, ky6bb, ky6bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+la1tl, la1tb, la1tw, la1bl, la1bb, la1bw, la2tl, la2tb, la2tw, la2bl, la2bb, la2bw, la3tl, la3tb, la3tw, la3bl, la3bb, la3bw, la4tl, la4tb, la4tw, la4bl, la4bb, la4bw, la5tl, la5tb, la5tw, la5bl, la5bb, la5bw, la6tl, la6tb, la6tw, la6bl, la6bb, la6bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+ok1tl, ok1tb, ok1tw, ok1bl, ok1bb, ok1bw, ok2tl, ok2tb, ok2tw, ok2bl, ok2bb, ok2bw, ok3tl, ok3tb, ok3tw, ok3bl, ok3bb, ok3bw, ok4tl, ok4tb, ok4tw, ok4bl, ok4bb, ok4bw, ok5tl, ok5tb, ok5tw, ok5bl, ok5bb, ok5bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+ut1tl, ut1tb, ut1tw, ut1bl, ut1bb, ut1bw, ut2tl, ut2tb, ut2tw, ut2bl, ut2bb, ut2bw, ut3tl, ut3tb, ut3tw, ut3bl, ut3bb, ut3bw, ut4tl, ut4tb, ut4tw, ut4bl, ut4bb, ut4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+oh1tl, oh1tb, oh1tw, oh1bl, oh1bb, oh1bw, oh2tl, oh2tb, oh2tw, oh2bl, oh2bb, oh2bw, oh3tl, oh3tb, oh3tw, oh3bl, oh3bb, oh3bw, oh4tl, oh4tb, oh4tw, oh4bl, oh4bb, oh4bw, oh5tl, oh5tb, oh5tw, oh5bl, oh5bb, oh5bw, oh6tl, oh6tb, oh6tw, oh6bl, oh6bb, oh6bw, oh7tl, oh7tb, oh7tw, oh7bl, oh7bb, oh7bw, oh8tl, oh8tb, oh8tw, oh8bl, oh8bb, oh8bw, oh9tl, oh9tb, oh9tw, oh9bl, oh9bb, oh9bw, oh10tl, oh10tb, oh10tw, oh10bl, oh10bb, oh10bw, oh11tl, oh11tb, oh11tw, oh11bl, oh11bb, oh11bw, oh12tl, oh12tb, oh12tw, oh12bl, oh12bb, oh12bw, oh13tl, oh13tb, oh13tw, oh13bl, oh13bb, oh13bw, oh14tl, oh14tb, oh14tw, oh14bl, oh14bb, oh14bw, oh15tl, oh15tb, oh15tw, oh15bl, oh15bb, oh15bw, oh16tl, oh16tb, oh16tw, oh16bl, oh16bb, oh16bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+or1tl, or1tb, or1tw, or1bl, or1bb, or1bw, or2tl, or2tb, or2tw, or2bl, or2bb, or2bw, or3tl, or3tb, or3tw, or3bl, or3bb, or3bw, or4tl, or4tb, or4tw, or4bl, or4bb, or4bw, or5tl, or5tb, or5tw, or5bl, or5bb, or5bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
 
-with open('/Volumes/TOSHIBA/usawithgender.txt', 'rb') as f:
-	al1tl, al1tb, al1tw, al2tl, al2tb, al2tw, al3tl, al3tb, al3tw, al4tl, al4tb, al4tw, al5tl, al5tb, al5tw, al6tl, al6tb, al6tw, al7tl, al7tb, al7tw, al1bl, al1bb, al1bw, al2bl, al2bb, al2bw, al3bl, al3bb, al3bw, al4bl, al4bb, al4bw, al5bl, al5bb, al5bw, al6bl, al6bb, al6bw, al7bl, al7bb, al7bw, ak1tl, ak1tb, ak1tw, ak1bl, ak1bb, ak1bw, az1tl, az1tb, az1tw, az2tl, az2tb, az2tw, az3tl, az3tb, az3tw, az4tl, az4tb, az4tw, az5tl, az5tb, az5tw, az6tl, az6tb, az6tw, az7tl, az7tb, az7tw, az8tl, az8tb, az8tw, az9tl, az9tb, az9tw, az1bl, az1bb, az1bw, az2bl, az2bb, az2bw, az3bl, az3bb, az3bw, az4bl, az4bb, az4bw, az5bl, az5bb, az5bw, az6bl, az6bb, az6bw, az7bl, az7bb, az7bw, az8bl, az8bb, az8bw, az9bl, az9bb, az9bw, ar1bl, ar1bb, ar1bw, ar2bl, ar2bb, ar2bw, ar3bl, ar3bb, ar3bw, ar4bl, ar4bb, ar4bw, ar1tl, ar1tb, ar1tw, ar2tl, ar2tb, ar2tw, ar3tl, ar3tb, ar3tw, ar4tl, ar4tb, ar4tw, ak1bl, ak1bb, ak1bw, ca1tl, ca1tb, ca1tw, ca2tl, ca2tb, ca2tw, ca3tl, ca3tb, ca3tw, ca4tl, ca4tb, ca4tw, ca5tl, ca5tb, ca5tw, ca6tl, ca6tb, ca6tw, ca7tl, ca7tb, ca7tw, ca8tl, ca8tb, ca8tw, ca9tl, ca9tb, ca9tw, ca10tl, ca10tb, ca10tw, ca11tl, ca11tb, ca11tw, ca12tl, ca12tb, ca12tw, ca13tl, ca13tb, ca13tw, ca14tl, ca14tb, ca14tw, ca15tl, ca15tb, ca15tw, ca16tl, ca16tb, ca16tw, ca17tl, ca17tb, ca17tw, ca18tl, ca18tb, ca18tw, ca19tl, ca19tb, ca19tw, ca20tl, ca20tb, ca20tw, ca21tl, ca21tb, ca21tw, ca22tl, ca22tb, ca22tw, ca23tl, ca23tb, ca23tw, ca24tl, ca24tb, ca24tw, ca25tl, ca25tb, ca25tw, ca26tl, ca26tb, ca26tw, ca27tl, ca27tb, ca27tw, ca28tl, ca28tb, ca28tw, ca29tl, ca29tb, ca29tw, ca30tl, ca30tb, ca30tw, ca31tl, ca31tb, ca31tw, ca32tl, ca32tb, ca32tw, ca33tl, ca33tb, ca33tw, ca34tl, ca34tb, ca34tw, ca35tl, ca35tb, ca35tw, ca36tl, ca36tb, ca36tw, ca37tl, ca37tb, ca37tw, ca38tl, ca38tb, ca38tw, ca39tl, ca39tb, ca39tw, ca40tl, ca40tb, ca40tw, ca41tl, ca41tb, ca41tw, ca42tl, ca42tb, ca42tw, ca43tl, ca43tb, ca43tw, ca44tl, ca44tb, ca44tw, ca45tl, ca45tb, ca45tw, ca46tl, ca46tb, ca46tw, ca47tl, ca47tb, ca47tw, ca48tl, ca48tb, ca48tw, ca49tl, ca49tb, ca49tw, ca50tl, ca50tb, ca50tw, ca51tl, ca51tb, ca51tw, ca52tl, ca52tb, ca52tw, ca53tl, ca53tb, ca53tw, ca1bl, ca1bb, ca1bw, ca2bl, ca2bb, ca2bw, ca3bl, ca3bb, ca3bw, ca4bl, ca4bb, ca4bw, ca5bl, ca5bb, ca5bw, ca6bl, ca6bb, ca6bw, ca7bl, ca7bb, ca7bw, ca8bl, ca8bb, ca8bw, ca9bl, ca9bb, ca9bw, ca10bl, ca10bb, ca10bw, ca11bl, ca11bb, ca11bw, ca12bl, ca12bb, ca12bw, ca13bl, ca13bb, ca13bw, ca14bl, ca14bb, ca14bw, ca15bl, ca15bb, ca15bw, ca16bl, ca16bb, ca16bw, ca17bl, ca17bb, ca17bw, ca18bl, ca18bb, ca18bw, ca19bl, ca19bb, ca19bw, ca20bl, ca20bb, ca20bw, ca21bl, ca21bb, ca21bw, ca22bl, ca22bb, ca22bw, ca23bl, ca23bb, ca23bw, ca24bl, ca24bb, ca24bw, ca25bl, ca25bb, ca25bw, ca26bl, ca26bb, ca26bw, ca27bl, ca27bb, ca27bw, ca28bl, ca28bb, ca28bw, ca29bl, ca29bb, ca29bw, ca30bl, ca30bb, ca30bw, ca31bl, ca31bb, ca31bw, ca32bl, ca32bb, ca32bw, ca33bl, ca33bb, ca33bw, ca34bl, ca34bb, ca34bw, ca35bl, ca35bb, ca35bw, ca36bl, ca36bb, ca36bw, ca37bl, ca37bb, ca37bw, ca38bl, ca38bb, ca38bw, ca39bl, ca39bb, ca39bw, ca40bl, ca40bb, ca40bw, ca41bl, ca41bb, ca41bw, ca42bl, ca42bb, ca42bw, ca43bl, ca43bb, ca43bw, ca44bl, ca44bb, ca44bw, ca45bl, ca45bb, ca45bw, ca46bl, ca46bb, ca46bw, ca47bl, ca47bb, ca47bw, ca48bl, ca48bb, ca48bw, ca49bl, ca49bb, ca49bw, ca50bl, ca50bb, ca50bw, ca51bl, ca51bb, ca51bw, ca52bl, ca52bb, ca52bw, ca53bl, ca53bb, ca53bw, co1tl, co1tb, co1tw, co2tl, co2tb, co2tw, co3tl, co3tb, co3tw, co4tl, co4tb, co4tw, co5tl, co5tb, co5tw, co6tl, co6tb, co6tw, co7tl, co7tb, co7tw, co1bl, co1bb, co1bw, co2bl, co2bb, co2bw, co3bl, co3bb, co3bw, co4bl, co4bb, co4bw, co5bl, co5bb, co5bw, co6bl, co6bb, co6bw, co7bl, co7bb, co7bw, ct1bl, ct1bb, ct1bw, ct2bl, ct2bb, ct2bw, ct3bl, ct3bb, ct3bw, ct4bl, ct4bb, ct4bw, ct5bl, ct5bb, ct5bw, ct1tl, ct1tb, ct1tw, ct2tl, ct2tb, ct2tw, ct3tl, ct3tb, ct3tw, ct4tl, ct4tb, ct4tw, ct5tl, ct5tb, ct5tw, de1tl, de1tb, de1tw, de1bl, de1bb, de1bw, fl1bl, fl1bb, fl1bw, fl2bl, fl2bb, fl2bw, fl3bl, fl3bb, fl3bw, fl4bl, fl4bb, fl4bw, fl5bl, fl5bb, fl5bw, fl6bl, fl6bb, fl6bw, fl7bl, fl7bb, fl7bw, fl8bl, fl8bb, fl8bw, fl9bl, fl9bb, fl9bw, fl10bl, fl10bb, fl10bw, fl11bl, fl11bb, fl11bw, fl12bl, fl12bb, fl12bw, fl13bl, fl13bb, fl13bw, fl14bl, fl14bb, fl14bw, fl15bl, fl15bb, fl15bw, fl16bl, fl16bb, fl16bw, fl17bl, fl17bb, fl17bw, fl18bl, fl18bb, fl18bw, fl19bl, fl19bb, fl19bw, fl20bl, fl20bb, fl20bw, fl21bl, fl21bb, fl21bw, fl22bl, fl22bb, fl22bw, fl23bl, fl23bb, fl23bw, fl24bl, fl24bb, fl24bw, fl25bl, fl25bb, fl25bw, fl26bl, fl26bb, fl26bw, fl27bl, fl27bb, fl27bw, fl1tl, fl1tb, fl1tw, fl2tl, fl2tb, fl2tw, fl3tl, fl3tb, fl3tw, fl4tl, fl4tb, fl4tw, fl5tl, fl5tb, fl5tw, fl6tl, fl6tb, fl6tw, fl7tl, fl7tb, fl7tw, fl8tl, fl8tb, fl8tw, fl9tl, fl9tb, fl9tw, fl10tl, fl10tb, fl10tw, fl11tl, fl11tb, fl11tw, fl12tl, fl12tb, fl12tw, fl13tl, fl13tb, fl13tw, fl14tl, fl14tb, fl14tw, fl15tl, fl15tb, fl15tw, fl16tl, fl16tb, fl16tw, fl17tl, fl17tb, fl17tw, fl18tl, fl18tb, fl18tw, fl19tl, fl19tb, fl19tw, fl20tl, fl20tb, fl20tw, fl21tl, fl21tb, fl21tw, fl22tl, fl22tb, fl22tw, fl23tl, fl23tb, fl23tw, fl24tl, fl24tb, fl24tw, fl25tl, fl25tb, fl25tw, fl26tl, fl26tb, fl26tw, fl27tl, fl27tb, fl27tw, ga1tl, ga1tb, ga1tw, ga2tl, ga2tb, ga2tw, ga3tl, ga3tb, ga3tw, ga4tl, ga4tb, ga4tw, ga5tl, ga5tb, ga5tw, ga6tl, ga6tb, ga6tw, ga7tl, ga7tb, ga7tw, ga8tl, ga8tb, ga8tw, ga9tl, ga9tb, ga9tw, ga10tl, ga10tb, ga10tw, ga11tl, ga11tb, ga11tw, ga12tl, ga12tb, ga12tw, ga13tl, ga13tb, ga13tw, ga14tl, ga14tb, ga14tw, ga1bl, ga1bb, ga1bw, ga2bl, ga2bb, ga2bw, ga3bl, ga3bb, ga3bw, ga4bl, ga4bb, ga4bw, ga5bl, ga5bb, ga5bw, ga6bl, ga6bb, ga6bw, ga7bl, ga7bb, ga7bw, ga8bl, ga8bb, ga8bw, ga9bl, ga9bb, ga9bw, ga10bl, ga10bb, ga10bw, ga11bl, ga11bb, ga11bw, ga12bl, ga12bb, ga12bw, ga13bl, ga13bb, ga13bw, ga14bl, ga14bb, ga14bw, hi1tl, hi1tb, hi1tw, hi2tl, hi2tb, hi2tw, hi1bl, hi1bb, hi1bw, hi2bl, hi2bb, hi2bw, id1tl, id1tb, id1tw, id2tl, id2tb, id2tw, id1bl, id1bb, id1bw, id2bl, id2bb, id2bw, il1bl, il1bb, il1bw, il2bl, il2bb, il2bw, il3bl, il3bb, il3bw, il4bl, il4bb, il4bw, il5bl, il5bb, il5bw, il6bl, il6bb, il6bw, il7bl, il7bb, il7bw, il8bl, il8bb, il8bw, il9bl, il9bb, il9bw, il10bl, il10bb, il10bw, il11bl, il11bb, il11bw, il12bl, il12bb, il12bw, il13bl, il13bb, il13bw, il14bl, il14bb, il14bw, il15bl, il15bb, il15bw, il16bl, il16bb, il16bw, il17bl, il17bb, il17bw, il18bl, il18bb, il18bw, il1tl, il1tb, il1tw, il2tl, il2tb, il2tw, il3tl, il3tb, il3tw, il4tl, il4tb, il4tw, il5tl, il5tb, il5tw, il6tl, il6tb, il6tw, il7tl, il7tb, il7tw, il8tl, il8tb, il8tw, il9tl, il9tb, il9tw, il10tl, il10tb, il10tw, il11tl, il11tb, il11tw, il12tl, il12tb, il12tw, il13tl, il13tb, il13tw, il14tl, il14tb, il14tw, il15tl, il15tb, il15tw, il16tl, il16tb, il16tw, il17tl, il17tb, il17tw, il18tl, il18tb, il18tw, in1tl, in1tb, in1tw, in2tl, in2tb, in2tw, in3tl, in3tb, in3tw, in4tl, in4tb, in4tw, in5tl, in5tb, in5tw, in6tl, in6tb, in6tw, in7tl, in7tb, in7tw, in8tl, in8tb, in8tw, in9tl, in9tb, in9tw, in1bl, in1bb, in1bw, in2bl, in2bb, in2bw, in3bl, in3bb, in3bw, in4bl, in4bb, in4bw, in5bl, in5bb, in5bw, in6bl, in6bb, in6bw, in7bl, in7bb, in7bw, in8bl, in8bb, in8bw, in9bl, in9bb, in9bw, ia1tl, ia1tb, ia1tw, ia2tl, ia2tb, ia2tw, ia3tl, ia3tb, ia3tw, ia4tl, ia4tb, ia4tw, ia1bl, ia1bb, ia1bw, ia2bl, ia2bb, ia2bw, ia3bl, ia3bb, ia3bw, ia4bl, ia4bb, ia4bw, ks1tl, ks1tb, ks1tw, ks2tl, ks2tb, ks2tw, ks3tl, ks3tb, ks3tw, ks4tl, ks4tb, ks4tw, ks1bl, ks1bb, ks1bw, ks2bl, ks2bb, ks2bw, ks3bl, ks3bb, ks3bw, ks4bl, ks4bb, ks4bw, ky1tl, ky1tb, ky1tw, ky2tl, ky2tb, ky2tw, ky3tl, ky3tb, ky3tw, ky4tl, ky4tb, ky4tw, ky5tl, ky5tb, ky5tw, ky6tl, ky6tb, ky6tw, ky1bl, ky1bb, ky1bw, ky2bl, ky2bb, ky2bw, ky3bl, ky3bb, ky3bw, ky4bl, ky4bb, ky4bw, ky5bl, ky5bb, ky5bw, ky6bl, ky6bb, ky6bw, la1tl, la1tb, la1tw, la2tl, la2tb, la2tw, la3tl, la3tb, la3tw, la4tl, la4tb, la4tw, la5tl, la5tb, la5tw, la6tl, la6tb, la6tw, la1bl, la1bb, la1bw, la2bl, la2bb, la2bw, la3bl, la3bb, la3bw, la4bl, la4bb, la4bw, la5bl, la5bb, la5bw, la6bl, la6bb, la6bw, me1tl, me1tb, me1tw, me2tl, me2tb, me2tw, me1bl, me1bb, me1bw, me2bl, me2bb, me2bw, md1tl, md1tb, md1tw, md2tl, md2tb, md2tw, md3tl, md3tb, md3tw, md4tl, md4tb, md4tw, md5tl, md5tb, md5tw, md6tl, md6tb, md6tw, md7tl, md7tb, md7tw, md8tl, md8tb, md8tw, md1bl, md1bb, md1bw, md2bl, md2bb, md2bw, md3bl, md3bb, md3bw, md4bl, md4bb, md4bw, md5bl, md5bb, md5bw, md6bl, md6bb, md6bw, md7bl, md7bb, md7bw, md8bl, md8bb, md8bw, ma1tl, ma1tb, ma1tw, ma2tl, ma2tb, ma2tw, ma3tl, ma3tb, ma3tw, ma4tl, ma4tb, ma4tw, ma5tl, ma5tb, ma5tw, ma6tl, ma6tb, ma6tw, ma7tl, ma7tb, ma7tw, ma8tl, ma8tb, ma8tw, ma9tl, ma9tb, ma9tw, ma1bl, ma1bb, ma1bw, ma2bl, ma2bb, ma2bw, ma3bl, ma3bb, ma3bw, ma4bl, ma4bb, ma4bw, ma5bl, ma5bb, ma5bw, ma6bl, ma6bb, ma6bw, ma7bl, ma7bb, ma7bw, ma8bl, ma8bb, ma8bw, ma9bl, ma9bb, ma9bw, mi1bl, mi1bb, mi1bw, mi2bl, mi2bb, mi2bw, mi3bl, mi3bb, mi3bw, mi4bl, mi4bb, mi4bw, mi5bl, mi5bb, mi5bw, mi6bl, mi6bb, mi6bw, mi7bl, mi7bb, mi7bw, mi8bl, mi8bb, mi8bw, mi9bl, mi9bb, mi9bw, mi10bl, mi10bb, mi10bw, mi11bl, mi11bb, mi11bw, mi12bl, mi12bb, mi12bw, mi13bl, mi13bb, mi13bw, mi14bl, mi14bb, mi14bw, mi1tl, mi1tb, mi1tw, mi2tl, mi2tb, mi2tw, mi3tl, mi3tb, mi3tw, mi4tl, mi4tb, mi4tw, mi5tl, mi5tb, mi5tw, mi6tl, mi6tb, mi6tw, mi7tl, mi7tb, mi7tw, mi8tl, mi8tb, mi8tw, mi9tl, mi9tb, mi9tw, mi10tl, mi10tb, mi10tw, mi11tl, mi11tb, mi11tw, mi12tl, mi12tb, mi12tw, mi13tl, mi13tb, mi13tw, mi14tl, mi14tb, mi14tw, mn1tl, mn1tb, mn1tw, mn2tl, mn2tb, mn2tw, mn3tl, mn3tb, mn3tw, mn4tl, mn4tb, mn4tw, mn5tl, mn5tb, mn5tw, mn6tl, mn6tb, mn6tw, mn7tl, mn7tb, mn7tw, mn8tl, mn8tb, mn8tw, mn1bl, mn1bb, mn1bw, mn2bl, mn2bb, mn2bw, mn3bl, mn3bb, mn3bw, mn4bl, mn4bb, mn4bw, mn5bl, mn5bb, mn5bw, mn6bl, mn6bb, mn6bw, mn7bl, mn7bb, mn7bw, mn8bl, mn8bb, mn8bw, ms1tl, ms1tb, ms1tw, ms2tl, ms2tb, ms2tw, ms3tl, ms3tb, ms3tw, ms4tl, ms4tb, ms4tw, ms1bl, ms1bb, ms1bw, ms2bl, ms2bb, ms2bw, ms3bl, ms3bb, ms3bw, ms4bl, ms4bb, ms4bw, mo1tl, mo1tb, mo1tw, mo2tl, mo2tb, mo2tw, mo3tl, mo3tb, mo3tw, mo4tl, mo4tb, mo4tw, mo5tl, mo5tb, mo5tw, mo6tl, mo6tb, mo6tw, mo7tl, mo7tb, mo7tw, mo8tl, mo8tb, mo8tw, mo1bl, mo1bb, mo1bw, mo2bl, mo2bb, mo2bw, mo3bl, mo3bb, mo3bw, mo4bl, mo4bb, mo4bw, mo5bl, mo5bb, mo5bw, mo6bl, mo6bb, mo6bw, mo7bl, mo7bb, mo7bw, mo8bl, mo8bb, mo8bw, mt1tl, mt1tb, mt1tw, mt1bl, mt1bb, mt1bw, ne1tl, ne1tb, ne1tw, ne2tl, ne2tb, ne2tw, ne3tl, ne3tb, ne3tw, ne1bl, ne1bb, ne1bw, ne2bl, ne2bb, ne2bw, ne3bl, ne3bb, ne3bw, nv1tl, nv1tb, nv1tw, nv2tl, nv2tb, nv2tw, nv3tl, nv3tb, nv3tw, nv4tl, nv4tb, nv4tw, nv1bl, nv1bb, nv1bw, nv2bl, nv2bb, nv2bw, nv3bl, nv3bb, nv3bw, nv4bl, nv4bb, nv4bw, nh1tl, nh1tb, nh1tw, nh2tl, nh2tb, nh2tw, nh1bl, nh1bb, nh1bw, nh2bl, nh2bb, nh2bw, nj1bl, nj1bb, nj1bw, nj2bl, nj2bb, nj2bw, nj3bl, nj3bb, nj3bw, nj4bl, nj4bb, nj4bw, nj5bl, nj5bb, nj5bw, nj6bl, nj6bb, nj6bw, nj7bl, nj7bb, nj7bw, nj8bl, nj8bb, nj8bw, nj9bl, nj9bb, nj9bw, nj10bl, nj10bb, nj10bw, nj11bl, nj11bb, nj11bw, nj12bl, nj12bb, nj12bw, nj1tl, nj1tb, nj1tw, nj2tl, nj2tb, nj2tw, nj3tl, nj3tb, nj3tw, nj4tl, nj4tb, nj4tw, nj5tl, nj5tb, nj5tw, nj6tl, nj6tb, nj6tw, nj7tl, nj7tb, nj7tw, nj8tl, nj8tb, nj8tw, nj9tl, nj9tb, nj9tw, nj10tl, nj10tb, nj10tw, nj11tl, nj11tb, nj11tw, nj12tl, nj12tb, nj12tw, nm1tl, nm1tb, nm1tw, nm2tl, nm2tb, nm2tw, nm3tl, nm3tb, nm3tw, nm1bl, nm1bb, nm1bw, nm2bl, nm2bb, nm2bw, nm3bl, nm3bb, nm3bw, ny1tl, ny1tb, ny1tw, ny2tl, ny2tb, ny2tw, ny3tl, ny3tb, ny3tw, ny4tl, ny4tb, ny4tw, ny5tl, ny5tb, ny5tw, ny6tl, ny6tb, ny6tw, ny7tl, ny7tb, ny7tw, ny8tl, ny8tb, ny8tw, ny9tl, ny9tb, ny9tw, ny10tl, ny10tb, ny10tw, ny11tl, ny11tb, ny11tw, ny12tl, ny12tb, ny12tw, ny13tl, ny13tb, ny13tw, ny14tl, ny14tb, ny14tw, ny15tl, ny15tb, ny15tw, ny16tl, ny16tb, ny16tw, ny17tl, ny17tb, ny17tw, ny18tl, ny18tb, ny18tw, ny19tl, ny19tb, ny19tw, ny20tl, ny20tb, ny20tw, ny21tl, ny21tb, ny21tw, ny22tl, ny22tb, ny22tw, ny23tl, ny23tb, ny23tw, ny24tl, ny24tb, ny24tw, ny25tl, ny25tb, ny25tw, ny26tl, ny26tb, ny26tw, ny27tl, ny27tb, ny27tw, ny1bl, ny1bb, ny1bw, ny2bl, ny2bb, ny2bw, ny3bl, ny3bb, ny3bw, ny4bl, ny4bb, ny4bw, ny5bl, ny5bb, ny5bw, ny6bl, ny6bb, ny6bw, ny7bl, ny7bb, ny7bw, ny8bl, ny8bb, ny8bw, ny9bl, ny9bb, ny9bw, ny10bl, ny10bb, ny10bw, ny11bl, ny11bb, ny11bw, ny12bl, ny12bb, ny12bw, ny13bl, ny13bb, ny13bw, ny14bl, ny14bb, ny14bw, ny15bl, ny15bb, ny15bw, ny16bl, ny16bb, ny16bw, ny17bl, ny17bb, ny17bw, ny18bl, ny18bb, ny18bw, ny19bl, ny19bb, ny19bw, ny20bl, ny20bb, ny20bw, ny21bl, ny21bb, ny21bw, ny22bl, ny22bb, ny22bw, ny23bl, ny23bb, ny23bw, ny24bl, ny24bb, ny24bw, ny25bl, ny25bb, ny25bw, ny26bl, ny26bb, ny26bw, ny27bl, ny27bb, ny27bw, nc1bl, nc1bb, nc1bw, nc2bl, nc2bb, nc2bw, nc3bl, nc3bb, nc3bw, nc4bl, nc4bb, nc4bw, nc5bl, nc5bb, nc5bw, nc6bl, nc6bb, nc6bw, nc7bl, nc7bb, nc7bw, nc8bl, nc8bb, nc8bw, nc9bl, nc9bb, nc9bw, nc10bl, nc10bb, nc10bw, nc11bl, nc11bb, nc11bw, nc12bl, nc12bb, nc12bw, nc13bl, nc13bb, nc13bw, nc1tl, nc1tb, nc1tw, nc2tl, nc2tb, nc2tw, nc3tl, nc3tb, nc3tw, nc4tl, nc4tb, nc4tw, nc5tl, nc5tb, nc5tw, nc6tl, nc6tb, nc6tw, nc7tl, nc7tb, nc7tw, nc8tl, nc8tb, nc8tw, nc9tl, nc9tb, nc9tw, nc10tl, nc10tb, nc10tw, nc11tl, nc11tb, nc11tw, nc12tl, nc12tb, nc12tw, nc13tl, nc13tb, nc13tw, nd1tl, nd1tb, nd1tw, nd1bl, nd1bb, nd1bw, oh1bl, oh1bb, oh1bw, oh2bl, oh2bb, oh2bw, oh3bl, oh3bb, oh3bw, oh4bl, oh4bb, oh4bw, oh5bl, oh5bb, oh5bw, oh6bl, oh6bb, oh6bw, oh7bl, oh7bb, oh7bw, oh8bl, oh8bb, oh8bw, oh9bl, oh9bb, oh9bw, oh10bl, oh10bb, oh10bw, oh11bl, oh11bb, oh11bw, oh12bl, oh12bb, oh12bw, oh13bl, oh13bb, oh13bw, oh14bl, oh14bb, oh14bw, oh15bl, oh15bb, oh15bw, oh16bl, oh16bb, oh16bw, oh1tl, oh1tb, oh1tw, oh2tl, oh2tb, oh2tw, oh3tl, oh3tb, oh3tw, oh4tl, oh4tb, oh4tw, oh5tl, oh5tb, oh5tw, oh6tl, oh6tb, oh6tw, oh7tl, oh7tb, oh7tw, oh8tl, oh8tb, oh8tw, oh9tl, oh9tb, oh9tw, oh10tl, oh10tb, oh10tw, oh11tl, oh11tb, oh11tw, oh12tl, oh12tb, oh12tw, oh13tl, oh13tb, oh13tw, oh14tl, oh14tb, oh14tw, oh15tl, oh15tb, oh15tw, oh16tl, oh16tb, oh16tw, ok1tl, ok1tb, ok1tw, ok2tl, ok2tb, ok2tw, ok3tl, ok3tb, ok3tw, ok4tl, ok4tb, ok4tw, ok5tl, ok5tb, ok5tw, ok1bl, ok1bb, ok1bw, ok2bl, ok2bb, ok2bw, ok3bl, ok3bb, ok3bw, ok4bl, ok4bb, ok4bw, ok5bl, ok5bb, ok5bw, or1tl, or1tb, or1tw, or2tl, or2tb, or2tw, or3tl, or3tb, or3tw, or4tl, or4tb, or4tw, or5tl, or5tb, or5tw, or1bl, or1bb, or1bw, or2bl, or2bb, or2bw, or3bl, or3bb, or3bw, or4bl, or4bb, or4bw, or5bl, or5bb, or5bw, pa1bl, pa1bb, pa1bw, pa2bl, pa2bb, pa2bw, pa3bl, pa3bb, pa3bw, pa4bl, pa4bb, pa4bw, pa5bl, pa5bb, pa5bw, pa6bl, pa6bb, pa6bw, pa7bl, pa7bb, pa7bw, pa8bl, pa8bb, pa8bw, pa9bl, pa9bb, pa9bw, pa10bl, pa10bb, pa10bw, pa11bl, pa11bb, pa11bw, pa12bl, pa12bb, pa12bw, pa13bl, pa13bb, pa13bw, pa14bl, pa14bb, pa14bw, pa15bl, pa15bb, pa15bw, pa16bl, pa16bb, pa16bw, pa17bl, pa17bb, pa17bw, pa18bl, pa18bb, pa18bw, pa1tl, pa1tb, pa1tw, pa2tl, pa2tb, pa2tw, pa3tl, pa3tb, pa3tw, pa4tl, pa4tb, pa4tw, pa5tl, pa5tb, pa5tw, pa6tl, pa6tb, pa6tw, pa7tl, pa7tb, pa7tw, pa8tl, pa8tb, pa8tw, pa9tl, pa9tb, pa9tw, pa10tl, pa10tb, pa10tw, pa11tl, pa11tb, pa11tw, pa12tl, pa12tb, pa12tw, pa13tl, pa13tb, pa13tw, pa14tl, pa14tb, pa14tw, pa15tl, pa15tb, pa15tw, pa16tl, pa16tb, pa16tw, pa17tl, pa17tb, pa17tw, pa18tl, pa18tb, pa18tw, ri1tl, ri1tb, ri1tw, ri2tl, ri2tb, ri2tw, ri1bl, ri1bb, ri1bw, ri2bl, ri2bb, ri2bw, sc1tl, sc1tb, sc1tw, sc2tl, sc2tb, sc2tw, sc3tl, sc3tb, sc3tw, sc4tl, sc4tb, sc4tw, sc5tl, sc5tb, sc5tw, sc6tl, sc6tb, sc6tw, sc7tl, sc7tb, sc7tw, sc1bl, sc1bb, sc1bw, sc2bl, sc2bb, sc2bw, sc3bl, sc3bb, sc3bw, sc4bl, sc4bb, sc4bw, sc5bl, sc5bb, sc5bw, sc6bl, sc6bb, sc6bw, sc7bl, sc7bb, sc7bw, sd1tl, sd1tb, sd1tw, sd1bl, sd1bb, sd1bw, tn1tl, tn1tb, tn1tw, tn2tl, tn2tb, tn2tw, tn3tl, tn3tb, tn3tw, tn4tl, tn4tb, tn4tw, tn5tl, tn5tb, tn5tw, tn6tl, tn6tb, tn6tw, tn7tl, tn7tb, tn7tw, tn8tl, tn8tb, tn8tw, tn9tl, tn9tb, tn9tw, tn1bl, tn1bb, tn1bw, tn2bl, tn2bb, tn2bw, tn3bl, tn3bb, tn3bw, tn4bl, tn4bb, tn4bw, tn5bl, tn5bb, tn5bw, tn6bl, tn6bb, tn6bw, tn7bl, tn7bb, tn7bw, tn8bl, tn8bb, tn8bw, tn9bl, tn9bb, tn9bw, tx1tl, tx1tb, tx1tw, tx2tl, tx2tb, tx2tw, tx3tl, tx3tb, tx3tw, tx4tl, tx4tb, tx4tw, tx5tl, tx5tb, tx5tw, tx6tl, tx6tb, tx6tw, tx7tl, tx7tb, tx7tw, tx8tl, tx8tb, tx8tw, tx9tl, tx9tb, tx9tw, tx10tl, tx10tb, tx10tw, tx11tl, tx11tb, tx11tw, tx12tl, tx12tb, tx12tw, tx13tl, tx13tb, tx13tw, tx14tl, tx14tb, tx14tw, tx15tl, tx15tb, tx15tw, tx16tl, tx16tb, tx16tw, tx17tl, tx17tb, tx17tw, tx18tl, tx18tb, tx18tw, tx19tl, tx19tb, tx19tw, tx20tl, tx20tb, tx20tw, tx21tl, tx21tb, tx21tw, tx22tl, tx22tb, tx22tw, tx23tl, tx23tb, tx23tw, tx24tl, tx24tb, tx24tw, tx25tl, tx25tb, tx25tw, tx26tl, tx26tb, tx26tw, tx27tl, tx27tb, tx27tw, tx28tl, tx28tb, tx28tw, tx29tl, tx29tb, tx29tw, tx30tl, tx30tb, tx30tw, tx31tl, tx31tb, tx31tw, tx32tl, tx32tb, tx32tw, tx33tl, tx33tb, tx33tw, tx34tl, tx34tb, tx34tw, tx35tl, tx35tb, tx35tw, tx36tl, tx36tb, tx36tw, tx1bl, tx1bb, tx1bw, tx2bl, tx2bb, tx2bw, tx3bl, tx3bb, tx3bw, tx4bl, tx4bb, tx4bw, tx5bl, tx5bb, tx5bw, tx6bl, tx6bb, tx6bw, tx7bl, tx7bb, tx7bw, tx8bl, tx8bb, tx8bw, tx9bl, tx9bb, tx9bw, tx10bl, tx10bb, tx10bw, tx11bl, tx11bb, tx11bw, tx12bl, tx12bb, tx12bw, tx13bl, tx13bb, tx13bw, tx14bl, tx14bb, tx14bw, tx15bl, tx15bb, tx15bw, tx16bl, tx16bb, tx16bw, tx17bl, tx17bb, tx17bw, tx18bl, tx18bb, tx18bw, tx19bl, tx19bb, tx19bw, tx20bl, tx20bb, tx20bw, tx21bl, tx21bb, tx21bw, tx22bl, tx22bb, tx22bw, tx23bl, tx23bb, tx23bw, tx24bl, tx24bb, tx24bw, tx25bl, tx25bb, tx25bw, tx26bl, tx26bb, tx26bw, tx27bl, tx27bb, tx27bw, tx28bl, tx28bb, tx28bw, tx29bl, tx29bb, tx29bw, tx30bl, tx30bb, tx30bw, tx31bl, tx31bb, tx31bw, tx32bl, tx32bb, tx32bw, tx33bl, tx33bb, tx33bw, tx34bl, tx34bb, tx34bw, tx35bl, tx35bb, tx35bw, tx36bl, tx36bb, tx36bw, ut1tl, ut1tb, ut1tw, ut2tl, ut2tb, ut2tw, ut3tl, ut3tb, ut3tw, ut4tl, ut4tb, ut4tw, ut1bl, ut1bb, ut1bw, ut2bl, ut2bb, ut2bw, ut3bl, ut3bb, ut3bw, ut4bl, ut4bb, ut4bw, vt1tl, vt1tb, vt1tw, vt1bl, vt1bb, vt1bw, va1bl, va1bb, va1bw, va2bl, va2bb, va2bw, va3bl, va3bb, va3bw, va4bl, va4bb, va4bw, va5bl, va5bb, va5bw, va6bl, va6bb, va6bw, va7bl, va7bb, va7bw, va8bl, va8bb, va8bw, va9bl, va9bb, va9bw, va10bl, va10bb, va10bw, va11bl, va11bb, va11bw, va1tl, va1tb, va1tw, va2tl, va2tb, va2tw, va3tl, va3tb, va3tw, va4tl, va4tb, va4tw, va5tl, va5tb, va5tw, va6tl, va6tb, va6tw, va7tl, va7tb, va7tw, va8tl, va8tb, va8tw, va9tl, va9tb, va9tw, va10tl, va10tb, va10tw, va11tl, va11tb, va11tw, wa1bl, wa1bb, wa1bw, wa2bl, wa2bb, wa2bw, wa3bl, wa3bb, wa3bw, wa4bl, wa4bb, wa4bw, wa5bl, wa5bb, wa5bw, wa6bl, wa6bb, wa6bw, wa7bl, wa7bb, wa7bw, wa8bl, wa8bb, wa8bw, wa9bl, wa9bb, wa9bw, wa10bl, wa10bb, wa10bw, wa1tl, wa1tb, wa1tw, wa2tl, wa2tb, wa2tw, wa3tl, wa3tb, wa3tw, wa4tl, wa4tb, wa4tw, wa5tl, wa5tb, wa5tw, wa6tl, wa6tb, wa6tw, wa7tl, wa7tb, wa7tw, wa8tl, wa8tb, wa8tw, wa9tl, wa9tb, wa9tw, wa10tl, wa10tb, wa10tw, wv1tl, wv1tb, wv1tw, wv2tl, wv2tb, wv2tw, wv3tl, wv3tb, wv3tw, wv1bl, wv1bb, wv1bw, wv2bl, wv2bb, wv2bw, wv3bl, wv3bb, wv3bw, wi1tl, wi1tb, wi1tw, wi2tl, wi2tb, wi2tw, wi3tl, wi3tb, wi3tw, wi4tl, wi4tb, wi4tw, wi5tl, wi5tb, wi5tw, wi6tl, wi6tb, wi6tw, wi7tl, wi7tb, wi7tw, wi8tl, wi8tb, wi8tw, wi1bl, wi1bb, wi1bw, wi2bl, wi2bb, wi2bw, wi3bl, wi3bb, wi3bw, wi4bl, wi4bb, wi4bw, wi5bl, wi5bb, wi5bw, wi6bl, wi6bb, wi6bw, wi7bl, wi7bb, wi7bw, wi8bl, wi8bb, wi8bw, wy1tl, wy1tb, wy1tw, wy1bl, wy1bb, wy1bw = pickle.load(f)
+# with open('/Volumes/TOSHIBA/usawithgender.txt', 'rb') as f:
+# 	al1tl, al1tb, al1tw, al2tl, al2tb, al2tw, al3tl, al3tb, al3tw, al4tl, al4tb, al4tw, al5tl, al5tb, al5tw, al6tl, al6tb, al6tw, al7tl, al7tb, al7tw, al1bl, al1bb, al1bw, al2bl, al2bb, al2bw, al3bl, al3bb, al3bw, al4bl, al4bb, al4bw, al5bl, al5bb, al5bw, al6bl, al6bb, al6bw, al7bl, al7bb, al7bw, ak1tl, ak1tb, ak1tw, ak1bl, ak1bb, ak1bw, az1tl, az1tb, az1tw, az2tl, az2tb, az2tw, az3tl, az3tb, az3tw, az4tl, az4tb, az4tw, az5tl, az5tb, az5tw, az6tl, az6tb, az6tw, az7tl, az7tb, az7tw, az8tl, az8tb, az8tw, az9tl, az9tb, az9tw, az1bl, az1bb, az1bw, az2bl, az2bb, az2bw, az3bl, az3bb, az3bw, az4bl, az4bb, az4bw, az5bl, az5bb, az5bw, az6bl, az6bb, az6bw, az7bl, az7bb, az7bw, az8bl, az8bb, az8bw, az9bl, az9bb, az9bw, ar1bl, ar1bb, ar1bw, ar2bl, ar2bb, ar2bw, ar3bl, ar3bb, ar3bw, ar4bl, ar4bb, ar4bw, ar1tl, ar1tb, ar1tw, ar2tl, ar2tb, ar2tw, ar3tl, ar3tb, ar3tw, ar4tl, ar4tb, ar4tw, ak1bl, ak1bb, ak1bw, ca1tl, ca1tb, ca1tw, ca2tl, ca2tb, ca2tw, ca3tl, ca3tb, ca3tw, ca4tl, ca4tb, ca4tw, ca5tl, ca5tb, ca5tw, ca6tl, ca6tb, ca6tw, ca7tl, ca7tb, ca7tw, ca8tl, ca8tb, ca8tw, ca9tl, ca9tb, ca9tw, ca10tl, ca10tb, ca10tw, ca11tl, ca11tb, ca11tw, ca12tl, ca12tb, ca12tw, ca13tl, ca13tb, ca13tw, ca14tl, ca14tb, ca14tw, ca15tl, ca15tb, ca15tw, ca16tl, ca16tb, ca16tw, ca17tl, ca17tb, ca17tw, ca18tl, ca18tb, ca18tw, ca19tl, ca19tb, ca19tw, ca20tl, ca20tb, ca20tw, ca21tl, ca21tb, ca21tw, ca22tl, ca22tb, ca22tw, ca23tl, ca23tb, ca23tw, ca24tl, ca24tb, ca24tw, ca25tl, ca25tb, ca25tw, ca26tl, ca26tb, ca26tw, ca27tl, ca27tb, ca27tw, ca28tl, ca28tb, ca28tw, ca29tl, ca29tb, ca29tw, ca30tl, ca30tb, ca30tw, ca31tl, ca31tb, ca31tw, ca32tl, ca32tb, ca32tw, ca33tl, ca33tb, ca33tw, ca34tl, ca34tb, ca34tw, ca35tl, ca35tb, ca35tw, ca36tl, ca36tb, ca36tw, ca37tl, ca37tb, ca37tw, ca38tl, ca38tb, ca38tw, ca39tl, ca39tb, ca39tw, ca40tl, ca40tb, ca40tw, ca41tl, ca41tb, ca41tw, ca42tl, ca42tb, ca42tw, ca43tl, ca43tb, ca43tw, ca44tl, ca44tb, ca44tw, ca45tl, ca45tb, ca45tw, ca46tl, ca46tb, ca46tw, ca47tl, ca47tb, ca47tw, ca48tl, ca48tb, ca48tw, ca49tl, ca49tb, ca49tw, ca50tl, ca50tb, ca50tw, ca51tl, ca51tb, ca51tw, ca52tl, ca52tb, ca52tw, ca53tl, ca53tb, ca53tw, ca1bl, ca1bb, ca1bw, ca2bl, ca2bb, ca2bw, ca3bl, ca3bb, ca3bw, ca4bl, ca4bb, ca4bw, ca5bl, ca5bb, ca5bw, ca6bl, ca6bb, ca6bw, ca7bl, ca7bb, ca7bw, ca8bl, ca8bb, ca8bw, ca9bl, ca9bb, ca9bw, ca10bl, ca10bb, ca10bw, ca11bl, ca11bb, ca11bw, ca12bl, ca12bb, ca12bw, ca13bl, ca13bb, ca13bw, ca14bl, ca14bb, ca14bw, ca15bl, ca15bb, ca15bw, ca16bl, ca16bb, ca16bw, ca17bl, ca17bb, ca17bw, ca18bl, ca18bb, ca18bw, ca19bl, ca19bb, ca19bw, ca20bl, ca20bb, ca20bw, ca21bl, ca21bb, ca21bw, ca22bl, ca22bb, ca22bw, ca23bl, ca23bb, ca23bw, ca24bl, ca24bb, ca24bw, ca25bl, ca25bb, ca25bw, ca26bl, ca26bb, ca26bw, ca27bl, ca27bb, ca27bw, ca28bl, ca28bb, ca28bw, ca29bl, ca29bb, ca29bw, ca30bl, ca30bb, ca30bw, ca31bl, ca31bb, ca31bw, ca32bl, ca32bb, ca32bw, ca33bl, ca33bb, ca33bw, ca34bl, ca34bb, ca34bw, ca35bl, ca35bb, ca35bw, ca36bl, ca36bb, ca36bw, ca37bl, ca37bb, ca37bw, ca38bl, ca38bb, ca38bw, ca39bl, ca39bb, ca39bw, ca40bl, ca40bb, ca40bw, ca41bl, ca41bb, ca41bw, ca42bl, ca42bb, ca42bw, ca43bl, ca43bb, ca43bw, ca44bl, ca44bb, ca44bw, ca45bl, ca45bb, ca45bw, ca46bl, ca46bb, ca46bw, ca47bl, ca47bb, ca47bw, ca48bl, ca48bb, ca48bw, ca49bl, ca49bb, ca49bw, ca50bl, ca50bb, ca50bw, ca51bl, ca51bb, ca51bw, ca52bl, ca52bb, ca52bw, ca53bl, ca53bb, ca53bw, co1tl, co1tb, co1tw, co2tl, co2tb, co2tw, co3tl, co3tb, co3tw, co4tl, co4tb, co4tw, co5tl, co5tb, co5tw, co6tl, co6tb, co6tw, co7tl, co7tb, co7tw, co1bl, co1bb, co1bw, co2bl, co2bb, co2bw, co3bl, co3bb, co3bw, co4bl, co4bb, co4bw, co5bl, co5bb, co5bw, co6bl, co6bb, co6bw, co7bl, co7bb, co7bw, ct1bl, ct1bb, ct1bw, ct2bl, ct2bb, ct2bw, ct3bl, ct3bb, ct3bw, ct4bl, ct4bb, ct4bw, ct5bl, ct5bb, ct5bw, ct1tl, ct1tb, ct1tw, ct2tl, ct2tb, ct2tw, ct3tl, ct3tb, ct3tw, ct4tl, ct4tb, ct4tw, ct5tl, ct5tb, ct5tw, de1tl, de1tb, de1tw, de1bl, de1bb, de1bw, fl1bl, fl1bb, fl1bw, fl2bl, fl2bb, fl2bw, fl3bl, fl3bb, fl3bw, fl4bl, fl4bb, fl4bw, fl5bl, fl5bb, fl5bw, fl6bl, fl6bb, fl6bw, fl7bl, fl7bb, fl7bw, fl8bl, fl8bb, fl8bw, fl9bl, fl9bb, fl9bw, fl10bl, fl10bb, fl10bw, fl11bl, fl11bb, fl11bw, fl12bl, fl12bb, fl12bw, fl13bl, fl13bb, fl13bw, fl14bl, fl14bb, fl14bw, fl15bl, fl15bb, fl15bw, fl16bl, fl16bb, fl16bw, fl17bl, fl17bb, fl17bw, fl18bl, fl18bb, fl18bw, fl19bl, fl19bb, fl19bw, fl20bl, fl20bb, fl20bw, fl21bl, fl21bb, fl21bw, fl22bl, fl22bb, fl22bw, fl23bl, fl23bb, fl23bw, fl24bl, fl24bb, fl24bw, fl25bl, fl25bb, fl25bw, fl26bl, fl26bb, fl26bw, fl27bl, fl27bb, fl27bw, fl1tl, fl1tb, fl1tw, fl2tl, fl2tb, fl2tw, fl3tl, fl3tb, fl3tw, fl4tl, fl4tb, fl4tw, fl5tl, fl5tb, fl5tw, fl6tl, fl6tb, fl6tw, fl7tl, fl7tb, fl7tw, fl8tl, fl8tb, fl8tw, fl9tl, fl9tb, fl9tw, fl10tl, fl10tb, fl10tw, fl11tl, fl11tb, fl11tw, fl12tl, fl12tb, fl12tw, fl13tl, fl13tb, fl13tw, fl14tl, fl14tb, fl14tw, fl15tl, fl15tb, fl15tw, fl16tl, fl16tb, fl16tw, fl17tl, fl17tb, fl17tw, fl18tl, fl18tb, fl18tw, fl19tl, fl19tb, fl19tw, fl20tl, fl20tb, fl20tw, fl21tl, fl21tb, fl21tw, fl22tl, fl22tb, fl22tw, fl23tl, fl23tb, fl23tw, fl24tl, fl24tb, fl24tw, fl25tl, fl25tb, fl25tw, fl26tl, fl26tb, fl26tw, fl27tl, fl27tb, fl27tw, ga1tl, ga1tb, ga1tw, ga2tl, ga2tb, ga2tw, ga3tl, ga3tb, ga3tw, ga4tl, ga4tb, ga4tw, ga5tl, ga5tb, ga5tw, ga6tl, ga6tb, ga6tw, ga7tl, ga7tb, ga7tw, ga8tl, ga8tb, ga8tw, ga9tl, ga9tb, ga9tw, ga10tl, ga10tb, ga10tw, ga11tl, ga11tb, ga11tw, ga12tl, ga12tb, ga12tw, ga13tl, ga13tb, ga13tw, ga14tl, ga14tb, ga14tw, ga1bl, ga1bb, ga1bw, ga2bl, ga2bb, ga2bw, ga3bl, ga3bb, ga3bw, ga4bl, ga4bb, ga4bw, ga5bl, ga5bb, ga5bw, ga6bl, ga6bb, ga6bw, ga7bl, ga7bb, ga7bw, ga8bl, ga8bb, ga8bw, ga9bl, ga9bb, ga9bw, ga10bl, ga10bb, ga10bw, ga11bl, ga11bb, ga11bw, ga12bl, ga12bb, ga12bw, ga13bl, ga13bb, ga13bw, ga14bl, ga14bb, ga14bw, hi1tl, hi1tb, hi1tw, hi2tl, hi2tb, hi2tw, hi1bl, hi1bb, hi1bw, hi2bl, hi2bb, hi2bw, id1tl, id1tb, id1tw, id2tl, id2tb, id2tw, id1bl, id1bb, id1bw, id2bl, id2bb, id2bw, il1bl, il1bb, il1bw, il2bl, il2bb, il2bw, il3bl, il3bb, il3bw, il4bl, il4bb, il4bw, il5bl, il5bb, il5bw, il6bl, il6bb, il6bw, il7bl, il7bb, il7bw, il8bl, il8bb, il8bw, il9bl, il9bb, il9bw, il10bl, il10bb, il10bw, il11bl, il11bb, il11bw, il12bl, il12bb, il12bw, il13bl, il13bb, il13bw, il14bl, il14bb, il14bw, il15bl, il15bb, il15bw, il16bl, il16bb, il16bw, il17bl, il17bb, il17bw, il18bl, il18bb, il18bw, il1tl, il1tb, il1tw, il2tl, il2tb, il2tw, il3tl, il3tb, il3tw, il4tl, il4tb, il4tw, il5tl, il5tb, il5tw, il6tl, il6tb, il6tw, il7tl, il7tb, il7tw, il8tl, il8tb, il8tw, il9tl, il9tb, il9tw, il10tl, il10tb, il10tw, il11tl, il11tb, il11tw, il12tl, il12tb, il12tw, il13tl, il13tb, il13tw, il14tl, il14tb, il14tw, il15tl, il15tb, il15tw, il16tl, il16tb, il16tw, il17tl, il17tb, il17tw, il18tl, il18tb, il18tw, in1tl, in1tb, in1tw, in2tl, in2tb, in2tw, in3tl, in3tb, in3tw, in4tl, in4tb, in4tw, in5tl, in5tb, in5tw, in6tl, in6tb, in6tw, in7tl, in7tb, in7tw, in8tl, in8tb, in8tw, in9tl, in9tb, in9tw, in1bl, in1bb, in1bw, in2bl, in2bb, in2bw, in3bl, in3bb, in3bw, in4bl, in4bb, in4bw, in5bl, in5bb, in5bw, in6bl, in6bb, in6bw, in7bl, in7bb, in7bw, in8bl, in8bb, in8bw, in9bl, in9bb, in9bw, ia1tl, ia1tb, ia1tw, ia2tl, ia2tb, ia2tw, ia3tl, ia3tb, ia3tw, ia4tl, ia4tb, ia4tw, ia1bl, ia1bb, ia1bw, ia2bl, ia2bb, ia2bw, ia3bl, ia3bb, ia3bw, ia4bl, ia4bb, ia4bw, ks1tl, ks1tb, ks1tw, ks2tl, ks2tb, ks2tw, ks3tl, ks3tb, ks3tw, ks4tl, ks4tb, ks4tw, ks1bl, ks1bb, ks1bw, ks2bl, ks2bb, ks2bw, ks3bl, ks3bb, ks3bw, ks4bl, ks4bb, ks4bw, ky1tl, ky1tb, ky1tw, ky2tl, ky2tb, ky2tw, ky3tl, ky3tb, ky3tw, ky4tl, ky4tb, ky4tw, ky5tl, ky5tb, ky5tw, ky6tl, ky6tb, ky6tw, ky1bl, ky1bb, ky1bw, ky2bl, ky2bb, ky2bw, ky3bl, ky3bb, ky3bw, ky4bl, ky4bb, ky4bw, ky5bl, ky5bb, ky5bw, ky6bl, ky6bb, ky6bw, la1tl, la1tb, la1tw, la2tl, la2tb, la2tw, la3tl, la3tb, la3tw, la4tl, la4tb, la4tw, la5tl, la5tb, la5tw, la6tl, la6tb, la6tw, la1bl, la1bb, la1bw, la2bl, la2bb, la2bw, la3bl, la3bb, la3bw, la4bl, la4bb, la4bw, la5bl, la5bb, la5bw, la6bl, la6bb, la6bw, me1tl, me1tb, me1tw, me2tl, me2tb, me2tw, me1bl, me1bb, me1bw, me2bl, me2bb, me2bw, md1tl, md1tb, md1tw, md2tl, md2tb, md2tw, md3tl, md3tb, md3tw, md4tl, md4tb, md4tw, md5tl, md5tb, md5tw, md6tl, md6tb, md6tw, md7tl, md7tb, md7tw, md8tl, md8tb, md8tw, md1bl, md1bb, md1bw, md2bl, md2bb, md2bw, md3bl, md3bb, md3bw, md4bl, md4bb, md4bw, md5bl, md5bb, md5bw, md6bl, md6bb, md6bw, md7bl, md7bb, md7bw, md8bl, md8bb, md8bw, ma1tl, ma1tb, ma1tw, ma2tl, ma2tb, ma2tw, ma3tl, ma3tb, ma3tw, ma4tl, ma4tb, ma4tw, ma5tl, ma5tb, ma5tw, ma6tl, ma6tb, ma6tw, ma7tl, ma7tb, ma7tw, ma8tl, ma8tb, ma8tw, ma9tl, ma9tb, ma9tw, ma1bl, ma1bb, ma1bw, ma2bl, ma2bb, ma2bw, ma3bl, ma3bb, ma3bw, ma4bl, ma4bb, ma4bw, ma5bl, ma5bb, ma5bw, ma6bl, ma6bb, ma6bw, ma7bl, ma7bb, ma7bw, ma8bl, ma8bb, ma8bw, ma9bl, ma9bb, ma9bw, mi1bl, mi1bb, mi1bw, mi2bl, mi2bb, mi2bw, mi3bl, mi3bb, mi3bw, mi4bl, mi4bb, mi4bw, mi5bl, mi5bb, mi5bw, mi6bl, mi6bb, mi6bw, mi7bl, mi7bb, mi7bw, mi8bl, mi8bb, mi8bw, mi9bl, mi9bb, mi9bw, mi10bl, mi10bb, mi10bw, mi11bl, mi11bb, mi11bw, mi12bl, mi12bb, mi12bw, mi13bl, mi13bb, mi13bw, mi14bl, mi14bb, mi14bw, mi1tl, mi1tb, mi1tw, mi2tl, mi2tb, mi2tw, mi3tl, mi3tb, mi3tw, mi4tl, mi4tb, mi4tw, mi5tl, mi5tb, mi5tw, mi6tl, mi6tb, mi6tw, mi7tl, mi7tb, mi7tw, mi8tl, mi8tb, mi8tw, mi9tl, mi9tb, mi9tw, mi10tl, mi10tb, mi10tw, mi11tl, mi11tb, mi11tw, mi12tl, mi12tb, mi12tw, mi13tl, mi13tb, mi13tw, mi14tl, mi14tb, mi14tw, mn1tl, mn1tb, mn1tw, mn2tl, mn2tb, mn2tw, mn3tl, mn3tb, mn3tw, mn4tl, mn4tb, mn4tw, mn5tl, mn5tb, mn5tw, mn6tl, mn6tb, mn6tw, mn7tl, mn7tb, mn7tw, mn8tl, mn8tb, mn8tw, mn1bl, mn1bb, mn1bw, mn2bl, mn2bb, mn2bw, mn3bl, mn3bb, mn3bw, mn4bl, mn4bb, mn4bw, mn5bl, mn5bb, mn5bw, mn6bl, mn6bb, mn6bw, mn7bl, mn7bb, mn7bw, mn8bl, mn8bb, mn8bw, ms1tl, ms1tb, ms1tw, ms2tl, ms2tb, ms2tw, ms3tl, ms3tb, ms3tw, ms4tl, ms4tb, ms4tw, ms1bl, ms1bb, ms1bw, ms2bl, ms2bb, ms2bw, ms3bl, ms3bb, ms3bw, ms4bl, ms4bb, ms4bw, mo1tl, mo1tb, mo1tw, mo2tl, mo2tb, mo2tw, mo3tl, mo3tb, mo3tw, mo4tl, mo4tb, mo4tw, mo5tl, mo5tb, mo5tw, mo6tl, mo6tb, mo6tw, mo7tl, mo7tb, mo7tw, mo8tl, mo8tb, mo8tw, mo1bl, mo1bb, mo1bw, mo2bl, mo2bb, mo2bw, mo3bl, mo3bb, mo3bw, mo4bl, mo4bb, mo4bw, mo5bl, mo5bb, mo5bw, mo6bl, mo6bb, mo6bw, mo7bl, mo7bb, mo7bw, mo8bl, mo8bb, mo8bw, mt1tl, mt1tb, mt1tw, mt1bl, mt1bb, mt1bw, ne1tl, ne1tb, ne1tw, ne2tl, ne2tb, ne2tw, ne3tl, ne3tb, ne3tw, ne1bl, ne1bb, ne1bw, ne2bl, ne2bb, ne2bw, ne3bl, ne3bb, ne3bw, nv1tl, nv1tb, nv1tw, nv2tl, nv2tb, nv2tw, nv3tl, nv3tb, nv3tw, nv4tl, nv4tb, nv4tw, nv1bl, nv1bb, nv1bw, nv2bl, nv2bb, nv2bw, nv3bl, nv3bb, nv3bw, nv4bl, nv4bb, nv4bw, nh1tl, nh1tb, nh1tw, nh2tl, nh2tb, nh2tw, nh1bl, nh1bb, nh1bw, nh2bl, nh2bb, nh2bw, nj1bl, nj1bb, nj1bw, nj2bl, nj2bb, nj2bw, nj3bl, nj3bb, nj3bw, nj4bl, nj4bb, nj4bw, nj5bl, nj5bb, nj5bw, nj6bl, nj6bb, nj6bw, nj7bl, nj7bb, nj7bw, nj8bl, nj8bb, nj8bw, nj9bl, nj9bb, nj9bw, nj10bl, nj10bb, nj10bw, nj11bl, nj11bb, nj11bw, nj12bl, nj12bb, nj12bw, nj1tl, nj1tb, nj1tw, nj2tl, nj2tb, nj2tw, nj3tl, nj3tb, nj3tw, nj4tl, nj4tb, nj4tw, nj5tl, nj5tb, nj5tw, nj6tl, nj6tb, nj6tw, nj7tl, nj7tb, nj7tw, nj8tl, nj8tb, nj8tw, nj9tl, nj9tb, nj9tw, nj10tl, nj10tb, nj10tw, nj11tl, nj11tb, nj11tw, nj12tl, nj12tb, nj12tw, nm1tl, nm1tb, nm1tw, nm2tl, nm2tb, nm2tw, nm3tl, nm3tb, nm3tw, nm1bl, nm1bb, nm1bw, nm2bl, nm2bb, nm2bw, nm3bl, nm3bb, nm3bw, ny1tl, ny1tb, ny1tw, ny2tl, ny2tb, ny2tw, ny3tl, ny3tb, ny3tw, ny4tl, ny4tb, ny4tw, ny5tl, ny5tb, ny5tw, ny6tl, ny6tb, ny6tw, ny7tl, ny7tb, ny7tw, ny8tl, ny8tb, ny8tw, ny9tl, ny9tb, ny9tw, ny10tl, ny10tb, ny10tw, ny11tl, ny11tb, ny11tw, ny12tl, ny12tb, ny12tw, ny13tl, ny13tb, ny13tw, ny14tl, ny14tb, ny14tw, ny15tl, ny15tb, ny15tw, ny16tl, ny16tb, ny16tw, ny17tl, ny17tb, ny17tw, ny18tl, ny18tb, ny18tw, ny19tl, ny19tb, ny19tw, ny20tl, ny20tb, ny20tw, ny21tl, ny21tb, ny21tw, ny22tl, ny22tb, ny22tw, ny23tl, ny23tb, ny23tw, ny24tl, ny24tb, ny24tw, ny25tl, ny25tb, ny25tw, ny26tl, ny26tb, ny26tw, ny27tl, ny27tb, ny27tw, ny1bl, ny1bb, ny1bw, ny2bl, ny2bb, ny2bw, ny3bl, ny3bb, ny3bw, ny4bl, ny4bb, ny4bw, ny5bl, ny5bb, ny5bw, ny6bl, ny6bb, ny6bw, ny7bl, ny7bb, ny7bw, ny8bl, ny8bb, ny8bw, ny9bl, ny9bb, ny9bw, ny10bl, ny10bb, ny10bw, ny11bl, ny11bb, ny11bw, ny12bl, ny12bb, ny12bw, ny13bl, ny13bb, ny13bw, ny14bl, ny14bb, ny14bw, ny15bl, ny15bb, ny15bw, ny16bl, ny16bb, ny16bw, ny17bl, ny17bb, ny17bw, ny18bl, ny18bb, ny18bw, ny19bl, ny19bb, ny19bw, ny20bl, ny20bb, ny20bw, ny21bl, ny21bb, ny21bw, ny22bl, ny22bb, ny22bw, ny23bl, ny23bb, ny23bw, ny24bl, ny24bb, ny24bw, ny25bl, ny25bb, ny25bw, ny26bl, ny26bb, ny26bw, ny27bl, ny27bb, ny27bw, nc1bl, nc1bb, nc1bw, nc2bl, nc2bb, nc2bw, nc3bl, nc3bb, nc3bw, nc4bl, nc4bb, nc4bw, nc5bl, nc5bb, nc5bw, nc6bl, nc6bb, nc6bw, nc7bl, nc7bb, nc7bw, nc8bl, nc8bb, nc8bw, nc9bl, nc9bb, nc9bw, nc10bl, nc10bb, nc10bw, nc11bl, nc11bb, nc11bw, nc12bl, nc12bb, nc12bw, nc13bl, nc13bb, nc13bw, nc1tl, nc1tb, nc1tw, nc2tl, nc2tb, nc2tw, nc3tl, nc3tb, nc3tw, nc4tl, nc4tb, nc4tw, nc5tl, nc5tb, nc5tw, nc6tl, nc6tb, nc6tw, nc7tl, nc7tb, nc7tw, nc8tl, nc8tb, nc8tw, nc9tl, nc9tb, nc9tw, nc10tl, nc10tb, nc10tw, nc11tl, nc11tb, nc11tw, nc12tl, nc12tb, nc12tw, nc13tl, nc13tb, nc13tw, nd1tl, nd1tb, nd1tw, nd1bl, nd1bb, nd1bw, oh1bl, oh1bb, oh1bw, oh2bl, oh2bb, oh2bw, oh3bl, oh3bb, oh3bw, oh4bl, oh4bb, oh4bw, oh5bl, oh5bb, oh5bw, oh6bl, oh6bb, oh6bw, oh7bl, oh7bb, oh7bw, oh8bl, oh8bb, oh8bw, oh9bl, oh9bb, oh9bw, oh10bl, oh10bb, oh10bw, oh11bl, oh11bb, oh11bw, oh12bl, oh12bb, oh12bw, oh13bl, oh13bb, oh13bw, oh14bl, oh14bb, oh14bw, oh15bl, oh15bb, oh15bw, oh16bl, oh16bb, oh16bw, oh1tl, oh1tb, oh1tw, oh2tl, oh2tb, oh2tw, oh3tl, oh3tb, oh3tw, oh4tl, oh4tb, oh4tw, oh5tl, oh5tb, oh5tw, oh6tl, oh6tb, oh6tw, oh7tl, oh7tb, oh7tw, oh8tl, oh8tb, oh8tw, oh9tl, oh9tb, oh9tw, oh10tl, oh10tb, oh10tw, oh11tl, oh11tb, oh11tw, oh12tl, oh12tb, oh12tw, oh13tl, oh13tb, oh13tw, oh14tl, oh14tb, oh14tw, oh15tl, oh15tb, oh15tw, oh16tl, oh16tb, oh16tw, ok1tl, ok1tb, ok1tw, ok2tl, ok2tb, ok2tw, ok3tl, ok3tb, ok3tw, ok4tl, ok4tb, ok4tw, ok5tl, ok5tb, ok5tw, ok1bl, ok1bb, ok1bw, ok2bl, ok2bb, ok2bw, ok3bl, ok3bb, ok3bw, ok4bl, ok4bb, ok4bw, ok5bl, ok5bb, ok5bw, or1tl, or1tb, or1tw, or2tl, or2tb, or2tw, or3tl, or3tb, or3tw, or4tl, or4tb, or4tw, or5tl, or5tb, or5tw, or1bl, or1bb, or1bw, or2bl, or2bb, or2bw, or3bl, or3bb, or3bw, or4bl, or4bb, or4bw, or5bl, or5bb, or5bw, pa1bl, pa1bb, pa1bw, pa2bl, pa2bb, pa2bw, pa3bl, pa3bb, pa3bw, pa4bl, pa4bb, pa4bw, pa5bl, pa5bb, pa5bw, pa6bl, pa6bb, pa6bw, pa7bl, pa7bb, pa7bw, pa8bl, pa8bb, pa8bw, pa9bl, pa9bb, pa9bw, pa10bl, pa10bb, pa10bw, pa11bl, pa11bb, pa11bw, pa12bl, pa12bb, pa12bw, pa13bl, pa13bb, pa13bw, pa14bl, pa14bb, pa14bw, pa15bl, pa15bb, pa15bw, pa16bl, pa16bb, pa16bw, pa17bl, pa17bb, pa17bw, pa18bl, pa18bb, pa18bw, pa1tl, pa1tb, pa1tw, pa2tl, pa2tb, pa2tw, pa3tl, pa3tb, pa3tw, pa4tl, pa4tb, pa4tw, pa5tl, pa5tb, pa5tw, pa6tl, pa6tb, pa6tw, pa7tl, pa7tb, pa7tw, pa8tl, pa8tb, pa8tw, pa9tl, pa9tb, pa9tw, pa10tl, pa10tb, pa10tw, pa11tl, pa11tb, pa11tw, pa12tl, pa12tb, pa12tw, pa13tl, pa13tb, pa13tw, pa14tl, pa14tb, pa14tw, pa15tl, pa15tb, pa15tw, pa16tl, pa16tb, pa16tw, pa17tl, pa17tb, pa17tw, pa18tl, pa18tb, pa18tw, ri1tl, ri1tb, ri1tw, ri2tl, ri2tb, ri2tw, ri1bl, ri1bb, ri1bw, ri2bl, ri2bb, ri2bw, sc1tl, sc1tb, sc1tw, sc2tl, sc2tb, sc2tw, sc3tl, sc3tb, sc3tw, sc4tl, sc4tb, sc4tw, sc5tl, sc5tb, sc5tw, sc6tl, sc6tb, sc6tw, sc7tl, sc7tb, sc7tw, sc1bl, sc1bb, sc1bw, sc2bl, sc2bb, sc2bw, sc3bl, sc3bb, sc3bw, sc4bl, sc4bb, sc4bw, sc5bl, sc5bb, sc5bw, sc6bl, sc6bb, sc6bw, sc7bl, sc7bb, sc7bw, sd1tl, sd1tb, sd1tw, sd1bl, sd1bb, sd1bw, tn1tl, tn1tb, tn1tw, tn2tl, tn2tb, tn2tw, tn3tl, tn3tb, tn3tw, tn4tl, tn4tb, tn4tw, tn5tl, tn5tb, tn5tw, tn6tl, tn6tb, tn6tw, tn7tl, tn7tb, tn7tw, tn8tl, tn8tb, tn8tw, tn9tl, tn9tb, tn9tw, tn1bl, tn1bb, tn1bw, tn2bl, tn2bb, tn2bw, tn3bl, tn3bb, tn3bw, tn4bl, tn4bb, tn4bw, tn5bl, tn5bb, tn5bw, tn6bl, tn6bb, tn6bw, tn7bl, tn7bb, tn7bw, tn8bl, tn8bb, tn8bw, tn9bl, tn9bb, tn9bw, tx1tl, tx1tb, tx1tw, tx2tl, tx2tb, tx2tw, tx3tl, tx3tb, tx3tw, tx4tl, tx4tb, tx4tw, tx5tl, tx5tb, tx5tw, tx6tl, tx6tb, tx6tw, tx7tl, tx7tb, tx7tw, tx8tl, tx8tb, tx8tw, tx9tl, tx9tb, tx9tw, tx10tl, tx10tb, tx10tw, tx11tl, tx11tb, tx11tw, tx12tl, tx12tb, tx12tw, tx13tl, tx13tb, tx13tw, tx14tl, tx14tb, tx14tw, tx15tl, tx15tb, tx15tw, tx16tl, tx16tb, tx16tw, tx17tl, tx17tb, tx17tw, tx18tl, tx18tb, tx18tw, tx19tl, tx19tb, tx19tw, tx20tl, tx20tb, tx20tw, tx21tl, tx21tb, tx21tw, tx22tl, tx22tb, tx22tw, tx23tl, tx23tb, tx23tw, tx24tl, tx24tb, tx24tw, tx25tl, tx25tb, tx25tw, tx26tl, tx26tb, tx26tw, tx27tl, tx27tb, tx27tw, tx28tl, tx28tb, tx28tw, tx29tl, tx29tb, tx29tw, tx30tl, tx30tb, tx30tw, tx31tl, tx31tb, tx31tw, tx32tl, tx32tb, tx32tw, tx33tl, tx33tb, tx33tw, tx34tl, tx34tb, tx34tw, tx35tl, tx35tb, tx35tw, tx36tl, tx36tb, tx36tw, tx1bl, tx1bb, tx1bw, tx2bl, tx2bb, tx2bw, tx3bl, tx3bb, tx3bw, tx4bl, tx4bb, tx4bw, tx5bl, tx5bb, tx5bw, tx6bl, tx6bb, tx6bw, tx7bl, tx7bb, tx7bw, tx8bl, tx8bb, tx8bw, tx9bl, tx9bb, tx9bw, tx10bl, tx10bb, tx10bw, tx11bl, tx11bb, tx11bw, tx12bl, tx12bb, tx12bw, tx13bl, tx13bb, tx13bw, tx14bl, tx14bb, tx14bw, tx15bl, tx15bb, tx15bw, tx16bl, tx16bb, tx16bw, tx17bl, tx17bb, tx17bw, tx18bl, tx18bb, tx18bw, tx19bl, tx19bb, tx19bw, tx20bl, tx20bb, tx20bw, tx21bl, tx21bb, tx21bw, tx22bl, tx22bb, tx22bw, tx23bl, tx23bb, tx23bw, tx24bl, tx24bb, tx24bw, tx25bl, tx25bb, tx25bw, tx26bl, tx26bb, tx26bw, tx27bl, tx27bb, tx27bw, tx28bl, tx28bb, tx28bw, tx29bl, tx29bb, tx29bw, tx30bl, tx30bb, tx30bw, tx31bl, tx31bb, tx31bw, tx32bl, tx32bb, tx32bw, tx33bl, tx33bb, tx33bw, tx34bl, tx34bb, tx34bw, tx35bl, tx35bb, tx35bw, tx36bl, tx36bb, tx36bw, ut1tl, ut1tb, ut1tw, ut2tl, ut2tb, ut2tw, ut3tl, ut3tb, ut3tw, ut4tl, ut4tb, ut4tw, ut1bl, ut1bb, ut1bw, ut2bl, ut2bb, ut2bw, ut3bl, ut3bb, ut3bw, ut4bl, ut4bb, ut4bw, vt1tl, vt1tb, vt1tw, vt1bl, vt1bb, vt1bw, va1bl, va1bb, va1bw, va2bl, va2bb, va2bw, va3bl, va3bb, va3bw, va4bl, va4bb, va4bw, va5bl, va5bb, va5bw, va6bl, va6bb, va6bw, va7bl, va7bb, va7bw, va8bl, va8bb, va8bw, va9bl, va9bb, va9bw, va10bl, va10bb, va10bw, va11bl, va11bb, va11bw, va1tl, va1tb, va1tw, va2tl, va2tb, va2tw, va3tl, va3tb, va3tw, va4tl, va4tb, va4tw, va5tl, va5tb, va5tw, va6tl, va6tb, va6tw, va7tl, va7tb, va7tw, va8tl, va8tb, va8tw, va9tl, va9tb, va9tw, va10tl, va10tb, va10tw, va11tl, va11tb, va11tw, wa1bl, wa1bb, wa1bw, wa2bl, wa2bb, wa2bw, wa3bl, wa3bb, wa3bw, wa4bl, wa4bb, wa4bw, wa5bl, wa5bb, wa5bw, wa6bl, wa6bb, wa6bw, wa7bl, wa7bb, wa7bw, wa8bl, wa8bb, wa8bw, wa9bl, wa9bb, wa9bw, wa10bl, wa10bb, wa10bw, wa1tl, wa1tb, wa1tw, wa2tl, wa2tb, wa2tw, wa3tl, wa3tb, wa3tw, wa4tl, wa4tb, wa4tw, wa5tl, wa5tb, wa5tw, wa6tl, wa6tb, wa6tw, wa7tl, wa7tb, wa7tw, wa8tl, wa8tb, wa8tw, wa9tl, wa9tb, wa9tw, wa10tl, wa10tb, wa10tw, wv1tl, wv1tb, wv1tw, wv2tl, wv2tb, wv2tw, wv3tl, wv3tb, wv3tw, wv1bl, wv1bb, wv1bw, wv2bl, wv2bb, wv2bw, wv3bl, wv3bb, wv3bw, wi1tl, wi1tb, wi1tw, wi2tl, wi2tb, wi2tw, wi3tl, wi3tb, wi3tw, wi4tl, wi4tb, wi4tw, wi5tl, wi5tb, wi5tw, wi6tl, wi6tb, wi6tw, wi7tl, wi7tb, wi7tw, wi8tl, wi8tb, wi8tw, wi1bl, wi1bb, wi1bw, wi2bl, wi2bb, wi2bw, wi3bl, wi3bb, wi3bw, wi4bl, wi4bb, wi4bw, wi5bl, wi5bb, wi5bw, wi6bl, wi6bb, wi6bw, wi7bl, wi7bb, wi7bw, wi8bl, wi8bb, wi8bw, wy1tl, wy1tb, wy1tw, wy1bl, wy1bb, wy1bw = pickle.load(f)
 
 
 # connect to MongoDB, change the << MONGODB URL >> to reflect your own connection string
@@ -271,7 +271,7 @@ db=client.TWITTERUSA
 collection = db['tweets']
 cursor = collection.find({"retweeted_status.full_text":{"$exists": "true"}})
 for tw in cursor:
-    district = sortloc(["#trump2020", "#teamtrump", "#kag"], tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
+    district = sortloc(["#trump2020", "#votered"], tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
     if(district != "null"):
         if("mo1" in district):
             sortEthnic(mo1tl, mo1tb, mo1tw, tw)
@@ -1134,7 +1134,7 @@ for tw in cursor:
             sortEthnic(ar3tl, ar3tb, ar3tw, tw)
         elif("ar4" in district):
             sortEthnic(ar4tl, ar4tb, ar4tw, tw)
-    district = sortloc(["#biden2020", "#teamjoe", "#gojoe"], tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
+    district = sortloc(["#biden2020", "#voteblue"], tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
     if(district != "null"):
         if("mo1" in district):
             sortEthnic(mo1bl, mo1bb, mo1bw, tw)
@@ -2000,7 +2000,7 @@ for tw in cursor:
 
 cursor = collection.find({"retweeted_status.full_text":{"$exists": "false"}})
 for tw in cursor:
-    district = sortloc(["#trump2020", "#teamtrump", "#kag"], tw["user"]["location"], tw["full_text"].lower())
+    district = sortloc(["#trump2020", "#votered"], tw["user"]["location"], tw["full_text"].lower())
     if(district != "null"):
         if("mo1" in district):
             sortEthnic(mo1tl, mo1tb, mo1tw, tw)
@@ -2863,7 +2863,7 @@ for tw in cursor:
             sortEthnic(ar3tl, ar3tb, ar3tw, tw)
         elif("ar4" in district):
             sortEthnic(ar4tl, ar4tb, ar4tw, tw)
-    district = sortloc(["#biden2020", "#teamjoe", "#gojoe"], tw["user"]["location"], tw["full_text"].lower())
+    district = sortloc(["#biden2020", "#voteblue"], tw["user"]["location"], tw["full_text"].lower())
     if(district != "null"):
         if("mo1" in district):
             sortEthnic(mo1bl, mo1bb, mo1bw, tw)
@@ -3729,791 +3729,791 @@ for tw in cursor:
 
 
 
-calcResult("Arizona 1", 759663, az1bl, az1bb, az1bw, az1tl, az1tb, az1tw, 0.45, 0.45, 0.1)
-calcResult("Arizona 2", 713631, az2bl, az2bb, az2bw, az2tl, az2tb, az2tw, 0.45, 0.45, 0.1)
-calcResult("Arizona 3", 761488, az3bl, az3bb, az3bw, az3tl, az3tb, az3tw, 0.45, 0.45, 0.1)
-calcResult("Arizona 4", 739374, az4bl, az4bb, az4bw, az4tl, az4tb, az4tw, 0.45, 0.45, 0.1)
-calcResult("Arizona 5", 789400, az5bl, az5bb, az5bw, az5tl, az5tb, az5tw, 0.45, 0.45, 0.1)
-calcResult("Arizona 6", 749808, az6bl, az6bb, az6bw, az6tl, az6tb, az6tw, 0.45, 0.45, 0.1)
-calcResult("Arizona 7", 769597, az7bl, az7bb, az7bw, az7tl, az7tb, az7tw, 0.45, 0.45, 0.1)
-calcResult("Arizona 8", 794820, az8bl, az8bb, az8bw, az8tl, az8tb, az8tw, 0.45, 0.45, 0.1)
-calcResult("Arizona 9", 777123, az7bl, az7bb, az7bw, az7tl, az7tb, az7tw, 0.45, 0.45, 0.1)
+calcResult("Arizona 1", 759663, az1bl, az1bb, az1bw, az1tl, az1tb, az1tw, 0.45, 0.51, 0.04)
+calcResult("Arizona 2", 713631, az2bl, az2bb, az2bw, az2tl, az2tb, az2tw, 0.45, 0.51, 0.04)
+calcResult("Arizona 3", 761488, az3bl, az3bb, az3bw, az3tl, az3tb, az3tw, 0.45, 0.51, 0.04)
+calcResult("Arizona 4", 739374, az4bl, az4bb, az4bw, az4tl, az4tb, az4tw, 0.45, 0.51, 0.04)
+calcResult("Arizona 5", 789400, az5bl, az5bb, az5bw, az5tl, az5tb, az5tw, 0.45, 0.51, 0.04)
+calcResult("Arizona 6", 749808, az6bl, az6bb, az6bw, az6tl, az6tb, az6tw, 0.45, 0.51, 0.04)
+calcResult("Arizona 7", 769597, az7bl, az7bb, az7bw, az7tl, az7tb, az7tw, 0.45, 0.51, 0.04)
+calcResult("Arizona 8", 794820, az8bl, az8bb, az8bw, az8tl, az8tb, az8tw, 0.45, 0.51, 0.04)
+calcResult("Arizona 9", 777123, az7bl, az7bb, az7bw, az7tl, az7tb, az7tw, 0.45, 0.51, 0.04)
 aztlat = [az1tl,az2tl,az3tl,az4tl,az5tl,az6tl,az7tl,az8tl,az9tl]
 aztbla = [az1tb,az2tb,az3tb,az4tb,az5tb,az6tb,az7tb,az8tb,az9tb]
 aztwhi = [az1tw,az2tw,az3tw,az4tw,az5tw,az6tw,az7tw,az8tw,az9tw]
 azblat = [az1bl,az2bl,az3bl,az4bl,az5bl,az6bl,az7bl,az8bl,az9bl]
 azbbla = [az1bb,az2bb,az3bb,az4bb,az5bb,az6bb,az7bb,az8bb,az9bb]
 azbwhi = [az1bw,az2bw,az3bw,az4bw,az5bw,az6bw,az7bw,az8bw,az9bw]
-calcStateResult("TOTAL ARIZONA", aztlat, aztbla, aztwhi, azblat, azbbla, azbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL ARIZONA", aztlat, aztbla, aztwhi, azblat, azbbla, azbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Arkansas 1", 724622, ar1bl, ar1bb, ar1bw, ar1tl, ar1tb, ar1tw, 0.45, 0.45, 0.1)
-calcResult("Arkansas 2", 761348, ar2bl, ar2bb, ar2bw, ar2tl, ar2tb, ar2tw, 0.45, 0.45, 0.1)
-calcResult("Arkansas 3", 782717, ar3bl, ar3bb, ar3bw, ar3tl, ar3tb, ar3tw, 0.45, 0.45, 0.1)
-calcResult("Arkansas 4", 711737, ar4bl, ar4bb, ar4bw, ar4tl, ar4tb, ar4tw, 0.45, 0.45, 0.1)
+calcResult("Arkansas 1", 724622, ar1bl, ar1bb, ar1bw, ar1tl, ar1tb, ar1tw, 0.45, 0.51, 0.04)
+calcResult("Arkansas 2", 761348, ar2bl, ar2bb, ar2bw, ar2tl, ar2tb, ar2tw, 0.45, 0.51, 0.04)
+calcResult("Arkansas 3", 782717, ar3bl, ar3bb, ar3bw, ar3tl, ar3tb, ar3tw, 0.45, 0.51, 0.04)
+calcResult("Arkansas 4", 711737, ar4bl, ar4bb, ar4bw, ar4tl, ar4tb, ar4tw, 0.45, 0.51, 0.04)
 artlat = [ar1tl,ar2tl,ar3tl,ar4tl]
 artbla = [ar1tb,ar2tb,ar3tb,ar4tb]
 artwhi = [ar1tw,ar2tw,ar3tw,ar4tw]
 arblat = [ar1bl,ar2bl,ar3bl,ar4bl]
 arbbla = [ar1bb,ar2bb,ar3bb,ar4bb]
 arbwhi = [ar1bw,ar2bw,ar3bw,ar4bw]
-calcStateResult("TOTAL ARKANSAS", artlat, artbla, artwhi, arblat, arbbla, arbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL ARKANSAS", artlat, artbla, artwhi, arblat, arbbla, arbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Alabama 1", 715346, al1bl, al1bb, al1bw, al1tl, al1tb, al1tw, 0.45, 0.45, 0.1)
-calcResult("Alabama 2", 678122, al2bl, al2bb, al2bw, al2tl, al2tb, al2tw, 0.45, 0.45, 0.1)
-calcResult("Alabama 3", 709482, al3bl, al3bb, al3bw, al3tl, al3tb, al3tw, 0.45, 0.45, 0.1)
-calcResult("Alabama 4", 683273, al4bl, al4bb, al4bw, al4tl, al4tb, al4tw, 0.45, 0.45, 0.1)
-calcResult("Alabama 5", 712529, al5bl, al5bb, al5bw, al5tl, al5tb, al5tw, 0.45, 0.45, 0.1)
-calcResult("Alabama 6", 706308, al6bl, al6bb, al6bw, al6tl, al6tb, al6tw, 0.45, 0.45, 0.1)
-calcResult("Alabama 7", 665630, al7bl, al7bb, al7bw, al7tl, al7tb, al7tw, 0.45, 0.45, 0.1 )
+calcResult("Alabama 1", 715346, al1bl, al1bb, al1bw, al1tl, al1tb, al1tw, 0.45, 0.51, 0.04)
+calcResult("Alabama 2", 678122, al2bl, al2bb, al2bw, al2tl, al2tb, al2tw, 0.45, 0.51, 0.04)
+calcResult("Alabama 3", 709482, al3bl, al3bb, al3bw, al3tl, al3tb, al3tw, 0.45, 0.51, 0.04)
+calcResult("Alabama 4", 683273, al4bl, al4bb, al4bw, al4tl, al4tb, al4tw, 0.45, 0.51, 0.04)
+calcResult("Alabama 5", 712529, al5bl, al5bb, al5bw, al5tl, al5tb, al5tw, 0.45, 0.51, 0.04)
+calcResult("Alabama 6", 706308, al6bl, al6bb, al6bw, al6tl, al6tb, al6tw, 0.45, 0.51, 0.04)
+calcResult("Alabama 7", 665630, al7bl, al7bb, al7bw, al7tl, al7tb, al7tw, 0.45, 0.51, 0.04 )
 altlat = [al1tl,al2tl,al3tl,al4tl,al5tl,al6tl,al7tl]
 altbla = [al1tb,al2tb,al3tb,al4tb,al5tb,al6tb,al7tb]
 altwhi = [al1tw,al2tw,al3tw,al4tw,al5tw,al6tw,al7tw]
 alblat = [al1bl,al2bl,al3bl,al4bl,al5bl,al6bl,al7bl]
 albbla = [al1bb,al2bb,al3bb,al4bb,al5bb,al6bb,al7bb]
 albwhi = [al1bw,al2bw,al3bw,al4bw,al5bw,al6bw,al7bw]
-calcStateResult("TOTAL ALABAMA", altlat, altbla, altwhi, alblat, albbla, albwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL ALABAMA", altlat, altbla, altwhi, alblat, albbla, albwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Colorado 1", 812843, co1bl, co1bb, co1bw, co1tl, co1tb, co1tw, 0.45, 0.45, 0.1)
-calcResult("Colorado 2", 803470, co2bl, co2bb, co2bw, co2tl, co2tb, co2tw, 0.45, 0.45, 0.1)
-calcResult("Colorado 3", 738119, co3bl, co3bb, co3bw, co3tl, co3tb, co3tw, 0.45, 0.45, 0.1)
-calcResult("Colorado 4", 795836, co4bl, co4bb, co4bw, co4tl, co4tb, co4tw, 0.45, 0.45, 0.1)
-calcResult("Colorado 5", 786939, co5bl, co5bb, co5bw, co5tl, co5tb, co5tw, 0.45, 0.45, 0.1)
-calcResult("Colorado 6", 813566, co6bl, co6bb, co6bw, co6tl, co6tb, co6tw, 0.45, 0.45, 0.1)
-calcResult("Colorado 7", 789772, co7bl, co7bb, co7bw, co7tl, co7tb, co7tw, 0.45, 0.45, 0.1)
+calcResult("Colorado 1", 812843, co1bl, co1bb, co1bw, co1tl, co1tb, co1tw, 0.45, 0.51, 0.04)
+calcResult("Colorado 2", 803470, co2bl, co2bb, co2bw, co2tl, co2tb, co2tw, 0.45, 0.51, 0.04)
+calcResult("Colorado 3", 738119, co3bl, co3bb, co3bw, co3tl, co3tb, co3tw, 0.45, 0.51, 0.04)
+calcResult("Colorado 4", 795836, co4bl, co4bb, co4bw, co4tl, co4tb, co4tw, 0.45, 0.51, 0.04)
+calcResult("Colorado 5", 786939, co5bl, co5bb, co5bw, co5tl, co5tb, co5tw, 0.45, 0.51, 0.04)
+calcResult("Colorado 6", 813566, co6bl, co6bb, co6bw, co6tl, co6tb, co6tw, 0.45, 0.51, 0.04)
+calcResult("Colorado 7", 789772, co7bl, co7bb, co7bw, co7tl, co7tb, co7tw, 0.45, 0.51, 0.04)
 cotlat = [co1tl,co2tl,co3tl,co4tl,co5tl,co6tl,co7tl]
 cotbla = [co1tb,co2tb,co3tb,co4tb,co5tb,co6tb,co7tb]
 cotwhi = [co1tw,co2tw,co3tw,co4tw,co5tw,co6tw,co7tw]
 coblat = [co1bl,co2bl,co3bl,co4bl,co5bl,co6bl,co7bl]
 cobbla = [co1bb,co2bb,co3bb,co4bb,co5bb,co6bb,co7bb]
 cobwhi = [co1bw,co2bw,co3bw,co4bw,co5bw,co6bw,co7bw]
-calcStateResult("TOTAL COLORADO", cotlat, cotbla, cotwhi, coblat, cobbla, cobwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL COLORADO", cotlat, cotbla, cotwhi, coblat, cobbla, cobwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("California 1", 704012, ca1bl, ca1bb, ca1bw, ca1tl, ca1tb, ca1tw, 0.45, 0.45, 0.1)
-calcResult("California 2", 722370, ca2bl, ca2bb, ca2bw, ca2tl, ca2tb, ca2tw, 0.45, 0.45, 0.1)
-calcResult("California 3", 748104, ca3bl, ca3bb, ca3bw, ca3tl, ca3tb, ca3tw, 0.45, 0.45, 0.1)
-calcResult("California 4", 754525, ca4bl, ca4bb, ca4bw, ca4tl, ca4tb, ca4tw, 0.45, 0.45, 0.1)
-calcResult("California 5", 700443, ca5bl, ca5bb, ca5bw, ca5tl, ca5tb, ca5tw, 0.45, 0.45, 0.1)
-calcResult("California 6", 664468, ca6bl, ca6bb, ca6bw, ca6tl, ca6tb, ca6tw, 0.45, 0.45, 0.1)
-calcResult("California 7", 655708, ca7bl, ca7bb, ca7bw, ca7tl, ca7tb, ca7tw, 0.45, 0.45, 0.1)
-calcResult("California 8", 666827, ca8bl, ca8bb, ca8bw, ca8tl, ca8tb, ca8tw, 0.45, 0.45, 0.1)
-calcResult("California 9", 648766, ca9bl, ca9bb, ca9bw, ca9tl, ca9tb, ca9tw, 0.45, 0.45, 0.1)
-calcResult("California 10", 714750, ca10bl, ca10bb, ca10bw, ca10tl, ca10tb, ca10tw, 0.45, 0.45, 0.1)
-calcResult("California 11", 796753, ca11bl, ca11bb, ca11bw, ca11tl, ca11tb, ca11tw, 0.45, 0.45, 0.1)
-calcResult("California 12", 651322, ca12bl, ca12bb, ca12bw, ca12tl, ca12tb, ca12tw, 0.45, 0.45, 0.1)
-calcResult("California 13", 665318, ca13bl, ca13bb, ca13bw, ca13tl, ca13tb, ca13tw, 0.45, 0.45, 0.1)
-calcResult("California 14", 653935, ca14bl, ca14bb, ca14bw, ca14tl, ca14tb, ca14tw, 0.45, 0.45, 0.1)
-calcResult("California 15", 677605, ca15bl, ca15bb, ca15bw, ca15tl, ca15tb, ca15tw, 0.45, 0.45, 0.1)
-calcResult("California 16", 676880, ca16bl, ca16bb, ca16bw, ca16tl, ca16tb, ca16tw, 0.45, 0.45, 0.1)
-calcResult("California 17", 664240, ca17bl, ca17bb, ca17bw, ca17tl, ca17tb, ca17tw, 0.45, 0.45, 0.1)
-calcResult("California 18", 723607, ca18bl, ca18bb, ca18bw, ca18tl, ca18tb, ca18tw, 0.45, 0.45, 0.1)
-calcResult("California 19", 757337, ca19bl, ca19bb, ca19bw, ca19tl, ca19tb, ca19tw, 0.45, 0.45, 0.1 )
-calcResult("California 20", 744350, ca20bl, ca20bb, ca20bw, ca20tl, ca20tb, ca20tw, 0.45, 0.45, 0.1)
-calcResult("California 21", 784186, ca21bl, ca21bb, ca21bw, ca21tl, ca21tb, ca21tw, 0.45, 0.45, 0.1)
-calcResult("California 22", 797084, ca22bl, ca22bb, ca22bw, ca22tl, ca22tb, ca22tw, 0.45, 0.45, 0.1)
-calcResult("California 23", 747852, ca23bl, ca23bb, ca23bw, ca23tl, ca23tb, ca23tw, 0.45, 0.45, 0.1)
-calcResult("California 24", 681622, ca24bl, ca24bb, ca24bw, ca24tl, ca24tb, ca24tw, 0.45, 0.45, 0.1)
-calcResult("California 25", 844320, ca25bl, ca25bb, ca25bw, ca25tl, ca25tb, ca25tw, 0.45, 0.45, 0.1)
-calcResult("California 26", 691452, ca26bl, ca26bb, ca26bw, ca26tl, ca26tb, ca26tw, 0.45, 0.45, 0.1)
-calcResult("California 27", 684496, ca27bl, ca27bb, ca27bw, ca27tl, ca27tb, ca27tw, 0.45, 0.45, 0.1)
-calcResult("California 28", 660194, ca28bl, ca28bb, ca28bw, ca28tl, ca28tb, ca28tw, 0.45, 0.45, 0.1)
-calcResult("California 29", 642138, ca29bl, ca29bb, ca29bw, ca29tl, ca29tb, ca29tw, 0.45, 0.45, 0.1)
-calcResult("California 30", 662319, ca30bl, ca30bb, ca30bw, ca30tl, ca30tb, ca30tw, 0.45, 0.45, 0.1)
-calcResult("California 31", 611336, ca31bl, ca31bb, ca31bw, ca31tl, ca31tb, ca31tw, 0.45, 0.45, 0.1)
-calcResult("California 32", 642236, ca32bl, ca32bb, ca32bw, ca32tl, ca32tb, ca32tw, 0.45, 0.45, 0.1)
-calcResult("California 33", 637122, ca33bl, ca33bb, ca33bw, ca33tl, ca33tb, ca33tw, 0.45, 0.45, 0.1)
-calcResult("California 34", 654303, ca34bl, ca34bb, ca34bw, ca34tl, ca34tb, ca34tw, 0.45, 0.45, 0.1)
-calcResult("California 35", 662413, ca35bl, ca35bb, ca35bw, ca35tl, ca35tb, ca35tw, 0.45, 0.45, 0.1)
-calcResult("California 36", 750645, ca36bl, ca36bb, ca36bw, ca36tl, ca36tb, ca36tw, 0.45, 0.45, 0.1)
-calcResult("California 37", 738174, ca37bl, ca37bb, ca37bw, ca37tl, ca37tb, ca37tw, 0.45, 0.45, 0.1)
-calcResult("California 38", 641410, ca38bl, ca38bb, ca38bw, ca38tl, ca38tb, ca38tw, 0.45, 0.45, 0.1)
-calcResult("California 39", 643155, ca39bl, ca39bb, ca39bw, ca39tl, ca39tb, ca39tw, 0.45, 0.45, 0.1)
-calcResult("California 40", 665653, ca40bl, ca40bb, ca40bw, ca40tl, ca40tb, ca40tw, 0.45, 0.45, 0.1)
-calcResult("California 41", 797133, ca41bl, ca41bb, ca41bw, ca41tl, ca41tb, ca41tw, 0.45, 0.45, 0.1)
-calcResult("California 42", 667638, ca42bl, ca42bb, ca42bw, ca42tl, ca42tb, ca42tw, 0.45, 0.45, 0.1)
-calcResult("California 43", 735581, ca43bl, ca43bb, ca43bw, ca43tl, ca43tb, ca43tw, 0.45, 0.45, 0.1)
-calcResult("California 44", 712204, ca44bl, ca44bb, ca44bw, ca44tl, ca44tb, ca44tw, 0.45, 0.45, 0.1)
-calcResult("California 45", 914209, ca45bl, ca45bb, ca45bw, ca45tl, ca45tb, ca45tw, 0.45, 0.45, 0.1)
-calcResult("California 46", 734649, ca46bl, ca46bb, ca46bw, ca46tl, ca46tb, ca46tw, 0.45, 0.45, 0.1)
-calcResult("California 47", 631422, ca47bl, ca47bb, ca47bw, ca47tl, ca47tb, ca47tw, 0.45, 0.45, 0.1)
-calcResult("California 48", 727833, ca48bl, ca48bb, ca48bw, ca48tl, ca48tb, ca48tw, 0.45, 0.45, 0.1)
-calcResult("California 49", 717823, ca49bl, ca49bb, ca49bw, ca49tl, ca49tb, ca49tw, 0.45, 0.45, 0.1)
-calcResult("California 50", 730427, ca50bl, ca50bb, ca50bw, ca50tl, ca50tb, ca50tw, 0.45, 0.45, 0.1)
-calcResult("California 51", 743982, ca51bl, ca51bb, ca51bw, ca51tl, ca51tb, ca51tw, 0.45, 0.45, 0.1)
-calcResult("California 52", 713904, ca52bl, ca52bb, ca52bw, ca52tl, ca52tb, ca52tw, 0.45, 0.45, 0.1)
-calcResult("California 53", 741909, ca53bl, ca53bb, ca53bw, ca53tl, ca53tb, ca53tw, 0.45, 0.45, 0.1)
+calcResult("California 1", 704012, ca1bl, ca1bb, ca1bw, ca1tl, ca1tb, ca1tw, 0.45, 0.51, 0.04)
+calcResult("California 2", 722370, ca2bl, ca2bb, ca2bw, ca2tl, ca2tb, ca2tw, 0.45, 0.51, 0.04)
+calcResult("California 3", 748104, ca3bl, ca3bb, ca3bw, ca3tl, ca3tb, ca3tw, 0.45, 0.51, 0.04)
+calcResult("California 4", 754525, ca4bl, ca4bb, ca4bw, ca4tl, ca4tb, ca4tw, 0.45, 0.51, 0.04)
+calcResult("California 5", 700443, ca5bl, ca5bb, ca5bw, ca5tl, ca5tb, ca5tw, 0.45, 0.51, 0.04)
+calcResult("California 6", 664468, ca6bl, ca6bb, ca6bw, ca6tl, ca6tb, ca6tw, 0.45, 0.51, 0.04)
+calcResult("California 7", 655708, ca7bl, ca7bb, ca7bw, ca7tl, ca7tb, ca7tw, 0.45, 0.51, 0.04)
+calcResult("California 8", 666827, ca8bl, ca8bb, ca8bw, ca8tl, ca8tb, ca8tw, 0.45, 0.51, 0.04)
+calcResult("California 9", 648766, ca9bl, ca9bb, ca9bw, ca9tl, ca9tb, ca9tw, 0.45, 0.51, 0.04)
+calcResult("California 10", 714750, ca10bl, ca10bb, ca10bw, ca10tl, ca10tb, ca10tw, 0.45, 0.51, 0.04)
+calcResult("California 11", 796753, ca11bl, ca11bb, ca11bw, ca11tl, ca11tb, ca11tw, 0.45, 0.51, 0.04)
+calcResult("California 12", 651322, ca12bl, ca12bb, ca12bw, ca12tl, ca12tb, ca12tw, 0.45, 0.51, 0.04)
+calcResult("California 13", 665318, ca13bl, ca13bb, ca13bw, ca13tl, ca13tb, ca13tw, 0.45, 0.51, 0.04)
+calcResult("California 14", 653935, ca14bl, ca14bb, ca14bw, ca14tl, ca14tb, ca14tw, 0.45, 0.51, 0.04)
+calcResult("California 15", 677605, ca15bl, ca15bb, ca15bw, ca15tl, ca15tb, ca15tw, 0.45, 0.51, 0.04)
+calcResult("California 16", 676880, ca16bl, ca16bb, ca16bw, ca16tl, ca16tb, ca16tw, 0.45, 0.51, 0.04)
+calcResult("California 17", 664240, ca17bl, ca17bb, ca17bw, ca17tl, ca17tb, ca17tw, 0.45, 0.51, 0.04)
+calcResult("California 18", 723607, ca18bl, ca18bb, ca18bw, ca18tl, ca18tb, ca18tw, 0.45, 0.51, 0.04)
+calcResult("California 19", 757337, ca19bl, ca19bb, ca19bw, ca19tl, ca19tb, ca19tw, 0.45, 0.51, 0.04 )
+calcResult("California 20", 744350, ca20bl, ca20bb, ca20bw, ca20tl, ca20tb, ca20tw, 0.45, 0.51, 0.04)
+calcResult("California 21", 784186, ca21bl, ca21bb, ca21bw, ca21tl, ca21tb, ca21tw, 0.45, 0.51, 0.04)
+calcResult("California 22", 797084, ca22bl, ca22bb, ca22bw, ca22tl, ca22tb, ca22tw, 0.45, 0.51, 0.04)
+calcResult("California 23", 747852, ca23bl, ca23bb, ca23bw, ca23tl, ca23tb, ca23tw, 0.45, 0.51, 0.04)
+calcResult("California 24", 681622, ca24bl, ca24bb, ca24bw, ca24tl, ca24tb, ca24tw, 0.45, 0.51, 0.04)
+calcResult("California 25", 844320, ca25bl, ca25bb, ca25bw, ca25tl, ca25tb, ca25tw, 0.45, 0.51, 0.04)
+calcResult("California 26", 691452, ca26bl, ca26bb, ca26bw, ca26tl, ca26tb, ca26tw, 0.45, 0.51, 0.04)
+calcResult("California 27", 684496, ca27bl, ca27bb, ca27bw, ca27tl, ca27tb, ca27tw, 0.45, 0.51, 0.04)
+calcResult("California 28", 660194, ca28bl, ca28bb, ca28bw, ca28tl, ca28tb, ca28tw, 0.45, 0.51, 0.04)
+calcResult("California 29", 642138, ca29bl, ca29bb, ca29bw, ca29tl, ca29tb, ca29tw, 0.45, 0.51, 0.04)
+calcResult("California 30", 662319, ca30bl, ca30bb, ca30bw, ca30tl, ca30tb, ca30tw, 0.45, 0.51, 0.04)
+calcResult("California 31", 611336, ca31bl, ca31bb, ca31bw, ca31tl, ca31tb, ca31tw, 0.45, 0.51, 0.04)
+calcResult("California 32", 642236, ca32bl, ca32bb, ca32bw, ca32tl, ca32tb, ca32tw, 0.45, 0.51, 0.04)
+calcResult("California 33", 637122, ca33bl, ca33bb, ca33bw, ca33tl, ca33tb, ca33tw, 0.45, 0.51, 0.04)
+calcResult("California 34", 654303, ca34bl, ca34bb, ca34bw, ca34tl, ca34tb, ca34tw, 0.45, 0.51, 0.04)
+calcResult("California 35", 662413, ca35bl, ca35bb, ca35bw, ca35tl, ca35tb, ca35tw, 0.45, 0.51, 0.04)
+calcResult("California 36", 750645, ca36bl, ca36bb, ca36bw, ca36tl, ca36tb, ca36tw, 0.45, 0.51, 0.04)
+calcResult("California 37", 738174, ca37bl, ca37bb, ca37bw, ca37tl, ca37tb, ca37tw, 0.45, 0.51, 0.04)
+calcResult("California 38", 641410, ca38bl, ca38bb, ca38bw, ca38tl, ca38tb, ca38tw, 0.45, 0.51, 0.04)
+calcResult("California 39", 643155, ca39bl, ca39bb, ca39bw, ca39tl, ca39tb, ca39tw, 0.45, 0.51, 0.04)
+calcResult("California 40", 665653, ca40bl, ca40bb, ca40bw, ca40tl, ca40tb, ca40tw, 0.45, 0.51, 0.04)
+calcResult("California 41", 797133, ca41bl, ca41bb, ca41bw, ca41tl, ca41tb, ca41tw, 0.45, 0.51, 0.04)
+calcResult("California 42", 667638, ca42bl, ca42bb, ca42bw, ca42tl, ca42tb, ca42tw, 0.45, 0.51, 0.04)
+calcResult("California 43", 735581, ca43bl, ca43bb, ca43bw, ca43tl, ca43tb, ca43tw, 0.45, 0.51, 0.04)
+calcResult("California 44", 712204, ca44bl, ca44bb, ca44bw, ca44tl, ca44tb, ca44tw, 0.45, 0.51, 0.04)
+calcResult("California 45", 914209, ca45bl, ca45bb, ca45bw, ca45tl, ca45tb, ca45tw, 0.45, 0.51, 0.04)
+calcResult("California 46", 734649, ca46bl, ca46bb, ca46bw, ca46tl, ca46tb, ca46tw, 0.45, 0.51, 0.04)
+calcResult("California 47", 631422, ca47bl, ca47bb, ca47bw, ca47tl, ca47tb, ca47tw, 0.45, 0.51, 0.04)
+calcResult("California 48", 727833, ca48bl, ca48bb, ca48bw, ca48tl, ca48tb, ca48tw, 0.45, 0.51, 0.04)
+calcResult("California 49", 717823, ca49bl, ca49bb, ca49bw, ca49tl, ca49tb, ca49tw, 0.45, 0.51, 0.04)
+calcResult("California 50", 730427, ca50bl, ca50bb, ca50bw, ca50tl, ca50tb, ca50tw, 0.45, 0.51, 0.04)
+calcResult("California 51", 743982, ca51bl, ca51bb, ca51bw, ca51tl, ca51tb, ca51tw, 0.45, 0.51, 0.04)
+calcResult("California 52", 713904, ca52bl, ca52bb, ca52bw, ca52tl, ca52tb, ca52tw, 0.45, 0.51, 0.04)
+calcResult("California 53", 741909, ca53bl, ca53bb, ca53bw, ca53tl, ca53tb, ca53tw, 0.45, 0.51, 0.04)
 catlat = [ca1tl,ca2tl,ca3tl,ca4tl,ca5tl,ca6tl,ca7tl,ca8tl,ca9tl,ca10tl,ca11tl,ca12tl,ca13tl,ca14tl,ca15tl,ca16tl,ca17tl,ca18tl, ca19tl,ca20tl,ca21tl,ca22tl,ca23tl,ca24tl,ca25tl,ca26tl,ca27tl,ca28tl,ca29tl,ca30tl,ca31tl,ca32tl,ca33tl,ca34tl,ca35tl,ca36tl,ca37tl,ca38tl,ca39tl,ca40tl,ca41tl,ca42tl,ca43tl,ca44tl,ca45tl,ca46tl,ca47tl,ca48tl,ca49tl,ca50tl,ca51tl,ca52tl,ca53tl]
 catbla = [ca1tb,ca2tb,ca3tb,ca4tb,ca5tb,ca6tb,ca7tb,ca8tb,ca9tb,ca10tb,ca11tb,ca12tb,ca13tb,ca14tb,ca15tb,ca16tb,ca17tb,ca18tb, ca19tb,ca20tb,ca21tb,ca22tb,ca23tb,ca24tb,ca25tb,ca26tb,ca27tb,ca28tb,ca29tb,ca30tb,ca31tb,ca32tb,ca33tb,ca34tb,ca35tb,ca36tb,ca37tb,ca38tb,ca39tb,ca40tb,ca41tb,ca42tb,ca43tb,ca44tb,ca45tb,ca46tb,ca47tb,ca48tb,ca49tb,ca50tb,ca51tb,ca52tb,ca53tb]
 catwhi = [ca1tw,ca2tw,ca3tw,ca4tw,ca5tw,ca6tw,ca7tw,ca8tw,ca9tw,ca10tw,ca11tw,ca12tw,ca13tw,ca14tw,ca15tw,ca16tw,ca17tw,ca18tw, ca19tw,ca20tw,ca21tw,ca22tw,ca23tw,ca24tw,ca25tw,ca26tw,ca27tw,ca28tw,ca29tw,ca30tw,ca31tw,ca32tw,ca33tw,ca34tw,ca35tw,ca36tw,ca37tw,ca38tw,ca39tw,ca40tw,ca41tw,ca42tw,ca43tw,ca44tw,ca45tw,ca46tw,ca47tw,ca48tw,ca49tw,ca50tw,ca51tw,ca52tw,ca53tw]
 cablat = [ca1bl,ca2bl,ca3bl,ca4bl,ca5bl,ca6bl,ca7bl,ca8bl,ca9bl,ca10bl,ca11bl,ca12bl,ca13bl,ca14bl,ca15bl,ca16bl,ca17bl,ca18bl, ca19bl,ca20bl,ca21bl,ca22bl,ca23bl,ca24bl,ca25bl,ca26bl,ca27bl,ca28bl,ca29bl,ca30bl,ca31bl,ca32bl,ca33bl,ca34bl,ca35bl,ca36bl,ca37bl,ca38bl,ca39bl,ca40bl,ca41bl,ca42bl,ca43bl,ca44bl,ca45bl,ca46bl,ca47bl,ca48bl,ca49bl,ca50bl,ca51bl,ca52bl,ca53bl]
 cabbla = [ca1bb,ca2bb,ca3bb,ca4bb,ca5bb,ca6bb,ca7bb,ca8bb,ca9bb,ca10bb,ca11bb,ca12bb,ca13bb,ca14bb,ca15bb,ca16bb,ca17bb,ca18bb, ca19bb,ca20bb,ca21bb,ca22bb,ca23bb,ca24bb,ca25bb,ca26bb,ca27bb,ca28bb,ca29bb,ca30bb,ca31bb,ca32bb,ca33bb,ca34bb,ca35bb,ca36bb,ca37bb,ca38bb,ca39bb,ca40bb,ca41bb,ca42bb,ca43bb,ca44bb,ca45bb,ca46bb,ca47bb,ca48bb,ca49bb,ca50bb,ca51bb,ca52bb,ca53bb]
 cabwhi = [ca1bw,ca2bw,ca3bw,ca4bw,ca5bw,ca6bw,ca7bw,ca8bw,ca9bw,ca10bw,ca11bw,ca12bw,ca13bw,ca14bw,ca15bw,ca16bw,ca17bw,ca18bw, ca19bw,ca20bw,ca21bw,ca22bw,ca23bw,ca24bw,ca25bw,ca26bw,ca27bw,ca28bw,ca29bw,ca30bw,ca31bw,ca32bw,ca33bw,ca34bw,ca35bw,ca36bw,ca37bw,ca38bw,ca39bw,ca40bw,ca41bw,ca42bw,ca43bw,ca44bw,ca45bw,ca46bw,ca47bw,ca48bw,ca49bw,ca50bw,ca51bw,ca52bw,ca53bw]
-calcStateResult("TOTAL CALIFORNIA", catlat, catbla, catwhi, cablat, cabbla, cabwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL CALIFORNIA", catlat, catbla, catwhi, cablat, cabbla, cabwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Connecticut 1", 710509, ct1bl, ct1bb, ct1bw, ct1tl, ct1tb, ct1tw, 0.45, 0.45, 0.1)
-calcResult("Connecticut 2", 705217, ct2bl, ct2bb, ct2bw, ct2tl, ct2tb, ct2tw, 0.45, 0.45, 0.1)
-calcResult("Connecticut 3", 716547, ct3bl, ct3bb, ct3bw, ct3tl, ct3tb, ct3tw, 0.45, 0.45, 0.1)
-calcResult("Connecticut 4", 716549, ct4bl, ct4bb, ct4bw, ct4tl, ct4tb, ct4tw, 0.45, 0.45, 0.1)
-calcResult("Connecticut 5", 718295, ct5bl, ct5bb, ct5bw, ct5tl, ct5tb, ct5tw, 0.45, 0.45, 0.1)
+calcResult("Connecticut 1", 710509, ct1bl, ct1bb, ct1bw, ct1tl, ct1tb, ct1tw, 0.45, 0.51, 0.04)
+calcResult("Connecticut 2", 705217, ct2bl, ct2bb, ct2bw, ct2tl, ct2tb, ct2tw, 0.45, 0.51, 0.04)
+calcResult("Connecticut 3", 716547, ct3bl, ct3bb, ct3bw, ct3tl, ct3tb, ct3tw, 0.45, 0.51, 0.04)
+calcResult("Connecticut 4", 716549, ct4bl, ct4bb, ct4bw, ct4tl, ct4tb, ct4tw, 0.45, 0.51, 0.04)
+calcResult("Connecticut 5", 718295, ct5bl, ct5bb, ct5bw, ct5tl, ct5tb, ct5tw, 0.45, 0.51, 0.04)
 cttlat = [ct1tl,ct2tl,ct3tl,ct4tl,ct5tl]
 cttbla = [ct1tb,ct2tb,ct3tb,ct4tb,ct5tb]
 cttwhi = [ct1tw,ct2tw,ct3tw,ct4tw,ct5tw]
 ctblat = [ct1bl,ct2bl,ct3bl,ct4bl,ct5bl]
 ctbbla = [ct1bb,ct2bb,ct3bb,ct4bb,ct5bb]
 ctbwhi = [ct1bw,ct2bw,ct3bw,ct4bw,ct5bw]
-calcStateResult("TOTAL CONNECTICUT", cttlat, cttbla, cttwhi, ctblat, ctbbla, ctbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL CONNECTICUT", cttlat, cttbla, cttwhi, ctblat, ctbbla, ctbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Georgia 1", 734172, ga1bl, ga1bb, ga1bw, ga1tl, ga1tb, ga1tw, 0.45, 0.45, 0.1)
-calcResult("Georgia 2", 672244, ga2bl, ga2bb, ga2bw, ga2tl, ga2tb, ga2tw, 0.45, 0.45, 0.1)
-calcResult("Georgia 3", 729810, ga3bl, ga3bb, ga3bw, ga3tl, ga3tb, ga3tw, 0.45, 0.45, 0.1)
-calcResult("Georgia 4", 752273, ga4bl, ga4bb, ga4bw, ga4tl, ga4tb, ga4tw, 0.45, 0.45, 0.1)
-calcResult("Georgia 5", 793039, ga5bl, ga5bb, ga5bw, ga5tl, ga5tb, ga5tw, 0.45, 0.45, 0.1)
-calcResult("Georgia 6", 756389, ga6bl, ga6bb, ga6bw, ga6tl, ga6tb, ga6tw, 0.45, 0.45, 0.1)
-calcResult("Georgia 7", 789864, ga7bl, ga7bb, ga7bw, ga7tl, ga7tb, ga7tw, 0.45, 0.45, 0.1)
-calcResult("Georgia 8", 710108, ga8bl, ga8bb, ga8bw, ga8tl, ga8tb, ga8tw, 0.45, 0.45, 0.1)
-calcResult("Georgia 9", 736075, ga9bl, ga9bb, ga9bw, ga9tl, ga9tb, ga9tw, 0.45, 0.45, 0.1)
-calcResult("Georgia 10", 741464, ga10bl, ga10bb, ga10bw, ga10tl, ga10tb, ga10tw, 0.45, 0.45, 0.1)
-calcResult("Georgia 11", 764184, ga11bl, ga11bb, ga11bw, ga11tl, ga11tb, ga11tw, 0.45, 0.45, 0.1)
-calcResult("Georgia 12", 722937, ga12bl, ga12bb, ga12bw, ga12tl, ga12tb, ga12tw, 0.45, 0.45, 0.1)
-calcResult("Georgia 13", 757521, ga13bl, ga13bb, ga13bw, ga13tl, ga13tb, ga13tw, 0.45, 0.45, 0.1)
-calcResult("Georgia 14", 710176, ga14bl, ga14bb, ga14bw, ga14tl, ga14tb, ga14tw, 0.45, 0.45, 0.1)
+calcResult("Georgia 1", 734172, ga1bl, ga1bb, ga1bw, ga1tl, ga1tb, ga1tw, 0.45, 0.51, 0.04)
+calcResult("Georgia 2", 672244, ga2bl, ga2bb, ga2bw, ga2tl, ga2tb, ga2tw, 0.45, 0.51, 0.04)
+calcResult("Georgia 3", 729810, ga3bl, ga3bb, ga3bw, ga3tl, ga3tb, ga3tw, 0.45, 0.51, 0.04)
+calcResult("Georgia 4", 752273, ga4bl, ga4bb, ga4bw, ga4tl, ga4tb, ga4tw, 0.45, 0.51, 0.04)
+calcResult("Georgia 5", 793039, ga5bl, ga5bb, ga5bw, ga5tl, ga5tb, ga5tw, 0.45, 0.51, 0.04)
+calcResult("Georgia 6", 756389, ga6bl, ga6bb, ga6bw, ga6tl, ga6tb, ga6tw, 0.45, 0.51, 0.04)
+calcResult("Georgia 7", 789864, ga7bl, ga7bb, ga7bw, ga7tl, ga7tb, ga7tw, 0.45, 0.51, 0.04)
+calcResult("Georgia 8", 710108, ga8bl, ga8bb, ga8bw, ga8tl, ga8tb, ga8tw, 0.45, 0.51, 0.04)
+calcResult("Georgia 9", 736075, ga9bl, ga9bb, ga9bw, ga9tl, ga9tb, ga9tw, 0.45, 0.51, 0.04)
+calcResult("Georgia 10", 741464, ga10bl, ga10bb, ga10bw, ga10tl, ga10tb, ga10tw, 0.45, 0.51, 0.04)
+calcResult("Georgia 11", 764184, ga11bl, ga11bb, ga11bw, ga11tl, ga11tb, ga11tw, 0.45, 0.51, 0.04)
+calcResult("Georgia 12", 722937, ga12bl, ga12bb, ga12bw, ga12tl, ga12tb, ga12tw, 0.45, 0.51, 0.04)
+calcResult("Georgia 13", 757521, ga13bl, ga13bb, ga13bw, ga13tl, ga13tb, ga13tw, 0.45, 0.51, 0.04)
+calcResult("Georgia 14", 710176, ga14bl, ga14bb, ga14bw, ga14tl, ga14tb, ga14tw, 0.45, 0.51, 0.04)
 gatlat = [ga1tl,ga2tl,ga3tl,ga4tl,ga5tl,ga6tl,ga7tl,ga8tl,ga9tl,ga10tl,ga11tl,ga12tl,ga13tl,ga14tl]
 gatbla = [ga1tb,ga2tb,ga3tb,ga4tb,ga5tb,ga6tb,ga7tb,ga8tb,ga9tb,ga10tb,ga11tb,ga12tb,ga13tb,ga14tb]
 gatwhi = [ga1tw,ga2tw,ga3tw,ga4tw,ga5tw,ga6tw,ga7tw,ga8tw,ga9tw,ga10tw,ga11tw,ga12tw,ga13tw,ga14tw]
 gablat = [ga1bl,ga2bl,ga3bl,ga4bl,ga5bl,ga6bl,ga7bl,ga8bl,ga9bl,ga10bl,ga11bl,ga12bl,ga13bl,ga14bl]
 gabbla = [ga1bb,ga2bb,ga3bb,ga4bb,ga5bb,ga6bb,ga7bb,ga8bb,ga9bb,ga10bb,ga11bb,ga12bb,ga13bb,ga14bb]
 gabwhi = [ga1bw,ga2bw,ga3bw,ga4bw,ga5bw,ga6bw,ga7bw,ga8bw,ga9bw,ga10bw,ga11bw,ga12bw,ga13bw,ga14bw]
-calcStateResult("TOTAL GEORGIA", gatlat, gatbla, gatwhi, gablat, gabbla, gabwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL GEORGIA", gatlat, gatbla, gatwhi, gablat, gabbla, gabwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Florida 1", 762506, fl1bl, fl1bb, fl1bw, fl1tl, fl1tb, fl1tw, 0.45, 0.45, 0.1)
-calcResult("Florida 2", 720418, fl2bl, fl2bb, fl2bw, fl2tl, fl2tb, fl2tw, 0.45, 0.45, 0.1)
-calcResult("Florida 3", 732088, fl3bl, fl3bb, fl3bw, fl3tl, fl3tb, fl3tw, 0.45, 0.45, 0.1)
-calcResult("Florida 4", 778620, fl4bl, fl4bb, fl4bw, fl4tl, fl4tb, fl4tw, 0.45, 0.45, 0.1)
-calcResult("Florida 5", 728346, fl5bl, fl5bb, fl5bw, fl5tl, fl5tb, fl5tw, 0.45, 0.45, 0.1)
-calcResult("Florida 6", 765005, fl6bl, fl6bb, fl6bw, fl6tl, fl6tb, fl6tw, 0.45, 0.45, 0.1)
-calcResult("Florida 7", 762326, fl7bl, fl7bb, fl7bw, fl7tl, fl7tb, fl7tw, 0.45, 0.45, 0.1)
-calcResult("Florida 8", 744430, fl8bl, fl8bb, fl8bw, fl8tl, fl8tb, fl8tw, 0.45, 0.45, 0.1)
-calcResult("Florida 9", 832753, fl9bl, fl9bb, fl9bw, fl9tl, fl9tb, fl9tw, 0.45, 0.45, 0.1)
-calcResult("Florida 10", 791447, fl10bl, fl10bb, fl10bw, fl10tl, fl10tb, fl10tw, 0.45, 0.45, 0.1)
-calcResult("Florida 11", 758331, fl11bl, fl11bb, fl11bw, fl11tl, fl11tb, fl11tw, 0.45, 0.45, 0.1)
-calcResult("Florida 12", 760472, fl12bl, fl12bb, fl12bw, fl12tl, fl12tb, fl12tw, 0.45, 0.45, 0.1)
-calcResult("Florida 13", 728996, fl13bl, fl13bb, fl13bw, fl13tl, fl13tb, fl13tw, 0.45, 0.45, 0.1)
-calcResult("Florida 14", 769968, fl14bl, fl14bb, fl14bw, fl14tl, fl14tb, fl14tw, 0.45, 0.45, 0.1)
-calcResult("Florida 15", 762822, fl15bl, fl15bb, fl15bw, fl15tl, fl15tb, fl15tw, 0.45, 0.45, 0.1)
-calcResult("Florida 16", 814209, fl16bl, fl16bb, fl16bw, fl16tl, fl16tb, fl16tw, 0.45, 0.45, 0.1)
-calcResult("Florida 17", 768138, fl17bl, fl17bb, fl17bw, fl17tl, fl17tb, fl17tw, 0.45, 0.45, 0.1)
-calcResult("Florida 18", 754652, fl18bl, fl18bb, fl18bw, fl18tl, fl18tb, fl18tw, 0.45, 0.45, 0.1)
-calcResult("Florida 19", 799332, fl19bl, fl19bb, fl19bw, fl19tl, fl19tb, fl19tw, 0.45, 0.45, 0.1)
-calcResult("Florida 20", 794621, fl20bl, fl20bb, fl20bw, fl20tl, fl20tb, fl20tw, 0.45, 0.45, 0.1)
-calcResult("Florida 21", 758201, fl21bl, fl21bb, fl21bw, fl21tl, fl21tb, fl21tw, 0.45, 0.45, 0.1)
-calcResult("Florida 22", 737019, fl22bl, fl22bb, fl22bw, fl22tl, fl22tb, fl22tw, 0.45, 0.45, 0.1)
-calcResult("Florida 23", 749377, fl23bl, fl23bb, fl23bw, fl23tl, fl23tb, fl23tw, 0.45, 0.45, 0.1)
-calcResult("Florida 24", 749624, fl24bl, fl24bb, fl24bw, fl24tl, fl24tb, fl24tw, 0.45, 0.45, 0.1)
-calcResult("Florida 25", 763628, fl25bl, fl25bb, fl25bw, fl25tl, fl25tb, fl25tw, 0.45, 0.45, 0.1)
-calcResult("Florida 26", 788816, fl26bl, fl26bb, fl26bw, fl26tl, fl26tb, fl26tw, 0.45, 0.45, 0.1)
-calcResult("Florida 27", 747049, fl27bl, fl27bb, fl27bw, fl27tl, fl27tb, fl27tw, 0.45, 0.45, 0.1)
+calcResult("Florida 1", 762506, fl1bl, fl1bb, fl1bw, fl1tl, fl1tb, fl1tw, 0.45, 0.51, 0.04)
+calcResult("Florida 2", 720418, fl2bl, fl2bb, fl2bw, fl2tl, fl2tb, fl2tw, 0.45, 0.51, 0.04)
+calcResult("Florida 3", 732088, fl3bl, fl3bb, fl3bw, fl3tl, fl3tb, fl3tw, 0.45, 0.51, 0.04)
+calcResult("Florida 4", 778620, fl4bl, fl4bb, fl4bw, fl4tl, fl4tb, fl4tw, 0.45, 0.51, 0.04)
+calcResult("Florida 5", 728346, fl5bl, fl5bb, fl5bw, fl5tl, fl5tb, fl5tw, 0.45, 0.51, 0.04)
+calcResult("Florida 6", 765005, fl6bl, fl6bb, fl6bw, fl6tl, fl6tb, fl6tw, 0.45, 0.51, 0.04)
+calcResult("Florida 7", 762326, fl7bl, fl7bb, fl7bw, fl7tl, fl7tb, fl7tw, 0.45, 0.51, 0.04)
+calcResult("Florida 8", 744430, fl8bl, fl8bb, fl8bw, fl8tl, fl8tb, fl8tw, 0.45, 0.51, 0.04)
+calcResult("Florida 9", 832753, fl9bl, fl9bb, fl9bw, fl9tl, fl9tb, fl9tw, 0.45, 0.51, 0.04)
+calcResult("Florida 10", 791447, fl10bl, fl10bb, fl10bw, fl10tl, fl10tb, fl10tw, 0.45, 0.51, 0.04)
+calcResult("Florida 11", 758331, fl11bl, fl11bb, fl11bw, fl11tl, fl11tb, fl11tw, 0.45, 0.51, 0.04)
+calcResult("Florida 12", 760472, fl12bl, fl12bb, fl12bw, fl12tl, fl12tb, fl12tw, 0.45, 0.51, 0.04)
+calcResult("Florida 13", 728996, fl13bl, fl13bb, fl13bw, fl13tl, fl13tb, fl13tw, 0.45, 0.51, 0.04)
+calcResult("Florida 14", 769968, fl14bl, fl14bb, fl14bw, fl14tl, fl14tb, fl14tw, 0.45, 0.51, 0.04)
+calcResult("Florida 15", 762822, fl15bl, fl15bb, fl15bw, fl15tl, fl15tb, fl15tw, 0.45, 0.51, 0.04)
+calcResult("Florida 16", 814209, fl16bl, fl16bb, fl16bw, fl16tl, fl16tb, fl16tw, 0.45, 0.51, 0.04)
+calcResult("Florida 17", 768138, fl17bl, fl17bb, fl17bw, fl17tl, fl17tb, fl17tw, 0.45, 0.51, 0.04)
+calcResult("Florida 18", 754652, fl18bl, fl18bb, fl18bw, fl18tl, fl18tb, fl18tw, 0.45, 0.51, 0.04)
+calcResult("Florida 19", 799332, fl19bl, fl19bb, fl19bw, fl19tl, fl19tb, fl19tw, 0.45, 0.51, 0.04)
+calcResult("Florida 20", 794621, fl20bl, fl20bb, fl20bw, fl20tl, fl20tb, fl20tw, 0.45, 0.51, 0.04)
+calcResult("Florida 21", 758201, fl21bl, fl21bb, fl21bw, fl21tl, fl21tb, fl21tw, 0.45, 0.51, 0.04)
+calcResult("Florida 22", 737019, fl22bl, fl22bb, fl22bw, fl22tl, fl22tb, fl22tw, 0.45, 0.51, 0.04)
+calcResult("Florida 23", 749377, fl23bl, fl23bb, fl23bw, fl23tl, fl23tb, fl23tw, 0.45, 0.51, 0.04)
+calcResult("Florida 24", 749624, fl24bl, fl24bb, fl24bw, fl24tl, fl24tb, fl24tw, 0.45, 0.51, 0.04)
+calcResult("Florida 25", 763628, fl25bl, fl25bb, fl25bw, fl25tl, fl25tb, fl25tw, 0.45, 0.51, 0.04)
+calcResult("Florida 26", 788816, fl26bl, fl26bb, fl26bw, fl26tl, fl26tb, fl26tw, 0.45, 0.51, 0.04)
+calcResult("Florida 27", 747049, fl27bl, fl27bb, fl27bw, fl27tl, fl27tb, fl27tw, 0.45, 0.51, 0.04)
 fltlat = [fl1tl,fl2tl,fl3tl,fl4tl,fl5tl,fl6tl,fl7tl,fl8tl,fl9tl,fl10tl,fl11tl,fl12tl,fl13tl,fl14tl,fl15tl,fl16tl,fl17tl,fl18tl,fl19tl,fl20tl,fl21tl,fl22tl,fl23tl,fl24tl,fl25tl,fl26tl,fl27tl]
 fltbla = [fl1tb,fl2tb,fl3tb,fl4tb,fl5tb,fl6tb,fl7tb,fl8tb,fl9tb,fl10tb,fl11tb,fl12tb,fl13tb,fl14tb,fl15tb,fl16tb,fl17tb,fl18tb,fl19tb,fl20tb,fl21tb,fl22tb,fl23tb,fl24tb,fl25tb,fl26tb,fl27tb]
 fltwhi = [fl1tw,fl2tw,fl3tw,fl4tw,fl5tw,fl6tw,fl7tw,fl8tw,fl9tw,fl10tw,fl11tw,fl12tw,fl13tw,fl14tw,fl15tw,fl16tw,fl17tw,fl18tw,fl19tw,fl20tw,fl21tw,fl22tw,fl23tw,fl24tw,fl25tw,fl26tw,fl27tw]
 flblat = [fl1bl,fl2bl,fl3bl,fl4bl,fl5bl,fl6bl,fl7bl,fl8bl,fl9bl,fl10bl,fl11bl,fl12bl,fl13bl,fl14bl,fl15bl,fl16bl,fl17bl,fl18bl,fl19bl,fl20bl,fl21bl,fl22bl,fl23bl,fl24bl,fl25bl,fl26bl,fl27bl]
 flbbla = [fl1bb,fl2bb,fl3bb,fl4bb,fl5bb,fl6bb,fl7bb,fl8bb,fl9bb,fl10bb,fl11bb,fl12bb,fl13bb,fl14bb,fl15bb,fl16bb,fl17bb,fl18bb,fl19bb,fl20bb,fl21bb,fl22bb,fl23bb,fl24bb,fl25bb,fl26bb,fl27bb]
 flbwhi = [fl1bw,fl2bw,fl3bw,fl4bw,fl5bw,fl6bw,fl7bw,fl8bw,fl9bw,fl10bw,fl11bw,fl12bw,fl13bw,fl14bw,fl15bw,fl16bw,fl17bw,fl18bw,fl19bw,fl20bw,fl21bw,fl22bw,fl23bw,fl24bw,fl25bw,fl26bw,fl27bw]
-calcStateResult("TOTAL FLORIDA", fltlat, fltbla, fltwhi, flblat, flbbla, flbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL FLORIDA", fltlat, fltbla, fltwhi, flblat, flbbla, flbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Indiana 1", 714756, in1bl, in1bb, in1bw, in1tl, in1tb, in1tw, 0.45, 0.45, 0.1)
-calcResult("Indiana 2", 723483, in2bl, in2bb, in2bw, in2tl, in2tb, in2tw, 0.45, 0.45, 0.1)
-calcResult("Indiana 3", 747060, in3bl, in3bb, in3bw, in3tl, in3tb, in3tw, 0.45, 0.45, 0.1)
-calcResult("Indiana 4", 768025, in4bl, in4bb, in4bw, in4tl, in4tb, in4tw, 0.45, 0.45, 0.1)
-calcResult("Indiana 5", 784462, in5bl, in5bb, in5bw, in5tl, in5tb, in5tw, 0.45, 0.45, 0.1)
-calcResult("Indiana 6", 719771, in6bl, in6bb, in6bw, in6tl, in6tb, in6tw, 0.45, 0.45, 0.1)
-calcResult("Indiana 7", 760466, in7bl, in7bb, in7bw, in7tl, in7tb, in7tw, 0.45, 0.45, 0.1)
-calcResult("Indiana 8", 718591, in8bl, in8bb, in8bw, in8tl, in8tb, in8tw, 0.45, 0.45, 0.1)
-calcResult("Indiana 9", 755264, in9bl, in9bb, in9bw, in9tl, in9tb, in9tw, 0.45, 0.45, 0.1)
+calcResult("Indiana 1", 714756, in1bl, in1bb, in1bw, in1tl, in1tb, in1tw, 0.45, 0.51, 0.04)
+calcResult("Indiana 2", 723483, in2bl, in2bb, in2bw, in2tl, in2tb, in2tw, 0.45, 0.51, 0.04)
+calcResult("Indiana 3", 747060, in3bl, in3bb, in3bw, in3tl, in3tb, in3tw, 0.45, 0.51, 0.04)
+calcResult("Indiana 4", 768025, in4bl, in4bb, in4bw, in4tl, in4tb, in4tw, 0.45, 0.51, 0.04)
+calcResult("Indiana 5", 784462, in5bl, in5bb, in5bw, in5tl, in5tb, in5tw, 0.45, 0.51, 0.04)
+calcResult("Indiana 6", 719771, in6bl, in6bb, in6bw, in6tl, in6tb, in6tw, 0.45, 0.51, 0.04)
+calcResult("Indiana 7", 760466, in7bl, in7bb, in7bw, in7tl, in7tb, in7tw, 0.45, 0.51, 0.04)
+calcResult("Indiana 8", 718591, in8bl, in8bb, in8bw, in8tl, in8tb, in8tw, 0.45, 0.51, 0.04)
+calcResult("Indiana 9", 755264, in9bl, in9bb, in9bw, in9tl, in9tb, in9tw, 0.45, 0.51, 0.04)
 intlat = [in1tl,in2tl,in3tl,in4tl,in5tl,in6tl,in7tl,in8tl,in9tl]
 intbla = [in1tb,in2tb,in3tb,in4tb,in5tb,in6tb,in7tb,in8tb,in9tb]
 intwhi = [in1tw,in2tw,in3tw,in4tw,in5tw,in6tw,in7tw,in8tw,in9tw]
 inblat = [in1bl,in2bl,in3bl,in4bl,in5bl,in6bl,in7bl,in8bl,in9bl]
 inbbla = [in1bb,in2bb,in3bb,in4bb,in5bb,in6bb,in7bb,in8bb,in9bb]
 inbwhi = [in1bw,in2bw,in3bw,in4bw,in5bw,in6bw,in7bw,in8bw,in9bw]
-calcStateResult("TOTAL INDIANA", intlat, intbla, intwhi, inblat, inbbla, inbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL INDIANA", intlat, intbla, intwhi, inblat, inbbla, inbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Iowa 1", 773628, ia1bl, ia1bb, ia1bw, ia1tl, ia1tb, ia1tw, 0.45, 0.45, 0.1)
-calcResult("Iowa 2", 783983, ia2bl, ia2bb, ia2bw, ia2tl, ia2tb, ia2tw, 0.45, 0.45, 0.1)
-calcResult("Iowa 3", 843598, ia3bl, ia3bb, ia3bw, ia3tl, ia3tb, ia3tw, 0.45, 0.45, 0.1)
-calcResult("Iowa 4", 754936, ia4bl, ia4bb, ia4bw, ia4tl, ia4tb, ia4tw, 0.45, 0.45, 0.1)
+calcResult("Iowa 1", 773628, ia1bl, ia1bb, ia1bw, ia1tl, ia1tb, ia1tw, 0.45, 0.51, 0.04)
+calcResult("Iowa 2", 783983, ia2bl, ia2bb, ia2bw, ia2tl, ia2tb, ia2tw, 0.45, 0.51, 0.04)
+calcResult("Iowa 3", 843598, ia3bl, ia3bb, ia3bw, ia3tl, ia3tb, ia3tw, 0.45, 0.51, 0.04)
+calcResult("Iowa 4", 754936, ia4bl, ia4bb, ia4bw, ia4tl, ia4tb, ia4tw, 0.45, 0.51, 0.04)
 iatlat = [ia1tl,ia2tl,ia3tl,ia4tl]
 iatbla = [ia1tb,ia2tb,ia3tb,ia4tb]
 iatwhi = [ia1tw,ia2tw,ia3tw,ia4tw]
 iablat = [ia1bl,ia2bl,ia3bl,ia4bl]
 iabbla = [ia1bb,ia2bb,ia3bb,ia4bb]
 iabwhi = [ia1bw,ia2bw,ia3bw,ia4bw]
-calcStateResult("TOTAL IOWA", iatlat, iatbla, iatwhi, iablat, iabbla, iabwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL IOWA", iatlat, iatbla, iatwhi, iablat, iabbla, iabwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Illinois 1", 706550, il1bl, il1bb, il1bw, il1tl, il1tb, il1tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 2", 694459, il2bl, il2bb, il2bw, il2tl, il2tb, il2tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 3", 704050, il3bl, il3bb, il3bw, il3tl, il3tb, il3tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 4", 702062, il4bl, il4bb, il4bw, il4tl, il4tb, il4tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 5", 743699, il5bl, il5bb, il5bw, il5tl, il5tb, il5tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 6", 712712, il6bl, il6bb, il6bw, il6tl, il6tb, il6tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 7", 707513, il7bl, il7bb, il7bw, il7tl, il7tb, il7tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 8", 724644, il8bl, il8bb, il8bw, il8tl, il8tb, il8tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 9", 715584, il9bl, il9bb, il9bw, il9tl, il9tb, il9tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 10", 705564, il10bl, il10bb, il10bw, il10tl, il10tb, il10tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 11", 722745, il11bl, il11bb, il11bw, il11tl, il11tb, il11tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 12", 713289, il12bl, il12bb, il12bw, il12tl, il12tb, il12tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 13", 712716, il13bl, il13bb, il13bw, il13tl, il13tb, il13tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 14", 718232, il14bl, il14bb, il14bw, il14tl, il14tb, il14tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 15", 715066, il15bl, il15bb, il15bw, il15tl, il15tb, il15tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 16", 713830, il16bl, il16bb, il16bw, il16tl, il16tb, il16tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 17", 711719, il17bl, il17bb, il17bw, il17tl, il17tb, il17tw, 0.45, 0.45, 0.1)
-calcResult("Illinois 18", 707238, il18bl, il18bb, il18bw, il18tl, il18tb, il18tw, 0.45, 0.45, 0.1 )
+calcResult("Illinois 1", 706550, il1bl, il1bb, il1bw, il1tl, il1tb, il1tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 2", 694459, il2bl, il2bb, il2bw, il2tl, il2tb, il2tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 3", 704050, il3bl, il3bb, il3bw, il3tl, il3tb, il3tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 4", 702062, il4bl, il4bb, il4bw, il4tl, il4tb, il4tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 5", 743699, il5bl, il5bb, il5bw, il5tl, il5tb, il5tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 6", 712712, il6bl, il6bb, il6bw, il6tl, il6tb, il6tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 7", 707513, il7bl, il7bb, il7bw, il7tl, il7tb, il7tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 8", 724644, il8bl, il8bb, il8bw, il8tl, il8tb, il8tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 9", 715584, il9bl, il9bb, il9bw, il9tl, il9tb, il9tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 10", 705564, il10bl, il10bb, il10bw, il10tl, il10tb, il10tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 11", 722745, il11bl, il11bb, il11bw, il11tl, il11tb, il11tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 12", 713289, il12bl, il12bb, il12bw, il12tl, il12tb, il12tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 13", 712716, il13bl, il13bb, il13bw, il13tl, il13tb, il13tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 14", 718232, il14bl, il14bb, il14bw, il14tl, il14tb, il14tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 15", 715066, il15bl, il15bb, il15bw, il15tl, il15tb, il15tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 16", 713830, il16bl, il16bb, il16bw, il16tl, il16tb, il16tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 17", 711719, il17bl, il17bb, il17bw, il17tl, il17tb, il17tw, 0.45, 0.51, 0.04)
+calcResult("Illinois 18", 707238, il18bl, il18bb, il18bw, il18tl, il18tb, il18tw, 0.45, 0.51, 0.04 )
 iltlat = [il1tl,il18tl,il2tl,il3tl,il4tl,il5tl,il6tl,il7tl,il8tl,il9tl,il10tl,il11tl,il12tl,il13tl,il14tl,il15tl,il16tl,il17tl,il18tl]
 iltbla = [il1tb,il18tb,il2tb,il3tb,il4tb,il5tb,il6tb,il7tb,il8tb,il9tb,il10tb,il11tb,il12tb,il13tb,il14tb,il15tb,il16tb,il17tb,il18tb]
 iltwhi = [il1tw,il18tw,il2tw,il3tw,il4tw,il5tw,il6tw,il7tw,il8tw,il9tw,il10tw,il11tw,il12tw,il13tw,il14tw,il15tw,il16tw,il17tw,il18tw]
 ilblat = [il1bl,il2bl,il18bl,il3bl,il4bl,il5bl,il6bl,il7bl,il8bl,il9bl,il10bl,il11bl,il12bl,il13bl,il14bl,il15bl,il16bl,il17bl,il18bl]
 ilbbla = [il1bb,il2bb,il18bb,il3bb,il4bb,il5bb,il6bb,il7bb,il8bb,il9bb,il10bb,il11bb,il12bb,il13bb,il14bb,il15bb,il16bb,il17bb,il18bb]
 ilbwhi = [il1bw,il2bw,il18bw,il3bw,il4bw,il5bw,il6bw,il7bw,il8bw,il9bw,il10bw,il11bw,il12bw,il13bw,il14bw,il15bw,il16bw,il17bw,il18bw]
-calcStateResult("TOTAL ILLINOIS", iltlat, iltbla, iltwhi, ilblat, ilbbla, ilbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL ILLINOIS", iltlat, iltbla, iltwhi, ilblat, ilbbla, ilbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Idaho 1", 912950, id1bl, id1bb, id1bw, id1tl, id1tb, id1tw, 0.45, 0.45, 0.1)
-calcResult("Idaho 2", 841258, id2bl, id2bb, id2bw, id2tl, id2tb, id2tw, 0.45, 0.45, 0.1)
+calcResult("Idaho 1", 912950, id1bl, id1bb, id1bw, id1tl, id1tb, id1tw, 0.45, 0.51, 0.04)
+calcResult("Idaho 2", 841258, id2bl, id2bb, id2bw, id2tl, id2tb, id2tw, 0.45, 0.51, 0.04)
 idtlat = [id1tl,id2tl]
 idtbla = [id1tb,id2tb]
 idtwhi = [id1tw,id2tw]
 idblat = [id1bl,id2bl]
 idbbla = [id1bb,id2bb]
 idbwhi = [id1bw,id2bw]
-calcStateResult("TOTAL IDAHO", idtlat, idtbla, idtwhi, idblat, idbbla, idbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL IDAHO", idtlat, idtbla, idtwhi, idblat, idbbla, idbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Kansas 1", 725222, ks1bl, ks1bb, ks1bw, ks1tl, ks1tb, ks1tw, 0.45, 0.45, 0.1)
-calcResult("Kansas 2", 715752, ks2bl, ks2bb, ks2bw, ks2tl, ks2tb, ks2tw, 0.45, 0.45, 0.1)
-calcResult("Kansas 3", 672124, ks3bl, ks3bb, ks3bw, ks3tl, ks3tb, ks3tw, 0.45, 0.45, 0.1)
-calcResult("Kansas 4", 672101, ks4bl, ks4bb, ks4bw, ks4tl, ks4tb, ks4tw, 0.45, 0.45, 0.1)
+calcResult("Kansas 1", 725222, ks1bl, ks1bb, ks1bw, ks1tl, ks1tb, ks1tw, 0.45, 0.51, 0.04)
+calcResult("Kansas 2", 715752, ks2bl, ks2bb, ks2bw, ks2tl, ks2tb, ks2tw, 0.45, 0.51, 0.04)
+calcResult("Kansas 3", 672124, ks3bl, ks3bb, ks3bw, ks3tl, ks3tb, ks3tw, 0.45, 0.51, 0.04)
+calcResult("Kansas 4", 672101, ks4bl, ks4bb, ks4bw, ks4tl, ks4tb, ks4tw, 0.45, 0.51, 0.04)
 kstlat = [ks1tl,ks2tl,ks3tl,ks4tl]
 kstbla = [ks1tb,ks2tb,ks3tb,ks4tb]
 kstwhi = [ks1tw,ks2tw,ks3tw,ks4tw]
 ksblat = [ks1bl,ks2bl,ks3bl,ks4bl]
 ksbbla = [ks1bb,ks2bb,ks3bb,ks4bb]
 ksbwhi = [ks1bw,ks2bw,ks3bw,ks4bw]
-calcStateResult("TOTAL KANSAS", kstlat, kstbla, kstwhi, ksblat, ksbbla, ksbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL KANSAS", kstlat, kstbla, kstwhi, ksblat, ksbbla, ksbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Kentucky 1", 717739, ky1bl, ky1bb, ky1bw, ky1tl, ky1tb, ky1tw, 0.45, 0.45, 0.1)
-calcResult("Kentucky 2", 754967, ky2bl, ky2bb, ky2bw, ky2tl, ky2tb, ky2tw, 0.45, 0.45, 0.1)
-calcResult("Kentucky 3", 740860, ky3bl, ky3bb, ky3bw, ky3tl, ky3tb, ky3tw, 0.45, 0.45, 0.1)
-calcResult("Kentucky 4", 754502, ky4bl, ky4bb, ky4bw, ky4tl, ky4tb, ky4tw, 0.45, 0.45, 0.1)
-calcResult("Kentucky 5", 703315, ky5bl, ky5bb, ky5bw, ky5tl, ky5tb, ky5tw, 0.45, 0.45, 0.1)
-calcResult("Kentucky 6", 765591, ky6bl, ky6bb, ky6bw, ky6tl, ky6tb, ky6tw, 0.45, 0.45, 0.1)
+calcResult("Kentucky 1", 717739, ky1bl, ky1bb, ky1bw, ky1tl, ky1tb, ky1tw, 0.45, 0.51, 0.04)
+calcResult("Kentucky 2", 754967, ky2bl, ky2bb, ky2bw, ky2tl, ky2tb, ky2tw, 0.45, 0.51, 0.04)
+calcResult("Kentucky 3", 740860, ky3bl, ky3bb, ky3bw, ky3tl, ky3tb, ky3tw, 0.45, 0.51, 0.04)
+calcResult("Kentucky 4", 754502, ky4bl, ky4bb, ky4bw, ky4tl, ky4tb, ky4tw, 0.45, 0.51, 0.04)
+calcResult("Kentucky 5", 703315, ky5bl, ky5bb, ky5bw, ky5tl, ky5tb, ky5tw, 0.45, 0.51, 0.04)
+calcResult("Kentucky 6", 765591, ky6bl, ky6bb, ky6bw, ky6tl, ky6tb, ky6tw, 0.45, 0.51, 0.04)
 kytlat = [ky1tl,ky2tl,ky3tl,ky4tl,ky5tl,ky6tl]
 kytbla = [ky1tb,ky2tb,ky3tb,ky4tb,ky5tb,ky6tb]
 kytwhi = [ky1tw,ky2tw,ky3tw,ky4tw,ky5tw,ky6tw]
 kyblat = [ky1bl,ky2bl,ky3bl,ky4bl,ky5bl,ky6bl]
 kybbla = [ky1bb,ky2bb,ky3bb,ky4bb,ky5bb,ky6bb]
 kybwhi = [ky1bw,ky2bw,ky3bw,ky4bw,ky5bw,ky6bw]
-calcStateResult("TOTAL KENTUCKY", kytlat, kytbla, kytwhi, kyblat, kybbla, kybwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL KENTUCKY", kytlat, kytbla, kytwhi, kyblat, kybbla, kybwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Louisiana 1", 803427, la1bl, la1bb, la1bw, la1tl, la1tb, la1tw, 0.45, 0.45, 0.1)
-calcResult("Louisiana 2", 792390, la2bl, la2bb, la2bw, la2tl, la2tb, la2tw, 0.45, 0.45, 0.1)
-calcResult("Louisiana 3", 785686, la3bl, la3bb, la3bw, la3tl, la3tb, la3tw, 0.45, 0.45, 0.1)
-calcResult("Louisiana 4", 753181, la4bl, la4bb, la4bw, la4tl, la4tb, la4tw, 0.45, 0.45, 0.1)
-calcResult("Louisiana 5", 748306, la5bl, la5bb, la5bw, la5tl, la5tb, la5tw, 0.45, 0.45, 0.1)
-calcResult("Louisiana 6", 798676, la6bl, la6bb, la6bw, la6tl, la6tb, la6tw, 0.45, 0.45, 0.1)
+calcResult("Louisiana 1", 803427, la1bl, la1bb, la1bw, la1tl, la1tb, la1tw, 0.45, 0.51, 0.04)
+calcResult("Louisiana 2", 792390, la2bl, la2bb, la2bw, la2tl, la2tb, la2tw, 0.45, 0.51, 0.04)
+calcResult("Louisiana 3", 785686, la3bl, la3bb, la3bw, la3tl, la3tb, la3tw, 0.45, 0.51, 0.04)
+calcResult("Louisiana 4", 753181, la4bl, la4bb, la4bw, la4tl, la4tb, la4tw, 0.45, 0.51, 0.04)
+calcResult("Louisiana 5", 748306, la5bl, la5bb, la5bw, la5tl, la5tb, la5tw, 0.45, 0.51, 0.04)
+calcResult("Louisiana 6", 798676, la6bl, la6bb, la6bw, la6tl, la6tb, la6tw, 0.45, 0.51, 0.04)
 latlat = [la1tl,la2tl,la3tl,la4tl,la5tl,la6tl]
 latbla = [la1tb,la2tb,la3tb,la4tb,la5tb,la6tb]
 latwhi = [la1tw,la2tw,la3tw,la4tw,la5tw,la6tw]
 lablat = [la1bl,la2bl,la3bl,la4bl,la5bl,la6bl]
 labbla = [la1bb,la2bb,la3bb,la4bb,la5bb,la6bb]
 labwhi = [la1bw,la2bw,la3bw,la4bw,la5bw,la6bw]
-calcStateResult("TOTAL LOUISIANA", latlat, latbla, latwhi, lablat, labbla, labwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL LOUISIANA", latlat, latbla, latwhi, lablat, labbla, labwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Maine 1", 683279, me1bl, me1bb, me1bw, me1tl, me1tb, me1tw, 0.45, 0.45, 0.1)
-calcResult("Maine 2", 652869, me2bl, me2bb, me2bw, me2tl, me2tb, me2tw, 0.45, 0.45, 0.1)
+calcResult("Maine 1", 683279, me1bl, me1bb, me1bw, me1tl, me1tb, me1tw, 0.45, 0.51, 0.04)
+calcResult("Maine 2", 652869, me2bl, me2bb, me2bw, me2tl, me2tb, me2tw, 0.45, 0.51, 0.04)
 metlat = [me1tl,me2tl]
 metbla = [me1tb,me2tb]
 metwhi = [me1tw,me2tw]
 meblat = [me1bl,me2bl]
 mebbla = [me1bb,me2bb]
 mebwhi = [me1bw,me2bw]
-calcStateResult("TOTAL MAINE", metlat, metbla, metwhi, meblat, mebbla, mebwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL MAINE", metlat, metbla, metwhi, meblat, mebbla, mebwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Maryland 1", 662062, md1bl, md1bb, md1bw, md1tl, md1tb, md1tw, 0.45, 0.45, 0.1)
-calcResult("Maryland 2", 745135, md2bl, md2bb, md2bw, md2tl, md2tb, md2tw, 0.45, 0.45, 0.1)
-calcResult("Maryland 3", 662062, md3bl, md3bb, md3bw, md3tl, md3tb, md3tw, 0.45, 0.45, 0.1)
-calcResult("Maryland 4", 662062, md4bl, md4bb, md4bw, md4tl, md4tb, md4tw, 0.45, 0.45, 0.1)
-calcResult("Maryland 5", 662060, md5bl, md5bb, md5bw, md5tl, md5tb, md5tw, 0.45, 0.45, 0.1)
-calcResult("Maryland 6", 761921, md6bl, md6bb, md6bw, md6tl, md6tb, md6tw, 0.45, 0.45, 0.1)
-calcResult("Maryland 7", 662060, md7bl, md7bb, md7bw, md7tl, md7tb, md7tw, 0.45, 0.45, 0.1)
-calcResult("Maryland 8", 756076, md8bl, md8bb, md8bw, md8tl, md8tb, md8tw, 0.45, 0.45, 0.1)
+calcResult("Maryland 1", 662062, md1bl, md1bb, md1bw, md1tl, md1tb, md1tw, 0.45, 0.51, 0.04)
+calcResult("Maryland 2", 745135, md2bl, md2bb, md2bw, md2tl, md2tb, md2tw, 0.45, 0.51, 0.04)
+calcResult("Maryland 3", 662062, md3bl, md3bb, md3bw, md3tl, md3tb, md3tw, 0.45, 0.51, 0.04)
+calcResult("Maryland 4", 662062, md4bl, md4bb, md4bw, md4tl, md4tb, md4tw, 0.45, 0.51, 0.04)
+calcResult("Maryland 5", 662060, md5bl, md5bb, md5bw, md5tl, md5tb, md5tw, 0.45, 0.51, 0.04)
+calcResult("Maryland 6", 761921, md6bl, md6bb, md6bw, md6tl, md6tb, md6tw, 0.45, 0.51, 0.04)
+calcResult("Maryland 7", 662060, md7bl, md7bb, md7bw, md7tl, md7tb, md7tw, 0.45, 0.51, 0.04)
+calcResult("Maryland 8", 756076, md8bl, md8bb, md8bw, md8tl, md8tb, md8tw, 0.45, 0.51, 0.04)
 mdtlat = [md1tl,md2tl,md3tl,md4tl,md5tl,md6tl,md7tl,md8tl]
 mdtbla = [md1tb,md2tb,md3tb,md4tb,md5tb,md6tb,md7tb,md8tb]
 mdtwhi = [md1tw,md2tw,md3tw,md4tw,md5tw,md6tw,md7tw,md8tw]
 mdblat = [md1bl,md2bl,md3bl,md4bl,md5bl,md6bl,md7bl,md8bl]
 mdbbla = [md1bb,md2bb,md3bb,md4bb,md5bb,md6bb,md7bb,md8bb]
 mdbwhi = [md1bw,md2bw,md3bw,md4bw,md5bw,md6bw,md7bw,md8bw]
-calcStateResult("TOTAL MARYLAND", mdtlat, mdtbla, mdtwhi, mdblat, mdbbla, mdbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL MARYLAND", mdtlat, mdtbla, mdtwhi, mdblat, mdbbla, mdbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Massachusetts 1", 634479, ma1bl, ma1bb, ma1bw, ma1tl, ma1tb, ma1tw, 0.45, 0.45, 0.1)
-calcResult("Massachusetts 2", 661045, ma2bl, ma2bb, ma2bw, ma2tl, ma2tb, ma2tw, 0.45, 0.45, 0.1)
-calcResult("Massachusetts 3", 664919, ma3bl, ma3bb, ma3bw, ma3tl, ma3tb, ma3tw, 0.45, 0.45, 0.1)
-calcResult("Massachusetts 4", 656083, ma4bl, ma4bb, ma4bw, ma4tl, ma4tb, ma4tw, 0.45, 0.45, 0.1)
-calcResult("Massachusetts 5", 662269, ma5bl, ma5bb, ma5bw, ma5tl, ma5tb, ma5tw, 0.45, 0.45, 0.1)
-calcResult("Massachusetts 6", 636554, ma6bl, ma6bb, ma6bw, ma6tl, ma6tb, ma6tw, 0.45, 0.45, 0.1)
-calcResult("Massachusetts 7", 648162, ma7bl, ma7bb, ma7bw, ma7tl, ma7tb, ma7tw, 0.45, 0.45, 0.1)
-calcResult("Massachusetts 8", 764789, ma8bl, ma8bb, ma8bw, ma8tl, ma8tb, ma8tw, 0.45, 0.45, 0.1)
-calcResult("Massachusetts 9", 650381, ma9bl, ma9bb, ma9bw, ma9tl, ma9tb, ma9tw, 0.45, 0.45, 0.1)
+calcResult("Massachusetts 1", 634479, ma1bl, ma1bb, ma1bw, ma1tl, ma1tb, ma1tw, 0.45, 0.51, 0.04)
+calcResult("Massachusetts 2", 661045, ma2bl, ma2bb, ma2bw, ma2tl, ma2tb, ma2tw, 0.45, 0.51, 0.04)
+calcResult("Massachusetts 3", 664919, ma3bl, ma3bb, ma3bw, ma3tl, ma3tb, ma3tw, 0.45, 0.51, 0.04)
+calcResult("Massachusetts 4", 656083, ma4bl, ma4bb, ma4bw, ma4tl, ma4tb, ma4tw, 0.45, 0.51, 0.04)
+calcResult("Massachusetts 5", 662269, ma5bl, ma5bb, ma5bw, ma5tl, ma5tb, ma5tw, 0.45, 0.51, 0.04)
+calcResult("Massachusetts 6", 636554, ma6bl, ma6bb, ma6bw, ma6tl, ma6tb, ma6tw, 0.45, 0.51, 0.04)
+calcResult("Massachusetts 7", 648162, ma7bl, ma7bb, ma7bw, ma7tl, ma7tb, ma7tw, 0.45, 0.51, 0.04)
+calcResult("Massachusetts 8", 764789, ma8bl, ma8bb, ma8bw, ma8tl, ma8tb, ma8tw, 0.45, 0.51, 0.04)
+calcResult("Massachusetts 9", 650381, ma9bl, ma9bb, ma9bw, ma9tl, ma9tb, ma9tw, 0.45, 0.51, 0.04)
 matlat = [ma1tl,ma2tl,ma3tl,ma4tl,ma5tl,ma6tl,ma7tl,ma8tl,ma9tl]
 matbla = [ma1tb,ma2tb,ma3tb,ma4tb,ma5tb,ma6tb,ma7tb,ma8tb,ma9tb]
 matwhi = [ma1tw,ma2tw,ma3tw,ma4tw,ma5tw,ma6tw,ma7tw,ma8tw,ma9tw]
 mablat = [ma1bl,ma2bl,ma3bl,ma4bl,ma5bl,ma6bl,ma7bl,ma8bl,ma9bl]
 mabbla = [ma1bb,ma2bb,ma3bb,ma4bb,ma5bb,ma6bb,ma7bb,ma8bb,ma9bb]
 mabwhi = [ma1bw,ma2bw,ma3bw,ma4bw,ma5bw,ma6bw,ma7bw,ma8bw,ma9bw]
-calcStateResult("TOTAL MASSACHUSETTS", matlat, matbla, matwhi, mablat, mabbla, mabwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL MASSACHUSETTS", matlat, matbla, matwhi, mablat, mabbla, mabwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Michigan 1", 699621, mi1bl, mi1bb, mi1bw, mi1tl, mi1tb, mi1tw, 0.45, 0.45, 0.1)
-calcResult("Michigan 2", 743361, mi2bl, mi2bb, mi2bw, mi2tl, mi2tb, mi2tw, 0.45, 0.45, 0.1)
-calcResult("Michigan 3", 749975, mi3bl, mi3bb, mi3bw, mi3tl, mi3tb, mi3tw, 0.45, 0.45, 0.1)
-calcResult("Michigan 4", 704592, mi4bl, mi4bb, mi4bw, mi4tl, mi4tb, mi4tw, 0.45, 0.45, 0.1)
-calcResult("Michigan 5", 671115, mi5bl, mi5bb, mi5bw, mi5tl, mi5tb, mi5tw, 0.45, 0.45, 0.1)
-calcResult("Michigan 6", 705974, mi6bl, mi6bb, mi6bw, mi6tl, mi6tb, mi6tw, 0.45, 0.45, 0.1)
-calcResult("Michigan 7", 705974, mi7bl, mi7bb, mi7bw, mi7tl, mi7tb, mi7tw, 0.45, 0.45, 0.1)
-calcResult("Michigan 8", 705918, mi8bl, mi8bb, mi8bw, mi8tl, mi8tb, mi8tw, 0.45, 0.45, 0.1)
-calcResult("Michigan 9", 705975, mi9bl, mi9bb, mi9bw, mi9tl, mi9tb, mi9tw, 0.45, 0.45, 0.1)
-calcResult("Michigan 10", 705974, mi10bl, mi10bb, mi10bw, mi10tl, mi10tb, mi10tw, 0.45, 0.45, 0.1)
-calcResult("Michigan 11", 733920, mi11bl, mi11bb, mi11bw, mi11tl, mi11tb, mi11tw, 0.45, 0.45, 0.1)
-calcResult("Michigan 12", 705974, mi12bl, mi12bb, mi12bw, mi12tl, mi12tb, mi12tw, 0.45, 0.45, 0.1)
-calcResult("Michigan 13", 705974, mi13bl, mi13bb, mi13bw, mi13tl, mi13tb, mi13tw, 0.45, 0.45, 0.1)
-calcResult("Michigan 14", 705974, mi14bl, mi14bb, mi14bw, mi14tl, mi14tb, mi14tw, 0.45, 0.45, 0.1)
+calcResult("Michigan 1", 699621, mi1bl, mi1bb, mi1bw, mi1tl, mi1tb, mi1tw, 0.45, 0.51, 0.04)
+calcResult("Michigan 2", 743361, mi2bl, mi2bb, mi2bw, mi2tl, mi2tb, mi2tw, 0.45, 0.51, 0.04)
+calcResult("Michigan 3", 749975, mi3bl, mi3bb, mi3bw, mi3tl, mi3tb, mi3tw, 0.45, 0.51, 0.04)
+calcResult("Michigan 4", 704592, mi4bl, mi4bb, mi4bw, mi4tl, mi4tb, mi4tw, 0.45, 0.51, 0.04)
+calcResult("Michigan 5", 671115, mi5bl, mi5bb, mi5bw, mi5tl, mi5tb, mi5tw, 0.45, 0.51, 0.04)
+calcResult("Michigan 6", 705974, mi6bl, mi6bb, mi6bw, mi6tl, mi6tb, mi6tw, 0.45, 0.51, 0.04)
+calcResult("Michigan 7", 705974, mi7bl, mi7bb, mi7bw, mi7tl, mi7tb, mi7tw, 0.45, 0.51, 0.04)
+calcResult("Michigan 8", 705918, mi8bl, mi8bb, mi8bw, mi8tl, mi8tb, mi8tw, 0.45, 0.51, 0.04)
+calcResult("Michigan 9", 705975, mi9bl, mi9bb, mi9bw, mi9tl, mi9tb, mi9tw, 0.45, 0.51, 0.04)
+calcResult("Michigan 10", 705974, mi10bl, mi10bb, mi10bw, mi10tl, mi10tb, mi10tw, 0.45, 0.51, 0.04)
+calcResult("Michigan 11", 733920, mi11bl, mi11bb, mi11bw, mi11tl, mi11tb, mi11tw, 0.45, 0.51, 0.04)
+calcResult("Michigan 12", 705974, mi12bl, mi12bb, mi12bw, mi12tl, mi12tb, mi12tw, 0.45, 0.51, 0.04)
+calcResult("Michigan 13", 705974, mi13bl, mi13bb, mi13bw, mi13tl, mi13tb, mi13tw, 0.45, 0.51, 0.04)
+calcResult("Michigan 14", 705974, mi14bl, mi14bb, mi14bw, mi14tl, mi14tb, mi14tw, 0.45, 0.51, 0.04)
 mitlat = [mi1tl,mi2tl,mi3tl,mi4tl,mi5tl,mi6tl,mi7tl,mi8tl,mi9tl,mi10tl,mi11tl,mi12tl,mi13tl,mi14tl]
 mitbla = [mi1tb,mi2tb,mi3tb,mi4tb,mi5tb,mi6tb,mi7tb,mi8tb,mi9tb,mi10tb,mi11tb,mi12tb,mi13tb,mi14tb]
 mitwhi = [mi1tw,mi2tw,mi3tw,mi4tw,mi5tw,mi6tw,mi7tw,mi8tw,mi9tw,mi10tw,mi11tw,mi12tw,mi13tw,mi14tw]
 miblat = [mi1bl,mi2bl,mi3bl,mi4bl,mi5bl,mi6bl,mi7bl,mi8bl,mi9bl,mi10bl,mi11bl,mi12bl,mi13bl,mi14bl]
 mibbla = [mi1bb,mi2bb,mi3bb,mi4bb,mi5bb,mi6bb,mi7bb,mi8bb,mi9bb,mi10bb,mi11bb,mi12bb,mi13bb,mi14bb]
 mibwhi = [mi1bw,mi2bw,mi3bw,mi4bw,mi5bw,mi6bw,mi7bw,mi8bw,mi9bw,mi10bw,mi11bw,mi12bw,mi13bw,mi14bw]
-calcStateResult("TOTAL MICHIGAN", mitlat, mitbla, mitwhi, miblat, mibbla, mibwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL MICHIGAN", mitlat, mitbla, mitwhi, miblat, mibbla, mibwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Mississippi 1", 762914, ms1bl, ms1bb, ms1bw, ms1tl, ms1tb, ms1tw, 0.45, 0.45, 0.1)
-calcResult("Mississippi 2", 711164, ms2bl, ms2bb, ms2bw, ms2tl, ms2tb, ms2tw, 0.45, 0.45, 0.1)
-calcResult("Mississippi 3", 711115, ms3bl, ms3bb, ms3bw, ms3tl, ms3tb, ms3tw, 0.45, 0.45, 0.1)
-calcResult("Mississippi 4", 711219, ms4bl, ms4bb, ms4bw, ms4tl, ms4tb, ms4tw, 0.45, 0.45, 0.1)
+calcResult("Mississippi 1", 762914, ms1bl, ms1bb, ms1bw, ms1tl, ms1tb, ms1tw, 0.45, 0.51, 0.04)
+calcResult("Mississippi 2", 711164, ms2bl, ms2bb, ms2bw, ms2tl, ms2tb, ms2tw, 0.45, 0.51, 0.04)
+calcResult("Mississippi 3", 711115, ms3bl, ms3bb, ms3bw, ms3tl, ms3tb, ms3tw, 0.45, 0.51, 0.04)
+calcResult("Mississippi 4", 711219, ms4bl, ms4bb, ms4bw, ms4tl, ms4tb, ms4tw, 0.45, 0.51, 0.04)
 mstlat = [ms1tl,ms2tl,ms3tl,ms4tl]
 mstbla = [ms1tb,ms2tb,ms3tb,ms4tb]
 mstwhi = [ms1tw,ms2tw,ms3tw,ms4tw]
 msblat = [ms1bl,ms2bl,ms3bl,ms4bl]
 msbbla = [ms1bb,ms2bb,ms3bb,ms4bb]
 msbwhi = [ms1bw,ms2bw,ms3bw,ms4bw]
-calcStateResult("TOTAL MISSISSIPPI", mstlat, mstbla, mstwhi, msblat, msbbla, msbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL MISSISSIPPI", mstlat, mstbla, mstwhi, msblat, msbbla, msbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Missouri 1", 728365, mo1bl, mo1bb, mo1bw, mo1tl, mo1tb, mo1tw, 0.45, 0.45, 0.1)
-calcResult("Missouri 2", 706622, mo2bl, mo2bb, mo2bw, mo2tl, mo2tb, mo2tw, 0.45, 0.45, 0.1)
-calcResult("Missouri 3", 625251, mo3bl, mo3bb, mo3bw, mo3tl, mo3tb, mo3tw, 0.45, 0.45, 0.1)
-calcResult("Missouri 4", 679375, mo4bl, mo4bb, mo4bw, mo4tl, mo4tb, mo4tw, 0.45, 0.45, 0.1)
-calcResult("Missouri 5", 757920, mo5bl, mo5bb, mo5bw, mo5tl, mo5tb, mo5tw, 0.45, 0.45, 0.1)
-calcResult("Missouri 6", 693974, mo6bl, mo6bb, mo6bw, mo6tl, mo6tb, mo6tw, 0.45, 0.45, 0.1)
-calcResult("Missouri 7", 748406, mo7bl, mo7bb, mo7bw, mo7tl, mo7tb, mo7tw, 0.45, 0.45, 0.1)
-calcResult("Missouri 8", 749444, mo8bl, mo8bb, mo8bw, mo8tl, mo8tb, mo8tw, 0.45, 0.45, 0.1)
+calcResult("Missouri 1", 728365, mo1bl, mo1bb, mo1bw, mo1tl, mo1tb, mo1tw, 0.45, 0.51, 0.04)
+calcResult("Missouri 2", 706622, mo2bl, mo2bb, mo2bw, mo2tl, mo2tb, mo2tw, 0.45, 0.51, 0.04)
+calcResult("Missouri 3", 625251, mo3bl, mo3bb, mo3bw, mo3tl, mo3tb, mo3tw, 0.45, 0.51, 0.04)
+calcResult("Missouri 4", 679375, mo4bl, mo4bb, mo4bw, mo4tl, mo4tb, mo4tw, 0.45, 0.51, 0.04)
+calcResult("Missouri 5", 757920, mo5bl, mo5bb, mo5bw, mo5tl, mo5tb, mo5tw, 0.45, 0.51, 0.04)
+calcResult("Missouri 6", 693974, mo6bl, mo6bb, mo6bw, mo6tl, mo6tb, mo6tw, 0.45, 0.51, 0.04)
+calcResult("Missouri 7", 748406, mo7bl, mo7bb, mo7bw, mo7tl, mo7tb, mo7tw, 0.45, 0.51, 0.04)
+calcResult("Missouri 8", 749444, mo8bl, mo8bb, mo8bw, mo8tl, mo8tb, mo8tw, 0.45, 0.51, 0.04)
 motlat = [mo1tl,mo2tl,mo3tl,mo4tl,mo5tl,mo6tl,mo7tl,mo8tl]
 motbla = [mo1tb,mo2tb,mo3tb,mo4tb,mo5tb,mo6tb,mo7tb,mo8tb]
 motwhi = [mo1tw,mo2tw,mo3tw,mo4tw,mo5tw,mo6tw,mo7tw,mo8tw]
 moblat = [mo1bl,mo2bl,mo3bl,mo4bl,mo5bl,mo6bl,mo7bl,mo8bl]
 mobbla = [mo1bb,mo2bb,mo3bb,mo4bb,mo5bb,mo6bb,mo7bb,mo8bb]
 mobwhi = [mo1bw,mo2bw,mo3bw,mo4bw,mo5bw,mo6bw,mo7bw,mo8bw]
-calcStateResult("TOTAL MISSOURI", motlat, motbla, motwhi, moblat, mobbla, mobwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL MISSOURI", motlat, motbla, motwhi, moblat, mobbla, mobwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Minnesota 1", 678418, mn1bl, mn1bb, mn1bw, mn1tl, mn1tb, mn1tw, 0.45, 0.45, 0.1)
-calcResult("Minnesota 2", 714141, mn2bl, mn2bb, mn2bw, mn2tl, mn2tb, mn2tw, 0.45, 0.45, 0.1)
-calcResult("Minnesota 3", 723994, mn3bl, mn3bb, mn3bw, mn3tl, mn3tb, mn3tw, 0.45, 0.45, 0.1)
-calcResult("Minnesota 4", 717766, mn4bl, mn4bb, mn4bw, mn4tl, mn4tb, mn4tw, 0.45, 0.45, 0.1)
-calcResult("Minnesota 5", 718802, mn5bl, mn5bb, mn5bw, mn5tl, mn5tb, mn5tw, 0.45, 0.45, 0.1)
-calcResult("Minnesota 6", 722715, mn6bl, mn6bb, mn6bw, mn6tl, mn6tb, mn6tw, 0.45, 0.45, 0.1)
-calcResult("Minnesota 7", 663069, mn7bl, mn7bb, mn7bw, mn7tl, mn7tb, mn7tw, 0.45, 0.45, 0.1)
-calcResult("Minnesota 8", 672274, mn8bl, mn8bb, mn8bw, mn8tl, mn8tb, mn8tw, 0.45, 0.45, 0.1)
+calcResult("Minnesota 1", 678418, mn1bl, mn1bb, mn1bw, mn1tl, mn1tb, mn1tw, 0.45, 0.51, 0.04)
+calcResult("Minnesota 2", 714141, mn2bl, mn2bb, mn2bw, mn2tl, mn2tb, mn2tw, 0.45, 0.51, 0.04)
+calcResult("Minnesota 3", 723994, mn3bl, mn3bb, mn3bw, mn3tl, mn3tb, mn3tw, 0.45, 0.51, 0.04)
+calcResult("Minnesota 4", 717766, mn4bl, mn4bb, mn4bw, mn4tl, mn4tb, mn4tw, 0.45, 0.51, 0.04)
+calcResult("Minnesota 5", 718802, mn5bl, mn5bb, mn5bw, mn5tl, mn5tb, mn5tw, 0.45, 0.51, 0.04)
+calcResult("Minnesota 6", 722715, mn6bl, mn6bb, mn6bw, mn6tl, mn6tb, mn6tw, 0.45, 0.51, 0.04)
+calcResult("Minnesota 7", 663069, mn7bl, mn7bb, mn7bw, mn7tl, mn7tb, mn7tw, 0.45, 0.51, 0.04)
+calcResult("Minnesota 8", 672274, mn8bl, mn8bb, mn8bw, mn8tl, mn8tb, mn8tw, 0.45, 0.51, 0.04)
 mntlat = [mn1tl,mn2tl,mn3tl,mn4tl,mn5tl,mn6tl,mn7tl,mn8tl]
 mntbla = [mn1tb,mn2tb,mn3tb,mn4tb,mn5tb,mn6tb,mn7tb,mn8tb]
 mntwhi = [mn1tw,mn2tw,mn3tw,mn4tw,mn5tw,mn6tw,mn7tw,mn8tw]
 mnblat = [mn1bl,mn2bl,mn3bl,mn4bl,mn5bl,mn6bl,mn7bl,mn8bl]
 mnbbla = [mn1bb,mn2bb,mn3bb,mn4bb,mn5bb,mn6bb,mn7bb,mn8bb]
 mnbwhi = [mn1bw,mn2bw,mn3bw,mn4bw,mn5bw,mn6bw,mn7bw,mn8bw]
-calcStateResult("TOTAL MINNESOTA", mntlat, mntbla, mntwhi, mnblat, mnbbla, mnbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL MINNESOTA", mntlat, mntbla, mntwhi, mnblat, mnbbla, mnbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("New Jersey 1", 729675, nj1bl, nj1bb, nj1bw, nj1tl, nj1tb, nj1tw, 0.45, 0.45, 0.1)
-calcResult("New Jersey 2", 713380, nj2bl, nj2bb, nj2bw, nj2tl, nj2tb, nj2tw, 0.45, 0.45, 0.1)
-calcResult("New Jersey 3", 742905, nj3bl, nj3bb, nj3bw, nj3tl, nj3tb, nj3tw, 0.45, 0.45, 0.1)
-calcResult("New Jersey 4", 756825, nj4bl, nj4bb, nj4bw, nj4tl, nj4tb, nj4tw, 0.45, 0.45, 0.1)
-calcResult("New Jersey 5", 746385, nj5bl, nj5bb, nj5bw, nj5tl, nj5tb, nj5tw, 0.45, 0.45, 0.1)
-calcResult("New Jersey 6", 742483, nj6bl, nj6bb, nj6bw, nj6tl, nj6tb, nj6tw, 0.45, 0.45, 0.1)
-calcResult("New Jersey 7", 754222, nj7bl, nj7bb, nj7bw, nj7tl, nj7tb, nj7tw, 0.45, 0.45, 0.1)
-calcResult("New Jersey 8", 777484, nj8bl, nj8bb, nj8bw, nj8tl, nj8tb, nj8tw, 0.45, 0.45, 0.1)
-calcResult("New Jersey 9", 769504, nj9bl, nj9bb, nj9bw, nj9tl, nj9tb, nj9tw, 0.45, 0.45, 0.1)
-calcResult("New Jersey 10", 781893, nj10bl, nj10bb, nj10bw, nj10tl, nj10tb, nj10tw, 0.45, 0.45, 0.1)
-calcResult("New Jersey 11", 729569, nj11bl, nj11bb, nj11bw, nj11tl, nj11tb, nj11tw, 0.45, 0.45, 0.1)
-calcResult("New Jersey 12", 758189, nj12bl, nj12bb, nj12bw, nj12tl, nj12tb, nj12tw, 0.45, 0.45, 0.1)
+calcResult("New Jersey 1", 729675, nj1bl, nj1bb, nj1bw, nj1tl, nj1tb, nj1tw, 0.45, 0.51, 0.04)
+calcResult("New Jersey 2", 713380, nj2bl, nj2bb, nj2bw, nj2tl, nj2tb, nj2tw, 0.45, 0.51, 0.04)
+calcResult("New Jersey 3", 742905, nj3bl, nj3bb, nj3bw, nj3tl, nj3tb, nj3tw, 0.45, 0.51, 0.04)
+calcResult("New Jersey 4", 756825, nj4bl, nj4bb, nj4bw, nj4tl, nj4tb, nj4tw, 0.45, 0.51, 0.04)
+calcResult("New Jersey 5", 746385, nj5bl, nj5bb, nj5bw, nj5tl, nj5tb, nj5tw, 0.45, 0.51, 0.04)
+calcResult("New Jersey 6", 742483, nj6bl, nj6bb, nj6bw, nj6tl, nj6tb, nj6tw, 0.45, 0.51, 0.04)
+calcResult("New Jersey 7", 754222, nj7bl, nj7bb, nj7bw, nj7tl, nj7tb, nj7tw, 0.45, 0.51, 0.04)
+calcResult("New Jersey 8", 777484, nj8bl, nj8bb, nj8bw, nj8tl, nj8tb, nj8tw, 0.45, 0.51, 0.04)
+calcResult("New Jersey 9", 769504, nj9bl, nj9bb, nj9bw, nj9tl, nj9tb, nj9tw, 0.45, 0.51, 0.04)
+calcResult("New Jersey 10", 781893, nj10bl, nj10bb, nj10bw, nj10tl, nj10tb, nj10tw, 0.45, 0.51, 0.04)
+calcResult("New Jersey 11", 729569, nj11bl, nj11bb, nj11bw, nj11tl, nj11tb, nj11tw, 0.45, 0.51, 0.04)
+calcResult("New Jersey 12", 758189, nj12bl, nj12bb, nj12bw, nj12tl, nj12tb, nj12tw, 0.45, 0.51, 0.04)
 njtlat = [nj1tl,nj2tl,nj3tl,nj4tl,nj5tl,nj6tl,nj7tl,nj8tl,nj9tl,nj10tl,nj11tl,nj12tl]
 njtbla = [nj1tb,nj2tb,nj3tb,nj4tb,nj5tb,nj6tb,nj7tb,nj8tb,nj9tb,nj10tb,nj11tb,nj12tb]
 njtwhi = [nj1tw,nj2tw,nj3tw,nj4tw,nj5tw,nj6tw,nj7tw,nj8tw,nj9tw,nj10tw,nj11tw,nj12tw]
 njblat = [nj1bl,nj2bl,nj3bl,nj4bl,nj5bl,nj6bl,nj7bl,nj8bl,nj9bl,nj10bl,nj11bl,nj12bl]
 njbbla = [nj1bb,nj2bb,nj3bb,nj4bb,nj5bb,nj6bb,nj7bb,nj8bb,nj9bb,nj10bb,nj11bb,nj12bb]
 njbwhi = [nj1bw,nj2bw,nj3bw,nj4bw,nj5bw,nj6bw,nj7bw,nj8bw,nj9bw,nj10bw,nj11bw,nj12bw]
-calcStateResult("TOTAL NEW JERSEY", njtlat, njtbla, njtwhi, njblat, njbbla, njbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL NEW JERSEY", njtlat, njtbla, njtwhi, njblat, njbbla, njbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("New Mexico 1", 690571, nm1bl, nm1bb, nm1bw, nm1tl, nm1tb, nm1tw, 0.45, 0.45, 0.1)
-calcResult("New Mexico 2", 606406, nm2bl, nm2bb, nm2bw, nm2tl, nm2tb, nm2tw, 0.45, 0.45, 0.1)
-calcResult("New Mexico 3", 698251, nm3bl, nm3bb, nm3bw, nm3tl, nm3tb, nm3tw, 0.45, 0.45, 0.1)
+calcResult("New Mexico 1", 690571, nm1bl, nm1bb, nm1bw, nm1tl, nm1tb, nm1tw, 0.45, 0.51, 0.04)
+calcResult("New Mexico 2", 606406, nm2bl, nm2bb, nm2bw, nm2tl, nm2tb, nm2tw, 0.45, 0.51, 0.04)
+calcResult("New Mexico 3", 698251, nm3bl, nm3bb, nm3bw, nm3tl, nm3tb, nm3tw, 0.45, 0.51, 0.04)
 nmtlat = [nm1tl,nm2tl,nm3tl]
 nmtbla = [nm1tb,nm2tb,nm3tb]
 nmtwhi = [nm1tw,nm2tw,nm3tw]
 nmblat = [nm1bl,nm2bl,nm3bl]
 nmbbla = [nm1bb,nm2bb,nm3bb]
 nmbwhi = [nm1bw,nm2bw,nm3bw]
-calcStateResult("TOTAL NEW MEXICO", nmtlat, nmtbla, nmtwhi, nmblat, nmbbla, nmbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL NEW MEXICO", nmtlat, nmtbla, nmtwhi, nmblat, nmbbla, nmbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Nebraska 1", 616728, ne1bl, ne1bb, ne1bw, ne1tl, ne1tb, ne1tw, 0.45, 0.45, 0.1)
-calcResult("Nebraska 2", 652870, ne2bl, ne2bb, ne2bw, ne2tl, ne2tb, ne2tw, 0.45, 0.45, 0.1)
-calcResult("Nebraska 3", 602579, ne3bl, ne3bb, ne3bw, ne3tl, ne3tb, ne3tw, 0.45, 0.45, 0.1)
+calcResult("Nebraska 1", 616728, ne1bl, ne1bb, ne1bw, ne1tl, ne1tb, ne1tw, 0.45, 0.51, 0.04)
+calcResult("Nebraska 2", 652870, ne2bl, ne2bb, ne2bw, ne2tl, ne2tb, ne2tw, 0.45, 0.51, 0.04)
+calcResult("Nebraska 3", 602579, ne3bl, ne3bb, ne3bw, ne3tl, ne3tb, ne3tw, 0.45, 0.51, 0.04)
 netlat = [ne1tl,ne2tl,ne3tl]
 netbla = [ne1tb,ne2tb,ne3tb]
 netwhi = [ne1tw,ne2tw,ne3tw]
 neblat = [ne1bl,ne2bl,ne3bl]
 nebbla = [ne1bb,ne2bb,ne3bb]
 nebwhi = [ne1bw,ne2bw,ne3bw]
-calcStateResult("TOTAL NEBRASKA", netlat, netbla, netwhi, neblat, nebbla, nebwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL NEBRASKA", netlat, netbla, netwhi, neblat, nebbla, nebwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("New Hampshire 1", 673194, nh1bl, nh1bb, nh1bw, nh1tl, nh1tb, nh1tw, 0.45, 0.45, 0.1)
-calcResult("New Hampshire 2", 669601, nh2bl, nh2bb, nh2bw, nh2tl, nh2tb, nh2tw, 0.45, 0.45, 0.1)
+calcResult("New Hampshire 1", 673194, nh1bl, nh1bb, nh1bw, nh1tl, nh1tb, nh1tw, 0.45, 0.51, 0.04)
+calcResult("New Hampshire 2", 669601, nh2bl, nh2bb, nh2bw, nh2tl, nh2tb, nh2tw, 0.45, 0.51, 0.04)
 nhtlat = [nh1tl,nh2tl]
 nhtbla = [nh1tb,nh2tb]
 nhtwhi = [nh1tw,nh2tw]
 nhblat = [nh1bl,nh2bl]
 nhbbla = [nh1bb,nh2bb]
 nhbwhi = [nh1bw,nh2bw]
-calcStateResult("TOTAL NEW HAMPSHIRE", nhtlat, nhtbla, nhtwhi, nhblat, nhbbla, nhbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL NEW HAMPSHIRE", nhtlat, nhtbla, nhtwhi, nhblat, nhbbla, nhbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Nevada 1", 722331, nv1bl, nv1bb, nv1bw, nv1tl, nv1tb, nv1tw, 0.45, 0.45, 0.1)
-calcResult("Nevada 2", 713779, nv2bl, nv2bb, nv2bw, nv2tl, nv2tb, nv2tw, 0.45, 0.45, 0.1)
-calcResult("Nevada 3", 779908, nv3bl, nv3bb, nv3bw, nv3tl, nv3tb, nv3tw, 0.45, 0.45, 0.1)
-calcResult("Nevada 4", 724040, nv4bl, nv4bb, nv4bw, nv4tl, nv4tb, nv4tw, 0.45, 0.45, 0.1)
+calcResult("Nevada 1", 722331, nv1bl, nv1bb, nv1bw, nv1tl, nv1tb, nv1tw, 0.45, 0.51, 0.04)
+calcResult("Nevada 2", 713779, nv2bl, nv2bb, nv2bw, nv2tl, nv2tb, nv2tw, 0.45, 0.51, 0.04)
+calcResult("Nevada 3", 779908, nv3bl, nv3bb, nv3bw, nv3tl, nv3tb, nv3tw, 0.45, 0.51, 0.04)
+calcResult("Nevada 4", 724040, nv4bl, nv4bb, nv4bw, nv4tl, nv4tb, nv4tw, 0.45, 0.51, 0.04)
 nvtlat = [nv1tl,nv2tl,nv3tl,nv4tl]
 nvtbla = [nv1tb,nv2tb,nv3tb,nv4tb]
 nvtwhi = [nv1tw,nv2tw,nv3tw,nv4tw]
 nvblat = [nv1bl,nv2bl,nv3bl,nv4bl]
 nvbbla = [nv1bb,nv2bb,nv3bb,nv4bb]
 nvbwhi = [nv1bw,nv2bw,nv3bw,nv4bw]
-calcStateResult("TOTAL NEVADA", nvtlat, nvtbla, nvtwhi, nvblat, nvbbla, nvbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL NEVADA", nvtlat, nvtbla, nvtwhi, nvblat, nvbbla, nvbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("North Carolina 1", 750278, nc1bl, nc1bb, nc1bw, nc1tl, nc1tb, nc1tw, 0.45, 0.45, 0.1)
-calcResult("North Carolina 2", 819899, nc2bl, nc2bb, nc2bw, nc2tl, nc2tb, nc2tw, 0.45, 0.45, 0.1)
-calcResult("North Carolina 3", 749823, nc3bl, nc3bb, nc3bw, nc3tl, nc3tb, nc3tw, 0.45, 0.45, 0.1)
-calcResult("North Carolina 4", 847032, nc4bl, nc4bb, nc4bw, nc4tl, nc4tb, nc4tw, 0.45, 0.45, 0.1)
-calcResult("North Carolina 5", 751232, nc5bl, nc5bb, nc5bw, nc5tl, nc5tb, nc5tw, 0.45, 0.45, 0.1)
-calcResult("North Carolina 6", 763491, nc6bl, nc6bb, nc6bw, nc6tl, nc6tb, nc6tw, 0.45, 0.45, 0.1)
-calcResult("North Carolina 7", 780442, nc7bl, nc7bb, nc7bw, nc7tl, nc7tb, nc7tw, 0.45, 0.45, 0.1)
-calcResult("North Carolina 8", 774967, nc8bl, nc8bb, nc8bw, nc8tl, nc8tb, nc8tw, 0.45, 0.45, 0.1)
-calcResult("North Carolina 9", 778477, nc9bl, nc9bb, nc9bw, nc9tl, nc9tb, nc9tw, 0.45, 0.45, 0.1)
-calcResult("North Carolina 10", 759453, nc10bl, nc10bb, nc10bw, nc10tl, nc10tb, nc10tw, 0.45, 0.45, 0.1)
-calcResult("North Carolina 11", 768166, nc11bl, nc11bb, nc11bw, nc11tl, nc11tb, nc11tw, 0.45, 0.45, 0.1)
-calcResult("North Carolina 12", 849357, nc12bl, nc12bb, nc12bw, nc12tl, nc12tb, nc12tw, 0.45, 0.45, 0.1)
-calcResult("North Carolina 13", 768213, nc13bl, nc13bb, nc13bw, nc13tl, nc13tb, nc13tw, 0.45, 0.45, 0.1)
+calcResult("North Carolina 1", 750278, nc1bl, nc1bb, nc1bw, nc1tl, nc1tb, nc1tw, 0.45, 0.51, 0.04)
+calcResult("North Carolina 2", 819899, nc2bl, nc2bb, nc2bw, nc2tl, nc2tb, nc2tw, 0.45, 0.51, 0.04)
+calcResult("North Carolina 3", 749823, nc3bl, nc3bb, nc3bw, nc3tl, nc3tb, nc3tw, 0.45, 0.51, 0.04)
+calcResult("North Carolina 4", 847032, nc4bl, nc4bb, nc4bw, nc4tl, nc4tb, nc4tw, 0.45, 0.51, 0.04)
+calcResult("North Carolina 5", 751232, nc5bl, nc5bb, nc5bw, nc5tl, nc5tb, nc5tw, 0.45, 0.51, 0.04)
+calcResult("North Carolina 6", 763491, nc6bl, nc6bb, nc6bw, nc6tl, nc6tb, nc6tw, 0.45, 0.51, 0.04)
+calcResult("North Carolina 7", 780442, nc7bl, nc7bb, nc7bw, nc7tl, nc7tb, nc7tw, 0.45, 0.51, 0.04)
+calcResult("North Carolina 8", 774967, nc8bl, nc8bb, nc8bw, nc8tl, nc8tb, nc8tw, 0.45, 0.51, 0.04)
+calcResult("North Carolina 9", 778477, nc9bl, nc9bb, nc9bw, nc9tl, nc9tb, nc9tw, 0.45, 0.51, 0.04)
+calcResult("North Carolina 10", 759453, nc10bl, nc10bb, nc10bw, nc10tl, nc10tb, nc10tw, 0.45, 0.51, 0.04)
+calcResult("North Carolina 11", 768166, nc11bl, nc11bb, nc11bw, nc11tl, nc11tb, nc11tw, 0.45, 0.51, 0.04)
+calcResult("North Carolina 12", 849357, nc12bl, nc12bb, nc12bw, nc12tl, nc12tb, nc12tw, 0.45, 0.51, 0.04)
+calcResult("North Carolina 13", 768213, nc13bl, nc13bb, nc13bw, nc13tl, nc13tb, nc13tw, 0.45, 0.51, 0.04)
 nctlat = [nc1tl,nc2tl,nc3tl,nc4tl,nc5tl,nc6tl,nc7tl,nc8tl,nc9tl,nc10tl,nc11tl,nc12tl,nc13tl]
 nctbla = [nc1tb,nc2tb,nc3tb,nc4tb,nc5tb,nc6tb,nc7tb,nc8tb,nc9tb,nc10tb,nc11tb,nc12tb,nc13tb]
 nctwhi = [nc1tw,nc2tw,nc3tw,nc4tw,nc5tw,nc6tw,nc7tw,nc8tw,nc9tw,nc10tw,nc11tw,nc12tw,nc13tw]
 ncblat = [nc1bl,nc2bl,nc3bl,nc4bl,nc5bl,nc6bl,nc7bl,nc8bl,nc9bl,nc10bl,nc11bl,nc12bl,nc13bl]
 ncbbla = [nc1bb,nc2bb,nc3bb,nc4bb,nc5bb,nc6bb,nc7bb,nc8bb,nc9bb,nc10bb,nc11bb,nc12bb,nc13bb]
 ncbwhi = [nc1bw,nc2bw,nc3bw,nc4bw,nc5bw,nc6bw,nc7bw,nc8bw,nc9bw,nc10bw,nc11bw,nc12bw,nc13bw]
-calcStateResult("TOTAL NORTH CAROLINA", nctlat, nctbla, nctwhi, ncblat, ncbbla, ncbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL NORTH CAROLINA", nctlat, nctbla, nctwhi, ncblat, ncbbla, ncbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("New York 1", 717707, ny1bl, ny1bb, ny1bw, ny1tl, ny1tb, ny1tw, 0.45, 0.45, 0.1)
-calcResult("New York 2", 717708, ny2bl, ny2bb, ny2bw, ny2tl, ny2tb, ny2tw, 0.45, 0.45, 0.1)
-calcResult("New York 3", 717707, ny3bl, ny3bb, ny3bw, ny3tl, ny3tb, ny3tw, 0.45, 0.45, 0.1)
-calcResult("New York 4", 717708, ny4bl, ny4bb, ny4bw, ny4tl, ny4tb, ny4tw, 0.45, 0.45, 0.1)
-calcResult("New York 5", 717708, ny5bl, ny5bb, ny5bw, ny5tl, ny5tb, ny5tw, 0.45, 0.45, 0.1)
-calcResult("New York 6", 717707, ny6bl, ny6bb, ny6bw, ny6tl, ny6tb, ny6tw, 0.45, 0.45, 0.1)
-calcResult("New York 7", 717708, ny7bl, ny7bb, ny7bw, ny7tl, ny7tb, ny7tw, 0.45, 0.45, 0.1)
-calcResult("New York 8", 717708, ny8bl, ny8bb, ny8bw, ny8tl, ny8tb, ny8tw, 0.45, 0.45, 0.1)
-calcResult("New York 9", 717708, ny9bl, ny9bb, ny9bw, ny9tl, ny9tb, ny9tw, 0.45, 0.45, 0.1)
-calcResult("New York 10", 717707, ny10bl, ny10bb, ny10bw, ny10tl, ny10tb, ny10tw, 0.45, 0.45, 0.1)
-calcResult("New York 11", 717708, ny11bl, ny11bb, ny11bw, ny11tl, ny11tb, ny11tw, 0.45, 0.45, 0.1)
-calcResult("New York 12", 717707, ny12bl, ny12bb, ny12bw, ny12tl, ny12tb, ny12tw, 0.45, 0.45, 0.1)
-calcResult("New York 13", 717707, ny13bl, ny13bb, ny13bw, ny13tl, ny13tb, ny13tw, 0.45, 0.45, 0.1)
-calcResult("New York 14", 706440, ny14bl, ny14bb, ny14bw, ny14tl, ny14tb, ny14tw, 0.45, 0.45, 0.1)
-calcResult("New York 15", 743959, ny15bl, ny15bb, ny15bw, ny15tl, ny15tb, ny15tw, 0.45, 0.45, 0.1)
-calcResult("New York 16", 732981, ny16bl, ny16bb, ny16bw, ny16tl, ny16tb, ny16tw, 0.45, 0.45, 0.1)
-calcResult("New York 17", 741445, ny17bl, ny17bb, ny17bw, ny17tl, ny17tb, ny17tw, 0.45, 0.45, 0.1)
-calcResult("New York 18", 722226, ny18bl, ny18bb, ny18bw, ny18tl, ny18tb, ny18tw, 0.45, 0.45, 0.1)
-calcResult("New York 19", 700310, ny19bl, ny19bb, ny19bw, ny19tl, ny19tb, ny19tw, 0.45, 0.45, 0.1)
-calcResult("New York 20", 722529, ny20bl, ny20bb, ny20bw, ny20tl, ny20tb, ny20tw, 0.45, 0.45, 0.1)
-calcResult("New York 21", 701112, ny21bl, ny21bb, ny21bw, ny21tl, ny21tb, ny21tw, 0.45, 0.45, 0.1)
-calcResult("New York 22", 697372, ny22bl, ny22bb, ny22bw, ny22tl, ny22tb, ny22tw, 0.45, 0.45, 0.1)
-calcResult("New York 23", 693764, ny23bl, ny23bb, ny23bw, ny23tl, ny23tb, ny23tw, 0.45, 0.45, 0.1)
-calcResult("New York 24", 701664, ny24bl, ny24bb, ny24bw, ny24tl, ny24tb, ny24tw, 0.45, 0.45, 0.1)
-calcResult("New York 25", 718565, ny25bl, ny25bb, ny25bw, ny25tl, ny25tb, ny25tw, 0.45, 0.45, 0.1)
-calcResult("New York 26", 707190, ny26bl, ny26bb, ny26bw, ny26tl, ny26tb, ny26tw, 0.45, 0.45, 0.1)
-calcResult("New York 27", 712904, ny27bl, ny27bb, ny27bw, ny27tl, ny27tb, ny27tw, 0.45, 0.45, 0.1)
+calcResult("New York 1", 717707, ny1bl, ny1bb, ny1bw, ny1tl, ny1tb, ny1tw, 0.45, 0.51, 0.04)
+calcResult("New York 2", 717708, ny2bl, ny2bb, ny2bw, ny2tl, ny2tb, ny2tw, 0.45, 0.51, 0.04)
+calcResult("New York 3", 717707, ny3bl, ny3bb, ny3bw, ny3tl, ny3tb, ny3tw, 0.45, 0.51, 0.04)
+calcResult("New York 4", 717708, ny4bl, ny4bb, ny4bw, ny4tl, ny4tb, ny4tw, 0.45, 0.51, 0.04)
+calcResult("New York 5", 717708, ny5bl, ny5bb, ny5bw, ny5tl, ny5tb, ny5tw, 0.45, 0.51, 0.04)
+calcResult("New York 6", 717707, ny6bl, ny6bb, ny6bw, ny6tl, ny6tb, ny6tw, 0.45, 0.51, 0.04)
+calcResult("New York 7", 717708, ny7bl, ny7bb, ny7bw, ny7tl, ny7tb, ny7tw, 0.45, 0.51, 0.04)
+calcResult("New York 8", 717708, ny8bl, ny8bb, ny8bw, ny8tl, ny8tb, ny8tw, 0.45, 0.51, 0.04)
+calcResult("New York 9", 717708, ny9bl, ny9bb, ny9bw, ny9tl, ny9tb, ny9tw, 0.45, 0.51, 0.04)
+calcResult("New York 10", 717707, ny10bl, ny10bb, ny10bw, ny10tl, ny10tb, ny10tw, 0.45, 0.51, 0.04)
+calcResult("New York 11", 717708, ny11bl, ny11bb, ny11bw, ny11tl, ny11tb, ny11tw, 0.45, 0.51, 0.04)
+calcResult("New York 12", 717707, ny12bl, ny12bb, ny12bw, ny12tl, ny12tb, ny12tw, 0.45, 0.51, 0.04)
+calcResult("New York 13", 717707, ny13bl, ny13bb, ny13bw, ny13tl, ny13tb, ny13tw, 0.45, 0.51, 0.04)
+calcResult("New York 14", 706440, ny14bl, ny14bb, ny14bw, ny14tl, ny14tb, ny14tw, 0.45, 0.51, 0.04)
+calcResult("New York 15", 743959, ny15bl, ny15bb, ny15bw, ny15tl, ny15tb, ny15tw, 0.45, 0.51, 0.04)
+calcResult("New York 16", 732981, ny16bl, ny16bb, ny16bw, ny16tl, ny16tb, ny16tw, 0.45, 0.51, 0.04)
+calcResult("New York 17", 741445, ny17bl, ny17bb, ny17bw, ny17tl, ny17tb, ny17tw, 0.45, 0.51, 0.04)
+calcResult("New York 18", 722226, ny18bl, ny18bb, ny18bw, ny18tl, ny18tb, ny18tw, 0.45, 0.51, 0.04)
+calcResult("New York 19", 700310, ny19bl, ny19bb, ny19bw, ny19tl, ny19tb, ny19tw, 0.45, 0.51, 0.04)
+calcResult("New York 20", 722529, ny20bl, ny20bb, ny20bw, ny20tl, ny20tb, ny20tw, 0.45, 0.51, 0.04)
+calcResult("New York 21", 701112, ny21bl, ny21bb, ny21bw, ny21tl, ny21tb, ny21tw, 0.45, 0.51, 0.04)
+calcResult("New York 22", 697372, ny22bl, ny22bb, ny22bw, ny22tl, ny22tb, ny22tw, 0.45, 0.51, 0.04)
+calcResult("New York 23", 693764, ny23bl, ny23bb, ny23bw, ny23tl, ny23tb, ny23tw, 0.45, 0.51, 0.04)
+calcResult("New York 24", 701664, ny24bl, ny24bb, ny24bw, ny24tl, ny24tb, ny24tw, 0.45, 0.51, 0.04)
+calcResult("New York 25", 718565, ny25bl, ny25bb, ny25bw, ny25tl, ny25tb, ny25tw, 0.45, 0.51, 0.04)
+calcResult("New York 26", 707190, ny26bl, ny26bb, ny26bw, ny26tl, ny26tb, ny26tw, 0.45, 0.51, 0.04)
+calcResult("New York 27", 712904, ny27bl, ny27bb, ny27bw, ny27tl, ny27tb, ny27tw, 0.45, 0.51, 0.04)
 nytlat = [ny1tl,ny2tl,ny3tl,ny4tl,ny5tl,ny6tl,ny7tl,ny8tl,ny9tl,ny10tl,ny11tl,ny12tl,ny13tl,ny14tl,ny15tl,ny16tl,ny17tl,ny18tl,ny19tl,ny20tl,ny21tl,ny22tl,ny23tl,ny24tl,ny25tl,ny26tl,ny27tl]
 nytbla = [ny1tb,ny2tb,ny3tb,ny4tb,ny5tb,ny6tb,ny7tb,ny8tb,ny9tb,ny10tb,ny11tb,ny12tb,ny13tb,ny14tb,ny15tb,ny16tb,ny17tb,ny18tb,ny19tb,ny20tb,ny21tb,ny22tb,ny23tb,ny24tb,ny25tb,ny26tb,ny27tb]
 nytwhi = [ny1tw,ny2tw,ny3tw,ny4tw,ny5tw,ny6tw,ny7tw,ny8tw,ny9tw,ny10tw,ny11tw,ny12tw,ny13tw,ny14tw,ny15tw,ny16tw,ny17tw,ny18tw,ny19tw,ny20tw,ny21tw,ny22tw,ny23tw,ny24tw,ny25tw,ny26tw,ny27tw]
 nyblat = [ny1bl,ny2bl,ny3bl,ny4bl,ny5bl,ny6bl,ny7bl,ny8bl,ny9bl,ny10bl,ny11bl,ny12bl,ny13bl,ny14bl,ny15bl,ny16bl,ny17bl,ny18bl,ny19bl,ny20bl,ny21bl,ny22bl,ny23bl,ny24bl,ny25bl,ny26bl,ny27bl]
 nybbla = [ny1bb,ny2bb,ny3bb,ny4bb,ny5bb,ny6bb,ny7bb,ny8bb,ny9bb,ny10bb,ny11bb,ny12bb,ny13bb,ny14bb,ny15bb,ny16bb,ny17bb,ny18bb,ny19bb,ny20bb,ny21bb,ny22bb,ny23bb,ny24bb,ny25bb,ny26bb,ny27bb]
 nybwhi = [ny1bw,ny2bw,ny3bw,ny4bw,ny5bw,ny6bw,ny7bw,ny8bw,ny9bw,ny10bw,ny11bw,ny12bw,ny13bw,ny14bw,ny15bw,ny16bw,ny17bw,ny18bw,ny19bw,ny20bw,ny21bw,ny22bw,ny23bw,ny24bw,ny25bw,ny26bw,ny27bw]
-calcStateResult("TOTAL NEW YORK", nytlat, nytbla, nytwhi, nyblat, nybbla, nybwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL NEW YORK", nytlat, nytbla, nytwhi, nyblat, nybbla, nybwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Ohio 1", 739216, oh1bl, oh1bb, oh1bw, oh1tl, oh1tb, oh1tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 2", 724451, oh2bl, oh2bb, oh2bw, oh2tl, oh2tb, oh2tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 3", 787306, oh3bl, oh3bb, oh3bw, oh3tl, oh3tb, oh3tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 4", 707219, oh4bl, oh4bb, oh4bw, oh4tl, oh4tb, oh4tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 5", 720730, oh5bl, oh5bb, oh5bw, oh5tl, oh5tb, oh5tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 6", 703190, oh6bl, oh6bb, oh6bw, oh6tl, oh6tb, oh6tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 7", 728336, oh7bl, oh7bb, oh7bw, oh7tl, oh7tb, oh7tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 8", 727853, oh8bl, oh8bb, oh8bw, oh8tl, oh8tb, oh8tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 9", 706201, oh9bl, oh9bb, oh9bw, oh9tl, oh9tb, oh9tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 10", 720354, oh10bl, oh10bb, oh10bw, oh10tl, oh10tb, oh10tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 11", 692226, oh11bl, oh11bb, oh11bw, oh11tl, oh11tb, oh11tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 12", 789634, oh12bl, oh12bb, oh12bw, oh12tl, oh12tb, oh12tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 13", 709683, oh13bl, oh13bb, oh13bw, oh13tl, oh13tb, oh13tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 14", 710875, oh14bl, oh14bb, oh14bw, oh14tl, oh14tb, oh14tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 15", 743623, oh15bl, oh15bb, oh15bw, oh15tl, oh15tb, oh15tw, 0.45, 0.45, 0.1)
-calcResult("Ohio 16", 727600, oh16bl, oh16bb, oh16bw, oh16tl, oh16tb, oh16tw, 0.45, 0.45, 0.1)
+calcResult("Ohio 1", 739216, oh1bl, oh1bb, oh1bw, oh1tl, oh1tb, oh1tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 2", 724451, oh2bl, oh2bb, oh2bw, oh2tl, oh2tb, oh2tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 3", 787306, oh3bl, oh3bb, oh3bw, oh3tl, oh3tb, oh3tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 4", 707219, oh4bl, oh4bb, oh4bw, oh4tl, oh4tb, oh4tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 5", 720730, oh5bl, oh5bb, oh5bw, oh5tl, oh5tb, oh5tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 6", 703190, oh6bl, oh6bb, oh6bw, oh6tl, oh6tb, oh6tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 7", 728336, oh7bl, oh7bb, oh7bw, oh7tl, oh7tb, oh7tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 8", 727853, oh8bl, oh8bb, oh8bw, oh8tl, oh8tb, oh8tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 9", 706201, oh9bl, oh9bb, oh9bw, oh9tl, oh9tb, oh9tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 10", 720354, oh10bl, oh10bb, oh10bw, oh10tl, oh10tb, oh10tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 11", 692226, oh11bl, oh11bb, oh11bw, oh11tl, oh11tb, oh11tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 12", 789634, oh12bl, oh12bb, oh12bw, oh12tl, oh12tb, oh12tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 13", 709683, oh13bl, oh13bb, oh13bw, oh13tl, oh13tb, oh13tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 14", 710875, oh14bl, oh14bb, oh14bw, oh14tl, oh14tb, oh14tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 15", 743623, oh15bl, oh15bb, oh15bw, oh15tl, oh15tb, oh15tw, 0.45, 0.51, 0.04)
+calcResult("Ohio 16", 727600, oh16bl, oh16bb, oh16bw, oh16tl, oh16tb, oh16tw, 0.45, 0.51, 0.04)
 ohtlat = [oh1tl,oh2tl,oh3tl,oh4tl,oh5tl,oh6tl,oh7tl,oh8tl,oh9tl,oh10tl,oh11tl,oh12tl,oh13tl,oh14tl,oh15tl,oh16tl]
 ohtbla = [oh1tb,oh2tb,oh3tb,oh4tb,oh5tb,oh6tb,oh7tb,oh8tb,oh9tb,oh10tb,oh11tb,oh12tb,oh13tb,oh14tb,oh15tb,oh16tb]
 ohtwhi = [oh1tw,oh2tw,oh3tw,oh4tw,oh5tw,oh6tw,oh7tw,oh8tw,oh9tw,oh10tw,oh11tw,oh12tw,oh13tw,oh14tw,oh15tw,oh16tw]
 ohblat = [oh1bl,oh2bl,oh3bl,oh4bl,oh5bl,oh6bl,oh7bl,oh8bl,oh9bl,oh10bl,oh11bl,oh12bl,oh13bl,oh14bl,oh15bl,oh16bl]
 ohbbla = [oh1bb,oh2bb,oh3bb,oh4bb,oh5bb,oh6bb,oh7bb,oh8bb,oh9bb,oh10bb,oh11bb,oh12bb,oh13bb,oh14bb,oh15bb,oh16bb]
 ohbwhi = [oh1bw,oh2bw,oh3bw,oh4bw,oh5bw,oh6bw,oh7bw,oh8bw,oh9bw,oh10bw,oh11bw,oh12bw,oh13bw,oh14bw,oh15bw,oh16bw]
-calcStateResult("TOTAL OHIO", ohtlat, ohtbla, ohtwhi, ohblat, ohbbla, ohbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL OHIO", ohtlat, ohtbla, ohtwhi, ohblat, ohbbla, ohbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Oregon 1", 844175, or1bl, or1bb, or1bw, or1tl, or1tb, or1tw, 0.45, 0.45, 0.1)
-calcResult("Oregon 2", 684280, or2bl, or2bb, or2bw, or2tl, or2tb, or2tw, 0.45, 0.45, 0.1)
-calcResult("Oregon 3", 684279, or3bl, or3bb, or3bw, or3tl, or3tb, or3tw, 0.45, 0.45, 0.1)
-calcResult("Oregon 4", 684280, or4bl, or4bb, or4bw, or4tl, or4tb, or4tw, 0.45, 0.45, 0.1)
-calcResult("Oregon 5", 684280, or5bl, or5bb, or5bw, or5tl, or5tb, or5tw, 0.45, 0.45, 0.1)
+calcResult("Oregon 1", 844175, or1bl, or1bb, or1bw, or1tl, or1tb, or1tw, 0.45, 0.51, 0.04)
+calcResult("Oregon 2", 684280, or2bl, or2bb, or2bw, or2tl, or2tb, or2tw, 0.45, 0.51, 0.04)
+calcResult("Oregon 3", 684279, or3bl, or3bb, or3bw, or3tl, or3tb, or3tw, 0.45, 0.51, 0.04)
+calcResult("Oregon 4", 684280, or4bl, or4bb, or4bw, or4tl, or4tb, or4tw, 0.45, 0.51, 0.04)
+calcResult("Oregon 5", 684280, or5bl, or5bb, or5bw, or5tl, or5tb, or5tw, 0.45, 0.51, 0.04)
 ortlat = [or1tl,or2tl,or3tl,or4tl,or5tl]
 ortbla = [or1tb,or2tb,or3tb,or4tb,or5tb]
 ortwhi = [or1tw,or2tw,or3tw,or4tw,or5tw]
 orblat = [or1bl,or2bl,or3bl,or4bl,or5bl]
 orbbla = [or1bb,or2bb,or3bb,or4bb,or5bb]
 orbwhi = [or1bw,or2bw,or3bw,or4bw,or5bw]
-calcStateResult("TOTAL OREGON", ortlat, ortbla, ortwhi, orblat, orbbla, orbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL OREGON", ortlat, ortbla, ortwhi, orblat, orbbla, orbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Oklahoma 1", 754310, ok1bl, ok1bb, ok1bw, ok1tl, ok1tb, ok1tw, 0.45, 0.45, 0.1)
-calcResult("Oklahoma 2", 690131, ok2bl, ok2bb, ok2bw, ok2tl, ok2tb, ok2tw, 0.45, 0.45, 0.1)
-calcResult("Oklahoma 3", 690131, ok3bl, ok3bb, ok3bw, ok3tl, ok3tb, ok3tw, 0.45, 0.45, 0.1)
-calcResult("Oklahoma 4", 785424, ok4bl, ok4bb, ok4bw, ok4tl, ok4tb, ok4tw, 0.45, 0.45, 0.1)
-calcResult("Oklahoma 5", 818162, ok5bl, ok5bb, ok5bw, ok5tl, ok5tb, ok5tw, 0.45, 0.45, 0.1)
+calcResult("Oklahoma 1", 754310, ok1bl, ok1bb, ok1bw, ok1tl, ok1tb, ok1tw, 0.45, 0.51, 0.04)
+calcResult("Oklahoma 2", 690131, ok2bl, ok2bb, ok2bw, ok2tl, ok2tb, ok2tw, 0.45, 0.51, 0.04)
+calcResult("Oklahoma 3", 690131, ok3bl, ok3bb, ok3bw, ok3tl, ok3tb, ok3tw, 0.45, 0.51, 0.04)
+calcResult("Oklahoma 4", 785424, ok4bl, ok4bb, ok4bw, ok4tl, ok4tb, ok4tw, 0.45, 0.51, 0.04)
+calcResult("Oklahoma 5", 818162, ok5bl, ok5bb, ok5bw, ok5tl, ok5tb, ok5tw, 0.45, 0.51, 0.04)
 oktlat = [ok1tl,ok2tl,ok3tl,ok4tl,ok5tl]
 oktbla = [ok1tb,ok2tb,ok3tb,ok4tb,ok5tb]
 oktwhi = [ok1tw,ok2tw,ok3tw,ok4tw,ok5tw]
 okblat = [ok1bl,ok2bl,ok3bl,ok4bl,ok5bl]
 okbbla = [ok1bb,ok2bb,ok3bb,ok4bb,ok5bb]
 okbwhi = [ok1bw,ok2bw,ok3bw,ok4bw,ok5bw]
-calcStateResult("TOTAL OKLAHOMA", oktlat, oktbla, oktwhi, okblat, okbbla, okbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL OKLAHOMA", oktlat, oktbla, oktwhi, okblat, okbbla, okbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Hawaii 1", 692981, hi1bl, hi1bb, hi1bw, hi1tl, hi1tb, hi1tw, 0.45, 0.45, 0.1)
-calcResult("Hawaii 2", 699332, hi2bl, hi2bb, hi2bw, hi2tl, hi2tb, hi2tw, 0.45, 0.45, 0.1)
+calcResult("Hawaii 1", 692981, hi1bl, hi1bb, hi1bw, hi1tl, hi1tb, hi1tw, 0.45, 0.51, 0.04)
+calcResult("Hawaii 2", 699332, hi2bl, hi2bb, hi2bw, hi2tl, hi2tb, hi2tw, 0.45, 0.51, 0.04)
 hitlat = [hi1tl,hi2tl]
 hitbla = [hi1tb,hi2tb]
 hitwhi = [hi1tw,hi2tw]
 hiblat = [hi1bl,hi2bl]
 hibbla = [hi1bb,hi2bb]
 hibwhi = [hi1bw,hi2bw]
-calcStateResult("TOTAL HAWAII", hitlat, hitbla, hitwhi, hiblat, hibbla, hibwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL HAWAII", hitlat, hitbla, hitwhi, hiblat, hibbla, hibwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("South Carolina 1", 668668, sc1bl, sc1bb, sc1bw, sc1tl, sc1tb, sc1tw, 0.45, 0.45, 0.1)
-calcResult("South Carolina 2", 668668, sc2bl, sc2bb, sc2bw, sc2tl, sc2tb, sc2tw, 0.45, 0.45, 0.1)
-calcResult("South Carolina 3", 668668, sc3bl, sc3bb, sc3bw, sc3tl, sc3tb, sc3tw, 0.45, 0.45, 0.1)
-calcResult("South Carolina 4", 709631, sc4bl, sc4bb, sc4bw, sc4tl, sc4tb, sc4tw, 0.45, 0.45, 0.1)
-calcResult("South Carolina 5", 678910, sc5bl, sc5bb, sc5bw, sc5tl, sc5tb, sc5tw, 0.45, 0.45, 0.1)
-calcResult("South Carolina 6", 668670, sc6bl, sc6bb, sc6bw, sc6tl, sc6tb, sc6tw, 0.45, 0.45, 0.1 )
-calcResult("South Carolina 7", 667752, sc7bl, sc7bb, sc7bw, sc7tl, sc7tb, sc7tw, 0.45, 0.45, 0.1)
+calcResult("South Carolina 1", 668668, sc1bl, sc1bb, sc1bw, sc1tl, sc1tb, sc1tw, 0.45, 0.51, 0.04)
+calcResult("South Carolina 2", 668668, sc2bl, sc2bb, sc2bw, sc2tl, sc2tb, sc2tw, 0.45, 0.51, 0.04)
+calcResult("South Carolina 3", 668668, sc3bl, sc3bb, sc3bw, sc3tl, sc3tb, sc3tw, 0.45, 0.51, 0.04)
+calcResult("South Carolina 4", 709631, sc4bl, sc4bb, sc4bw, sc4tl, sc4tb, sc4tw, 0.45, 0.51, 0.04)
+calcResult("South Carolina 5", 678910, sc5bl, sc5bb, sc5bw, sc5tl, sc5tb, sc5tw, 0.45, 0.51, 0.04)
+calcResult("South Carolina 6", 668670, sc6bl, sc6bb, sc6bw, sc6tl, sc6tb, sc6tw, 0.45, 0.51, 0.04 )
+calcResult("South Carolina 7", 667752, sc7bl, sc7bb, sc7bw, sc7tl, sc7tb, sc7tw, 0.45, 0.51, 0.04)
 sctlat = [sc1tl,sc2tl,sc3tl,sc4tl,sc5tl, sc6tl, sc7tl]
 sctbla = [sc1tb,sc2tb,sc3tb,sc4tb,sc5tb, sc6tb, sc7tb]
 sctwhi = [sc1tw,sc2tw,sc3tw,sc4tw,sc5tw, sc6tw, sc7tw]
 scblat = [sc1bl,sc2bl,sc3bl,sc4bl,sc5bl, sc6bl, sc7bl]
 scbbla = [sc1bb,sc2bb,sc3bb,sc4bb,sc5bb, sc6bb, sc7bb]
 scbwhi = [sc1bw,sc2bw,sc3bw,sc4bw,sc5bw, sc6bw, sc7bw]
-calcStateResult("TOTAL SOUTH CAROLINA", sctlat, sctbla, sctwhi, scblat, scbbla, scbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL SOUTH CAROLINA", sctlat, sctbla, sctwhi, scblat, scbbla, scbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Texas 1", 717735, tx1bl, tx1bb, tx1bw, tx1tl, tx1tb, tx1tw, 0.45, 0.45, 0.1)
-calcResult("Texas 2", 779662, tx2bl, tx2bb, tx2bw, tx2tl, tx2tb, tx2tw, 0.45, 0.45, 0.1)
-calcResult("Texas 3", 842800, tx3bl, tx3bb, tx3bw, tx3tl, tx3tb, tx3tw, 0.45, 0.45, 0.1)
-calcResult("Texas 4", 747188, tx4bl, tx4bb, tx4bw, tx4tl, tx4tb, tx4tw, 0.45, 0.45, 0.1)
-calcResult("Texas 5", 749808, tx5bl, tx5bb, tx5bw, tx5tl, tx5tb, tx5tw, 0.45, 0.45, 0.1)
-calcResult("Texas 6", 770255, tx6bl, tx6bb, tx6bw, tx6tl, tx6tb, tx6tw, 0.45, 0.45, 0.1)
-calcResult("Texas 7", 770606, tx7bl, tx7bb, tx7bw, tx7tl, tx7tb, tx7tw, 0.45, 0.45, 0.1)
-calcResult("Texas 8", 813519, tx8bl, tx8bb, tx8bw, tx8tl, tx8tb, tx8tw, 0.45, 0.45, 0.1)
-calcResult("Texas 9", 793923, tx9bl, tx9bb, tx9bw, tx9tl, tx9tb, tx9tw, 0.45, 0.45, 0.1)
-calcResult("Texas 10", 823296, tx10bl, tx10bb, tx10bw, tx10tl, tx10tb, tx10tw, 0.45, 0.45, 0.1)
-calcResult("Texas 11", 759136, tx11bl, tx11bb, tx11bw, tx11tl, tx11tb, tx11tw, 0.45, 0.45, 0.1)
-calcResult("Texas 12", 806551, tx12bl, tx12bb, tx12bw, tx12tl, tx12tb, tx12tw, 0.45, 0.45, 0.1)
-calcResult("Texas 13", 707421, tx13bl, tx13bb, tx13bw, tx13tl, tx13tb, tx13tw, 0.45, 0.45, 0.1)
-calcResult("Texas 14", 753147, tx14bl, tx14bb, tx14bw, tx14tl, tx14tb, tx14tw, 0.45, 0.45, 0.1)
-calcResult("Texas 15", 776887, tx15bl, tx15bb, tx15bw, tx15tl, tx15tb, tx15tw, 0.45, 0.45, 0.1)
-calcResult("Texas 16", 742384, tx16bl, tx16bb, tx16bw, tx16tl, tx16tb, tx16tw, 0.45, 0.45, 0.1)
-calcResult("Texas 17", 761922, tx17bl, tx17bb, tx17bw, tx17tl, tx17tb, tx17tw, 0.45, 0.45, 0.1)
-calcResult("Texas 18", 787352, tx18bl, tx18bb, tx18bw, tx18tl, tx18tb, tx18tw, 0.45, 0.45, 0.1)
-calcResult("Texas 19", 734532, tx19bl, tx19bb, tx19bw, tx19tl, tx19tb, tx19tw, 0.45, 0.45, 0.1)
-calcResult("Texas 20", 791141, tx20bl, tx20bb, tx20bw, tx20tl, tx20tb, tx20tw, 0.45, 0.45, 0.1)
-calcResult("Texas 21", 804470, tx21bl, tx21bb, tx21bw, tx21tl, tx21tb, tx21tw, 0.45, 0.45, 0.1)
-calcResult("Texas 22", 881407, tx22bl, tx22bb, tx22bw, tx22tl, tx22tb, tx22tw, 0.45, 0.45, 0.1)
-calcResult("Texas 23", 772944, tx23bl, tx23bb, tx23bw, tx23tl, tx23tb, tx23tw, 0.45, 0.45, 0.1)
-calcResult("Texas 24", 790319, tx24bl, tx24bb, tx24bw, tx24tl, tx24tb, tx24tw, 0.45, 0.45, 0.1)
-calcResult("Texas 25", 762897, tx25bl, tx25bb, tx25bw, tx25tl, tx25tb, tx25tw, 0.45, 0.45, 0.1)
-calcResult("Texas 26", 845376, tx26bl, tx26bb, tx26bw, tx26tl, tx26tb, tx26tw, 0.45, 0.45, 0.1)
-calcResult("Texas 27", 736778, tx27bl, tx27bb, tx27bw, tx27tl, tx27tb, tx27tw, 0.45, 0.45, 0.1)
-calcResult("Texas 28", 736150, tx28bl, tx28bb, tx28bw, tx28tl, tx28tb, tx28tw, 0.45, 0.45, 0.1)
-calcResult("Texas 29", 765403, tx29bl, tx29bb, tx29bw, tx29tl, tx29tb, tx29tw, 0.45, 0.45, 0.1)
-calcResult("Texas 30", 749289, tx30bl, tx30bb, tx30bw, tx30tl, tx30tb, tx30tw, 0.45, 0.45, 0.1)
-calcResult("Texas 31", 830908, tx31bl, tx31bb, tx31bw, tx31tl, tx31tb, tx31tw, 0.45, 0.45, 0.1)
-calcResult("Texas 32", 753715, tx32bl, tx32bb, tx32bw, tx32tl, tx32tb, tx32tw, 0.45, 0.45, 0.1)
-calcResult("Texas 33", 764730, tx33bl, tx33bb, tx33bw, tx33tl, tx33tb, tx33tw, 0.45, 0.45, 0.1)
-calcResult("Texas 34", 723156, tx34bl, tx34bb, tx34bw, tx34tl, tx34tb, tx34tw, 0.45, 0.45, 0.1)
-calcResult("Texas 35", 822601, tx35bl, tx35bb, tx35bw, tx35tl, tx35tb, tx35tw, 0.45, 0.45, 0.1)
-calcResult("Texas 36", 732975, tx36bl, tx36bb, tx36bw, tx36tl, tx36tb, tx36tw, 0.45, 0.45, 0.1)
+calcResult("Texas 1", 717735, tx1bl, tx1bb, tx1bw, tx1tl, tx1tb, tx1tw, 0.45, 0.51, 0.04)
+calcResult("Texas 2", 779662, tx2bl, tx2bb, tx2bw, tx2tl, tx2tb, tx2tw, 0.45, 0.51, 0.04)
+calcResult("Texas 3", 842800, tx3bl, tx3bb, tx3bw, tx3tl, tx3tb, tx3tw, 0.45, 0.51, 0.04)
+calcResult("Texas 4", 747188, tx4bl, tx4bb, tx4bw, tx4tl, tx4tb, tx4tw, 0.45, 0.51, 0.04)
+calcResult("Texas 5", 749808, tx5bl, tx5bb, tx5bw, tx5tl, tx5tb, tx5tw, 0.45, 0.51, 0.04)
+calcResult("Texas 6", 770255, tx6bl, tx6bb, tx6bw, tx6tl, tx6tb, tx6tw, 0.45, 0.51, 0.04)
+calcResult("Texas 7", 770606, tx7bl, tx7bb, tx7bw, tx7tl, tx7tb, tx7tw, 0.45, 0.51, 0.04)
+calcResult("Texas 8", 813519, tx8bl, tx8bb, tx8bw, tx8tl, tx8tb, tx8tw, 0.45, 0.51, 0.04)
+calcResult("Texas 9", 793923, tx9bl, tx9bb, tx9bw, tx9tl, tx9tb, tx9tw, 0.45, 0.51, 0.04)
+calcResult("Texas 10", 823296, tx10bl, tx10bb, tx10bw, tx10tl, tx10tb, tx10tw, 0.45, 0.51, 0.04)
+calcResult("Texas 11", 759136, tx11bl, tx11bb, tx11bw, tx11tl, tx11tb, tx11tw, 0.45, 0.51, 0.04)
+calcResult("Texas 12", 806551, tx12bl, tx12bb, tx12bw, tx12tl, tx12tb, tx12tw, 0.45, 0.51, 0.04)
+calcResult("Texas 13", 707421, tx13bl, tx13bb, tx13bw, tx13tl, tx13tb, tx13tw, 0.45, 0.51, 0.04)
+calcResult("Texas 14", 753147, tx14bl, tx14bb, tx14bw, tx14tl, tx14tb, tx14tw, 0.45, 0.51, 0.04)
+calcResult("Texas 15", 776887, tx15bl, tx15bb, tx15bw, tx15tl, tx15tb, tx15tw, 0.45, 0.51, 0.04)
+calcResult("Texas 16", 742384, tx16bl, tx16bb, tx16bw, tx16tl, tx16tb, tx16tw, 0.45, 0.51, 0.04)
+calcResult("Texas 17", 761922, tx17bl, tx17bb, tx17bw, tx17tl, tx17tb, tx17tw, 0.45, 0.51, 0.04)
+calcResult("Texas 18", 787352, tx18bl, tx18bb, tx18bw, tx18tl, tx18tb, tx18tw, 0.45, 0.51, 0.04)
+calcResult("Texas 19", 734532, tx19bl, tx19bb, tx19bw, tx19tl, tx19tb, tx19tw, 0.45, 0.51, 0.04)
+calcResult("Texas 20", 791141, tx20bl, tx20bb, tx20bw, tx20tl, tx20tb, tx20tw, 0.45, 0.51, 0.04)
+calcResult("Texas 21", 804470, tx21bl, tx21bb, tx21bw, tx21tl, tx21tb, tx21tw, 0.45, 0.51, 0.04)
+calcResult("Texas 22", 881407, tx22bl, tx22bb, tx22bw, tx22tl, tx22tb, tx22tw, 0.45, 0.51, 0.04)
+calcResult("Texas 23", 772944, tx23bl, tx23bb, tx23bw, tx23tl, tx23tb, tx23tw, 0.45, 0.51, 0.04)
+calcResult("Texas 24", 790319, tx24bl, tx24bb, tx24bw, tx24tl, tx24tb, tx24tw, 0.45, 0.51, 0.04)
+calcResult("Texas 25", 762897, tx25bl, tx25bb, tx25bw, tx25tl, tx25tb, tx25tw, 0.45, 0.51, 0.04)
+calcResult("Texas 26", 845376, tx26bl, tx26bb, tx26bw, tx26tl, tx26tb, tx26tw, 0.45, 0.51, 0.04)
+calcResult("Texas 27", 736778, tx27bl, tx27bb, tx27bw, tx27tl, tx27tb, tx27tw, 0.45, 0.51, 0.04)
+calcResult("Texas 28", 736150, tx28bl, tx28bb, tx28bw, tx28tl, tx28tb, tx28tw, 0.45, 0.51, 0.04)
+calcResult("Texas 29", 765403, tx29bl, tx29bb, tx29bw, tx29tl, tx29tb, tx29tw, 0.45, 0.51, 0.04)
+calcResult("Texas 30", 749289, tx30bl, tx30bb, tx30bw, tx30tl, tx30tb, tx30tw, 0.45, 0.51, 0.04)
+calcResult("Texas 31", 830908, tx31bl, tx31bb, tx31bw, tx31tl, tx31tb, tx31tw, 0.45, 0.51, 0.04)
+calcResult("Texas 32", 753715, tx32bl, tx32bb, tx32bw, tx32tl, tx32tb, tx32tw, 0.45, 0.51, 0.04)
+calcResult("Texas 33", 764730, tx33bl, tx33bb, tx33bw, tx33tl, tx33tb, tx33tw, 0.45, 0.51, 0.04)
+calcResult("Texas 34", 723156, tx34bl, tx34bb, tx34bw, tx34tl, tx34tb, tx34tw, 0.45, 0.51, 0.04)
+calcResult("Texas 35", 822601, tx35bl, tx35bb, tx35bw, tx35tl, tx35tb, tx35tw, 0.45, 0.51, 0.04)
+calcResult("Texas 36", 732975, tx36bl, tx36bb, tx36bw, tx36tl, tx36tb, tx36tw, 0.45, 0.51, 0.04)
 txtlat = [tx1tl,tx2tl,tx3tl,tx4tl,tx5tl,tx6tl,tx7tl,tx8tl,tx9tl,tx10tl,tx11tl,tx12tl,tx13tl,tx14tl,tx15tl,tx16tl,tx17tl,tx18tl,tx19tl,tx20tl,tx21tl,tx22tl,tx23tl,tx24tl,tx25tl,tx26tl,tx27tl,tx28tl,tx29tl,tx30tl,tx31tl,tx32tl,tx33tl,tx34tl,tx35tl,tx36tl]
 txtbla = [tx1tb,tx2tb,tx3tb,tx4tb,tx5tb,tx6tb,tx7tb,tx8tb,tx9tb,tx10tb,tx11tb,tx12tb,tx13tb,tx14tb,tx15tb,tx16tb,tx17tb,tx18tb,tx19tb,tx20tb,tx21tb,tx22tb,tx23tb,tx24tb,tx25tb,tx26tb,tx27tb,tx28tb,tx29tb,tx30tb,tx31tb,tx32tb,tx33tb,tx34tb,tx35tb,tx36tb]
 txtwhi = [tx1tw,tx2tw,tx3tw,tx4tw,tx5tw,tx6tw,tx7tw,tx8tw,tx9tw,tx10tw,tx11tw,tx12tw,tx13tw,tx14tw,tx15tw,tx16tw,tx17tw,tx18tw,tx19tw,tx20tw,tx21tw,tx22tw,tx23tw,tx24tw,tx25tw,tx26tw,tx27tw,tx28tw,tx29tw,tx30tw,tx31tw,tx32tw,tx33tw,tx34tw,tx35tw,tx36tw]
 txblat = [tx1bl,tx2bl,tx3bl,tx4bl,tx5bl,tx6bl,tx7bl,tx8bl,tx9bl,tx10bl,tx11bl,tx12bl,tx13bl,tx14bl,tx15bl,tx16bl,tx17bl,tx18bl,tx19bl,tx20bl,tx21bl,tx22bl,tx23bl,tx24bl,tx25bl,tx26bl,tx27bl,tx28bl,tx29bl,tx30bl,tx31bl,tx32bl,tx33bl,tx34bl,tx35bl,tx36bl]
 txbbla = [tx1bb,tx2bb,tx3bb,tx4bb,tx5bb,tx6bb,tx7bb,tx8bb,tx9bb,tx10bb,tx11bb,tx12bb,tx13bb,tx14bb,tx15bb,tx16bb,tx17bb,tx18bb,tx19bb,tx20bb,tx21bb,tx22bb,tx23bb,tx24bb,tx25bb,tx26bb,tx27bb,tx28bb,tx29bb,tx30bb,tx31bb,tx32bb,tx33bb,tx34bb,tx35bb,tx36bb]
 txbwhi = [tx1bw,tx2bw,tx3bw,tx4bw,tx5bw,tx6bw,tx7bw,tx8bw,tx9bw,tx10bw,tx11bw,tx12bw,tx13bw,tx14bw,tx15bw,tx16bw,tx17bw,tx18bw,tx19bw,tx20bw,tx21bw,tx22bw,tx23bw,tx24bw,tx25bw,tx26bw,tx27bw,tx28bw,tx29bw,tx30bw,tx31bw,tx32bw,tx33bw,tx34bw,tx35bw,tx36bw]
-calcStateResult("TOTAL TEXAS", txtlat, txtbla, txtwhi, txblat, txbbla, txbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL TEXAS", txtlat, txtbla, txtwhi, txblat, txbbla, txbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Tennessee 1", 714504, tn1bl, tn1bb, tn1bw, tn1tl, tn1tb, tn1tw, 0.45, 0.45, 0.1)
-calcResult("Tennessee 2", 740182, tn2bl, tn2bb, tn2bw, tn2tl, tn2tb, tn2tw, 0.45, 0.45, 0.1)
-calcResult("Tennessee 3", 728254, tn3bl, tn3bb, tn3bw, tn3tl, tn3tb, tn3tw, 0.45, 0.45, 0.1)
-calcResult("Tennessee 4", 767655, tn4bl, tn4bb, tn4bw, tn4tl, tn4tb, tn4tw, 0.45, 0.45, 0.1)
-calcResult("Tennessee 5", 762535, tn5bl, tn5bb, tn5bw, tn5tl, tn5tb, tn5tw, 0.45, 0.45, 0.1 )
-calcResult("Tennessee 6", 761538, tn6bl, tn6bb, tn6bw, tn6tl, tn6tb, tn6tw, 0.45, 0.45, 0.1)
-calcResult("Tennessee 7", 765730, tn7bl, tn7bb, tn7bw, tn7tl, tn7tb, tn7tw, 0.45, 0.45, 0.1)
-calcResult("Tennessee 8", 706468, tn8bl, tn8bb, tn8bw, tn8tl, tn8tb, tn8tw, 0.45, 0.45, 0.1)
-calcResult("Tennessee 9", 704328, tn9bl, tn9bb, tn9bw, tn9tl, tn9tb, tn9tw, 0.45, 0.45, 0.1 )
+calcResult("Tennessee 1", 714504, tn1bl, tn1bb, tn1bw, tn1tl, tn1tb, tn1tw, 0.45, 0.51, 0.04)
+calcResult("Tennessee 2", 740182, tn2bl, tn2bb, tn2bw, tn2tl, tn2tb, tn2tw, 0.45, 0.51, 0.04)
+calcResult("Tennessee 3", 728254, tn3bl, tn3bb, tn3bw, tn3tl, tn3tb, tn3tw, 0.45, 0.51, 0.04)
+calcResult("Tennessee 4", 767655, tn4bl, tn4bb, tn4bw, tn4tl, tn4tb, tn4tw, 0.45, 0.51, 0.04)
+calcResult("Tennessee 5", 762535, tn5bl, tn5bb, tn5bw, tn5tl, tn5tb, tn5tw, 0.45, 0.51, 0.04 )
+calcResult("Tennessee 6", 761538, tn6bl, tn6bb, tn6bw, tn6tl, tn6tb, tn6tw, 0.45, 0.51, 0.04)
+calcResult("Tennessee 7", 765730, tn7bl, tn7bb, tn7bw, tn7tl, tn7tb, tn7tw, 0.45, 0.51, 0.04)
+calcResult("Tennessee 8", 706468, tn8bl, tn8bb, tn8bw, tn8tl, tn8tb, tn8tw, 0.45, 0.51, 0.04)
+calcResult("Tennessee 9", 704328, tn9bl, tn9bb, tn9bw, tn9tl, tn9tb, tn9tw, 0.45, 0.51, 0.04 )
 tntlat = [tn1tl,tn2tl,tn3tl,tn4tl,tn5tl,tn6tl,tn7tl,tn8tl,tn9tl]
 tntbla = [tn1tb,tn2tb,tn3tb,tn4tb,tn5tb,tn6tb,tn7tb,tn8tb,tn9tb]
 tntwhi = [tn1tw,tn2tw,tn3tw,tn4tw,tn5tw,tn6tw,tn7tw,tn8tw,tn9tw]
 tnblat = [tn1bl,tn2bl,tn3bl,tn4bl,tn5bl,tn6bl,tn7bl,tn8bl,tn9bl]
 tnbbla = [tn1bb,tn2bb,tn3bb,tn4bb,tn5bb,tn6bb,tn7bb,tn8bb,tn9bb]
 tnbwhi = [tn1bw,tn2bw,tn3bw,tn4bw,tn5bw,tn6bw,tn7bw,tn8bw,tn9bw]
-calcStateResult("TOTAL TENNESSEE", tntlat, tntbla, tntwhi, tnblat, tnbbla, tnbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL TENNESSEE", tntlat, tntbla, tntwhi, tnblat, tnbbla, tnbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Pennsylvania 1", 655146, pa1bl, pa1bb, pa1bw, pa1tl, pa1tb, pa1tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 2", 722350, pa2bl, pa2bb, pa2bw, pa2tl, pa2tb, pa2tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 3", 646311, pa3bl, pa3bb, pa3bw, pa3tl, pa3tb, pa3tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 4", 647418, pa4bl, pa4bb, pa4bw, pa4tl, pa4tb, pa4tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 5", 646397, pa5bl, pa5bb, pa5bw, pa5tl, pa5tb, pa5tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 6", 646221, pa6bl, pa6bb, pa6bw, pa6tl, pa6tb, pa6tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 7", 692866, pa7bl, pa7bb, pa7bw, pa7tl, pa7tb, pa7tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 8", 646403, pa8bl, pa8bb, pa8bw, pa8tl, pa8tb, pa8tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 9", 646628, pa9bl, pa9bb, pa9bw, pa9tl, pa9tb, pa9tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 10", 669257, pa10bl, pa10bb, pa10bw, pa10tl, pa10tb, pa10tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 11", 687860, pa11bl, pa11bb, pa11bw, pa11tl, pa11tb, pa11tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 12", 612384, pa12bl, pa12bb, pa12bw, pa12tl, pa12tb, pa12tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 13", 646435, pa13bl, pa13bb, pa13bw, pa13tl, pa13tb, pa13tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 14", 646013, pa14bl, pa14bb, pa14bw, pa14tl, pa14tb, pa14tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 15", 680927, pa15bl, pa15bb, pa15bw, pa15tl, pa15tb, pa15tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 16", 686525, pa16bl, pa16bb, pa16bw, pa16tl, pa16tb, pa16tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 17", 681835, pa17bl, pa17bb, pa17bw, pa17tl, pa17tb, pa17tw, 0.45, 0.45, 0.1)
-calcResult("Pennsylvania 18", 709728, pa18bl, pa18bb, pa18bw, pa18tl, pa18tb, pa18tw, 0.45, 0.45, 0.1)
+calcResult("Pennsylvania 1", 655146, pa1bl, pa1bb, pa1bw, pa1tl, pa1tb, pa1tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 2", 722350, pa2bl, pa2bb, pa2bw, pa2tl, pa2tb, pa2tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 3", 646311, pa3bl, pa3bb, pa3bw, pa3tl, pa3tb, pa3tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 4", 647418, pa4bl, pa4bb, pa4bw, pa4tl, pa4tb, pa4tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 5", 646397, pa5bl, pa5bb, pa5bw, pa5tl, pa5tb, pa5tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 6", 646221, pa6bl, pa6bb, pa6bw, pa6tl, pa6tb, pa6tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 7", 692866, pa7bl, pa7bb, pa7bw, pa7tl, pa7tb, pa7tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 8", 646403, pa8bl, pa8bb, pa8bw, pa8tl, pa8tb, pa8tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 9", 646628, pa9bl, pa9bb, pa9bw, pa9tl, pa9tb, pa9tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 10", 669257, pa10bl, pa10bb, pa10bw, pa10tl, pa10tb, pa10tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 11", 687860, pa11bl, pa11bb, pa11bw, pa11tl, pa11tb, pa11tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 12", 612384, pa12bl, pa12bb, pa12bw, pa12tl, pa12tb, pa12tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 13", 646435, pa13bl, pa13bb, pa13bw, pa13tl, pa13tb, pa13tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 14", 646013, pa14bl, pa14bb, pa14bw, pa14tl, pa14tb, pa14tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 15", 680927, pa15bl, pa15bb, pa15bw, pa15tl, pa15tb, pa15tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 16", 686525, pa16bl, pa16bb, pa16bw, pa16tl, pa16tb, pa16tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 17", 681835, pa17bl, pa17bb, pa17bw, pa17tl, pa17tb, pa17tw, 0.45, 0.51, 0.04)
+calcResult("Pennsylvania 18", 709728, pa18bl, pa18bb, pa18bw, pa18tl, pa18tb, pa18tw, 0.45, 0.51, 0.04)
 patlat = [pa1tl,pa2tl,pa3tl,pa4tl,pa5tl,pa6tl,pa7tl,pa8tl,pa9tl,pa10tl,pa11tl,pa12tl,pa13tl,pa14tl,pa15tl,pa16tl,pa17tl,pa18tl]
 patbla = [pa1tb,pa2tb,pa3tb,pa4tb,pa5tb,pa6tb,pa7tb,pa8tb,pa9tb,pa10tb,pa11tb,pa12tb,pa13tb,pa14tb,pa15tb,pa16tb,pa17tb,pa18tb]
 patwhi = [pa1tw,pa2tw,pa3tw,pa4tw,pa5tw,pa6tw,pa7tw,pa8tw,pa9tw,pa10tw,pa11tw,pa12tw,pa13tw,pa14tw,pa15tw,pa16tw,pa17tw,pa18tw]
 pablat = [pa1bl,pa2bl,pa3bl,pa4bl,pa5bl,pa6bl,pa7bl,pa8bl,pa9bl,pa10bl,pa11bl,pa12bl,pa13bl,pa14bl,pa15bl,pa16bl,pa17bl,pa18bl]
 pabbla = [pa1bb,pa2bb,pa3bb,pa4bb,pa5bb,pa6bb,pa7bb,pa8bb,pa9bb,pa10bb,pa11bb,pa12bb,pa13bb,pa14bb,pa15bb,pa16bb,pa17bb,pa18bb]
 pabwhi = [pa1bw,pa2bw,pa3bw,pa4bw,pa5bw,pa6bw,pa7bw,pa8bw,pa9bw,pa10bw,pa11bw,pa12bw,pa13bw,pa14bw,pa15bw,pa16bw,pa17bw,pa18bw]
-calcStateResult("TOTAL PENNSYLVANIA", patlat, patbla, patwhi, pablat, pabbla, pabwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL PENNSYLVANIA", patlat, patbla, patwhi, pablat, pabbla, pabwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Rhode Island 1", 539250, ri1bl, ri1bb, ri1bw, ri1tl, ri1tb, ri1tw, 0.45, 0.45, 0.1 )
-calcResult("Rhode Island 2", 520389, ri2bl, ri2bb, ri2bw, ri2tl, ri2tb, ri2tw, 0.45, 0.45, 0.1 )
+calcResult("Rhode Island 1", 539250, ri1bl, ri1bb, ri1bw, ri1tl, ri1tb, ri1tw, 0.45, 0.51, 0.04 )
+calcResult("Rhode Island 2", 520389, ri2bl, ri2bb, ri2bw, ri2tl, ri2tb, ri2tw, 0.45, 0.51, 0.04 )
 ritlat = [ri1tl, ri2tl]
 ritbla = [ri1tb, ri2tb]
 ritwhi = [ri1tw, ri2tw]
 riblat = [ri1bl, ri2bl]
 ribbla = [ri1bb, ri2bb]
 ribwhi = [ri1bw, ri2bw]
-calcStateResult("TOTAL RHODE ISLAND", ritlat, ritbla, ritwhi, riblat, ribbla, ribwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL RHODE ISLAND", ritlat, ritbla, ritwhi, riblat, ribbla, ribwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Utah 1", 100000, ut1bl, ut1bb, ut1bw, ut1tl, ut1tb, ut1tw, 0.45, 0.45, 0.1)
-calcResult("Utah 2", 100000, ut2bl, ut2bb, ut2bw, ut2tl, ut2tb, ut2tw, 0.45, 0.45, 0.1)
-calcResult("Utah 3", 100000, ut3bl, ut3bb, ut3bw, ut3tl, ut3tb, ut3tw, 0.45, 0.45, 0.1)
-calcResult("Utah 4", 745786, ut4bl, ut4bb, ut4bw, ut4tl, ut4tb, ut4tw, 0.45, 0.45, 0.1)
+calcResult("Utah 1", 100000, ut1bl, ut1bb, ut1bw, ut1tl, ut1tb, ut1tw, 0.45, 0.51, 0.04)
+calcResult("Utah 2", 100000, ut2bl, ut2bb, ut2bw, ut2tl, ut2tb, ut2tw, 0.45, 0.51, 0.04)
+calcResult("Utah 3", 100000, ut3bl, ut3bb, ut3bw, ut3tl, ut3tb, ut3tw, 0.45, 0.51, 0.04)
+calcResult("Utah 4", 745786, ut4bl, ut4bb, ut4bw, ut4tl, ut4tb, ut4tw, 0.45, 0.51, 0.04)
 uttlat = [ut1tl,ut2tl,ut3tl,ut4tl]
 uttbla = [ut1tb,ut2tb,ut3tb,ut4tb]
 uttwhi = [ut1tw,ut2tw,ut3tw,ut4tw]
 utblat = [ut1bl,ut2bl,ut3bl,ut4bl]
 utbbla = [ut1bb,ut2bb,ut3bb,ut4bb]
 utbwhi = [ut1bw,ut2bw,ut3bw,ut4bw]
-calcStateResult("TOTAL UTAH", uttlat, uttbla, uttwhi, utblat, utbbla, utbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL UTAH", uttlat, uttbla, uttwhi, utblat, utbbla, utbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Virginia 1", 776836, va1bl, va1bb, va1bw, va1tl, va1tb, va1tw, 0.45, 0.45, 0.1)
-calcResult("Virginia 2", 745816, va2bl, va2bb, va2bw, va2tl, va2tb, va2tw, 0.45, 0.45, 0.1)
-calcResult("Virginia 3", 739169, va3bl, va3bb, va3bw, va3tl, va3tb, va3tw, 0.45, 0.45, 0.1)
-calcResult("Virginia 4", 764301, va4bl, va4bb, va4bw, va4tl, va4tb, va4tw, 0.45, 0.45, 0.1)
-calcResult("Virginia 5", 735178, va5bl, va5bb, va5bw, va5tl, va5tb, va5tw, 0.45, 0.45, 0.1)
-calcResult("Virginia 6", 754859, va6bl, va6bb, va6bw, va6tl, va6tb, va6tw, 0.45, 0.45, 0.1)
-calcResult("Virginia 7", 790084, va7bl, va7bb, va7bw, va7tl, va7tb, va7tw, 0.45, 0.45, 0.1)
-calcResult("Virginia 8", 783079, va8bl, va8bb, va8bw, va8tl, va8tb, va8tw, 0.45, 0.45, 0.1)
-calcResult("Virginia 9", 704831, va9bl, va9bb, va9bw, va9tl, va9tb, va9tw, 0.45, 0.45, 0.1)
-calcResult("Virginia 10", 827279, va10bl, va10bb, va10bw, va10tl, va10tb, va10tw, 0.45, 0.45, 0.1)
-calcResult("Virginia 11", 802910, va11bl, va11bb, va11bw, va11tl, va11tb, va11tw, 0.45, 0.45, 0.1)
+calcResult("Virginia 1", 776836, va1bl, va1bb, va1bw, va1tl, va1tb, va1tw, 0.45, 0.51, 0.04)
+calcResult("Virginia 2", 745816, va2bl, va2bb, va2bw, va2tl, va2tb, va2tw, 0.45, 0.51, 0.04)
+calcResult("Virginia 3", 739169, va3bl, va3bb, va3bw, va3tl, va3tb, va3tw, 0.45, 0.51, 0.04)
+calcResult("Virginia 4", 764301, va4bl, va4bb, va4bw, va4tl, va4tb, va4tw, 0.45, 0.51, 0.04)
+calcResult("Virginia 5", 735178, va5bl, va5bb, va5bw, va5tl, va5tb, va5tw, 0.45, 0.51, 0.04)
+calcResult("Virginia 6", 754859, va6bl, va6bb, va6bw, va6tl, va6tb, va6tw, 0.45, 0.51, 0.04)
+calcResult("Virginia 7", 790084, va7bl, va7bb, va7bw, va7tl, va7tb, va7tw, 0.45, 0.51, 0.04)
+calcResult("Virginia 8", 783079, va8bl, va8bb, va8bw, va8tl, va8tb, va8tw, 0.45, 0.51, 0.04)
+calcResult("Virginia 9", 704831, va9bl, va9bb, va9bw, va9tl, va9tb, va9tw, 0.45, 0.51, 0.04)
+calcResult("Virginia 10", 827279, va10bl, va10bb, va10bw, va10tl, va10tb, va10tw, 0.45, 0.51, 0.04)
+calcResult("Virginia 11", 802910, va11bl, va11bb, va11bw, va11tl, va11tb, va11tw, 0.45, 0.51, 0.04)
 vatlat = [va1tl,va2tl,va3tl,va4tl,va5tl,va6tl,va7tl,va8tl,va9tl,va10tl,va11tl]
 vatbla = [va1tb,va2tb,va3tb,va4tb,va5tb,va6tb,va7tb,va8tb,va9tb,va10tb,va11tb]
 vatwhi = [va1tw,va2tw,va3tw,va4tw,va5tw,va6tw,va7tw,va8tw,va9tw,va10tw,va11tw]
 vablat = [va1bl,va2bl,va3bl,va4bl,va5bl,va6bl,va7bl,va8bl,va9bl,va10bl,va11bl]
 vabbla = [va1bb,va2bb,va3bb,va4bb,va5bb,va6bb,va7bb,va8bb,va9bb,va10bb,va11bb]
 vabwhi = [va1bw,va2bw,va3bw,va4bw,va5bw,va6bw,va7bw,va8bw,va9bw,va10bw,va11bw]
-calcStateResult("TOTAL VIRGINIA", vatlat, vatbla, vatwhi, vablat, vabbla, vabwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL VIRGINIA", vatlat, vatbla, vatwhi, vablat, vabbla, vabwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Washington 1", 654904, wa1bl, wa1bb, wa1bw, wa1tl, wa1tb, wa1tw, 0.45, 0.45, 0.1)
-calcResult("Washington 2", 654903, wa2bl, wa2bb, wa2bw, wa2tl, wa2tb, wa2tw, 0.45, 0.45, 0.1)
-calcResult("Washington 3", 654898, wa3bl, wa3bb, wa3bw, wa3tl, wa3tb, wa3tw, 0.45, 0.45, 0.1)
-calcResult("Washington 4", 654901, wa4bl, wa4bb, wa4bw, wa4tl, wa4tb, wa4tw, 0.45, 0.45, 0.1)
-calcResult("Washington 5", 654904, wa5bl, wa5bb, wa5bw, wa5tl, wa5tb, wa5tw, 0.45, 0.45, 0.1)
-calcResult("Washington 6", 654902, wa6bl, wa6bb, wa6bw, wa6tl, wa6tb, wa6tw, 0.45, 0.45, 0.1)
-calcResult("Washington 7", 683158, wa7bl, wa7bb, wa7bw, wa7tl, wa7tb, wa7tw, 0.45, 0.45, 0.1)
-calcResult("Washington 8", 672463, wa8bl, wa8bb, wa8bw, wa8tl, wa8tb, wa8tw, 0.45, 0.45, 0.1)
-calcResult("Washington 9", 672460, wa9bl, wa9bb, wa9bw, wa9tl, wa9tb, wa9tw, 0.45, 0.45, 0.1)
-calcResult("Washington 10", 685260, wa10bl, wa10bb, wa10bw, wa10tl, wa10tb, wa10tw, 0.45, 0.45, 0.1)
+calcResult("Washington 1", 654904, wa1bl, wa1bb, wa1bw, wa1tl, wa1tb, wa1tw, 0.45, 0.51, 0.04)
+calcResult("Washington 2", 654903, wa2bl, wa2bb, wa2bw, wa2tl, wa2tb, wa2tw, 0.45, 0.51, 0.04)
+calcResult("Washington 3", 654898, wa3bl, wa3bb, wa3bw, wa3tl, wa3tb, wa3tw, 0.45, 0.51, 0.04)
+calcResult("Washington 4", 654901, wa4bl, wa4bb, wa4bw, wa4tl, wa4tb, wa4tw, 0.45, 0.51, 0.04)
+calcResult("Washington 5", 654904, wa5bl, wa5bb, wa5bw, wa5tl, wa5tb, wa5tw, 0.45, 0.51, 0.04)
+calcResult("Washington 6", 654902, wa6bl, wa6bb, wa6bw, wa6tl, wa6tb, wa6tw, 0.45, 0.51, 0.04)
+calcResult("Washington 7", 683158, wa7bl, wa7bb, wa7bw, wa7tl, wa7tb, wa7tw, 0.45, 0.51, 0.04)
+calcResult("Washington 8", 672463, wa8bl, wa8bb, wa8bw, wa8tl, wa8tb, wa8tw, 0.45, 0.51, 0.04)
+calcResult("Washington 9", 672460, wa9bl, wa9bb, wa9bw, wa9tl, wa9tb, wa9tw, 0.45, 0.51, 0.04)
+calcResult("Washington 10", 685260, wa10bl, wa10bb, wa10bw, wa10tl, wa10tb, wa10tw, 0.45, 0.51, 0.04)
 watlat = [wa1tl,wa2tl,wa3tl,wa4tl,wa5tl,wa6tl,wa7tl,wa8tl,wa9tl,wa10tl]
 watbla = [wa1tb,wa2tb,wa3tb,wa4tb,wa5tb,wa6tb,wa7tb,wa8tb,wa9tb,wa10tb]
 watwhi = [wa1tw,wa2tw,wa3tw,wa4tw,wa5tw,wa6tw,wa7tw,wa8tw,wa9tw,wa10tw]
 wablat = [wa1bl,wa2bl,wa3bl,wa4bl,wa5bl,wa6bl,wa7bl,wa8bl,wa9bl,wa10bl]
 wabbla = [wa1bb,wa2bb,wa3bb,wa4bb,wa5bb,wa6bb,wa7bb,wa8bb,wa9bb,wa10bb]
 wabwhi = [wa1bw,wa2bw,wa3bw,wa4bw,wa5bw,wa6bw,wa7bw,wa8bw,wa9bw,wa10bw]
-calcStateResult("TOTAL WASHINGTON", watlat, watbla, watwhi, wablat, wabbla, wabwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL WASHINGTON", watlat, watbla, watwhi, wablat, wabbla, wabwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("West Virginia 1", 615991, wv1bl, wv1bb, wv1bw, wv1tl, wv1tb, wv1tw, 0.45, 0.45, 0.1)
-calcResult("West Virginia 2", 648186, wv2bl, wv2bb, wv2bw, wv2tl, wv2tb, wv2tw, 0.45, 0.45, 0.1)
-calcResult("West Virginia 3", 591121, wv3bl, wv3bb, wv3bw, wv3tl, wv3tb, wv3tw, 0.45, 0.45, 0.1)
+calcResult("West Virginia 1", 615991, wv1bl, wv1bb, wv1bw, wv1tl, wv1tb, wv1tw, 0.45, 0.51, 0.04)
+calcResult("West Virginia 2", 648186, wv2bl, wv2bb, wv2bw, wv2tl, wv2tb, wv2tw, 0.45, 0.51, 0.04)
+calcResult("West Virginia 3", 591121, wv3bl, wv3bb, wv3bw, wv3tl, wv3tb, wv3tw, 0.45, 0.51, 0.04)
 wvtlat = [wv1tl,wv2tl,wv3tl]
 wvtbla = [wv1tb,wv2tb,wv3tb]
 wvtwhi = [wv1tw,wv2tw,wv3tw]
 wvblat = [wv1bl,wv2bl,wv3bl]
 wvbbla = [wv1bb,wv2bb,wv3bb]
 wvbwhi = [wv1bw,wv2bw,wv3bw]
-calcStateResult("TOTAL WEST VIRGINIA", wvtlat, wvtbla, wvtwhi, wvblat, wvbbla, wvbwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL WEST VIRGINIA", wvtlat, wvtbla, wvtwhi, wvblat, wvbbla, wvbwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("Wisconsin 1", 717716, wi1bl, wi1bb, wi1bw, wi1tl, wi1tb, wi1tw, 0.45, 0.45, 0.1)
-calcResult("Wisconsin 2", 768067, wi2bl, wi2bb, wi2bw, wi2tl, wi2tb, wi2tw, 0.45, 0.45, 0.1)
-calcResult("Wisconsin 3", 724568, wi3bl, wi3bb, wi3bw, wi3tl, wi3tb, wi3tw, 0.45, 0.45, 0.1)
-calcResult("Wisconsin 4", 710573, wi4bl, wi4bb, wi4bw, wi4tl, wi4tb, wi4tw, 0.45, 0.45, 0.1)
-calcResult("Wisconsin 5", 731341, wi5bl, wi5bb, wi5bw, wi5tl, wi5tb, wi5tw, 0.45, 0.45, 0.1)
-calcResult("Wisconsin 6", 714886, wi6bl, wi6bb, wi6bw, wi6tl, wi6tb, wi6tw, 0.45, 0.45, 0.1)
-calcResult("Wisconsin 7", 710420, wi7bl, wi7bb, wi7bw, wi7tl, wi7tb, wi7tw, 0.45, 0.45, 0.1)
-calcResult("Wisconsin 8", 735997, wi8bl, wi8bb, wi8bw, wi8tl, wi8tb, wi8tw, 0.45, 0.45, 0.1)
+calcResult("Wisconsin 1", 717716, wi1bl, wi1bb, wi1bw, wi1tl, wi1tb, wi1tw, 0.45, 0.51, 0.04)
+calcResult("Wisconsin 2", 768067, wi2bl, wi2bb, wi2bw, wi2tl, wi2tb, wi2tw, 0.45, 0.51, 0.04)
+calcResult("Wisconsin 3", 724568, wi3bl, wi3bb, wi3bw, wi3tl, wi3tb, wi3tw, 0.45, 0.51, 0.04)
+calcResult("Wisconsin 4", 710573, wi4bl, wi4bb, wi4bw, wi4tl, wi4tb, wi4tw, 0.45, 0.51, 0.04)
+calcResult("Wisconsin 5", 731341, wi5bl, wi5bb, wi5bw, wi5tl, wi5tb, wi5tw, 0.45, 0.51, 0.04)
+calcResult("Wisconsin 6", 714886, wi6bl, wi6bb, wi6bw, wi6tl, wi6tb, wi6tw, 0.45, 0.51, 0.04)
+calcResult("Wisconsin 7", 710420, wi7bl, wi7bb, wi7bw, wi7tl, wi7tb, wi7tw, 0.45, 0.51, 0.04)
+calcResult("Wisconsin 8", 735997, wi8bl, wi8bb, wi8bw, wi8tl, wi8tb, wi8tw, 0.45, 0.51, 0.04)
 witlat = [wi1tl,wi2tl,wi3tl,wi4tl,wi5tl,wi6tl,wi7tl,wi8tl]
 witbla = [wi1tb,wi2tb,wi3tb,wi4tb,wi5tb,wi6tb,wi7tb,wi8tb]
 witwhi = [wi1tw,wi2tw,wi3tw,wi4tw,wi5tw,wi6tw,wi7tw,wi8tw]
 wiblat = [wi1bl,wi2bl,wi3bl,wi4bl,wi5bl,wi6bl,wi7bl,wi8bl]
 wibbla = [wi1bb,wi2bb,wi3bb,wi4bb,wi5bb,wi6bb,wi7bb,wi8bb]
 wibwhi = [wi1bw,wi2bw,wi3bw,wi4bw,wi5bw,wi6bw,wi7bw,wi8bw]
-calcStateResult("TOTAL WISCONSIN", witlat, witbla, witwhi, wiblat, wibbla, wibwhi, 0.45, 0.45, 0.1)
+calcStateResult("TOTAL WISCONSIN", witlat, witbla, witwhi, wiblat, wibbla, wibwhi, 0.45, 0.51, 0.04)
 print("")
-calcResult("DELAWARE", 973764, de1bl, de1bb, de1bw, de1tl, de1tb, de1tw, 0.45, 0.45, 0.1)
+calcResult("DELAWARE", 973764, de1bl, de1bb, de1bw, de1tl, de1tb, de1tw, 0.45, 0.51, 0.04)
 print("")
-calcResult("NORTH DAKOTA", 762062, nd1bl, nd1bb, nd1bw, nd1tl, nd1tb, nd1tw, 0.45, 0.45, 0.1)
+calcResult("NORTH DAKOTA", 762062, nd1bl, nd1bb, nd1bw, nd1tl, nd1tb, nd1tw, 0.45, 0.51, 0.04)
 print("")
-calcResult("SOUTH DAKOTA", 884659, sd1bl, sd1bb, sd1bw, sd1tl, sd1tb, sd1tw, 0.45, 0.45, 0.1)
+calcResult("SOUTH DAKOTA", 884659, sd1bl, sd1bb, sd1bw, sd1tl, sd1tb, sd1tw, 0.45, 0.51, 0.04)
 print("")
-calcResult("MONTANA", 1068778, mt1bl, mt1bb, mt1bw, mt1tl, mt1tb, mt1tw, 0.45, 0.45, 0.1)
+calcResult("MONTANA", 1068778, mt1bl, mt1bb, mt1bw, mt1tl, mt1tb, mt1tw, 0.45, 0.51, 0.04)
 print("")
-calcResult("WYOMING", 578759, wy1bl, wy1bb, wy1bw, wy1tl, wy1tb, wy1tw, 0.45, 0.45, 0.1)
+calcResult("WYOMING", 578759, wy1bl, wy1bb, wy1bw, wy1tl, wy1tb, wy1tw, 0.45, 0.51, 0.04)
 print("")
-calcResult("ALASKA", 731545, ak1bl, ak1bb, ak1bw, ak1tl, ak1tb, ak1tw, 0.45, 0.45, 0.1)
+calcResult("ALASKA", 731545, ak1bl, ak1bb, ak1bw, ak1tl, ak1tb, ak1tw, 0.45, 0.51, 0.04)
 print("")
-calcResult("VERMONT", 623989, vt1bl, vt1bb, vt1bw, vt1tl, vt1tb, vt1tw, 0.45, 0.45, 0.1)
+calcResult("VERMONT", 623989, vt1bl, vt1bb, vt1bw, vt1tl, vt1tb, vt1tw, 0.45, 0.51, 0.04)
 
 
 for str in results:
