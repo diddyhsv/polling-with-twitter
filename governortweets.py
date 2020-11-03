@@ -36,9 +36,9 @@ nopostweets = 0
 searchQuery = "\"John Carney\" OR \"Julianne Murray\" OR \"Eric Holcomb\" OR \"Woody Myers\" OR \"Donald Rainwater\" OR \"Mike Parson\" OR \"Nicole Galloway\" OR \"Mike Cooney\" OR \"Greg Gianforte\" OR \"Chris Sununu\" " #OR \"Dan Feltes\" OR \"Roy Cooper\" OR \"Dan Forest\" OR \"Doug Burgum\" OR \"Shelley Lenz\" OR \"Spencer Cox\" OR \"Christopher Peterson\" OR \"Phil Scott\" OR \"David Zuckerman\" OR \"Jay Inslee\" OR \"Loren Culp\" OR \"Jim Justice\" OR \"Ben Salango\" OR \"Daniel Luz\" "  # this is what we\"re searching for 
 maxTweets = 10000000 # Some arbitrary large number
 tweetsPerQry = 100  # this is the max the API permits
-fName = '/Volumes/TOSHIBA/tweetsgov201029.txt' # We'll store the tweets in a text file.
-sin = "2020-10-29"
-til = "2020-10-30"
+fName = '/Volumes/TOSHIBA/tweetsgov201030.txt' # We'll store the tweets in a text file.
+sin = "2020-10-30"
+til = "2020-10-31"
 
 
 # If results from a specific ID onwards are reqd, set since_id to that ID.

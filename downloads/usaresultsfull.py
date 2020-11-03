@@ -11,111 +11,111 @@ from sortlocation import sortloc
 
 
 
-trumpmo, bidenmo = set(), set() #trumpmo1, bidenmo1, trumpmo2, bidenmo2, trumpmo3, bidenmo3, trumpmo4, bidenmo4, trumpmo5, bidenmo5, trumpmo6, bidenmo6, trumpmo7, bidenmo7, trumpmo8, bidenmo8 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpco, bidenco = set(), set() #trumpco1, bidenco1, trumpco2, bidenco2, trumpco3, bidenco3, trumpco4, bidenco4, trumpco5, bidenco5, trumpco6, bidenco6, trumpco7, bidenco7 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpsc, bidensc = set(), set() #trumpsc1, bidensc1, trumpsc2, bidensc2, trumpsc3, bidensc3, trumpsc4, bidensc4, trumpsc5, bidensc5, trumpsc6, bidensc6, trumpsc7, bidensc7 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpmn, bidenmn = set(), set() #trumpmn1, bidenmn1, trumpmn2, bidenmn2, trumpmn3, bidenmn3, trumpmn4, bidenmn4, trumpmn5, bidenmn5, trumpmn6, bidenmn6, trumpmn7, bidenmn7, trumpmn8, bidenmn8 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpin, bidenin = set(), set() #trumpin1, bidenin1, trumpin2, bidenin2, trumpin3, bidenin3, trumpin4, bidenin4, trumpin5, bidenin5, trumpin6, bidenin6, trumpin7, bidenin7, trumpin8, bidenin8, trumpin9, bidenin9 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpmd, bidenmd = set(), set() #trumpmd1, bidenmd1, trumpmd2, bidenmd2, trumpmd3, bidenmd3, trumpmd4, bidenmd4, trumpmd5, bidenmd5, trumpmd6, bidenmd6, trumpmd7, bidenmd7, trumpmd8, bidenmd8 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpsd, bidensd = set(), set() #trumpsd1, bidensd1 = set(), set(), set(), set()
-trumpvt, bidenvt = set(), set() #trumpvt1, bidenvt1 = set(), set(), set(), set()
-trumpnd, bidennd = set(), set() #trumpnd1, bidennd1 = set(), set(), set(), set()
-trumpde, bidende = set(), set() #trumpde1, bidende1 = set(), set(), set(), set()
-trumpmt, bidenmt = set(), set() #trumpmt1, bidenmt1 = set(), set(), set(), set()
-trumpne, bidenne = set(), set() #trumpne1, bidenne1, trumpne2, bidenne2, trumpne3, bidenne3 = set(), set(), set(), set(), set(), set(), set(), set()
-trumpmi, bidenmi = set(), set() #trumpmi1, bidenmi1, trumpmi2, bidenmi2, trumpmi3, bidenmi3, trumpmi4, bidenmi4, trumpmi5, bidenmi5, trumpmi6, bidenmi6, trumpmi7, bidenmi7, trumpmi8, bidenmi8, trumpmi9, bidenmi9, trumpmi10, bidenmi10, trumpmi11, bidenmi11, trumpmi12, bidenmi12, trumpmi13, bidenmi13, trumpmi14, bidenmi14 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpma, bidenma = set(), set() #trumpma1, bidenma1, trumpma2, bidenma2, trumpma3, bidenma3, trumpma4, bidenma4, trumpma5, bidenma5, trumpma6, bidenma6, trumpma7, bidenma7, trumpma8, bidenma8, trumpma9, bidenma9 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpva, bidenva = set(), set() #trumpva1, bidenva1, trumpva2, bidenva2, trumpva3, bidenva3, trumpva4, bidenva4, trumpva5, bidenva5, trumpva6, bidenva6, trumpva7, bidenva7, trumpva8, bidenva8, trumpva9, bidenva9, trumpva10, bidenva10, trumpva11, bidenva11 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpme, bidenme = set(), set() #trumpme1, bidenme1, trumpme2, bidenme2 = set(), set(), set(), set(), set(), set()
-trumpid, bidenid = set(), set() #trumpid1, bidenid1, trumpid2, bidenid2 = set(), set(), set(), set(), set(), set()
-trumpwi, bidenwi = set(), set() #trumpwi1, bidenwi1, trumpwi2, bidenwi2, trumpwi3, bidenwi3, trumpwi4, bidenwi4, trumpwi5, bidenwi5, trumpwi6, bidenwi6, trumpwi7, bidenwi7, trumpwi8, bidenwi8 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpwv, bidenwv = set(), set() #trumpwv1, bidenwv1, trumpwv2, bidenwv2, trumpwv3, bidenwv3 = set(), set(), set(), set(), set(), set(), set(), set()
-trumpia, bidenia = set(), set() #trumpia1, bidenia1, trumpia2, bidenia2, trumpia3, bidenia3, trumpia4, bidenia4 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpms, bidenms = set(), set() #trumpms1, bidenms1, trumpms2, bidenms2, trumpms3, bidenms3, trumpms4, bidenms4 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumphi, bidenhi = set(), set() #trumphi1, bidenhi1, trumphi2, bidenhi2 = set(), set(), set(), set(), set(), set()
-trumpri, bidenri = set(), set() #trumpri1, bidenri1, trumpri2, bidenri2 = set(), set(), set(), set(), set(), set()
-trumpwa, bidenwa = set(), set() #trumpwa1, bidenwa1, trumpwa2, bidenwa2, trumpwa3, bidenwa3, trumpwa4, bidenwa4, trumpwa5, bidenwa5, trumpwa6, bidenwa6, trumpwa7, bidenwa7, trumpwa8, bidenwa8, trumpwa9, bidenwa9, trumpwa10, bidenwa10 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpfl, bidenfl = set(), set() #trumpfl1, bidenfl1, trumpfl2, bidenfl2, trumpfl3, bidenfl3, trumpfl4, bidenfl4, trumpfl5, bidenfl5, trumpfl6, bidenfl6, trumpfl7, bidenfl7, trumpfl8, bidenfl8, trumpfl9, bidenfl9, trumpfl10, bidenfl10, trumpfl11, bidenfl11, trumpfl12, bidenfl12, trumpfl13, bidenfl13, trumpfl14, bidenfl14, trumpfl15, bidenfl15, trumpfl16, bidenfl16, trumpfl17, bidenfl17, trumpfl18, bidenfl18, trumpfl19, bidenfl19, trumpfl20, bidenfl20, trumpfl21, bidenfl21, trumpfl22, bidenfl22, trumpfl23, bidenfl23, trumpfl24, bidenfl24, trumpfl25, bidenfl25, trumpfl26, bidenfl26, trumpfl27, bidenfl27 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpal, bidenal = set(), set() #trumpal1, bidenal1, trumpal2, bidenal2, trumpal3, bidenal3, trumpal4, bidenal4, trumpal5, bidenal5, trumpal6, bidenal6, trumpal7, bidenal7 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpil, bidenil = set(), set() #trumpil1, bidenil1, trumpil2, bidenil2, trumpil3, bidenil3, trumpil4, bidenil4, trumpil5, bidenil5, trumpil6, bidenil6, trumpil7, bidenil7, trumpil8, bidenil8, trumpil9, bidenil9, trumpil10, bidenil10, trumpil11, bidenil11, trumpil12, bidenil12, trumpil13, bidenil13, trumpil14, bidenil14, trumpil15, bidenil15, trumpil16, bidenil16, trumpil17, bidenil17, trumpil18, bidenil18 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpca, bidenca = set(), set() #trumpca1, bidenca1, trumpca2, bidenca2, trumpca3, bidenca3, trumpca4, bidenca4, trumpca5, bidenca5, trumpca6, bidenca6, trumpca7, bidenca7, trumpca8, bidenca8, trumpca9, bidenca9, trumpca10, bidenca10, trumpca11, bidenca11, trumpca12, bidenca12, trumpca13, bidenca13, trumpca14, bidenca14, trumpca15, bidenca15, trumpca16, bidenca16, trumpca17, bidenca17, trumpca18, bidenca18, trumpca19, bidenca19, trumpca20, bidenca20, trumpca21, bidenca21, trumpca22, bidenca22, trumpca23, bidenca23, trumpca24, bidenca24, trumpca25, bidenca25, trumpca26, bidenca26, trumpca27, bidenca27, trumpca28, bidenca28, trumpca29, bidenca29, trumpca30, bidenca30, trumpca31, bidenca31, trumpca32, bidenca32, trumpca33, bidenca33, trumpca34, bidenca34, trumpca35, bidenca35, trumpca36, bidenca36, trumpca37, bidenca37, trumpca38, bidenca38, trumpca39, bidenca39, trumpca40, bidenca40, trumpca41, bidenca41, trumpca42, bidenca42, trumpca43, bidenca43, trumpca44, bidenca44, trumpca45, bidenca45, trumpca46, bidenca46, trumpca47, bidenca47, trumpca48, bidenca48, trumpca49, bidenca49, trumpca50, bidenca50, trumpca51, bidenca51, trumpca52, bidenca52, trumpca53, bidenca53 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpks, bidenks = set(), set() #trumpks1, bidenks1, trumpks2, bidenks2, trumpks3, bidenks3, trumpks4, bidenks4 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpga, bidenga = set(), set() #trumpga1, bidenga1, trumpga2, bidenga2, trumpga3, bidenga3, trumpga4, bidenga4, trumpga5, bidenga5, trumpga6, bidenga6, trumpga7, bidenga7, trumpga8, bidenga8, trumpga9, bidenga9, trumpga10, bidenga10, trumpga11, bidenga11, trumpga12, bidenga12, trumpga13, bidenga13, trumpga14, bidenga14 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpaz, bidenaz = set(), set() #trumpaz1, bidenaz1, trumpaz2, bidenaz2, trumpaz3, bidenaz3, trumpaz4, bidenaz4, trumpaz5, bidenaz5, trumpaz6, bidenaz6, trumpaz7, bidenaz7, trumpaz8, bidenaz8, trumpaz9, bidenaz9 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpak, bidenak = set(), set() #trumpak1, bidenak1 = set(), set(), set(), set()
-trumpar, bidenar = set(), set() #trumpar1, bidenar1, trumpar2, bidenar2, trumpar3, bidenar3, trumpar4, bidenar4 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpnj, bidennj = set(), set() #trumpnj1, bidennj1, trumpnj2, bidennj2, trumpnj3, bidennj3, trumpnj4, bidennj4, trumpnj5, bidennj5, trumpnj6, bidennj6, trumpnj7, bidennj7, trumpnj8, bidennj8, trumpnj9, bidennj9, trumpnj10, bidennj10, trumpnj11, bidennj11, trumpnj12, bidennj12 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpnv, bidennv = set(), set() #trumpnv1, bidennv1, trumpnv2, bidennv2, trumpnv3, bidennv3, trumpnv4, bidennv4 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpnh, bidennh = set(), set() #trumpnh1, bidennh1, trumpnh2, bidennh2 = set(), set(), set(), set(), set(), set()
-trumpnc, bidennc = set(), set() #trumpnc1, bidennc1, trumpnc2, bidennc2, trumpnc3, bidennc3, trumpnc4, bidennc4, trumpnc5, bidennc5, trumpnc6, bidennc6, trumpnc7, bidennc7, trumpnc8, bidennc8, trumpnc9, bidennc9, trumpnc10, bidennc10, trumpnc11, bidennc11, trumpnc12, bidennc12, trumpnc13, bidennc13 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumptx, bidentx = set(), set() #trumptx1, bidentx1, trumptx2, bidentx2, trumptx3, bidentx3, trumptx4, bidentx4, trumptx5, bidentx5, trumptx6, bidentx6, trumptx7, bidentx7, trumptx8, bidentx8, trumptx9, bidentx9, trumptx10, bidentx10, trumptx11, bidentx11, trumptx12, bidentx12, trumptx13, bidentx13, trumptx14, bidentx14, trumptx15, bidentx15, trumptx16, bidentx16, trumptx17, bidentx17, trumptx18, bidentx18, trumptx19, bidentx19, trumptx20, bidentx20, trumptx21, bidentx21, trumptx22, bidentx22, trumptx23, bidentx23, trumptx24, bidentx24, trumptx25, bidentx25, trumptx26, bidentx26, trumptx27, bidentx27, trumptx28, bidentx28, trumptx29, bidentx29, trumptx30, bidentx30, trumptx31, bidentx31, trumptx32, bidentx32, trumptx33, bidentx33, trumptx34, bidentx34, trumptx35, bidentx35, trumptx36, bidentx36 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumptn, bidentn = set(), set() #trumptn1, bidentn1, trumptn2, bidentn2, trumptn3, bidentn3, trumptn4, bidentn4, trumptn5, bidentn5, trumptn6, bidentn6, trumptn7, bidentn7, trumptn8, bidentn8, trumptn9, bidentn9 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpnm, bidennm = set(), set() #trumpnm1, bidennm1, trumpnm2, bidennm2, trumpnm3, bidennm3 = set(), set(), set(), set(), set(), set(), set(), set()
-trumpny, bidenny = set(), set() #trumpny1, bidenny1, trumpny2, bidenny2, trumpny3, bidenny3, trumpny4, bidenny4, trumpny5, bidenny5, trumpny6, bidenny6, trumpny7, bidenny7, trumpny8, bidenny8, trumpny9, bidenny9, trumpny10, bidenny10, trumpny11, bidenny11, trumpny12, bidenny12, trumpny13, bidenny13, trumpny14, bidenny14, trumpny15, bidenny15, trumpny16, bidenny16, trumpny17, bidenny17, trumpny18, bidenny18, trumpny19, bidenny19, trumpny20, bidenny20, trumpny21, bidenny21, trumpny22, bidenny22, trumpny23, bidenny23, trumpny24, bidenny24, trumpny25, bidenny25, trumpny26, bidenny26, trumpny27, bidenny27 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpwy, bidenwy = set(), set() #trumpwy1, bidenwy1 = set(), set(), set(), set()
-trumppa, bidenpa = set(), set() #trumppa1, bidenpa1, trumppa2, bidenpa2, trumppa3, bidenpa3, trumppa4, bidenpa4, trumppa5, bidenpa5, trumppa6, bidenpa6, trumppa7, bidenpa7, trumppa8, bidenpa8, trumppa9, bidenpa9, trumppa10, bidenpa10, trumppa11, bidenpa11, trumppa12, bidenpa12, trumppa13, bidenpa13, trumppa14, bidenpa14, trumppa15, bidenpa15, trumppa16, bidenpa16, trumppa17, bidenpa17, trumppa18, bidenpa18 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpct, bidenct = set(), set() #trumpct1, bidenct1, trumpct2, bidenct2, trumpct3, bidenct3, trumpct4, bidenct4, trumpct5, bidenct5 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpky, bidenky = set(), set() #trumpky1, bidenky1, trumpky2, bidenky2, trumpky3, bidenky3, trumpky4, bidenky4, trumpky5, bidenky5, trumpky6, bidenky6 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpla, bidenla = set(), set() #trumpla1, bidenla1, trumpla2, bidenla2, trumpla3, bidenla3, trumpla4, bidenla4, trumpla5, bidenla5, trumpla6, bidenla6 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpok, bidenok = set(), set() #trumpok1, bidenok1, trumpok2, bidenok2, trumpok3, bidenok3, trumpok4, bidenok4, trumpok5, bidenok5 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumput, bidenut = set(), set() #trumput1, bidenut1, trumput2, bidenut2, trumput3, bidenut3, trumput4, bidenut4 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpoh, bidenoh = set(), set() #trumpoh1, bidenoh1, trumpoh2, bidenoh2, trumpoh3, bidenoh3, trumpoh4, bidenoh4, trumpoh5, bidenoh5, trumpoh6, bidenoh6, trumpoh7, bidenoh7, trumpoh8, bidenoh8, trumpoh9, bidenoh9, trumpoh10, bidenoh10, trumpoh11, bidenoh11, trumpoh12, bidenoh12, trumpoh13, bidenoh13, trumpoh14, bidenoh14, trumpoh15, bidenoh15, trumpoh16, bidenoh16 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpor, bidenor = set(), set() #trumpor1, bidenor1, trumpor2, bidenor2, trumpor3, bidenor3, trumpor4, bidenor4, trumpor5, bidenor5 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
+trumpmo, bidenmo = {1}, {1} #trumpmo1, bidenmo1, trumpmo2, bidenmo2, trumpmo3, bidenmo3, trumpmo4, bidenmo4, trumpmo5, bidenmo5, trumpmo6, bidenmo6, trumpmo7, bidenmo7, trumpmo8, bidenmo8 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpco, bidenco = {1}, {1} #trumpco1, bidenco1, trumpco2, bidenco2, trumpco3, bidenco3, trumpco4, bidenco4, trumpco5, bidenco5, trumpco6, bidenco6, trumpco7, bidenco7 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpsc, bidensc = {1}, {1} #trumpsc1, bidensc1, trumpsc2, bidensc2, trumpsc3, bidensc3, trumpsc4, bidensc4, trumpsc5, bidensc5, trumpsc6, bidensc6, trumpsc7, bidensc7 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpmn, bidenmn = {1}, {1} #trumpmn1, bidenmn1, trumpmn2, bidenmn2, trumpmn3, bidenmn3, trumpmn4, bidenmn4, trumpmn5, bidenmn5, trumpmn6, bidenmn6, trumpmn7, bidenmn7, trumpmn8, bidenmn8 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpin, bidenin = {1}, {1} #trumpin1, bidenin1, trumpin2, bidenin2, trumpin3, bidenin3, trumpin4, bidenin4, trumpin5, bidenin5, trumpin6, bidenin6, trumpin7, bidenin7, trumpin8, bidenin8, trumpin9, bidenin9 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpmd, bidenmd = {1}, {1} #trumpmd1, bidenmd1, trumpmd2, bidenmd2, trumpmd3, bidenmd3, trumpmd4, bidenmd4, trumpmd5, bidenmd5, trumpmd6, bidenmd6, trumpmd7, bidenmd7, trumpmd8, bidenmd8 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpsd, bidensd = {1}, {1} #trumpsd1, bidensd1 = {1}, {1}, {1}, {1}
+trumpvt, bidenvt = {1}, {1} #trumpvt1, bidenvt1 = {1}, {1}, {1}, {1}
+trumpnd, bidennd = {1}, {1} #trumpnd1, bidennd1 = {1}, {1}, {1}, {1}
+trumpde, bidende = {1}, {1} #trumpde1, bidende1 = {1}, {1}, {1}, {1}
+trumpmt, bidenmt = {1}, {1} #trumpmt1, bidenmt1 = {1}, {1}, {1}, {1}
+trumpne, bidenne = {1}, {1} #trumpne1, bidenne1, trumpne2, bidenne2, trumpne3, bidenne3 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpmi, bidenmi = {1}, {1} #trumpmi1, bidenmi1, trumpmi2, bidenmi2, trumpmi3, bidenmi3, trumpmi4, bidenmi4, trumpmi5, bidenmi5, trumpmi6, bidenmi6, trumpmi7, bidenmi7, trumpmi8, bidenmi8, trumpmi9, bidenmi9, trumpmi10, bidenmi10, trumpmi11, bidenmi11, trumpmi12, bidenmi12, trumpmi13, bidenmi13, trumpmi14, bidenmi14 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpma, bidenma = {1}, {1} #trumpma1, bidenma1, trumpma2, bidenma2, trumpma3, bidenma3, trumpma4, bidenma4, trumpma5, bidenma5, trumpma6, bidenma6, trumpma7, bidenma7, trumpma8, bidenma8, trumpma9, bidenma9 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpva, bidenva = {1}, {1} #trumpva1, bidenva1, trumpva2, bidenva2, trumpva3, bidenva3, trumpva4, bidenva4, trumpva5, bidenva5, trumpva6, bidenva6, trumpva7, bidenva7, trumpva8, bidenva8, trumpva9, bidenva9, trumpva10, bidenva10, trumpva11, bidenva11 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpme, bidenme = {1}, {1} #trumpme1, bidenme1, trumpme2, bidenme2 = {1}, {1}, {1}, {1}, {1}, {1}
+trumpid, bidenid = {1}, {1} #trumpid1, bidenid1, trumpid2, bidenid2 = {1}, {1}, {1}, {1}, {1}, {1}
+trumpwi, bidenwi = {1}, {1} #trumpwi1, bidenwi1, trumpwi2, bidenwi2, trumpwi3, bidenwi3, trumpwi4, bidenwi4, trumpwi5, bidenwi5, trumpwi6, bidenwi6, trumpwi7, bidenwi7, trumpwi8, bidenwi8 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpwv, bidenwv = {1}, {1} #trumpwv1, bidenwv1, trumpwv2, bidenwv2, trumpwv3, bidenwv3 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpia, bidenia = {1}, {1} #trumpia1, bidenia1, trumpia2, bidenia2, trumpia3, bidenia3, trumpia4, bidenia4 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpms, bidenms = {1}, {1} #trumpms1, bidenms1, trumpms2, bidenms2, trumpms3, bidenms3, trumpms4, bidenms4 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumphi, bidenhi = {1}, {1} #trumphi1, bidenhi1, trumphi2, bidenhi2 = {1}, {1}, {1}, {1}, {1}, {1}
+trumpri, bidenri = {1}, {1} #trumpri1, bidenri1, trumpri2, bidenri2 = {1}, {1}, {1}, {1}, {1}, {1}
+trumpwa, bidenwa = {1}, {1} #trumpwa1, bidenwa1, trumpwa2, bidenwa2, trumpwa3, bidenwa3, trumpwa4, bidenwa4, trumpwa5, bidenwa5, trumpwa6, bidenwa6, trumpwa7, bidenwa7, trumpwa8, bidenwa8, trumpwa9, bidenwa9, trumpwa10, bidenwa10 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpfl, bidenfl = {1}, {1} #trumpfl1, bidenfl1, trumpfl2, bidenfl2, trumpfl3, bidenfl3, trumpfl4, bidenfl4, trumpfl5, bidenfl5, trumpfl6, bidenfl6, trumpfl7, bidenfl7, trumpfl8, bidenfl8, trumpfl9, bidenfl9, trumpfl10, bidenfl10, trumpfl11, bidenfl11, trumpfl12, bidenfl12, trumpfl13, bidenfl13, trumpfl14, bidenfl14, trumpfl15, bidenfl15, trumpfl16, bidenfl16, trumpfl17, bidenfl17, trumpfl18, bidenfl18, trumpfl19, bidenfl19, trumpfl20, bidenfl20, trumpfl21, bidenfl21, trumpfl22, bidenfl22, trumpfl23, bidenfl23, trumpfl24, bidenfl24, trumpfl25, bidenfl25, trumpfl26, bidenfl26, trumpfl27, bidenfl27 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpal, bidenal = {1}, {1} #trumpal1, bidenal1, trumpal2, bidenal2, trumpal3, bidenal3, trumpal4, bidenal4, trumpal5, bidenal5, trumpal6, bidenal6, trumpal7, bidenal7 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpil, bidenil = {1}, {1} #trumpil1, bidenil1, trumpil2, bidenil2, trumpil3, bidenil3, trumpil4, bidenil4, trumpil5, bidenil5, trumpil6, bidenil6, trumpil7, bidenil7, trumpil8, bidenil8, trumpil9, bidenil9, trumpil10, bidenil10, trumpil11, bidenil11, trumpil12, bidenil12, trumpil13, bidenil13, trumpil14, bidenil14, trumpil15, bidenil15, trumpil16, bidenil16, trumpil17, bidenil17, trumpil18, bidenil18 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpca, bidenca = {1}, {1} #trumpca1, bidenca1, trumpca2, bidenca2, trumpca3, bidenca3, trumpca4, bidenca4, trumpca5, bidenca5, trumpca6, bidenca6, trumpca7, bidenca7, trumpca8, bidenca8, trumpca9, bidenca9, trumpca10, bidenca10, trumpca11, bidenca11, trumpca12, bidenca12, trumpca13, bidenca13, trumpca14, bidenca14, trumpca15, bidenca15, trumpca16, bidenca16, trumpca17, bidenca17, trumpca18, bidenca18, trumpca19, bidenca19, trumpca20, bidenca20, trumpca21, bidenca21, trumpca22, bidenca22, trumpca23, bidenca23, trumpca24, bidenca24, trumpca25, bidenca25, trumpca26, bidenca26, trumpca27, bidenca27, trumpca28, bidenca28, trumpca29, bidenca29, trumpca30, bidenca30, trumpca31, bidenca31, trumpca32, bidenca32, trumpca33, bidenca33, trumpca34, bidenca34, trumpca35, bidenca35, trumpca36, bidenca36, trumpca37, bidenca37, trumpca38, bidenca38, trumpca39, bidenca39, trumpca40, bidenca40, trumpca41, bidenca41, trumpca42, bidenca42, trumpca43, bidenca43, trumpca44, bidenca44, trumpca45, bidenca45, trumpca46, bidenca46, trumpca47, bidenca47, trumpca48, bidenca48, trumpca49, bidenca49, trumpca50, bidenca50, trumpca51, bidenca51, trumpca52, bidenca52, trumpca53, bidenca53 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpks, bidenks = {1}, {1} #trumpks1, bidenks1, trumpks2, bidenks2, trumpks3, bidenks3, trumpks4, bidenks4 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpga, bidenga = {1}, {1} #trumpga1, bidenga1, trumpga2, bidenga2, trumpga3, bidenga3, trumpga4, bidenga4, trumpga5, bidenga5, trumpga6, bidenga6, trumpga7, bidenga7, trumpga8, bidenga8, trumpga9, bidenga9, trumpga10, bidenga10, trumpga11, bidenga11, trumpga12, bidenga12, trumpga13, bidenga13, trumpga14, bidenga14 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpaz, bidenaz = {1}, {1} #trumpaz1, bidenaz1, trumpaz2, bidenaz2, trumpaz3, bidenaz3, trumpaz4, bidenaz4, trumpaz5, bidenaz5, trumpaz6, bidenaz6, trumpaz7, bidenaz7, trumpaz8, bidenaz8, trumpaz9, bidenaz9 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpak, bidenak = {1}, {1} #trumpak1, bidenak1 = {1}, {1}, {1}, {1}
+trumpar, bidenar = {1}, {1} #trumpar1, bidenar1, trumpar2, bidenar2, trumpar3, bidenar3, trumpar4, bidenar4 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpnj, bidennj = {1}, {1} #trumpnj1, bidennj1, trumpnj2, bidennj2, trumpnj3, bidennj3, trumpnj4, bidennj4, trumpnj5, bidennj5, trumpnj6, bidennj6, trumpnj7, bidennj7, trumpnj8, bidennj8, trumpnj9, bidennj9, trumpnj10, bidennj10, trumpnj11, bidennj11, trumpnj12, bidennj12 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpnv, bidennv = {1}, {1} #trumpnv1, bidennv1, trumpnv2, bidennv2, trumpnv3, bidennv3, trumpnv4, bidennv4 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpnh, bidennh = {1}, {1} #trumpnh1, bidennh1, trumpnh2, bidennh2 = {1}, {1}, {1}, {1}, {1}, {1}
+trumpnc, bidennc = {1}, {1} #trumpnc1, bidennc1, trumpnc2, bidennc2, trumpnc3, bidennc3, trumpnc4, bidennc4, trumpnc5, bidennc5, trumpnc6, bidennc6, trumpnc7, bidennc7, trumpnc8, bidennc8, trumpnc9, bidennc9, trumpnc10, bidennc10, trumpnc11, bidennc11, trumpnc12, bidennc12, trumpnc13, bidennc13 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumptx, bidentx = {1}, {1} #trumptx1, bidentx1, trumptx2, bidentx2, trumptx3, bidentx3, trumptx4, bidentx4, trumptx5, bidentx5, trumptx6, bidentx6, trumptx7, bidentx7, trumptx8, bidentx8, trumptx9, bidentx9, trumptx10, bidentx10, trumptx11, bidentx11, trumptx12, bidentx12, trumptx13, bidentx13, trumptx14, bidentx14, trumptx15, bidentx15, trumptx16, bidentx16, trumptx17, bidentx17, trumptx18, bidentx18, trumptx19, bidentx19, trumptx20, bidentx20, trumptx21, bidentx21, trumptx22, bidentx22, trumptx23, bidentx23, trumptx24, bidentx24, trumptx25, bidentx25, trumptx26, bidentx26, trumptx27, bidentx27, trumptx28, bidentx28, trumptx29, bidentx29, trumptx30, bidentx30, trumptx31, bidentx31, trumptx32, bidentx32, trumptx33, bidentx33, trumptx34, bidentx34, trumptx35, bidentx35, trumptx36, bidentx36 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumptn, bidentn = {1}, {1} #trumptn1, bidentn1, trumptn2, bidentn2, trumptn3, bidentn3, trumptn4, bidentn4, trumptn5, bidentn5, trumptn6, bidentn6, trumptn7, bidentn7, trumptn8, bidentn8, trumptn9, bidentn9 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpnm, bidennm = {1}, {1} #trumpnm1, bidennm1, trumpnm2, bidennm2, trumpnm3, bidennm3 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpny, bidenny = {1}, {1} #trumpny1, bidenny1, trumpny2, bidenny2, trumpny3, bidenny3, trumpny4, bidenny4, trumpny5, bidenny5, trumpny6, bidenny6, trumpny7, bidenny7, trumpny8, bidenny8, trumpny9, bidenny9, trumpny10, bidenny10, trumpny11, bidenny11, trumpny12, bidenny12, trumpny13, bidenny13, trumpny14, bidenny14, trumpny15, bidenny15, trumpny16, bidenny16, trumpny17, bidenny17, trumpny18, bidenny18, trumpny19, bidenny19, trumpny20, bidenny20, trumpny21, bidenny21, trumpny22, bidenny22, trumpny23, bidenny23, trumpny24, bidenny24, trumpny25, bidenny25, trumpny26, bidenny26, trumpny27, bidenny27 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpwy, bidenwy = {1}, {1} #trumpwy1, bidenwy1 = {1}, {1}, {1}, {1}
+trumppa, bidenpa = {1}, {1} #trumppa1, bidenpa1, trumppa2, bidenpa2, trumppa3, bidenpa3, trumppa4, bidenpa4, trumppa5, bidenpa5, trumppa6, bidenpa6, trumppa7, bidenpa7, trumppa8, bidenpa8, trumppa9, bidenpa9, trumppa10, bidenpa10, trumppa11, bidenpa11, trumppa12, bidenpa12, trumppa13, bidenpa13, trumppa14, bidenpa14, trumppa15, bidenpa15, trumppa16, bidenpa16, trumppa17, bidenpa17, trumppa18, bidenpa18 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpct, bidenct = {1}, {1} #trumpct1, bidenct1, trumpct2, bidenct2, trumpct3, bidenct3, trumpct4, bidenct4, trumpct5, bidenct5 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpky, bidenky = {1}, {1} #trumpky1, bidenky1, trumpky2, bidenky2, trumpky3, bidenky3, trumpky4, bidenky4, trumpky5, bidenky5, trumpky6, bidenky6 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpla, bidenla = {1}, {1} #trumpla1, bidenla1, trumpla2, bidenla2, trumpla3, bidenla3, trumpla4, bidenla4, trumpla5, bidenla5, trumpla6, bidenla6 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpok, bidenok = {1}, {1} #trumpok1, bidenok1, trumpok2, bidenok2, trumpok3, bidenok3, trumpok4, bidenok4, trumpok5, bidenok5 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumput, bidenut = {1}, {1} #trumput1, bidenut1, trumput2, bidenut2, trumput3, bidenut3, trumput4, bidenut4 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpoh, bidenoh = {1}, {1} #trumpoh1, bidenoh1, trumpoh2, bidenoh2, trumpoh3, bidenoh3, trumpoh4, bidenoh4, trumpoh5, bidenoh5, trumpoh6, bidenoh6, trumpoh7, bidenoh7, trumpoh8, bidenoh8, trumpoh9, bidenoh9, trumpoh10, bidenoh10, trumpoh11, bidenoh11, trumpoh12, bidenoh12, trumpoh13, bidenoh13, trumpoh14, bidenoh14, trumpoh15, bidenoh15, trumpoh16, bidenoh16 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+trumpor, bidenor = {1}, {1} #trumpor1, bidenor1, trumpor2, bidenor2, trumpor3, bidenor3, trumpor4, bidenor4, trumpor5, bidenor5 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+#
+# trumpmo, bidenmo, trumpmo1, bidenmo1, trumpmo2, bidenmo2, trumpmo3, bidenmo3, trumpmo4, bidenmo4, trumpmo5, bidenmo5, trumpmo6, bidenmo6, trumpmo7, bidenmo7, trumpmo8, bidenmo8 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpco, bidenco, trumpco1, bidenco1, trumpco2, bidenco2, trumpco3, bidenco3, trumpco4, bidenco4, trumpco5, bidenco5, trumpco6, bidenco6, trumpco7, bidenco7 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpsc, bidensc, trumpsc1, bidensc1, trumpsc2, bidensc2, trumpsc3, bidensc3, trumpsc4, bidensc4, trumpsc5, bidensc5, trumpsc6, bidensc6, trumpsc7, bidensc7 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpmn, bidenmn, trumpmn1, bidenmn1, trumpmn2, bidenmn2, trumpmn3, bidenmn3, trumpmn4, bidenmn4, trumpmn5, bidenmn5, trumpmn6, bidenmn6, trumpmn7, bidenmn7, trumpmn8, bidenmn8 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpin, bidenin, trumpin1, bidenin1, trumpin2, bidenin2, trumpin3, bidenin3, trumpin4, bidenin4, trumpin5, bidenin5, trumpin6, bidenin6, trumpin7, bidenin7, trumpin8, bidenin8, trumpin9, bidenin9 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpmd, bidenmd, trumpmd1, bidenmd1, trumpmd2, bidenmd2, trumpmd3, bidenmd3, trumpmd4, bidenmd4, trumpmd5, bidenmd5, trumpmd6, bidenmd6, trumpmd7, bidenmd7, trumpmd8, bidenmd8 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpsd, bidensd, trumpsd1, bidensd1 = {1}, {1}, {1}, {1}
+# trumpvt, bidenvt, trumpvt1, bidenvt1 = {1}, {1}, {1}, {1}
+# trumpnd, bidennd, trumpnd1, bidennd1 = {1}, {1}, {1}, {1}
+# trumpde, bidende, trumpde1, bidende1 = {1}, {1}, {1}, {1}
+# trumpmt, bidenmt, trumpmt1, bidenmt1 = {1}, {1}, {1}, {1}
+# trumpne, bidenne, trumpne1, bidenne1, trumpne2, bidenne2, trumpne3, bidenne3 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpmi, bidenmi, trumpmi1, bidenmi1, trumpmi2, bidenmi2, trumpmi3, bidenmi3, trumpmi4, bidenmi4, trumpmi5, bidenmi5, trumpmi6, bidenmi6, trumpmi7, bidenmi7, trumpmi8, bidenmi8, trumpmi9, bidenmi9, trumpmi10, bidenmi10, trumpmi11, bidenmi11, trumpmi12, bidenmi12, trumpmi13, bidenmi13, trumpmi14, bidenmi14 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpma, bidenma, trumpma1, bidenma1, trumpma2, bidenma2, trumpma3, bidenma3, trumpma4, bidenma4, trumpma5, bidenma5, trumpma6, bidenma6, trumpma7, bidenma7, trumpma8, bidenma8, trumpma9, bidenma9 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpva, bidenva, trumpva1, bidenva1, trumpva2, bidenva2, trumpva3, bidenva3, trumpva4, bidenva4, trumpva5, bidenva5, trumpva6, bidenva6, trumpva7, bidenva7, trumpva8, bidenva8, trumpva9, bidenva9, trumpva10, bidenva10, trumpva11, bidenva11 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpme, bidenme, trumpme1, bidenme1, trumpme2, bidenme2 = {1}, {1}, {1}, {1}, {1}, {1}
+# trumpid, bidenid, trumpid1, bidenid1, trumpid2, bidenid2 = {1}, {1}, {1}, {1}, {1}, {1}
+# trumpwi, bidenwi, trumpwi1, bidenwi1, trumpwi2, bidenwi2, trumpwi3, bidenwi3, trumpwi4, bidenwi4, trumpwi5, bidenwi5, trumpwi6, bidenwi6, trumpwi7, bidenwi7, trumpwi8, bidenwi8 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpwv, bidenwv, trumpwv1, bidenwv1, trumpwv2, bidenwv2, trumpwv3, bidenwv3 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpia, bidenia, trumpia1, bidenia1, trumpia2, bidenia2, trumpia3, bidenia3, trumpia4, bidenia4 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpms, bidenms, trumpms1, bidenms1, trumpms2, bidenms2, trumpms3, bidenms3, trumpms4, bidenms4 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumphi, bidenhi, trumphi1, bidenhi1, trumphi2, bidenhi2 = {1}, {1}, {1}, {1}, {1}, {1}
+# trumpri, bidenri, trumpri1, bidenri1, trumpri2, bidenri2 = {1}, {1}, {1}, {1}, {1}, {1}
+# trumpwa, bidenwa, trumpwa1, bidenwa1, trumpwa2, bidenwa2, trumpwa3, bidenwa3, trumpwa4, bidenwa4, trumpwa5, bidenwa5, trumpwa6, bidenwa6, trumpwa7, bidenwa7, trumpwa8, bidenwa8, trumpwa9, bidenwa9, trumpwa10, bidenwa10 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpfl, bidenfl, trumpfl1, bidenfl1, trumpfl2, bidenfl2, trumpfl3, bidenfl3, trumpfl4, bidenfl4, trumpfl5, bidenfl5, trumpfl6, bidenfl6, trumpfl7, bidenfl7, trumpfl8, bidenfl8, trumpfl9, bidenfl9, trumpfl10, bidenfl10, trumpfl11, bidenfl11, trumpfl12, bidenfl12, trumpfl13, bidenfl13, trumpfl14, bidenfl14, trumpfl15, bidenfl15, trumpfl16, bidenfl16, trumpfl17, bidenfl17, trumpfl18, bidenfl18, trumpfl19, bidenfl19, trumpfl20, bidenfl20, trumpfl21, bidenfl21, trumpfl22, bidenfl22, trumpfl23, bidenfl23, trumpfl24, bidenfl24, trumpfl25, bidenfl25, trumpfl26, bidenfl26, trumpfl27, bidenfl27 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpal, bidenal, trumpal1, bidenal1, trumpal2, bidenal2, trumpal3, bidenal3, trumpal4, bidenal4, trumpal5, bidenal5, trumpal6, bidenal6, trumpal7, bidenal7 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpil, bidenil, trumpil1, bidenil1, trumpil2, bidenil2, trumpil3, bidenil3, trumpil4, bidenil4, trumpil5, bidenil5, trumpil6, bidenil6, trumpil7, bidenil7, trumpil8, bidenil8, trumpil9, bidenil9, trumpil10, bidenil10, trumpil11, bidenil11, trumpil12, bidenil12, trumpil13, bidenil13, trumpil14, bidenil14, trumpil15, bidenil15, trumpil16, bidenil16, trumpil17, bidenil17, trumpil18, bidenil18 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpca, bidenca, trumpca1, bidenca1, trumpca2, bidenca2, trumpca3, bidenca3, trumpca4, bidenca4, trumpca5, bidenca5, trumpca6, bidenca6, trumpca7, bidenca7, trumpca8, bidenca8, trumpca9, bidenca9, trumpca10, bidenca10, trumpca11, bidenca11, trumpca12, bidenca12, trumpca13, bidenca13, trumpca14, bidenca14, trumpca15, bidenca15, trumpca16, bidenca16, trumpca17, bidenca17, trumpca18, bidenca18, trumpca19, bidenca19, trumpca20, bidenca20, trumpca21, bidenca21, trumpca22, bidenca22, trumpca23, bidenca23, trumpca24, bidenca24, trumpca25, bidenca25, trumpca26, bidenca26, trumpca27, bidenca27, trumpca28, bidenca28, trumpca29, bidenca29, trumpca30, bidenca30, trumpca31, bidenca31, trumpca32, bidenca32, trumpca33, bidenca33, trumpca34, bidenca34, trumpca35, bidenca35, trumpca36, bidenca36, trumpca37, bidenca37, trumpca38, bidenca38, trumpca39, bidenca39, trumpca40, bidenca40, trumpca41, bidenca41, trumpca42, bidenca42, trumpca43, bidenca43, trumpca44, bidenca44, trumpca45, bidenca45, trumpca46, bidenca46, trumpca47, bidenca47, trumpca48, bidenca48, trumpca49, bidenca49, trumpca50, bidenca50, trumpca51, bidenca51, trumpca52, bidenca52, trumpca53, bidenca53 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpks, bidenks, trumpks1, bidenks1, trumpks2, bidenks2, trumpks3, bidenks3, trumpks4, bidenks4 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpga, bidenga, trumpga1, bidenga1, trumpga2, bidenga2, trumpga3, bidenga3, trumpga4, bidenga4, trumpga5, bidenga5, trumpga6, bidenga6, trumpga7, bidenga7, trumpga8, bidenga8, trumpga9, bidenga9, trumpga10, bidenga10, trumpga11, bidenga11, trumpga12, bidenga12, trumpga13, bidenga13, trumpga14, bidenga14 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpaz, bidenaz, trumpaz1, bidenaz1, trumpaz2, bidenaz2, trumpaz3, bidenaz3, trumpaz4, bidenaz4, trumpaz5, bidenaz5, trumpaz6, bidenaz6, trumpaz7, bidenaz7, trumpaz8, bidenaz8, trumpaz9, bidenaz9 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpak, bidenak, trumpak1, bidenak1 = {1}, {1}, {1}, {1}
+# trumpar, bidenar, trumpar1, bidenar1, trumpar2, bidenar2, trumpar3, bidenar3, trumpar4, bidenar4 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpnj, bidennj, trumpnj1, bidennj1, trumpnj2, bidennj2, trumpnj3, bidennj3, trumpnj4, bidennj4, trumpnj5, bidennj5, trumpnj6, bidennj6, trumpnj7, bidennj7, trumpnj8, bidennj8, trumpnj9, bidennj9, trumpnj10, bidennj10, trumpnj11, bidennj11, trumpnj12, bidennj12 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpnv, bidennv, trumpnv1, bidennv1, trumpnv2, bidennv2, trumpnv3, bidennv3, trumpnv4, bidennv4 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpnh, bidennh, trumpnh1, bidennh1, trumpnh2, bidennh2 = {1}, {1}, {1}, {1}, {1}, {1}
+# trumpnc, bidennc, trumpnc1, bidennc1, trumpnc2, bidennc2, trumpnc3, bidennc3, trumpnc4, bidennc4, trumpnc5, bidennc5, trumpnc6, bidennc6, trumpnc7, bidennc7, trumpnc8, bidennc8, trumpnc9, bidennc9, trumpnc10, bidennc10, trumpnc11, bidennc11, trumpnc12, bidennc12, trumpnc13, bidennc13 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumptx, bidentx, trumptx1, bidentx1, trumptx2, bidentx2, trumptx3, bidentx3, trumptx4, bidentx4, trumptx5, bidentx5, trumptx6, bidentx6, trumptx7, bidentx7, trumptx8, bidentx8, trumptx9, bidentx9, trumptx10, bidentx10, trumptx11, bidentx11, trumptx12, bidentx12, trumptx13, bidentx13, trumptx14, bidentx14, trumptx15, bidentx15, trumptx16, bidentx16, trumptx17, bidentx17, trumptx18, bidentx18, trumptx19, bidentx19, trumptx20, bidentx20, trumptx21, bidentx21, trumptx22, bidentx22, trumptx23, bidentx23, trumptx24, bidentx24, trumptx25, bidentx25, trumptx26, bidentx26, trumptx27, bidentx27, trumptx28, bidentx28, trumptx29, bidentx29, trumptx30, bidentx30, trumptx31, bidentx31, trumptx32, bidentx32, trumptx33, bidentx33, trumptx34, bidentx34, trumptx35, bidentx35, trumptx36, bidentx36 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumptn, bidentn, trumptn1, bidentn1, trumptn2, bidentn2, trumptn3, bidentn3, trumptn4, bidentn4, trumptn5, bidentn5, trumptn6, bidentn6, trumptn7, bidentn7, trumptn8, bidentn8, trumptn9, bidentn9 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpnm, bidennm, trumpnm1, bidennm1, trumpnm2, bidennm2, trumpnm3, bidennm3 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpny, bidenny, trumpny1, bidenny1, trumpny2, bidenny2, trumpny3, bidenny3, trumpny4, bidenny4, trumpny5, bidenny5, trumpny6, bidenny6, trumpny7, bidenny7, trumpny8, bidenny8, trumpny9, bidenny9, trumpny10, bidenny10, trumpny11, bidenny11, trumpny12, bidenny12, trumpny13, bidenny13, trumpny14, bidenny14, trumpny15, bidenny15, trumpny16, bidenny16, trumpny17, bidenny17, trumpny18, bidenny18, trumpny19, bidenny19, trumpny20, bidenny20, trumpny21, bidenny21, trumpny22, bidenny22, trumpny23, bidenny23, trumpny24, bidenny24, trumpny25, bidenny25, trumpny26, bidenny26, trumpny27, bidenny27 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpwy, bidenwy, trumpwy1, bidenwy1 = {1}, {1}, {1}, {1}
+# trumppa, bidenpa, trumppa1, bidenpa1, trumppa2, bidenpa2, trumppa3, bidenpa3, trumppa4, bidenpa4, trumppa5, bidenpa5, trumppa6, bidenpa6, trumppa7, bidenpa7, trumppa8, bidenpa8, trumppa9, bidenpa9, trumppa10, bidenpa10, trumppa11, bidenpa11, trumppa12, bidenpa12, trumppa13, bidenpa13, trumppa14, bidenpa14, trumppa15, bidenpa15, trumppa16, bidenpa16, trumppa17, bidenpa17, trumppa18, bidenpa18 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpct, bidenct, trumpct1, bidenct1, trumpct2, bidenct2, trumpct3, bidenct3, trumpct4, bidenct4, trumpct5, bidenct5 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpky, bidenky, trumpky1, bidenky1, trumpky2, bidenky2, trumpky3, bidenky3, trumpky4, bidenky4, trumpky5, bidenky5, trumpky6, bidenky6 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpla, bidenla, trumpla1, bidenla1, trumpla2, bidenla2, trumpla3, bidenla3, trumpla4, bidenla4, trumpla5, bidenla5, trumpla6, bidenla6 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpok, bidenok, trumpok1, bidenok1, trumpok2, bidenok2, trumpok3, bidenok3, trumpok4, bidenok4, trumpok5, bidenok5 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumput, bidenut, trumput1, bidenut1, trumput2, bidenut2, trumput3, bidenut3, trumput4, bidenut4 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpoh, bidenoh, trumpoh1, bidenoh1, trumpoh2, bidenoh2, trumpoh3, bidenoh3, trumpoh4, bidenoh4, trumpoh5, bidenoh5, trumpoh6, bidenoh6, trumpoh7, bidenoh7, trumpoh8, bidenoh8, trumpoh9, bidenoh9, trumpoh10, bidenoh10, trumpoh11, bidenoh11, trumpoh12, bidenoh12, trumpoh13, bidenoh13, trumpoh14, bidenoh14, trumpoh15, bidenoh15, trumpoh16, bidenoh16 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
+# trumpor, bidenor, trumpor1, bidenor1, trumpor2, bidenor2, trumpor3, bidenor3, trumpor4, bidenor4, trumpor5, bidenor5 = {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}, {1}
 
-trumpmo, bidenmo, trumpmo1, bidenmo1, trumpmo2, bidenmo2, trumpmo3, bidenmo3, trumpmo4, bidenmo4, trumpmo5, bidenmo5, trumpmo6, bidenmo6, trumpmo7, bidenmo7, trumpmo8, bidenmo8 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpco, bidenco, trumpco1, bidenco1, trumpco2, bidenco2, trumpco3, bidenco3, trumpco4, bidenco4, trumpco5, bidenco5, trumpco6, bidenco6, trumpco7, bidenco7 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpsc, bidensc, trumpsc1, bidensc1, trumpsc2, bidensc2, trumpsc3, bidensc3, trumpsc4, bidensc4, trumpsc5, bidensc5, trumpsc6, bidensc6, trumpsc7, bidensc7 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpmn, bidenmn, trumpmn1, bidenmn1, trumpmn2, bidenmn2, trumpmn3, bidenmn3, trumpmn4, bidenmn4, trumpmn5, bidenmn5, trumpmn6, bidenmn6, trumpmn7, bidenmn7, trumpmn8, bidenmn8 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpin, bidenin, trumpin1, bidenin1, trumpin2, bidenin2, trumpin3, bidenin3, trumpin4, bidenin4, trumpin5, bidenin5, trumpin6, bidenin6, trumpin7, bidenin7, trumpin8, bidenin8, trumpin9, bidenin9 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpmd, bidenmd, trumpmd1, bidenmd1, trumpmd2, bidenmd2, trumpmd3, bidenmd3, trumpmd4, bidenmd4, trumpmd5, bidenmd5, trumpmd6, bidenmd6, trumpmd7, bidenmd7, trumpmd8, bidenmd8 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpsd, bidensd, trumpsd1, bidensd1 = set(), set(), set(), set()
-trumpvt, bidenvt, trumpvt1, bidenvt1 = set(), set(), set(), set()
-trumpnd, bidennd, trumpnd1, bidennd1 = set(), set(), set(), set()
-trumpde, bidende, trumpde1, bidende1 = set(), set(), set(), set()
-trumpmt, bidenmt, trumpmt1, bidenmt1 = set(), set(), set(), set()
-trumpne, bidenne, trumpne1, bidenne1, trumpne2, bidenne2, trumpne3, bidenne3 = set(), set(), set(), set(), set(), set(), set(), set()
-trumpmi, bidenmi, trumpmi1, bidenmi1, trumpmi2, bidenmi2, trumpmi3, bidenmi3, trumpmi4, bidenmi4, trumpmi5, bidenmi5, trumpmi6, bidenmi6, trumpmi7, bidenmi7, trumpmi8, bidenmi8, trumpmi9, bidenmi9, trumpmi10, bidenmi10, trumpmi11, bidenmi11, trumpmi12, bidenmi12, trumpmi13, bidenmi13, trumpmi14, bidenmi14 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpma, bidenma, trumpma1, bidenma1, trumpma2, bidenma2, trumpma3, bidenma3, trumpma4, bidenma4, trumpma5, bidenma5, trumpma6, bidenma6, trumpma7, bidenma7, trumpma8, bidenma8, trumpma9, bidenma9 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpva, bidenva, trumpva1, bidenva1, trumpva2, bidenva2, trumpva3, bidenva3, trumpva4, bidenva4, trumpva5, bidenva5, trumpva6, bidenva6, trumpva7, bidenva7, trumpva8, bidenva8, trumpva9, bidenva9, trumpva10, bidenva10, trumpva11, bidenva11 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpme, bidenme, trumpme1, bidenme1, trumpme2, bidenme2 = set(), set(), set(), set(), set(), set()
-trumpid, bidenid, trumpid1, bidenid1, trumpid2, bidenid2 = set(), set(), set(), set(), set(), set()
-trumpwi, bidenwi, trumpwi1, bidenwi1, trumpwi2, bidenwi2, trumpwi3, bidenwi3, trumpwi4, bidenwi4, trumpwi5, bidenwi5, trumpwi6, bidenwi6, trumpwi7, bidenwi7, trumpwi8, bidenwi8 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpwv, bidenwv, trumpwv1, bidenwv1, trumpwv2, bidenwv2, trumpwv3, bidenwv3 = set(), set(), set(), set(), set(), set(), set(), set()
-trumpia, bidenia, trumpia1, bidenia1, trumpia2, bidenia2, trumpia3, bidenia3, trumpia4, bidenia4 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpms, bidenms, trumpms1, bidenms1, trumpms2, bidenms2, trumpms3, bidenms3, trumpms4, bidenms4 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumphi, bidenhi, trumphi1, bidenhi1, trumphi2, bidenhi2 = set(), set(), set(), set(), set(), set()
-trumpri, bidenri, trumpri1, bidenri1, trumpri2, bidenri2 = set(), set(), set(), set(), set(), set()
-trumpwa, bidenwa, trumpwa1, bidenwa1, trumpwa2, bidenwa2, trumpwa3, bidenwa3, trumpwa4, bidenwa4, trumpwa5, bidenwa5, trumpwa6, bidenwa6, trumpwa7, bidenwa7, trumpwa8, bidenwa8, trumpwa9, bidenwa9, trumpwa10, bidenwa10 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpfl, bidenfl, trumpfl1, bidenfl1, trumpfl2, bidenfl2, trumpfl3, bidenfl3, trumpfl4, bidenfl4, trumpfl5, bidenfl5, trumpfl6, bidenfl6, trumpfl7, bidenfl7, trumpfl8, bidenfl8, trumpfl9, bidenfl9, trumpfl10, bidenfl10, trumpfl11, bidenfl11, trumpfl12, bidenfl12, trumpfl13, bidenfl13, trumpfl14, bidenfl14, trumpfl15, bidenfl15, trumpfl16, bidenfl16, trumpfl17, bidenfl17, trumpfl18, bidenfl18, trumpfl19, bidenfl19, trumpfl20, bidenfl20, trumpfl21, bidenfl21, trumpfl22, bidenfl22, trumpfl23, bidenfl23, trumpfl24, bidenfl24, trumpfl25, bidenfl25, trumpfl26, bidenfl26, trumpfl27, bidenfl27 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpal, bidenal, trumpal1, bidenal1, trumpal2, bidenal2, trumpal3, bidenal3, trumpal4, bidenal4, trumpal5, bidenal5, trumpal6, bidenal6, trumpal7, bidenal7 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpil, bidenil, trumpil1, bidenil1, trumpil2, bidenil2, trumpil3, bidenil3, trumpil4, bidenil4, trumpil5, bidenil5, trumpil6, bidenil6, trumpil7, bidenil7, trumpil8, bidenil8, trumpil9, bidenil9, trumpil10, bidenil10, trumpil11, bidenil11, trumpil12, bidenil12, trumpil13, bidenil13, trumpil14, bidenil14, trumpil15, bidenil15, trumpil16, bidenil16, trumpil17, bidenil17, trumpil18, bidenil18 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpca, bidenca, trumpca1, bidenca1, trumpca2, bidenca2, trumpca3, bidenca3, trumpca4, bidenca4, trumpca5, bidenca5, trumpca6, bidenca6, trumpca7, bidenca7, trumpca8, bidenca8, trumpca9, bidenca9, trumpca10, bidenca10, trumpca11, bidenca11, trumpca12, bidenca12, trumpca13, bidenca13, trumpca14, bidenca14, trumpca15, bidenca15, trumpca16, bidenca16, trumpca17, bidenca17, trumpca18, bidenca18, trumpca19, bidenca19, trumpca20, bidenca20, trumpca21, bidenca21, trumpca22, bidenca22, trumpca23, bidenca23, trumpca24, bidenca24, trumpca25, bidenca25, trumpca26, bidenca26, trumpca27, bidenca27, trumpca28, bidenca28, trumpca29, bidenca29, trumpca30, bidenca30, trumpca31, bidenca31, trumpca32, bidenca32, trumpca33, bidenca33, trumpca34, bidenca34, trumpca35, bidenca35, trumpca36, bidenca36, trumpca37, bidenca37, trumpca38, bidenca38, trumpca39, bidenca39, trumpca40, bidenca40, trumpca41, bidenca41, trumpca42, bidenca42, trumpca43, bidenca43, trumpca44, bidenca44, trumpca45, bidenca45, trumpca46, bidenca46, trumpca47, bidenca47, trumpca48, bidenca48, trumpca49, bidenca49, trumpca50, bidenca50, trumpca51, bidenca51, trumpca52, bidenca52, trumpca53, bidenca53 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpks, bidenks, trumpks1, bidenks1, trumpks2, bidenks2, trumpks3, bidenks3, trumpks4, bidenks4 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpga, bidenga, trumpga1, bidenga1, trumpga2, bidenga2, trumpga3, bidenga3, trumpga4, bidenga4, trumpga5, bidenga5, trumpga6, bidenga6, trumpga7, bidenga7, trumpga8, bidenga8, trumpga9, bidenga9, trumpga10, bidenga10, trumpga11, bidenga11, trumpga12, bidenga12, trumpga13, bidenga13, trumpga14, bidenga14 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpaz, bidenaz, trumpaz1, bidenaz1, trumpaz2, bidenaz2, trumpaz3, bidenaz3, trumpaz4, bidenaz4, trumpaz5, bidenaz5, trumpaz6, bidenaz6, trumpaz7, bidenaz7, trumpaz8, bidenaz8, trumpaz9, bidenaz9 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpak, bidenak, trumpak1, bidenak1 = set(), set(), set(), set()
-trumpar, bidenar, trumpar1, bidenar1, trumpar2, bidenar2, trumpar3, bidenar3, trumpar4, bidenar4 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpnj, bidennj, trumpnj1, bidennj1, trumpnj2, bidennj2, trumpnj3, bidennj3, trumpnj4, bidennj4, trumpnj5, bidennj5, trumpnj6, bidennj6, trumpnj7, bidennj7, trumpnj8, bidennj8, trumpnj9, bidennj9, trumpnj10, bidennj10, trumpnj11, bidennj11, trumpnj12, bidennj12 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpnv, bidennv, trumpnv1, bidennv1, trumpnv2, bidennv2, trumpnv3, bidennv3, trumpnv4, bidennv4 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpnh, bidennh, trumpnh1, bidennh1, trumpnh2, bidennh2 = set(), set(), set(), set(), set(), set()
-trumpnc, bidennc, trumpnc1, bidennc1, trumpnc2, bidennc2, trumpnc3, bidennc3, trumpnc4, bidennc4, trumpnc5, bidennc5, trumpnc6, bidennc6, trumpnc7, bidennc7, trumpnc8, bidennc8, trumpnc9, bidennc9, trumpnc10, bidennc10, trumpnc11, bidennc11, trumpnc12, bidennc12, trumpnc13, bidennc13 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumptx, bidentx, trumptx1, bidentx1, trumptx2, bidentx2, trumptx3, bidentx3, trumptx4, bidentx4, trumptx5, bidentx5, trumptx6, bidentx6, trumptx7, bidentx7, trumptx8, bidentx8, trumptx9, bidentx9, trumptx10, bidentx10, trumptx11, bidentx11, trumptx12, bidentx12, trumptx13, bidentx13, trumptx14, bidentx14, trumptx15, bidentx15, trumptx16, bidentx16, trumptx17, bidentx17, trumptx18, bidentx18, trumptx19, bidentx19, trumptx20, bidentx20, trumptx21, bidentx21, trumptx22, bidentx22, trumptx23, bidentx23, trumptx24, bidentx24, trumptx25, bidentx25, trumptx26, bidentx26, trumptx27, bidentx27, trumptx28, bidentx28, trumptx29, bidentx29, trumptx30, bidentx30, trumptx31, bidentx31, trumptx32, bidentx32, trumptx33, bidentx33, trumptx34, bidentx34, trumptx35, bidentx35, trumptx36, bidentx36 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumptn, bidentn, trumptn1, bidentn1, trumptn2, bidentn2, trumptn3, bidentn3, trumptn4, bidentn4, trumptn5, bidentn5, trumptn6, bidentn6, trumptn7, bidentn7, trumptn8, bidentn8, trumptn9, bidentn9 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpnm, bidennm, trumpnm1, bidennm1, trumpnm2, bidennm2, trumpnm3, bidennm3 = set(), set(), set(), set(), set(), set(), set(), set()
-trumpny, bidenny, trumpny1, bidenny1, trumpny2, bidenny2, trumpny3, bidenny3, trumpny4, bidenny4, trumpny5, bidenny5, trumpny6, bidenny6, trumpny7, bidenny7, trumpny8, bidenny8, trumpny9, bidenny9, trumpny10, bidenny10, trumpny11, bidenny11, trumpny12, bidenny12, trumpny13, bidenny13, trumpny14, bidenny14, trumpny15, bidenny15, trumpny16, bidenny16, trumpny17, bidenny17, trumpny18, bidenny18, trumpny19, bidenny19, trumpny20, bidenny20, trumpny21, bidenny21, trumpny22, bidenny22, trumpny23, bidenny23, trumpny24, bidenny24, trumpny25, bidenny25, trumpny26, bidenny26, trumpny27, bidenny27 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpwy, bidenwy, trumpwy1, bidenwy1 = set(), set(), set(), set()
-trumppa, bidenpa, trumppa1, bidenpa1, trumppa2, bidenpa2, trumppa3, bidenpa3, trumppa4, bidenpa4, trumppa5, bidenpa5, trumppa6, bidenpa6, trumppa7, bidenpa7, trumppa8, bidenpa8, trumppa9, bidenpa9, trumppa10, bidenpa10, trumppa11, bidenpa11, trumppa12, bidenpa12, trumppa13, bidenpa13, trumppa14, bidenpa14, trumppa15, bidenpa15, trumppa16, bidenpa16, trumppa17, bidenpa17, trumppa18, bidenpa18 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpct, bidenct, trumpct1, bidenct1, trumpct2, bidenct2, trumpct3, bidenct3, trumpct4, bidenct4, trumpct5, bidenct5 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpky, bidenky, trumpky1, bidenky1, trumpky2, bidenky2, trumpky3, bidenky3, trumpky4, bidenky4, trumpky5, bidenky5, trumpky6, bidenky6 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpla, bidenla, trumpla1, bidenla1, trumpla2, bidenla2, trumpla3, bidenla3, trumpla4, bidenla4, trumpla5, bidenla5, trumpla6, bidenla6 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpok, bidenok, trumpok1, bidenok1, trumpok2, bidenok2, trumpok3, bidenok3, trumpok4, bidenok4, trumpok5, bidenok5 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumput, bidenut, trumput1, bidenut1, trumput2, bidenut2, trumput3, bidenut3, trumput4, bidenut4 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpoh, bidenoh, trumpoh1, bidenoh1, trumpoh2, bidenoh2, trumpoh3, bidenoh3, trumpoh4, bidenoh4, trumpoh5, bidenoh5, trumpoh6, bidenoh6, trumpoh7, bidenoh7, trumpoh8, bidenoh8, trumpoh9, bidenoh9, trumpoh10, bidenoh10, trumpoh11, bidenoh11, trumpoh12, bidenoh12, trumpoh13, bidenoh13, trumpoh14, bidenoh14, trumpoh15, bidenoh15, trumpoh16, bidenoh16 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
-trumpor, bidenor, trumpor1, bidenor1, trumpor2, bidenor2, trumpor3, bidenor3, trumpor4, bidenor4, trumpor5, bidenor5 = set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()
 
-
-# with open('/Volumes/WINDOWS/test.txt', 'rb') as f:
-#     trumpal1, trumpal2, trumpal3, trumpal4, trumpal5, trumpal6, trumpal7, bidenal1, bidenal2, bidenal3, bidenal4, bidenal5, bidenal6, bidenal7, trumpak1, bidenak1, trumpaz1, trumpaz2, trumpaz3, trumpaz4, trumpaz5, trumpaz6, trumpaz7, trumpaz8, trumpaz9, bidenaz1, bidenaz2, bidenaz3, bidenaz4, bidenaz5, bidenaz6, bidenaz7, bidenaz8, bidenaz9, bidenar1, bidenar2, bidenar3, bidenar4, trumpar1, trumpar2, trumpar3, trumpar4, bidenak1, trumpca1, trumpca2, trumpca3, trumpca4, trumpca5, trumpca6, trumpca7, trumpca8, trumpca9, trumpca10, trumpca11, trumpca12, trumpca13, trumpca14, trumpca15, trumpca16, trumpca17, trumpca18, trumpca19, trumpca20, trumpca21, trumpca22, trumpca23, trumpca24, trumpca25, trumpca26, trumpca27, trumpca28, trumpca29, trumpca30, trumpca31, trumpca32, trumpca33, trumpca34, trumpca35, trumpca36, trumpca37, trumpca38, trumpca39, trumpca40, trumpca41, trumpca42, trumpca43, trumpca44, trumpca45, trumpca46, trumpca47, trumpca48, trumpca49, trumpca50, trumpca51, trumpca52, trumpca53, bidenca1, bidenca2, bidenca3, bidenca4, bidenca5, bidenca6, bidenca7, bidenca8, bidenca9, bidenca10, bidenca11, bidenca12, bidenca13, bidenca14, bidenca15, bidenca16, bidenca17, bidenca18, bidenca19, bidenca20, bidenca21, bidenca22, bidenca23, bidenca24, bidenca25, bidenca26, bidenca27, bidenca28, bidenca29, bidenca30, bidenca31, bidenca32, bidenca33, bidenca34, bidenca35, bidenca36, bidenca37, bidenca38, bidenca39, bidenca40, bidenca41, bidenca42, bidenca43, bidenca44, bidenca45, bidenca46, bidenca47, bidenca48, bidenca49, bidenca50, bidenca51, bidenca52, bidenca53, trumpco1, trumpco2, trumpco3, trumpco4, trumpco5, trumpco6, trumpco7, bidenco1, bidenco2, bidenco3, bidenco4, bidenco5, bidenco6, bidenco7, bidenct1, bidenct2, bidenct3, bidenct4, bidenct5, trumpct1, trumpct2, trumpct3, trumpct4, trumpct5, trumpde1, bidende1, bidenfl1, bidenfl2, bidenfl3, bidenfl4, bidenfl5, bidenfl6, bidenfl7, bidenfl8, bidenfl9, bidenfl10, bidenfl11, bidenfl12, bidenfl13, bidenfl14, bidenfl15, bidenfl16, bidenfl17, bidenfl18, bidenfl19, bidenfl20, bidenfl21, bidenfl22, bidenfl23, bidenfl24, bidenfl25, bidenfl26, bidenfl27, trumpfl1, trumpfl2, trumpfl3, trumpfl4, trumpfl5, trumpfl6, trumpfl7, trumpfl8, trumpfl9, trumpfl10, trumpfl11, trumpfl12, trumpfl13, trumpfl14, trumpfl15, trumpfl16, trumpfl17, trumpfl18, trumpfl19, trumpfl20, trumpfl21, trumpfl22, trumpfl23, trumpfl24, trumpfl25, trumpfl26, trumpfl27, trumpga1, trumpga2, trumpga3, trumpga4, trumpga5, trumpga6, trumpga7, trumpga8, trumpga9, trumpga10, trumpga11, trumpga12, trumpga13, trumpga14, bidenga1, bidenga2, bidenga3, bidenga4, bidenga5, bidenga6, bidenga7, bidenga8, bidenga9, bidenga10, bidenga11, bidenga12, bidenga13, bidenga14, trumphi1, trumphi2, bidenhi1, bidenhi2, trumpid1, trumpid2, bidenid1, bidenid2, bidenil1, bidenil2, bidenil3, bidenil4, bidenil5, bidenil6, bidenil7, bidenil8, bidenil9, bidenil10, bidenil11, bidenil12, bidenil13, bidenil14, bidenil15, bidenil16, bidenil17, bidenil18, trumpil1, trumpil2, trumpil3, trumpil4, trumpil5, trumpil6, trumpil7, trumpil8, trumpil9, trumpil10, trumpil11, trumpil12, trumpil13, trumpil14, trumpil15, trumpil16, trumpil17, trumpil18, trumpin1, trumpin2, trumpin3, trumpin4, trumpin5, trumpin6, trumpin7, trumpin8, trumpin9, bidenin1, bidenin2, bidenin3, bidenin4, bidenin5, bidenin6, bidenin7, bidenin8, bidenin9, trumpia1, trumpia2, trumpia3, trumpia4, bidenia1, bidenia2, bidenia3, bidenia4, trumpks1, trumpks2, trumpks3, trumpks4, bidenks1, bidenks2, bidenks3, bidenks4, trumpky1, trumpky2, trumpky3, trumpky4, trumpky5, trumpky6, bidenky1, bidenky2, bidenky3, bidenky4, bidenky5, bidenky6, trumpla1, trumpla2, trumpla3, trumpla4, trumpla5, trumpla6, bidenla1, bidenla2, bidenla3, bidenla4, bidenla5, bidenla6, trumpme1, trumpme2, bidenme1, bidenme2, trumpmd1, trumpmd2, trumpmd3, trumpmd4, trumpmd5, trumpmd6, trumpmd7, trumpmd8, bidenmd1, bidenmd2, bidenmd3, bidenmd4, bidenmd5, bidenmd6, bidenmd7, bidenmd8, trumpma1, trumpma2, trumpma3, trumpma4, trumpma5, trumpma6, trumpma7, trumpma8, trumpma9, bidenma1, bidenma2, bidenma3, bidenma4, bidenma5, bidenma6, bidenma7, bidenma8, bidenma9, bidenmi1, bidenmi2, bidenmi3, bidenmi4, bidenmi5, bidenmi6, bidenmi7, bidenmi8, bidenmi9, bidenmi10, bidenmi11, bidenmi12, bidenmi13, bidenmi14, trumpmi1, trumpmi2, trumpmi3, trumpmi4, trumpmi5, trumpmi6, trumpmi7, trumpmi8, trumpmi9, trumpmi10, trumpmi11, trumpmi12, trumpmi13, trumpmi14, trumpmn1, trumpmn2, trumpmn3, trumpmn4, trumpmn5, trumpmn6, trumpmn7, trumpmn8, bidenmn1, bidenmn2, bidenmn3, bidenmn4, bidenmn5, bidenmn6, bidenmn7, bidenmn8, trumpms1, trumpms2, trumpms3, trumpms4, bidenms1, bidenms2, bidenms3, bidenms4, trumpmo1, trumpmo2, trumpmo3, trumpmo4, trumpmo5, trumpmo6, trumpmo7, trumpmo8, bidenmo1, bidenmo2, bidenmo3, bidenmo4, bidenmo5, bidenmo6, bidenmo7, bidenmo8, trumpmt1, bidenmt1, trumpne1, trumpne2, trumpne3, bidenne1, bidenne2, bidenne3, trumpnv1, trumpnv2, trumpnv3, trumpnv4, bidennv1, bidennv2, bidennv3, bidennv4, trumpnh1, trumpnh2, bidennh1, bidennh2, bidennj1, bidennj2, bidennj3, bidennj4, bidennj5, bidennj6, bidennj7, bidennj8, bidennj9, bidennj10, bidennj11, bidennj12, trumpnj1, trumpnj2, trumpnj3, trumpnj4, trumpnj5, trumpnj6, trumpnj7, trumpnj8, trumpnj9, trumpnj10, trumpnj11, trumpnj12, trumpnm1, trumpnm2, trumpnm3, bidennm1, bidennm2, bidennm3, trumpny1, trumpny2, trumpny3, trumpny4, trumpny5, trumpny6, trumpny7, trumpny8, trumpny9, trumpny10, trumpny11, trumpny12, trumpny13, trumpny14, trumpny15, trumpny16, trumpny17, trumpny18, trumpny19, trumpny20, trumpny21, trumpny22, trumpny23, trumpny24, trumpny25, trumpny26, trumpny27, bidenny1, bidenny2, bidenny3, bidenny4, bidenny5, bidenny6, bidenny7, bidenny8, bidenny9, bidenny10, bidenny11, bidenny12, bidenny13, bidenny14, bidenny15, bidenny16, bidenny17, bidenny18, bidenny19, bidenny20, bidenny21, bidenny22, bidenny23, bidenny24, bidenny25, bidenny26, bidenny27, bidennc1, bidennc2, bidennc3, bidennc4, bidennc5, bidennc6, bidennc7, bidennc8, bidennc9, bidennc10, bidennc11, bidennc12, bidennc13, trumpnc1, trumpnc2, trumpnc3, trumpnc4, trumpnc5, trumpnc6, trumpnc7, trumpnc8, trumpnc9, trumpnc10, trumpnc11, trumpnc12, trumpnc13, trumpnd1, bidennd1, bidenoh1, bidenoh2, bidenoh3, bidenoh4, bidenoh5, bidenoh6, bidenoh7, bidenoh8, bidenoh9, bidenoh10, bidenoh11, bidenoh12, bidenoh13, bidenoh14, bidenoh15, bidenoh16, trumpoh1, trumpoh2, trumpoh3, trumpoh4, trumpoh5, trumpoh6, trumpoh7, trumpoh8, trumpoh9, trumpoh10, trumpoh11, trumpoh12, trumpoh13, trumpoh14, trumpoh15, trumpoh16, trumpok1, trumpok2, trumpok3, trumpok4, trumpok5, bidenok1, bidenok2, bidenok3, bidenok4, bidenok5, trumpor1, trumpor2, trumpor3, trumpor4, trumpor5, bidenor1, bidenor2, bidenor3, bidenor4, bidenor5, bidenpa1, bidenpa2, bidenpa3, bidenpa4, bidenpa5, bidenpa6, bidenpa7, bidenpa8, bidenpa9, bidenpa10, bidenpa11, bidenpa12, bidenpa13, bidenpa14, bidenpa15, bidenpa16, bidenpa17, bidenpa18, trumppa1, trumppa2, trumppa3, trumppa4, trumppa5, trumppa6, trumppa7, trumppa8, trumppa9, trumppa10, trumppa11, trumppa12, trumppa13, trumppa14, trumppa15, trumppa16, trumppa17, trumppa18, trumpri1, trumpri2, bidenri1, bidenri2, trumpsc1, trumpsc2, trumpsc3, trumpsc4, trumpsc5, trumpsc6, trumpsc7, bidensc1, bidensc2, bidensc3, bidensc4, bidensc5, bidensc6, bidensc7, trumpsd1, bidensd1, trumptn1, trumptn2, trumptn3, trumptn4, trumptn5, trumptn6, trumptn7, trumptn8, trumptn9, bidentn1, bidentn2, bidentn3, bidentn4, bidentn5, bidentn6, bidentn7, bidentn8, bidentn9, trumptx1, trumptx2, trumptx3, trumptx4, trumptx5, trumptx6, trumptx7, trumptx8, trumptx9, trumptx10, trumptx11, trumptx12, trumptx13, trumptx14, trumptx15, trumptx16, trumptx17, trumptx18, trumptx19, trumptx20, trumptx21, trumptx22, trumptx23, trumptx24, trumptx25, trumptx26, trumptx27, trumptx28, trumptx29, trumptx30, trumptx31, trumptx32, trumptx33, trumptx34, trumptx35, trumptx36, bidentx1, bidentx2, bidentx3, bidentx4, bidentx5, bidentx6, bidentx7, bidentx8, bidentx9, bidentx10, bidentx11, bidentx12, bidentx13, bidentx14, bidentx15, bidentx16, bidentx17, bidentx18, bidentx19, bidentx20, bidentx21, bidentx22, bidentx23, bidentx24, bidentx25, bidentx26, bidentx27, bidentx28, bidentx29, bidentx30, bidentx31, bidentx32, bidentx33, bidentx34, bidentx35, bidentx36, trumput1, trumput2, trumput3, trumput4, bidenut1, bidenut2, bidenut3, bidenut4, trumpvt1, bidenvt1, bidenva1, bidenva2, bidenva3, bidenva4, bidenva5, bidenva6, bidenva7, bidenva8, bidenva9, bidenva10, bidenva11, trumpva1, trumpva2, trumpva3, trumpva4, trumpva5, trumpva6, trumpva7, trumpva8, trumpva9, trumpva10, trumpva11, bidenwa1, bidenwa2, bidenwa3, bidenwa4, bidenwa5, bidenwa6, bidenwa7, bidenwa8, bidenwa9, bidenwa10, trumpwa1, trumpwa2, trumpwa3, trumpwa4, trumpwa5, trumpwa6, trumpwa7, trumpwa8, trumpwa9, trumpwa10, trumpwv1, trumpwv2, trumpwv3, bidenwv1, bidenwv2, bidenwv3, trumpwi1, trumpwi2, trumpwi3, trumpwi4, trumpwi5, trumpwi6, trumpwi7, trumpwi8, bidenwi1, bidenwi2, bidenwi3, bidenwi4, bidenwi5, bidenwi6, bidenwi7, bidenwi8, trumpwy1, bidenwy1 = pickle.load(f)
+with open('/Volumes/WINDOWS/test.txt', 'rb') as f:
+    trumpal1, trumpal2, trumpal3, trumpal4, trumpal5, trumpal6, trumpal7, bidenal1, bidenal2, bidenal3, bidenal4, bidenal5, bidenal6, bidenal7, trumpak1, bidenak1, trumpaz1, trumpaz2, trumpaz3, trumpaz4, trumpaz5, trumpaz6, trumpaz7, trumpaz8, trumpaz9, bidenaz1, bidenaz2, bidenaz3, bidenaz4, bidenaz5, bidenaz6, bidenaz7, bidenaz8, bidenaz9, bidenar1, bidenar2, bidenar3, bidenar4, trumpar1, trumpar2, trumpar3, trumpar4, bidenak1, trumpca1, trumpca2, trumpca3, trumpca4, trumpca5, trumpca6, trumpca7, trumpca8, trumpca9, trumpca10, trumpca11, trumpca12, trumpca13, trumpca14, trumpca15, trumpca16, trumpca17, trumpca18, trumpca19, trumpca20, trumpca21, trumpca22, trumpca23, trumpca24, trumpca25, trumpca26, trumpca27, trumpca28, trumpca29, trumpca30, trumpca31, trumpca32, trumpca33, trumpca34, trumpca35, trumpca36, trumpca37, trumpca38, trumpca39, trumpca40, trumpca41, trumpca42, trumpca43, trumpca44, trumpca45, trumpca46, trumpca47, trumpca48, trumpca49, trumpca50, trumpca51, trumpca52, trumpca53, bidenca1, bidenca2, bidenca3, bidenca4, bidenca5, bidenca6, bidenca7, bidenca8, bidenca9, bidenca10, bidenca11, bidenca12, bidenca13, bidenca14, bidenca15, bidenca16, bidenca17, bidenca18, bidenca19, bidenca20, bidenca21, bidenca22, bidenca23, bidenca24, bidenca25, bidenca26, bidenca27, bidenca28, bidenca29, bidenca30, bidenca31, bidenca32, bidenca33, bidenca34, bidenca35, bidenca36, bidenca37, bidenca38, bidenca39, bidenca40, bidenca41, bidenca42, bidenca43, bidenca44, bidenca45, bidenca46, bidenca47, bidenca48, bidenca49, bidenca50, bidenca51, bidenca52, bidenca53, trumpco1, trumpco2, trumpco3, trumpco4, trumpco5, trumpco6, trumpco7, bidenco1, bidenco2, bidenco3, bidenco4, bidenco5, bidenco6, bidenco7, bidenct1, bidenct2, bidenct3, bidenct4, bidenct5, trumpct1, trumpct2, trumpct3, trumpct4, trumpct5, trumpde1, bidende1, bidenfl1, bidenfl2, bidenfl3, bidenfl4, bidenfl5, bidenfl6, bidenfl7, bidenfl8, bidenfl9, bidenfl10, bidenfl11, bidenfl12, bidenfl13, bidenfl14, bidenfl15, bidenfl16, bidenfl17, bidenfl18, bidenfl19, bidenfl20, bidenfl21, bidenfl22, bidenfl23, bidenfl24, bidenfl25, bidenfl26, bidenfl27, trumpfl1, trumpfl2, trumpfl3, trumpfl4, trumpfl5, trumpfl6, trumpfl7, trumpfl8, trumpfl9, trumpfl10, trumpfl11, trumpfl12, trumpfl13, trumpfl14, trumpfl15, trumpfl16, trumpfl17, trumpfl18, trumpfl19, trumpfl20, trumpfl21, trumpfl22, trumpfl23, trumpfl24, trumpfl25, trumpfl26, trumpfl27, trumpga1, trumpga2, trumpga3, trumpga4, trumpga5, trumpga6, trumpga7, trumpga8, trumpga9, trumpga10, trumpga11, trumpga12, trumpga13, trumpga14, bidenga1, bidenga2, bidenga3, bidenga4, bidenga5, bidenga6, bidenga7, bidenga8, bidenga9, bidenga10, bidenga11, bidenga12, bidenga13, bidenga14, trumphi1, trumphi2, bidenhi1, bidenhi2, trumpid1, trumpid2, bidenid1, bidenid2, bidenil1, bidenil2, bidenil3, bidenil4, bidenil5, bidenil6, bidenil7, bidenil8, bidenil9, bidenil10, bidenil11, bidenil12, bidenil13, bidenil14, bidenil15, bidenil16, bidenil17, bidenil18, trumpil1, trumpil2, trumpil3, trumpil4, trumpil5, trumpil6, trumpil7, trumpil8, trumpil9, trumpil10, trumpil11, trumpil12, trumpil13, trumpil14, trumpil15, trumpil16, trumpil17, trumpil18, trumpin1, trumpin2, trumpin3, trumpin4, trumpin5, trumpin6, trumpin7, trumpin8, trumpin9, bidenin1, bidenin2, bidenin3, bidenin4, bidenin5, bidenin6, bidenin7, bidenin8, bidenin9, trumpia1, trumpia2, trumpia3, trumpia4, bidenia1, bidenia2, bidenia3, bidenia4, trumpks1, trumpks2, trumpks3, trumpks4, bidenks1, bidenks2, bidenks3, bidenks4, trumpky1, trumpky2, trumpky3, trumpky4, trumpky5, trumpky6, bidenky1, bidenky2, bidenky3, bidenky4, bidenky5, bidenky6, trumpla1, trumpla2, trumpla3, trumpla4, trumpla5, trumpla6, bidenla1, bidenla2, bidenla3, bidenla4, bidenla5, bidenla6, trumpme1, trumpme2, bidenme1, bidenme2, trumpmd1, trumpmd2, trumpmd3, trumpmd4, trumpmd5, trumpmd6, trumpmd7, trumpmd8, bidenmd1, bidenmd2, bidenmd3, bidenmd4, bidenmd5, bidenmd6, bidenmd7, bidenmd8, trumpma1, trumpma2, trumpma3, trumpma4, trumpma5, trumpma6, trumpma7, trumpma8, trumpma9, bidenma1, bidenma2, bidenma3, bidenma4, bidenma5, bidenma6, bidenma7, bidenma8, bidenma9, bidenmi1, bidenmi2, bidenmi3, bidenmi4, bidenmi5, bidenmi6, bidenmi7, bidenmi8, bidenmi9, bidenmi10, bidenmi11, bidenmi12, bidenmi13, bidenmi14, trumpmi1, trumpmi2, trumpmi3, trumpmi4, trumpmi5, trumpmi6, trumpmi7, trumpmi8, trumpmi9, trumpmi10, trumpmi11, trumpmi12, trumpmi13, trumpmi14, trumpmn1, trumpmn2, trumpmn3, trumpmn4, trumpmn5, trumpmn6, trumpmn7, trumpmn8, bidenmn1, bidenmn2, bidenmn3, bidenmn4, bidenmn5, bidenmn6, bidenmn7, bidenmn8, trumpms1, trumpms2, trumpms3, trumpms4, bidenms1, bidenms2, bidenms3, bidenms4, trumpmo1, trumpmo2, trumpmo3, trumpmo4, trumpmo5, trumpmo6, trumpmo7, trumpmo8, bidenmo1, bidenmo2, bidenmo3, bidenmo4, bidenmo5, bidenmo6, bidenmo7, bidenmo8, trumpmt1, bidenmt1, trumpne1, trumpne2, trumpne3, bidenne1, bidenne2, bidenne3, trumpnv1, trumpnv2, trumpnv3, trumpnv4, bidennv1, bidennv2, bidennv3, bidennv4, trumpnh1, trumpnh2, bidennh1, bidennh2, bidennj1, bidennj2, bidennj3, bidennj4, bidennj5, bidennj6, bidennj7, bidennj8, bidennj9, bidennj10, bidennj11, bidennj12, trumpnj1, trumpnj2, trumpnj3, trumpnj4, trumpnj5, trumpnj6, trumpnj7, trumpnj8, trumpnj9, trumpnj10, trumpnj11, trumpnj12, trumpnm1, trumpnm2, trumpnm3, bidennm1, bidennm2, bidennm3, trumpny1, trumpny2, trumpny3, trumpny4, trumpny5, trumpny6, trumpny7, trumpny8, trumpny9, trumpny10, trumpny11, trumpny12, trumpny13, trumpny14, trumpny15, trumpny16, trumpny17, trumpny18, trumpny19, trumpny20, trumpny21, trumpny22, trumpny23, trumpny24, trumpny25, trumpny26, trumpny27, bidenny1, bidenny2, bidenny3, bidenny4, bidenny5, bidenny6, bidenny7, bidenny8, bidenny9, bidenny10, bidenny11, bidenny12, bidenny13, bidenny14, bidenny15, bidenny16, bidenny17, bidenny18, bidenny19, bidenny20, bidenny21, bidenny22, bidenny23, bidenny24, bidenny25, bidenny26, bidenny27, bidennc1, bidennc2, bidennc3, bidennc4, bidennc5, bidennc6, bidennc7, bidennc8, bidennc9, bidennc10, bidennc11, bidennc12, bidennc13, trumpnc1, trumpnc2, trumpnc3, trumpnc4, trumpnc5, trumpnc6, trumpnc7, trumpnc8, trumpnc9, trumpnc10, trumpnc11, trumpnc12, trumpnc13, trumpnd1, bidennd1, bidenoh1, bidenoh2, bidenoh3, bidenoh4, bidenoh5, bidenoh6, bidenoh7, bidenoh8, bidenoh9, bidenoh10, bidenoh11, bidenoh12, bidenoh13, bidenoh14, bidenoh15, bidenoh16, trumpoh1, trumpoh2, trumpoh3, trumpoh4, trumpoh5, trumpoh6, trumpoh7, trumpoh8, trumpoh9, trumpoh10, trumpoh11, trumpoh12, trumpoh13, trumpoh14, trumpoh15, trumpoh16, trumpok1, trumpok2, trumpok3, trumpok4, trumpok5, bidenok1, bidenok2, bidenok3, bidenok4, bidenok5, trumpor1, trumpor2, trumpor3, trumpor4, trumpor5, bidenor1, bidenor2, bidenor3, bidenor4, bidenor5, bidenpa1, bidenpa2, bidenpa3, bidenpa4, bidenpa5, bidenpa6, bidenpa7, bidenpa8, bidenpa9, bidenpa10, bidenpa11, bidenpa12, bidenpa13, bidenpa14, bidenpa15, bidenpa16, bidenpa17, bidenpa18, trumppa1, trumppa2, trumppa3, trumppa4, trumppa5, trumppa6, trumppa7, trumppa8, trumppa9, trumppa10, trumppa11, trumppa12, trumppa13, trumppa14, trumppa15, trumppa16, trumppa17, trumppa18, trumpri1, trumpri2, bidenri1, bidenri2, trumpsc1, trumpsc2, trumpsc3, trumpsc4, trumpsc5, trumpsc6, trumpsc7, bidensc1, bidensc2, bidensc3, bidensc4, bidensc5, bidensc6, bidensc7, trumpsd1, bidensd1, trumptn1, trumptn2, trumptn3, trumptn4, trumptn5, trumptn6, trumptn7, trumptn8, trumptn9, bidentn1, bidentn2, bidentn3, bidentn4, bidentn5, bidentn6, bidentn7, bidentn8, bidentn9, trumptx1, trumptx2, trumptx3, trumptx4, trumptx5, trumptx6, trumptx7, trumptx8, trumptx9, trumptx10, trumptx11, trumptx12, trumptx13, trumptx14, trumptx15, trumptx16, trumptx17, trumptx18, trumptx19, trumptx20, trumptx21, trumptx22, trumptx23, trumptx24, trumptx25, trumptx26, trumptx27, trumptx28, trumptx29, trumptx30, trumptx31, trumptx32, trumptx33, trumptx34, trumptx35, trumptx36, bidentx1, bidentx2, bidentx3, bidentx4, bidentx5, bidentx6, bidentx7, bidentx8, bidentx9, bidentx10, bidentx11, bidentx12, bidentx13, bidentx14, bidentx15, bidentx16, bidentx17, bidentx18, bidentx19, bidentx20, bidentx21, bidentx22, bidentx23, bidentx24, bidentx25, bidentx26, bidentx27, bidentx28, bidentx29, bidentx30, bidentx31, bidentx32, bidentx33, bidentx34, bidentx35, bidentx36, trumput1, trumput2, trumput3, trumput4, bidenut1, bidenut2, bidenut3, bidenut4, trumpvt1, bidenvt1, bidenva1, bidenva2, bidenva3, bidenva4, bidenva5, bidenva6, bidenva7, bidenva8, bidenva9, bidenva10, bidenva11, trumpva1, trumpva2, trumpva3, trumpva4, trumpva5, trumpva6, trumpva7, trumpva8, trumpva9, trumpva10, trumpva11, bidenwa1, bidenwa2, bidenwa3, bidenwa4, bidenwa5, bidenwa6, bidenwa7, bidenwa8, bidenwa9, bidenwa10, trumpwa1, trumpwa2, trumpwa3, trumpwa4, trumpwa5, trumpwa6, trumpwa7, trumpwa8, trumpwa9, trumpwa10, trumpwv1, trumpwv2, trumpwv3, bidenwv1, bidenwv2, bidenwv3, trumpwi1, trumpwi2, trumpwi3, trumpwi4, trumpwi5, trumpwi6, trumpwi7, trumpwi8, bidenwi1, bidenwi2, bidenwi3, bidenwi4, bidenwi5, bidenwi6, bidenwi7, bidenwi8, trumpwy1, bidenwy1 = pickle.load(f)
 
 
 
@@ -128,588 +128,588 @@ db=client.TWITTERUSA
 collection = db['tweets']
 cursor = collection.find({"retweeted_status.full_text":{"$exists": "true"}})
 for tw in cursor:
-	district = sortloc("#trump2020", tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
+	district = sortloc(["#trump2020", "#votered"], tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
 	if(district != "null"):
-		if(district == "mo1"):
+		if("mo1" in district):
 			trumpmo1.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo2"):
+		if("mo2" in district):
 			trumpmo2.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo3"):
+		if("mo3" in district):
 			trumpmo3.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo4"):
+		if("mo4" in district):
 			trumpmo4.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo5"):
+		if("mo5" in district):
 			trumpmo5.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo6"):
+		if("mo6" in district):
 			trumpmo6.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo7"):
+		if("mo7" in district):
 			trumpmo7.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo8"):
+		if("mo8" in district):
 			trumpmo8.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "sc1"):
+		if("sc1" in district):
 			trumpsc1.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "sc2"):
+		if("sc2" in district):
 			trumpsc2.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "sc3"):
+		if("sc3" in district):
 			trumpsc3.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "sc4"):
+		if("sc4" in district):
 			trumpsc4.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "sc5"):
+		if("sc5" in district):
 			trumpsc5.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "sc6"):
+		if("sc6" in district):
 			trumpsc6.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "sc7"):
+		if("sc7" in district):
 			trumpsc7.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "ky1"):
+		if("ky1" in district):
 			trumpky1.add(tw["user"]["id"])
 			trumpky.add(tw["user"]["id"])
-		elif(district == "ky2"):
+		if("ky2" in district):
 			trumpky2.add(tw["user"]["id"])
 			trumpky.add(tw["user"]["id"])
-		elif(district == "ky3"):
+		if("ky3" in district):
 			trumpky3.add(tw["user"]["id"])
 			trumpky.add(tw["user"]["id"])
-		elif(district == "ky4"):
+		if("ky4" in district):
 			trumpky4.add(tw["user"]["id"])
 			trumpky.add(tw["user"]["id"])
-		elif(district == "ky5"):
+		if("ky5" in district):
 			trumpky5.add(tw["user"]["id"])
 			trumpky.add(tw["user"]["id"])
-		elif(district == "ky6"):
+		if("ky6" in district):
 			trumpky6.add(tw["user"]["id"])
 			trumpky.add(tw["user"]["id"])
-		elif(district == "ok1"):
+		if("ok1" in district):
 			trumpok1.add(tw["user"]["id"])
 			trumpok.add(tw["user"]["id"])
-		elif(district == "ok2"):
+		if("ok2" in district):
 			trumpok2.add(tw["user"]["id"])
 			trumpok.add(tw["user"]["id"])
-		elif(district == "ok3"):
+		if("ok3" in district):
 			trumpok3.add(tw["user"]["id"])
 			trumpok.add(tw["user"]["id"])
-		elif(district == "ok4"):
+		if("ok4" in district):
 			trumpok4.add(tw["user"]["id"])
 			trumpok.add(tw["user"]["id"])
-		elif(district == "ok5"):
+		if("ok5" in district):
 			trumpok5.add(tw["user"]["id"])
 			trumpok.add(tw["user"]["id"])
-		elif(district == "ia1"):
+		if("ia1" in district):
 			trumpia1.add(tw["user"]["id"])
 			trumpia.add(tw["user"]["id"])
-		elif(district == "ia2"):
+		if("ia2" in district):
 			trumpia2.add(tw["user"]["id"])
 			trumpia.add(tw["user"]["id"])
-		elif(district == "ia3"):
+		if("ia3" in district):
 			trumpia3.add(tw["user"]["id"])
 			trumpia.add(tw["user"]["id"])
-		elif(district == "ia4"):
+		if("ia4" in district):
 			trumpia4.add(tw["user"]["id"])
 			trumpia.add(tw["user"]["id"])
-		elif(district == "ks1"):
+		if("ks1" in district):
 			trumpks1.add(tw["user"]["id"])
 			trumpks.add(tw["user"]["id"])
-		elif(district == "ks2"):
+		if("ks2" in district):
 			trumpks2.add(tw["user"]["id"])
 			trumpks.add(tw["user"]["id"])
-		elif(district == "ks3"):
+		if("ks3" in district):
 			trumpks3.add(tw["user"]["id"])
 			trumpks.add(tw["user"]["id"])
-		elif(district == "ks4"):
+		if("ks4" in district):
 			trumpks4.add(tw["user"]["id"])
 			trumpks.add(tw["user"]["id"])
-		elif(district == "ca1"):
+		if("ca1" in district):
 			trumpca1.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca2"):
+		if("ca2" in district):
 			trumpca2.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca3"):
+		if("ca3" in district):
 			trumpca3.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca4"):
+		if("ca4" in district):
 			trumpca4.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca5"):
+		if("ca5" in district):
 			trumpca5.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca6"):
+		if("ca6" in district):
 			trumpca6.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca7"):
+		if("ca7" in district):
 			trumpca7.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca8"):
+		if("ca8" in district):
 			trumpca8.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca9"):
+		if("ca9" in district):
 			trumpca9.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca10"):
+		if("ca10" in district):
 			trumpca10.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca11"):
+		if("ca11" in district):
 			trumpca11.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca12"):
+		if("ca12" in district):
 			trumpca12.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca13"):
+		if("ca13" in district):
 			trumpca13.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca14"):
+		if("ca14" in district):
 			trumpca14.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca15"):
+		if("ca15" in district):
 			trumpca15.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca16"):
+		if("ca16" in district):
 			trumpca16.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca17"):
+		if("ca17" in district):
 			trumpca17.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca18"):
+		if("ca18" in district):
 			trumpca18.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca19"):
+		if("ca19" in district):
 			trumpca19.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca20"):
+		if("ca20" in district):
 			trumpca20.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca21"):
+		if("ca21" in district):
 			trumpca21.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca22"):
+		if("ca22" in district):
 			trumpca22.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca23"):
+		if("ca23" in district):
 			trumpca23.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca24"):
+		if("ca24" in district):
 			trumpca24.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca25"):
+		if("ca25" in district):
 			trumpca25.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca26"):
+		if("ca26" in district):
 			trumpca26.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca27"):
+		if("ca27" in district):
 			trumpca27.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca28"):
+		if("ca28" in district):
 			trumpca28.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca29"):
+		if("ca29" in district):
 			trumpca29.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca30"):
+		if("ca30" in district):
 			trumpca30.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca31"):
+		if("ca31" in district):
 			trumpca31.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca32"):
+		if("ca32" in district):
 			trumpca32.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca33"):
+		if("ca33" in district):
 			trumpca33.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca34"):
+		if("ca34" in district):
 			trumpca34.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca35"):
+		if("ca35" in district):
 			trumpca35.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca36"):
+		if("ca36" in district):
 			trumpca36.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca37"):
+		if("ca37" in district):
 			trumpca37.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca38"):
+		if("ca38" in district):
 			trumpca38.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca39"):
+		if("ca39" in district):
 			trumpca39.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca40"):
+		if("ca40" in district):
 			trumpca40.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca41"):
+		if("ca41" in district):
 			trumpca41.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca42"):
+		if("ca42" in district):
 			trumpca42.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca43"):
+		if("ca43" in district):
 			trumpca43.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca44"):
+		if("ca44" in district):
 			trumpca44.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca45"):
+		if("ca45" in district):
 			trumpca45.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca46"):
+		if("ca46" in district):
 			trumpca46.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca47"):
+		if("ca47" in district):
 			trumpca47.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca48"):
+		if("ca48" in district):
 			trumpca48.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca49"):
+		if("ca49" in district):
 			trumpca49.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca50"):
+		if("ca50" in district):
 			trumpca50.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca51"):
+		if("ca51" in district):
 			trumpca51.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca52"):
+		if("ca52" in district):
 			trumpca52.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca53"):
+		if("ca53" in district):
 			trumpca53.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "la1"):
+		if("la1" in district):
 			trumpla1.add(tw["user"]["id"])
 			trumpla.add(tw["user"]["id"])
-		elif(district == "la2"):
+		if("la2" in district):
 			trumpla2.add(tw["user"]["id"])
 			trumpla.add(tw["user"]["id"])
-		elif(district == "la3"):
+		if("la3" in district):
 			trumpla3.add(tw["user"]["id"])
 			trumpla.add(tw["user"]["id"])
-		elif(district == "la4"):
+		if("la4" in district):
 			trumpla4.add(tw["user"]["id"])
 			trumpla.add(tw["user"]["id"])
-		elif(district == "la5"):
+		if("la5" in district):
 			trumpla5.add(tw["user"]["id"])
 			trumpla.add(tw["user"]["id"])
-		elif(district == "la6"):
+		if("la6" in district):
 			trumpla6.add(tw["user"]["id"])
 			trumpla.add(tw["user"]["id"])
-		elif(district == "ct1"):
+		if("ct1" in district):
 			trumpct1.add(tw["user"]["id"])
 			trumpct.add(tw["user"]["id"])
-		elif(district == "ct2"):
+		if("ct2" in district):
 			trumpct2.add(tw["user"]["id"])
 			trumpct.add(tw["user"]["id"])
-		elif(district == "ct3"):
+		if("ct3" in district):
 			trumpct3.add(tw["user"]["id"])
 			trumpct.add(tw["user"]["id"])
-		elif(district == "ct4"):
+		if("ct4" in district):
 			trumpct4.add(tw["user"]["id"])
 			trumpct.add(tw["user"]["id"])
-		elif(district == "ct5"):
+		if("ct5" in district):
 			trumpct5.add(tw["user"]["id"])
 			trumpct.add(tw["user"]["id"])
-		elif(district == "mt1"):
+		if("mt1" in district):
 			trumpmt1.add(tw["user"]["id"])
 			trumpmt.add(tw["user"]["id"])
-		elif(district == "ms1"):
+		if("ms1" in district):
 			trumpms1.add(tw["user"]["id"])
 			trumpms.add(tw["user"]["id"])
-		elif(district == "ms2"):
+		if("ms2" in district):
 			trumpms2.add(tw["user"]["id"])
 			trumpms.add(tw["user"]["id"])
-		elif(district == "ms3"):
+		if("ms3" in district):
 			trumpms3.add(tw["user"]["id"])
 			trumpms.add(tw["user"]["id"])
-		elif(district == "ms4"):
+		if("ms4" in district):
 			trumpms4.add(tw["user"]["id"])
 			trumpms.add(tw["user"]["id"])
-		elif(district == "pa1"):
+		if("pa1" in district):
 			trumppa1.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa2"):
+		if("pa2" in district):
 			trumppa2.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa3"):
+		if("pa3" in district):
 			trumppa3.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa4"):
+		if("pa4" in district):
 			trumppa4.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa5"):
+		if("pa5" in district):
 			trumppa5.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa6"):
+		if("pa6" in district):
 			trumppa6.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa7"):
+		if("pa7" in district):
 			trumppa7.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa8"):
+		if("pa8" in district):
 			trumppa8.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa9"):
+		if("pa9" in district):
 			trumppa9.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa10"):
+		if("pa10" in district):
 			trumppa10.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa11"):
+		if("pa11" in district):
 			trumppa11.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa12"):
+		if("pa12" in district):
 			trumppa12.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa13"):
+		if("pa13" in district):
 			trumppa13.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa14"):
+		if("pa14" in district):
 			trumppa14.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa15"):
+		if("pa15" in district):
 			trumppa15.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa16"):
+		if("pa16" in district):
 			trumppa16.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa17"):
+		if("pa17" in district):
 			trumppa17.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa18"):
+		if("pa18" in district):
 			trumppa18.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "oh1"):
+		if("oh1" in district):
 			trumpoh1.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh2"):
+		if("oh2" in district):
 			trumpoh2.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh3"):
+		if("oh3" in district):
 			trumpoh3.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh4"):
+		if("oh4" in district):
 			trumpoh4.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh5"):
+		if("oh5" in district):
 			trumpoh5.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		if(district == "oh6"):
+		if("oh6" in district):
 			trumpoh6.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh7"):
+		if("oh7" in district):
 			trumpoh7.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh8"):
+		if("oh8" in district):
 			trumpoh8.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh9"):
+		if("oh9" in district):
 			trumpoh9.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh10"):
+		if("oh10" in district):
 			trumpoh10.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh11"):
+		if("oh11" in district):
 			trumpoh11.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh12"):
+		if("oh12" in district):
 			trumpoh12.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh13"):
+		if("oh13" in district):
 			trumpoh13.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh14"):
+		if("oh14" in district):
 			trumpoh14.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh15"):
+		if("oh15" in district):
 			trumpoh15.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh16"):
+		if("oh16" in district):
 			trumpoh16.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "fl1"):
+		if("fl1" in district):
 			trumpfl1.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl2"):
+		if("fl2" in district):
 			trumpfl2.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl3"):
+		if("fl3" in district):
 			trumpfl3.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl4"):
+		if("fl4" in district):
 			trumpfl4.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl5"):
+		if("fl5" in district):
 			trumpfl5.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl6"):
+		if("fl6" in district):
 			trumpfl6.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl7"):
+		if("fl7" in district):
 			trumpfl7.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl8"):
+		if("fl8" in district):
 			trumpfl8.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl9"):
+		if("fl9" in district):
 			trumpfl9.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl10"):
+		if("fl10" in district):
 			trumpfl10.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl11"):
+		if("fl11" in district):
 			trumpfl11.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl12"):
+		if("fl12" in district):
 			trumpfl12.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl13"):
+		if("fl13" in district):
 			trumpfl13.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl14"):
+		if("fl14" in district):
 			trumpfl14.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl15"):
+		if("fl15" in district):
 			trumpfl15.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl16"):
+		if("fl16" in district):
 			trumpfl16.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl17"):
+		if("fl17" in district):
 			trumpfl17.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl18"):
+		if("fl18" in district):
 			trumpfl18.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl19"):
+		if("fl19" in district):
 			trumpfl19.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl20"):
+		if("fl20" in district):
 			trumpfl20.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl21"):
+		if("fl21" in district):
 			trumpfl21.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl22"):
+		if("fl22" in district):
 			trumpfl22.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl23"):
+		if("fl23" in district):
 			trumpfl23.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl24"):
+		if("fl24" in district):
 			trumpfl24.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl25"):
+		if("fl25" in district):
 			trumpfl25.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl26"):
+		if("fl26" in district):
 			trumpfl26.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl27"):
+		if("fl27" in district):
 			trumpfl27.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "wa1"):
+		if("wa1" in district):
 			trumpwa1.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa2"):
+		if("wa2" in district):
 			trumpwa2.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa3"):
+		if("wa3" in district):
 			trumpwa3.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa4"):
+		if("wa4" in district):
 			trumpwa4.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa5"):
+		if("wa5" in district):
 			trumpwa5.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa6"):
+		if("wa6" in district):
 			trumpwa6.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa7"):
+		if("wa7" in district):
 			trumpwa7.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa8"):
+		if("wa8" in district):
 			trumpwa8.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa9"):
+		if("wa9" in district):
 			trumpwa9.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa10"):
+		if("wa10" in district):
 			trumpwa10.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "hi1"):
+		if("hi1" in district):
 			trumphi1.add(tw["user"]["id"])
 			trumphi.add(tw["user"]["id"])
-		elif(district == "hi2"):
+		if("hi2" in district):
 			trumphi2.add(tw["user"]["id"])
 			trumphi.add(tw["user"]["id"])
-		elif(district == "nj1"):
+		if("nj1" in district):
 			trumpnj1.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj2"):
+		if("nj2" in district):
 			trumpnj2.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj3"):
+		if("nj3" in district):
 			trumpnj3.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj4"):
+		if("nj4" in district):
 			trumpnj4.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj5"):
+		if("nj5" in district):
 			trumpnj5.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj6"):
+		if("nj6" in district):
 			trumpnj6.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj7"):
+		if("nj7" in district):
 			trumpnj7.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj8"):
+		if("nj8" in district):
 			trumpnj8.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj9"):
+		if("nj9" in district):
 			trumpnj9.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj10"):
+		if("nj10" in district):
 			trumpnj10.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj11"):
+		if("nj11" in district):
 			trumpnj11.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj12"):
+		if("nj12" in district):
 			trumpnj12.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "ny1"):
+		if("ny1" in district):
 			trumpny1.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny2"):
+		if("ny2" in district):
 			trumpny2.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny3"):
+		if("ny3" in district):
 			trumpny3.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny4"):
+		if("ny4" in district):
 			trumpny4.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny5"):
+		if("ny5" in district):
 			trumpny5.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
+		if(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
 			trumpny6.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
 			trumpny7.add(tw["user"]["id"])
@@ -730,1284 +730,1284 @@ for tw in cursor:
 			trumpny.add(tw["user"]["id"])
 			trumpny15.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny16"):
+		if("ny16" in district):
 			trumpny16.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny17"):
+		if("ny17" in district):
 			trumpny17.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny18"):
+		if("ny18" in district):
 			trumpny18.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny19"):
+		if("ny19" in district):
 			trumpny19.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny20"):
+		if("ny20" in district):
 			trumpny20.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny21"):
+		if("ny21" in district):
 			trumpny21.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny22"):
+		if("ny22" in district):
 			trumpny22.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny23"):
+		if("ny23" in district):
 			trumpny23.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny24"):
+		if("ny24" in district):
 			trumpny24.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny25"):
+		if("ny25" in district):
 			trumpny25.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny26"):
+		if("ny26" in district):
 			trumpny26.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny27"):
+		if("ny27" in district):
 			trumpny27.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ri1"):
+		if("ri1" in district):
 			trumpri1.add(tw["user"]["id"])
 			trumpri.add(tw["user"]["id"])
-		elif(district == "ri2"):
+		if("ri2" in district):
 			trumpri2.add(tw["user"]["id"])
 			trumpri.add(tw["user"]["id"])
-		elif(district == "mn1"):
+		if("mn1" in district):
 			trumpmn1.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn2"):
+		if("mn2" in district):
 			trumpmn2.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn3"):
+		if("mn3" in district):
 			trumpmn3.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn4"):
+		if("mn4" in district):
 			trumpmn4.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn5"):
+		if("mn5" in district):
 			trumpmn5.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn6"):
+		if("mn6" in district):
 			trumpmn6.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn7"):
+		if("mn7" in district):
 			trumpmn7.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn8"):
+		if("mn8" in district):
 			trumpmn8.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mi1"):
+		if("mi1" in district):
 			trumpmi1.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi2"):
+		if("mi2" in district):
 			trumpmi2.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi3"):
+		if("mi3" in district):
 			trumpmi3.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi4"):
+		if("mi4" in district):
 			trumpmi4.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi5"):
+		if("mi5" in district):
 			trumpmi5.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi6"):
+		if("mi6" in district):
 			trumpmi6.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi7"):
+		if("mi7" in district):
 			trumpmi7.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi8"):
+		if("mi8" in district):
 			trumpmi8.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi9"):
+		if("mi9" in district):
 			trumpmi9.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi10"):
+		if("mi10" in district):
 			trumpmi10.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi11"):
+		if("mi11" in district):
 			trumpmi11.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi12"):
+		if("mi12" in district):
 			trumpmi12.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi13"):
+		if("mi13" in district):
 			trumpmi13.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi14"):
+		if("mi14" in district):
 			trumpmi14.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "wi1"):
+		if("wi1" in district):
 			trumpwi1.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi2"):
+		if("wi2" in district):
 			trumpwi2.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi3"):
+		if("wi3" in district):
 			trumpwi3.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi4"):
+		if("wi4" in district):
 			trumpwi4.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi5"):
+		if("wi5" in district):
 			trumpwi5.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi6"):
+		if("wi6" in district):
 			trumpwi6.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi7"):
+		if("wi7" in district):
 			trumpwi7.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi8"):
+		if("wi8" in district):
 			trumpwi8.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "or1"):
+		if("or1" in district):
 			trumpor1.add(tw["user"]["id"])
 			trumpor.add(tw["user"]["id"])
-		elif(district == "or2"):
+		if("or2" in district):
 			trumpor2.add(tw["user"]["id"])
 			trumpor.add(tw["user"]["id"])
-		elif(district == "or3"):
+		if("or3" in district):
 			trumpor3.add(tw["user"]["id"])
 			trumpor.add(tw["user"]["id"])
-		elif(district == "or4"):
+		if("or4" in district):
 			trumpor4.add(tw["user"]["id"])
 			trumpor.add(tw["user"]["id"])
-		elif(district == "or5"):
+		if("or5" in district):
 			trumpor5.add(tw["user"]["id"])
 			trumpor.add(tw["user"]["id"])
-		elif(district == "md1"):
+		if("md1" in district):
 			trumpmd1.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md2"):
+		if("md2" in district):
 			trumpmd2.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md3"):
+		if("md3" in district):
 			trumpmd3.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md4"):
+		if("md4" in district):
 			trumpmd4.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md5"):
+		if("md5" in district):
 			trumpmd5.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md6"):
+		if("md6" in district):
 			trumpmd6.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md7"):
+		if("md7" in district):
 			trumpmd7.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md8"):
+		if("md8" in district):
 			trumpmd8.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "ma1"):
+		if("ma1" in district):
 			trumpma1.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma2"):
+		if("ma2" in district):
 			trumpma2.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma3"):
+		if("ma3" in district):
 			trumpma3.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma4"):
+		if("ma4" in district):
 			trumpma4.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma5"):
+		if("ma5" in district):
 			trumpma5.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma6"):
+		if("ma6" in district):
 			trumpma6.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma7"):
+		if("ma7" in district):
 			trumpma7.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma8"):
+		if("ma8" in district):
 			trumpma8.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma9"):
+		if("ma9" in district):
 			trumpma9.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "me1"):
+		if("me1" in district):
 			trumpme1.add(tw["user"]["id"])
 			trumpme.add(tw["user"]["id"])
-		elif(district == "me2"):
+		if("me2" in district):
 			trumpme2.add(tw["user"]["id"])
 			trumpme.add(tw["user"]["id"])
-		elif(district == "id1"):
+		if("id1" in district):
 			trumpid1.add(tw["user"]["id"])
 			trumpid.add(tw["user"]["id"])
-		elif(district == "id2"):
+		if("id2" in district):
 			trumpid2.add(tw["user"]["id"])
 			trumpid.add(tw["user"]["id"])
-		elif(district == "nc1"):
+		if("nc1" in district):
 			trumpnc1.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc2"):
+		if("nc2" in district):
 			trumpnc2.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc3"):
+		if("nc3" in district):
 			trumpnc3.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc4"):
+		if("nc4" in district):
 			trumpnc4.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc5"):
+		if("nc5" in district):
 			trumpnc5.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc6"):
+		if("nc6" in district):
 			trumpnc6.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc7"):
+		if("nc7" in district):
 			trumpnc7.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc8"):
+		if("nc8" in district):
 			trumpnc8.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc9"):
+		if("nc9" in district):
 			trumpnc9.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc10"):
+		if("nc10" in district):
 			trumpnc10.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc11"):
+		if("nc11" in district):
 			trumpnc11.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc12"):
+		if("nc12" in district):
 			trumpnc12.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc13"):
+		if("nc13" in district):
 			trumpnc13.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nh1"):
+		if("nh1" in district):
 			trumpnh1.add(tw["user"]["id"])
 			trumpnh.add(tw["user"]["id"])
-		elif(district == "nh2"):
+		if("nh2" in district):
 			trumpnh2.add(tw["user"]["id"])
 			trumpnh.add(tw["user"]["id"])
-		elif(district == "nv1"):
+		if("nv1" in district):
 			trumpnv1.add(tw["user"]["id"])
 			trumpnv.add(tw["user"]["id"])
-		elif(district == "nv2"):
+		if("nv2" in district):
 			trumpnv2.add(tw["user"]["id"])
 			trumpnv.add(tw["user"]["id"])
-		elif(district == "nv3"):
+		if("nv3" in district):
 			trumpnv3.add(tw["user"]["id"])
 			trumpnv.add(tw["user"]["id"])
-		elif(district == "nv4"):
+		if("nv4" in district):
 			trumpnv4.add(tw["user"]["id"])
 			trumpnv.add(tw["user"]["id"])
-		elif(district == "co1"):
+		if("co1" in district):
 			trumpco1.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "co2"):
+		if("co2" in district):
 			trumpco2.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "co3"):
+		if("co3" in district):
 			trumpco3.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "co4"):
+		if("co4" in district):
 			trumpco4.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "co5"):
+		if("co5" in district):
 			trumpco5.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "co6"):
+		if("co6" in district):
 			trumpco6.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "co7"):
+		if("co7" in district):
 			trumpco7.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "nm1"):
+		if("nm1" in district):
 			trumpnm1.add(tw["user"]["id"])
 			trumpnm.add(tw["user"]["id"])
-		elif(district == "nm2"):
+		if("nm2" in district):
 			trumpnm2.add(tw["user"]["id"])
 			trumpnm.add(tw["user"]["id"])
-		elif(district == "nm3"):
+		if("nm3" in district):
 			trumpnm3.add(tw["user"]["id"])
 			trumpnm.add(tw["user"]["id"])
-		elif(district == "az1"):
+		if("az1" in district):
 			trumpaz1.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az2"):
+		if("az2" in district):
 			trumpaz2.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az3"):
+		if("az3" in district):
 			trumpaz3.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az4"):
+		if("az4" in district):
 			trumpaz4.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az5"):
+		if("az5" in district):
 			trumpaz5.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az6"):
+		if("az6" in district):
 			trumpaz6.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az7"):
+		if("az7" in district):
 			trumpaz7.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az8"):
+		if("az8" in district):
 			trumpaz8.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az9"):
+		if("az9" in district):
 			trumpaz9.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "ga1"):
+		if("ga1" in district):
 			trumpga1.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga2"):
+		if("ga2" in district):
 			trumpga2.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga3"):
+		if("ga3" in district):
 			trumpga3.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga4"):
+		if("ga4" in district):
 			trumpga4.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga5"):
+		if("ga5" in district):
 			trumpga5.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga6"):
+		if("ga6" in district):
 			trumpga6.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga7"):
+		if("ga7" in district):
 			trumpga7.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga8"):
+		if("ga8" in district):
 			trumpga8.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga9"):
+		if("ga9" in district):
 			trumpga9.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga10"):
+		if("ga10" in district):
 			trumpga10.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga11"):
+		if("ga11" in district):
 			trumpga11.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga12"):
+		if("ga12" in district):
 			trumpga12.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga13"):
+		if("ga13" in district):
 			trumpga13.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga14"):
+		if("ga14" in district):
 			trumpga14.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "tx1"):
+		if("tx1" in district):
 			trumptx1.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx2"):
+		if("tx2" in district):
 			trumptx2.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx3"):
+		if("tx3" in district):
 			trumptx3.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx4"):
+		if("tx4" in district):
 			trumptx4.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx5"):
+		if("tx5" in district):
 			trumptx5.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx6"):
+		if("tx6" in district):
 			trumptx6.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx7"):
+		if("tx7" in district):
 			trumptx7.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx8"):
+		if("tx8" in district):
 			trumptx8.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx9"):
+		if("tx9" in district):
 			trumptx9.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx10"):
+		if("tx10" in district):
 			trumptx10.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx11"):
+		if("tx11" in district):
 			trumptx11.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx12"):
+		if("tx12" in district):
 			trumptx12.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx13"):
+		if("tx13" in district):
 			trumptx13.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx14"):
+		if("tx14" in district):
 			trumptx14.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx15"):
+		if("tx15" in district):
 			trumptx15.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx16"):
+		if("tx16" in district):
 			trumptx16.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx17"):
+		if("tx17" in district):
 			trumptx17.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx18"):
+		if("tx18" in district):
 			trumptx18.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx19"):
+		if("tx19" in district):
 			trumptx19.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx20"):
+		if("tx20" in district):
 			trumptx20.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx21"):
+		if("tx21" in district):
 			trumptx21.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx22"):
+		if("tx22" in district):
 			trumptx22.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx23"):
+		if("tx23" in district):
 			trumptx23.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx24"):
+		if("tx24" in district):
 			trumptx24.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx25"):
+		if("tx25" in district):
 			trumptx25.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx26"):
+		if("tx26" in district):
 			trumptx26.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx27"):
+		if("tx27" in district):
 			trumptx27.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx28"):
+		if("tx28" in district):
 			trumptx28.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx29"):
+		if("tx29" in district):
 			trumptx29.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx30"):
+		if("tx30" in district):
 			trumptx30.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx31"):
+		if("tx31" in district):
 			trumptx31.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx32"):
+		if("tx32" in district):
 			trumptx32.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx33"):
+		if("tx33" in district):
 			trumptx33.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx34"):
+		if("tx34" in district):
 			trumptx34.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx35"):
+		if("tx35" in district):
 			trumptx35.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx36"):
+		if("tx36" in district):
 			trumptx36.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "in1"):
+		if("in1" in district):
 			trumpin1.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in2"):
+		if("in2" in district):
 			trumpin2.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in3"):
+		if("in3" in district):
 			trumpin3.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in4"):
+		if("in4" in district):
 			trumpin4.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in5"):
+		if("in5" in district):
 			trumpin5.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in6"):
+		if("in6" in district):
 			trumpin6.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in7"):
+		if("in7" in district):
 			trumpin7.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in8"):
+		if("in8" in district):
 			trumpin8.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in9"):
+		if("in9" in district):
 			trumpin9.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "va1"):
+		if("va1" in district):
 			trumpva1.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va2"):
+		if("va2" in district):
 			trumpva2.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va3"):
+		if("va3" in district):
 			trumpva3.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va4"):
+		if("va4" in district):
 			trumpva4.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va5"):
+		if("va5" in district):
 			trumpva5.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va6"):
+		if("va6" in district):
 			trumpva6.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va7"):
+		if("va7" in district):
 			trumpva7.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va8"):
+		if("va8" in district):
 			trumpva8.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va9"):
+		if("va9" in district):
 			trumpva9.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va10"):
+		if("va10" in district):
 			trumpva10.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va11"):
+		if("va11" in district):
 			trumpva11.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "il1"):
+		if("il1" in district):
 			trumpil1.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il2"):
+		if("il2" in district):
 			trumpil2.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il3"):
+		if("il3" in district):
 			trumpil3.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il4"):
+		if("il4" in district):
 			trumpil4.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il5"):
+		if("il5" in district):
 			trumpil5.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il6"):
+		if("il6" in district):
 			trumpil6.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il7"):
+		if("il7" in district):
 			trumpil7.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il8"):
+		if("il8" in district):
 			trumpil8.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il9"):
+		if("il9" in district):
 			trumpil9.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il10"):
+		if("il10" in district):
 			trumpil10.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il11"):
+		if("il11" in district):
 			trumpil11.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il12"):
+		if("il12" in district):
 			trumpil12.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il13"):
+		if("il13" in district):
 			trumpil13.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il14"):
+		if("il14" in district):
 			trumpil14.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il15"):
+		if("il15" in district):
 			trumpil15.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il16"):
+		if("il16" in district):
 			trumpil16.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il17"):
+		if("il17" in district):
 			trumpil17.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il18"):
+		if("il18" in district):
 			trumpil18.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "de1"):
+		if("de1" in district):
 			trumpde1.add(tw["user"]["id"])
 			trumpde.add(tw["user"]["id"])
-		elif(district == "vt1"):
+		if("vt1" in district):
 			trumpvt1.add(tw["user"]["id"])
 			trumpvt.add(tw["user"]["id"])
-		elif(district == "ut1"):
+		if("ut1" in district):
 			trumput1.add(tw["user"]["id"])
 			trumput.add(tw["user"]["id"])
-		elif(district == "ut2"):
+		if("ut2" in district):
 			trumput2.add(tw["user"]["id"])
 			trumput.add(tw["user"]["id"])
-		elif(district == "ut3"):
+		if("ut3" in district):
 			trumput3.add(tw["user"]["id"])
 			trumput.add(tw["user"]["id"])
-		elif(district == "ut4"):
+		if("ut4" in district):
 			trumput4.add(tw["user"]["id"])
 			trumput.add(tw["user"]["id"])
-		elif(district == "ne1"):
+		if("ne1" in district):
 			trumpne1.add(tw["user"]["id"])
 			trumpne.add(tw["user"]["id"])
-		elif(district == "ne2"):
+		if("ne2" in district):
 			trumpne2.add(tw["user"]["id"])
 			trumpne.add(tw["user"]["id"])
-		elif(district == "ne3"):
+		if("ne3" in district):
 			trumpne3.add(tw["user"]["id"])
 			trumpne.add(tw["user"]["id"])
-		elif(district == "ak1"):
+		if("ak1" in district):
 			trumpak1.add(tw["user"]["id"])
 			trumpak.add(tw["user"]["id"])
-		elif(district == "wy1"):
+		if("wy1" in district):
 			trumpwy1.add(tw["user"]["id"])
 			trumpwy.add(tw["user"]["id"])
-		elif(district == "al1"):
+		if("al1" in district):
 			trumpal1.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "al2"):
+		if("al2" in district):
 			trumpal2.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "al3"):
+		if("al3" in district):
 			trumpal3.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "al4"):
+		if("al4" in district):
 			trumpal4.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "al5"):
+		if("al5" in district):
 			trumpal5.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "al6"):
+		if("al6" in district):
 			trumpal6.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "al7"):
+		if("al7" in district):
 			trumpal7.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "tn1"):
+		if("tn1" in district):
 			trumptn1.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn2"):
+		if("tn2" in district):
 			trumptn2.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn3"):
+		if("tn3" in district):
 			trumptn3.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn4"):
+		if("tn4" in district):
 			trumptn4.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn5"):
+		if("tn5" in district):
 			trumptn5.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn6"):
+		if("tn6" in district):
 			trumptn6.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn7"):
+		if("tn7" in district):
 			trumptn7.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn8"):
+		if("tn8" in district):
 			trumptn8.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn9"):
+		if("tn9" in district):
 			trumptn9.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "nd1"):
+		if("nd1" in district):
 			trumpnd1.add(tw["user"]["id"])
 			trumpnd.add(tw["user"]["id"])
-		elif(district == "sd1"):
+		if("sd1" in district):
 			trumpsd1.add(tw["user"]["id"])
 			trumpsd.add(tw["user"]["id"])
-		elif(district == "wv1"):
+		if("wv1" in district):
 			trumpwv1.add(tw["user"]["id"])
 			trumpwv.add(tw["user"]["id"])
-		elif(district == "wv2"):
+		if("wv2" in district):
 			trumpwv2.add(tw["user"]["id"])
 			trumpwv.add(tw["user"]["id"])
-		elif(district == "wv3"):
+		if("wv3" in district):
 			trumpwv3.add(tw["user"]["id"])
 			trumpwv.add(tw["user"]["id"])
-		elif(district == "ar1"):
+		if("ar1" in district):
 			trumpar1.add(tw["user"]["id"])
 			trumpar.add(tw["user"]["id"])
-		elif(district == "ar2"):
+		if("ar2" in district):
 			trumpar2.add(tw["user"]["id"])
 			trumpar.add(tw["user"]["id"])
-		elif(district == "ar3"):
+		if("ar3" in district):
 			trumpar3.add(tw["user"]["id"])
 			trumpar.add(tw["user"]["id"])
-		elif(district == "ar4"):
+		if("ar4" in district):
 			trumpar4.add(tw["user"]["id"])
 			trumpar.add(tw["user"]["id"])
-	district = sortloc("#biden2020", tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
+	district = sortloc(["#biden2020", "#voteblue"], tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
 	if(district != "null"):
-		if(district == "mo1"):
+		if("mo1" in district):
 			bidenmo1.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo2"):
+		if("mo2" in district):
 			bidenmo2.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo3"):
+		if("mo3" in district):
 			bidenmo3.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo4"):
+		if("mo4" in district):
 			bidenmo4.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo5"):
+		if("mo5" in district):
 			bidenmo5.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo6"):
+		if("mo6" in district):
 			bidenmo6.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo7"):
+		if("mo7" in district):
 			bidenmo7.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo8"):
+		if("mo8" in district):
 			bidenmo8.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "sc1"):
+		if("sc1" in district):
 			bidensc1.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "sc2"):
+		if("sc2" in district):
 			bidensc2.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "sc3"):
+		if("sc3" in district):
 			bidensc3.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "sc4"):
+		if("sc4" in district):
 			bidensc4.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "sc5"):
+		if("sc5" in district):
 			bidensc5.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "sc6"):
+		if("sc6" in district):
 			bidensc6.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "sc7"):
+		if("sc7" in district):
 			bidensc7.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "ky1"):
+		if("ky1" in district):
 			bidenky1.add(tw["user"]["id"])
 			bidenky.add(tw["user"]["id"])
-		elif(district == "ky2"):
+		if("ky2" in district):
 			bidenky2.add(tw["user"]["id"])
 			bidenky.add(tw["user"]["id"])
-		elif(district == "ky3"):
+		if("ky3" in district):
 			bidenky3.add(tw["user"]["id"])
 			bidenky.add(tw["user"]["id"])
-		elif(district == "ky4"):
+		if("ky4" in district):
 			bidenky4.add(tw["user"]["id"])
 			bidenky.add(tw["user"]["id"])
-		elif(district == "ky5"):
+		if("ky5" in district):
 			bidenky5.add(tw["user"]["id"])
 			bidenky.add(tw["user"]["id"])
-		elif(district == "ky6"):
+		if("ky6" in district):
 			bidenky6.add(tw["user"]["id"])
 			bidenky.add(tw["user"]["id"])
-		elif(district == "ok1"):
+		if("ok1" in district):
 			bidenok1.add(tw["user"]["id"])
 			bidenok.add(tw["user"]["id"])
-		elif(district == "ok2"):
+		if("ok2" in district):
 			bidenok2.add(tw["user"]["id"])
 			bidenok.add(tw["user"]["id"])
-		elif(district == "ok3"):
+		if("ok3" in district):
 			bidenok3.add(tw["user"]["id"])
 			bidenok.add(tw["user"]["id"])
-		elif(district == "ok4"):
+		if("ok4" in district):
 			bidenok4.add(tw["user"]["id"])
 			bidenok.add(tw["user"]["id"])
-		elif(district == "ok5"):
+		if("ok5" in district):
 			bidenok5.add(tw["user"]["id"])
 			bidenok.add(tw["user"]["id"])
-		elif(district == "ia1"):
+		if("ia1" in district):
 			bidenia1.add(tw["user"]["id"])
 			bidenia.add(tw["user"]["id"])
-		elif(district == "ia2"):
+		if("ia2" in district):
 			bidenia2.add(tw["user"]["id"])
 			bidenia.add(tw["user"]["id"])
-		elif(district == "ia3"):
+		if("ia3" in district):
 			bidenia3.add(tw["user"]["id"])
 			bidenia.add(tw["user"]["id"])
-		elif(district == "ia4"):
+		if("ia4" in district):
 			bidenia4.add(tw["user"]["id"])
 			bidenia.add(tw["user"]["id"])
-		elif(district == "ks1"):
+		if("ks1" in district):
 			bidenks1.add(tw["user"]["id"])
 			bidenks.add(tw["user"]["id"])
-		elif(district == "ks2"):
+		if("ks2" in district):
 			bidenks2.add(tw["user"]["id"])
 			bidenks.add(tw["user"]["id"])
-		elif(district == "ks3"):
+		if("ks3" in district):
 			bidenks3.add(tw["user"]["id"])
 			bidenks.add(tw["user"]["id"])
-		elif(district == "ks4"):
+		if("ks4" in district):
 			bidenks4.add(tw["user"]["id"])
 			bidenks.add(tw["user"]["id"])
-		elif(district == "ca1"):
+		if("ca1" in district):
 			bidenca1.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca2"):
+		if("ca2" in district):
 			bidenca2.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca3"):
+		if("ca3" in district):
 			bidenca3.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca4"):
+		if("ca4" in district):
 			bidenca4.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca5"):
+		if("ca5" in district):
 			bidenca5.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca6"):
+		if("ca6" in district):
 			bidenca6.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca7"):
+		if("ca7" in district):
 			bidenca7.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca8"):
+		if("ca8" in district):
 			bidenca8.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca9"):
+		if("ca9" in district):
 			bidenca9.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca10"):
+		if("ca10" in district):
 			bidenca10.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca11"):
+		if("ca11" in district):
 			bidenca11.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca12"):
+		if("ca12" in district):
 			bidenca12.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca13"):
+		if("ca13" in district):
 			bidenca13.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca14"):
+		if("ca14" in district):
 			bidenca14.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca15"):
+		if("ca15" in district):
 			bidenca15.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca16"):
+		if("ca16" in district):
 			bidenca16.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca17"):
+		if("ca17" in district):
 			bidenca17.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca18"):
+		if("ca18" in district):
 			bidenca18.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca19"):
+		if("ca19" in district):
 			bidenca19.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca20"):
+		if("ca20" in district):
 			bidenca20.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca21"):
+		if("ca21" in district):
 			bidenca21.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca22"):
+		if("ca22" in district):
 			bidenca22.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca23"):
+		if("ca23" in district):
 			bidenca23.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca24"):
+		if("ca24" in district):
 			bidenca24.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca25"):
+		if("ca25" in district):
 			bidenca25.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca26"):
+		if("ca26" in district):
 			bidenca26.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca27"):
+		if("ca27" in district):
 			bidenca27.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca28"):
+		if("ca28" in district):
 			bidenca28.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca29"):
+		if("ca29" in district):
 			bidenca29.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca30"):
+		if("ca30" in district):
 			bidenca30.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca31"):
+		if("ca31" in district):
 			bidenca31.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca32"):
+		if("ca32" in district):
 			bidenca32.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca33"):
+		if("ca33" in district):
 			bidenca33.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca34"):
+		if("ca34" in district):
 			bidenca34.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca35"):
+		if("ca35" in district):
 			bidenca35.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca36"):
+		if("ca36" in district):
 			bidenca36.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca37"):
+		if("ca37" in district):
 			bidenca37.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca38"):
+		if("ca38" in district):
 			bidenca38.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca39"):
+		if("ca39" in district):
 			bidenca39.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca40"):
+		if("ca40" in district):
 			bidenca40.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca41"):
+		if("ca41" in district):
 			bidenca41.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca42"):
+		if("ca42" in district):
 			bidenca42.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca43"):
+		if("ca43" in district):
 			bidenca43.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca44"):
+		if("ca44" in district):
 			bidenca44.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca45"):
+		if("ca45" in district):
 			bidenca45.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca46"):
+		if("ca46" in district):
 			bidenca46.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca47"):
+		if("ca47" in district):
 			bidenca47.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca48"):
+		if("ca48" in district):
 			bidenca48.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca49"):
+		if("ca49" in district):
 			bidenca49.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca50"):
+		if("ca50" in district):
 			bidenca50.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca51"):
+		if("ca51" in district):
 			bidenca51.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca52"):
+		if("ca52" in district):
 			bidenca52.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca53"):
+		if("ca53" in district):
 			bidenca53.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "la1"):
+		if("la1" in district):
 			bidenla1.add(tw["user"]["id"])
 			bidenla.add(tw["user"]["id"])
-		elif(district == "la2"):
+		if("la2" in district):
 			bidenla2.add(tw["user"]["id"])
 			bidenla.add(tw["user"]["id"])
-		elif(district == "la3"):
+		if("la3" in district):
 			bidenla3.add(tw["user"]["id"])
 			bidenla.add(tw["user"]["id"])
-		elif(district == "la4"):
+		if("la4" in district):
 			bidenla4.add(tw["user"]["id"])
 			bidenla.add(tw["user"]["id"])
-		elif(district == "la5"):
+		if("la5" in district):
 			bidenla5.add(tw["user"]["id"])
 			bidenla.add(tw["user"]["id"])
-		elif(district == "la6"):
+		if("la6" in district):
 			bidenla6.add(tw["user"]["id"])
 			bidenla.add(tw["user"]["id"])
-		elif(district == "ct1"):
+		if("ct1" in district):
 			bidenct1.add(tw["user"]["id"])
 			bidenct.add(tw["user"]["id"])
-		elif(district == "ct2"):
+		if("ct2" in district):
 			bidenct2.add(tw["user"]["id"])
 			bidenct.add(tw["user"]["id"])
-		elif(district == "ct3"):
+		if("ct3" in district):
 			bidenct3.add(tw["user"]["id"])
 			bidenct.add(tw["user"]["id"])
-		elif(district == "ct4"):
+		if("ct4" in district):
 			bidenct4.add(tw["user"]["id"])
 			bidenct.add(tw["user"]["id"])
-		elif(district == "ct5"):
+		if("ct5" in district):
 			bidenct5.add(tw["user"]["id"])
 			bidenct.add(tw["user"]["id"])
-		elif(district == "mt1"):
+		if("mt1" in district):
 			bidenmt1.add(tw["user"]["id"])
 			bidenmt.add(tw["user"]["id"])
-		elif(district == "ms1"):
+		if("ms1" in district):
 			bidenms1.add(tw["user"]["id"])
 			bidenms.add(tw["user"]["id"])
-		elif(district == "ms2"):
+		if("ms2" in district):
 			bidenms2.add(tw["user"]["id"])
 			bidenms.add(tw["user"]["id"])
-		elif(district == "ms3"):
+		if("ms3" in district):
 			bidenms3.add(tw["user"]["id"])
 			bidenms.add(tw["user"]["id"])
-		elif(district == "ms4"):
+		if("ms4" in district):
 			bidenms4.add(tw["user"]["id"])
 			bidenms.add(tw["user"]["id"])
-		elif(district == "pa1"):
+		if("pa1" in district):
 			bidenpa1.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa2"):
+		if("pa2" in district):
 			bidenpa2.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa3"):
+		if("pa3" in district):
 			bidenpa3.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa4"):
+		if("pa4" in district):
 			bidenpa4.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa5"):
+		if("pa5" in district):
 			bidenpa5.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa6"):
+		if("pa6" in district):
 			bidenpa6.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa7"):
+		if("pa7" in district):
 			bidenpa7.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa8"):
+		if("pa8" in district):
 			bidenpa8.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa9"):
+		if("pa9" in district):
 			bidenpa9.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa10"):
+		if("pa10" in district):
 			bidenpa10.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa11"):
+		if("pa11" in district):
 			bidenpa11.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa12"):
+		if("pa12" in district):
 			bidenpa12.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa13"):
+		if("pa13" in district):
 			bidenpa13.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa14"):
+		if("pa14" in district):
 			bidenpa14.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa15"):
+		if("pa15" in district):
 			bidenpa15.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa16"):
+		if("pa16" in district):
 			bidenpa16.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa17"):
+		if("pa17" in district):
 			bidenpa17.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa18"):
+		if("pa18" in district):
 			bidenpa18.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "oh1"):
+		if("oh1" in district):
 			bidenoh1.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh2"):
+		if("oh2" in district):
 			bidenoh2.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh3"):
+		if("oh3" in district):
 			bidenoh3.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh4"):
+		if("oh4" in district):
 			bidenoh4.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh5"):
+		if("oh5" in district):
 			bidenoh5.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		if(district == "oh6"):
+		if("oh6" in district):
 			bidenoh6.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh7"):
+		if("oh7" in district):
 			bidenoh7.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh8"):
+		if("oh8" in district):
 			bidenoh8.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh9"):
+		if("oh9" in district):
 			bidenoh9.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh10"):
+		if("oh10" in district):
 			bidenoh10.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh11"):
+		if("oh11" in district):
 			bidenoh11.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh12"):
+		if("oh12" in district):
 			bidenoh12.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh13"):
+		if("oh13" in district):
 			bidenoh13.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh14"):
+		if("oh14" in district):
 			bidenoh14.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh15"):
+		if("oh15" in district):
 			bidenoh15.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh16"):
+		if("oh16" in district):
 			bidenoh16.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "fl1"):
+		if("fl1" in district):
 			bidenfl1.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl2"):
+		if("fl2" in district):
 			bidenfl2.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl3"):
+		if("fl3" in district):
 			bidenfl3.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl4"):
+		if("fl4" in district):
 			bidenfl4.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl5"):
+		if("fl5" in district):
 			bidenfl5.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl6"):
+		if("fl6" in district):
 			bidenfl6.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl7"):
+		if("fl7" in district):
 			bidenfl7.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl8"):
+		if("fl8" in district):
 			bidenfl8.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl9"):
+		if("fl9" in district):
 			bidenfl9.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl10"):
+		if("fl10" in district):
 			bidenfl10.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl11"):
+		if("fl11" in district):
 			bidenfl11.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl12"):
+		if("fl12" in district):
 			bidenfl12.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl13"):
+		if("fl13" in district):
 			bidenfl13.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl14"):
+		if("fl14" in district):
 			bidenfl14.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl15"):
+		if("fl15" in district):
 			bidenfl15.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl16"):
+		if("fl16" in district):
 			bidenfl16.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl17"):
+		if("fl17" in district):
 			bidenfl17.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl18"):
+		if("fl18" in district):
 			bidenfl18.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl19"):
+		if("fl19" in district):
 			bidenfl19.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl20"):
+		if("fl20" in district):
 			bidenfl20.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl21"):
+		if("fl21" in district):
 			bidenfl21.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl22"):
+		if("fl22" in district):
 			bidenfl22.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl23"):
+		if("fl23" in district):
 			bidenfl23.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl24"):
+		if("fl24" in district):
 			bidenfl24.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl25"):
+		if("fl25" in district):
 			bidenfl25.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl26"):
+		if("fl26" in district):
 			bidenfl26.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl27"):
+		if("fl27" in district):
 			bidenfl27.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "wa1"):
+		if("wa1" in district):
 			bidenwa1.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa2"):
+		if("wa2" in district):
 			bidenwa2.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa3"):
+		if("wa3" in district):
 			bidenwa3.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa4"):
+		if("wa4" in district):
 			bidenwa4.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa5"):
+		if("wa5" in district):
 			bidenwa5.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa6"):
+		if("wa6" in district):
 			bidenwa6.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa7"):
+		if("wa7" in district):
 			bidenwa7.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa8"):
+		if("wa8" in district):
 			bidenwa8.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa9"):
+		if("wa9" in district):
 			bidenwa9.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa10"):
+		if("wa10" in district):
 			bidenwa10.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "hi1"):
+		if("hi1" in district):
 			bidenhi1.add(tw["user"]["id"])
 			bidenhi.add(tw["user"]["id"])
-		elif(district == "hi2"):
+		if("hi2" in district):
 			bidenhi2.add(tw["user"]["id"])
 			bidenhi.add(tw["user"]["id"])
-		elif(district == "nj1"):
+		if("nj1" in district):
 			bidennj1.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj2"):
+		if("nj2" in district):
 			bidennj2.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj3"):
+		if("nj3" in district):
 			bidennj3.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj4"):
+		if("nj4" in district):
 			bidennj4.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj5"):
+		if("nj5" in district):
 			bidennj5.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj6"):
+		if("nj6" in district):
 			bidennj6.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj7"):
+		if("nj7" in district):
 			bidennj7.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj8"):
+		if("nj8" in district):
 			bidennj8.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj9"):
+		if("nj9" in district):
 			bidennj9.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj10"):
+		if("nj10" in district):
 			bidennj10.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj11"):
+		if("nj11" in district):
 			bidennj11.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj12"):
+		if("nj12" in district):
 			bidennj12.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "ny1"):
+		if("ny1" in district):
 			bidenny1.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny2"):
+		if("ny2" in district):
 			bidenny2.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny3"):
+		if("ny3" in district):
 			bidenny3.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny4"):
+		if("ny4" in district):
 			bidenny4.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny5"):
+		if("ny5" in district):
 			bidenny5.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
+		if(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
 			bidenny6.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
 			bidenny7.add(tw["user"]["id"])
@@ -2028,1287 +2028,1287 @@ for tw in cursor:
 			bidenny.add(tw["user"]["id"])
 			bidenny15.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny16"):
+		if("ny16" in district):
 			bidenny16.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny17"):
+		if("ny17" in district):
 			bidenny17.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny18"):
+		if("ny18" in district):
 			bidenny18.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny19"):
+		if("ny19" in district):
 			bidenny19.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny20"):
+		if("ny20" in district):
 			bidenny20.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny21"):
+		if("ny21" in district):
 			bidenny21.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny22"):
+		if("ny22" in district):
 			bidenny22.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny23"):
+		if("ny23" in district):
 			bidenny23.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny24"):
+		if("ny24" in district):
 			bidenny24.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny25"):
+		if("ny25" in district):
 			bidenny25.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny26"):
+		if("ny26" in district):
 			bidenny26.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny27"):
+		if("ny27" in district):
 			bidenny27.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ri1"):
+		if("ri1" in district):
 			bidenri1.add(tw["user"]["id"])
 			bidenri.add(tw["user"]["id"])
-		elif(district == "ri2"):
+		if("ri2" in district):
 			bidenri2.add(tw["user"]["id"])
 			bidenri.add(tw["user"]["id"])
-		elif(district == "mn1"):
+		if("mn1" in district):
 			bidenmn1.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn2"):
+		if("mn2" in district):
 			bidenmn2.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn3"):
+		if("mn3" in district):
 			bidenmn3.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn4"):
+		if("mn4" in district):
 			bidenmn4.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn5"):
+		if("mn5" in district):
 			bidenmn5.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn6"):
+		if("mn6" in district):
 			bidenmn6.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn7"):
+		if("mn7" in district):
 			bidenmn7.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn8"):
+		if("mn8" in district):
 			bidenmn8.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mi1"):
+		if("mi1" in district):
 			bidenmi1.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi2"):
+		if("mi2" in district):
 			bidenmi2.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi3"):
+		if("mi3" in district):
 			bidenmi3.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi4"):
+		if("mi4" in district):
 			bidenmi4.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi5"):
+		if("mi5" in district):
 			bidenmi5.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi6"):
+		if("mi6" in district):
 			bidenmi6.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi7"):
+		if("mi7" in district):
 			bidenmi7.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi8"):
+		if("mi8" in district):
 			bidenmi8.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi9"):
+		if("mi9" in district):
 			bidenmi9.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi10"):
+		if("mi10" in district):
 			bidenmi10.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi11"):
+		if("mi11" in district):
 			bidenmi11.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi12"):
+		if("mi12" in district):
 			bidenmi12.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi13"):
+		if("mi13" in district):
 			bidenmi13.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi14"):
+		if("mi14" in district):
 			bidenmi14.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "wi1"):
+		if("wi1" in district):
 			bidenwi1.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi2"):
+		if("wi2" in district):
 			bidenwi2.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi3"):
+		if("wi3" in district):
 			bidenwi3.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi4"):
+		if("wi4" in district):
 			bidenwi4.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi5"):
+		if("wi5" in district):
 			bidenwi5.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi6"):
+		if("wi6" in district):
 			bidenwi6.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi7"):
+		if("wi7" in district):
 			bidenwi7.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi8"):
+		if("wi8" in district):
 			bidenwi8.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "or1"):
+		if("or1" in district):
 			bidenor1.add(tw["user"]["id"])
 			bidenor.add(tw["user"]["id"])
-		elif(district == "or2"):
+		if("or2" in district):
 			bidenor2.add(tw["user"]["id"])
 			bidenor.add(tw["user"]["id"])
-		elif(district == "or3"):
+		if("or3" in district):
 			bidenor3.add(tw["user"]["id"])
 			bidenor.add(tw["user"]["id"])
-		elif(district == "or4"):
+		if("or4" in district):
 			bidenor4.add(tw["user"]["id"])
 			bidenor.add(tw["user"]["id"])
-		elif(district == "or5"):
+		if("or5" in district):
 			bidenor5.add(tw["user"]["id"])
 			bidenor.add(tw["user"]["id"])
-		elif(district == "md1"):
+		if("md1" in district):
 			bidenmd1.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md2"):
+		if("md2" in district):
 			bidenmd2.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md3"):
+		if("md3" in district):
 			bidenmd3.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md4"):
+		if("md4" in district):
 			bidenmd4.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md5"):
+		if("md5" in district):
 			bidenmd5.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md6"):
+		if("md6" in district):
 			bidenmd6.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md7"):
+		if("md7" in district):
 			bidenmd7.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md8"):
+		if("md8" in district):
 			bidenmd8.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "ma1"):
+		if("ma1" in district):
 			bidenma1.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma2"):
+		if("ma2" in district):
 			bidenma2.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma3"):
+		if("ma3" in district):
 			bidenma3.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma4"):
+		if("ma4" in district):
 			bidenma4.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma5"):
+		if("ma5" in district):
 			bidenma5.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma6"):
+		if("ma6" in district):
 			bidenma6.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma7"):
+		if("ma7" in district):
 			bidenma7.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma8"):
+		if("ma8" in district):
 			bidenma8.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma9"):
+		if("ma9" in district):
 			bidenma9.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "me1"):
+		if("me1" in district):
 			bidenme1.add(tw["user"]["id"])
 			bidenme.add(tw["user"]["id"])
-		elif(district == "me2"):
+		if("me2" in district):
 			bidenme2.add(tw["user"]["id"])
 			bidenme.add(tw["user"]["id"])
-		elif(district == "id1"):
+		if("id1" in district):
 			bidenid1.add(tw["user"]["id"])
 			bidenid.add(tw["user"]["id"])
-		elif(district == "id2"):
+		if("id2" in district):
 			bidenid2.add(tw["user"]["id"])
 			bidenid.add(tw["user"]["id"])
-		elif(district == "nc1"):
+		if("nc1" in district):
 			bidennc1.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc2"):
+		if("nc2" in district):
 			bidennc2.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc3"):
+		if("nc3" in district):
 			bidennc3.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc4"):
+		if("nc4" in district):
 			bidennc4.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc5"):
+		if("nc5" in district):
 			bidennc5.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc6"):
+		if("nc6" in district):
 			bidennc6.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc7"):
+		if("nc7" in district):
 			bidennc7.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc8"):
+		if("nc8" in district):
 			bidennc8.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc9"):
+		if("nc9" in district):
 			bidennc9.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc10"):
+		if("nc10" in district):
 			bidennc10.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc11"):
+		if("nc11" in district):
 			bidennc11.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc12"):
+		if("nc12" in district):
 			bidennc12.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc13"):
+		if("nc13" in district):
 			bidennc13.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nh1"):
+		if("nh1" in district):
 			bidennh1.add(tw["user"]["id"])
 			bidennh.add(tw["user"]["id"])
-		elif(district == "nh2"):
+		if("nh2" in district):
 			bidennh2.add(tw["user"]["id"])
 			bidennh.add(tw["user"]["id"])
-		elif(district == "nv1"):
+		if("nv1" in district):
 			bidennv1.add(tw["user"]["id"])
 			bidennv.add(tw["user"]["id"])
-		elif(district == "nv2"):
+		if("nv2" in district):
 			bidennv2.add(tw["user"]["id"])
 			bidennv.add(tw["user"]["id"])
-		elif(district == "nv3"):
+		if("nv3" in district):
 			bidennv3.add(tw["user"]["id"])
 			bidennv.add(tw["user"]["id"])
-		elif(district == "nv4"):
+		if("nv4" in district):
 			bidennv4.add(tw["user"]["id"])
 			bidennv.add(tw["user"]["id"])
-		elif(district == "co1"):
+		if("co1" in district):
 			bidenco1.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "co2"):
+		if("co2" in district):
 			bidenco2.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "co3"):
+		if("co3" in district):
 			bidenco3.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "co4"):
+		if("co4" in district):
 			bidenco4.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "co5"):
+		if("co5" in district):
 			bidenco5.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "co6"):
+		if("co6" in district):
 			bidenco6.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "co7"):
+		if("co7" in district):
 			bidenco7.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "nm1"):
+		if("nm1" in district):
 			bidennm1.add(tw["user"]["id"])
 			bidennm.add(tw["user"]["id"])
-		elif(district == "nm2"):
+		if("nm2" in district):
 			bidennm2.add(tw["user"]["id"])
 			bidennm.add(tw["user"]["id"])
-		elif(district == "nm3"):
+		if("nm3" in district):
 			bidennm3.add(tw["user"]["id"])
 			bidennm.add(tw["user"]["id"])
-		elif(district == "az1"):
+		if("az1" in district):
 			bidenaz1.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az2"):
+		if("az2" in district):
 			bidenaz2.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az3"):
+		if("az3" in district):
 			bidenaz3.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az4"):
+		if("az4" in district):
 			bidenaz4.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az5"):
+		if("az5" in district):
 			bidenaz5.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az6"):
+		if("az6" in district):
 			bidenaz6.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az7"):
+		if("az7" in district):
 			bidenaz7.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az8"):
+		if("az8" in district):
 			bidenaz8.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az9"):
+		if("az9" in district):
 			bidenaz9.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "ga1"):
+		if("ga1" in district):
 			bidenga1.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga2"):
+		if("ga2" in district):
 			bidenga2.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga3"):
+		if("ga3" in district):
 			bidenga3.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga4"):
+		if("ga4" in district):
 			bidenga4.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga5"):
+		if("ga5" in district):
 			bidenga5.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga6"):
+		if("ga6" in district):
 			bidenga6.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga7"):
+		if("ga7" in district):
 			bidenga7.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga8"):
+		if("ga8" in district):
 			bidenga8.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga9"):
+		if("ga9" in district):
 			bidenga9.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga10"):
+		if("ga10" in district):
 			bidenga10.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga11"):
+		if("ga11" in district):
 			bidenga11.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga12"):
+		if("ga12" in district):
 			bidenga12.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga13"):
+		if("ga13" in district):
 			bidenga13.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga14"):
+		if("ga14" in district):
 			bidenga14.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "tx1"):
+		if("tx1" in district):
 			bidentx1.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx2"):
+		if("tx2" in district):
 			bidentx2.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx3"):
+		if("tx3" in district):
 			bidentx3.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx4"):
+		if("tx4" in district):
 			bidentx4.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx5"):
+		if("tx5" in district):
 			bidentx5.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx6"):
+		if("tx6" in district):
 			bidentx6.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx7"):
+		if("tx7" in district):
 			bidentx7.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx8"):
+		if("tx8" in district):
 			bidentx8.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx9"):
+		if("tx9" in district):
 			bidentx9.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx10"):
+		if("tx10" in district):
 			bidentx10.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx11"):
+		if("tx11" in district):
 			bidentx11.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx12"):
+		if("tx12" in district):
 			bidentx12.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx13"):
+		if("tx13" in district):
 			bidentx13.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx14"):
+		if("tx14" in district):
 			bidentx14.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx15"):
+		if("tx15" in district):
 			bidentx15.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx16"):
+		if("tx16" in district):
 			bidentx16.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx17"):
+		if("tx17" in district):
 			bidentx17.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx18"):
+		if("tx18" in district):
 			bidentx18.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx19"):
+		if("tx19" in district):
 			bidentx19.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx20"):
+		if("tx20" in district):
 			bidentx20.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx21"):
+		if("tx21" in district):
 			bidentx21.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx22"):
+		if("tx22" in district):
 			bidentx22.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx23"):
+		if("tx23" in district):
 			bidentx23.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx24"):
+		if("tx24" in district):
 			bidentx24.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx25"):
+		if("tx25" in district):
 			bidentx25.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx26"):
+		if("tx26" in district):
 			bidentx26.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx27"):
+		if("tx27" in district):
 			bidentx27.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx28"):
+		if("tx28" in district):
 			bidentx28.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx29"):
+		if("tx29" in district):
 			bidentx29.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx30"):
+		if("tx30" in district):
 			bidentx30.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx31"):
+		if("tx31" in district):
 			bidentx31.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx32"):
+		if("tx32" in district):
 			bidentx32.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx33"):
+		if("tx33" in district):
 			bidentx33.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx34"):
+		if("tx34" in district):
 			bidentx34.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx35"):
+		if("tx35" in district):
 			bidentx35.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx36"):
+		if("tx36" in district):
 			bidentx36.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "in1"):
+		if("in1" in district):
 			bidenin1.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in2"):
+		if("in2" in district):
 			bidenin2.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in3"):
+		if("in3" in district):
 			bidenin3.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in4"):
+		if("in4" in district):
 			bidenin4.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in5"):
+		if("in5" in district):
 			bidenin5.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in6"):
+		if("in6" in district):
 			bidenin6.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in7"):
+		if("in7" in district):
 			bidenin7.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in8"):
+		if("in8" in district):
 			bidenin8.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in9"):
+		if("in9" in district):
 			bidenin9.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "va1"):
+		if("va1" in district):
 			bidenva1.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va2"):
+		if("va2" in district):
 			bidenva2.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va3"):
+		if("va3" in district):
 			bidenva3.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va4"):
+		if("va4" in district):
 			bidenva4.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va5"):
+		if("va5" in district):
 			bidenva5.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va6"):
+		if("va6" in district):
 			bidenva6.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va7"):
+		if("va7" in district):
 			bidenva7.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va8"):
+		if("va8" in district):
 			bidenva8.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va9"):
+		if("va9" in district):
 			bidenva9.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va10"):
+		if("va10" in district):
 			bidenva10.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va11"):
+		if("va11" in district):
 			bidenva11.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "il1"):
+		if("il1" in district):
 			bidenil1.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il2"):
+		if("il2" in district):
 			bidenil2.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il3"):
+		if("il3" in district):
 			bidenil3.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il4"):
+		if("il4" in district):
 			bidenil4.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il5"):
+		if("il5" in district):
 			bidenil5.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il6"):
+		if("il6" in district):
 			bidenil6.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il7"):
+		if("il7" in district):
 			bidenil7.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il8"):
+		if("il8" in district):
 			bidenil8.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il9"):
+		if("il9" in district):
 			bidenil9.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il10"):
+		if("il10" in district):
 			bidenil10.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il11"):
+		if("il11" in district):
 			bidenil11.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il12"):
+		if("il12" in district):
 			bidenil12.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il13"):
+		if("il13" in district):
 			bidenil13.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il14"):
+		if("il14" in district):
 			bidenil14.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il15"):
+		if("il15" in district):
 			bidenil15.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il16"):
+		if("il16" in district):
 			bidenil16.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il17"):
+		if("il17" in district):
 			bidenil17.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il18"):
+		if("il18" in district):
 			bidenil18.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "de1"):
+		if("de1" in district):
 			bidende1.add(tw["user"]["id"])
 			bidende.add(tw["user"]["id"])
-		elif(district == "vt1"):
+		if("vt1" in district):
 			bidenvt1.add(tw["user"]["id"])
 			bidenvt.add(tw["user"]["id"])
-		elif(district == "ut1"):
+		if("ut1" in district):
 			bidenut1.add(tw["user"]["id"])
 			bidenut.add(tw["user"]["id"])
-		elif(district == "ut2"):
+		if("ut2" in district):
 			bidenut2.add(tw["user"]["id"])
 			bidenut.add(tw["user"]["id"])
-		elif(district == "ut3"):
+		if("ut3" in district):
 			bidenut3.add(tw["user"]["id"])
 			bidenut.add(tw["user"]["id"])
-		elif(district == "ut4"):
+		if("ut4" in district):
 			bidenut4.add(tw["user"]["id"])
 			bidenut.add(tw["user"]["id"])
-		elif(district == "ne1"):
+		if("ne1" in district):
 			bidenne1.add(tw["user"]["id"])
 			bidenne.add(tw["user"]["id"])
-		elif(district == "ne2"):
+		if("ne2" in district):
 			bidenne2.add(tw["user"]["id"])
 			bidenne.add(tw["user"]["id"])
-		elif(district == "ne3"):
+		if("ne3" in district):
 			bidenne3.add(tw["user"]["id"])
 			bidenne.add(tw["user"]["id"])
-		elif(district == "ak1"):
+		if("ak1" in district):
 			bidenak1.add(tw["user"]["id"])
 			bidenak.add(tw["user"]["id"])
-		elif(district == "wy1"):
+		if("wy1" in district):
 			bidenwy1.add(tw["user"]["id"])
 			bidenwy.add(tw["user"]["id"])
-		elif(district == "al1"):
+		if("al1" in district):
 			bidenal1.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "al2"):
+		if("al2" in district):
 			bidenal2.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "al3"):
+		if("al3" in district):
 			bidenal3.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "al4"):
+		if("al4" in district):
 			bidenal4.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "al5"):
+		if("al5" in district):
 			bidenal5.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "al6"):
+		if("al6" in district):
 			bidenal6.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "al7"):
+		if("al7" in district):
 			bidenal7.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "tn1"):
+		if("tn1" in district):
 			bidentn1.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn2"):
+		if("tn2" in district):
 			bidentn2.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn3"):
+		if("tn3" in district):
 			bidentn3.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn4"):
+		if("tn4" in district):
 			bidentn4.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn5"):
+		if("tn5" in district):
 			bidentn5.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn6"):
+		if("tn6" in district):
 			bidentn6.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn7"):
+		if("tn7" in district):
 			bidentn7.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn8"):
+		if("tn8" in district):
 			bidentn8.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn9"):
+		if("tn9" in district):
 			bidentn9.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "nd1"):
+		if("nd1" in district):
 			bidennd1.add(tw["user"]["id"])
 			bidennd.add(tw["user"]["id"])
-		elif(district == "sd1"):
+		if("sd1" in district):
 			bidensd1.add(tw["user"]["id"])
 			bidensd.add(tw["user"]["id"])
-		elif(district == "wv1"):
+		if("wv1" in district):
 			bidenwv1.add(tw["user"]["id"])
 			bidenwv.add(tw["user"]["id"])
-		elif(district == "wv2"):
+		if("wv2" in district):
 			bidenwv2.add(tw["user"]["id"])
 			bidenwv.add(tw["user"]["id"])
-		elif(district == "wv3"):
+		if("wv3" in district):
 			bidenwv3.add(tw["user"]["id"])
 			bidenwv.add(tw["user"]["id"])
-		elif(district == "ar1"):
+		if("ar1" in district):
 			bidenar1.add(tw["user"]["id"])
 			bidenar.add(tw["user"]["id"])
-		elif(district == "ar2"):
+		if("ar2" in district):
 			bidenar2.add(tw["user"]["id"])
 			bidenar.add(tw["user"]["id"])
-		elif(district == "ar3"):
+		if("ar3" in district):
 			bidenar3.add(tw["user"]["id"])
 			bidenar.add(tw["user"]["id"])
-		elif(district == "ar4"):
+		if("ar4" in district):
 			bidenar4.add(tw["user"]["id"])
 			bidenar.add(tw["user"]["id"])
 
 cursor = collection.find({"retweeted_status.full_text":{"$exists": "false"}})
 for tw in cursor:
-	district = sortloc("#trump2020", tw["user"]["location"], tw["full_text"].lower())
+	district = sortloc(["#trump2020", "#votered"], tw["user"]["location"], tw["full_text"].lower())
 	if(district != "null"):
-		if(district == "mo1"):
+		if("mo1" in district):
 			trumpmo1.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo2"):
+		if("mo2" in district):
 			trumpmo2.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo3"):
+		if("mo3" in district):
 			trumpmo3.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo4"):
+		if("mo4" in district):
 			trumpmo4.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo5"):
+		if("mo5" in district):
 			trumpmo5.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo6"):
+		if("mo6" in district):
 			trumpmo6.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo7"):
+		if("mo7" in district):
 			trumpmo7.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "mo8"):
+		if("mo8" in district):
 			trumpmo8.add(tw["user"]["id"])
 			trumpmo.add(tw["user"]["id"])
-		elif(district == "sc1"):
+		if("sc1" in district):
 			trumpsc1.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "sc2"):
+		if("sc2" in district):
 			trumpsc2.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "sc3"):
+		if("sc3" in district):
 			trumpsc3.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "sc4"):
+		if("sc4" in district):
 			trumpsc4.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "sc5"):
+		if("sc5" in district):
 			trumpsc5.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "sc6"):
+		if("sc6" in district):
 			trumpsc6.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "sc7"):
+		if("sc7" in district):
 			trumpsc7.add(tw["user"]["id"])
 			trumpsc.add(tw["user"]["id"])
-		elif(district == "ky1"):
+		if("ky1" in district):
 			trumpky1.add(tw["user"]["id"])
 			trumpky.add(tw["user"]["id"])
-		elif(district == "ky2"):
+		if("ky2" in district):
 			trumpky2.add(tw["user"]["id"])
 			trumpky.add(tw["user"]["id"])
-		elif(district == "ky3"):
+		if("ky3" in district):
 			trumpky3.add(tw["user"]["id"])
 			trumpky.add(tw["user"]["id"])
-		elif(district == "ky4"):
+		if("ky4" in district):
 			trumpky4.add(tw["user"]["id"])
 			trumpky.add(tw["user"]["id"])
-		elif(district == "ky5"):
+		if("ky5" in district):
 			trumpky5.add(tw["user"]["id"])
 			trumpky.add(tw["user"]["id"])
-		elif(district == "ky6"):
+		if("ky6" in district):
 			trumpky6.add(tw["user"]["id"])
 			trumpky.add(tw["user"]["id"])
-		elif(district == "ok1"):
+		if("ok1" in district):
 			trumpok1.add(tw["user"]["id"])
 			trumpok.add(tw["user"]["id"])
-		elif(district == "ok2"):
+		if("ok2" in district):
 			trumpok2.add(tw["user"]["id"])
 			trumpok.add(tw["user"]["id"])
-		elif(district == "ok3"):
+		if("ok3" in district):
 			trumpok3.add(tw["user"]["id"])
 			trumpok.add(tw["user"]["id"])
-		elif(district == "ok4"):
+		if("ok4" in district):
 			trumpok4.add(tw["user"]["id"])
 			trumpok.add(tw["user"]["id"])
-		elif(district == "ok5"):
+		if("ok5" in district):
 			trumpok5.add(tw["user"]["id"])
 			trumpok.add(tw["user"]["id"])
-		elif(district == "ia1"):
+		if("ia1" in district):
 			trumpia1.add(tw["user"]["id"])
 			trumpia.add(tw["user"]["id"])
-		elif(district == "ia2"):
+		if("ia2" in district):
 			trumpia2.add(tw["user"]["id"])
 			trumpia.add(tw["user"]["id"])
-		elif(district == "ia3"):
+		if("ia3" in district):
 			trumpia3.add(tw["user"]["id"])
 			trumpia.add(tw["user"]["id"])
-		elif(district == "ia4"):
+		if("ia4" in district):
 			trumpia4.add(tw["user"]["id"])
 			trumpia.add(tw["user"]["id"])
-		elif(district == "ks1"):
+		if("ks1" in district):
 			trumpks1.add(tw["user"]["id"])
 			trumpks.add(tw["user"]["id"])
-		elif(district == "ks2"):
+		if("ks2" in district):
 			trumpks2.add(tw["user"]["id"])
 			trumpks.add(tw["user"]["id"])
-		elif(district == "ks3"):
+		if("ks3" in district):
 			trumpks3.add(tw["user"]["id"])
 			trumpks.add(tw["user"]["id"])
-		elif(district == "ks4"):
+		if("ks4" in district):
 			trumpks4.add(tw["user"]["id"])
 			trumpks.add(tw["user"]["id"])
-		elif(district == "ca1"):
+		if("ca1" in district):
 			trumpca1.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca2"):
+		if("ca2" in district):
 			trumpca2.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca3"):
+		if("ca3" in district):
 			trumpca3.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca4"):
+		if("ca4" in district):
 			trumpca4.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca5"):
+		if("ca5" in district):
 			trumpca5.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca6"):
+		if("ca6" in district):
 			trumpca6.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca7"):
+		if("ca7" in district):
 			trumpca7.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca8"):
+		if("ca8" in district):
 			trumpca8.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca9"):
+		if("ca9" in district):
 			trumpca9.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca10"):
+		if("ca10" in district):
 			trumpca10.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca11"):
+		if("ca11" in district):
 			trumpca11.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca12"):
+		if("ca12" in district):
 			trumpca12.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca13"):
+		if("ca13" in district):
 			trumpca13.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca14"):
+		if("ca14" in district):
 			trumpca14.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca15"):
+		if("ca15" in district):
 			trumpca15.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca16"):
+		if("ca16" in district):
 			trumpca16.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca17"):
+		if("ca17" in district):
 			trumpca17.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca18"):
+		if("ca18" in district):
 			trumpca18.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca19"):
+		if("ca19" in district):
 			trumpca19.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca20"):
+		if("ca20" in district):
 			trumpca20.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca21"):
+		if("ca21" in district):
 			trumpca21.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca22"):
+		if("ca22" in district):
 			trumpca22.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca23"):
+		if("ca23" in district):
 			trumpca23.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca24"):
+		if("ca24" in district):
 			trumpca24.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca25"):
+		if("ca25" in district):
 			trumpca25.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca26"):
+		if("ca26" in district):
 			trumpca26.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca27"):
+		if("ca27" in district):
 			trumpca27.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca28"):
+		if("ca28" in district):
 			trumpca28.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca29"):
+		if("ca29" in district):
 			trumpca29.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca30"):
+		if("ca30" in district):
 			trumpca30.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca31"):
+		if("ca31" in district):
 			trumpca31.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca32"):
+		if("ca32" in district):
 			trumpca32.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca33"):
+		if("ca33" in district):
 			trumpca33.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca34"):
+		if("ca34" in district):
 			trumpca34.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca35"):
+		if("ca35" in district):
 			trumpca35.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca36"):
+		if("ca36" in district):
 			trumpca36.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca37"):
+		if("ca37" in district):
 			trumpca37.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca38"):
+		if("ca38" in district):
 			trumpca38.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca39"):
+		if("ca39" in district):
 			trumpca39.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca40"):
+		if("ca40" in district):
 			trumpca40.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca41"):
+		if("ca41" in district):
 			trumpca41.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca42"):
+		if("ca42" in district):
 			trumpca42.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca43"):
+		if("ca43" in district):
 			trumpca43.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca44"):
+		if("ca44" in district):
 			trumpca44.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca45"):
+		if("ca45" in district):
 			trumpca45.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca46"):
+		if("ca46" in district):
 			trumpca46.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca47"):
+		if("ca47" in district):
 			trumpca47.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca48"):
+		if("ca48" in district):
 			trumpca48.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca49"):
+		if("ca49" in district):
 			trumpca49.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca50"):
+		if("ca50" in district):
 			trumpca50.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca51"):
+		if("ca51" in district):
 			trumpca51.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca52"):
+		if("ca52" in district):
 			trumpca52.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "ca53"):
+		if("ca53" in district):
 			trumpca53.add(tw["user"]["id"])
 			trumpca.add(tw["user"]["id"])
-		elif(district == "la1"):
+		if("la1" in district):
 			trumpla1.add(tw["user"]["id"])
 			trumpla.add(tw["user"]["id"])
-		elif(district == "la2"):
+		if("la2" in district):
 			trumpla2.add(tw["user"]["id"])
 			trumpla.add(tw["user"]["id"])
-		elif(district == "la3"):
+		if("la3" in district):
 			trumpla3.add(tw["user"]["id"])
 			trumpla.add(tw["user"]["id"])
-		elif(district == "la4"):
+		if("la4" in district):
 			trumpla4.add(tw["user"]["id"])
 			trumpla.add(tw["user"]["id"])
-		elif(district == "la5"):
+		if("la5" in district):
 			trumpla5.add(tw["user"]["id"])
 			trumpla.add(tw["user"]["id"])
-		elif(district == "la6"):
+		if("la6" in district):
 			trumpla6.add(tw["user"]["id"])
 			trumpla.add(tw["user"]["id"])
-		elif(district == "ct1"):
+		if("ct1" in district):
 			trumpct1.add(tw["user"]["id"])
 			trumpct.add(tw["user"]["id"])
-		elif(district == "ct2"):
+		if("ct2" in district):
 			trumpct2.add(tw["user"]["id"])
 			trumpct.add(tw["user"]["id"])
-		elif(district == "ct3"):
+		if("ct3" in district):
 			trumpct3.add(tw["user"]["id"])
 			trumpct.add(tw["user"]["id"])
-		elif(district == "ct4"):
+		if("ct4" in district):
 			trumpct4.add(tw["user"]["id"])
 			trumpct.add(tw["user"]["id"])
-		elif(district == "ct5"):
+		if("ct5" in district):
 			trumpct5.add(tw["user"]["id"])
 			trumpct.add(tw["user"]["id"])
-		elif(district == "mt1"):
+		if("mt1" in district):
 			trumpmt1.add(tw["user"]["id"])
 			trumpmt.add(tw["user"]["id"])
-		elif(district == "ms1"):
+		if("ms1" in district):
 			trumpms1.add(tw["user"]["id"])
 			trumpms.add(tw["user"]["id"])
-		elif(district == "ms2"):
+		if("ms2" in district):
 			trumpms2.add(tw["user"]["id"])
 			trumpms.add(tw["user"]["id"])
-		elif(district == "ms3"):
+		if("ms3" in district):
 			trumpms3.add(tw["user"]["id"])
 			trumpms.add(tw["user"]["id"])
-		elif(district == "ms4"):
+		if("ms4" in district):
 			trumpms4.add(tw["user"]["id"])
 			trumpms.add(tw["user"]["id"])
-		elif(district == "pa1"):
+		if("pa1" in district):
 			trumppa1.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa2"):
+		if("pa2" in district):
 			trumppa2.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa3"):
+		if("pa3" in district):
 			trumppa3.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa4"):
+		if("pa4" in district):
 			trumppa4.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa5"):
+		if("pa5" in district):
 			trumppa5.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa6"):
+		if("pa6" in district):
 			trumppa6.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa7"):
+		if("pa7" in district):
 			trumppa7.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa8"):
+		if("pa8" in district):
 			trumppa8.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa9"):
+		if("pa9" in district):
 			trumppa9.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa10"):
+		if("pa10" in district):
 			trumppa10.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa11"):
+		if("pa11" in district):
 			trumppa11.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa12"):
+		if("pa12" in district):
 			trumppa12.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa13"):
+		if("pa13" in district):
 			trumppa13.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa14"):
+		if("pa14" in district):
 			trumppa14.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa15"):
+		if("pa15" in district):
 			trumppa15.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa16"):
+		if("pa16" in district):
 			trumppa16.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa17"):
+		if("pa17" in district):
 			trumppa17.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "pa18"):
+		if("pa18" in district):
 			trumppa18.add(tw["user"]["id"])
 			trumppa.add(tw["user"]["id"])
-		elif(district == "oh1"):
+		if("oh1" in district):
 			trumpoh1.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh2"):
+		if("oh2" in district):
 			trumpoh2.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh3"):
+		if("oh3" in district):
 			trumpoh3.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh4"):
+		if("oh4" in district):
 			trumpoh4.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh5"):
+		if("oh5" in district):
 			trumpoh5.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		if(district == "oh6"):
+		if("oh6" in district):
 			trumpoh6.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh7"):
+		if("oh7" in district):
 			trumpoh7.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh8"):
+		if("oh8" in district):
 			trumpoh8.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh9"):
+		if("oh9" in district):
 			trumpoh9.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh10"):
+		if("oh10" in district):
 			trumpoh10.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh11"):
+		if("oh11" in district):
 			trumpoh11.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh12"):
+		if("oh12" in district):
 			trumpoh12.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh13"):
+		if("oh13" in district):
 			trumpoh13.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh14"):
+		if("oh14" in district):
 			trumpoh14.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh15"):
+		if("oh15" in district):
 			trumpoh15.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "oh16"):
+		if("oh16" in district):
 			trumpoh16.add(tw["user"]["id"])
 			trumpoh.add(tw["user"]["id"])
-		elif(district == "fl1"):
+		if("fl1" in district):
 			trumpfl1.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl2"):
+		if("fl2" in district):
 			trumpfl2.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl3"):
+		if("fl3" in district):
 			trumpfl3.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl4"):
+		if("fl4" in district):
 			trumpfl4.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl5"):
+		if("fl5" in district):
 			trumpfl5.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl6"):
+		if("fl6" in district):
 			trumpfl6.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl7"):
+		if("fl7" in district):
 			trumpfl7.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl8"):
+		if("fl8" in district):
 			trumpfl8.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl9"):
+		if("fl9" in district):
 			trumpfl9.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl10"):
+		if("fl10" in district):
 			trumpfl10.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl11"):
+		if("fl11" in district):
 			trumpfl11.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl12"):
+		if("fl12" in district):
 			trumpfl12.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl13"):
+		if("fl13" in district):
 			trumpfl13.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl14"):
+		if("fl14" in district):
 			trumpfl14.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl15"):
+		if("fl15" in district):
 			trumpfl15.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl16"):
+		if("fl16" in district):
 			trumpfl16.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl17"):
+		if("fl17" in district):
 			trumpfl17.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl18"):
+		if("fl18" in district):
 			trumpfl18.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl19"):
+		if("fl19" in district):
 			trumpfl19.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl20"):
+		if("fl20" in district):
 			trumpfl20.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl21"):
+		if("fl21" in district):
 			trumpfl21.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl22"):
+		if("fl22" in district):
 			trumpfl22.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl23"):
+		if("fl23" in district):
 			trumpfl23.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl24"):
+		if("fl24" in district):
 			trumpfl24.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl25"):
+		if("fl25" in district):
 			trumpfl25.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl26"):
+		if("fl26" in district):
 			trumpfl26.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "fl27"):
+		if("fl27" in district):
 			trumpfl27.add(tw["user"]["id"])
 			trumpfl.add(tw["user"]["id"])
-		elif(district == "wa1"):
+		if("wa1" in district):
 			trumpwa1.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa2"):
+		if("wa2" in district):
 			trumpwa2.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa3"):
+		if("wa3" in district):
 			trumpwa3.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa4"):
+		if("wa4" in district):
 			trumpwa4.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa5"):
+		if("wa5" in district):
 			trumpwa5.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa6"):
+		if("wa6" in district):
 			trumpwa6.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa7"):
+		if("wa7" in district):
 			trumpwa7.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa8"):
+		if("wa8" in district):
 			trumpwa8.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa9"):
+		if("wa9" in district):
 			trumpwa9.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "wa10"):
+		if("wa10" in district):
 			trumpwa10.add(tw["user"]["id"])
 			trumpwa.add(tw["user"]["id"])
-		elif(district == "hi1"):
+		if("hi1" in district):
 			trumphi1.add(tw["user"]["id"])
 			trumphi.add(tw["user"]["id"])
-		elif(district == "hi2"):
+		if("hi2" in district):
 			trumphi2.add(tw["user"]["id"])
 			trumphi.add(tw["user"]["id"])
-		elif(district == "nj1"):
+		if("nj1" in district):
 			trumpnj1.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj2"):
+		if("nj2" in district):
 			trumpnj2.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj3"):
+		if("nj3" in district):
 			trumpnj3.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj4"):
+		if("nj4" in district):
 			trumpnj4.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj5"):
+		if("nj5" in district):
 			trumpnj5.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj6"):
+		if("nj6" in district):
 			trumpnj6.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj7"):
+		if("nj7" in district):
 			trumpnj7.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj8"):
+		if("nj8" in district):
 			trumpnj8.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj9"):
+		if("nj9" in district):
 			trumpnj9.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj10"):
+		if("nj10" in district):
 			trumpnj10.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj11"):
+		if("nj11" in district):
 			trumpnj11.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "nj12"):
+		if("nj12" in district):
 			trumpnj12.add(tw["user"]["id"])
 			trumpnj.add(tw["user"]["id"])
-		elif(district == "ny1"):
+		if("ny1" in district):
 			trumpny1.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny2"):
+		if("ny2" in district):
 			trumpny2.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny3"):
+		if("ny3" in district):
 			trumpny3.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny4"):
+		if("ny4" in district):
 			trumpny4.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny5"):
+		if("ny5" in district):
 			trumpny5.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
+		if(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
 			trumpny6.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
 			trumpny7.add(tw["user"]["id"])
@@ -3329,1284 +3329,1284 @@ for tw in cursor:
 			trumpny.add(tw["user"]["id"])
 			trumpny15.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny16"):
+		if("ny16" in district):
 			trumpny16.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny17"):
+		if("ny17" in district):
 			trumpny17.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny18"):
+		if("ny18" in district):
 			trumpny18.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny19"):
+		if("ny19" in district):
 			trumpny19.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny20"):
+		if("ny20" in district):
 			trumpny20.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny21"):
+		if("ny21" in district):
 			trumpny21.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny22"):
+		if("ny22" in district):
 			trumpny22.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny23"):
+		if("ny23" in district):
 			trumpny23.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny24"):
+		if("ny24" in district):
 			trumpny24.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny25"):
+		if("ny25" in district):
 			trumpny25.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny26"):
+		if("ny26" in district):
 			trumpny26.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ny27"):
+		if("ny27" in district):
 			trumpny27.add(tw["user"]["id"])
 			trumpny.add(tw["user"]["id"])
-		elif(district == "ri1"):
+		if("ri1" in district):
 			trumpri1.add(tw["user"]["id"])
 			trumpri.add(tw["user"]["id"])
-		elif(district == "ri2"):
+		if("ri2" in district):
 			trumpri2.add(tw["user"]["id"])
 			trumpri.add(tw["user"]["id"])
-		elif(district == "mn1"):
+		if("mn1" in district):
 			trumpmn1.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn2"):
+		if("mn2" in district):
 			trumpmn2.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn3"):
+		if("mn3" in district):
 			trumpmn3.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn4"):
+		if("mn4" in district):
 			trumpmn4.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn5"):
+		if("mn5" in district):
 			trumpmn5.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn6"):
+		if("mn6" in district):
 			trumpmn6.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn7"):
+		if("mn7" in district):
 			trumpmn7.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mn8"):
+		if("mn8" in district):
 			trumpmn8.add(tw["user"]["id"])
 			trumpmn.add(tw["user"]["id"])
-		elif(district == "mi1"):
+		if("mi1" in district):
 			trumpmi1.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi2"):
+		if("mi2" in district):
 			trumpmi2.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi3"):
+		if("mi3" in district):
 			trumpmi3.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi4"):
+		if("mi4" in district):
 			trumpmi4.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi5"):
+		if("mi5" in district):
 			trumpmi5.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi6"):
+		if("mi6" in district):
 			trumpmi6.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi7"):
+		if("mi7" in district):
 			trumpmi7.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi8"):
+		if("mi8" in district):
 			trumpmi8.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi9"):
+		if("mi9" in district):
 			trumpmi9.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi10"):
+		if("mi10" in district):
 			trumpmi10.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi11"):
+		if("mi11" in district):
 			trumpmi11.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi12"):
+		if("mi12" in district):
 			trumpmi12.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi13"):
+		if("mi13" in district):
 			trumpmi13.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "mi14"):
+		if("mi14" in district):
 			trumpmi14.add(tw["user"]["id"])
 			trumpmi.add(tw["user"]["id"])
-		elif(district == "wi1"):
+		if("wi1" in district):
 			trumpwi1.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi2"):
+		if("wi2" in district):
 			trumpwi2.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi3"):
+		if("wi3" in district):
 			trumpwi3.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi4"):
+		if("wi4" in district):
 			trumpwi4.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi5"):
+		if("wi5" in district):
 			trumpwi5.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi6"):
+		if("wi6" in district):
 			trumpwi6.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi7"):
+		if("wi7" in district):
 			trumpwi7.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "wi8"):
+		if("wi8" in district):
 			trumpwi8.add(tw["user"]["id"])
 			trumpwi.add(tw["user"]["id"])
-		elif(district == "or1"):
+		if("or1" in district):
 			trumpor1.add(tw["user"]["id"])
 			trumpor.add(tw["user"]["id"])
-		elif(district == "or2"):
+		if("or2" in district):
 			trumpor2.add(tw["user"]["id"])
 			trumpor.add(tw["user"]["id"])
-		elif(district == "or3"):
+		if("or3" in district):
 			trumpor3.add(tw["user"]["id"])
 			trumpor.add(tw["user"]["id"])
-		elif(district == "or4"):
+		if("or4" in district):
 			trumpor4.add(tw["user"]["id"])
 			trumpor.add(tw["user"]["id"])
-		elif(district == "or5"):
+		if("or5" in district):
 			trumpor5.add(tw["user"]["id"])
 			trumpor.add(tw["user"]["id"])
-		elif(district == "md1"):
+		if("md1" in district):
 			trumpmd1.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md2"):
+		if("md2" in district):
 			trumpmd2.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md3"):
+		if("md3" in district):
 			trumpmd3.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md4"):
+		if("md4" in district):
 			trumpmd4.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md5"):
+		if("md5" in district):
 			trumpmd5.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md6"):
+		if("md6" in district):
 			trumpmd6.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md7"):
+		if("md7" in district):
 			trumpmd7.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "md8"):
+		if("md8" in district):
 			trumpmd8.add(tw["user"]["id"])
 			trumpmd.add(tw["user"]["id"])
-		elif(district == "ma1"):
+		if("ma1" in district):
 			trumpma1.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma2"):
+		if("ma2" in district):
 			trumpma2.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma3"):
+		if("ma3" in district):
 			trumpma3.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma4"):
+		if("ma4" in district):
 			trumpma4.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma5"):
+		if("ma5" in district):
 			trumpma5.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma6"):
+		if("ma6" in district):
 			trumpma6.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma7"):
+		if("ma7" in district):
 			trumpma7.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma8"):
+		if("ma8" in district):
 			trumpma8.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "ma9"):
+		if("ma9" in district):
 			trumpma9.add(tw["user"]["id"])
 			trumpma.add(tw["user"]["id"])
-		elif(district == "me1"):
+		if("me1" in district):
 			trumpme1.add(tw["user"]["id"])
 			trumpme.add(tw["user"]["id"])
-		elif(district == "me2"):
+		if("me2" in district):
 			trumpme2.add(tw["user"]["id"])
 			trumpme.add(tw["user"]["id"])
-		elif(district == "id1"):
+		if("id1" in district):
 			trumpid1.add(tw["user"]["id"])
 			trumpid.add(tw["user"]["id"])
-		elif(district == "id2"):
+		if("id2" in district):
 			trumpid2.add(tw["user"]["id"])
 			trumpid.add(tw["user"]["id"])
-		elif(district == "nc1"):
+		if("nc1" in district):
 			trumpnc1.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc2"):
+		if("nc2" in district):
 			trumpnc2.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc3"):
+		if("nc3" in district):
 			trumpnc3.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc4"):
+		if("nc4" in district):
 			trumpnc4.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc5"):
+		if("nc5" in district):
 			trumpnc5.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc6"):
+		if("nc6" in district):
 			trumpnc6.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc7"):
+		if("nc7" in district):
 			trumpnc7.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc8"):
+		if("nc8" in district):
 			trumpnc8.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc9"):
+		if("nc9" in district):
 			trumpnc9.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc10"):
+		if("nc10" in district):
 			trumpnc10.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc11"):
+		if("nc11" in district):
 			trumpnc11.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc12"):
+		if("nc12" in district):
 			trumpnc12.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nc13"):
+		if("nc13" in district):
 			trumpnc13.add(tw["user"]["id"])
 			trumpnc.add(tw["user"]["id"])
-		elif(district == "nh1"):
+		if("nh1" in district):
 			trumpnh1.add(tw["user"]["id"])
 			trumpnh.add(tw["user"]["id"])
-		elif(district == "nh2"):
+		if("nh2" in district):
 			trumpnh2.add(tw["user"]["id"])
 			trumpnh.add(tw["user"]["id"])
-		elif(district == "nv1"):
+		if("nv1" in district):
 			trumpnv1.add(tw["user"]["id"])
 			trumpnv.add(tw["user"]["id"])
-		elif(district == "nv2"):
+		if("nv2" in district):
 			trumpnv2.add(tw["user"]["id"])
 			trumpnv.add(tw["user"]["id"])
-		elif(district == "nv3"):
+		if("nv3" in district):
 			trumpnv3.add(tw["user"]["id"])
 			trumpnv.add(tw["user"]["id"])
-		elif(district == "nv4"):
+		if("nv4" in district):
 			trumpnv4.add(tw["user"]["id"])
 			trumpnv.add(tw["user"]["id"])
-		elif(district == "co1"):
+		if("co1" in district):
 			trumpco1.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "co2"):
+		if("co2" in district):
 			trumpco2.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "co3"):
+		if("co3" in district):
 			trumpco3.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "co4"):
+		if("co4" in district):
 			trumpco4.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "co5"):
+		if("co5" in district):
 			trumpco5.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "co6"):
+		if("co6" in district):
 			trumpco6.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "co7"):
+		if("co7" in district):
 			trumpco7.add(tw["user"]["id"])
 			trumpco.add(tw["user"]["id"])
-		elif(district == "nm1"):
+		if("nm1" in district):
 			trumpnm1.add(tw["user"]["id"])
 			trumpnm.add(tw["user"]["id"])
-		elif(district == "nm2"):
+		if("nm2" in district):
 			trumpnm2.add(tw["user"]["id"])
 			trumpnm.add(tw["user"]["id"])
-		elif(district == "nm3"):
+		if("nm3" in district):
 			trumpnm3.add(tw["user"]["id"])
 			trumpnm.add(tw["user"]["id"])
-		elif(district == "az1"):
+		if("az1" in district):
 			trumpaz1.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az2"):
+		if("az2" in district):
 			trumpaz2.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az3"):
+		if("az3" in district):
 			trumpaz3.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az4"):
+		if("az4" in district):
 			trumpaz4.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az5"):
+		if("az5" in district):
 			trumpaz5.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az6"):
+		if("az6" in district):
 			trumpaz6.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az7"):
+		if("az7" in district):
 			trumpaz7.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az8"):
+		if("az8" in district):
 			trumpaz8.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "az9"):
+		if("az9" in district):
 			trumpaz9.add(tw["user"]["id"])
 			trumpaz.add(tw["user"]["id"])
-		elif(district == "ga1"):
+		if("ga1" in district):
 			trumpga1.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga2"):
+		if("ga2" in district):
 			trumpga2.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga3"):
+		if("ga3" in district):
 			trumpga3.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga4"):
+		if("ga4" in district):
 			trumpga4.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga5"):
+		if("ga5" in district):
 			trumpga5.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga6"):
+		if("ga6" in district):
 			trumpga6.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga7"):
+		if("ga7" in district):
 			trumpga7.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga8"):
+		if("ga8" in district):
 			trumpga8.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga9"):
+		if("ga9" in district):
 			trumpga9.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga10"):
+		if("ga10" in district):
 			trumpga10.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga11"):
+		if("ga11" in district):
 			trumpga11.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga12"):
+		if("ga12" in district):
 			trumpga12.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga13"):
+		if("ga13" in district):
 			trumpga13.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "ga14"):
+		if("ga14" in district):
 			trumpga14.add(tw["user"]["id"])
 			trumpga.add(tw["user"]["id"])
-		elif(district == "tx1"):
+		if("tx1" in district):
 			trumptx1.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx2"):
+		if("tx2" in district):
 			trumptx2.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx3"):
+		if("tx3" in district):
 			trumptx3.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx4"):
+		if("tx4" in district):
 			trumptx4.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx5"):
+		if("tx5" in district):
 			trumptx5.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx6"):
+		if("tx6" in district):
 			trumptx6.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx7"):
+		if("tx7" in district):
 			trumptx7.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx8"):
+		if("tx8" in district):
 			trumptx8.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx9"):
+		if("tx9" in district):
 			trumptx9.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx10"):
+		if("tx10" in district):
 			trumptx10.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx11"):
+		if("tx11" in district):
 			trumptx11.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx12"):
+		if("tx12" in district):
 			trumptx12.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx13"):
+		if("tx13" in district):
 			trumptx13.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx14"):
+		if("tx14" in district):
 			trumptx14.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx15"):
+		if("tx15" in district):
 			trumptx15.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx16"):
+		if("tx16" in district):
 			trumptx16.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx17"):
+		if("tx17" in district):
 			trumptx17.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx18"):
+		if("tx18" in district):
 			trumptx18.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx19"):
+		if("tx19" in district):
 			trumptx19.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx20"):
+		if("tx20" in district):
 			trumptx20.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx21"):
+		if("tx21" in district):
 			trumptx21.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx22"):
+		if("tx22" in district):
 			trumptx22.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx23"):
+		if("tx23" in district):
 			trumptx23.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx24"):
+		if("tx24" in district):
 			trumptx24.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx25"):
+		if("tx25" in district):
 			trumptx25.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx26"):
+		if("tx26" in district):
 			trumptx26.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx27"):
+		if("tx27" in district):
 			trumptx27.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx28"):
+		if("tx28" in district):
 			trumptx28.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx29"):
+		if("tx29" in district):
 			trumptx29.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx30"):
+		if("tx30" in district):
 			trumptx30.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx31"):
+		if("tx31" in district):
 			trumptx31.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx32"):
+		if("tx32" in district):
 			trumptx32.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx33"):
+		if("tx33" in district):
 			trumptx33.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx34"):
+		if("tx34" in district):
 			trumptx34.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx35"):
+		if("tx35" in district):
 			trumptx35.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "tx36"):
+		if("tx36" in district):
 			trumptx36.add(tw["user"]["id"])
 			trumptx.add(tw["user"]["id"])
-		elif(district == "in1"):
+		if("in1" in district):
 			trumpin1.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in2"):
+		if("in2" in district):
 			trumpin2.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in3"):
+		if("in3" in district):
 			trumpin3.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in4"):
+		if("in4" in district):
 			trumpin4.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in5"):
+		if("in5" in district):
 			trumpin5.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in6"):
+		if("in6" in district):
 			trumpin6.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in7"):
+		if("in7" in district):
 			trumpin7.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in8"):
+		if("in8" in district):
 			trumpin8.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "in9"):
+		if("in9" in district):
 			trumpin9.add(tw["user"]["id"])
 			trumpin.add(tw["user"]["id"])
-		elif(district == "va1"):
+		if("va1" in district):
 			trumpva1.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va2"):
+		if("va2" in district):
 			trumpva2.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va3"):
+		if("va3" in district):
 			trumpva3.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va4"):
+		if("va4" in district):
 			trumpva4.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va5"):
+		if("va5" in district):
 			trumpva5.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va6"):
+		if("va6" in district):
 			trumpva6.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va7"):
+		if("va7" in district):
 			trumpva7.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va8"):
+		if("va8" in district):
 			trumpva8.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va9"):
+		if("va9" in district):
 			trumpva9.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va10"):
+		if("va10" in district):
 			trumpva10.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "va11"):
+		if("va11" in district):
 			trumpva11.add(tw["user"]["id"])
 			trumpva.add(tw["user"]["id"])
-		elif(district == "il1"):
+		if("il1" in district):
 			trumpil1.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il2"):
+		if("il2" in district):
 			trumpil2.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il3"):
+		if("il3" in district):
 			trumpil3.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il4"):
+		if("il4" in district):
 			trumpil4.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il5"):
+		if("il5" in district):
 			trumpil5.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il6"):
+		if("il6" in district):
 			trumpil6.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il7"):
+		if("il7" in district):
 			trumpil7.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il8"):
+		if("il8" in district):
 			trumpil8.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il9"):
+		if("il9" in district):
 			trumpil9.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il10"):
+		if("il10" in district):
 			trumpil10.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il11"):
+		if("il11" in district):
 			trumpil11.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il12"):
+		if("il12" in district):
 			trumpil12.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il13"):
+		if("il13" in district):
 			trumpil13.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il14"):
+		if("il14" in district):
 			trumpil14.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il15"):
+		if("il15" in district):
 			trumpil15.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il16"):
+		if("il16" in district):
 			trumpil16.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il17"):
+		if("il17" in district):
 			trumpil17.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "il18"):
+		if("il18" in district):
 			trumpil18.add(tw["user"]["id"])
 			trumpil.add(tw["user"]["id"])
-		elif(district == "de1"):
+		if("de1" in district):
 			trumpde1.add(tw["user"]["id"])
 			trumpde.add(tw["user"]["id"])
-		elif(district == "vt1"):
+		if("vt1" in district):
 			trumpvt1.add(tw["user"]["id"])
 			trumpvt.add(tw["user"]["id"])
-		elif(district == "ut1"):
+		if("ut1" in district):
 			trumput1.add(tw["user"]["id"])
 			trumput.add(tw["user"]["id"])
-		elif(district == "ut2"):
+		if("ut2" in district):
 			trumput2.add(tw["user"]["id"])
 			trumput.add(tw["user"]["id"])
-		elif(district == "ut3"):
+		if("ut3" in district):
 			trumput3.add(tw["user"]["id"])
 			trumput.add(tw["user"]["id"])
-		elif(district == "ut4"):
+		if("ut4" in district):
 			trumput4.add(tw["user"]["id"])
 			trumput.add(tw["user"]["id"])
-		elif(district == "ne1"):
+		if("ne1" in district):
 			trumpne1.add(tw["user"]["id"])
 			trumpne.add(tw["user"]["id"])
-		elif(district == "ne2"):
+		if("ne2" in district):
 			trumpne2.add(tw["user"]["id"])
 			trumpne.add(tw["user"]["id"])
-		elif(district == "ne3"):
+		if("ne3" in district):
 			trumpne3.add(tw["user"]["id"])
 			trumpne.add(tw["user"]["id"])
-		elif(district == "ak1"):
+		if("ak1" in district):
 			trumpak1.add(tw["user"]["id"])
 			trumpak.add(tw["user"]["id"])
-		elif(district == "wy1"):
+		if("wy1" in district):
 			trumpwy1.add(tw["user"]["id"])
 			trumpwy.add(tw["user"]["id"])
-		elif(district == "al1"):
+		if("al1" in district):
 			trumpal1.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "al2"):
+		if("al2" in district):
 			trumpal2.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "al3"):
+		if("al3" in district):
 			trumpal3.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "al4"):
+		if("al4" in district):
 			trumpal4.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "al5"):
+		if("al5" in district):
 			trumpal5.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "al6"):
+		if("al6" in district):
 			trumpal6.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "al7"):
+		if("al7" in district):
 			trumpal7.add(tw["user"]["id"])
 			trumpal.add(tw["user"]["id"])
-		elif(district == "tn1"):
+		if("tn1" in district):
 			trumptn1.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn2"):
+		if("tn2" in district):
 			trumptn2.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn3"):
+		if("tn3" in district):
 			trumptn3.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn4"):
+		if("tn4" in district):
 			trumptn4.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn5"):
+		if("tn5" in district):
 			trumptn5.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn6"):
+		if("tn6" in district):
 			trumptn6.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn7"):
+		if("tn7" in district):
 			trumptn7.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn8"):
+		if("tn8" in district):
 			trumptn8.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "tn9"):
+		if("tn9" in district):
 			trumptn9.add(tw["user"]["id"])
 			trumptn.add(tw["user"]["id"])
-		elif(district == "nd1"):
+		if("nd1" in district):
 			trumpnd1.add(tw["user"]["id"])
 			trumpnd.add(tw["user"]["id"])
-		elif(district == "sd1"):
+		if("sd1" in district):
 			trumpsd1.add(tw["user"]["id"])
 			trumpsd.add(tw["user"]["id"])
-		elif(district == "wv1"):
+		if("wv1" in district):
 			trumpwv1.add(tw["user"]["id"])
 			trumpwv.add(tw["user"]["id"])
-		elif(district == "wv2"):
+		if("wv2" in district):
 			trumpwv2.add(tw["user"]["id"])
 			trumpwv.add(tw["user"]["id"])
-		elif(district == "wv3"):
+		if("wv3" in district):
 			trumpwv3.add(tw["user"]["id"])
 			trumpwv.add(tw["user"]["id"])
-		elif(district == "ar1"):
+		if("ar1" in district):
 			trumpar1.add(tw["user"]["id"])
 			trumpar.add(tw["user"]["id"])
-		elif(district == "ar2"):
+		if("ar2" in district):
 			trumpar2.add(tw["user"]["id"])
 			trumpar.add(tw["user"]["id"])
-		elif(district == "ar3"):
+		if("ar3" in district):
 			trumpar3.add(tw["user"]["id"])
 			trumpar.add(tw["user"]["id"])
-		elif(district == "ar4"):
+		if("ar4" in district):
 			trumpar4.add(tw["user"]["id"])
 			trumpar.add(tw["user"]["id"])
-	district = sortloc("#biden2020", tw["user"]["location"], tw["full_text"].lower())
+	district = sortloc(["#biden2020", "#voteblue"], tw["user"]["location"], tw["full_text"].lower())
 	if(district != "null"):
-		if(district == "mo1"):
+		if("mo1" in district):
 			bidenmo1.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo2"):
+		if("mo2" in district):
 			bidenmo2.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo3"):
+		if("mo3" in district):
 			bidenmo3.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo4"):
+		if("mo4" in district):
 			bidenmo4.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo5"):
+		if("mo5" in district):
 			bidenmo5.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo6"):
+		if("mo6" in district):
 			bidenmo6.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo7"):
+		if("mo7" in district):
 			bidenmo7.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "mo8"):
+		if("mo8" in district):
 			bidenmo8.add(tw["user"]["id"])
 			bidenmo.add(tw["user"]["id"])
-		elif(district == "sc1"):
+		if("sc1" in district):
 			bidensc1.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "sc2"):
+		if("sc2" in district):
 			bidensc2.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "sc3"):
+		if("sc3" in district):
 			bidensc3.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "sc4"):
+		if("sc4" in district):
 			bidensc4.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "sc5"):
+		if("sc5" in district):
 			bidensc5.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "sc6"):
+		if("sc6" in district):
 			bidensc6.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "sc7"):
+		if("sc7" in district):
 			bidensc7.add(tw["user"]["id"])
 			bidensc.add(tw["user"]["id"])
-		elif(district == "ky1"):
+		if("ky1" in district):
 			bidenky1.add(tw["user"]["id"])
 			bidenky.add(tw["user"]["id"])
-		elif(district == "ky2"):
+		if("ky2" in district):
 			bidenky2.add(tw["user"]["id"])
 			bidenky.add(tw["user"]["id"])
-		elif(district == "ky3"):
+		if("ky3" in district):
 			bidenky3.add(tw["user"]["id"])
 			bidenky.add(tw["user"]["id"])
-		elif(district == "ky4"):
+		if("ky4" in district):
 			bidenky4.add(tw["user"]["id"])
 			bidenky.add(tw["user"]["id"])
-		elif(district == "ky5"):
+		if("ky5" in district):
 			bidenky5.add(tw["user"]["id"])
 			bidenky.add(tw["user"]["id"])
-		elif(district == "ky6"):
+		if("ky6" in district):
 			bidenky6.add(tw["user"]["id"])
 			bidenky.add(tw["user"]["id"])
-		elif(district == "ok1"):
+		if("ok1" in district):
 			bidenok1.add(tw["user"]["id"])
 			bidenok.add(tw["user"]["id"])
-		elif(district == "ok2"):
+		if("ok2" in district):
 			bidenok2.add(tw["user"]["id"])
 			bidenok.add(tw["user"]["id"])
-		elif(district == "ok3"):
+		if("ok3" in district):
 			bidenok3.add(tw["user"]["id"])
 			bidenok.add(tw["user"]["id"])
-		elif(district == "ok4"):
+		if("ok4" in district):
 			bidenok4.add(tw["user"]["id"])
 			bidenok.add(tw["user"]["id"])
-		elif(district == "ok5"):
+		if("ok5" in district):
 			bidenok5.add(tw["user"]["id"])
 			bidenok.add(tw["user"]["id"])
-		elif(district == "ia1"):
+		if("ia1" in district):
 			bidenia1.add(tw["user"]["id"])
 			bidenia.add(tw["user"]["id"])
-		elif(district == "ia2"):
+		if("ia2" in district):
 			bidenia2.add(tw["user"]["id"])
 			bidenia.add(tw["user"]["id"])
-		elif(district == "ia3"):
+		if("ia3" in district):
 			bidenia3.add(tw["user"]["id"])
 			bidenia.add(tw["user"]["id"])
-		elif(district == "ia4"):
+		if("ia4" in district):
 			bidenia4.add(tw["user"]["id"])
 			bidenia.add(tw["user"]["id"])
-		elif(district == "ks1"):
+		if("ks1" in district):
 			bidenks1.add(tw["user"]["id"])
 			bidenks.add(tw["user"]["id"])
-		elif(district == "ks2"):
+		if("ks2" in district):
 			bidenks2.add(tw["user"]["id"])
 			bidenks.add(tw["user"]["id"])
-		elif(district == "ks3"):
+		if("ks3" in district):
 			bidenks3.add(tw["user"]["id"])
 			bidenks.add(tw["user"]["id"])
-		elif(district == "ks4"):
+		if("ks4" in district):
 			bidenks4.add(tw["user"]["id"])
 			bidenks.add(tw["user"]["id"])
-		elif(district == "ca1"):
+		if("ca1" in district):
 			bidenca1.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca2"):
+		if("ca2" in district):
 			bidenca2.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca3"):
+		if("ca3" in district):
 			bidenca3.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca4"):
+		if("ca4" in district):
 			bidenca4.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca5"):
+		if("ca5" in district):
 			bidenca5.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca6"):
+		if("ca6" in district):
 			bidenca6.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca7"):
+		if("ca7" in district):
 			bidenca7.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca8"):
+		if("ca8" in district):
 			bidenca8.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca9"):
+		if("ca9" in district):
 			bidenca9.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca10"):
+		if("ca10" in district):
 			bidenca10.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca11"):
+		if("ca11" in district):
 			bidenca11.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca12"):
+		if("ca12" in district):
 			bidenca12.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca13"):
+		if("ca13" in district):
 			bidenca13.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca14"):
+		if("ca14" in district):
 			bidenca14.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca15"):
+		if("ca15" in district):
 			bidenca15.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca16"):
+		if("ca16" in district):
 			bidenca16.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca17"):
+		if("ca17" in district):
 			bidenca17.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca18"):
+		if("ca18" in district):
 			bidenca18.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca19"):
+		if("ca19" in district):
 			bidenca19.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca20"):
+		if("ca20" in district):
 			bidenca20.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca21"):
+		if("ca21" in district):
 			bidenca21.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca22"):
+		if("ca22" in district):
 			bidenca22.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca23"):
+		if("ca23" in district):
 			bidenca23.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca24"):
+		if("ca24" in district):
 			bidenca24.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca25"):
+		if("ca25" in district):
 			bidenca25.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca26"):
+		if("ca26" in district):
 			bidenca26.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca27"):
+		if("ca27" in district):
 			bidenca27.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca28"):
+		if("ca28" in district):
 			bidenca28.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca29"):
+		if("ca29" in district):
 			bidenca29.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca30"):
+		if("ca30" in district):
 			bidenca30.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca31"):
+		if("ca31" in district):
 			bidenca31.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca32"):
+		if("ca32" in district):
 			bidenca32.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca33"):
+		if("ca33" in district):
 			bidenca33.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca34"):
+		if("ca34" in district):
 			bidenca34.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca35"):
+		if("ca35" in district):
 			bidenca35.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca36"):
+		if("ca36" in district):
 			bidenca36.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca37"):
+		if("ca37" in district):
 			bidenca37.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca38"):
+		if("ca38" in district):
 			bidenca38.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca39"):
+		if("ca39" in district):
 			bidenca39.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca40"):
+		if("ca40" in district):
 			bidenca40.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca41"):
+		if("ca41" in district):
 			bidenca41.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca42"):
+		if("ca42" in district):
 			bidenca42.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca43"):
+		if("ca43" in district):
 			bidenca43.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca44"):
+		if("ca44" in district):
 			bidenca44.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca45"):
+		if("ca45" in district):
 			bidenca45.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca46"):
+		if("ca46" in district):
 			bidenca46.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca47"):
+		if("ca47" in district):
 			bidenca47.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca48"):
+		if("ca48" in district):
 			bidenca48.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca49"):
+		if("ca49" in district):
 			bidenca49.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca50"):
+		if("ca50" in district):
 			bidenca50.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca51"):
+		if("ca51" in district):
 			bidenca51.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca52"):
+		if("ca52" in district):
 			bidenca52.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "ca53"):
+		if("ca53" in district):
 			bidenca53.add(tw["user"]["id"])
 			bidenca.add(tw["user"]["id"])
-		elif(district == "la1"):
+		if("la1" in district):
 			bidenla1.add(tw["user"]["id"])
 			bidenla.add(tw["user"]["id"])
-		elif(district == "la2"):
+		if("la2" in district):
 			bidenla2.add(tw["user"]["id"])
 			bidenla.add(tw["user"]["id"])
-		elif(district == "la3"):
+		if("la3" in district):
 			bidenla3.add(tw["user"]["id"])
 			bidenla.add(tw["user"]["id"])
-		elif(district == "la4"):
+		if("la4" in district):
 			bidenla4.add(tw["user"]["id"])
 			bidenla.add(tw["user"]["id"])
-		elif(district == "la5"):
+		if("la5" in district):
 			bidenla5.add(tw["user"]["id"])
 			bidenla.add(tw["user"]["id"])
-		elif(district == "la6"):
+		if("la6" in district):
 			bidenla6.add(tw["user"]["id"])
 			bidenla.add(tw["user"]["id"])
-		elif(district == "ct1"):
+		if("ct1" in district):
 			bidenct1.add(tw["user"]["id"])
 			bidenct.add(tw["user"]["id"])
-		elif(district == "ct2"):
+		if("ct2" in district):
 			bidenct2.add(tw["user"]["id"])
 			bidenct.add(tw["user"]["id"])
-		elif(district == "ct3"):
+		if("ct3" in district):
 			bidenct3.add(tw["user"]["id"])
 			bidenct.add(tw["user"]["id"])
-		elif(district == "ct4"):
+		if("ct4" in district):
 			bidenct4.add(tw["user"]["id"])
 			bidenct.add(tw["user"]["id"])
-		elif(district == "ct5"):
+		if("ct5" in district):
 			bidenct5.add(tw["user"]["id"])
 			bidenct.add(tw["user"]["id"])
-		elif(district == "mt1"):
+		if("mt1" in district):
 			bidenmt1.add(tw["user"]["id"])
 			bidenmt.add(tw["user"]["id"])
-		elif(district == "ms1"):
+		if("ms1" in district):
 			bidenms1.add(tw["user"]["id"])
 			bidenms.add(tw["user"]["id"])
-		elif(district == "ms2"):
+		if("ms2" in district):
 			bidenms2.add(tw["user"]["id"])
 			bidenms.add(tw["user"]["id"])
-		elif(district == "ms3"):
+		if("ms3" in district):
 			bidenms3.add(tw["user"]["id"])
 			bidenms.add(tw["user"]["id"])
-		elif(district == "ms4"):
+		if("ms4" in district):
 			bidenms4.add(tw["user"]["id"])
 			bidenms.add(tw["user"]["id"])
-		elif(district == "pa1"):
+		if("pa1" in district):
 			bidenpa1.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa2"):
+		if("pa2" in district):
 			bidenpa2.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa3"):
+		if("pa3" in district):
 			bidenpa3.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa4"):
+		if("pa4" in district):
 			bidenpa4.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa5"):
+		if("pa5" in district):
 			bidenpa5.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa6"):
+		if("pa6" in district):
 			bidenpa6.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa7"):
+		if("pa7" in district):
 			bidenpa7.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa8"):
+		if("pa8" in district):
 			bidenpa8.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa9"):
+		if("pa9" in district):
 			bidenpa9.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa10"):
+		if("pa10" in district):
 			bidenpa10.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa11"):
+		if("pa11" in district):
 			bidenpa11.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa12"):
+		if("pa12" in district):
 			bidenpa12.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa13"):
+		if("pa13" in district):
 			bidenpa13.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa14"):
+		if("pa14" in district):
 			bidenpa14.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa15"):
+		if("pa15" in district):
 			bidenpa15.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa16"):
+		if("pa16" in district):
 			bidenpa16.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa17"):
+		if("pa17" in district):
 			bidenpa17.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "pa18"):
+		if("pa18" in district):
 			bidenpa18.add(tw["user"]["id"])
 			bidenpa.add(tw["user"]["id"])
-		elif(district == "oh1"):
+		if("oh1" in district):
 			bidenoh1.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh2"):
+		if("oh2" in district):
 			bidenoh2.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh3"):
+		if("oh3" in district):
 			bidenoh3.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh4"):
+		if("oh4" in district):
 			bidenoh4.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh5"):
+		if("oh5" in district):
 			bidenoh5.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		if(district == "oh6"):
+		if("oh6" in district):
 			bidenoh6.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh7"):
+		if("oh7" in district):
 			bidenoh7.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh8"):
+		if("oh8" in district):
 			bidenoh8.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh9"):
+		if("oh9" in district):
 			bidenoh9.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh10"):
+		if("oh10" in district):
 			bidenoh10.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh11"):
+		if("oh11" in district):
 			bidenoh11.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh12"):
+		if("oh12" in district):
 			bidenoh12.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh13"):
+		if("oh13" in district):
 			bidenoh13.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh14"):
+		if("oh14" in district):
 			bidenoh14.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh15"):
+		if("oh15" in district):
 			bidenoh15.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "oh16"):
+		if("oh16" in district):
 			bidenoh16.add(tw["user"]["id"])
 			bidenoh.add(tw["user"]["id"])
-		elif(district == "fl1"):
+		if("fl1" in district):
 			bidenfl1.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl2"):
+		if("fl2" in district):
 			bidenfl2.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl3"):
+		if("fl3" in district):
 			bidenfl3.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl4"):
+		if("fl4" in district):
 			bidenfl4.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl5"):
+		if("fl5" in district):
 			bidenfl5.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl6"):
+		if("fl6" in district):
 			bidenfl6.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl7"):
+		if("fl7" in district):
 			bidenfl7.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl8"):
+		if("fl8" in district):
 			bidenfl8.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl9"):
+		if("fl9" in district):
 			bidenfl9.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl10"):
+		if("fl10" in district):
 			bidenfl10.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl11"):
+		if("fl11" in district):
 			bidenfl11.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl12"):
+		if("fl12" in district):
 			bidenfl12.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl13"):
+		if("fl13" in district):
 			bidenfl13.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl14"):
+		if("fl14" in district):
 			bidenfl14.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl15"):
+		if("fl15" in district):
 			bidenfl15.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl16"):
+		if("fl16" in district):
 			bidenfl16.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl17"):
+		if("fl17" in district):
 			bidenfl17.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl18"):
+		if("fl18" in district):
 			bidenfl18.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl19"):
+		if("fl19" in district):
 			bidenfl19.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl20"):
+		if("fl20" in district):
 			bidenfl20.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl21"):
+		if("fl21" in district):
 			bidenfl21.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl22"):
+		if("fl22" in district):
 			bidenfl22.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl23"):
+		if("fl23" in district):
 			bidenfl23.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl24"):
+		if("fl24" in district):
 			bidenfl24.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl25"):
+		if("fl25" in district):
 			bidenfl25.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl26"):
+		if("fl26" in district):
 			bidenfl26.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "fl27"):
+		if("fl27" in district):
 			bidenfl27.add(tw["user"]["id"])
 			bidenfl.add(tw["user"]["id"])
-		elif(district == "wa1"):
+		if("wa1" in district):
 			bidenwa1.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa2"):
+		if("wa2" in district):
 			bidenwa2.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa3"):
+		if("wa3" in district):
 			bidenwa3.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa4"):
+		if("wa4" in district):
 			bidenwa4.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa5"):
+		if("wa5" in district):
 			bidenwa5.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa6"):
+		if("wa6" in district):
 			bidenwa6.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa7"):
+		if("wa7" in district):
 			bidenwa7.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa8"):
+		if("wa8" in district):
 			bidenwa8.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa9"):
+		if("wa9" in district):
 			bidenwa9.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "wa10"):
+		if("wa10" in district):
 			bidenwa10.add(tw["user"]["id"])
 			bidenwa.add(tw["user"]["id"])
-		elif(district == "hi1"):
+		if("hi1" in district):
 			bidenhi1.add(tw["user"]["id"])
 			bidenhi.add(tw["user"]["id"])
-		elif(district == "hi2"):
+		if("hi2" in district):
 			bidenhi2.add(tw["user"]["id"])
 			bidenhi.add(tw["user"]["id"])
-		elif(district == "nj1"):
+		if("nj1" in district):
 			bidennj1.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj2"):
+		if("nj2" in district):
 			bidennj2.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj3"):
+		if("nj3" in district):
 			bidennj3.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj4"):
+		if("nj4" in district):
 			bidennj4.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj5"):
+		if("nj5" in district):
 			bidennj5.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj6"):
+		if("nj6" in district):
 			bidennj6.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj7"):
+		if("nj7" in district):
 			bidennj7.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj8"):
+		if("nj8" in district):
 			bidennj8.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj9"):
+		if("nj9" in district):
 			bidennj9.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj10"):
+		if("nj10" in district):
 			bidennj10.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj11"):
+		if("nj11" in district):
 			bidennj11.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "nj12"):
+		if("nj12" in district):
 			bidennj12.add(tw["user"]["id"])
 			bidennj.add(tw["user"]["id"])
-		elif(district == "ny1"):
+		if("ny1" in district):
 			bidenny1.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny2"):
+		if("ny2" in district):
 			bidenny2.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny3"):
+		if("ny3" in district):
 			bidenny3.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny4"):
+		if("ny4" in district):
 			bidenny4.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny5"):
+		if("ny5" in district):
 			bidenny5.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
+		if(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
 			bidenny6.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
 			bidenny7.add(tw["user"]["id"])
@@ -4627,700 +4627,700 @@ for tw in cursor:
 			bidenny.add(tw["user"]["id"])
 			bidenny15.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny16"):
+		if("ny16" in district):
 			bidenny16.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny17"):
+		if("ny17" in district):
 			bidenny17.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny18"):
+		if("ny18" in district):
 			bidenny18.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny19"):
+		if("ny19" in district):
 			bidenny19.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny20"):
+		if("ny20" in district):
 			bidenny20.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny21"):
+		if("ny21" in district):
 			bidenny21.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny22"):
+		if("ny22" in district):
 			bidenny22.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny23"):
+		if("ny23" in district):
 			bidenny23.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny24"):
+		if("ny24" in district):
 			bidenny24.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny25"):
+		if("ny25" in district):
 			bidenny25.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny26"):
+		if("ny26" in district):
 			bidenny26.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ny27"):
+		if("ny27" in district):
 			bidenny27.add(tw["user"]["id"])
 			bidenny.add(tw["user"]["id"])
-		elif(district == "ri1"):
+		if("ri1" in district):
 			bidenri1.add(tw["user"]["id"])
 			bidenri.add(tw["user"]["id"])
-		elif(district == "ri2"):
+		if("ri2" in district):
 			bidenri2.add(tw["user"]["id"])
 			bidenri.add(tw["user"]["id"])
-		elif(district == "mn1"):
+		if("mn1" in district):
 			bidenmn1.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn2"):
+		if("mn2" in district):
 			bidenmn2.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn3"):
+		if("mn3" in district):
 			bidenmn3.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn4"):
+		if("mn4" in district):
 			bidenmn4.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn5"):
+		if("mn5" in district):
 			bidenmn5.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn6"):
+		if("mn6" in district):
 			bidenmn6.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn7"):
+		if("mn7" in district):
 			bidenmn7.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mn8"):
+		if("mn8" in district):
 			bidenmn8.add(tw["user"]["id"])
 			bidenmn.add(tw["user"]["id"])
-		elif(district == "mi1"):
+		if("mi1" in district):
 			bidenmi1.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi2"):
+		if("mi2" in district):
 			bidenmi2.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi3"):
+		if("mi3" in district):
 			bidenmi3.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi4"):
+		if("mi4" in district):
 			bidenmi4.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi5"):
+		if("mi5" in district):
 			bidenmi5.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi6"):
+		if("mi6" in district):
 			bidenmi6.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi7"):
+		if("mi7" in district):
 			bidenmi7.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi8"):
+		if("mi8" in district):
 			bidenmi8.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi9"):
+		if("mi9" in district):
 			bidenmi9.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi10"):
+		if("mi10" in district):
 			bidenmi10.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi11"):
+		if("mi11" in district):
 			bidenmi11.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi12"):
+		if("mi12" in district):
 			bidenmi12.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi13"):
+		if("mi13" in district):
 			bidenmi13.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "mi14"):
+		if("mi14" in district):
 			bidenmi14.add(tw["user"]["id"])
 			bidenmi.add(tw["user"]["id"])
-		elif(district == "wi1"):
+		if("wi1" in district):
 			bidenwi1.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi2"):
+		if("wi2" in district):
 			bidenwi2.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi3"):
+		if("wi3" in district):
 			bidenwi3.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi4"):
+		if("wi4" in district):
 			bidenwi4.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi5"):
+		if("wi5" in district):
 			bidenwi5.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi6"):
+		if("wi6" in district):
 			bidenwi6.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi7"):
+		if("wi7" in district):
 			bidenwi7.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "wi8"):
+		if("wi8" in district):
 			bidenwi8.add(tw["user"]["id"])
 			bidenwi.add(tw["user"]["id"])
-		elif(district == "or1"):
+		if("or1" in district):
 			bidenor1.add(tw["user"]["id"])
 			bidenor.add(tw["user"]["id"])
-		elif(district == "or2"):
+		if("or2" in district):
 			bidenor2.add(tw["user"]["id"])
 			bidenor.add(tw["user"]["id"])
-		elif(district == "or3"):
+		if("or3" in district):
 			bidenor3.add(tw["user"]["id"])
 			bidenor.add(tw["user"]["id"])
-		elif(district == "or4"):
+		if("or4" in district):
 			bidenor4.add(tw["user"]["id"])
 			bidenor.add(tw["user"]["id"])
-		elif(district == "or5"):
+		if("or5" in district):
 			bidenor5.add(tw["user"]["id"])
 			bidenor.add(tw["user"]["id"])
-		elif(district == "md1"):
+		if("md1" in district):
 			bidenmd1.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md2"):
+		if("md2" in district):
 			bidenmd2.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md3"):
+		if("md3" in district):
 			bidenmd3.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md4"):
+		if("md4" in district):
 			bidenmd4.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md5"):
+		if("md5" in district):
 			bidenmd5.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md6"):
+		if("md6" in district):
 			bidenmd6.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md7"):
+		if("md7" in district):
 			bidenmd7.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "md8"):
+		if("md8" in district):
 			bidenmd8.add(tw["user"]["id"])
 			bidenmd.add(tw["user"]["id"])
-		elif(district == "ma1"):
+		if("ma1" in district):
 			bidenma1.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma2"):
+		if("ma2" in district):
 			bidenma2.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma3"):
+		if("ma3" in district):
 			bidenma3.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma4"):
+		if("ma4" in district):
 			bidenma4.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma5"):
+		if("ma5" in district):
 			bidenma5.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma6"):
+		if("ma6" in district):
 			bidenma6.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma7"):
+		if("ma7" in district):
 			bidenma7.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma8"):
+		if("ma8" in district):
 			bidenma8.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "ma9"):
+		if("ma9" in district):
 			bidenma9.add(tw["user"]["id"])
 			bidenma.add(tw["user"]["id"])
-		elif(district == "me1"):
+		if("me1" in district):
 			bidenme1.add(tw["user"]["id"])
 			bidenme.add(tw["user"]["id"])
-		elif(district == "me2"):
+		if("me2" in district):
 			bidenme2.add(tw["user"]["id"])
 			bidenme.add(tw["user"]["id"])
-		elif(district == "id1"):
+		if("id1" in district):
 			bidenid1.add(tw["user"]["id"])
 			bidenid.add(tw["user"]["id"])
-		elif(district == "id2"):
+		if("id2" in district):
 			bidenid2.add(tw["user"]["id"])
 			bidenid.add(tw["user"]["id"])
-		elif(district == "nc1"):
+		if("nc1" in district):
 			bidennc1.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc2"):
+		if("nc2" in district):
 			bidennc2.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc3"):
+		if("nc3" in district):
 			bidennc3.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc4"):
+		if("nc4" in district):
 			bidennc4.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc5"):
+		if("nc5" in district):
 			bidennc5.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc6"):
+		if("nc6" in district):
 			bidennc6.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc7"):
+		if("nc7" in district):
 			bidennc7.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc8"):
+		if("nc8" in district):
 			bidennc8.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc9"):
+		if("nc9" in district):
 			bidennc9.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc10"):
+		if("nc10" in district):
 			bidennc10.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc11"):
+		if("nc11" in district):
 			bidennc11.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc12"):
+		if("nc12" in district):
 			bidennc12.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nc13"):
+		if("nc13" in district):
 			bidennc13.add(tw["user"]["id"])
 			bidennc.add(tw["user"]["id"])
-		elif(district == "nh1"):
+		if("nh1" in district):
 			bidennh1.add(tw["user"]["id"])
 			bidennh.add(tw["user"]["id"])
-		elif(district == "nh2"):
+		if("nh2" in district):
 			bidennh2.add(tw["user"]["id"])
 			bidennh.add(tw["user"]["id"])
-		elif(district == "nv1"):
+		if("nv1" in district):
 			bidennv1.add(tw["user"]["id"])
 			bidennv.add(tw["user"]["id"])
-		elif(district == "nv2"):
+		if("nv2" in district):
 			bidennv2.add(tw["user"]["id"])
 			bidennv.add(tw["user"]["id"])
-		elif(district == "nv3"):
+		if("nv3" in district):
 			bidennv3.add(tw["user"]["id"])
 			bidennv.add(tw["user"]["id"])
-		elif(district == "nv4"):
+		if("nv4" in district):
 			bidennv4.add(tw["user"]["id"])
 			bidennv.add(tw["user"]["id"])
-		elif(district == "co1"):
+		if("co1" in district):
 			bidenco1.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "co2"):
+		if("co2" in district):
 			bidenco2.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "co3"):
+		if("co3" in district):
 			bidenco3.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "co4"):
+		if("co4" in district):
 			bidenco4.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "co5"):
+		if("co5" in district):
 			bidenco5.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "co6"):
+		if("co6" in district):
 			bidenco6.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "co7"):
+		if("co7" in district):
 			bidenco7.add(tw["user"]["id"])
 			bidenco.add(tw["user"]["id"])
-		elif(district == "nm1"):
+		if("nm1" in district):
 			bidennm1.add(tw["user"]["id"])
 			bidennm.add(tw["user"]["id"])
-		elif(district == "nm2"):
+		if("nm2" in district):
 			bidennm2.add(tw["user"]["id"])
 			bidennm.add(tw["user"]["id"])
-		elif(district == "nm3"):
+		if("nm3" in district):
 			bidennm3.add(tw["user"]["id"])
 			bidennm.add(tw["user"]["id"])
-		elif(district == "az1"):
+		if("az1" in district):
 			bidenaz1.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az2"):
+		if("az2" in district):
 			bidenaz2.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az3"):
+		if("az3" in district):
 			bidenaz3.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az4"):
+		if("az4" in district):
 			bidenaz4.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az5"):
+		if("az5" in district):
 			bidenaz5.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az6"):
+		if("az6" in district):
 			bidenaz6.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az7"):
+		if("az7" in district):
 			bidenaz7.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az8"):
+		if("az8" in district):
 			bidenaz8.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "az9"):
+		if("az9" in district):
 			bidenaz9.add(tw["user"]["id"])
 			bidenaz.add(tw["user"]["id"])
-		elif(district == "ga1"):
+		if("ga1" in district):
 			bidenga1.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga2"):
+		if("ga2" in district):
 			bidenga2.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga3"):
+		if("ga3" in district):
 			bidenga3.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga4"):
+		if("ga4" in district):
 			bidenga4.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga5"):
+		if("ga5" in district):
 			bidenga5.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga6"):
+		if("ga6" in district):
 			bidenga6.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga7"):
+		if("ga7" in district):
 			bidenga7.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga8"):
+		if("ga8" in district):
 			bidenga8.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga9"):
+		if("ga9" in district):
 			bidenga9.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga10"):
+		if("ga10" in district):
 			bidenga10.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga11"):
+		if("ga11" in district):
 			bidenga11.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga12"):
+		if("ga12" in district):
 			bidenga12.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga13"):
+		if("ga13" in district):
 			bidenga13.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "ga14"):
+		if("ga14" in district):
 			bidenga14.add(tw["user"]["id"])
 			bidenga.add(tw["user"]["id"])
-		elif(district == "tx1"):
+		if("tx1" in district):
 			bidentx1.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx2"):
+		if("tx2" in district):
 			bidentx2.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx3"):
+		if("tx3" in district):
 			bidentx3.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx4"):
+		if("tx4" in district):
 			bidentx4.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx5"):
+		if("tx5" in district):
 			bidentx5.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx6"):
+		if("tx6" in district):
 			bidentx6.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx7"):
+		if("tx7" in district):
 			bidentx7.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx8"):
+		if("tx8" in district):
 			bidentx8.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx9"):
+		if("tx9" in district):
 			bidentx9.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx10"):
+		if("tx10" in district):
 			bidentx10.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx11"):
+		if("tx11" in district):
 			bidentx11.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx12"):
+		if("tx12" in district):
 			bidentx12.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx13"):
+		if("tx13" in district):
 			bidentx13.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx14"):
+		if("tx14" in district):
 			bidentx14.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx15"):
+		if("tx15" in district):
 			bidentx15.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx16"):
+		if("tx16" in district):
 			bidentx16.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx17"):
+		if("tx17" in district):
 			bidentx17.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx18"):
+		if("tx18" in district):
 			bidentx18.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx19"):
+		if("tx19" in district):
 			bidentx19.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx20"):
+		if("tx20" in district):
 			bidentx20.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx21"):
+		if("tx21" in district):
 			bidentx21.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx22"):
+		if("tx22" in district):
 			bidentx22.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx23"):
+		if("tx23" in district):
 			bidentx23.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx24"):
+		if("tx24" in district):
 			bidentx24.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx25"):
+		if("tx25" in district):
 			bidentx25.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx26"):
+		if("tx26" in district):
 			bidentx26.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx27"):
+		if("tx27" in district):
 			bidentx27.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx28"):
+		if("tx28" in district):
 			bidentx28.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx29"):
+		if("tx29" in district):
 			bidentx29.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx30"):
+		if("tx30" in district):
 			bidentx30.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx31"):
+		if("tx31" in district):
 			bidentx31.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx32"):
+		if("tx32" in district):
 			bidentx32.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx33"):
+		if("tx33" in district):
 			bidentx33.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx34"):
+		if("tx34" in district):
 			bidentx34.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx35"):
+		if("tx35" in district):
 			bidentx35.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "tx36"):
+		if("tx36" in district):
 			bidentx36.add(tw["user"]["id"])
 			bidentx.add(tw["user"]["id"])
-		elif(district == "in1"):
+		if("in1" in district):
 			bidenin1.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in2"):
+		if("in2" in district):
 			bidenin2.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in3"):
+		if("in3" in district):
 			bidenin3.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in4"):
+		if("in4" in district):
 			bidenin4.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in5"):
+		if("in5" in district):
 			bidenin5.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in6"):
+		if("in6" in district):
 			bidenin6.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in7"):
+		if("in7" in district):
 			bidenin7.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in8"):
+		if("in8" in district):
 			bidenin8.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "in9"):
+		if("in9" in district):
 			bidenin9.add(tw["user"]["id"])
 			bidenin.add(tw["user"]["id"])
-		elif(district == "va1"):
+		if("va1" in district):
 			bidenva1.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va2"):
+		if("va2" in district):
 			bidenva2.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va3"):
+		if("va3" in district):
 			bidenva3.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va4"):
+		if("va4" in district):
 			bidenva4.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va5"):
+		if("va5" in district):
 			bidenva5.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va6"):
+		if("va6" in district):
 			bidenva6.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va7"):
+		if("va7" in district):
 			bidenva7.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va8"):
+		if("va8" in district):
 			bidenva8.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va9"):
+		if("va9" in district):
 			bidenva9.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va10"):
+		if("va10" in district):
 			bidenva10.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "va11"):
+		if("va11" in district):
 			bidenva11.add(tw["user"]["id"])
 			bidenva.add(tw["user"]["id"])
-		elif(district == "il1"):
+		if("il1" in district):
 			bidenil1.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il2"):
+		if("il2" in district):
 			bidenil2.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il3"):
+		if("il3" in district):
 			bidenil3.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il4"):
+		if("il4" in district):
 			bidenil4.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il5"):
+		if("il5" in district):
 			bidenil5.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il6"):
+		if("il6" in district):
 			bidenil6.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il7"):
+		if("il7" in district):
 			bidenil7.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il8"):
+		if("il8" in district):
 			bidenil8.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il9"):
+		if("il9" in district):
 			bidenil9.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il10"):
+		if("il10" in district):
 			bidenil10.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il11"):
+		if("il11" in district):
 			bidenil11.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il12"):
+		if("il12" in district):
 			bidenil12.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il13"):
+		if("il13" in district):
 			bidenil13.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il14"):
+		if("il14" in district):
 			bidenil14.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il15"):
+		if("il15" in district):
 			bidenil15.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il16"):
+		if("il16" in district):
 			bidenil16.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il17"):
+		if("il17" in district):
 			bidenil17.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "il18"):
+		if("il18" in district):
 			bidenil18.add(tw["user"]["id"])
 			bidenil.add(tw["user"]["id"])
-		elif(district == "de1"):
+		if("de1" in district):
 			bidende1.add(tw["user"]["id"])
 			bidende.add(tw["user"]["id"])
-		elif(district == "vt1"):
+		if("vt1" in district):
 			bidenvt1.add(tw["user"]["id"])
 			bidenvt.add(tw["user"]["id"])
-		elif(district == "ut1"):
+		if("ut1" in district):
 			bidenut1.add(tw["user"]["id"])
 			bidenut.add(tw["user"]["id"])
-		elif(district == "ut2"):
+		if("ut2" in district):
 			bidenut2.add(tw["user"]["id"])
 			bidenut.add(tw["user"]["id"])
-		elif(district == "ut3"):
+		if("ut3" in district):
 			bidenut3.add(tw["user"]["id"])
 			bidenut.add(tw["user"]["id"])
-		elif(district == "ut4"):
+		if("ut4" in district):
 			bidenut4.add(tw["user"]["id"])
 			bidenut.add(tw["user"]["id"])
-		elif(district == "ne1"):
+		if("ne1" in district):
 			bidenne1.add(tw["user"]["id"])
 			bidenne.add(tw["user"]["id"])
-		elif(district == "ne2"):
+		if("ne2" in district):
 			bidenne2.add(tw["user"]["id"])
 			bidenne.add(tw["user"]["id"])
-		elif(district == "ne3"):
+		if("ne3" in district):
 			bidenne3.add(tw["user"]["id"])
 			bidenne.add(tw["user"]["id"])
-		elif(district == "ak1"):
+		if("ak1" in district):
 			bidenak1.add(tw["user"]["id"])
 			bidenak.add(tw["user"]["id"])
-		elif(district == "wy1"):
+		if("wy1" in district):
 			bidenwy1.add(tw["user"]["id"])
 			bidenwy.add(tw["user"]["id"])
-		elif(district == "al1"):
+		if("al1" in district):
 			bidenal1.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "al2"):
+		if("al2" in district):
 			bidenal2.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "al3"):
+		if("al3" in district):
 			bidenal3.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "al4"):
+		if("al4" in district):
 			bidenal4.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "al5"):
+		if("al5" in district):
 			bidenal5.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "al6"):
+		if("al6" in district):
 			bidenal6.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "al7"):
+		if("al7" in district):
 			bidenal7.add(tw["user"]["id"])
 			bidenal.add(tw["user"]["id"])
-		elif(district == "tn1"):
+		if("tn1" in district):
 			bidentn1.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn2"):
+		if("tn2" in district):
 			bidentn2.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn3"):
+		if("tn3" in district):
 			bidentn3.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn4"):
+		if("tn4" in district):
 			bidentn4.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn5"):
+		if("tn5" in district):
 			bidentn5.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn6"):
+		if("tn6" in district):
 			bidentn6.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn7"):
+		if("tn7" in district):
 			bidentn7.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn8"):
+		if("tn8" in district):
 			bidentn8.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "tn9"):
+		if("tn9" in district):
 			bidentn9.add(tw["user"]["id"])
 			bidentn.add(tw["user"]["id"])
-		elif(district == "nd1"):
+		if("nd1" in district):
 			bidennd1.add(tw["user"]["id"])
 			bidennd.add(tw["user"]["id"])
-		elif(district == "sd1"):
+		if("sd1" in district):
 			bidensd1.add(tw["user"]["id"])
 			bidensd.add(tw["user"]["id"])
-		elif(district == "wv1"):
+		if("wv1" in district):
 			bidenwv1.add(tw["user"]["id"])
 			bidenwv.add(tw["user"]["id"])
-		elif(district == "wv2"):
+		if("wv2" in district):
 			bidenwv2.add(tw["user"]["id"])
 			bidenwv.add(tw["user"]["id"])
-		elif(district == "wv3"):
+		if("wv3" in district):
 			bidenwv3.add(tw["user"]["id"])
 			bidenwv.add(tw["user"]["id"])
-		elif(district == "ar1"):
+		if("ar1" in district):
 			bidenar1.add(tw["user"]["id"])
 			bidenar.add(tw["user"]["id"])
-		elif(district == "ar2"):
+		if("ar2" in district):
 			bidenar2.add(tw["user"]["id"])
 			bidenar.add(tw["user"]["id"])
-		elif(district == "ar3"):
+		if("ar3" in district):
 			bidenar3.add(tw["user"]["id"])
 			bidenar.add(tw["user"]["id"])
-		elif(district == "ar4"):
+		if("ar4" in district):
 			bidenar4.add(tw["user"]["id"])
 			bidenar.add(tw["user"]["id"])
 

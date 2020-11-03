@@ -210,59 +210,59 @@ def calcStateResult(name, tlat, tbla, twhi, blat, bbla, bwhi, plat, pbla, pwhi):
 #	results.append(name + " - Trump: " + str((tl*plat)+(tw*pwhi)) + "; Biden: " + str((bl*plat)+(bw*pwhi)))
 
 
-mo1tl, mo1tb, mo1tw, mo1bl, mo1bb, mo1bw, mo2tl, mo2tb, mo2tw, mo2bl, mo2bb, mo2bw, mo3tl, mo3tb, mo3tw, mo3bl, mo3bb, mo3bw, mo4tl, mo4tb, mo4tw, mo4bl, mo4bb, mo4bw, mo5tl, mo5tb, mo5tw, mo5bl, mo5bb, mo5bw, mo6tl, mo6tb, mo6tw, mo6bl, mo6bb, mo6bw, mo7tl, mo7tb, mo7tw, mo7bl, mo7bb, mo7bw, mo8tl, mo8tb, mo8tw, mo8bl, mo8bb, mo8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-co1tl, co1tb, co1tw, co1bl, co1bb, co1bw, co2tl, co2tb, co2tw, co2bl, co2bb, co2bw, co3tl, co3tb, co3tw, co3bl, co3bb, co3bw, co4tl, co4tb, co4tw, co4bl, co4bb, co4bw, co5tl, co5tb, co5tw, co5bl, co5bb, co5bw, co6tl, co6tb, co6tw, co6bl, co6bb, co6bw, co7tl, co7tb, co7tw, co7bl, co7bb, co7bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-sc1tl, sc1tb, sc1tw, sc1bl, sc1bb, sc1bw, sc2tl, sc2tb, sc2tw, sc2bl, sc2bb, sc2bw, sc3tl, sc3tb, sc3tw, sc3bl, sc3bb, sc3bw, sc4tl, sc4tb, sc4tw, sc4bl, sc4bb, sc4bw, sc5tl, sc5tb, sc5tw, sc5bl, sc5bb, sc5bw, sc6bl, sc6bb, sc6bw, sc6tl, sc6tb, sc6tw, sc7tl, sc7tb, sc7tw, sc7bl, sc7bb, sc7bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-mn1tl, mn1tb, mn1tw, mn1bl, mn1bb, mn1bw, mn2tl, mn2tb, mn2tw, mn2bl, mn2bb, mn2bw, mn3tl, mn3tb, mn3tw, mn3bl, mn3bb, mn3bw, mn4tl, mn4tb, mn4tw, mn4bl, mn4bb, mn4bw, mn5tl, mn5tb, mn5tw, mn5bl, mn5bb, mn5bw, mn6tl, mn6tb, mn6tw, mn6bl, mn6bb, mn6bw, mn7tl, mn7tb, mn7tw, mn7bl, mn7bb, mn7bw, mn8tl, mn8tb, mn8tw, mn8bl, mn8bb, mn8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-in1tl, in1tb, in1tw, in1bl, in1bb, in1bw, in2tl, in2tb, in2tw, in2bl, in2bb, in2bw, in3tl, in3tb, in3tw, in3bl, in3bb, in3bw, in4tl, in4tb, in4tw, in4bl, in4bb, in4bw, in5tl, in5tb, in5tw, in5bl, in5bb, in5bw, in6tl, in6tb, in6tw, in6bl, in6bb, in6bw, in7tl, in7tb, in7tw, in7bl, in7bb, in7bw, in8tl, in8tb, in8tw, in8bl, in8bb, in8bw, in9tl, in9tb, in9tw, in9bl, in9bb, in9bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-md1tl, md1tb, md1tw, md1bl, md1bb, md1bw, md2tl, md2tb, md2tw, md2bl, md2bb, md2bw, md3tl, md3tb, md3tw, md3bl, md3bb, md3bw, md4tl, md4tb, md4tw, md4bl, md4bb, md4bw, md5tl, md5tb, md5tw, md5bl, md5bb, md5bw, md6tl, md6tb, md6tw, md6bl, md6bb, md6bw, md7tl, md7tb, md7tw, md7bl, md7bb, md7bw, md8tl, md8tb, md8tw, md8bl, md8bb, md8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-sd1tl, sd1tb, sd1tw, sd1bl, sd1bb, sd1bw =  [], [], [], [], [], []
-vt1tl, vt1tb, vt1tw, vt1bl, vt1bb, vt1bw =  [], [], [], [], [], []
-nd1tl, nd1tb, nd1tw, nd1bl, nd1bb, nd1bw =  [], [], [], [], [], []
-de1tl, de1tb, de1tw, de1bl, de1bb, de1bw =  [], [], [], [], [], []
-mt1tl, mt1tb, mt1tw, mt1bl, mt1bb, mt1bw =  [], [], [], [], [], []
-ne1tl, ne1tb, ne1tw, ne1bl, ne1bb, ne1bw, ne2tl, ne2tb, ne2tw, ne2bl, ne2bb, ne2bw, ne3tl, ne3tb, ne3tw, ne3bl, ne3bb, ne3bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-mi1tl, mi1tb, mi1tw, mi1bl, mi1bb, mi1bw, mi2tl, mi2tb, mi2tw, mi2bl, mi2bb, mi2bw, mi3tl, mi3tb, mi3tw, mi3bl, mi3bb, mi3bw, mi4tl, mi4tb, mi4tw, mi4bl, mi4bb, mi4bw, mi5tl, mi5tb, mi5tw, mi5bl, mi5bb, mi5bw, mi6tl, mi6tb, mi6tw, mi6bl, mi6bb, mi6bw, mi7tl, mi7tb, mi7tw, mi7bl, mi7bb, mi7bw, mi8tl, mi8tb, mi8tw, mi8bl, mi8bb, mi8bw, mi9tl, mi9tb, mi9tw, mi9bl, mi9bb, mi9bw, mi10tl, mi10tb, mi10tw, mi10bl, mi10bb, mi10bw, mi11tl, mi11tb, mi11tw, mi11bl, mi11bb, mi11bw, mi12tl, mi12tb, mi12tw, mi12bl, mi12bb, mi12bw, mi13tl, mi13tb, mi13tw, mi13bl, mi13bb, mi13bw, mi14tl, mi14tb, mi14tw, mi14bl, mi14bb, mi14bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-ma1tl, ma1tb, ma1tw, ma1bl, ma1bb, ma1bw, ma2tl, ma2tb, ma2tw, ma2bl, ma2bb, ma2bw, ma3tl, ma3tb, ma3tw, ma3bl, ma3bb, ma3bw, ma4tl, ma4tb, ma4tw, ma4bl, ma4bb, ma4bw, ma5tl, ma5tb, ma5tw, ma5bl, ma5bb, ma5bw, ma6tl, ma6tb, ma6tw, ma6bl, ma6bb, ma6bw, ma7tl, ma7tb, ma7tw, ma7bl, ma7bb, ma7bw, ma8tl, ma8tb, ma8tw, ma8bl, ma8bb, ma8bw, ma9tl, ma9tb, ma9tw, ma9bl, ma9bb, ma9bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-va1tl, va1tb, va1tw, va1bl, va1bb, va1bw, va2tl, va2tb, va2tw, va2bl, va2bb, va2bw, va3tl, va3tb, va3tw, va3bl, va3bb, va3bw, va4tl, va4tb, va4tw, va4bl, va4bb, va4bw, va5tl, va5tb, va5tw, va5bl, va5bb, va5bw, va6tl, va6tb, va6tw, va6bl, va6bb, va6bw, va7tl, va7tb, va7tw, va7bl, va7bb, va7bw, va8tl, va8tb, va8tw, va8bl, va8bb, va8bw, va9tl, va9tb, va9tw, va9bl, va9bb, va9bw, va10tl, va10tb, va10tw, va10bl, va10bb, va10bw, va11tl, va11tb, va11tw, va11bl, va11bb, va11bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-me1tl, me1tb, me1tw, me1bl, me1bb, me1bw, me2tl, me2tb, me2tw, me2bl, me2bb, me2bw =  [], [], [], [], [], [], [], [], [], [], [], []
-id1tl, id1tb, id1tw, id1bl, id1bb, id1bw, id2tl, id2tb, id2tw, id2bl, id2bb, id2bw =  [], [], [], [], [], [], [], [], [], [], [], []
-wi1tl, wi1tb, wi1tw, wi1bl, wi1bb, wi1bw, wi2tl, wi2tb, wi2tw, wi2bl, wi2bb, wi2bw, wi3tl, wi3tb, wi3tw, wi3bl, wi3bb, wi3bw, wi4tl, wi4tb, wi4tw, wi4bl, wi4bb, wi4bw, wi5tl, wi5tb, wi5tw, wi5bl, wi5bb, wi5bw, wi6tl, wi6tb, wi6tw, wi6bl, wi6bb, wi6bw, wi7tl, wi7tb, wi7tw, wi7bl, wi7bb, wi7bw, wi8tl, wi8tb, wi8tw, wi8bl, wi8bb, wi8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-wv1tl, wv1tb, wv1tw, wv1bl, wv1bb, wv1bw, wv2tl, wv2tb, wv2tw, wv2bl, wv2bb, wv2bw, wv3tl, wv3tb, wv3tw, wv3bl, wv3bb, wv3bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-ia1tl, ia1tb, ia1tw, ia1bl, ia1bb, ia1bw, ia2tl, ia2tb, ia2tw, ia2bl, ia2bb, ia2bw, ia3tl, ia3tb, ia3tw, ia3bl, ia3bb, ia3bw, ia4tl, ia4tb, ia4tw, ia4bl, ia4bb, ia4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-ms1tl, ms1tb, ms1tw, ms1bl, ms1bb, ms1bw, ms2tl, ms2tb, ms2tw, ms2bl, ms2bb, ms2bw, ms3tl, ms3tb, ms3tw, ms3bl, ms3bb, ms3bw, ms4tl, ms4tb, ms4tw, ms4bl, ms4bb, ms4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-hi1tl, hi1tb, hi1tw, hi1bl, hi1bb, hi1bw, hi2tl, hi2tb, hi2tw, hi2bl, hi2bb, hi2bw =  [], [], [], [], [], [], [], [], [], [], [], []
-ri1bl, ri1bb, ri1bw, ri1tl, ri1tb, ri1tw, ri2bl, ri2bb, ri2bw, ri2tl, ri2tb, ri2tw =  [], [], [], [], [], [], [], [], [], [], [], []
-wa1tl, wa1tb, wa1tw, wa1bl, wa1bb, wa1bw, wa2tl, wa2tb, wa2tw, wa2bl, wa2bb, wa2bw, wa3tl, wa3tb, wa3tw, wa3bl, wa3bb, wa3bw, wa4tl, wa4tb, wa4tw, wa4bl, wa4bb, wa4bw, wa5tl, wa5tb, wa5tw, wa5bl, wa5bb, wa5bw, wa6tl, wa6tb, wa6tw, wa6bl, wa6bb, wa6bw, wa7tl, wa7tb, wa7tw, wa7bl, wa7bb, wa7bw, wa8tl, wa8tb, wa8tw, wa8bl, wa8bb, wa8bw, wa9tl, wa9tb, wa9tw, wa9bl, wa9bb, wa9bw, wa10tl, wa10tb, wa10tw, wa10bl, wa10bb, wa10bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-fl1tl, fl1tb, fl1tw, fl1bl, fl1bb, fl1bw, fl2tl, fl2tb, fl2tw, fl2bl, fl2bb, fl2bw, fl3tl, fl3tb, fl3tw, fl3bl, fl3bb, fl3bw, fl4tl, fl4tb, fl4tw, fl4bl, fl4bb, fl4bw, fl5tl, fl5tb, fl5tw, fl5bl, fl5bb, fl5bw, fl6tl, fl6tb, fl6tw, fl6bl, fl6bb, fl6bw, fl7tl, fl7tb, fl7tw, fl7bl, fl7bb, fl7bw, fl8tl, fl8tb, fl8tw, fl8bl, fl8bb, fl8bw, fl9tl, fl9tb, fl9tw, fl9bl, fl9bb, fl9bw, fl10tl, fl10tb, fl10tw, fl10bl, fl10bb, fl10bw, fl11tl, fl11tb, fl11tw, fl11bl, fl11bb, fl11bw, fl12tl, fl12tb, fl12tw, fl12bl, fl12bb, fl12bw, fl13tl, fl13tb, fl13tw, fl13bl, fl13bb, fl13bw, fl14tl, fl14tb, fl14tw, fl14bl, fl14bb, fl14bw, fl15tl, fl15tb, fl15tw, fl15bl, fl15bb, fl15bw, fl16tl, fl16tb, fl16tw, fl16bl, fl16bb, fl16bw, fl17tl, fl17tb, fl17tw, fl17bl, fl17bb, fl17bw, fl18tl, fl18tb, fl18tw, fl18bl, fl18bb, fl18bw, fl19tl, fl19tb, fl19tw, fl19bl, fl19bb, fl19bw, fl20tl, fl20tb, fl20tw, fl20bl, fl20bb, fl20bw, fl21tl, fl21tb, fl21tw, fl21bl, fl21bb, fl21bw, fl22tl, fl22tb, fl22tw, fl22bl, fl22bb, fl22bw, fl23tl, fl23tb, fl23tw, fl23bl, fl23bb, fl23bw, fl24tl, fl24tb, fl24tw, fl24bl, fl24bb, fl24bw, fl25tl, fl25tb, fl25tw, fl25bl, fl25bb, fl25bw, fl26tl, fl26tb, fl26tw, fl26bl, fl26bb, fl26bw, fl27tl, fl27tb, fl27tw, fl27bl, fl27bb, fl27bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-al1tl, al1tb, al1tw, al1bl, al1bb, al1bw, al2tl, al2tb, al2tw, al2bl, al2bb, al2bw, al3tl, al3tb, al3tw, al3bl, al3bb, al3bw, al4tl, al4tb, al4tw, al4bl, al4bb, al4bw, al5tl, al5tb, al5tw, al5bl, al5bb, al5bw, al6tl, al6tb, al6tw, al6bl, al6bb, al6bw, al7bl, al7bb, al7bw, al7tl, al7tb, al7tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-il1tl, il1tb, il1tw, il1bl, il1bb, il1bw, il2tl, il2tb, il2tw, il2bl, il2bb, il2bw, il3tl, il3tb, il3tw, il3bl, il3bb, il3bw, il4tl, il4tb, il4tw, il4bl, il4bb, il4bw, il5tl, il5tb, il5tw, il5bl, il5bb, il5bw, il6tl, il6tb, il6tw, il6bl, il6bb, il6bw, il7tl, il7tb, il7tw, il7bl, il7bb, il7bw, il8tl, il8tb, il8tw, il8bl, il8bb, il8bw, il9tl, il9tb, il9tw, il9bl, il9bb, il9bw, il10tl, il10tb, il10tw, il10bl, il10bb, il10bw, il11tl, il11tb, il11tw, il11bl, il11bb, il11bw, il12tl, il12tb, il12tw, il12bl, il12bb, il12bw, il13tl, il13tb, il13tw, il13bl, il13bb, il13bw, il14tl, il14tb, il14tw, il14bl, il14bb, il14bw, il15tl, il15tb, il15tw, il15bl, il15bb, il15bw, il16tl, il16tb, il16tw, il16bl, il16bb, il16bw, il17tl, il17tb, il17tw, il17bl, il17bb, il17bw, il18bl, il18bb, il18bw, il18tl, il18tb, il18tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-ca1tl, ca1tb, ca1tw, ca1bl, ca1bb, ca1bw, ca2tl, ca2tb, ca2tw, ca2bl, ca2bb, ca2bw, ca3tl, ca3tb, ca3tw, ca3bl, ca3bb, ca3bw, ca4tl, ca4tb, ca4tw, ca4bl, ca4bb, ca4bw, ca5tl, ca5tb, ca5tw, ca5bl, ca5bb, ca5bw, ca6tl, ca6tb, ca6tw, ca6bl, ca6bb, ca6bw, ca7tl, ca7tb, ca7tw, ca7bl, ca7bb, ca7bw, ca8tl, ca8tb, ca8tw, ca8bl, ca8bb, ca8bw, ca9tl, ca9tb, ca9tw, ca9bl, ca9bb, ca9bw, ca10tl, ca10tb, ca10tw, ca10bl, ca10bb, ca10bw, ca11tl, ca11tb, ca11tw, ca11bl, ca11bb, ca11bw, ca12tl, ca12tb, ca12tw, ca12bl, ca12bb, ca12bw, ca13tl, ca13tb, ca13tw, ca13bl, ca13bb, ca13bw, ca14tl, ca14tb, ca14tw, ca14bl, ca14bb, ca14bw, ca15tl, ca15tb, ca15tw, ca15bl, ca15bb, ca15bw, ca16tl, ca16tb, ca16tw, ca16bl, ca16bb, ca16bw, ca17tl, ca17tb, ca17tw, ca17bl, ca17bb, ca17bw, ca18tl, ca18tb, ca18tw, ca18bl, ca18bb, ca18bw, ca19bl, ca19bb, ca19bw, ca19tl, ca19tb, ca19tw, ca20tl, ca20tb, ca20tw, ca20bl, ca20bb, ca20bw, ca21tl, ca21tb, ca21tw, ca21bl, ca21bb, ca21bw, ca22tl, ca22tb, ca22tw, ca22bl, ca22bb, ca22bw, ca23tl, ca23tb, ca23tw, ca23bl, ca23bb, ca23bw, ca24tl, ca24tb, ca24tw, ca24bl, ca24bb, ca24bw, ca25tl, ca25tb, ca25tw, ca25bl, ca25bb, ca25bw, ca26tl, ca26tb, ca26tw, ca26bl, ca26bb, ca26bw, ca27tl, ca27tb, ca27tw, ca27bl, ca27bb, ca27bw, ca28tl, ca28tb, ca28tw, ca28bl, ca28bb, ca28bw, ca29tl, ca29tb, ca29tw, ca29bl, ca29bb, ca29bw, ca30tl, ca30tb, ca30tw, ca30bl, ca30bb, ca30bw, ca31tl, ca31tb, ca31tw, ca31bl, ca31bb, ca31bw, ca32tl, ca32tb, ca32tw, ca32bl, ca32bb, ca32bw, ca33tl, ca33tb, ca33tw, ca33bl, ca33bb, ca33bw, ca34tl, ca34tb, ca34tw, ca34bl, ca34bb, ca34bw, ca35tl, ca35tb, ca35tw, ca35bl, ca35bb, ca35bw, ca36tl, ca36tb, ca36tw, ca36bl, ca36bb, ca36bw, ca37tl, ca37tb, ca37tw, ca37bl, ca37bb, ca37bw, ca38tl, ca38tb, ca38tw, ca38bl, ca38bb, ca38bw, ca39tl, ca39tb, ca39tw, ca39bl, ca39bb, ca39bw, ca40tl, ca40tb, ca40tw, ca40bl, ca40bb, ca40bw, ca41tl, ca41tb, ca41tw, ca41bl, ca41bb, ca41bw, ca42tl, ca42tb, ca42tw, ca42bl, ca42bb, ca42bw, ca43tl, ca43tb, ca43tw, ca43bl, ca43bb, ca43bw, ca44tl, ca44tb, ca44tw, ca44bl, ca44bb, ca44bw, ca45tl, ca45tb, ca45tw, ca45bl, ca45bb, ca45bw, ca46tl, ca46tb, ca46tw, ca46bl, ca46bb, ca46bw, ca47tl, ca47tb, ca47tw, ca47bl, ca47bb, ca47bw, ca48tl, ca48tb, ca48tw, ca48bl, ca48bb, ca48bw, ca49tl, ca49tb, ca49tw, ca49bl, ca49bb, ca49bw, ca50tl, ca50tb, ca50tw, ca50bl, ca50bb, ca50bw, ca51tl, ca51tb, ca51tw, ca51bl, ca51bb, ca51bw, ca52tl, ca52tb, ca52tw, ca52bl, ca52bb, ca52bw, ca53tl, ca53tb, ca53tw, ca53bl, ca53bb, ca53bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-ks1tl, ks1tb, ks1tw, ks1bl, ks1bb, ks1bw, ks2tl, ks2tb, ks2tw, ks2bl, ks2bb, ks2bw, ks3tl, ks3tb, ks3tw, ks3bl, ks3bb, ks3bw, ks4tl, ks4tb, ks4tw, ks4bl, ks4bb, ks4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-ga1tl, ga1tb, ga1tw, ga1bl, ga1bb, ga1bw, ga2tl, ga2tb, ga2tw, ga2bl, ga2bb, ga2bw, ga3tl, ga3tb, ga3tw, ga3bl, ga3bb, ga3bw, ga4tl, ga4tb, ga4tw, ga4bl, ga4bb, ga4bw, ga5tl, ga5tb, ga5tw, ga5bl, ga5bb, ga5bw, ga6tl, ga6tb, ga6tw, ga6bl, ga6bb, ga6bw, ga7tl, ga7tb, ga7tw, ga7bl, ga7bb, ga7bw, ga8tl, ga8tb, ga8tw, ga8bl, ga8bb, ga8bw, ga9tl, ga9tb, ga9tw, ga9bl, ga9bb, ga9bw, ga10tl, ga10tb, ga10tw, ga10bl, ga10bb, ga10bw, ga11tl, ga11tb, ga11tw, ga11bl, ga11bb, ga11bw, ga12tl, ga12tb, ga12tw, ga12bl, ga12bb, ga12bw, ga13tl, ga13tb, ga13tw, ga13bl, ga13bb, ga13bw, ga14tl, ga14tb, ga14tw, ga14bl, ga14bb, ga14bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-az1tl, az1tb, az1tw, az1bl, az1bb, az1bw, az2tl, az2tb, az2tw, az2bl, az2bb, az2bw, az3bl, az3bb, az3bw, az3tl, az3tb, az3tw, az4tl, az4tb, az4tw, az4bl, az4bb, az4bw, az5tl, az5tb, az5tw, az5bl, az5bb, az5bw, az6tl, az6tb, az6tw, az6bl, az6bb, az6bw, az7bl, az7bb, az7bw, az7tl, az7tb, az7tw, az8tl, az8tb, az8tw, az8bl, az8bb, az8bw, az9bl, az9bb, az9bw, az9tl, az9tb, az9tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-ak1tl, ak1tb, ak1tw, ak1bl, ak1bb, ak1bw =  [], [], [], [], [], []
-ar1tl, ar1tb, ar1tw, ar1bl, ar1bb, ar1bw, ar2tl, ar2tb, ar2tw, ar2bl, ar2bb, ar2bw, ar3tl, ar3tb, ar3tw, ar3bl, ar3bb, ar3bw, ar4tl, ar4tb, ar4tw, ar4bl, ar4bb, ar4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-nj1tl, nj1tb, nj1tw, nj1bl, nj1bb, nj1bw, nj2tl, nj2tb, nj2tw, nj2bl, nj2bb, nj2bw, nj3tl, nj3tb, nj3tw, nj3bl, nj3bb, nj3bw, nj4tl, nj4tb, nj4tw, nj4bl, nj4bb, nj4bw, nj5tl, nj5tb, nj5tw, nj5bl, nj5bb, nj5bw, nj6tl, nj6tb, nj6tw, nj6bl, nj6bb, nj6bw, nj7tl, nj7tb, nj7tw, nj7bl, nj7bb, nj7bw, nj8tl, nj8tb, nj8tw, nj8bl, nj8bb, nj8bw, nj9tl, nj9tb, nj9tw, nj9bl, nj9bb, nj9bw, nj10tl, nj10tb, nj10tw, nj10bl, nj10bb, nj10bw, nj11tl, nj11tb, nj11tw, nj11bl, nj11bb, nj11bw, nj12tl, nj12tb, nj12tw, nj12bl, nj12bb, nj12bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-nv1tl, nv1tb, nv1tw, nv1bl, nv1bb, nv1bw, nv2tl, nv2tb, nv2tw, nv2bl, nv2bb, nv2bw, nv3tl, nv3tb, nv3tw, nv3bl, nv3bb, nv3bw, nv4tl, nv4tb, nv4tw, nv4bl, nv4bb, nv4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-nh1tl, nh1tb, nh1tw, nh1bl, nh1bb, nh1bw, nh2tl, nh2tb, nh2tw, nh2bl, nh2bb, nh2bw =  [], [], [], [], [], [], [], [], [], [], [], []
-nc1tl, nc1tb, nc1tw, nc1bl, nc1bb, nc1bw, nc2tl, nc2tb, nc2tw, nc2bl, nc2bb, nc2bw, nc3tl, nc3tb, nc3tw, nc3bl, nc3bb, nc3bw, nc4tl, nc4tb, nc4tw, nc4bl, nc4bb, nc4bw, nc5tl, nc5tb, nc5tw, nc5bl, nc5bb, nc5bw, nc6tl, nc6tb, nc6tw, nc6bl, nc6bb, nc6bw, nc7tl, nc7tb, nc7tw, nc7bl, nc7bb, nc7bw, nc8tl, nc8tb, nc8tw, nc8bl, nc8bb, nc8bw, nc9tl, nc9tb, nc9tw, nc9bl, nc9bb, nc9bw, nc10tl, nc10tb, nc10tw, nc10bl, nc10bb, nc10bw, nc11tl, nc11tb, nc11tw, nc11bl, nc11bb, nc11bw, nc12tl, nc12tb, nc12tw, nc12bl, nc12bb, nc12bw, nc13tl, nc13tb, nc13tw, nc13bl, nc13bb, nc13bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-tx1tl, tx1tb, tx1tw, tx1bl, tx1bb, tx1bw, tx2tl, tx2tb, tx2tw, tx2bl, tx2bb, tx2bw, tx3tl, tx3tb, tx3tw, tx3bl, tx3bb, tx3bw, tx4tl, tx4tb, tx4tw, tx4bl, tx4bb, tx4bw, tx5tl, tx5tb, tx5tw, tx5bl, tx5bb, tx5bw, tx6tl, tx6tb, tx6tw, tx6bl, tx6bb, tx6bw, tx7tl, tx7tb, tx7tw, tx7bl, tx7bb, tx7bw, tx8tl, tx8tb, tx8tw, tx8bl, tx8bb, tx8bw, tx9tl, tx9tb, tx9tw, tx9bl, tx9bb, tx9bw, tx10tl, tx10tb, tx10tw, tx10bl, tx10bb, tx10bw, tx11tl, tx11tb, tx11tw, tx11bl, tx11bb, tx11bw, tx12tl, tx12tb, tx12tw, tx12bl, tx12bb, tx12bw, tx13tl, tx13tb, tx13tw, tx13bl, tx13bb, tx13bw, tx14tl, tx14tb, tx14tw, tx14bl, tx14bb, tx14bw, tx15tl, tx15tb, tx15tw, tx15bl, tx15bb, tx15bw, tx16tl, tx16tb, tx16tw, tx16bl, tx16bb, tx16bw, tx17tl, tx17tb, tx17tw, tx17bl, tx17bb, tx17bw, tx18tl, tx18tb, tx18tw, tx18bl, tx18bb, tx18bw, tx19tl, tx19tb, tx19tw, tx19bl, tx19bb, tx19bw, tx20tl, tx20tb, tx20tw, tx20bl, tx20bb, tx20bw, tx21tl, tx21tb, tx21tw, tx21bl, tx21bb, tx21bw, tx22tl, tx22tb, tx22tw, tx22bl, tx22bb, tx22bw, tx23tl, tx23tb, tx23tw, tx23bl, tx23bb, tx23bw, tx24tl, tx24tb, tx24tw, tx24bl, tx24bb, tx24bw, tx25tl, tx25tb, tx25tw, tx25bl, tx25bb, tx25bw, tx26tl, tx26tb, tx26tw, tx26bl, tx26bb, tx26bw, tx27tl, tx27tb, tx27tw, tx27bl, tx27bb, tx27bw, tx28tl, tx28tb, tx28tw, tx28bl, tx28bb, tx28bw, tx29tl, tx29tb, tx29tw, tx29bl, tx29bb, tx29bw, tx30tl, tx30tb, tx30tw, tx30bl, tx30bb, tx30bw, tx31tl, tx31tb, tx31tw, tx31bl, tx31bb, tx31bw, tx32tl, tx32tb, tx32tw, tx32bl, tx32bb, tx32bw, tx33tl, tx33tb, tx33tw, tx33bl, tx33bb, tx33bw, tx34tl, tx34tb, tx34tw, tx34bl, tx34bb, tx34bw, tx35tl, tx35tb, tx35tw, tx35bl, tx35bb, tx35bw, tx36tl, tx36tb, tx36tw, tx36bl, tx36bb, tx36bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-tn1tl, tn1tb, tn1tw, tn1bl, tn1bb, tn1bw, tn2tl, tn2tb, tn2tw, tn2bl, tn2bb, tn2bw, tn3tl, tn3tb, tn3tw, tn3bl, tn3bb, tn3bw, tn4tl, tn4tb, tn4tw, tn4bl, tn4bb, tn4bw, tn5bl, tn5bb, tn5bw, tn5tl, tn5tb, tn5tw, tn6tl, tn6tb, tn6tw, tn6bl, tn6bb, tn6bw, tn7tl, tn7tb, tn7tw, tn7bl, tn7bb, tn7bw, tn8tl, tn8tb, tn8tw, tn8bl, tn8bb, tn8bw, tn9bl, tn9bb, tn9bw, tn9tl, tn9tb, tn9tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-nm1tl, nm1tb, nm1tw, nm1bl, nm1bb, nm1bw, nm2tl, nm2tb, nm2tw, nm2bl, nm2bb, nm2bw, nm3tl, nm3tb, nm3tw, nm3bl, nm3bb, nm3bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-ny1tl, ny1tb, ny1tw, ny1bl, ny1bb, ny1bw, ny2tl, ny2tb, ny2tw, ny2bl, ny2bb, ny2bw, ny3tl, ny3tb, ny3tw, ny3bl, ny3bb, ny3bw, ny4tl, ny4tb, ny4tw, ny4bl, ny4bb, ny4bw, ny5tl, ny5tb, ny5tw, ny5bl, ny5bb, ny5bw, ny6tl, ny6tb, ny6tw, ny6bl, ny6bb, ny6bw, ny7tl, ny7tb, ny7tw, ny7bl, ny7bb, ny7bw, ny8tl, ny8tb, ny8tw, ny8bl, ny8bb, ny8bw, ny9tl, ny9tb, ny9tw, ny9bl, ny9bb, ny9bw, ny10tl, ny10tb, ny10tw, ny10bl, ny10bb, ny10bw, ny11tl, ny11tb, ny11tw, ny11bl, ny11bb, ny11bw, ny12tl, ny12tb, ny12tw, ny12bl, ny12bb, ny12bw, ny13tl, ny13tb, ny13tw, ny13bl, ny13bb, ny13bw, ny14tl, ny14tb, ny14tw, ny14bl, ny14bb, ny14bw, ny15tl, ny15tb, ny15tw, ny15bl, ny15bb, ny15bw, ny16tl, ny16tb, ny16tw, ny16bl, ny16bb, ny16bw, ny17tl, ny17tb, ny17tw, ny17bl, ny17bb, ny17bw, ny18tl, ny18tb, ny18tw, ny18bl, ny18bb, ny18bw, ny19tl, ny19tb, ny19tw, ny19bl, ny19bb, ny19bw, ny20tl, ny20tb, ny20tw, ny20bl, ny20bb, ny20bw, ny21tl, ny21tb, ny21tw, ny21bl, ny21bb, ny21bw, ny22tl, ny22tb, ny22tw, ny22bl, ny22bb, ny22bw, ny23tl, ny23tb, ny23tw, ny23bl, ny23bb, ny23bw, ny24tl, ny24tb, ny24tw, ny24bl, ny24bb, ny24bw, ny25tl, ny25tb, ny25tw, ny25bl, ny25bb, ny25bw, ny26tl, ny26tb, ny26tw, ny26bl, ny26bb, ny26bw, ny27tl, ny27tb, ny27tw, ny27bl, ny27bb, ny27bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-wy1tl, wy1tb, wy1tw, wy1bl, wy1bb, wy1bw =  [], [], [], [], [], []
-pa1tl, pa1tb, pa1tw, pa1bl, pa1bb, pa1bw, pa2tl, pa2tb, pa2tw, pa2bl, pa2bb, pa2bw, pa3tl, pa3tb, pa3tw, pa3bl, pa3bb, pa3bw, pa4tl, pa4tb, pa4tw, pa4bl, pa4bb, pa4bw, pa5tl, pa5tb, pa5tw, pa5bl, pa5bb, pa5bw, pa6tl, pa6tb, pa6tw, pa6bl, pa6bb, pa6bw, pa7tl, pa7tb, pa7tw, pa7bl, pa7bb, pa7bw, pa8tl, pa8tb, pa8tw, pa8bl, pa8bb, pa8bw, pa9tl, pa9tb, pa9tw, pa9bl, pa9bb, pa9bw, pa10tl, pa10tb, pa10tw, pa10bl, pa10bb, pa10bw, pa11tl, pa11tb, pa11tw, pa11bl, pa11bb, pa11bw, pa12tl, pa12tb, pa12tw, pa12bl, pa12bb, pa12bw, pa13tl, pa13tb, pa13tw, pa13bl, pa13bb, pa13bw, pa14tl, pa14tb, pa14tw, pa14bl, pa14bb, pa14bw, pa15tl, pa15tb, pa15tw, pa15bl, pa15bb, pa15bw, pa16tl, pa16tb, pa16tw, pa16bl, pa16bb, pa16bw, pa17tl, pa17tb, pa17tw, pa17bl, pa17bb, pa17bw, pa18tl, pa18tb, pa18tw, pa18bl, pa18bb, pa18bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-ct1tl, ct1tb, ct1tw, ct1bl, ct1bb, ct1bw, ct2tl, ct2tb, ct2tw, ct2bl, ct2bb, ct2bw, ct3tl, ct3tb, ct3tw, ct3bl, ct3bb, ct3bw, ct4tl, ct4tb, ct4tw, ct4bl, ct4bb, ct4bw, ct5tl, ct5tb, ct5tw, ct5bl, ct5bb, ct5bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-ky1tl, ky1tb, ky1tw, ky1bl, ky1bb, ky1bw, ky2tl, ky2tb, ky2tw, ky2bl, ky2bb, ky2bw, ky3tl, ky3tb, ky3tw, ky3bl, ky3bb, ky3bw, ky4tl, ky4tb, ky4tw, ky4bl, ky4bb, ky4bw, ky5tl, ky5tb, ky5tw, ky5bl, ky5bb, ky5bw, ky6tl, ky6tb, ky6tw, ky6bl, ky6bb, ky6bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-la1tl, la1tb, la1tw, la1bl, la1bb, la1bw, la2tl, la2tb, la2tw, la2bl, la2bb, la2bw, la3tl, la3tb, la3tw, la3bl, la3bb, la3bw, la4tl, la4tb, la4tw, la4bl, la4bb, la4bw, la5tl, la5tb, la5tw, la5bl, la5bb, la5bw, la6tl, la6tb, la6tw, la6bl, la6bb, la6bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-ok1tl, ok1tb, ok1tw, ok1bl, ok1bb, ok1bw, ok2tl, ok2tb, ok2tw, ok2bl, ok2bb, ok2bw, ok3tl, ok3tb, ok3tw, ok3bl, ok3bb, ok3bw, ok4tl, ok4tb, ok4tw, ok4bl, ok4bb, ok4bw, ok5tl, ok5tb, ok5tw, ok5bl, ok5bb, ok5bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-ut1tl, ut1tb, ut1tw, ut1bl, ut1bb, ut1bw, ut2tl, ut2tb, ut2tw, ut2bl, ut2bb, ut2bw, ut3tl, ut3tb, ut3tw, ut3bl, ut3bb, ut3bw, ut4tl, ut4tb, ut4tw, ut4bl, ut4bb, ut4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-oh1tl, oh1tb, oh1tw, oh1bl, oh1bb, oh1bw, oh2tl, oh2tb, oh2tw, oh2bl, oh2bb, oh2bw, oh3tl, oh3tb, oh3tw, oh3bl, oh3bb, oh3bw, oh4tl, oh4tb, oh4tw, oh4bl, oh4bb, oh4bw, oh5tl, oh5tb, oh5tw, oh5bl, oh5bb, oh5bw, oh6tl, oh6tb, oh6tw, oh6bl, oh6bb, oh6bw, oh7tl, oh7tb, oh7tw, oh7bl, oh7bb, oh7bw, oh8tl, oh8tb, oh8tw, oh8bl, oh8bb, oh8bw, oh9tl, oh9tb, oh9tw, oh9bl, oh9bb, oh9bw, oh10tl, oh10tb, oh10tw, oh10bl, oh10bb, oh10bw, oh11tl, oh11tb, oh11tw, oh11bl, oh11bb, oh11bw, oh12tl, oh12tb, oh12tw, oh12bl, oh12bb, oh12bw, oh13tl, oh13tb, oh13tw, oh13bl, oh13bb, oh13bw, oh14tl, oh14tb, oh14tw, oh14bl, oh14bb, oh14bw, oh15tl, oh15tb, oh15tw, oh15bl, oh15bb, oh15bw, oh16tl, oh16tb, oh16tw, oh16bl, oh16bb, oh16bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
-or1tl, or1tb, or1tw, or1bl, or1bb, or1bw, or2tl, or2tb, or2tw, or2bl, or2bb, or2bw, or3tl, or3tb, or3tw, or3bl, or3bb, or3bw, or4tl, or4tb, or4tw, or4bl, or4bb, or4bw, or5tl, or5tb, or5tw, or5bl, or5bb, or5bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# mo1tl, mo1tb, mo1tw, mo1bl, mo1bb, mo1bw, mo2tl, mo2tb, mo2tw, mo2bl, mo2bb, mo2bw, mo3tl, mo3tb, mo3tw, mo3bl, mo3bb, mo3bw, mo4tl, mo4tb, mo4tw, mo4bl, mo4bb, mo4bw, mo5tl, mo5tb, mo5tw, mo5bl, mo5bb, mo5bw, mo6tl, mo6tb, mo6tw, mo6bl, mo6bb, mo6bw, mo7tl, mo7tb, mo7tw, mo7bl, mo7bb, mo7bw, mo8tl, mo8tb, mo8tw, mo8bl, mo8bb, mo8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# co1tl, co1tb, co1tw, co1bl, co1bb, co1bw, co2tl, co2tb, co2tw, co2bl, co2bb, co2bw, co3tl, co3tb, co3tw, co3bl, co3bb, co3bw, co4tl, co4tb, co4tw, co4bl, co4bb, co4bw, co5tl, co5tb, co5tw, co5bl, co5bb, co5bw, co6tl, co6tb, co6tw, co6bl, co6bb, co6bw, co7tl, co7tb, co7tw, co7bl, co7bb, co7bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# sc1tl, sc1tb, sc1tw, sc1bl, sc1bb, sc1bw, sc2tl, sc2tb, sc2tw, sc2bl, sc2bb, sc2bw, sc3tl, sc3tb, sc3tw, sc3bl, sc3bb, sc3bw, sc4tl, sc4tb, sc4tw, sc4bl, sc4bb, sc4bw, sc5tl, sc5tb, sc5tw, sc5bl, sc5bb, sc5bw, sc6bl, sc6bb, sc6bw, sc6tl, sc6tb, sc6tw, sc7tl, sc7tb, sc7tw, sc7bl, sc7bb, sc7bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# mn1tl, mn1tb, mn1tw, mn1bl, mn1bb, mn1bw, mn2tl, mn2tb, mn2tw, mn2bl, mn2bb, mn2bw, mn3tl, mn3tb, mn3tw, mn3bl, mn3bb, mn3bw, mn4tl, mn4tb, mn4tw, mn4bl, mn4bb, mn4bw, mn5tl, mn5tb, mn5tw, mn5bl, mn5bb, mn5bw, mn6tl, mn6tb, mn6tw, mn6bl, mn6bb, mn6bw, mn7tl, mn7tb, mn7tw, mn7bl, mn7bb, mn7bw, mn8tl, mn8tb, mn8tw, mn8bl, mn8bb, mn8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# in1tl, in1tb, in1tw, in1bl, in1bb, in1bw, in2tl, in2tb, in2tw, in2bl, in2bb, in2bw, in3tl, in3tb, in3tw, in3bl, in3bb, in3bw, in4tl, in4tb, in4tw, in4bl, in4bb, in4bw, in5tl, in5tb, in5tw, in5bl, in5bb, in5bw, in6tl, in6tb, in6tw, in6bl, in6bb, in6bw, in7tl, in7tb, in7tw, in7bl, in7bb, in7bw, in8tl, in8tb, in8tw, in8bl, in8bb, in8bw, in9tl, in9tb, in9tw, in9bl, in9bb, in9bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# md1tl, md1tb, md1tw, md1bl, md1bb, md1bw, md2tl, md2tb, md2tw, md2bl, md2bb, md2bw, md3tl, md3tb, md3tw, md3bl, md3bb, md3bw, md4tl, md4tb, md4tw, md4bl, md4bb, md4bw, md5tl, md5tb, md5tw, md5bl, md5bb, md5bw, md6tl, md6tb, md6tw, md6bl, md6bb, md6bw, md7tl, md7tb, md7tw, md7bl, md7bb, md7bw, md8tl, md8tb, md8tw, md8bl, md8bb, md8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# sd1tl, sd1tb, sd1tw, sd1bl, sd1bb, sd1bw =  [], [], [], [], [], []
+# vt1tl, vt1tb, vt1tw, vt1bl, vt1bb, vt1bw =  [], [], [], [], [], []
+# nd1tl, nd1tb, nd1tw, nd1bl, nd1bb, nd1bw =  [], [], [], [], [], []
+# de1tl, de1tb, de1tw, de1bl, de1bb, de1bw =  [], [], [], [], [], []
+# mt1tl, mt1tb, mt1tw, mt1bl, mt1bb, mt1bw =  [], [], [], [], [], []
+# ne1tl, ne1tb, ne1tw, ne1bl, ne1bb, ne1bw, ne2tl, ne2tb, ne2tw, ne2bl, ne2bb, ne2bw, ne3tl, ne3tb, ne3tw, ne3bl, ne3bb, ne3bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# mi1tl, mi1tb, mi1tw, mi1bl, mi1bb, mi1bw, mi2tl, mi2tb, mi2tw, mi2bl, mi2bb, mi2bw, mi3tl, mi3tb, mi3tw, mi3bl, mi3bb, mi3bw, mi4tl, mi4tb, mi4tw, mi4bl, mi4bb, mi4bw, mi5tl, mi5tb, mi5tw, mi5bl, mi5bb, mi5bw, mi6tl, mi6tb, mi6tw, mi6bl, mi6bb, mi6bw, mi7tl, mi7tb, mi7tw, mi7bl, mi7bb, mi7bw, mi8tl, mi8tb, mi8tw, mi8bl, mi8bb, mi8bw, mi9tl, mi9tb, mi9tw, mi9bl, mi9bb, mi9bw, mi10tl, mi10tb, mi10tw, mi10bl, mi10bb, mi10bw, mi11tl, mi11tb, mi11tw, mi11bl, mi11bb, mi11bw, mi12tl, mi12tb, mi12tw, mi12bl, mi12bb, mi12bw, mi13tl, mi13tb, mi13tw, mi13bl, mi13bb, mi13bw, mi14tl, mi14tb, mi14tw, mi14bl, mi14bb, mi14bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# ma1tl, ma1tb, ma1tw, ma1bl, ma1bb, ma1bw, ma2tl, ma2tb, ma2tw, ma2bl, ma2bb, ma2bw, ma3tl, ma3tb, ma3tw, ma3bl, ma3bb, ma3bw, ma4tl, ma4tb, ma4tw, ma4bl, ma4bb, ma4bw, ma5tl, ma5tb, ma5tw, ma5bl, ma5bb, ma5bw, ma6tl, ma6tb, ma6tw, ma6bl, ma6bb, ma6bw, ma7tl, ma7tb, ma7tw, ma7bl, ma7bb, ma7bw, ma8tl, ma8tb, ma8tw, ma8bl, ma8bb, ma8bw, ma9tl, ma9tb, ma9tw, ma9bl, ma9bb, ma9bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# va1tl, va1tb, va1tw, va1bl, va1bb, va1bw, va2tl, va2tb, va2tw, va2bl, va2bb, va2bw, va3tl, va3tb, va3tw, va3bl, va3bb, va3bw, va4tl, va4tb, va4tw, va4bl, va4bb, va4bw, va5tl, va5tb, va5tw, va5bl, va5bb, va5bw, va6tl, va6tb, va6tw, va6bl, va6bb, va6bw, va7tl, va7tb, va7tw, va7bl, va7bb, va7bw, va8tl, va8tb, va8tw, va8bl, va8bb, va8bw, va9tl, va9tb, va9tw, va9bl, va9bb, va9bw, va10tl, va10tb, va10tw, va10bl, va10bb, va10bw, va11tl, va11tb, va11tw, va11bl, va11bb, va11bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# me1tl, me1tb, me1tw, me1bl, me1bb, me1bw, me2tl, me2tb, me2tw, me2bl, me2bb, me2bw =  [], [], [], [], [], [], [], [], [], [], [], []
+# id1tl, id1tb, id1tw, id1bl, id1bb, id1bw, id2tl, id2tb, id2tw, id2bl, id2bb, id2bw =  [], [], [], [], [], [], [], [], [], [], [], []
+# wi1tl, wi1tb, wi1tw, wi1bl, wi1bb, wi1bw, wi2tl, wi2tb, wi2tw, wi2bl, wi2bb, wi2bw, wi3tl, wi3tb, wi3tw, wi3bl, wi3bb, wi3bw, wi4tl, wi4tb, wi4tw, wi4bl, wi4bb, wi4bw, wi5tl, wi5tb, wi5tw, wi5bl, wi5bb, wi5bw, wi6tl, wi6tb, wi6tw, wi6bl, wi6bb, wi6bw, wi7tl, wi7tb, wi7tw, wi7bl, wi7bb, wi7bw, wi8tl, wi8tb, wi8tw, wi8bl, wi8bb, wi8bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# wv1tl, wv1tb, wv1tw, wv1bl, wv1bb, wv1bw, wv2tl, wv2tb, wv2tw, wv2bl, wv2bb, wv2bw, wv3tl, wv3tb, wv3tw, wv3bl, wv3bb, wv3bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# ia1tl, ia1tb, ia1tw, ia1bl, ia1bb, ia1bw, ia2tl, ia2tb, ia2tw, ia2bl, ia2bb, ia2bw, ia3tl, ia3tb, ia3tw, ia3bl, ia3bb, ia3bw, ia4tl, ia4tb, ia4tw, ia4bl, ia4bb, ia4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# ms1tl, ms1tb, ms1tw, ms1bl, ms1bb, ms1bw, ms2tl, ms2tb, ms2tw, ms2bl, ms2bb, ms2bw, ms3tl, ms3tb, ms3tw, ms3bl, ms3bb, ms3bw, ms4tl, ms4tb, ms4tw, ms4bl, ms4bb, ms4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# hi1tl, hi1tb, hi1tw, hi1bl, hi1bb, hi1bw, hi2tl, hi2tb, hi2tw, hi2bl, hi2bb, hi2bw =  [], [], [], [], [], [], [], [], [], [], [], []
+# ri1bl, ri1bb, ri1bw, ri1tl, ri1tb, ri1tw, ri2bl, ri2bb, ri2bw, ri2tl, ri2tb, ri2tw =  [], [], [], [], [], [], [], [], [], [], [], []
+# wa1tl, wa1tb, wa1tw, wa1bl, wa1bb, wa1bw, wa2tl, wa2tb, wa2tw, wa2bl, wa2bb, wa2bw, wa3tl, wa3tb, wa3tw, wa3bl, wa3bb, wa3bw, wa4tl, wa4tb, wa4tw, wa4bl, wa4bb, wa4bw, wa5tl, wa5tb, wa5tw, wa5bl, wa5bb, wa5bw, wa6tl, wa6tb, wa6tw, wa6bl, wa6bb, wa6bw, wa7tl, wa7tb, wa7tw, wa7bl, wa7bb, wa7bw, wa8tl, wa8tb, wa8tw, wa8bl, wa8bb, wa8bw, wa9tl, wa9tb, wa9tw, wa9bl, wa9bb, wa9bw, wa10tl, wa10tb, wa10tw, wa10bl, wa10bb, wa10bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# fl1tl, fl1tb, fl1tw, fl1bl, fl1bb, fl1bw, fl2tl, fl2tb, fl2tw, fl2bl, fl2bb, fl2bw, fl3tl, fl3tb, fl3tw, fl3bl, fl3bb, fl3bw, fl4tl, fl4tb, fl4tw, fl4bl, fl4bb, fl4bw, fl5tl, fl5tb, fl5tw, fl5bl, fl5bb, fl5bw, fl6tl, fl6tb, fl6tw, fl6bl, fl6bb, fl6bw, fl7tl, fl7tb, fl7tw, fl7bl, fl7bb, fl7bw, fl8tl, fl8tb, fl8tw, fl8bl, fl8bb, fl8bw, fl9tl, fl9tb, fl9tw, fl9bl, fl9bb, fl9bw, fl10tl, fl10tb, fl10tw, fl10bl, fl10bb, fl10bw, fl11tl, fl11tb, fl11tw, fl11bl, fl11bb, fl11bw, fl12tl, fl12tb, fl12tw, fl12bl, fl12bb, fl12bw, fl13tl, fl13tb, fl13tw, fl13bl, fl13bb, fl13bw, fl14tl, fl14tb, fl14tw, fl14bl, fl14bb, fl14bw, fl15tl, fl15tb, fl15tw, fl15bl, fl15bb, fl15bw, fl16tl, fl16tb, fl16tw, fl16bl, fl16bb, fl16bw, fl17tl, fl17tb, fl17tw, fl17bl, fl17bb, fl17bw, fl18tl, fl18tb, fl18tw, fl18bl, fl18bb, fl18bw, fl19tl, fl19tb, fl19tw, fl19bl, fl19bb, fl19bw, fl20tl, fl20tb, fl20tw, fl20bl, fl20bb, fl20bw, fl21tl, fl21tb, fl21tw, fl21bl, fl21bb, fl21bw, fl22tl, fl22tb, fl22tw, fl22bl, fl22bb, fl22bw, fl23tl, fl23tb, fl23tw, fl23bl, fl23bb, fl23bw, fl24tl, fl24tb, fl24tw, fl24bl, fl24bb, fl24bw, fl25tl, fl25tb, fl25tw, fl25bl, fl25bb, fl25bw, fl26tl, fl26tb, fl26tw, fl26bl, fl26bb, fl26bw, fl27tl, fl27tb, fl27tw, fl27bl, fl27bb, fl27bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# al1tl, al1tb, al1tw, al1bl, al1bb, al1bw, al2tl, al2tb, al2tw, al2bl, al2bb, al2bw, al3tl, al3tb, al3tw, al3bl, al3bb, al3bw, al4tl, al4tb, al4tw, al4bl, al4bb, al4bw, al5tl, al5tb, al5tw, al5bl, al5bb, al5bw, al6tl, al6tb, al6tw, al6bl, al6bb, al6bw, al7bl, al7bb, al7bw, al7tl, al7tb, al7tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# il1tl, il1tb, il1tw, il1bl, il1bb, il1bw, il2tl, il2tb, il2tw, il2bl, il2bb, il2bw, il3tl, il3tb, il3tw, il3bl, il3bb, il3bw, il4tl, il4tb, il4tw, il4bl, il4bb, il4bw, il5tl, il5tb, il5tw, il5bl, il5bb, il5bw, il6tl, il6tb, il6tw, il6bl, il6bb, il6bw, il7tl, il7tb, il7tw, il7bl, il7bb, il7bw, il8tl, il8tb, il8tw, il8bl, il8bb, il8bw, il9tl, il9tb, il9tw, il9bl, il9bb, il9bw, il10tl, il10tb, il10tw, il10bl, il10bb, il10bw, il11tl, il11tb, il11tw, il11bl, il11bb, il11bw, il12tl, il12tb, il12tw, il12bl, il12bb, il12bw, il13tl, il13tb, il13tw, il13bl, il13bb, il13bw, il14tl, il14tb, il14tw, il14bl, il14bb, il14bw, il15tl, il15tb, il15tw, il15bl, il15bb, il15bw, il16tl, il16tb, il16tw, il16bl, il16bb, il16bw, il17tl, il17tb, il17tw, il17bl, il17bb, il17bw, il18bl, il18bb, il18bw, il18tl, il18tb, il18tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# ca1tl, ca1tb, ca1tw, ca1bl, ca1bb, ca1bw, ca2tl, ca2tb, ca2tw, ca2bl, ca2bb, ca2bw, ca3tl, ca3tb, ca3tw, ca3bl, ca3bb, ca3bw, ca4tl, ca4tb, ca4tw, ca4bl, ca4bb, ca4bw, ca5tl, ca5tb, ca5tw, ca5bl, ca5bb, ca5bw, ca6tl, ca6tb, ca6tw, ca6bl, ca6bb, ca6bw, ca7tl, ca7tb, ca7tw, ca7bl, ca7bb, ca7bw, ca8tl, ca8tb, ca8tw, ca8bl, ca8bb, ca8bw, ca9tl, ca9tb, ca9tw, ca9bl, ca9bb, ca9bw, ca10tl, ca10tb, ca10tw, ca10bl, ca10bb, ca10bw, ca11tl, ca11tb, ca11tw, ca11bl, ca11bb, ca11bw, ca12tl, ca12tb, ca12tw, ca12bl, ca12bb, ca12bw, ca13tl, ca13tb, ca13tw, ca13bl, ca13bb, ca13bw, ca14tl, ca14tb, ca14tw, ca14bl, ca14bb, ca14bw, ca15tl, ca15tb, ca15tw, ca15bl, ca15bb, ca15bw, ca16tl, ca16tb, ca16tw, ca16bl, ca16bb, ca16bw, ca17tl, ca17tb, ca17tw, ca17bl, ca17bb, ca17bw, ca18tl, ca18tb, ca18tw, ca18bl, ca18bb, ca18bw, ca19bl, ca19bb, ca19bw, ca19tl, ca19tb, ca19tw, ca20tl, ca20tb, ca20tw, ca20bl, ca20bb, ca20bw, ca21tl, ca21tb, ca21tw, ca21bl, ca21bb, ca21bw, ca22tl, ca22tb, ca22tw, ca22bl, ca22bb, ca22bw, ca23tl, ca23tb, ca23tw, ca23bl, ca23bb, ca23bw, ca24tl, ca24tb, ca24tw, ca24bl, ca24bb, ca24bw, ca25tl, ca25tb, ca25tw, ca25bl, ca25bb, ca25bw, ca26tl, ca26tb, ca26tw, ca26bl, ca26bb, ca26bw, ca27tl, ca27tb, ca27tw, ca27bl, ca27bb, ca27bw, ca28tl, ca28tb, ca28tw, ca28bl, ca28bb, ca28bw, ca29tl, ca29tb, ca29tw, ca29bl, ca29bb, ca29bw, ca30tl, ca30tb, ca30tw, ca30bl, ca30bb, ca30bw, ca31tl, ca31tb, ca31tw, ca31bl, ca31bb, ca31bw, ca32tl, ca32tb, ca32tw, ca32bl, ca32bb, ca32bw, ca33tl, ca33tb, ca33tw, ca33bl, ca33bb, ca33bw, ca34tl, ca34tb, ca34tw, ca34bl, ca34bb, ca34bw, ca35tl, ca35tb, ca35tw, ca35bl, ca35bb, ca35bw, ca36tl, ca36tb, ca36tw, ca36bl, ca36bb, ca36bw, ca37tl, ca37tb, ca37tw, ca37bl, ca37bb, ca37bw, ca38tl, ca38tb, ca38tw, ca38bl, ca38bb, ca38bw, ca39tl, ca39tb, ca39tw, ca39bl, ca39bb, ca39bw, ca40tl, ca40tb, ca40tw, ca40bl, ca40bb, ca40bw, ca41tl, ca41tb, ca41tw, ca41bl, ca41bb, ca41bw, ca42tl, ca42tb, ca42tw, ca42bl, ca42bb, ca42bw, ca43tl, ca43tb, ca43tw, ca43bl, ca43bb, ca43bw, ca44tl, ca44tb, ca44tw, ca44bl, ca44bb, ca44bw, ca45tl, ca45tb, ca45tw, ca45bl, ca45bb, ca45bw, ca46tl, ca46tb, ca46tw, ca46bl, ca46bb, ca46bw, ca47tl, ca47tb, ca47tw, ca47bl, ca47bb, ca47bw, ca48tl, ca48tb, ca48tw, ca48bl, ca48bb, ca48bw, ca49tl, ca49tb, ca49tw, ca49bl, ca49bb, ca49bw, ca50tl, ca50tb, ca50tw, ca50bl, ca50bb, ca50bw, ca51tl, ca51tb, ca51tw, ca51bl, ca51bb, ca51bw, ca52tl, ca52tb, ca52tw, ca52bl, ca52bb, ca52bw, ca53tl, ca53tb, ca53tw, ca53bl, ca53bb, ca53bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# ks1tl, ks1tb, ks1tw, ks1bl, ks1bb, ks1bw, ks2tl, ks2tb, ks2tw, ks2bl, ks2bb, ks2bw, ks3tl, ks3tb, ks3tw, ks3bl, ks3bb, ks3bw, ks4tl, ks4tb, ks4tw, ks4bl, ks4bb, ks4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# ga1tl, ga1tb, ga1tw, ga1bl, ga1bb, ga1bw, ga2tl, ga2tb, ga2tw, ga2bl, ga2bb, ga2bw, ga3tl, ga3tb, ga3tw, ga3bl, ga3bb, ga3bw, ga4tl, ga4tb, ga4tw, ga4bl, ga4bb, ga4bw, ga5tl, ga5tb, ga5tw, ga5bl, ga5bb, ga5bw, ga6tl, ga6tb, ga6tw, ga6bl, ga6bb, ga6bw, ga7tl, ga7tb, ga7tw, ga7bl, ga7bb, ga7bw, ga8tl, ga8tb, ga8tw, ga8bl, ga8bb, ga8bw, ga9tl, ga9tb, ga9tw, ga9bl, ga9bb, ga9bw, ga10tl, ga10tb, ga10tw, ga10bl, ga10bb, ga10bw, ga11tl, ga11tb, ga11tw, ga11bl, ga11bb, ga11bw, ga12tl, ga12tb, ga12tw, ga12bl, ga12bb, ga12bw, ga13tl, ga13tb, ga13tw, ga13bl, ga13bb, ga13bw, ga14tl, ga14tb, ga14tw, ga14bl, ga14bb, ga14bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# az1tl, az1tb, az1tw, az1bl, az1bb, az1bw, az2tl, az2tb, az2tw, az2bl, az2bb, az2bw, az3bl, az3bb, az3bw, az3tl, az3tb, az3tw, az4tl, az4tb, az4tw, az4bl, az4bb, az4bw, az5tl, az5tb, az5tw, az5bl, az5bb, az5bw, az6tl, az6tb, az6tw, az6bl, az6bb, az6bw, az7bl, az7bb, az7bw, az7tl, az7tb, az7tw, az8tl, az8tb, az8tw, az8bl, az8bb, az8bw, az9bl, az9bb, az9bw, az9tl, az9tb, az9tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# ak1tl, ak1tb, ak1tw, ak1bl, ak1bb, ak1bw =  [], [], [], [], [], []
+# ar1tl, ar1tb, ar1tw, ar1bl, ar1bb, ar1bw, ar2tl, ar2tb, ar2tw, ar2bl, ar2bb, ar2bw, ar3tl, ar3tb, ar3tw, ar3bl, ar3bb, ar3bw, ar4tl, ar4tb, ar4tw, ar4bl, ar4bb, ar4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# nj1tl, nj1tb, nj1tw, nj1bl, nj1bb, nj1bw, nj2tl, nj2tb, nj2tw, nj2bl, nj2bb, nj2bw, nj3tl, nj3tb, nj3tw, nj3bl, nj3bb, nj3bw, nj4tl, nj4tb, nj4tw, nj4bl, nj4bb, nj4bw, nj5tl, nj5tb, nj5tw, nj5bl, nj5bb, nj5bw, nj6tl, nj6tb, nj6tw, nj6bl, nj6bb, nj6bw, nj7tl, nj7tb, nj7tw, nj7bl, nj7bb, nj7bw, nj8tl, nj8tb, nj8tw, nj8bl, nj8bb, nj8bw, nj9tl, nj9tb, nj9tw, nj9bl, nj9bb, nj9bw, nj10tl, nj10tb, nj10tw, nj10bl, nj10bb, nj10bw, nj11tl, nj11tb, nj11tw, nj11bl, nj11bb, nj11bw, nj12tl, nj12tb, nj12tw, nj12bl, nj12bb, nj12bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# nv1tl, nv1tb, nv1tw, nv1bl, nv1bb, nv1bw, nv2tl, nv2tb, nv2tw, nv2bl, nv2bb, nv2bw, nv3tl, nv3tb, nv3tw, nv3bl, nv3bb, nv3bw, nv4tl, nv4tb, nv4tw, nv4bl, nv4bb, nv4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# nh1tl, nh1tb, nh1tw, nh1bl, nh1bb, nh1bw, nh2tl, nh2tb, nh2tw, nh2bl, nh2bb, nh2bw =  [], [], [], [], [], [], [], [], [], [], [], []
+# nc1tl, nc1tb, nc1tw, nc1bl, nc1bb, nc1bw, nc2tl, nc2tb, nc2tw, nc2bl, nc2bb, nc2bw, nc3tl, nc3tb, nc3tw, nc3bl, nc3bb, nc3bw, nc4tl, nc4tb, nc4tw, nc4bl, nc4bb, nc4bw, nc5tl, nc5tb, nc5tw, nc5bl, nc5bb, nc5bw, nc6tl, nc6tb, nc6tw, nc6bl, nc6bb, nc6bw, nc7tl, nc7tb, nc7tw, nc7bl, nc7bb, nc7bw, nc8tl, nc8tb, nc8tw, nc8bl, nc8bb, nc8bw, nc9tl, nc9tb, nc9tw, nc9bl, nc9bb, nc9bw, nc10tl, nc10tb, nc10tw, nc10bl, nc10bb, nc10bw, nc11tl, nc11tb, nc11tw, nc11bl, nc11bb, nc11bw, nc12tl, nc12tb, nc12tw, nc12bl, nc12bb, nc12bw, nc13tl, nc13tb, nc13tw, nc13bl, nc13bb, nc13bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# tx1tl, tx1tb, tx1tw, tx1bl, tx1bb, tx1bw, tx2tl, tx2tb, tx2tw, tx2bl, tx2bb, tx2bw, tx3tl, tx3tb, tx3tw, tx3bl, tx3bb, tx3bw, tx4tl, tx4tb, tx4tw, tx4bl, tx4bb, tx4bw, tx5tl, tx5tb, tx5tw, tx5bl, tx5bb, tx5bw, tx6tl, tx6tb, tx6tw, tx6bl, tx6bb, tx6bw, tx7tl, tx7tb, tx7tw, tx7bl, tx7bb, tx7bw, tx8tl, tx8tb, tx8tw, tx8bl, tx8bb, tx8bw, tx9tl, tx9tb, tx9tw, tx9bl, tx9bb, tx9bw, tx10tl, tx10tb, tx10tw, tx10bl, tx10bb, tx10bw, tx11tl, tx11tb, tx11tw, tx11bl, tx11bb, tx11bw, tx12tl, tx12tb, tx12tw, tx12bl, tx12bb, tx12bw, tx13tl, tx13tb, tx13tw, tx13bl, tx13bb, tx13bw, tx14tl, tx14tb, tx14tw, tx14bl, tx14bb, tx14bw, tx15tl, tx15tb, tx15tw, tx15bl, tx15bb, tx15bw, tx16tl, tx16tb, tx16tw, tx16bl, tx16bb, tx16bw, tx17tl, tx17tb, tx17tw, tx17bl, tx17bb, tx17bw, tx18tl, tx18tb, tx18tw, tx18bl, tx18bb, tx18bw, tx19tl, tx19tb, tx19tw, tx19bl, tx19bb, tx19bw, tx20tl, tx20tb, tx20tw, tx20bl, tx20bb, tx20bw, tx21tl, tx21tb, tx21tw, tx21bl, tx21bb, tx21bw, tx22tl, tx22tb, tx22tw, tx22bl, tx22bb, tx22bw, tx23tl, tx23tb, tx23tw, tx23bl, tx23bb, tx23bw, tx24tl, tx24tb, tx24tw, tx24bl, tx24bb, tx24bw, tx25tl, tx25tb, tx25tw, tx25bl, tx25bb, tx25bw, tx26tl, tx26tb, tx26tw, tx26bl, tx26bb, tx26bw, tx27tl, tx27tb, tx27tw, tx27bl, tx27bb, tx27bw, tx28tl, tx28tb, tx28tw, tx28bl, tx28bb, tx28bw, tx29tl, tx29tb, tx29tw, tx29bl, tx29bb, tx29bw, tx30tl, tx30tb, tx30tw, tx30bl, tx30bb, tx30bw, tx31tl, tx31tb, tx31tw, tx31bl, tx31bb, tx31bw, tx32tl, tx32tb, tx32tw, tx32bl, tx32bb, tx32bw, tx33tl, tx33tb, tx33tw, tx33bl, tx33bb, tx33bw, tx34tl, tx34tb, tx34tw, tx34bl, tx34bb, tx34bw, tx35tl, tx35tb, tx35tw, tx35bl, tx35bb, tx35bw, tx36tl, tx36tb, tx36tw, tx36bl, tx36bb, tx36bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# tn1tl, tn1tb, tn1tw, tn1bl, tn1bb, tn1bw, tn2tl, tn2tb, tn2tw, tn2bl, tn2bb, tn2bw, tn3tl, tn3tb, tn3tw, tn3bl, tn3bb, tn3bw, tn4tl, tn4tb, tn4tw, tn4bl, tn4bb, tn4bw, tn5bl, tn5bb, tn5bw, tn5tl, tn5tb, tn5tw, tn6tl, tn6tb, tn6tw, tn6bl, tn6bb, tn6bw, tn7tl, tn7tb, tn7tw, tn7bl, tn7bb, tn7bw, tn8tl, tn8tb, tn8tw, tn8bl, tn8bb, tn8bw, tn9bl, tn9bb, tn9bw, tn9tl, tn9tb, tn9tw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# nm1tl, nm1tb, nm1tw, nm1bl, nm1bb, nm1bw, nm2tl, nm2tb, nm2tw, nm2bl, nm2bb, nm2bw, nm3tl, nm3tb, nm3tw, nm3bl, nm3bb, nm3bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# ny1tl, ny1tb, ny1tw, ny1bl, ny1bb, ny1bw, ny2tl, ny2tb, ny2tw, ny2bl, ny2bb, ny2bw, ny3tl, ny3tb, ny3tw, ny3bl, ny3bb, ny3bw, ny4tl, ny4tb, ny4tw, ny4bl, ny4bb, ny4bw, ny5tl, ny5tb, ny5tw, ny5bl, ny5bb, ny5bw, ny6tl, ny6tb, ny6tw, ny6bl, ny6bb, ny6bw, ny7tl, ny7tb, ny7tw, ny7bl, ny7bb, ny7bw, ny8tl, ny8tb, ny8tw, ny8bl, ny8bb, ny8bw, ny9tl, ny9tb, ny9tw, ny9bl, ny9bb, ny9bw, ny10tl, ny10tb, ny10tw, ny10bl, ny10bb, ny10bw, ny11tl, ny11tb, ny11tw, ny11bl, ny11bb, ny11bw, ny12tl, ny12tb, ny12tw, ny12bl, ny12bb, ny12bw, ny13tl, ny13tb, ny13tw, ny13bl, ny13bb, ny13bw, ny14tl, ny14tb, ny14tw, ny14bl, ny14bb, ny14bw, ny15tl, ny15tb, ny15tw, ny15bl, ny15bb, ny15bw, ny16tl, ny16tb, ny16tw, ny16bl, ny16bb, ny16bw, ny17tl, ny17tb, ny17tw, ny17bl, ny17bb, ny17bw, ny18tl, ny18tb, ny18tw, ny18bl, ny18bb, ny18bw, ny19tl, ny19tb, ny19tw, ny19bl, ny19bb, ny19bw, ny20tl, ny20tb, ny20tw, ny20bl, ny20bb, ny20bw, ny21tl, ny21tb, ny21tw, ny21bl, ny21bb, ny21bw, ny22tl, ny22tb, ny22tw, ny22bl, ny22bb, ny22bw, ny23tl, ny23tb, ny23tw, ny23bl, ny23bb, ny23bw, ny24tl, ny24tb, ny24tw, ny24bl, ny24bb, ny24bw, ny25tl, ny25tb, ny25tw, ny25bl, ny25bb, ny25bw, ny26tl, ny26tb, ny26tw, ny26bl, ny26bb, ny26bw, ny27tl, ny27tb, ny27tw, ny27bl, ny27bb, ny27bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# wy1tl, wy1tb, wy1tw, wy1bl, wy1bb, wy1bw =  [], [], [], [], [], []
+# pa1tl, pa1tb, pa1tw, pa1bl, pa1bb, pa1bw, pa2tl, pa2tb, pa2tw, pa2bl, pa2bb, pa2bw, pa3tl, pa3tb, pa3tw, pa3bl, pa3bb, pa3bw, pa4tl, pa4tb, pa4tw, pa4bl, pa4bb, pa4bw, pa5tl, pa5tb, pa5tw, pa5bl, pa5bb, pa5bw, pa6tl, pa6tb, pa6tw, pa6bl, pa6bb, pa6bw, pa7tl, pa7tb, pa7tw, pa7bl, pa7bb, pa7bw, pa8tl, pa8tb, pa8tw, pa8bl, pa8bb, pa8bw, pa9tl, pa9tb, pa9tw, pa9bl, pa9bb, pa9bw, pa10tl, pa10tb, pa10tw, pa10bl, pa10bb, pa10bw, pa11tl, pa11tb, pa11tw, pa11bl, pa11bb, pa11bw, pa12tl, pa12tb, pa12tw, pa12bl, pa12bb, pa12bw, pa13tl, pa13tb, pa13tw, pa13bl, pa13bb, pa13bw, pa14tl, pa14tb, pa14tw, pa14bl, pa14bb, pa14bw, pa15tl, pa15tb, pa15tw, pa15bl, pa15bb, pa15bw, pa16tl, pa16tb, pa16tw, pa16bl, pa16bb, pa16bw, pa17tl, pa17tb, pa17tw, pa17bl, pa17bb, pa17bw, pa18tl, pa18tb, pa18tw, pa18bl, pa18bb, pa18bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# ct1tl, ct1tb, ct1tw, ct1bl, ct1bb, ct1bw, ct2tl, ct2tb, ct2tw, ct2bl, ct2bb, ct2bw, ct3tl, ct3tb, ct3tw, ct3bl, ct3bb, ct3bw, ct4tl, ct4tb, ct4tw, ct4bl, ct4bb, ct4bw, ct5tl, ct5tb, ct5tw, ct5bl, ct5bb, ct5bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# ky1tl, ky1tb, ky1tw, ky1bl, ky1bb, ky1bw, ky2tl, ky2tb, ky2tw, ky2bl, ky2bb, ky2bw, ky3tl, ky3tb, ky3tw, ky3bl, ky3bb, ky3bw, ky4tl, ky4tb, ky4tw, ky4bl, ky4bb, ky4bw, ky5tl, ky5tb, ky5tw, ky5bl, ky5bb, ky5bw, ky6tl, ky6tb, ky6tw, ky6bl, ky6bb, ky6bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# la1tl, la1tb, la1tw, la1bl, la1bb, la1bw, la2tl, la2tb, la2tw, la2bl, la2bb, la2bw, la3tl, la3tb, la3tw, la3bl, la3bb, la3bw, la4tl, la4tb, la4tw, la4bl, la4bb, la4bw, la5tl, la5tb, la5tw, la5bl, la5bb, la5bw, la6tl, la6tb, la6tw, la6bl, la6bb, la6bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# ok1tl, ok1tb, ok1tw, ok1bl, ok1bb, ok1bw, ok2tl, ok2tb, ok2tw, ok2bl, ok2bb, ok2bw, ok3tl, ok3tb, ok3tw, ok3bl, ok3bb, ok3bw, ok4tl, ok4tb, ok4tw, ok4bl, ok4bb, ok4bw, ok5tl, ok5tb, ok5tw, ok5bl, ok5bb, ok5bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# ut1tl, ut1tb, ut1tw, ut1bl, ut1bb, ut1bw, ut2tl, ut2tb, ut2tw, ut2bl, ut2bb, ut2bw, ut3tl, ut3tb, ut3tw, ut3bl, ut3bb, ut3bw, ut4tl, ut4tb, ut4tw, ut4bl, ut4bb, ut4bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# oh1tl, oh1tb, oh1tw, oh1bl, oh1bb, oh1bw, oh2tl, oh2tb, oh2tw, oh2bl, oh2bb, oh2bw, oh3tl, oh3tb, oh3tw, oh3bl, oh3bb, oh3bw, oh4tl, oh4tb, oh4tw, oh4bl, oh4bb, oh4bw, oh5tl, oh5tb, oh5tw, oh5bl, oh5bb, oh5bw, oh6tl, oh6tb, oh6tw, oh6bl, oh6bb, oh6bw, oh7tl, oh7tb, oh7tw, oh7bl, oh7bb, oh7bw, oh8tl, oh8tb, oh8tw, oh8bl, oh8bb, oh8bw, oh9tl, oh9tb, oh9tw, oh9bl, oh9bb, oh9bw, oh10tl, oh10tb, oh10tw, oh10bl, oh10bb, oh10bw, oh11tl, oh11tb, oh11tw, oh11bl, oh11bb, oh11bw, oh12tl, oh12tb, oh12tw, oh12bl, oh12bb, oh12bw, oh13tl, oh13tb, oh13tw, oh13bl, oh13bb, oh13bw, oh14tl, oh14tb, oh14tw, oh14bl, oh14bb, oh14bw, oh15tl, oh15tb, oh15tw, oh15bl, oh15bb, oh15bw, oh16tl, oh16tb, oh16tw, oh16bl, oh16bb, oh16bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
+# or1tl, or1tb, or1tw, or1bl, or1bb, or1bw, or2tl, or2tb, or2tw, or2bl, or2bb, or2bw, or3tl, or3tb, or3tw, or3bl, or3bb, or3bw, or4tl, or4tb, or4tw, or4bl, or4bb, or4bw, or5tl, or5tb, or5tw, or5bl, or5bb, or5bw =  [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
 
-# with open('/Volumes/TOSHIBA/usawithgender.txt', 'rb') as f:
-# 	al1tl, al1tb, al1tw, al2tl, al2tb, al2tw, al3tl, al3tb, al3tw, al4tl, al4tb, al4tw, al5tl, al5tb, al5tw, al6tl, al6tb, al6tw, al7tl, al7tb, al7tw, al1bl, al1bb, al1bw, al2bl, al2bb, al2bw, al3bl, al3bb, al3bw, al4bl, al4bb, al4bw, al5bl, al5bb, al5bw, al6bl, al6bb, al6bw, al7bl, al7bb, al7bw, ak1tl, ak1tb, ak1tw, ak1bl, ak1bb, ak1bw, az1tl, az1tb, az1tw, az2tl, az2tb, az2tw, az3tl, az3tb, az3tw, az4tl, az4tb, az4tw, az5tl, az5tb, az5tw, az6tl, az6tb, az6tw, az7tl, az7tb, az7tw, az8tl, az8tb, az8tw, az9tl, az9tb, az9tw, az1bl, az1bb, az1bw, az2bl, az2bb, az2bw, az3bl, az3bb, az3bw, az4bl, az4bb, az4bw, az5bl, az5bb, az5bw, az6bl, az6bb, az6bw, az7bl, az7bb, az7bw, az8bl, az8bb, az8bw, az9bl, az9bb, az9bw, ar1bl, ar1bb, ar1bw, ar2bl, ar2bb, ar2bw, ar3bl, ar3bb, ar3bw, ar4bl, ar4bb, ar4bw, ar1tl, ar1tb, ar1tw, ar2tl, ar2tb, ar2tw, ar3tl, ar3tb, ar3tw, ar4tl, ar4tb, ar4tw, ak1bl, ak1bb, ak1bw, ca1tl, ca1tb, ca1tw, ca2tl, ca2tb, ca2tw, ca3tl, ca3tb, ca3tw, ca4tl, ca4tb, ca4tw, ca5tl, ca5tb, ca5tw, ca6tl, ca6tb, ca6tw, ca7tl, ca7tb, ca7tw, ca8tl, ca8tb, ca8tw, ca9tl, ca9tb, ca9tw, ca10tl, ca10tb, ca10tw, ca11tl, ca11tb, ca11tw, ca12tl, ca12tb, ca12tw, ca13tl, ca13tb, ca13tw, ca14tl, ca14tb, ca14tw, ca15tl, ca15tb, ca15tw, ca16tl, ca16tb, ca16tw, ca17tl, ca17tb, ca17tw, ca18tl, ca18tb, ca18tw, ca19tl, ca19tb, ca19tw, ca20tl, ca20tb, ca20tw, ca21tl, ca21tb, ca21tw, ca22tl, ca22tb, ca22tw, ca23tl, ca23tb, ca23tw, ca24tl, ca24tb, ca24tw, ca25tl, ca25tb, ca25tw, ca26tl, ca26tb, ca26tw, ca27tl, ca27tb, ca27tw, ca28tl, ca28tb, ca28tw, ca29tl, ca29tb, ca29tw, ca30tl, ca30tb, ca30tw, ca31tl, ca31tb, ca31tw, ca32tl, ca32tb, ca32tw, ca33tl, ca33tb, ca33tw, ca34tl, ca34tb, ca34tw, ca35tl, ca35tb, ca35tw, ca36tl, ca36tb, ca36tw, ca37tl, ca37tb, ca37tw, ca38tl, ca38tb, ca38tw, ca39tl, ca39tb, ca39tw, ca40tl, ca40tb, ca40tw, ca41tl, ca41tb, ca41tw, ca42tl, ca42tb, ca42tw, ca43tl, ca43tb, ca43tw, ca44tl, ca44tb, ca44tw, ca45tl, ca45tb, ca45tw, ca46tl, ca46tb, ca46tw, ca47tl, ca47tb, ca47tw, ca48tl, ca48tb, ca48tw, ca49tl, ca49tb, ca49tw, ca50tl, ca50tb, ca50tw, ca51tl, ca51tb, ca51tw, ca52tl, ca52tb, ca52tw, ca53tl, ca53tb, ca53tw, ca1bl, ca1bb, ca1bw, ca2bl, ca2bb, ca2bw, ca3bl, ca3bb, ca3bw, ca4bl, ca4bb, ca4bw, ca5bl, ca5bb, ca5bw, ca6bl, ca6bb, ca6bw, ca7bl, ca7bb, ca7bw, ca8bl, ca8bb, ca8bw, ca9bl, ca9bb, ca9bw, ca10bl, ca10bb, ca10bw, ca11bl, ca11bb, ca11bw, ca12bl, ca12bb, ca12bw, ca13bl, ca13bb, ca13bw, ca14bl, ca14bb, ca14bw, ca15bl, ca15bb, ca15bw, ca16bl, ca16bb, ca16bw, ca17bl, ca17bb, ca17bw, ca18bl, ca18bb, ca18bw, ca19bl, ca19bb, ca19bw, ca20bl, ca20bb, ca20bw, ca21bl, ca21bb, ca21bw, ca22bl, ca22bb, ca22bw, ca23bl, ca23bb, ca23bw, ca24bl, ca24bb, ca24bw, ca25bl, ca25bb, ca25bw, ca26bl, ca26bb, ca26bw, ca27bl, ca27bb, ca27bw, ca28bl, ca28bb, ca28bw, ca29bl, ca29bb, ca29bw, ca30bl, ca30bb, ca30bw, ca31bl, ca31bb, ca31bw, ca32bl, ca32bb, ca32bw, ca33bl, ca33bb, ca33bw, ca34bl, ca34bb, ca34bw, ca35bl, ca35bb, ca35bw, ca36bl, ca36bb, ca36bw, ca37bl, ca37bb, ca37bw, ca38bl, ca38bb, ca38bw, ca39bl, ca39bb, ca39bw, ca40bl, ca40bb, ca40bw, ca41bl, ca41bb, ca41bw, ca42bl, ca42bb, ca42bw, ca43bl, ca43bb, ca43bw, ca44bl, ca44bb, ca44bw, ca45bl, ca45bb, ca45bw, ca46bl, ca46bb, ca46bw, ca47bl, ca47bb, ca47bw, ca48bl, ca48bb, ca48bw, ca49bl, ca49bb, ca49bw, ca50bl, ca50bb, ca50bw, ca51bl, ca51bb, ca51bw, ca52bl, ca52bb, ca52bw, ca53bl, ca53bb, ca53bw, co1tl, co1tb, co1tw, co2tl, co2tb, co2tw, co3tl, co3tb, co3tw, co4tl, co4tb, co4tw, co5tl, co5tb, co5tw, co6tl, co6tb, co6tw, co7tl, co7tb, co7tw, co1bl, co1bb, co1bw, co2bl, co2bb, co2bw, co3bl, co3bb, co3bw, co4bl, co4bb, co4bw, co5bl, co5bb, co5bw, co6bl, co6bb, co6bw, co7bl, co7bb, co7bw, ct1bl, ct1bb, ct1bw, ct2bl, ct2bb, ct2bw, ct3bl, ct3bb, ct3bw, ct4bl, ct4bb, ct4bw, ct5bl, ct5bb, ct5bw, ct1tl, ct1tb, ct1tw, ct2tl, ct2tb, ct2tw, ct3tl, ct3tb, ct3tw, ct4tl, ct4tb, ct4tw, ct5tl, ct5tb, ct5tw, de1tl, de1tb, de1tw, de1bl, de1bb, de1bw, fl1bl, fl1bb, fl1bw, fl2bl, fl2bb, fl2bw, fl3bl, fl3bb, fl3bw, fl4bl, fl4bb, fl4bw, fl5bl, fl5bb, fl5bw, fl6bl, fl6bb, fl6bw, fl7bl, fl7bb, fl7bw, fl8bl, fl8bb, fl8bw, fl9bl, fl9bb, fl9bw, fl10bl, fl10bb, fl10bw, fl11bl, fl11bb, fl11bw, fl12bl, fl12bb, fl12bw, fl13bl, fl13bb, fl13bw, fl14bl, fl14bb, fl14bw, fl15bl, fl15bb, fl15bw, fl16bl, fl16bb, fl16bw, fl17bl, fl17bb, fl17bw, fl18bl, fl18bb, fl18bw, fl19bl, fl19bb, fl19bw, fl20bl, fl20bb, fl20bw, fl21bl, fl21bb, fl21bw, fl22bl, fl22bb, fl22bw, fl23bl, fl23bb, fl23bw, fl24bl, fl24bb, fl24bw, fl25bl, fl25bb, fl25bw, fl26bl, fl26bb, fl26bw, fl27bl, fl27bb, fl27bw, fl1tl, fl1tb, fl1tw, fl2tl, fl2tb, fl2tw, fl3tl, fl3tb, fl3tw, fl4tl, fl4tb, fl4tw, fl5tl, fl5tb, fl5tw, fl6tl, fl6tb, fl6tw, fl7tl, fl7tb, fl7tw, fl8tl, fl8tb, fl8tw, fl9tl, fl9tb, fl9tw, fl10tl, fl10tb, fl10tw, fl11tl, fl11tb, fl11tw, fl12tl, fl12tb, fl12tw, fl13tl, fl13tb, fl13tw, fl14tl, fl14tb, fl14tw, fl15tl, fl15tb, fl15tw, fl16tl, fl16tb, fl16tw, fl17tl, fl17tb, fl17tw, fl18tl, fl18tb, fl18tw, fl19tl, fl19tb, fl19tw, fl20tl, fl20tb, fl20tw, fl21tl, fl21tb, fl21tw, fl22tl, fl22tb, fl22tw, fl23tl, fl23tb, fl23tw, fl24tl, fl24tb, fl24tw, fl25tl, fl25tb, fl25tw, fl26tl, fl26tb, fl26tw, fl27tl, fl27tb, fl27tw, ga1tl, ga1tb, ga1tw, ga2tl, ga2tb, ga2tw, ga3tl, ga3tb, ga3tw, ga4tl, ga4tb, ga4tw, ga5tl, ga5tb, ga5tw, ga6tl, ga6tb, ga6tw, ga7tl, ga7tb, ga7tw, ga8tl, ga8tb, ga8tw, ga9tl, ga9tb, ga9tw, ga10tl, ga10tb, ga10tw, ga11tl, ga11tb, ga11tw, ga12tl, ga12tb, ga12tw, ga13tl, ga13tb, ga13tw, ga14tl, ga14tb, ga14tw, ga1bl, ga1bb, ga1bw, ga2bl, ga2bb, ga2bw, ga3bl, ga3bb, ga3bw, ga4bl, ga4bb, ga4bw, ga5bl, ga5bb, ga5bw, ga6bl, ga6bb, ga6bw, ga7bl, ga7bb, ga7bw, ga8bl, ga8bb, ga8bw, ga9bl, ga9bb, ga9bw, ga10bl, ga10bb, ga10bw, ga11bl, ga11bb, ga11bw, ga12bl, ga12bb, ga12bw, ga13bl, ga13bb, ga13bw, ga14bl, ga14bb, ga14bw, hi1tl, hi1tb, hi1tw, hi2tl, hi2tb, hi2tw, hi1bl, hi1bb, hi1bw, hi2bl, hi2bb, hi2bw, id1tl, id1tb, id1tw, id2tl, id2tb, id2tw, id1bl, id1bb, id1bw, id2bl, id2bb, id2bw, il1bl, il1bb, il1bw, il2bl, il2bb, il2bw, il3bl, il3bb, il3bw, il4bl, il4bb, il4bw, il5bl, il5bb, il5bw, il6bl, il6bb, il6bw, il7bl, il7bb, il7bw, il8bl, il8bb, il8bw, il9bl, il9bb, il9bw, il10bl, il10bb, il10bw, il11bl, il11bb, il11bw, il12bl, il12bb, il12bw, il13bl, il13bb, il13bw, il14bl, il14bb, il14bw, il15bl, il15bb, il15bw, il16bl, il16bb, il16bw, il17bl, il17bb, il17bw, il18bl, il18bb, il18bw, il1tl, il1tb, il1tw, il2tl, il2tb, il2tw, il3tl, il3tb, il3tw, il4tl, il4tb, il4tw, il5tl, il5tb, il5tw, il6tl, il6tb, il6tw, il7tl, il7tb, il7tw, il8tl, il8tb, il8tw, il9tl, il9tb, il9tw, il10tl, il10tb, il10tw, il11tl, il11tb, il11tw, il12tl, il12tb, il12tw, il13tl, il13tb, il13tw, il14tl, il14tb, il14tw, il15tl, il15tb, il15tw, il16tl, il16tb, il16tw, il17tl, il17tb, il17tw, il18tl, il18tb, il18tw, in1tl, in1tb, in1tw, in2tl, in2tb, in2tw, in3tl, in3tb, in3tw, in4tl, in4tb, in4tw, in5tl, in5tb, in5tw, in6tl, in6tb, in6tw, in7tl, in7tb, in7tw, in8tl, in8tb, in8tw, in9tl, in9tb, in9tw, in1bl, in1bb, in1bw, in2bl, in2bb, in2bw, in3bl, in3bb, in3bw, in4bl, in4bb, in4bw, in5bl, in5bb, in5bw, in6bl, in6bb, in6bw, in7bl, in7bb, in7bw, in8bl, in8bb, in8bw, in9bl, in9bb, in9bw, ia1tl, ia1tb, ia1tw, ia2tl, ia2tb, ia2tw, ia3tl, ia3tb, ia3tw, ia4tl, ia4tb, ia4tw, ia1bl, ia1bb, ia1bw, ia2bl, ia2bb, ia2bw, ia3bl, ia3bb, ia3bw, ia4bl, ia4bb, ia4bw, ks1tl, ks1tb, ks1tw, ks2tl, ks2tb, ks2tw, ks3tl, ks3tb, ks3tw, ks4tl, ks4tb, ks4tw, ks1bl, ks1bb, ks1bw, ks2bl, ks2bb, ks2bw, ks3bl, ks3bb, ks3bw, ks4bl, ks4bb, ks4bw, ky1tl, ky1tb, ky1tw, ky2tl, ky2tb, ky2tw, ky3tl, ky3tb, ky3tw, ky4tl, ky4tb, ky4tw, ky5tl, ky5tb, ky5tw, ky6tl, ky6tb, ky6tw, ky1bl, ky1bb, ky1bw, ky2bl, ky2bb, ky2bw, ky3bl, ky3bb, ky3bw, ky4bl, ky4bb, ky4bw, ky5bl, ky5bb, ky5bw, ky6bl, ky6bb, ky6bw, la1tl, la1tb, la1tw, la2tl, la2tb, la2tw, la3tl, la3tb, la3tw, la4tl, la4tb, la4tw, la5tl, la5tb, la5tw, la6tl, la6tb, la6tw, la1bl, la1bb, la1bw, la2bl, la2bb, la2bw, la3bl, la3bb, la3bw, la4bl, la4bb, la4bw, la5bl, la5bb, la5bw, la6bl, la6bb, la6bw, me1tl, me1tb, me1tw, me2tl, me2tb, me2tw, me1bl, me1bb, me1bw, me2bl, me2bb, me2bw, md1tl, md1tb, md1tw, md2tl, md2tb, md2tw, md3tl, md3tb, md3tw, md4tl, md4tb, md4tw, md5tl, md5tb, md5tw, md6tl, md6tb, md6tw, md7tl, md7tb, md7tw, md8tl, md8tb, md8tw, md1bl, md1bb, md1bw, md2bl, md2bb, md2bw, md3bl, md3bb, md3bw, md4bl, md4bb, md4bw, md5bl, md5bb, md5bw, md6bl, md6bb, md6bw, md7bl, md7bb, md7bw, md8bl, md8bb, md8bw, ma1tl, ma1tb, ma1tw, ma2tl, ma2tb, ma2tw, ma3tl, ma3tb, ma3tw, ma4tl, ma4tb, ma4tw, ma5tl, ma5tb, ma5tw, ma6tl, ma6tb, ma6tw, ma7tl, ma7tb, ma7tw, ma8tl, ma8tb, ma8tw, ma9tl, ma9tb, ma9tw, ma1bl, ma1bb, ma1bw, ma2bl, ma2bb, ma2bw, ma3bl, ma3bb, ma3bw, ma4bl, ma4bb, ma4bw, ma5bl, ma5bb, ma5bw, ma6bl, ma6bb, ma6bw, ma7bl, ma7bb, ma7bw, ma8bl, ma8bb, ma8bw, ma9bl, ma9bb, ma9bw, mi1bl, mi1bb, mi1bw, mi2bl, mi2bb, mi2bw, mi3bl, mi3bb, mi3bw, mi4bl, mi4bb, mi4bw, mi5bl, mi5bb, mi5bw, mi6bl, mi6bb, mi6bw, mi7bl, mi7bb, mi7bw, mi8bl, mi8bb, mi8bw, mi9bl, mi9bb, mi9bw, mi10bl, mi10bb, mi10bw, mi11bl, mi11bb, mi11bw, mi12bl, mi12bb, mi12bw, mi13bl, mi13bb, mi13bw, mi14bl, mi14bb, mi14bw, mi1tl, mi1tb, mi1tw, mi2tl, mi2tb, mi2tw, mi3tl, mi3tb, mi3tw, mi4tl, mi4tb, mi4tw, mi5tl, mi5tb, mi5tw, mi6tl, mi6tb, mi6tw, mi7tl, mi7tb, mi7tw, mi8tl, mi8tb, mi8tw, mi9tl, mi9tb, mi9tw, mi10tl, mi10tb, mi10tw, mi11tl, mi11tb, mi11tw, mi12tl, mi12tb, mi12tw, mi13tl, mi13tb, mi13tw, mi14tl, mi14tb, mi14tw, mn1tl, mn1tb, mn1tw, mn2tl, mn2tb, mn2tw, mn3tl, mn3tb, mn3tw, mn4tl, mn4tb, mn4tw, mn5tl, mn5tb, mn5tw, mn6tl, mn6tb, mn6tw, mn7tl, mn7tb, mn7tw, mn8tl, mn8tb, mn8tw, mn1bl, mn1bb, mn1bw, mn2bl, mn2bb, mn2bw, mn3bl, mn3bb, mn3bw, mn4bl, mn4bb, mn4bw, mn5bl, mn5bb, mn5bw, mn6bl, mn6bb, mn6bw, mn7bl, mn7bb, mn7bw, mn8bl, mn8bb, mn8bw, ms1tl, ms1tb, ms1tw, ms2tl, ms2tb, ms2tw, ms3tl, ms3tb, ms3tw, ms4tl, ms4tb, ms4tw, ms1bl, ms1bb, ms1bw, ms2bl, ms2bb, ms2bw, ms3bl, ms3bb, ms3bw, ms4bl, ms4bb, ms4bw, mo1tl, mo1tb, mo1tw, mo2tl, mo2tb, mo2tw, mo3tl, mo3tb, mo3tw, mo4tl, mo4tb, mo4tw, mo5tl, mo5tb, mo5tw, mo6tl, mo6tb, mo6tw, mo7tl, mo7tb, mo7tw, mo8tl, mo8tb, mo8tw, mo1bl, mo1bb, mo1bw, mo2bl, mo2bb, mo2bw, mo3bl, mo3bb, mo3bw, mo4bl, mo4bb, mo4bw, mo5bl, mo5bb, mo5bw, mo6bl, mo6bb, mo6bw, mo7bl, mo7bb, mo7bw, mo8bl, mo8bb, mo8bw, mt1tl, mt1tb, mt1tw, mt1bl, mt1bb, mt1bw, ne1tl, ne1tb, ne1tw, ne2tl, ne2tb, ne2tw, ne3tl, ne3tb, ne3tw, ne1bl, ne1bb, ne1bw, ne2bl, ne2bb, ne2bw, ne3bl, ne3bb, ne3bw, nv1tl, nv1tb, nv1tw, nv2tl, nv2tb, nv2tw, nv3tl, nv3tb, nv3tw, nv4tl, nv4tb, nv4tw, nv1bl, nv1bb, nv1bw, nv2bl, nv2bb, nv2bw, nv3bl, nv3bb, nv3bw, nv4bl, nv4bb, nv4bw, nh1tl, nh1tb, nh1tw, nh2tl, nh2tb, nh2tw, nh1bl, nh1bb, nh1bw, nh2bl, nh2bb, nh2bw, nj1bl, nj1bb, nj1bw, nj2bl, nj2bb, nj2bw, nj3bl, nj3bb, nj3bw, nj4bl, nj4bb, nj4bw, nj5bl, nj5bb, nj5bw, nj6bl, nj6bb, nj6bw, nj7bl, nj7bb, nj7bw, nj8bl, nj8bb, nj8bw, nj9bl, nj9bb, nj9bw, nj10bl, nj10bb, nj10bw, nj11bl, nj11bb, nj11bw, nj12bl, nj12bb, nj12bw, nj1tl, nj1tb, nj1tw, nj2tl, nj2tb, nj2tw, nj3tl, nj3tb, nj3tw, nj4tl, nj4tb, nj4tw, nj5tl, nj5tb, nj5tw, nj6tl, nj6tb, nj6tw, nj7tl, nj7tb, nj7tw, nj8tl, nj8tb, nj8tw, nj9tl, nj9tb, nj9tw, nj10tl, nj10tb, nj10tw, nj11tl, nj11tb, nj11tw, nj12tl, nj12tb, nj12tw, nm1tl, nm1tb, nm1tw, nm2tl, nm2tb, nm2tw, nm3tl, nm3tb, nm3tw, nm1bl, nm1bb, nm1bw, nm2bl, nm2bb, nm2bw, nm3bl, nm3bb, nm3bw, ny1tl, ny1tb, ny1tw, ny2tl, ny2tb, ny2tw, ny3tl, ny3tb, ny3tw, ny4tl, ny4tb, ny4tw, ny5tl, ny5tb, ny5tw, ny6tl, ny6tb, ny6tw, ny7tl, ny7tb, ny7tw, ny8tl, ny8tb, ny8tw, ny9tl, ny9tb, ny9tw, ny10tl, ny10tb, ny10tw, ny11tl, ny11tb, ny11tw, ny12tl, ny12tb, ny12tw, ny13tl, ny13tb, ny13tw, ny14tl, ny14tb, ny14tw, ny15tl, ny15tb, ny15tw, ny16tl, ny16tb, ny16tw, ny17tl, ny17tb, ny17tw, ny18tl, ny18tb, ny18tw, ny19tl, ny19tb, ny19tw, ny20tl, ny20tb, ny20tw, ny21tl, ny21tb, ny21tw, ny22tl, ny22tb, ny22tw, ny23tl, ny23tb, ny23tw, ny24tl, ny24tb, ny24tw, ny25tl, ny25tb, ny25tw, ny26tl, ny26tb, ny26tw, ny27tl, ny27tb, ny27tw, ny1bl, ny1bb, ny1bw, ny2bl, ny2bb, ny2bw, ny3bl, ny3bb, ny3bw, ny4bl, ny4bb, ny4bw, ny5bl, ny5bb, ny5bw, ny6bl, ny6bb, ny6bw, ny7bl, ny7bb, ny7bw, ny8bl, ny8bb, ny8bw, ny9bl, ny9bb, ny9bw, ny10bl, ny10bb, ny10bw, ny11bl, ny11bb, ny11bw, ny12bl, ny12bb, ny12bw, ny13bl, ny13bb, ny13bw, ny14bl, ny14bb, ny14bw, ny15bl, ny15bb, ny15bw, ny16bl, ny16bb, ny16bw, ny17bl, ny17bb, ny17bw, ny18bl, ny18bb, ny18bw, ny19bl, ny19bb, ny19bw, ny20bl, ny20bb, ny20bw, ny21bl, ny21bb, ny21bw, ny22bl, ny22bb, ny22bw, ny23bl, ny23bb, ny23bw, ny24bl, ny24bb, ny24bw, ny25bl, ny25bb, ny25bw, ny26bl, ny26bb, ny26bw, ny27bl, ny27bb, ny27bw, nc1bl, nc1bb, nc1bw, nc2bl, nc2bb, nc2bw, nc3bl, nc3bb, nc3bw, nc4bl, nc4bb, nc4bw, nc5bl, nc5bb, nc5bw, nc6bl, nc6bb, nc6bw, nc7bl, nc7bb, nc7bw, nc8bl, nc8bb, nc8bw, nc9bl, nc9bb, nc9bw, nc10bl, nc10bb, nc10bw, nc11bl, nc11bb, nc11bw, nc12bl, nc12bb, nc12bw, nc13bl, nc13bb, nc13bw, nc1tl, nc1tb, nc1tw, nc2tl, nc2tb, nc2tw, nc3tl, nc3tb, nc3tw, nc4tl, nc4tb, nc4tw, nc5tl, nc5tb, nc5tw, nc6tl, nc6tb, nc6tw, nc7tl, nc7tb, nc7tw, nc8tl, nc8tb, nc8tw, nc9tl, nc9tb, nc9tw, nc10tl, nc10tb, nc10tw, nc11tl, nc11tb, nc11tw, nc12tl, nc12tb, nc12tw, nc13tl, nc13tb, nc13tw, nd1tl, nd1tb, nd1tw, nd1bl, nd1bb, nd1bw, oh1bl, oh1bb, oh1bw, oh2bl, oh2bb, oh2bw, oh3bl, oh3bb, oh3bw, oh4bl, oh4bb, oh4bw, oh5bl, oh5bb, oh5bw, oh6bl, oh6bb, oh6bw, oh7bl, oh7bb, oh7bw, oh8bl, oh8bb, oh8bw, oh9bl, oh9bb, oh9bw, oh10bl, oh10bb, oh10bw, oh11bl, oh11bb, oh11bw, oh12bl, oh12bb, oh12bw, oh13bl, oh13bb, oh13bw, oh14bl, oh14bb, oh14bw, oh15bl, oh15bb, oh15bw, oh16bl, oh16bb, oh16bw, oh1tl, oh1tb, oh1tw, oh2tl, oh2tb, oh2tw, oh3tl, oh3tb, oh3tw, oh4tl, oh4tb, oh4tw, oh5tl, oh5tb, oh5tw, oh6tl, oh6tb, oh6tw, oh7tl, oh7tb, oh7tw, oh8tl, oh8tb, oh8tw, oh9tl, oh9tb, oh9tw, oh10tl, oh10tb, oh10tw, oh11tl, oh11tb, oh11tw, oh12tl, oh12tb, oh12tw, oh13tl, oh13tb, oh13tw, oh14tl, oh14tb, oh14tw, oh15tl, oh15tb, oh15tw, oh16tl, oh16tb, oh16tw, ok1tl, ok1tb, ok1tw, ok2tl, ok2tb, ok2tw, ok3tl, ok3tb, ok3tw, ok4tl, ok4tb, ok4tw, ok5tl, ok5tb, ok5tw, ok1bl, ok1bb, ok1bw, ok2bl, ok2bb, ok2bw, ok3bl, ok3bb, ok3bw, ok4bl, ok4bb, ok4bw, ok5bl, ok5bb, ok5bw, or1tl, or1tb, or1tw, or2tl, or2tb, or2tw, or3tl, or3tb, or3tw, or4tl, or4tb, or4tw, or5tl, or5tb, or5tw, or1bl, or1bb, or1bw, or2bl, or2bb, or2bw, or3bl, or3bb, or3bw, or4bl, or4bb, or4bw, or5bl, or5bb, or5bw, pa1bl, pa1bb, pa1bw, pa2bl, pa2bb, pa2bw, pa3bl, pa3bb, pa3bw, pa4bl, pa4bb, pa4bw, pa5bl, pa5bb, pa5bw, pa6bl, pa6bb, pa6bw, pa7bl, pa7bb, pa7bw, pa8bl, pa8bb, pa8bw, pa9bl, pa9bb, pa9bw, pa10bl, pa10bb, pa10bw, pa11bl, pa11bb, pa11bw, pa12bl, pa12bb, pa12bw, pa13bl, pa13bb, pa13bw, pa14bl, pa14bb, pa14bw, pa15bl, pa15bb, pa15bw, pa16bl, pa16bb, pa16bw, pa17bl, pa17bb, pa17bw, pa18bl, pa18bb, pa18bw, pa1tl, pa1tb, pa1tw, pa2tl, pa2tb, pa2tw, pa3tl, pa3tb, pa3tw, pa4tl, pa4tb, pa4tw, pa5tl, pa5tb, pa5tw, pa6tl, pa6tb, pa6tw, pa7tl, pa7tb, pa7tw, pa8tl, pa8tb, pa8tw, pa9tl, pa9tb, pa9tw, pa10tl, pa10tb, pa10tw, pa11tl, pa11tb, pa11tw, pa12tl, pa12tb, pa12tw, pa13tl, pa13tb, pa13tw, pa14tl, pa14tb, pa14tw, pa15tl, pa15tb, pa15tw, pa16tl, pa16tb, pa16tw, pa17tl, pa17tb, pa17tw, pa18tl, pa18tb, pa18tw, ri1tl, ri1tb, ri1tw, ri2tl, ri2tb, ri2tw, ri1bl, ri1bb, ri1bw, ri2bl, ri2bb, ri2bw, sc1tl, sc1tb, sc1tw, sc2tl, sc2tb, sc2tw, sc3tl, sc3tb, sc3tw, sc4tl, sc4tb, sc4tw, sc5tl, sc5tb, sc5tw, sc6tl, sc6tb, sc6tw, sc7tl, sc7tb, sc7tw, sc1bl, sc1bb, sc1bw, sc2bl, sc2bb, sc2bw, sc3bl, sc3bb, sc3bw, sc4bl, sc4bb, sc4bw, sc5bl, sc5bb, sc5bw, sc6bl, sc6bb, sc6bw, sc7bl, sc7bb, sc7bw, sd1tl, sd1tb, sd1tw, sd1bl, sd1bb, sd1bw, tn1tl, tn1tb, tn1tw, tn2tl, tn2tb, tn2tw, tn3tl, tn3tb, tn3tw, tn4tl, tn4tb, tn4tw, tn5tl, tn5tb, tn5tw, tn6tl, tn6tb, tn6tw, tn7tl, tn7tb, tn7tw, tn8tl, tn8tb, tn8tw, tn9tl, tn9tb, tn9tw, tn1bl, tn1bb, tn1bw, tn2bl, tn2bb, tn2bw, tn3bl, tn3bb, tn3bw, tn4bl, tn4bb, tn4bw, tn5bl, tn5bb, tn5bw, tn6bl, tn6bb, tn6bw, tn7bl, tn7bb, tn7bw, tn8bl, tn8bb, tn8bw, tn9bl, tn9bb, tn9bw, tx1tl, tx1tb, tx1tw, tx2tl, tx2tb, tx2tw, tx3tl, tx3tb, tx3tw, tx4tl, tx4tb, tx4tw, tx5tl, tx5tb, tx5tw, tx6tl, tx6tb, tx6tw, tx7tl, tx7tb, tx7tw, tx8tl, tx8tb, tx8tw, tx9tl, tx9tb, tx9tw, tx10tl, tx10tb, tx10tw, tx11tl, tx11tb, tx11tw, tx12tl, tx12tb, tx12tw, tx13tl, tx13tb, tx13tw, tx14tl, tx14tb, tx14tw, tx15tl, tx15tb, tx15tw, tx16tl, tx16tb, tx16tw, tx17tl, tx17tb, tx17tw, tx18tl, tx18tb, tx18tw, tx19tl, tx19tb, tx19tw, tx20tl, tx20tb, tx20tw, tx21tl, tx21tb, tx21tw, tx22tl, tx22tb, tx22tw, tx23tl, tx23tb, tx23tw, tx24tl, tx24tb, tx24tw, tx25tl, tx25tb, tx25tw, tx26tl, tx26tb, tx26tw, tx27tl, tx27tb, tx27tw, tx28tl, tx28tb, tx28tw, tx29tl, tx29tb, tx29tw, tx30tl, tx30tb, tx30tw, tx31tl, tx31tb, tx31tw, tx32tl, tx32tb, tx32tw, tx33tl, tx33tb, tx33tw, tx34tl, tx34tb, tx34tw, tx35tl, tx35tb, tx35tw, tx36tl, tx36tb, tx36tw, tx1bl, tx1bb, tx1bw, tx2bl, tx2bb, tx2bw, tx3bl, tx3bb, tx3bw, tx4bl, tx4bb, tx4bw, tx5bl, tx5bb, tx5bw, tx6bl, tx6bb, tx6bw, tx7bl, tx7bb, tx7bw, tx8bl, tx8bb, tx8bw, tx9bl, tx9bb, tx9bw, tx10bl, tx10bb, tx10bw, tx11bl, tx11bb, tx11bw, tx12bl, tx12bb, tx12bw, tx13bl, tx13bb, tx13bw, tx14bl, tx14bb, tx14bw, tx15bl, tx15bb, tx15bw, tx16bl, tx16bb, tx16bw, tx17bl, tx17bb, tx17bw, tx18bl, tx18bb, tx18bw, tx19bl, tx19bb, tx19bw, tx20bl, tx20bb, tx20bw, tx21bl, tx21bb, tx21bw, tx22bl, tx22bb, tx22bw, tx23bl, tx23bb, tx23bw, tx24bl, tx24bb, tx24bw, tx25bl, tx25bb, tx25bw, tx26bl, tx26bb, tx26bw, tx27bl, tx27bb, tx27bw, tx28bl, tx28bb, tx28bw, tx29bl, tx29bb, tx29bw, tx30bl, tx30bb, tx30bw, tx31bl, tx31bb, tx31bw, tx32bl, tx32bb, tx32bw, tx33bl, tx33bb, tx33bw, tx34bl, tx34bb, tx34bw, tx35bl, tx35bb, tx35bw, tx36bl, tx36bb, tx36bw, ut1tl, ut1tb, ut1tw, ut2tl, ut2tb, ut2tw, ut3tl, ut3tb, ut3tw, ut4tl, ut4tb, ut4tw, ut1bl, ut1bb, ut1bw, ut2bl, ut2bb, ut2bw, ut3bl, ut3bb, ut3bw, ut4bl, ut4bb, ut4bw, vt1tl, vt1tb, vt1tw, vt1bl, vt1bb, vt1bw, va1bl, va1bb, va1bw, va2bl, va2bb, va2bw, va3bl, va3bb, va3bw, va4bl, va4bb, va4bw, va5bl, va5bb, va5bw, va6bl, va6bb, va6bw, va7bl, va7bb, va7bw, va8bl, va8bb, va8bw, va9bl, va9bb, va9bw, va10bl, va10bb, va10bw, va11bl, va11bb, va11bw, va1tl, va1tb, va1tw, va2tl, va2tb, va2tw, va3tl, va3tb, va3tw, va4tl, va4tb, va4tw, va5tl, va5tb, va5tw, va6tl, va6tb, va6tw, va7tl, va7tb, va7tw, va8tl, va8tb, va8tw, va9tl, va9tb, va9tw, va10tl, va10tb, va10tw, va11tl, va11tb, va11tw, wa1bl, wa1bb, wa1bw, wa2bl, wa2bb, wa2bw, wa3bl, wa3bb, wa3bw, wa4bl, wa4bb, wa4bw, wa5bl, wa5bb, wa5bw, wa6bl, wa6bb, wa6bw, wa7bl, wa7bb, wa7bw, wa8bl, wa8bb, wa8bw, wa9bl, wa9bb, wa9bw, wa10bl, wa10bb, wa10bw, wa1tl, wa1tb, wa1tw, wa2tl, wa2tb, wa2tw, wa3tl, wa3tb, wa3tw, wa4tl, wa4tb, wa4tw, wa5tl, wa5tb, wa5tw, wa6tl, wa6tb, wa6tw, wa7tl, wa7tb, wa7tw, wa8tl, wa8tb, wa8tw, wa9tl, wa9tb, wa9tw, wa10tl, wa10tb, wa10tw, wv1tl, wv1tb, wv1tw, wv2tl, wv2tb, wv2tw, wv3tl, wv3tb, wv3tw, wv1bl, wv1bb, wv1bw, wv2bl, wv2bb, wv2bw, wv3bl, wv3bb, wv3bw, wi1tl, wi1tb, wi1tw, wi2tl, wi2tb, wi2tw, wi3tl, wi3tb, wi3tw, wi4tl, wi4tb, wi4tw, wi5tl, wi5tb, wi5tw, wi6tl, wi6tb, wi6tw, wi7tl, wi7tb, wi7tw, wi8tl, wi8tb, wi8tw, wi1bl, wi1bb, wi1bw, wi2bl, wi2bb, wi2bw, wi3bl, wi3bb, wi3bw, wi4bl, wi4bb, wi4bw, wi5bl, wi5bb, wi5bw, wi6bl, wi6bb, wi6bw, wi7bl, wi7bb, wi7bw, wi8bl, wi8bb, wi8bw, wy1tl, wy1tb, wy1tw, wy1bl, wy1bb, wy1bw = pickle.load(f)
+with open('/Volumes/TOSHIBA/usawithgender.txt', 'rb') as f:
+	al1tl, al1tb, al1tw, al2tl, al2tb, al2tw, al3tl, al3tb, al3tw, al4tl, al4tb, al4tw, al5tl, al5tb, al5tw, al6tl, al6tb, al6tw, al7tl, al7tb, al7tw, al1bl, al1bb, al1bw, al2bl, al2bb, al2bw, al3bl, al3bb, al3bw, al4bl, al4bb, al4bw, al5bl, al5bb, al5bw, al6bl, al6bb, al6bw, al7bl, al7bb, al7bw, ak1tl, ak1tb, ak1tw, ak1bl, ak1bb, ak1bw, az1tl, az1tb, az1tw, az2tl, az2tb, az2tw, az3tl, az3tb, az3tw, az4tl, az4tb, az4tw, az5tl, az5tb, az5tw, az6tl, az6tb, az6tw, az7tl, az7tb, az7tw, az8tl, az8tb, az8tw, az9tl, az9tb, az9tw, az1bl, az1bb, az1bw, az2bl, az2bb, az2bw, az3bl, az3bb, az3bw, az4bl, az4bb, az4bw, az5bl, az5bb, az5bw, az6bl, az6bb, az6bw, az7bl, az7bb, az7bw, az8bl, az8bb, az8bw, az9bl, az9bb, az9bw, ar1bl, ar1bb, ar1bw, ar2bl, ar2bb, ar2bw, ar3bl, ar3bb, ar3bw, ar4bl, ar4bb, ar4bw, ar1tl, ar1tb, ar1tw, ar2tl, ar2tb, ar2tw, ar3tl, ar3tb, ar3tw, ar4tl, ar4tb, ar4tw, ak1bl, ak1bb, ak1bw, ca1tl, ca1tb, ca1tw, ca2tl, ca2tb, ca2tw, ca3tl, ca3tb, ca3tw, ca4tl, ca4tb, ca4tw, ca5tl, ca5tb, ca5tw, ca6tl, ca6tb, ca6tw, ca7tl, ca7tb, ca7tw, ca8tl, ca8tb, ca8tw, ca9tl, ca9tb, ca9tw, ca10tl, ca10tb, ca10tw, ca11tl, ca11tb, ca11tw, ca12tl, ca12tb, ca12tw, ca13tl, ca13tb, ca13tw, ca14tl, ca14tb, ca14tw, ca15tl, ca15tb, ca15tw, ca16tl, ca16tb, ca16tw, ca17tl, ca17tb, ca17tw, ca18tl, ca18tb, ca18tw, ca19tl, ca19tb, ca19tw, ca20tl, ca20tb, ca20tw, ca21tl, ca21tb, ca21tw, ca22tl, ca22tb, ca22tw, ca23tl, ca23tb, ca23tw, ca24tl, ca24tb, ca24tw, ca25tl, ca25tb, ca25tw, ca26tl, ca26tb, ca26tw, ca27tl, ca27tb, ca27tw, ca28tl, ca28tb, ca28tw, ca29tl, ca29tb, ca29tw, ca30tl, ca30tb, ca30tw, ca31tl, ca31tb, ca31tw, ca32tl, ca32tb, ca32tw, ca33tl, ca33tb, ca33tw, ca34tl, ca34tb, ca34tw, ca35tl, ca35tb, ca35tw, ca36tl, ca36tb, ca36tw, ca37tl, ca37tb, ca37tw, ca38tl, ca38tb, ca38tw, ca39tl, ca39tb, ca39tw, ca40tl, ca40tb, ca40tw, ca41tl, ca41tb, ca41tw, ca42tl, ca42tb, ca42tw, ca43tl, ca43tb, ca43tw, ca44tl, ca44tb, ca44tw, ca45tl, ca45tb, ca45tw, ca46tl, ca46tb, ca46tw, ca47tl, ca47tb, ca47tw, ca48tl, ca48tb, ca48tw, ca49tl, ca49tb, ca49tw, ca50tl, ca50tb, ca50tw, ca51tl, ca51tb, ca51tw, ca52tl, ca52tb, ca52tw, ca53tl, ca53tb, ca53tw, ca1bl, ca1bb, ca1bw, ca2bl, ca2bb, ca2bw, ca3bl, ca3bb, ca3bw, ca4bl, ca4bb, ca4bw, ca5bl, ca5bb, ca5bw, ca6bl, ca6bb, ca6bw, ca7bl, ca7bb, ca7bw, ca8bl, ca8bb, ca8bw, ca9bl, ca9bb, ca9bw, ca10bl, ca10bb, ca10bw, ca11bl, ca11bb, ca11bw, ca12bl, ca12bb, ca12bw, ca13bl, ca13bb, ca13bw, ca14bl, ca14bb, ca14bw, ca15bl, ca15bb, ca15bw, ca16bl, ca16bb, ca16bw, ca17bl, ca17bb, ca17bw, ca18bl, ca18bb, ca18bw, ca19bl, ca19bb, ca19bw, ca20bl, ca20bb, ca20bw, ca21bl, ca21bb, ca21bw, ca22bl, ca22bb, ca22bw, ca23bl, ca23bb, ca23bw, ca24bl, ca24bb, ca24bw, ca25bl, ca25bb, ca25bw, ca26bl, ca26bb, ca26bw, ca27bl, ca27bb, ca27bw, ca28bl, ca28bb, ca28bw, ca29bl, ca29bb, ca29bw, ca30bl, ca30bb, ca30bw, ca31bl, ca31bb, ca31bw, ca32bl, ca32bb, ca32bw, ca33bl, ca33bb, ca33bw, ca34bl, ca34bb, ca34bw, ca35bl, ca35bb, ca35bw, ca36bl, ca36bb, ca36bw, ca37bl, ca37bb, ca37bw, ca38bl, ca38bb, ca38bw, ca39bl, ca39bb, ca39bw, ca40bl, ca40bb, ca40bw, ca41bl, ca41bb, ca41bw, ca42bl, ca42bb, ca42bw, ca43bl, ca43bb, ca43bw, ca44bl, ca44bb, ca44bw, ca45bl, ca45bb, ca45bw, ca46bl, ca46bb, ca46bw, ca47bl, ca47bb, ca47bw, ca48bl, ca48bb, ca48bw, ca49bl, ca49bb, ca49bw, ca50bl, ca50bb, ca50bw, ca51bl, ca51bb, ca51bw, ca52bl, ca52bb, ca52bw, ca53bl, ca53bb, ca53bw, co1tl, co1tb, co1tw, co2tl, co2tb, co2tw, co3tl, co3tb, co3tw, co4tl, co4tb, co4tw, co5tl, co5tb, co5tw, co6tl, co6tb, co6tw, co7tl, co7tb, co7tw, co1bl, co1bb, co1bw, co2bl, co2bb, co2bw, co3bl, co3bb, co3bw, co4bl, co4bb, co4bw, co5bl, co5bb, co5bw, co6bl, co6bb, co6bw, co7bl, co7bb, co7bw, ct1bl, ct1bb, ct1bw, ct2bl, ct2bb, ct2bw, ct3bl, ct3bb, ct3bw, ct4bl, ct4bb, ct4bw, ct5bl, ct5bb, ct5bw, ct1tl, ct1tb, ct1tw, ct2tl, ct2tb, ct2tw, ct3tl, ct3tb, ct3tw, ct4tl, ct4tb, ct4tw, ct5tl, ct5tb, ct5tw, de1tl, de1tb, de1tw, de1bl, de1bb, de1bw, fl1bl, fl1bb, fl1bw, fl2bl, fl2bb, fl2bw, fl3bl, fl3bb, fl3bw, fl4bl, fl4bb, fl4bw, fl5bl, fl5bb, fl5bw, fl6bl, fl6bb, fl6bw, fl7bl, fl7bb, fl7bw, fl8bl, fl8bb, fl8bw, fl9bl, fl9bb, fl9bw, fl10bl, fl10bb, fl10bw, fl11bl, fl11bb, fl11bw, fl12bl, fl12bb, fl12bw, fl13bl, fl13bb, fl13bw, fl14bl, fl14bb, fl14bw, fl15bl, fl15bb, fl15bw, fl16bl, fl16bb, fl16bw, fl17bl, fl17bb, fl17bw, fl18bl, fl18bb, fl18bw, fl19bl, fl19bb, fl19bw, fl20bl, fl20bb, fl20bw, fl21bl, fl21bb, fl21bw, fl22bl, fl22bb, fl22bw, fl23bl, fl23bb, fl23bw, fl24bl, fl24bb, fl24bw, fl25bl, fl25bb, fl25bw, fl26bl, fl26bb, fl26bw, fl27bl, fl27bb, fl27bw, fl1tl, fl1tb, fl1tw, fl2tl, fl2tb, fl2tw, fl3tl, fl3tb, fl3tw, fl4tl, fl4tb, fl4tw, fl5tl, fl5tb, fl5tw, fl6tl, fl6tb, fl6tw, fl7tl, fl7tb, fl7tw, fl8tl, fl8tb, fl8tw, fl9tl, fl9tb, fl9tw, fl10tl, fl10tb, fl10tw, fl11tl, fl11tb, fl11tw, fl12tl, fl12tb, fl12tw, fl13tl, fl13tb, fl13tw, fl14tl, fl14tb, fl14tw, fl15tl, fl15tb, fl15tw, fl16tl, fl16tb, fl16tw, fl17tl, fl17tb, fl17tw, fl18tl, fl18tb, fl18tw, fl19tl, fl19tb, fl19tw, fl20tl, fl20tb, fl20tw, fl21tl, fl21tb, fl21tw, fl22tl, fl22tb, fl22tw, fl23tl, fl23tb, fl23tw, fl24tl, fl24tb, fl24tw, fl25tl, fl25tb, fl25tw, fl26tl, fl26tb, fl26tw, fl27tl, fl27tb, fl27tw, ga1tl, ga1tb, ga1tw, ga2tl, ga2tb, ga2tw, ga3tl, ga3tb, ga3tw, ga4tl, ga4tb, ga4tw, ga5tl, ga5tb, ga5tw, ga6tl, ga6tb, ga6tw, ga7tl, ga7tb, ga7tw, ga8tl, ga8tb, ga8tw, ga9tl, ga9tb, ga9tw, ga10tl, ga10tb, ga10tw, ga11tl, ga11tb, ga11tw, ga12tl, ga12tb, ga12tw, ga13tl, ga13tb, ga13tw, ga14tl, ga14tb, ga14tw, ga1bl, ga1bb, ga1bw, ga2bl, ga2bb, ga2bw, ga3bl, ga3bb, ga3bw, ga4bl, ga4bb, ga4bw, ga5bl, ga5bb, ga5bw, ga6bl, ga6bb, ga6bw, ga7bl, ga7bb, ga7bw, ga8bl, ga8bb, ga8bw, ga9bl, ga9bb, ga9bw, ga10bl, ga10bb, ga10bw, ga11bl, ga11bb, ga11bw, ga12bl, ga12bb, ga12bw, ga13bl, ga13bb, ga13bw, ga14bl, ga14bb, ga14bw, hi1tl, hi1tb, hi1tw, hi2tl, hi2tb, hi2tw, hi1bl, hi1bb, hi1bw, hi2bl, hi2bb, hi2bw, id1tl, id1tb, id1tw, id2tl, id2tb, id2tw, id1bl, id1bb, id1bw, id2bl, id2bb, id2bw, il1bl, il1bb, il1bw, il2bl, il2bb, il2bw, il3bl, il3bb, il3bw, il4bl, il4bb, il4bw, il5bl, il5bb, il5bw, il6bl, il6bb, il6bw, il7bl, il7bb, il7bw, il8bl, il8bb, il8bw, il9bl, il9bb, il9bw, il10bl, il10bb, il10bw, il11bl, il11bb, il11bw, il12bl, il12bb, il12bw, il13bl, il13bb, il13bw, il14bl, il14bb, il14bw, il15bl, il15bb, il15bw, il16bl, il16bb, il16bw, il17bl, il17bb, il17bw, il18bl, il18bb, il18bw, il1tl, il1tb, il1tw, il2tl, il2tb, il2tw, il3tl, il3tb, il3tw, il4tl, il4tb, il4tw, il5tl, il5tb, il5tw, il6tl, il6tb, il6tw, il7tl, il7tb, il7tw, il8tl, il8tb, il8tw, il9tl, il9tb, il9tw, il10tl, il10tb, il10tw, il11tl, il11tb, il11tw, il12tl, il12tb, il12tw, il13tl, il13tb, il13tw, il14tl, il14tb, il14tw, il15tl, il15tb, il15tw, il16tl, il16tb, il16tw, il17tl, il17tb, il17tw, il18tl, il18tb, il18tw, in1tl, in1tb, in1tw, in2tl, in2tb, in2tw, in3tl, in3tb, in3tw, in4tl, in4tb, in4tw, in5tl, in5tb, in5tw, in6tl, in6tb, in6tw, in7tl, in7tb, in7tw, in8tl, in8tb, in8tw, in9tl, in9tb, in9tw, in1bl, in1bb, in1bw, in2bl, in2bb, in2bw, in3bl, in3bb, in3bw, in4bl, in4bb, in4bw, in5bl, in5bb, in5bw, in6bl, in6bb, in6bw, in7bl, in7bb, in7bw, in8bl, in8bb, in8bw, in9bl, in9bb, in9bw, ia1tl, ia1tb, ia1tw, ia2tl, ia2tb, ia2tw, ia3tl, ia3tb, ia3tw, ia4tl, ia4tb, ia4tw, ia1bl, ia1bb, ia1bw, ia2bl, ia2bb, ia2bw, ia3bl, ia3bb, ia3bw, ia4bl, ia4bb, ia4bw, ks1tl, ks1tb, ks1tw, ks2tl, ks2tb, ks2tw, ks3tl, ks3tb, ks3tw, ks4tl, ks4tb, ks4tw, ks1bl, ks1bb, ks1bw, ks2bl, ks2bb, ks2bw, ks3bl, ks3bb, ks3bw, ks4bl, ks4bb, ks4bw, ky1tl, ky1tb, ky1tw, ky2tl, ky2tb, ky2tw, ky3tl, ky3tb, ky3tw, ky4tl, ky4tb, ky4tw, ky5tl, ky5tb, ky5tw, ky6tl, ky6tb, ky6tw, ky1bl, ky1bb, ky1bw, ky2bl, ky2bb, ky2bw, ky3bl, ky3bb, ky3bw, ky4bl, ky4bb, ky4bw, ky5bl, ky5bb, ky5bw, ky6bl, ky6bb, ky6bw, la1tl, la1tb, la1tw, la2tl, la2tb, la2tw, la3tl, la3tb, la3tw, la4tl, la4tb, la4tw, la5tl, la5tb, la5tw, la6tl, la6tb, la6tw, la1bl, la1bb, la1bw, la2bl, la2bb, la2bw, la3bl, la3bb, la3bw, la4bl, la4bb, la4bw, la5bl, la5bb, la5bw, la6bl, la6bb, la6bw, me1tl, me1tb, me1tw, me2tl, me2tb, me2tw, me1bl, me1bb, me1bw, me2bl, me2bb, me2bw, md1tl, md1tb, md1tw, md2tl, md2tb, md2tw, md3tl, md3tb, md3tw, md4tl, md4tb, md4tw, md5tl, md5tb, md5tw, md6tl, md6tb, md6tw, md7tl, md7tb, md7tw, md8tl, md8tb, md8tw, md1bl, md1bb, md1bw, md2bl, md2bb, md2bw, md3bl, md3bb, md3bw, md4bl, md4bb, md4bw, md5bl, md5bb, md5bw, md6bl, md6bb, md6bw, md7bl, md7bb, md7bw, md8bl, md8bb, md8bw, ma1tl, ma1tb, ma1tw, ma2tl, ma2tb, ma2tw, ma3tl, ma3tb, ma3tw, ma4tl, ma4tb, ma4tw, ma5tl, ma5tb, ma5tw, ma6tl, ma6tb, ma6tw, ma7tl, ma7tb, ma7tw, ma8tl, ma8tb, ma8tw, ma9tl, ma9tb, ma9tw, ma1bl, ma1bb, ma1bw, ma2bl, ma2bb, ma2bw, ma3bl, ma3bb, ma3bw, ma4bl, ma4bb, ma4bw, ma5bl, ma5bb, ma5bw, ma6bl, ma6bb, ma6bw, ma7bl, ma7bb, ma7bw, ma8bl, ma8bb, ma8bw, ma9bl, ma9bb, ma9bw, mi1bl, mi1bb, mi1bw, mi2bl, mi2bb, mi2bw, mi3bl, mi3bb, mi3bw, mi4bl, mi4bb, mi4bw, mi5bl, mi5bb, mi5bw, mi6bl, mi6bb, mi6bw, mi7bl, mi7bb, mi7bw, mi8bl, mi8bb, mi8bw, mi9bl, mi9bb, mi9bw, mi10bl, mi10bb, mi10bw, mi11bl, mi11bb, mi11bw, mi12bl, mi12bb, mi12bw, mi13bl, mi13bb, mi13bw, mi14bl, mi14bb, mi14bw, mi1tl, mi1tb, mi1tw, mi2tl, mi2tb, mi2tw, mi3tl, mi3tb, mi3tw, mi4tl, mi4tb, mi4tw, mi5tl, mi5tb, mi5tw, mi6tl, mi6tb, mi6tw, mi7tl, mi7tb, mi7tw, mi8tl, mi8tb, mi8tw, mi9tl, mi9tb, mi9tw, mi10tl, mi10tb, mi10tw, mi11tl, mi11tb, mi11tw, mi12tl, mi12tb, mi12tw, mi13tl, mi13tb, mi13tw, mi14tl, mi14tb, mi14tw, mn1tl, mn1tb, mn1tw, mn2tl, mn2tb, mn2tw, mn3tl, mn3tb, mn3tw, mn4tl, mn4tb, mn4tw, mn5tl, mn5tb, mn5tw, mn6tl, mn6tb, mn6tw, mn7tl, mn7tb, mn7tw, mn8tl, mn8tb, mn8tw, mn1bl, mn1bb, mn1bw, mn2bl, mn2bb, mn2bw, mn3bl, mn3bb, mn3bw, mn4bl, mn4bb, mn4bw, mn5bl, mn5bb, mn5bw, mn6bl, mn6bb, mn6bw, mn7bl, mn7bb, mn7bw, mn8bl, mn8bb, mn8bw, ms1tl, ms1tb, ms1tw, ms2tl, ms2tb, ms2tw, ms3tl, ms3tb, ms3tw, ms4tl, ms4tb, ms4tw, ms1bl, ms1bb, ms1bw, ms2bl, ms2bb, ms2bw, ms3bl, ms3bb, ms3bw, ms4bl, ms4bb, ms4bw, mo1tl, mo1tb, mo1tw, mo2tl, mo2tb, mo2tw, mo3tl, mo3tb, mo3tw, mo4tl, mo4tb, mo4tw, mo5tl, mo5tb, mo5tw, mo6tl, mo6tb, mo6tw, mo7tl, mo7tb, mo7tw, mo8tl, mo8tb, mo8tw, mo1bl, mo1bb, mo1bw, mo2bl, mo2bb, mo2bw, mo3bl, mo3bb, mo3bw, mo4bl, mo4bb, mo4bw, mo5bl, mo5bb, mo5bw, mo6bl, mo6bb, mo6bw, mo7bl, mo7bb, mo7bw, mo8bl, mo8bb, mo8bw, mt1tl, mt1tb, mt1tw, mt1bl, mt1bb, mt1bw, ne1tl, ne1tb, ne1tw, ne2tl, ne2tb, ne2tw, ne3tl, ne3tb, ne3tw, ne1bl, ne1bb, ne1bw, ne2bl, ne2bb, ne2bw, ne3bl, ne3bb, ne3bw, nv1tl, nv1tb, nv1tw, nv2tl, nv2tb, nv2tw, nv3tl, nv3tb, nv3tw, nv4tl, nv4tb, nv4tw, nv1bl, nv1bb, nv1bw, nv2bl, nv2bb, nv2bw, nv3bl, nv3bb, nv3bw, nv4bl, nv4bb, nv4bw, nh1tl, nh1tb, nh1tw, nh2tl, nh2tb, nh2tw, nh1bl, nh1bb, nh1bw, nh2bl, nh2bb, nh2bw, nj1bl, nj1bb, nj1bw, nj2bl, nj2bb, nj2bw, nj3bl, nj3bb, nj3bw, nj4bl, nj4bb, nj4bw, nj5bl, nj5bb, nj5bw, nj6bl, nj6bb, nj6bw, nj7bl, nj7bb, nj7bw, nj8bl, nj8bb, nj8bw, nj9bl, nj9bb, nj9bw, nj10bl, nj10bb, nj10bw, nj11bl, nj11bb, nj11bw, nj12bl, nj12bb, nj12bw, nj1tl, nj1tb, nj1tw, nj2tl, nj2tb, nj2tw, nj3tl, nj3tb, nj3tw, nj4tl, nj4tb, nj4tw, nj5tl, nj5tb, nj5tw, nj6tl, nj6tb, nj6tw, nj7tl, nj7tb, nj7tw, nj8tl, nj8tb, nj8tw, nj9tl, nj9tb, nj9tw, nj10tl, nj10tb, nj10tw, nj11tl, nj11tb, nj11tw, nj12tl, nj12tb, nj12tw, nm1tl, nm1tb, nm1tw, nm2tl, nm2tb, nm2tw, nm3tl, nm3tb, nm3tw, nm1bl, nm1bb, nm1bw, nm2bl, nm2bb, nm2bw, nm3bl, nm3bb, nm3bw, ny1tl, ny1tb, ny1tw, ny2tl, ny2tb, ny2tw, ny3tl, ny3tb, ny3tw, ny4tl, ny4tb, ny4tw, ny5tl, ny5tb, ny5tw, ny6tl, ny6tb, ny6tw, ny7tl, ny7tb, ny7tw, ny8tl, ny8tb, ny8tw, ny9tl, ny9tb, ny9tw, ny10tl, ny10tb, ny10tw, ny11tl, ny11tb, ny11tw, ny12tl, ny12tb, ny12tw, ny13tl, ny13tb, ny13tw, ny14tl, ny14tb, ny14tw, ny15tl, ny15tb, ny15tw, ny16tl, ny16tb, ny16tw, ny17tl, ny17tb, ny17tw, ny18tl, ny18tb, ny18tw, ny19tl, ny19tb, ny19tw, ny20tl, ny20tb, ny20tw, ny21tl, ny21tb, ny21tw, ny22tl, ny22tb, ny22tw, ny23tl, ny23tb, ny23tw, ny24tl, ny24tb, ny24tw, ny25tl, ny25tb, ny25tw, ny26tl, ny26tb, ny26tw, ny27tl, ny27tb, ny27tw, ny1bl, ny1bb, ny1bw, ny2bl, ny2bb, ny2bw, ny3bl, ny3bb, ny3bw, ny4bl, ny4bb, ny4bw, ny5bl, ny5bb, ny5bw, ny6bl, ny6bb, ny6bw, ny7bl, ny7bb, ny7bw, ny8bl, ny8bb, ny8bw, ny9bl, ny9bb, ny9bw, ny10bl, ny10bb, ny10bw, ny11bl, ny11bb, ny11bw, ny12bl, ny12bb, ny12bw, ny13bl, ny13bb, ny13bw, ny14bl, ny14bb, ny14bw, ny15bl, ny15bb, ny15bw, ny16bl, ny16bb, ny16bw, ny17bl, ny17bb, ny17bw, ny18bl, ny18bb, ny18bw, ny19bl, ny19bb, ny19bw, ny20bl, ny20bb, ny20bw, ny21bl, ny21bb, ny21bw, ny22bl, ny22bb, ny22bw, ny23bl, ny23bb, ny23bw, ny24bl, ny24bb, ny24bw, ny25bl, ny25bb, ny25bw, ny26bl, ny26bb, ny26bw, ny27bl, ny27bb, ny27bw, nc1bl, nc1bb, nc1bw, nc2bl, nc2bb, nc2bw, nc3bl, nc3bb, nc3bw, nc4bl, nc4bb, nc4bw, nc5bl, nc5bb, nc5bw, nc6bl, nc6bb, nc6bw, nc7bl, nc7bb, nc7bw, nc8bl, nc8bb, nc8bw, nc9bl, nc9bb, nc9bw, nc10bl, nc10bb, nc10bw, nc11bl, nc11bb, nc11bw, nc12bl, nc12bb, nc12bw, nc13bl, nc13bb, nc13bw, nc1tl, nc1tb, nc1tw, nc2tl, nc2tb, nc2tw, nc3tl, nc3tb, nc3tw, nc4tl, nc4tb, nc4tw, nc5tl, nc5tb, nc5tw, nc6tl, nc6tb, nc6tw, nc7tl, nc7tb, nc7tw, nc8tl, nc8tb, nc8tw, nc9tl, nc9tb, nc9tw, nc10tl, nc10tb, nc10tw, nc11tl, nc11tb, nc11tw, nc12tl, nc12tb, nc12tw, nc13tl, nc13tb, nc13tw, nd1tl, nd1tb, nd1tw, nd1bl, nd1bb, nd1bw, oh1bl, oh1bb, oh1bw, oh2bl, oh2bb, oh2bw, oh3bl, oh3bb, oh3bw, oh4bl, oh4bb, oh4bw, oh5bl, oh5bb, oh5bw, oh6bl, oh6bb, oh6bw, oh7bl, oh7bb, oh7bw, oh8bl, oh8bb, oh8bw, oh9bl, oh9bb, oh9bw, oh10bl, oh10bb, oh10bw, oh11bl, oh11bb, oh11bw, oh12bl, oh12bb, oh12bw, oh13bl, oh13bb, oh13bw, oh14bl, oh14bb, oh14bw, oh15bl, oh15bb, oh15bw, oh16bl, oh16bb, oh16bw, oh1tl, oh1tb, oh1tw, oh2tl, oh2tb, oh2tw, oh3tl, oh3tb, oh3tw, oh4tl, oh4tb, oh4tw, oh5tl, oh5tb, oh5tw, oh6tl, oh6tb, oh6tw, oh7tl, oh7tb, oh7tw, oh8tl, oh8tb, oh8tw, oh9tl, oh9tb, oh9tw, oh10tl, oh10tb, oh10tw, oh11tl, oh11tb, oh11tw, oh12tl, oh12tb, oh12tw, oh13tl, oh13tb, oh13tw, oh14tl, oh14tb, oh14tw, oh15tl, oh15tb, oh15tw, oh16tl, oh16tb, oh16tw, ok1tl, ok1tb, ok1tw, ok2tl, ok2tb, ok2tw, ok3tl, ok3tb, ok3tw, ok4tl, ok4tb, ok4tw, ok5tl, ok5tb, ok5tw, ok1bl, ok1bb, ok1bw, ok2bl, ok2bb, ok2bw, ok3bl, ok3bb, ok3bw, ok4bl, ok4bb, ok4bw, ok5bl, ok5bb, ok5bw, or1tl, or1tb, or1tw, or2tl, or2tb, or2tw, or3tl, or3tb, or3tw, or4tl, or4tb, or4tw, or5tl, or5tb, or5tw, or1bl, or1bb, or1bw, or2bl, or2bb, or2bw, or3bl, or3bb, or3bw, or4bl, or4bb, or4bw, or5bl, or5bb, or5bw, pa1bl, pa1bb, pa1bw, pa2bl, pa2bb, pa2bw, pa3bl, pa3bb, pa3bw, pa4bl, pa4bb, pa4bw, pa5bl, pa5bb, pa5bw, pa6bl, pa6bb, pa6bw, pa7bl, pa7bb, pa7bw, pa8bl, pa8bb, pa8bw, pa9bl, pa9bb, pa9bw, pa10bl, pa10bb, pa10bw, pa11bl, pa11bb, pa11bw, pa12bl, pa12bb, pa12bw, pa13bl, pa13bb, pa13bw, pa14bl, pa14bb, pa14bw, pa15bl, pa15bb, pa15bw, pa16bl, pa16bb, pa16bw, pa17bl, pa17bb, pa17bw, pa18bl, pa18bb, pa18bw, pa1tl, pa1tb, pa1tw, pa2tl, pa2tb, pa2tw, pa3tl, pa3tb, pa3tw, pa4tl, pa4tb, pa4tw, pa5tl, pa5tb, pa5tw, pa6tl, pa6tb, pa6tw, pa7tl, pa7tb, pa7tw, pa8tl, pa8tb, pa8tw, pa9tl, pa9tb, pa9tw, pa10tl, pa10tb, pa10tw, pa11tl, pa11tb, pa11tw, pa12tl, pa12tb, pa12tw, pa13tl, pa13tb, pa13tw, pa14tl, pa14tb, pa14tw, pa15tl, pa15tb, pa15tw, pa16tl, pa16tb, pa16tw, pa17tl, pa17tb, pa17tw, pa18tl, pa18tb, pa18tw, ri1tl, ri1tb, ri1tw, ri2tl, ri2tb, ri2tw, ri1bl, ri1bb, ri1bw, ri2bl, ri2bb, ri2bw, sc1tl, sc1tb, sc1tw, sc2tl, sc2tb, sc2tw, sc3tl, sc3tb, sc3tw, sc4tl, sc4tb, sc4tw, sc5tl, sc5tb, sc5tw, sc6tl, sc6tb, sc6tw, sc7tl, sc7tb, sc7tw, sc1bl, sc1bb, sc1bw, sc2bl, sc2bb, sc2bw, sc3bl, sc3bb, sc3bw, sc4bl, sc4bb, sc4bw, sc5bl, sc5bb, sc5bw, sc6bl, sc6bb, sc6bw, sc7bl, sc7bb, sc7bw, sd1tl, sd1tb, sd1tw, sd1bl, sd1bb, sd1bw, tn1tl, tn1tb, tn1tw, tn2tl, tn2tb, tn2tw, tn3tl, tn3tb, tn3tw, tn4tl, tn4tb, tn4tw, tn5tl, tn5tb, tn5tw, tn6tl, tn6tb, tn6tw, tn7tl, tn7tb, tn7tw, tn8tl, tn8tb, tn8tw, tn9tl, tn9tb, tn9tw, tn1bl, tn1bb, tn1bw, tn2bl, tn2bb, tn2bw, tn3bl, tn3bb, tn3bw, tn4bl, tn4bb, tn4bw, tn5bl, tn5bb, tn5bw, tn6bl, tn6bb, tn6bw, tn7bl, tn7bb, tn7bw, tn8bl, tn8bb, tn8bw, tn9bl, tn9bb, tn9bw, tx1tl, tx1tb, tx1tw, tx2tl, tx2tb, tx2tw, tx3tl, tx3tb, tx3tw, tx4tl, tx4tb, tx4tw, tx5tl, tx5tb, tx5tw, tx6tl, tx6tb, tx6tw, tx7tl, tx7tb, tx7tw, tx8tl, tx8tb, tx8tw, tx9tl, tx9tb, tx9tw, tx10tl, tx10tb, tx10tw, tx11tl, tx11tb, tx11tw, tx12tl, tx12tb, tx12tw, tx13tl, tx13tb, tx13tw, tx14tl, tx14tb, tx14tw, tx15tl, tx15tb, tx15tw, tx16tl, tx16tb, tx16tw, tx17tl, tx17tb, tx17tw, tx18tl, tx18tb, tx18tw, tx19tl, tx19tb, tx19tw, tx20tl, tx20tb, tx20tw, tx21tl, tx21tb, tx21tw, tx22tl, tx22tb, tx22tw, tx23tl, tx23tb, tx23tw, tx24tl, tx24tb, tx24tw, tx25tl, tx25tb, tx25tw, tx26tl, tx26tb, tx26tw, tx27tl, tx27tb, tx27tw, tx28tl, tx28tb, tx28tw, tx29tl, tx29tb, tx29tw, tx30tl, tx30tb, tx30tw, tx31tl, tx31tb, tx31tw, tx32tl, tx32tb, tx32tw, tx33tl, tx33tb, tx33tw, tx34tl, tx34tb, tx34tw, tx35tl, tx35tb, tx35tw, tx36tl, tx36tb, tx36tw, tx1bl, tx1bb, tx1bw, tx2bl, tx2bb, tx2bw, tx3bl, tx3bb, tx3bw, tx4bl, tx4bb, tx4bw, tx5bl, tx5bb, tx5bw, tx6bl, tx6bb, tx6bw, tx7bl, tx7bb, tx7bw, tx8bl, tx8bb, tx8bw, tx9bl, tx9bb, tx9bw, tx10bl, tx10bb, tx10bw, tx11bl, tx11bb, tx11bw, tx12bl, tx12bb, tx12bw, tx13bl, tx13bb, tx13bw, tx14bl, tx14bb, tx14bw, tx15bl, tx15bb, tx15bw, tx16bl, tx16bb, tx16bw, tx17bl, tx17bb, tx17bw, tx18bl, tx18bb, tx18bw, tx19bl, tx19bb, tx19bw, tx20bl, tx20bb, tx20bw, tx21bl, tx21bb, tx21bw, tx22bl, tx22bb, tx22bw, tx23bl, tx23bb, tx23bw, tx24bl, tx24bb, tx24bw, tx25bl, tx25bb, tx25bw, tx26bl, tx26bb, tx26bw, tx27bl, tx27bb, tx27bw, tx28bl, tx28bb, tx28bw, tx29bl, tx29bb, tx29bw, tx30bl, tx30bb, tx30bw, tx31bl, tx31bb, tx31bw, tx32bl, tx32bb, tx32bw, tx33bl, tx33bb, tx33bw, tx34bl, tx34bb, tx34bw, tx35bl, tx35bb, tx35bw, tx36bl, tx36bb, tx36bw, ut1tl, ut1tb, ut1tw, ut2tl, ut2tb, ut2tw, ut3tl, ut3tb, ut3tw, ut4tl, ut4tb, ut4tw, ut1bl, ut1bb, ut1bw, ut2bl, ut2bb, ut2bw, ut3bl, ut3bb, ut3bw, ut4bl, ut4bb, ut4bw, vt1tl, vt1tb, vt1tw, vt1bl, vt1bb, vt1bw, va1bl, va1bb, va1bw, va2bl, va2bb, va2bw, va3bl, va3bb, va3bw, va4bl, va4bb, va4bw, va5bl, va5bb, va5bw, va6bl, va6bb, va6bw, va7bl, va7bb, va7bw, va8bl, va8bb, va8bw, va9bl, va9bb, va9bw, va10bl, va10bb, va10bw, va11bl, va11bb, va11bw, va1tl, va1tb, va1tw, va2tl, va2tb, va2tw, va3tl, va3tb, va3tw, va4tl, va4tb, va4tw, va5tl, va5tb, va5tw, va6tl, va6tb, va6tw, va7tl, va7tb, va7tw, va8tl, va8tb, va8tw, va9tl, va9tb, va9tw, va10tl, va10tb, va10tw, va11tl, va11tb, va11tw, wa1bl, wa1bb, wa1bw, wa2bl, wa2bb, wa2bw, wa3bl, wa3bb, wa3bw, wa4bl, wa4bb, wa4bw, wa5bl, wa5bb, wa5bw, wa6bl, wa6bb, wa6bw, wa7bl, wa7bb, wa7bw, wa8bl, wa8bb, wa8bw, wa9bl, wa9bb, wa9bw, wa10bl, wa10bb, wa10bw, wa1tl, wa1tb, wa1tw, wa2tl, wa2tb, wa2tw, wa3tl, wa3tb, wa3tw, wa4tl, wa4tb, wa4tw, wa5tl, wa5tb, wa5tw, wa6tl, wa6tb, wa6tw, wa7tl, wa7tb, wa7tw, wa8tl, wa8tb, wa8tw, wa9tl, wa9tb, wa9tw, wa10tl, wa10tb, wa10tw, wv1tl, wv1tb, wv1tw, wv2tl, wv2tb, wv2tw, wv3tl, wv3tb, wv3tw, wv1bl, wv1bb, wv1bw, wv2bl, wv2bb, wv2bw, wv3bl, wv3bb, wv3bw, wi1tl, wi1tb, wi1tw, wi2tl, wi2tb, wi2tw, wi3tl, wi3tb, wi3tw, wi4tl, wi4tb, wi4tw, wi5tl, wi5tb, wi5tw, wi6tl, wi6tb, wi6tw, wi7tl, wi7tb, wi7tw, wi8tl, wi8tb, wi8tw, wi1bl, wi1bb, wi1bw, wi2bl, wi2bb, wi2bw, wi3bl, wi3bb, wi3bw, wi4bl, wi4bb, wi4bw, wi5bl, wi5bb, wi5bw, wi6bl, wi6bb, wi6bw, wi7bl, wi7bb, wi7bw, wi8bl, wi8bb, wi8bw, wy1tl, wy1tb, wy1tw, wy1bl, wy1bb, wy1bw = pickle.load(f)
 
 
 # connect to MongoDB, change the << MONGODB URL >> to reflect your own connection string
@@ -275,391 +275,391 @@ for tw in cursor:
     if(district != "null"):
         if("mo1" in district):
             sortEthnic(mo1tl, mo1tb, mo1tw, tw)
-        elif("mo2" in district):
+        if("mo2" in district):
             sortEthnic(mo2tl, mo2tb, mo2tw, tw)
-        elif("mo3" in district):
+        if("mo3" in district):
             sortEthnic(mo3tl, mo3tb, mo3tw, tw)
-        elif("mo4" in district):
+        if("mo4" in district):
             sortEthnic(mo4tl, mo4tb, mo4tw, tw)
-        elif("mo5" in district):
+        if("mo5" in district):
             sortEthnic(mo5tl, mo5tb, mo5tw, tw)
-        elif("mo6" in district):
+        if("mo6" in district):
             sortEthnic(mo6tl, mo6tb, mo6tw, tw)
-        elif("mo7" in district):
+        if("mo7" in district):
             sortEthnic(mo7tl, mo7tb, mo7tw, tw)
-        elif("mo8" in district):
+        if("mo8" in district):
             sortEthnic(mo8tl, mo8tb, mo8tw, tw)
-        elif("sc1" in district):
+        if("sc1" in district):
             sortEthnic(sc1tl, sc1tb, sc1tw, tw)
-        elif("sc2" in district):
+        if("sc2" in district):
             sortEthnic(sc2tl, sc2tb, sc2tw, tw)
-        elif("sc3" in district):
+        if("sc3" in district):
             sortEthnic(sc3tl, sc3tb, sc3tw, tw)
-        elif("sc4" in district):
+        if("sc4" in district):
             sortEthnic(sc4tl, sc4tb, sc4tw, tw)
-        elif("sc5" in district):
+        if("sc5" in district):
             sortEthnic(sc5tl, sc5tb, sc5tw, tw)
-        elif("sc6" in district):
+        if("sc6" in district):
             sortEthnic(sc6tl, sc6tb, sc6tw, tw)
-        elif("sc7" in district):
+        if("sc7" in district):
             sortEthnic(sc7tl, sc7tb, sc7tw, tw)
-        elif("ky1" in district):
+        if("ky1" in district):
             sortEthnic(ky1tl, ky1tb, ky1tw, tw)
-        elif("ky2" in district):
+        if("ky2" in district):
             sortEthnic(ky2tl, ky2tb, ky2tw, tw)
-        elif("ky3" in district):
+        if("ky3" in district):
             sortEthnic(ky3tl, ky3tb, ky3tw, tw)
-        elif("ky4" in district):
+        if("ky4" in district):
             sortEthnic(ky4tl, ky4tb, ky4tw, tw)
-        elif("ky5" in district):
+        if("ky5" in district):
             sortEthnic(ky5tl, ky5tb, ky5tw, tw)
-        elif("ky6" in district):
+        if("ky6" in district):
             sortEthnic(ky6tl, ky6tb, ky6tw, tw)
-        elif("ok1" in district):
+        if("ok1" in district):
             sortEthnic(ok1tl, ok1tb, ok1tw, tw) #done
-        elif("ok2" in district):
+        if("ok2" in district):
             sortEthnic(ok2tl, ok2tb, ok2tw, tw)
-        elif("ok3" in district):
+        if("ok3" in district):
             sortEthnic(ok3tl, ok3tb, ok3tw, tw)	#done
-        elif("ok4" in district):
+        if("ok4" in district):
             sortEthnic(ok4tl, ok4tb, ok4tw, tw)	#done
-        elif("ok5" in district):
+        if("ok5" in district):
             sortEthnic(ok5tl, ok5tb, ok5tw, tw)
-        elif("ia1" in district):
+        if("ia1" in district):
             sortEthnic(ia1tl, ia1tb, ia1tw, tw) #done
-        elif("ia2" in district):
+        if("ia2" in district):
             sortEthnic(ia2tl, ia2tb, ia2tw, tw) #done
-        elif("ia3" in district):
+        if("ia3" in district):
             sortEthnic(ia3tl, ia3tb, ia3tw, tw)	#done
-        elif("ia4" in district):
+        if("ia4" in district):
             sortEthnic(ia4tl, ia4tb, ia4tw, tw)	#done
-        elif("ks1" in district):
+        if("ks1" in district):
             sortEthnic(ks1tl, ks1tb, ks1tw, tw) #done
-        elif("ks2" in district):
+        if("ks2" in district):
             sortEthnic(ks2tl, ks2tb, ks2tw, tw) #done
-        elif("ks3" in district):
+        if("ks3" in district):
             sortEthnic(ks3tl, ks3tb, ks3tw, tw)
-        elif("ks4" in district):
+        if("ks4" in district):
             sortEthnic(ks4tl, ks4tb, ks4tw, tw)
-        elif("ca1" in district):
+        if("ca1" in district):
             sortEthnic(ca1tl, ca1tb, ca1tw, tw) #done
-        elif("ca2" in district):
+        if("ca2" in district):
             sortEthnic(ca2tl, ca2tb, ca2tw, tw) #done
-        elif("ca3" in district):
+        if("ca3" in district):
             sortEthnic(ca3tl, ca3tb, ca3tw, tw)
-        elif("ca4" in district):
+        if("ca4" in district):
             sortEthnic(ca4tl, ca4tb, ca4tw, tw)
-        elif("ca5" in district):
+        if("ca5" in district):
             sortEthnic(ca5tl, ca5tb, ca5tw, tw) #done
-        elif("ca6" in district):
+        if("ca6" in district):
             sortEthnic(ca6tl, ca6tb, ca6tw, tw)
-        elif("ca7" in district):
+        if("ca7" in district):
             sortEthnic(ca7tl, ca7tb, ca7tw, tw) #done
-        elif("ca8" in district):
+        if("ca8" in district):
             sortEthnic(ca8tl, ca8tb, ca8tw, tw)
-        elif("ca9" in district):
+        if("ca9" in district):
             sortEthnic(ca9tl, ca9tb, ca9tw, tw) #done
-        elif("ca10" in district):
+        if("ca10" in district):
             sortEthnic(ca10tl, ca10tb, ca10tw, tw) #done
-        elif("ca11" in district):
+        if("ca11" in district):
             sortEthnic(ca11tl, ca11tb, ca11tw, tw)
-        elif("ca12" in district):
+        if("ca12" in district):
             sortEthnic(ca12tl, ca12tb, ca12tw, tw)
-        elif("ca13" in district):
+        if("ca13" in district):
             sortEthnic(ca13tl, ca13tb, ca13tw, tw)
-        elif("ca14" in district):
+        if("ca14" in district):
             sortEthnic(ca14tl, ca14tb, ca14tw, tw)
-        elif("ca15" in district):
+        if("ca15" in district):
             sortEthnic(ca15tl, ca15tb, ca15tw, tw)
-        elif("ca16" in district):
+        if("ca16" in district):
             sortEthnic(ca16tl, ca16tb, ca16tw, tw) #done
-        elif("ca17" in district):
+        if("ca17" in district):
             sortEthnic(ca17tl, ca17tb, ca17tw, tw) #done
-        elif("ca18" in district):
+        if("ca18" in district):
             sortEthnic(ca18tl, ca18tb, ca18tw, tw)
-        elif("ca19" in district):
+        if("ca19" in district):
             sortEthnic(ca19tl, ca19tb, ca19tw, tw) #done
-        elif("ca20" in district):
+        if("ca20" in district):
             sortEthnic(ca20tl, ca20tb, ca20tw, tw)
-        elif("ca21" in district):
+        if("ca21" in district):
             sortEthnic(ca21tl, ca21tb, ca21tw, tw)
-        elif("ca22" in district):
+        if("ca22" in district):
             sortEthnic(ca22tl, ca22tb, ca22tw, tw)
-        elif("ca23" in district):
+        if("ca23" in district):
             sortEthnic(ca23tl, ca23tb, ca23tw, tw)
-        elif("ca24" in district):
+        if("ca24" in district):
             sortEthnic(ca24tl, ca24tb, ca24tw, tw)
-        elif("ca25" in district):
+        if("ca25" in district):
             sortEthnic(ca25tl, ca25tb, ca25tw, tw)
-        elif("ca26" in district):
+        if("ca26" in district):
             sortEthnic(ca26tl, ca26tb, ca26tw, tw) #done
-        elif("ca27" in district):
+        if("ca27" in district):
             sortEthnic(ca27tl, ca27tb, ca27tw, tw)
-        elif("ca28" in district):
+        if("ca28" in district):
             sortEthnic(ca28tl, ca28tb, ca28tw, tw)
-        elif("ca29" in district):
+        if("ca29" in district):
             sortEthnic(ca29tl, ca29tb, ca29tw, tw)
-        elif("ca30" in district):
+        if("ca30" in district):
             sortEthnic(ca30tl, ca30tb, ca30tw, tw)
-        elif("ca31" in district):
+        if("ca31" in district):
             sortEthnic(ca31tl, ca31tb, ca31tw, tw) #done
-        elif("ca32" in district):
+        if("ca32" in district):
             sortEthnic(ca32tl, ca32tb, ca32tw, tw) #done
-        elif("ca33" in district):
+        if("ca33" in district):
             sortEthnic(ca33tl, ca33tb, ca33tw, tw)
-        elif("ca34" in district):
+        if("ca34" in district):
             sortEthnic(ca34tl, ca34tb, ca34tw, tw)
-        elif("ca35" in district):
+        if("ca35" in district):
             sortEthnic(ca35tl, ca35tb, ca35tw, tw) #done
-        elif("ca36" in district):
+        if("ca36" in district):
             sortEthnic(ca36tl, ca36tb, ca36tw, tw)
-        elif("ca37" in district):
+        if("ca37" in district):
             sortEthnic(ca37tl, ca37tb, ca37tw, tw) #done
-        elif("ca38" in district):
+        if("ca38" in district):
             sortEthnic(ca38tl, ca38tb, ca38tw, tw) #done
-        elif("ca39" in district):
+        if("ca39" in district):
             sortEthnic(ca39tl, ca39tb, ca39tw, tw)
-        elif("ca40" in district):
+        if("ca40" in district):
             sortEthnic(ca40tl, ca40tb, ca40tw, tw) #done
-        elif("ca41" in district):
+        if("ca41" in district):
             sortEthnic(ca41tl, ca41tb, ca41tw, tw) #done
-        elif("ca42" in district):
+        if("ca42" in district):
             sortEthnic(ca42tl, ca42tb, ca42tw, tw)
-        elif("ca43" in district):
+        if("ca43" in district):
             sortEthnic(ca43tl, ca43tb, ca43tw, tw)
-        elif("ca44" in district):
+        if("ca44" in district):
             sortEthnic(ca44tl, ca44tb, ca44tw, tw)
-        elif("ca45" in district):
+        if("ca45" in district):
             sortEthnic(ca45tl, ca45tb, ca45tw, tw)
-        elif("ca46" in district):
+        if("ca46" in district):
             sortEthnic(ca46tl, ca46tb, ca46tw, tw) #done
-        elif("ca47" in district):
+        if("ca47" in district):
             sortEthnic(ca47tl, ca47tb, ca47tw, tw)
-        elif("ca48" in district):
+        if("ca48" in district):
             sortEthnic(ca48tl, ca48tb, ca48tw, tw) #done
-        elif("ca49" in district):
+        if("ca49" in district):
             sortEthnic(ca49tl, ca49tb, ca49tw, tw) #done
-        elif("ca50" in district):
+        if("ca50" in district):
             sortEthnic(ca50tl, ca50tb, ca50tw, tw)
-        elif("ca51" in district):
+        if("ca51" in district):
             sortEthnic(ca51tl, ca51tb, ca51tw, tw) #done
-        elif("ca52" in district):
+        if("ca52" in district):
             sortEthnic(ca52tl, ca52tb, ca52tw, tw) #done
-        elif("ca53" in district):
+        if("ca53" in district):
             sortEthnic(ca53tl, ca53tb, ca53tw, tw) #done
-        elif("la1" in district):
+        if("la1" in district):
             sortEthnic(la1tl, la1tb, la1tw, tw)
-        elif("la2" in district):
+        if("la2" in district):
             sortEthnic(la2tl, la2tb, la2tw, tw) #done
-        elif("la3" in district):
+        if("la3" in district):
             sortEthnic(la3tl, la3tb, la3tw, tw)
-        elif("la4" in district):
+        if("la4" in district):
             sortEthnic(la4tl, la4tb, la4tw, tw)
-        elif("la5" in district):
+        if("la5" in district):
             sortEthnic(la5tl, la5tb, la5tw, tw)
-        elif("la6" in district):
+        if("la6" in district):
             sortEthnic(la6tl, la6tb, la6tw, tw)
-        elif("ct1" in district):
+        if("ct1" in district):
             sortEthnic(ct1tl, ct1tb, ct1tw, tw)
-        elif("ct2" in district):
+        if("ct2" in district):
             sortEthnic(ct2tl, ct2tb, ct2tw, tw) #done
-        elif("ct3" in district):
+        if("ct3" in district):
             sortEthnic(ct3tl, ct3tb, ct3tw, tw)
-        elif("ct4" in district):
+        if("ct4" in district):
             sortEthnic(ct4tl, ct4tb, ct4tw, tw)	 #done
-        elif("ct5" in district):
+        if("ct5" in district):
             sortEthnic(ct5tl, ct5tb, ct5tw, tw)
-        elif("mt1" in district):
+        if("mt1" in district):
             sortEthnic(mt1tl, mt1tb, mt1tw, tw) #done
-        elif("ms1" in district):
+        if("ms1" in district):
             sortEthnic(ms1tl, ms1tb, ms1tw, tw) #done
-        elif("ms2" in district):
+        if("ms2" in district):
             sortEthnic(ms2tl, ms2tb, ms2tw, tw)
-        elif("ms3" in district):
+        if("ms3" in district):
             sortEthnic(ms3tl, ms3tb, ms3tw, tw)
-        elif("ms4" in district):
+        if("ms4" in district):
             sortEthnic(ms4tl, ms4tb, ms4tw, tw)
-        elif("pa1" in district):
+        if("pa1" in district):
             sortEthnic(pa1tl, pa1tb, pa1tw, tw)
-        elif("pa2" in district):
+        if("pa2" in district):
             sortEthnic(pa2tl, pa2tb, pa2tw, tw) #done
-        elif("pa3" in district):
+        if("pa3" in district):
             sortEthnic(pa3tl, pa3tb, pa3tw, tw)	#done
-        elif("pa4" in district):
+        if("pa4" in district):
             sortEthnic(pa4tl, pa4tb, pa4tw, tw)	#done
-        elif("pa5" in district):
+        if("pa5" in district):
             sortEthnic(pa5tl, pa5tb, pa5tw, tw) #done
-        elif("pa6" in district):
+        if("pa6" in district):
             sortEthnic(pa6tl, pa6tb, pa6tw, tw)
-        elif("pa7" in district):
+        if("pa7" in district):
             sortEthnic(pa7tl, pa7tb, pa7tw, tw) #done
-        elif("pa8" in district):
+        if("pa8" in district):
             sortEthnic(pa8tl, pa8tb, pa8tw, tw) #done
-        elif("pa9" in district):
+        if("pa9" in district):
             sortEthnic(pa9tl, pa9tb, pa9tw, tw)
-        elif("pa10" in district):
+        if("pa10" in district):
             sortEthnic(pa10tl, pa10tb, pa10tw, tw) #done
-        elif("pa11" in district):
+        if("pa11" in district):
             sortEthnic(pa11tl, pa11tb, pa11tw, tw)
-        elif("pa12" in district):
+        if("pa12" in district):
             sortEthnic(pa12tl, pa12tb, pa12tw, tw) #done
-        elif("pa13" in district):
+        if("pa13" in district):
             sortEthnic(pa13tl, pa13tb, pa13tw, tw) #done
-        elif("pa14" in district):
+        if("pa14" in district):
             sortEthnic(pa14tl, pa14tb, pa14tw, tw)
-        elif("pa15" in district):
+        if("pa15" in district):
             sortEthnic(pa15tl, pa15tb, pa15tw, tw) #done
-        elif("pa16" in district):
+        if("pa16" in district):
             sortEthnic(pa16tl, pa16tb, pa16tw, tw) #done
-        elif("pa17" in district):
+        if("pa17" in district):
             sortEthnic(pa17tl, pa17tb, pa17tw, tw) #done
-        elif("pa18" in district):
+        if("pa18" in district):
             sortEthnic(pa18tl, pa18tb, pa18tw, tw) #done
-        elif("oh1" in district):
+        if("oh1" in district):
             sortEthnic(oh1tl, oh1tb, oh1tw, tw)
-        elif("oh2" in district):
+        if("oh2" in district):
             sortEthnic(oh2tl, oh2tb, oh2tw, tw)
-        elif("oh3" in district):
+        if("oh3" in district):
             sortEthnic(oh3tl, oh3tb, oh3tw, tw)
-        elif("oh4" in district):
+        if("oh4" in district):
             sortEthnic(oh4tl, oh4tb, oh4tw, tw)
-        elif("oh5" in district):
+        if("oh5" in district):
             sortEthnic(oh5tl, oh5tb, oh5tw, tw)
         if("oh6" in district):
             sortEthnic(oh6tl, oh6tb, oh6tw, tw)
-        elif("oh7" in district):
+        if("oh7" in district):
             sortEthnic(oh7tl, oh7tb, oh7tw, tw)
-        elif("oh8" in district):
+        if("oh8" in district):
             sortEthnic(oh8tl, oh8tb, oh8tw, tw)
-        elif("oh9" in district):
+        if("oh9" in district):
             sortEthnic(oh9tl, oh9tb, oh9tw, tw)
-        elif("oh10" in district):
+        if("oh10" in district):
             sortEthnic(oh10tl, oh10tb, oh10tw, tw)
-        elif("oh11" in district):
+        if("oh11" in district):
             sortEthnic(oh11tl, oh11tb, oh11tw, tw)
-        elif("oh12" in district):
+        if("oh12" in district):
             sortEthnic(oh12tl, oh12tb, oh12tw, tw)
-        elif("oh13" in district):
+        if("oh13" in district):
             sortEthnic(oh13tl, oh13tb, oh13tw, tw)
-        elif("oh14" in district):
+        if("oh14" in district):
             sortEthnic(oh14tl, oh14tb, oh14tw, tw)
-        elif("oh15" in district):
+        if("oh15" in district):
             sortEthnic(oh15tl, oh15tb, oh15tw, tw)
-        elif("oh16" in district):
+        if("oh16" in district):
             sortEthnic(oh16tl, oh16tb, oh16tw, tw)
-        elif("fl1" in district):
+        if("fl1" in district):
             sortEthnic(fl1tl, fl1tb, fl1tw, tw)
-        elif("fl2" in district):
+        if("fl2" in district):
             sortEthnic(fl2tl, fl2tb, fl2tw, tw)
-        elif("fl3" in district):
+        if("fl3" in district):
             sortEthnic(fl3tl, fl3tb, fl3tw, tw)
-        elif("fl4" in district):
+        if("fl4" in district):
             sortEthnic(fl4tl, fl4tb, fl4tw, tw)
-        elif("fl5" in district):
+        if("fl5" in district):
             sortEthnic(fl5tl, fl5tb, fl5tw, tw) #done
-        elif("fl6" in district):
+        if("fl6" in district):
             sortEthnic(fl6tl, fl6tb, fl6tw, tw)
-        elif("fl7" in district):
+        if("fl7" in district):
             sortEthnic(fl7tl, fl7tb, fl7tw, tw)
-        elif("fl8" in district):
+        if("fl8" in district):
             sortEthnic(fl8tl, fl8tb, fl8tw, tw)
-        elif("fl9" in district):
+        if("fl9" in district):
             sortEthnic(fl9tl, fl9tb, fl9tw, tw)
-        elif("fl10" in district):
+        if("fl10" in district):
             sortEthnic(fl10tl, fl10tb, fl10tw, tw)
-        elif("fl11" in district):
+        if("fl11" in district):
             sortEthnic(fl11tl, fl11tb, fl11tw, tw)
-        elif("fl12" in district):
+        if("fl12" in district):
             sortEthnic(fl12tl, fl12tb, fl12tw, tw)
-        elif("fl13" in district):
+        if("fl13" in district):
             sortEthnic(fl13tl, fl13tb, fl13tw, tw)
-        elif("fl14" in district):
+        if("fl14" in district):
             sortEthnic(fl14tl, fl14tb, fl14tw, tw)
-        elif("fl15" in district):
+        if("fl15" in district):
             sortEthnic(fl15tl, fl15tb, fl15tw, tw)
-        elif("fl16" in district):
+        if("fl16" in district):
             sortEthnic(fl16tl, fl16tb, fl16tw, tw)
-        elif("fl17" in district):
+        if("fl17" in district):
             sortEthnic(fl17tl, fl17tb, fl17tw, tw)
-        elif("fl18" in district):
+        if("fl18" in district):
             sortEthnic(fl18tl, fl18tb, fl18tw, tw)
-        elif("fl19" in district):
+        if("fl19" in district):
             sortEthnic(fl19tl, fl19tb, fl19tw, tw)
-        elif("fl20" in district):
+        if("fl20" in district):
             sortEthnic(fl20tl, fl20tb, fl20tw, tw)
-        elif("fl21" in district):
+        if("fl21" in district):
             sortEthnic(fl21tl, fl21tb, fl21tw, tw) #done
-        elif("fl22" in district):
+        if("fl22" in district):
             sortEthnic(fl22tl, fl22tb, fl22tw, tw)
-        elif("fl23" in district):
+        if("fl23" in district):
             sortEthnic(fl23tl, fl23tb, fl23tw, tw)
-        elif("fl24" in district):
+        if("fl24" in district):
             sortEthnic(fl24tl, fl24tb, fl24tw, tw)
-        elif("fl25" in district):
+        if("fl25" in district):
             sortEthnic(fl25tl, fl25tb, fl25tw, tw) #done
-        elif("fl26" in district):
+        if("fl26" in district):
             sortEthnic(fl26tl, fl26tb, fl26tw, tw) #done
-        elif("fl27" in district):
+        if("fl27" in district):
             sortEthnic(fl27tl, fl27tb, fl27tw, tw)
-        elif("wa1" in district):
+        if("wa1" in district):
             sortEthnic(wa1tl, wa1tb, wa1tw, tw)
-        elif("wa2" in district):
+        if("wa2" in district):
             sortEthnic(wa2tl, wa2tb, wa2tw, tw)
-        elif("wa3" in district):
+        if("wa3" in district):
             sortEthnic(wa3tl, wa3tb, wa3tw, tw)
-        elif("wa4" in district):
+        if("wa4" in district):
             sortEthnic(wa4tl, wa4tb, wa4tw, tw)
-        elif("wa5" in district):
+        if("wa5" in district):
             sortEthnic(wa5tl, wa5tb, wa5tw, tw)
-        elif("wa6" in district):
+        if("wa6" in district):
             sortEthnic(wa6tl, wa6tb, wa6tw, tw)
-        elif("wa7" in district):
+        if("wa7" in district):
             sortEthnic(wa7tl, wa7tb, wa7tw, tw)
-        elif("wa8" in district):
+        if("wa8" in district):
             sortEthnic(wa8tl, wa8tb, wa8tw, tw)
-        elif("wa9" in district):
+        if("wa9" in district):
             sortEthnic(wa9tl, wa9tb, wa9tw, tw)
-        elif("wa10" in district):
+        if("wa10" in district):
             sortEthnic(wa10tl, wa10tb, wa10tw, tw)
-        elif("hi1" in district):
+        if("hi1" in district):
             sortEthnic(hi1tl, hi1tb, hi1tw, tw) #done
-        elif("hi2" in district):
+        if("hi2" in district):
             sortEthnic(hi2tl, hi2tb, hi2tw, tw) #done
-        elif("nj1" in district):
+        if("nj1" in district):
             sortEthnic(nj1tl, nj1tb, nj1tw, tw) #done
-        elif("nj2" in district):
+        if("nj2" in district):
             sortEthnic(nj2tl, nj2tb, nj2tw, tw) #done
-        elif("nj3" in district):
+        if("nj3" in district):
             sortEthnic(nj3tl, nj3tb, nj3tw, tw)	#done
-        elif("nj4" in district):
+        if("nj4" in district):
             sortEthnic(nj4tl, nj4tb, nj4tw, tw)	#done
-        elif("nj5" in district):
+        if("nj5" in district):
             sortEthnic(nj5tl, nj5tb, nj5tw, tw) #done
-        elif("nj6" in district):
+        if("nj6" in district):
             sortEthnic(nj6tl, nj6tb, nj6tw, tw) #done
-        elif("nj7" in district):
+        if("nj7" in district):
             sortEthnic(nj7tl, nj7tb, nj7tw, tw) #done
-        elif("nj8" in district):
+        if("nj8" in district):
             sortEthnic(nj8tl, nj8tb, nj8tw, tw) #done
-        elif("nj9" in district):
+        if("nj9" in district):
             sortEthnic(nj9tl, nj9tb, nj9tw, tw) #done
-        elif("nj10" in district):
+        if("nj10" in district):
             sortEthnic(nj10tl, nj10tb, nj10tw, tw) #done
-        elif("nj11" in district):
+        if("nj11" in district):
             sortEthnic(nj11tl, nj11tb, nj11tw, tw) #done
-        elif("nj12" in district):
+        if("nj12" in district):
             sortEthnic(nj12tl, nj12tb, nj12tw, tw) #done
-        elif("ny1" in district):
+        if("ny1" in district):
             sortEthnic(ny1tl, ny1tb, ny1tw, tw) #done
-        elif("ny2" in district):
+        if("ny2" in district):
             sortEthnic(ny2tl, ny2tb, ny2tw, tw) #done
-        elif("ny3" in district):
+        if("ny3" in district):
             sortEthnic(ny3tl, ny3tb, ny3tw, tw)
-        elif("ny4" in district):
+        if("ny4" in district):
             sortEthnic(ny4tl, ny4tb, ny4tw, tw)
-        elif("ny5" in district):
+        if("ny5" in district):
             sortEthnic(ny5tl, ny5tb, ny5tw, tw)
-        elif("ny6" in district or "ny7" in district or "ny8" in district or "ny9" in district or "ny10" in district or "ny11" in district or "ny12" in district or "ny13" in district or "ny14" in district or "ny15" in district):
+        if("ny6" in district or "ny7" in district or "ny8" in district or "ny9" in district or "ny10" in district or "ny11" in district or "ny12" in district or "ny13" in district or "ny14" in district or "ny15" in district):
             sortEthnic(ny6tl, ny6tb, ny6tw, tw)
             sortEthnic(ny7tl, ny7tb, ny7tw, tw)
             sortEthnic(ny8tl, ny8tb, ny8tw, tw)
@@ -670,859 +670,859 @@ for tw in cursor:
             sortEthnic(ny13tl, ny13tb, ny13tw, tw)
             sortEthnic(ny14tl, ny14tb, ny14tw, tw)
             sortEthnic(ny15tl, ny15tb, ny15tw, tw)
-        elif("ny16" in district):
+        if("ny16" in district):
             sortEthnic(ny16tl, ny16tb, ny16tw, tw)
-        elif("ny17" in district):
+        if("ny17" in district):
             sortEthnic(ny17tl, ny17tb, ny17tw, tw) #done
-        elif("ny18" in district):
+        if("ny18" in district):
             sortEthnic(ny18tl, ny18tb, ny18tw, tw)
-        elif("ny19" in district):
+        if("ny19" in district):
             sortEthnic(ny19tl, ny19tb, ny19tw, tw) #done
-        elif("ny20" in district):
+        if("ny20" in district):
             sortEthnic(ny20tl, ny20tb, ny20tw, tw)
-        elif("ny21" in district):
+        if("ny21" in district):
             sortEthnic(ny21tl, ny21tb, ny21tw, tw) #done
-        elif("ny22" in district):
+        if("ny22" in district):
             sortEthnic(ny22tl, ny22tb, ny22tw, tw) #done
-        elif("ny23" in district):
+        if("ny23" in district):
             sortEthnic(ny23tl, ny23tb, ny23tw, tw)
-        elif("ny24" in district):
+        if("ny24" in district):
             sortEthnic(ny24tl, ny24tb, ny24tw, tw)
-        elif("ny25" in district):
+        if("ny25" in district):
             sortEthnic(ny25tl, ny25tb, ny25tw, tw)
-        elif("ny26" in district):
+        if("ny26" in district):
             sortEthnic(ny26tl, ny26tb, ny26tw, tw)
-        elif("ny27" in district):
+        if("ny27" in district):
             sortEthnic(ny27tl, ny27tb, ny27tw, tw) #done
-        elif("ri1" in district):
+        if("ri1" in district):
             sortEthnic(ri1tl, ri1tb, ri1tw, tw)	#done
-        elif("ri2" in district):
+        if("ri2" in district):
             sortEthnic(ri2tl, ri2tb, ri2tw, tw)
-        elif("mn1" in district):
+        if("mn1" in district):
             sortEthnic(mn1tl, mn1tb, mn1tw, tw) #done
-        elif("mn2" in district):
+        if("mn2" in district):
             sortEthnic(mn2tl, mn2tb, mn2tw, tw)
-        elif("mn3" in district):
+        if("mn3" in district):
             sortEthnic(mn3tl, mn3tb, mn3tw, tw)	#done
-        elif("mn4" in district):
+        if("mn4" in district):
             sortEthnic(mn4tl, mn4tb, mn4tw, tw)
-        elif("mn5" in district):
+        if("mn5" in district):
             sortEthnic(mn5tl, mn5tb, mn5tw, tw) #done
-        elif("mn6" in district):
+        if("mn6" in district):
             sortEthnic(mn6tl, mn6tb, mn6tw, tw) #done
-        elif("mn7" in district):
+        if("mn7" in district):
             sortEthnic(mn7tl, mn7tb, mn7tw, tw) #done
-        elif("mn8" in district):
+        if("mn8" in district):
             sortEthnic(mn8tl, mn8tb, mn8tw, tw)
-        elif("mi1" in district):
+        if("mi1" in district):
             sortEthnic(mi1tl, mi1tb, mi1tw, tw)
-        elif("mi2" in district):
+        if("mi2" in district):
             sortEthnic(mi2tl, mi2tb, mi2tw, tw) #done
-        elif("mi3" in district):
+        if("mi3" in district):
             sortEthnic(mi3tl, mi3tb, mi3tw, tw)
-        elif("mi4" in district):
+        if("mi4" in district):
             sortEthnic(mi4tl, mi4tb, mi4tw, tw)	#done
-        elif("mi5" in district):
+        if("mi5" in district):
             sortEthnic(mi5tl, mi5tb, mi5tw, tw) #done
-        elif("mi6" in district):
+        if("mi6" in district):
             sortEthnic(mi6tl, mi6tb, mi6tw, tw)
-        elif("mi7" in district):
+        if("mi7" in district):
             sortEthnic(mi7tl, mi7tb, mi7tw, tw)
-        elif("mi8" in district):
+        if("mi8" in district):
             sortEthnic(mi8tl, mi8tb, mi8tw, tw)
-        elif("mi9" in district):
+        if("mi9" in district):
             sortEthnic(mi9tl, mi9tb, mi9tw, tw) #done
-        elif("mi10" in district):
+        if("mi10" in district):
             sortEthnic(mi10tl, mi10tb, mi10tw, tw) #done
-        elif("mi11" in district):
+        if("mi11" in district):
             sortEthnic(mi11tl, mi11tb, mi11tw, tw)
-        elif("mi12" in district):
+        if("mi12" in district):
             sortEthnic(mi12tl, mi12tb, mi12tw, tw)
-        elif("mi13" in district):
+        if("mi13" in district):
             sortEthnic(mi13tl, mi13tb, mi13tw, tw) #done
-        elif("mi14" in district):
+        if("mi14" in district):
             sortEthnic(mi14tl, mi14tb, mi14tw, tw) #done
-        elif("wi1" in district):
+        if("wi1" in district):
             sortEthnic(wi1tl, wi1tb, wi1tw, tw)
-        elif("wi2" in district):
+        if("wi2" in district):
             sortEthnic(wi2tl, wi2tb, wi2tw, tw)
-        elif("wi3" in district):
+        if("wi3" in district):
             sortEthnic(wi3tl, wi3tb, wi3tw, tw)	#done
-        elif("wi4" in district):
+        if("wi4" in district):
             sortEthnic(wi4tl, wi4tb, wi4tw, tw)
-        elif("wi5" in district):
+        if("wi5" in district):
             sortEthnic(wi5tl, wi5tb, wi5tw, tw) #done
-        elif("wi6" in district):
+        if("wi6" in district):
             sortEthnic(wi6tl, wi6tb, wi6tw, tw)
-        elif("wi7" in district):
+        if("wi7" in district):
             sortEthnic(wi7tl, wi7tb, wi7tw, tw) #done
-        elif("wi8" in district):
+        if("wi8" in district):
             sortEthnic(wi8tl, wi8tb, wi8tw, tw)
-        elif("or1" in district):
+        if("or1" in district):
             sortEthnic(or1tl, or1tb, or1tw, tw)
-        elif("or2" in district):
+        if("or2" in district):
             sortEthnic(or2tl, or2tb, or2tw, tw) #done
-        elif("or3" in district):
+        if("or3" in district):
             sortEthnic(or3tl, or3tb, or3tw, tw)
-        elif("or4" in district):
+        if("or4" in district):
             sortEthnic(or4tl, or4tb, or4tw, tw)
-        elif("or5" in district):
+        if("or5" in district):
             sortEthnic(or5tl, or5tb, or5tw, tw)
-        elif("md1" in district):
+        if("md1" in district):
             sortEthnic(md1tl, md1tb, md1tw, tw) #done
-        elif("md2" in district):
+        if("md2" in district):
             sortEthnic(md2tl, md2tb, md2tw, tw)
-        elif("md3" in district):
+        if("md3" in district):
             sortEthnic(md3tl, md3tb, md3tw, tw)	#done
-        elif("md4" in district):
+        if("md4" in district):
             sortEthnic(md4tl, md4tb, md4tw, tw)	#done
-        elif("md5" in district):
+        if("md5" in district):
             sortEthnic(md5tl, md5tb, md5tw, tw) #done
-        elif("md6" in district):
+        if("md6" in district):
             sortEthnic(md6tl, md6tb, md6tw, tw) #done
-        elif("md7" in district):
+        if("md7" in district):
             sortEthnic(md7tl, md7tb, md7tw, tw)
-        elif("md8" in district):
+        if("md8" in district):
             sortEthnic(md8tl, md8tb, md8tw, tw)
-        elif("ma1" in district):
+        if("ma1" in district):
             sortEthnic(ma1tl, ma1tb, ma1tw, tw) #done
-        elif("ma2" in district):
+        if("ma2" in district):
             sortEthnic(ma2tl, ma2tb, ma2tw, tw)
-        elif("ma3" in district):
+        if("ma3" in district):
             sortEthnic(ma3tl, ma3tb, ma3tw, tw)	 #done
-        elif("ma4" in district):
+        if("ma4" in district):
             sortEthnic(ma4tl, ma4tb, ma4tw, tw)
-        elif("ma5" in district):
+        if("ma5" in district):
             sortEthnic(ma5tl, ma5tb, ma5tw, tw)
-        elif("ma6" in district):
+        if("ma6" in district):
             sortEthnic(ma6tl, ma6tb, ma6tw, tw)
-        elif("ma7" in district):
+        if("ma7" in district):
             sortEthnic(ma7tl, ma7tb, ma7tw, tw)
-        elif("ma8" in district):
+        if("ma8" in district):
             sortEthnic(ma8tl, ma8tb, ma8tw, tw)
-        elif("ma9" in district):
+        if("ma9" in district):
             sortEthnic(ma9tl, ma9tb, ma9tw, tw) #done
-        elif("me1" in district):
+        if("me1" in district):
             sortEthnic(me1tl, me1tb, me1tw, tw) #done
-        elif("me2" in district):
+        if("me2" in district):
             sortEthnic(me2tl, me2tb, me2tw, tw) #done
-        elif("id1" in district):
+        if("id1" in district):
             sortEthnic(id1tl, id1tb, id1tw, tw) #done
-        elif("id2" in district):
+        if("id2" in district):
             sortEthnic(id2tl, id2tb, id2tw, tw) #done
-        elif("nc1" in district):
+        if("nc1" in district):
             sortEthnic(nc1tl, nc1tb, nc1tw, tw)
-        elif("nc2" in district):
+        if("nc2" in district):
             sortEthnic(nc2tl, nc2tb, nc2tw, tw)
-        elif("nc3" in district):
+        if("nc3" in district):
             sortEthnic(nc3tl, nc3tb, nc3tw, tw)
-        elif("nc4" in district):
+        if("nc4" in district):
             sortEthnic(nc4tl, nc4tb, nc4tw, tw)
-        elif("nc5" in district):
+        if("nc5" in district):
             sortEthnic(nc5tl, nc5tb, nc5tw, tw)
-        elif("nc6" in district):
+        if("nc6" in district):
             sortEthnic(nc6tl, nc6tb, nc6tw, tw)
-        elif("nc7" in district):
+        if("nc7" in district):
             sortEthnic(nc7tl, nc7tb, nc7tw, tw)
-        elif("nc8" in district):
+        if("nc8" in district):
             sortEthnic(nc8tl, nc8tb, nc8tw, tw) #done
-        elif("nc9" in district):
+        if("nc9" in district):
             sortEthnic(nc9tl, nc9tb, nc9tw, tw)
-        elif("nc10" in district):
+        if("nc10" in district):
             sortEthnic(nc10tl, nc10tb, nc10tw, tw)
-        elif("nc11" in district):
+        if("nc11" in district):
             sortEthnic(nc11tl, nc11tb, nc11tw, tw)
-        elif("nc12" in district):
+        if("nc12" in district):
             sortEthnic(nc12tl, nc12tb, nc12tw, tw)
-        elif("nc13" in district):
+        if("nc13" in district):
             sortEthnic(nc13tl, nc13tb, nc13tw, tw)
-        elif("nh1" in district):
+        if("nh1" in district):
             sortEthnic(nh1tl, nh1tb, nh1tw, tw) #done
-        elif("nh2" in district):
+        if("nh2" in district):
             sortEthnic(nh2tl, nh2tb, nh2tw, tw) #done
-        elif("nv1" in district):
+        if("nv1" in district):
             sortEthnic(nv1tl, nv1tb, nv1tw, tw) #done
-        elif("nv2" in district):
+        if("nv2" in district):
             sortEthnic(nv2tl, nv2tb, nv2tw, tw)
-        elif("nv3" in district):
+        if("nv3" in district):
             sortEthnic(nv3tl, nv3tb, nv3tw, tw)
-        elif("nv4" in district):
+        if("nv4" in district):
             sortEthnic(nv4tl, nv4tb, nv4tw, tw)
-        elif("co1" in district):
+        if("co1" in district):
             sortEthnic(co1tl, co1tb, co1tw, tw)
-        elif("co2" in district):
+        if("co2" in district):
             sortEthnic(co2tl, co2tb, co2tw, tw) #done
-        elif("co3" in district):
+        if("co3" in district):
             sortEthnic(co3tl, co3tb, co3tw, tw)
-        elif("co4" in district):
+        if("co4" in district):
             sortEthnic(co4tl, co4tb, co4tw, tw)
-        elif("co5" in district):
+        if("co5" in district):
             sortEthnic(co5tl, co5tb, co5tw, tw)
-        elif("co6" in district):
+        if("co6" in district):
             sortEthnic(co6tl, co6tb, co6tw, tw) #done
-        elif("co7" in district):
+        if("co7" in district):
             sortEthnic(co7tl, co7tb, co7tw, tw) #done
-        elif("nm1" in district):
+        if("nm1" in district):
             sortEthnic(nm1tl, nm1tb, nm1tw, tw) #done
-        elif("nm2" in district):
+        if("nm2" in district):
             sortEthnic(nm2tl, nm2tb, nm2tw, tw)
-        elif("nm3" in district):
+        if("nm3" in district):
             sortEthnic(nm3tl, nm3tb, nm3tw, tw) #done
-        elif("az1" in district):
+        if("az1" in district):
             sortEthnic(az1tl, az1tb, az1tw, tw)
-        elif("az2" in district):
+        if("az2" in district):
             sortEthnic(az2tl, az2tb, az2tw, tw)
-        elif("az3" in district):
+        if("az3" in district):
             sortEthnic(az3tl, az3tb, az3tw, tw)		#done
-        elif("az4" in district):
+        if("az4" in district):
             sortEthnic(az4tl, az4tb, az4tw, tw)
-        elif("az5" in district):
+        if("az5" in district):
             sortEthnic(az5tl, az5tb, az5tw, tw)
-        elif("az6" in district):
+        if("az6" in district):
             sortEthnic(az6tl, az6tb, az6tw, tw) #done
-        elif("az7" in district):
+        if("az7" in district):
             sortEthnic(az7tl, az7tb, az7tw, tw)		#done
-        elif("az8" in district):
+        if("az8" in district):
             sortEthnic(az8tl, az8tb, az8tw, tw)
-        elif("az9" in district):
+        if("az9" in district):
             sortEthnic(az9tl, az9tb, az9tw, tw)			#done
-        elif("ga1" in district):
+        if("ga1" in district):
             sortEthnic(ga1tl, ga1tb, ga1tw, tw)
-        elif("ga2" in district):
+        if("ga2" in district):
             sortEthnic(ga2tl, ga2tb, ga2tw, tw)
-        elif("ga3" in district):
+        if("ga3" in district):
             sortEthnic(ga3tl, ga3tb, ga3tw, tw)	#done
-        elif("ga4" in district):
+        if("ga4" in district):
             sortEthnic(ga4tl, ga4tb, ga4tw, tw)
-        elif("ga5" in district):
+        if("ga5" in district):
             sortEthnic(ga5tl, ga5tb, ga5tw, tw)
-        elif("ga6" in district):
+        if("ga6" in district):
             sortEthnic(ga6tl, ga6tb, ga6tw, tw)
-        elif("ga7" in district):
+        if("ga7" in district):
             sortEthnic(ga7tl, ga7tb, ga7tw, tw)
-        elif("ga8" in district):
+        if("ga8" in district):
             sortEthnic(ga8tl, ga8tb, ga8tw, tw)
-        elif("ga9" in district):
+        if("ga9" in district):
             sortEthnic(ga9tl, ga9tb, ga9tw, tw)
-        elif("ga10" in district):
+        if("ga10" in district):
             sortEthnic(ga10tl, ga10tb, ga10tw, tw)
-        elif("ga11" in district):
+        if("ga11" in district):
             sortEthnic(ga11tl, ga11tb, ga11tw, tw)
-        elif("ga12" in district):
+        if("ga12" in district):
             sortEthnic(ga12tl, ga12tb, ga12tw, tw)
-        elif("ga13" in district):
+        if("ga13" in district):
             sortEthnic(ga13tl, ga13tb, ga13tw, tw)
-        elif("ga14" in district):
+        if("ga14" in district):
             sortEthnic(ga14tl, ga14tb, ga14tw, tw)
-        elif("tx1" in district):
+        if("tx1" in district):
             sortEthnic(tx1tl, tx1tb, tx1tw, tw) #done
-        elif("tx2" in district):
+        if("tx2" in district):
             sortEthnic(tx2tl, tx2tb, tx2tw, tw)
-        elif("tx3" in district):
+        if("tx3" in district):
             sortEthnic(tx3tl, tx3tb, tx3tw, tw)
-        elif("tx4" in district):
+        if("tx4" in district):
             sortEthnic(tx4tl, tx4tb, tx4tw, tw)
-        elif("tx5" in district):
+        if("tx5" in district):
             sortEthnic(tx5tl, tx5tb, tx5tw, tw) #done
-        elif("tx6" in district):
+        if("tx6" in district):
             sortEthnic(tx6tl, tx6tb, tx6tw, tw) #done
-        elif("tx7" in district):
+        if("tx7" in district):
             sortEthnic(tx7tl, tx7tb, tx7tw, tw)
-        elif("tx8" in district):
+        if("tx8" in district):
             sortEthnic(tx8tl, tx8tb, tx8tw, tw)
-        elif("tx9" in district):
+        if("tx9" in district):
             sortEthnic(tx9tl, tx9tb, tx9tw, tw)
-        elif("tx10" in district):
+        if("tx10" in district):
             sortEthnic(tx10tl, tx10tb, tx10tw, tw) #done
-        elif("tx11" in district):
+        if("tx11" in district):
             sortEthnic(tx11tl, tx11tb, tx11tw, tw)
-        elif("tx12" in district):
+        if("tx12" in district):
             sortEthnic(tx12tl, tx12tb, tx12tw, tw)
-        elif("tx13" in district):
+        if("tx13" in district):
             sortEthnic(tx13tl, tx13tb, tx13tw, tw)
-        elif("tx14" in district):
+        if("tx14" in district):
             sortEthnic(tx14tl, tx14tb, tx14tw, tw)
-        elif("tx15" in district):
+        if("tx15" in district):
             sortEthnic(tx15tl, tx15tb, tx15tw, tw)
-        elif("tx16" in district):
+        if("tx16" in district):
             sortEthnic(tx16tl, tx16tb, tx16tw, tw)
-        elif("tx17" in district):
+        if("tx17" in district):
             sortEthnic(tx17tl, tx17tb, tx17tw, tw)
-        elif("tx18" in district):
+        if("tx18" in district):
             sortEthnic(tx18tl, tx18tb, tx18tw, tw)
-        elif("tx19" in district):
+        if("tx19" in district):
             sortEthnic(tx19tl, tx19tb, tx19tw, tw)
-        elif("tx20" in district):
+        if("tx20" in district):
             sortEthnic(tx20tl, tx20tb, tx20tw, tw)
-        elif("tx21" in district):
+        if("tx21" in district):
             sortEthnic(tx21tl, tx21tb, tx21tw, tw)
-        elif("tx22" in district):
+        if("tx22" in district):
             sortEthnic(tx22tl, tx22tb, tx22tw, tw)
-        elif("tx23" in district):
+        if("tx23" in district):
             sortEthnic(tx23tl, tx23tb, tx23tw, tw)
-        elif("tx24" in district):
+        if("tx24" in district):
             sortEthnic(tx24tl, tx24tb, tx24tw, tw) #done
-        elif("tx25" in district):
+        if("tx25" in district):
             sortEthnic(tx25tl, tx25tb, tx25tw, tw)
-        elif("tx26" in district):
+        if("tx26" in district):
             sortEthnic(tx26tl, tx26tb, tx26tw, tw)
-        elif("tx27" in district):
+        if("tx27" in district):
             sortEthnic(tx27tl, tx27tb, tx27tw, tw)
-        elif("tx28" in district):
+        if("tx28" in district):
             sortEthnic(tx28tl, tx28tb, tx28tw, tw)
-        elif("tx29" in district):
+        if("tx29" in district):
             sortEthnic(tx29tl, tx29tb, tx29tw, tw)
-        elif("tx30" in district):
+        if("tx30" in district):
             sortEthnic(tx30tl, tx30tb, tx30tw, tw)
-        elif("tx31" in district):
+        if("tx31" in district):
             sortEthnic(tx31tl, tx31tb, tx31tw, tw)
-        elif("tx32" in district):
+        if("tx32" in district):
             sortEthnic(tx32tl, tx32tb, tx32tw, tw) #done
-        elif("tx33" in district):
+        if("tx33" in district):
             sortEthnic(tx33tl, tx33tb, tx33tw, tw)
-        elif("tx34" in district):
+        if("tx34" in district):
             sortEthnic(tx34tl, tx34tb, tx34tw, tw)
-        elif("tx35" in district):
+        if("tx35" in district):
             sortEthnic(tx35tl, tx35tb, tx35tw, tw)
-        elif("tx36" in district):
+        if("tx36" in district):
             sortEthnic(tx36tl, tx36tb, tx36tw, tw)
-        elif("in1" in district):
+        if("in1" in district):
             sortEthnic(in1tl, in1tb, in1tw, tw)
-        elif("in2" in district):
+        if("in2" in district):
             sortEthnic(in2tl, in2tb, in2tw, tw)
-        elif("in3" in district):
+        if("in3" in district):
             sortEthnic(in3tl, in3tb, in3tw, tw)	 #done
-        elif("in4" in district):
+        if("in4" in district):
             sortEthnic(in4tl, in4tb, in4tw, tw)
-        elif("in5" in district):
+        if("in5" in district):
             sortEthnic(in5tl, in5tb, in5tw, tw)
-        elif("in6" in district):
+        if("in6" in district):
             sortEthnic(in6tl, in6tb, in6tw, tw)
-        elif("in7" in district):
+        if("in7" in district):
             sortEthnic(in7tl, in7tb, in7tw, tw)
-        elif("in8" in district):
+        if("in8" in district):
             sortEthnic(in8tl, in8tb, in8tw, tw)
-        elif("in9" in district):
+        if("in9" in district):
             sortEthnic(in9tl, in9tb, in9tw, tw)
-        elif("va1" in district):
+        if("va1" in district):
             sortEthnic(va1tl, va1tb, va1tw, tw)
-        elif("va2" in district):
+        if("va2" in district):
             sortEthnic(va2tl, va2tb, va2tw, tw)
-        elif("va3" in district):
+        if("va3" in district):
             sortEthnic(va3tl, va3tb, va3tw, tw)
-        elif("va4" in district):
+        if("va4" in district):
             sortEthnic(va4tl, va4tb, va4tw, tw)	#done
-        elif("va5" in district):
+        if("va5" in district):
             sortEthnic(va5tl, va5tb, va5tw, tw)
-        elif("va6" in district):
+        if("va6" in district):
             sortEthnic(va6tl, va6tb, va6tw, tw)
-        elif("va7" in district):
+        if("va7" in district):
             sortEthnic(va7tl, va7tb, va7tw, tw)
-        elif("va8" in district):
+        if("va8" in district):
             sortEthnic(va8tl, va8tb, va8tw, tw)
-        elif("va9" in district):
+        if("va9" in district):
             sortEthnic(va9tl, va9tb, va9tw, tw)
-        elif("va10" in district):
+        if("va10" in district):
             sortEthnic(va10tl, va10tb, va10tw, tw)
-        elif("va11" in district):
+        if("va11" in district):
             sortEthnic(va11tl, va11tb, va11tw, tw)
-        elif("il1" in district):
+        if("il1" in district):
             sortEthnic(il1tl, il1tb, il1tw, tw)
-        elif("il2" in district):
+        if("il2" in district):
             sortEthnic(il2tl, il2tb, il2tw, tw)
-        elif("il3" in district):
+        if("il3" in district):
             sortEthnic(il3tl, il3tb, il3tw, tw)
-        elif("il4" in district):
+        if("il4" in district):
             sortEthnic(il4tl, il4tb, il4tw, tw)	#done
-        elif("il5" in district):
+        if("il5" in district):
             sortEthnic(il5tl, il5tb, il5tw, tw)
-        elif("il6" in district):
+        if("il6" in district):
             sortEthnic(il6tl, il6tb, il6tw, tw)
-        elif("il7" in district):
+        if("il7" in district):
             sortEthnic(il7tl, il7tb, il7tw, tw)
-        elif("il8" in district):
+        if("il8" in district):
             sortEthnic(il8tl, il8tb, il8tw, tw)
-        elif("il9" in district):
+        if("il9" in district):
             sortEthnic(il9tl, il9tb, il9tw, tw)
-        elif("il10" in district):
+        if("il10" in district):
             sortEthnic(il10tl, il10tb, il10tw, tw) #done
-        elif("il11" in district):
+        if("il11" in district):
             sortEthnic(il11tl, il11tb, il11tw, tw)
-        elif("il12" in district):
+        if("il12" in district):
             sortEthnic(il12tl, il12tb, il12tw, tw) #done
-        elif("il13" in district):
+        if("il13" in district):
             sortEthnic(il13tl, il13tb, il13tw, tw)
-        elif("il14" in district):
+        if("il14" in district):
             sortEthnic(il14tl, il14tb, il14tw, tw)#done
-        elif("il15" in district):
+        if("il15" in district):
             sortEthnic(il15tl, il15tb, il15tw, tw) #done
-        elif("il16" in district):
+        if("il16" in district):
             sortEthnic(il16tl, il16tb, il16tw, tw)
-        elif("il17" in district):
+        if("il17" in district):
             sortEthnic(il17tl, il17tb, il17tw, tw)
-        elif("il18" in district):
+        if("il18" in district):
             sortEthnic(il18tl, il18tb, il18tw, tw)
-        elif("de1" in district):
+        if("de1" in district):
             sortEthnic(de1tl, de1tb, de1tw, tw) #done
-        elif("vt1" in district):
+        if("vt1" in district):
             sortEthnic(vt1tl, vt1tb, vt1tw, tw) #done
-        elif("ut1" in district):
+        if("ut1" in district):
             sortEthnic(ut1tl, ut1tb, ut1tw, tw)
-        elif("ut2" in district):
+        if("ut2" in district):
             sortEthnic(ut2tl, ut2tb, ut2tw, tw)
-        elif("ut3" in district):
+        if("ut3" in district):
             sortEthnic(ut3tl, ut3tb, ut3tw, tw)
-        elif("ut4" in district):
+        if("ut4" in district):
             sortEthnic(ut4tl, ut4tb, ut4tw, tw)
-        elif("ne1" in district):
+        if("ne1" in district):
             sortEthnic(ne1tl, ne1tb, ne1tw, tw)
-        elif("ne2" in district):
+        if("ne2" in district):
             sortEthnic(ne2tl, ne2tb, ne2tw, tw)
-        elif("ne3" in district):
+        if("ne3" in district):
             sortEthnic(ne3tl, ne3tb, ne3tw, tw)	#done
-        elif("ak1" in district):
+        if("ak1" in district):
             sortEthnic(ak1tl, ak1tb, ak1tw, tw) #done
-        elif("wy1" in district):
+        if("wy1" in district):
             sortEthnic(wy1tl, wy1tb, wy1tw, tw) #done
-        elif("al1" in district):
+        if("al1" in district):
             sortEthnic(al1tl, al1tb, al1tw, tw)
-        elif("al2" in district):
+        if("al2" in district):
             sortEthnic(al2tl, al2tb, al2tw, tw)
-        elif("al3" in district):
+        if("al3" in district):
             sortEthnic(al3tl, al3tb, al3tw, tw)
-        elif("al4" in district):
+        if("al4" in district):
             sortEthnic(al4tl, al4tb, al4tw, tw)
-        elif("al5" in district):
+        if("al5" in district):
             sortEthnic(al5tl, al5tb, al5tw, tw)
-        elif("al6" in district):
+        if("al6" in district):
             sortEthnic(al6tl, al6tb, al6tw, tw)
-        elif("al7" in district):
+        if("al7" in district):
             sortEthnic(al7tl, al7tb, al7tw, tw)	#done
-        elif("tn1" in district):
+        if("tn1" in district):
             sortEthnic(tn1tl, tn1tb, tn1tw, tw)
-        elif("tn2" in district):
+        if("tn2" in district):
             sortEthnic(tn2tl, tn2tb, tn2tw, tw)
-        elif("tn3" in district):
+        if("tn3" in district):
             sortEthnic(tn3tl, tn3tb, tn3tw, tw)
-        elif("tn4" in district):
+        if("tn4" in district):
             sortEthnic(tn4tl, tn4tb, tn4tw, tw)
-        elif("tn5" in district):
+        if("tn5" in district):
             sortEthnic(tn5tl, tn5tb, tn5tw, tw)
-        elif("tn6" in district):
+        if("tn6" in district):
             sortEthnic(tn6tl, tn6tb, tn6tw, tw)
-        elif("tn7" in district):
+        if("tn7" in district):
             sortEthnic(tn7tl, tn7tb, tn7tw, tw)
-        elif("tn8" in district):
+        if("tn8" in district):
             sortEthnic(tn8tl, tn8tb, tn8tw, tw)
-        elif("tn9" in district):
+        if("tn9" in district):
             sortEthnic(tn9tl, tn9tb, tn9tw, tw)
-        elif("nd1" in district):
+        if("nd1" in district):
             sortEthnic(nd1tl, nd1tb, nd1tw, tw) #done
-        elif("sd1" in district):
+        if("sd1" in district):
             sortEthnic(sd1tl, sd1tb, sd1tw, tw) #done
-        elif("wv1" in district):
+        if("wv1" in district):
             sortEthnic(wv1tl, wv1tb, wv1tw, tw)
-        elif("wv2" in district):
+        if("wv2" in district):
             sortEthnic(wv2tl, wv2tb, wv2tw, tw)
-        elif("wv3" in district):
+        if("wv3" in district):
             sortEthnic(wv3tl, wv3tb, wv3tw, tw) #done
-        elif("ar1" in district):
+        if("ar1" in district):
             sortEthnic(ar1tl, ar1tb, ar1tw, tw) #done
-        elif("ar2" in district):
+        if("ar2" in district):
             sortEthnic(ar2tl, ar2tb, ar2tw, tw)
-        elif("ar3" in district):
+        if("ar3" in district):
             sortEthnic(ar3tl, ar3tb, ar3tw, tw)
-        elif("ar4" in district):
+        if("ar4" in district):
             sortEthnic(ar4tl, ar4tb, ar4tw, tw)
     district = sortloc(["#biden2020", "#voteblue"], tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
     if(district != "null"):
         if("mo1" in district):
             sortEthnic(mo1bl, mo1bb, mo1bw, tw)
-        elif("mo2" in district):
+        if("mo2" in district):
             sortEthnic(mo2bl, mo2bb, mo2bw, tw)
-        elif("mo3" in district):
+        if("mo3" in district):
             sortEthnic(mo3bl, mo3bb, mo3bw, tw)
-        elif("mo4" in district):
+        if("mo4" in district):
             sortEthnic(mo4bl, mo4bb, mo4bw, tw)
-        elif("mo5" in district):
+        if("mo5" in district):
             sortEthnic(mo5bl, mo5bb, mo5bw, tw)
-        elif("mo6" in district):
+        if("mo6" in district):
             sortEthnic(mo6bl, mo6bb, mo6bw, tw)
-        elif("mo7" in district):
+        if("mo7" in district):
             sortEthnic(mo7bl, mo7bb, mo7bw, tw)
-        elif("mo8" in district):
+        if("mo8" in district):
             sortEthnic(mo8bl, mo8bb, mo8bw, tw)
-        elif("sc1" in district):
+        if("sc1" in district):
             sortEthnic(sc1bl, sc1bb, sc1bw, tw)
-        elif("sc2" in district):
+        if("sc2" in district):
             sortEthnic(sc2bl, sc2bb, sc2bw, tw)
-        elif("sc3" in district):
+        if("sc3" in district):
             sortEthnic(sc3bl, sc3bb, sc3bw, tw)
-        elif("sc4" in district):
+        if("sc4" in district):
             sortEthnic(sc4bl, sc4bb, sc4bw, tw)
-        elif("sc5" in district):
+        if("sc5" in district):
             sortEthnic(sc5bl, sc5bb, sc5bw, tw)
-        elif("sc6" in district):
+        if("sc6" in district):
             sortEthnic(sc6bl, sc6bb, sc6bw, tw)
-        elif("sc7" in district):
+        if("sc7" in district):
             sortEthnic(sc7bl, sc7bb, sc7bw, tw)
-        elif("ky1" in district):
+        if("ky1" in district):
             sortEthnic(ky1bl, ky1bb, ky1bw, tw)
-        elif("ky2" in district):
+        if("ky2" in district):
             sortEthnic(ky2bl, ky2bb, ky2bw, tw)
-        elif("ky3" in district):
+        if("ky3" in district):
             sortEthnic(ky3bl, ky3bb, ky3bw, tw)
-        elif("ky4" in district):
+        if("ky4" in district):
             sortEthnic(ky4bl, ky4bb, ky4bw, tw)
-        elif("ky5" in district):
+        if("ky5" in district):
             sortEthnic(ky5bl, ky5bb, ky5bw, tw)
-        elif("ky6" in district):
+        if("ky6" in district):
             sortEthnic(ky6bl, ky6bb, ky6bw, tw)
-        elif("ok1" in district):
+        if("ok1" in district):
             sortEthnic(ok1bl, ok1bb, ok1bw, tw) #done
-        elif("ok2" in district):
+        if("ok2" in district):
             sortEthnic(ok2bl, ok2bb, ok2bw, tw)
-        elif("ok3" in district):
+        if("ok3" in district):
             sortEthnic(ok3bl, ok3bb, ok3bw, tw)	#done
-        elif("ok4" in district):
+        if("ok4" in district):
             sortEthnic(ok4bl, ok4bb, ok4bw, tw)	#done
-        elif("ok5" in district):
+        if("ok5" in district):
             sortEthnic(ok5bl, ok5bb, ok5bw, tw)
-        elif("ia1" in district):
+        if("ia1" in district):
             sortEthnic(ia1bl, ia1bb, ia1bw, tw) #done
-        elif("ia2" in district):
+        if("ia2" in district):
             sortEthnic(ia2bl, ia2bb, ia2bw, tw) #done
-        elif("ia3" in district):
+        if("ia3" in district):
             sortEthnic(ia3bl, ia3bb, ia3bw, tw)	#done
-        elif("ia4" in district):
+        if("ia4" in district):
             sortEthnic(ia4bl, ia4bb, ia4bw, tw)	#done
-        elif("ks1" in district):
+        if("ks1" in district):
             sortEthnic(ks1bl, ks1bb, ks1bw, tw) #done
-        elif("ks2" in district):
+        if("ks2" in district):
             sortEthnic(ks2bl, ks2bb, ks2bw, tw) #done
-        elif("ks3" in district):
+        if("ks3" in district):
             sortEthnic(ks3bl, ks3bb, ks3bw, tw)
-        elif("ks4" in district):
+        if("ks4" in district):
             sortEthnic(ks4bl, ks4bb, ks4bw, tw)
-        elif("ca1" in district):
+        if("ca1" in district):
             sortEthnic(ca1bl, ca1bb, ca1bw, tw) #done
-        elif("ca2" in district):
+        if("ca2" in district):
             sortEthnic(ca2bl, ca2bb, ca2bw, tw) #done
-        elif("ca3" in district):
+        if("ca3" in district):
             sortEthnic(ca3bl, ca3bb, ca3bw, tw)
-        elif("ca4" in district):
+        if("ca4" in district):
             sortEthnic(ca4bl, ca4bb, ca4bw, tw)
-        elif("ca5" in district):
+        if("ca5" in district):
             sortEthnic(ca5bl, ca5bb, ca5bw, tw) #done
-        elif("ca6" in district):
+        if("ca6" in district):
             sortEthnic(ca6bl, ca6bb, ca6bw, tw)
-        elif("ca7" in district):
+        if("ca7" in district):
             sortEthnic(ca7bl, ca7bb, ca7bw, tw) #done
-        elif("ca8" in district):
+        if("ca8" in district):
             sortEthnic(ca8bl, ca8bb, ca8bw, tw)
-        elif("ca9" in district):
+        if("ca9" in district):
             sortEthnic(ca9bl, ca9bb, ca9bw, tw) #done
-        elif("ca10" in district):
+        if("ca10" in district):
             sortEthnic(ca10bl, ca10bb, ca10bw, tw) #done
-        elif("ca11" in district):
+        if("ca11" in district):
             sortEthnic(ca11bl, ca11bb, ca11bw, tw)
-        elif("ca12" in district):
+        if("ca12" in district):
             sortEthnic(ca12bl, ca12bb, ca12bw, tw)
-        elif("ca13" in district):
+        if("ca13" in district):
             sortEthnic(ca13bl, ca13bb, ca13bw, tw)
-        elif("ca14" in district):
+        if("ca14" in district):
             sortEthnic(ca14bl, ca14bb, ca14bw, tw)
-        elif("ca15" in district):
+        if("ca15" in district):
             sortEthnic(ca15bl, ca15bb, ca15bw, tw)
-        elif("ca16" in district):
+        if("ca16" in district):
             sortEthnic(ca16bl, ca16bb, ca16bw, tw) #done
-        elif("ca17" in district):
+        if("ca17" in district):
             sortEthnic(ca17bl, ca17bb, ca17bw, tw) #done
-        elif("ca18" in district):
+        if("ca18" in district):
             sortEthnic(ca18bl, ca18bb, ca18bw, tw)
-        elif("ca19" in district):
+        if("ca19" in district):
             sortEthnic(ca19bl, ca19bb, ca19bw, tw) #done
-        elif("ca20" in district):
+        if("ca20" in district):
             sortEthnic(ca20bl, ca20bb, ca20bw, tw)
-        elif("ca21" in district):
+        if("ca21" in district):
             sortEthnic(ca21bl, ca21bb, ca21bw, tw)
-        elif("ca22" in district):
+        if("ca22" in district):
             sortEthnic(ca22bl, ca22bb, ca22bw, tw)
-        elif("ca23" in district):
+        if("ca23" in district):
             sortEthnic(ca23bl, ca23bb, ca23bw, tw)
-        elif("ca24" in district):
+        if("ca24" in district):
             sortEthnic(ca24bl, ca24bb, ca24bw, tw)
-        elif("ca25" in district):
+        if("ca25" in district):
             sortEthnic(ca25bl, ca25bb, ca25bw, tw)
-        elif("ca26" in district):
+        if("ca26" in district):
             sortEthnic(ca26bl, ca26bb, ca26bw, tw) #done
-        elif("ca27" in district):
+        if("ca27" in district):
             sortEthnic(ca27bl, ca27bb, ca27bw, tw)
-        elif("ca28" in district):
+        if("ca28" in district):
             sortEthnic(ca28bl, ca28bb, ca28bw, tw)
-        elif("ca29" in district):
+        if("ca29" in district):
             sortEthnic(ca29bl, ca29bb, ca29bw, tw)
-        elif("ca30" in district):
+        if("ca30" in district):
             sortEthnic(ca30bl, ca30bb, ca30bw, tw)
-        elif("ca31" in district):
+        if("ca31" in district):
             sortEthnic(ca31bl, ca31bb, ca31bw, tw) #done
-        elif("ca32" in district):
+        if("ca32" in district):
             sortEthnic(ca32bl, ca32bb, ca32bw, tw) #done
-        elif("ca33" in district):
+        if("ca33" in district):
             sortEthnic(ca33bl, ca33bb, ca33bw, tw)
-        elif("ca34" in district):
+        if("ca34" in district):
             sortEthnic(ca34bl, ca34bb, ca34bw, tw)
-        elif("ca35" in district):
+        if("ca35" in district):
             sortEthnic(ca35bl, ca35bb, ca35bw, tw) #done
-        elif("ca36" in district):
+        if("ca36" in district):
             sortEthnic(ca36bl, ca36bb, ca36bw, tw)
-        elif("ca37" in district):
+        if("ca37" in district):
             sortEthnic(ca37bl, ca37bb, ca37bw, tw) #done
-        elif("ca38" in district):
+        if("ca38" in district):
             sortEthnic(ca38bl, ca38bb, ca38bw, tw) #done
-        elif("ca39" in district):
+        if("ca39" in district):
             sortEthnic(ca39bl, ca39bb, ca39bw, tw)
-        elif("ca40" in district):
+        if("ca40" in district):
             sortEthnic(ca40bl, ca40bb, ca40bw, tw) #done
-        elif("ca41" in district):
+        if("ca41" in district):
             sortEthnic(ca41bl, ca41bb, ca41bw, tw) #done
-        elif("ca42" in district):
+        if("ca42" in district):
             sortEthnic(ca42bl, ca42bb, ca42bw, tw)
-        elif("ca43" in district):
+        if("ca43" in district):
             sortEthnic(ca43bl, ca43bb, ca43bw, tw)
-        elif("ca44" in district):
+        if("ca44" in district):
             sortEthnic(ca44bl, ca44bb, ca44bw, tw)
-        elif("ca45" in district):
+        if("ca45" in district):
             sortEthnic(ca45bl, ca45bb, ca45bw, tw)
-        elif("ca46" in district):
+        if("ca46" in district):
             sortEthnic(ca46bl, ca46bb, ca46bw, tw) #done
-        elif("ca47" in district):
+        if("ca47" in district):
             sortEthnic(ca47bl, ca47bb, ca47bw, tw)
-        elif("ca48" in district):
+        if("ca48" in district):
             sortEthnic(ca48bl, ca48bb, ca48bw, tw) #done
-        elif("ca49" in district):
+        if("ca49" in district):
             sortEthnic(ca49bl, ca49bb, ca49bw, tw) #done
-        elif("ca50" in district):
+        if("ca50" in district):
             sortEthnic(ca50bl, ca50bb, ca50bw, tw)
-        elif("ca51" in district):
+        if("ca51" in district):
             sortEthnic(ca51bl, ca51bb, ca51bw, tw) #done
-        elif("ca52" in district):
+        if("ca52" in district):
             sortEthnic(ca52bl, ca52bb, ca52bw, tw) #done
-        elif("ca53" in district):
+        if("ca53" in district):
             sortEthnic(ca53bl, ca53bb, ca53bw, tw) #done
-        elif("la1" in district):
+        if("la1" in district):
             sortEthnic(la1bl, la1bb, la1bw, tw)
-        elif("la2" in district):
+        if("la2" in district):
             sortEthnic(la2bl, la2bb, la2bw, tw) #done
-        elif("la3" in district):
+        if("la3" in district):
             sortEthnic(la3bl, la3bb, la3bw, tw)
-        elif("la4" in district):
+        if("la4" in district):
             sortEthnic(la4bl, la4bb, la4bw, tw)
-        elif("la5" in district):
+        if("la5" in district):
             sortEthnic(la5bl, la5bb, la5bw, tw)
-        elif("la6" in district):
+        if("la6" in district):
             sortEthnic(la6bl, la6bb, la6bw, tw)
-        elif("ct1" in district):
+        if("ct1" in district):
             sortEthnic(ct1bl, ct1bb, ct1bw, tw)
-        elif("ct2" in district):
+        if("ct2" in district):
             sortEthnic(ct2bl, ct2bb, ct2bw, tw) #done
-        elif("ct3" in district):
+        if("ct3" in district):
             sortEthnic(ct3bl, ct3bb, ct3bw, tw)
-        elif("ct4" in district):
+        if("ct4" in district):
             sortEthnic(ct4bl, ct4bb, ct4bw, tw)	 #done
-        elif("ct5" in district):
+        if("ct5" in district):
             sortEthnic(ct5bl, ct5bb, ct5bw, tw)
-        elif("mt1" in district):
+        if("mt1" in district):
             sortEthnic(mt1bl, mt1bb, mt1bw, tw) #done
-        elif("ms1" in district):
+        if("ms1" in district):
             sortEthnic(ms1bl, ms1bb, ms1bw, tw) #done
-        elif("ms2" in district):
+        if("ms2" in district):
             sortEthnic(ms2bl, ms2bb, ms2bw, tw)
-        elif("ms3" in district):
+        if("ms3" in district):
             sortEthnic(ms3bl, ms3bb, ms3bw, tw)
-        elif("ms4" in district):
+        if("ms4" in district):
             sortEthnic(ms4bl, ms4bb, ms4bw, tw)
-        elif("pa1" in district):
+        if("pa1" in district):
             sortEthnic(pa1bl, pa1bb, pa1bw, tw)
-        elif("pa2" in district):
+        if("pa2" in district):
             sortEthnic(pa2bl, pa2bb, pa2bw, tw) #done
-        elif("pa3" in district):
+        if("pa3" in district):
             sortEthnic(pa3bl, pa3bb, pa3bw, tw)	#done
-        elif("pa4" in district):
+        if("pa4" in district):
             sortEthnic(pa4bl, pa4bb, pa4bw, tw)	#done
-        elif("pa5" in district):
+        if("pa5" in district):
             sortEthnic(pa5bl, pa5bb, pa5bw, tw) #done
-        elif("pa6" in district):
+        if("pa6" in district):
             sortEthnic(pa6bl, pa6bb, pa6bw, tw)
-        elif("pa7" in district):
+        if("pa7" in district):
             sortEthnic(pa7bl, pa7bb, pa7bw, tw) #done
-        elif("pa8" in district):
+        if("pa8" in district):
             sortEthnic(pa8bl, pa8bb, pa8bw, tw) #done
-        elif("pa9" in district):
+        if("pa9" in district):
             sortEthnic(pa9bl, pa9bb, pa9bw, tw)
-        elif("pa10" in district):
+        if("pa10" in district):
             sortEthnic(pa10bl, pa10bb, pa10bw, tw) #done
-        elif("pa11" in district):
+        if("pa11" in district):
             sortEthnic(pa11bl, pa11bb, pa11bw, tw)
-        elif("pa12" in district):
+        if("pa12" in district):
             sortEthnic(pa12bl, pa12bb, pa12bw, tw) #done
-        elif("pa13" in district):
+        if("pa13" in district):
             sortEthnic(pa13bl, pa13bb, pa13bw, tw) #done
-        elif("pa14" in district):
+        if("pa14" in district):
             sortEthnic(pa14bl, pa14bb, pa14bw, tw)
-        elif("pa15" in district):
+        if("pa15" in district):
             sortEthnic(pa15bl, pa15bb, pa15bw, tw) #done
-        elif("pa16" in district):
+        if("pa16" in district):
             sortEthnic(pa16bl, pa16bb, pa16bw, tw) #done
-        elif("pa17" in district):
+        if("pa17" in district):
             sortEthnic(pa17bl, pa17bb, pa17bw, tw) #done
-        elif("pa18" in district):
+        if("pa18" in district):
             sortEthnic(pa18bl, pa18bb, pa18bw, tw) #done
-        elif("oh1" in district):
+        if("oh1" in district):
             sortEthnic(oh1bl, oh1bb, oh1bw, tw)
-        elif("oh2" in district):
+        if("oh2" in district):
             sortEthnic(oh2bl, oh2bb, oh2bw, tw)
-        elif("oh3" in district):
+        if("oh3" in district):
             sortEthnic(oh3bl, oh3bb, oh3bw, tw)
-        elif("oh4" in district):
+        if("oh4" in district):
             sortEthnic(oh4bl, oh4bb, oh4bw, tw)
-        elif("oh5" in district):
+        if("oh5" in district):
             sortEthnic(oh5bl, oh5bb, oh5bw, tw)
         if("oh6" in district):
             sortEthnic(oh6bl, oh6bb, oh6bw, tw)
-        elif("oh7" in district):
+        if("oh7" in district):
             sortEthnic(oh7bl, oh7bb, oh7bw, tw)
-        elif("oh8" in district):
+        if("oh8" in district):
             sortEthnic(oh8bl, oh8bb, oh8bw, tw)
-        elif("oh9" in district):
+        if("oh9" in district):
             sortEthnic(oh9bl, oh9bb, oh9bw, tw)
-        elif("oh10" in district):
+        if("oh10" in district):
             sortEthnic(oh10bl, oh10bb, oh10bw, tw)
-        elif("oh11" in district):
+        if("oh11" in district):
             sortEthnic(oh11bl, oh11bb, oh11bw, tw)
-        elif("oh12" in district):
+        if("oh12" in district):
             sortEthnic(oh12bl, oh12bb, oh12bw, tw)
-        elif("oh13" in district):
+        if("oh13" in district):
             sortEthnic(oh13bl, oh13bb, oh13bw, tw)
-        elif("oh14" in district):
+        if("oh14" in district):
             sortEthnic(oh14bl, oh14bb, oh14bw, tw)
-        elif("oh15" in district):
+        if("oh15" in district):
             sortEthnic(oh15bl, oh15bb, oh15bw, tw)
-        elif("oh16" in district):
+        if("oh16" in district):
             sortEthnic(oh16bl, oh16bb, oh16bw, tw)
-        elif("fl1" in district):
+        if("fl1" in district):
             sortEthnic(fl1bl, fl1bb, fl1bw, tw)
-        elif("fl2" in district):
+        if("fl2" in district):
             sortEthnic(fl2bl, fl2bb, fl2bw, tw)
-        elif("fl3" in district):
+        if("fl3" in district):
             sortEthnic(fl3bl, fl3bb, fl3bw, tw)
-        elif("fl4" in district):
+        if("fl4" in district):
             sortEthnic(fl4bl, fl4bb, fl4bw, tw)
-        elif("fl5" in district):
+        if("fl5" in district):
             sortEthnic(fl5bl, fl5bb, fl5bw, tw) #done
-        elif("fl6" in district):
+        if("fl6" in district):
             sortEthnic(fl6bl, fl6bb, fl6bw, tw)
-        elif("fl7" in district):
+        if("fl7" in district):
             sortEthnic(fl7bl, fl7bb, fl7bw, tw)
-        elif("fl8" in district):
+        if("fl8" in district):
             sortEthnic(fl8bl, fl8bb, fl8bw, tw)
-        elif("fl9" in district):
+        if("fl9" in district):
             sortEthnic(fl9bl, fl9bb, fl9bw, tw)
-        elif("fl10" in district):
+        if("fl10" in district):
             sortEthnic(fl10bl, fl10bb, fl10bw, tw)
-        elif("fl11" in district):
+        if("fl11" in district):
             sortEthnic(fl11bl, fl11bb, fl11bw, tw)
-        elif("fl12" in district):
+        if("fl12" in district):
             sortEthnic(fl12bl, fl12bb, fl12bw, tw)
-        elif("fl13" in district):
+        if("fl13" in district):
             sortEthnic(fl13bl, fl13bb, fl13bw, tw)
-        elif("fl14" in district):
+        if("fl14" in district):
             sortEthnic(fl14bl, fl14bb, fl14bw, tw)
-        elif("fl15" in district):
+        if("fl15" in district):
             sortEthnic(fl15bl, fl15bb, fl15bw, tw)
-        elif("fl16" in district):
+        if("fl16" in district):
             sortEthnic(fl16bl, fl16bb, fl16bw, tw)
-        elif("fl17" in district):
+        if("fl17" in district):
             sortEthnic(fl17bl, fl17bb, fl17bw, tw)
-        elif("fl18" in district):
+        if("fl18" in district):
             sortEthnic(fl18bl, fl18bb, fl18bw, tw)
-        elif("fl19" in district):
+        if("fl19" in district):
             sortEthnic(fl19bl, fl19bb, fl19bw, tw)
-        elif("fl20" in district):
+        if("fl20" in district):
             sortEthnic(fl20bl, fl20bb, fl20bw, tw)
-        elif("fl21" in district):
+        if("fl21" in district):
             sortEthnic(fl21bl, fl21bb, fl21bw, tw) #done
-        elif("fl22" in district):
+        if("fl22" in district):
             sortEthnic(fl22bl, fl22bb, fl22bw, tw)
-        elif("fl23" in district):
+        if("fl23" in district):
             sortEthnic(fl23bl, fl23bb, fl23bw, tw)
-        elif("fl24" in district):
+        if("fl24" in district):
             sortEthnic(fl24bl, fl24bb, fl24bw, tw)
-        elif("fl25" in district):
+        if("fl25" in district):
             sortEthnic(fl25bl, fl25bb, fl25bw, tw) #done
-        elif("fl26" in district):
+        if("fl26" in district):
             sortEthnic(fl26bl, fl26bb, fl26bw, tw) #done
-        elif("fl27" in district):
+        if("fl27" in district):
             sortEthnic(fl27bl, fl27bb, fl27bw, tw)
-        elif("wa1" in district):
+        if("wa1" in district):
             sortEthnic(wa1bl, wa1bb, wa1bw, tw)
-        elif("wa2" in district):
+        if("wa2" in district):
             sortEthnic(wa2bl, wa2bb, wa2bw, tw)
-        elif("wa3" in district):
+        if("wa3" in district):
             sortEthnic(wa3bl, wa3bb, wa3bw, tw)
-        elif("wa4" in district):
+        if("wa4" in district):
             sortEthnic(wa4bl, wa4bb, wa4bw, tw)
-        elif("wa5" in district):
+        if("wa5" in district):
             sortEthnic(wa5bl, wa5bb, wa5bw, tw)
-        elif("wa6" in district):
+        if("wa6" in district):
             sortEthnic(wa6bl, wa6bb, wa6bw, tw)
-        elif("wa7" in district):
+        if("wa7" in district):
             sortEthnic(wa7bl, wa7bb, wa7bw, tw)
-        elif("wa8" in district):
+        if("wa8" in district):
             sortEthnic(wa8bl, wa8bb, wa8bw, tw)
-        elif("wa9" in district):
+        if("wa9" in district):
             sortEthnic(wa9bl, wa9bb, wa9bw, tw)
-        elif("wa10" in district):
+        if("wa10" in district):
             sortEthnic(wa10bl, wa10bb, wa10bw, tw)
-        elif("hi1" in district):
+        if("hi1" in district):
             sortEthnic(hi1bl, hi1bb, hi1bw, tw) #done
-        elif("hi2" in district):
+        if("hi2" in district):
             sortEthnic(hi2bl, hi2bb, hi2bw, tw) #done
-        elif("nj1" in district):
+        if("nj1" in district):
             sortEthnic(nj1bl, nj1bb, nj1bw, tw) #done
-        elif("nj2" in district):
+        if("nj2" in district):
             sortEthnic(nj2bl, nj2bb, nj2bw, tw) #done
-        elif("nj3" in district):
+        if("nj3" in district):
             sortEthnic(nj3bl, nj3bb, nj3bw, tw)	#done
-        elif("nj4" in district):
+        if("nj4" in district):
             sortEthnic(nj4bl, nj4bb, nj4bw, tw)	#done
-        elif("nj5" in district):
+        if("nj5" in district):
             sortEthnic(nj5bl, nj5bb, nj5bw, tw) #done
-        elif("nj6" in district):
+        if("nj6" in district):
             sortEthnic(nj6bl, nj6bb, nj6bw, tw) #done
-        elif("nj7" in district):
+        if("nj7" in district):
             sortEthnic(nj7bl, nj7bb, nj7bw, tw) #done
-        elif("nj8" in district):
+        if("nj8" in district):
             sortEthnic(nj8bl, nj8bb, nj8bw, tw) #done
-        elif("nj9" in district):
+        if("nj9" in district):
             sortEthnic(nj9bl, nj9bb, nj9bw, tw) #done
-        elif("nj10" in district):
+        if("nj10" in district):
             sortEthnic(nj10bl, nj10bb, nj10bw, tw) #done
-        elif("nj11" in district):
+        if("nj11" in district):
             sortEthnic(nj11bl, nj11bb, nj11bw, tw) #done
-        elif("nj12" in district):
+        if("nj12" in district):
             sortEthnic(nj12bl, nj12bb, nj12bw, tw) #done
-        elif("ny1" in district):
+        if("ny1" in district):
             sortEthnic(ny1bl, ny1bb, ny1bw, tw) #done
-        elif("ny2" in district):
+        if("ny2" in district):
             sortEthnic(ny2bl, ny2bb, ny2bw, tw) #done
-        elif("ny3" in district):
+        if("ny3" in district):
             sortEthnic(ny3bl, ny3bb, ny3bw, tw)
-        elif("ny4" in district):
+        if("ny4" in district):
             sortEthnic(ny4bl, ny4bb, ny4bw, tw)
-        elif("ny5" in district):
+        if("ny5" in district):
             sortEthnic(ny5bl, ny5bb, ny5bw, tw)
-        elif("ny6" in district or "ny7" in district or "ny8" in district or "ny9" in district or "ny10" in district or "ny11" in district or "ny12" in district or "ny13" in district or "ny14" in district or "ny15" in district):
+        if("ny6" in district or "ny7" in district or "ny8" in district or "ny9" in district or "ny10" in district or "ny11" in district or "ny12" in district or "ny13" in district or "ny14" in district or "ny15" in district):
             sortEthnic(ny6bl, ny6bb, ny6bw, tw)
             sortEthnic(ny7bl, ny7bb, ny7bw, tw)
             sortEthnic(ny8bl, ny8bb, ny8bw, tw)
@@ -1533,469 +1533,469 @@ for tw in cursor:
             sortEthnic(ny13bl, ny13bb, ny13bw, tw)
             sortEthnic(ny14bl, ny14bb, ny14bw, tw)
             sortEthnic(ny15bl, ny15bb, ny15bw, tw)
-        elif("ny16" in district):
+        if("ny16" in district):
             sortEthnic(ny16bl, ny16bb, ny16bw, tw)
-        elif("ny17" in district):
+        if("ny17" in district):
             sortEthnic(ny17bl, ny17bb, ny17bw, tw) #done
-        elif("ny18" in district):
+        if("ny18" in district):
             sortEthnic(ny18bl, ny18bb, ny18bw, tw)
-        elif("ny19" in district):
+        if("ny19" in district):
             sortEthnic(ny19bl, ny19bb, ny19bw, tw) #done
-        elif("ny20" in district):
+        if("ny20" in district):
             sortEthnic(ny20bl, ny20bb, ny20bw, tw)
-        elif("ny21" in district):
+        if("ny21" in district):
             sortEthnic(ny21bl, ny21bb, ny21bw, tw) #done
-        elif("ny22" in district):
+        if("ny22" in district):
             sortEthnic(ny22bl, ny22bb, ny22bw, tw) #done
-        elif("ny23" in district):
+        if("ny23" in district):
             sortEthnic(ny23bl, ny23bb, ny23bw, tw)
-        elif("ny24" in district):
+        if("ny24" in district):
             sortEthnic(ny24bl, ny24bb, ny24bw, tw)
-        elif("ny25" in district):
+        if("ny25" in district):
             sortEthnic(ny25bl, ny25bb, ny25bw, tw)
-        elif("ny26" in district):
+        if("ny26" in district):
             sortEthnic(ny26bl, ny26bb, ny26bw, tw)
-        elif("ny27" in district):
+        if("ny27" in district):
             sortEthnic(ny27bl, ny27bb, ny27bw, tw) #done
-        elif("ri1" in district):
+        if("ri1" in district):
             sortEthnic(ri1bl, ri1bb, ri1bw, tw)	#done
-        elif("ri2" in district):
+        if("ri2" in district):
             sortEthnic(ri2bl, ri2bb, ri2bw, tw)
-        elif("mn1" in district):
+        if("mn1" in district):
             sortEthnic(mn1bl, mn1bb, mn1bw, tw) #done
-        elif("mn2" in district):
+        if("mn2" in district):
             sortEthnic(mn2bl, mn2bb, mn2bw, tw)
-        elif("mn3" in district):
+        if("mn3" in district):
             sortEthnic(mn3bl, mn3bb, mn3bw, tw)	#done
-        elif("mn4" in district):
+        if("mn4" in district):
             sortEthnic(mn4bl, mn4bb, mn4bw, tw)
-        elif("mn5" in district):
+        if("mn5" in district):
             sortEthnic(mn5bl, mn5bb, mn5bw, tw) #done
-        elif("mn6" in district):
+        if("mn6" in district):
             sortEthnic(mn6bl, mn6bb, mn6bw, tw) #done
-        elif("mn7" in district):
+        if("mn7" in district):
             sortEthnic(mn7bl, mn7bb, mn7bw, tw) #done
-        elif("mn8" in district):
+        if("mn8" in district):
             sortEthnic(mn8bl, mn8bb, mn8bw, tw)
-        elif("mi1" in district):
+        if("mi1" in district):
             sortEthnic(mi1bl, mi1bb, mi1bw, tw)
-        elif("mi2" in district):
+        if("mi2" in district):
             sortEthnic(mi2bl, mi2bb, mi2bw, tw) #done
-        elif("mi3" in district):
+        if("mi3" in district):
             sortEthnic(mi3bl, mi3bb, mi3bw, tw)
-        elif("mi4" in district):
+        if("mi4" in district):
             sortEthnic(mi4bl, mi4bb, mi4bw, tw)	#done
-        elif("mi5" in district):
+        if("mi5" in district):
             sortEthnic(mi5bl, mi5bb, mi5bw, tw) #done
-        elif("mi6" in district):
+        if("mi6" in district):
             sortEthnic(mi6bl, mi6bb, mi6bw, tw)
-        elif("mi7" in district):
+        if("mi7" in district):
             sortEthnic(mi7bl, mi7bb, mi7bw, tw)
-        elif("mi8" in district):
+        if("mi8" in district):
             sortEthnic(mi8bl, mi8bb, mi8bw, tw)
-        elif("mi9" in district):
+        if("mi9" in district):
             sortEthnic(mi9bl, mi9bb, mi9bw, tw) #done
-        elif("mi10" in district):
+        if("mi10" in district):
             sortEthnic(mi10bl, mi10bb, mi10bw, tw) #done
-        elif("mi11" in district):
+        if("mi11" in district):
             sortEthnic(mi11bl, mi11bb, mi11bw, tw)
-        elif("mi12" in district):
+        if("mi12" in district):
             sortEthnic(mi12bl, mi12bb, mi12bw, tw)
-        elif("mi13" in district):
+        if("mi13" in district):
             sortEthnic(mi13bl, mi13bb, mi13bw, tw) #done
-        elif("mi14" in district):
+        if("mi14" in district):
             sortEthnic(mi14bl, mi14bb, mi14bw, tw) #done
-        elif("wi1" in district):
+        if("wi1" in district):
             sortEthnic(wi1bl, wi1bb, wi1bw, tw)
-        elif("wi2" in district):
+        if("wi2" in district):
             sortEthnic(wi2bl, wi2bb, wi2bw, tw)
-        elif("wi3" in district):
+        if("wi3" in district):
             sortEthnic(wi3bl, wi3bb, wi3bw, tw)	#done
-        elif("wi4" in district):
+        if("wi4" in district):
             sortEthnic(wi4bl, wi4bb, wi4bw, tw)
-        elif("wi5" in district):
+        if("wi5" in district):
             sortEthnic(wi5bl, wi5bb, wi5bw, tw) #done
-        elif("wi6" in district):
+        if("wi6" in district):
             sortEthnic(wi6bl, wi6bb, wi6bw, tw)
-        elif("wi7" in district):
+        if("wi7" in district):
             sortEthnic(wi7bl, wi7bb, wi7bw, tw) #done
-        elif("wi8" in district):
+        if("wi8" in district):
             sortEthnic(wi8bl, wi8bb, wi8bw, tw)
-        elif("or1" in district):
+        if("or1" in district):
             sortEthnic(or1bl, or1bb, or1bw, tw)
-        elif("or2" in district):
+        if("or2" in district):
             sortEthnic(or2bl, or2bb, or2bw, tw) #done
-        elif("or3" in district):
+        if("or3" in district):
             sortEthnic(or3bl, or3bb, or3bw, tw)
-        elif("or4" in district):
+        if("or4" in district):
             sortEthnic(or4bl, or4bb, or4bw, tw)
-        elif("or5" in district):
+        if("or5" in district):
             sortEthnic(or5bl, or5bb, or5bw, tw)
-        elif("md1" in district):
+        if("md1" in district):
             sortEthnic(md1bl, md1bb, md1bw, tw) #done
-        elif("md2" in district):
+        if("md2" in district):
             sortEthnic(md2bl, md2bb, md2bw, tw)
-        elif("md3" in district):
+        if("md3" in district):
             sortEthnic(md3bl, md3bb, md3bw, tw)	#done
-        elif("md4" in district):
+        if("md4" in district):
             sortEthnic(md4bl, md4bb, md4bw, tw)	#done
-        elif("md5" in district):
+        if("md5" in district):
             sortEthnic(md5bl, md5bb, md5bw, tw) #done
-        elif("md6" in district):
+        if("md6" in district):
             sortEthnic(md6bl, md6bb, md6bw, tw) #done
-        elif("md7" in district):
+        if("md7" in district):
             sortEthnic(md7bl, md7bb, md7bw, tw)
-        elif("md8" in district):
+        if("md8" in district):
             sortEthnic(md8bl, md8bb, md8bw, tw)
-        elif("ma1" in district):
+        if("ma1" in district):
             sortEthnic(ma1bl, ma1bb, ma1bw, tw) #done
-        elif("ma2" in district):
+        if("ma2" in district):
             sortEthnic(ma2bl, ma2bb, ma2bw, tw)
-        elif("ma3" in district):
+        if("ma3" in district):
             sortEthnic(ma3bl, ma3bb, ma3bw, tw)	 #done
-        elif("ma4" in district):
+        if("ma4" in district):
             sortEthnic(ma4bl, ma4bb, ma4bw, tw)
-        elif("ma5" in district):
+        if("ma5" in district):
             sortEthnic(ma5bl, ma5bb, ma5bw, tw)
-        elif("ma6" in district):
+        if("ma6" in district):
             sortEthnic(ma6bl, ma6bb, ma6bw, tw)
-        elif("ma7" in district):
+        if("ma7" in district):
             sortEthnic(ma7bl, ma7bb, ma7bw, tw)
-        elif("ma8" in district):
+        if("ma8" in district):
             sortEthnic(ma8bl, ma8bb, ma8bw, tw)
-        elif("ma9" in district):
+        if("ma9" in district):
             sortEthnic(ma9bl, ma9bb, ma9bw, tw) #done
-        elif("me1" in district):
+        if("me1" in district):
             sortEthnic(me1bl, me1bb, me1bw, tw) #done
-        elif("me2" in district):
+        if("me2" in district):
             sortEthnic(me2bl, me2bb, me2bw, tw) #done
-        elif("id1" in district):
+        if("id1" in district):
             sortEthnic(id1bl, id1bb, id1bw, tw) #done
-        elif("id2" in district):
+        if("id2" in district):
             sortEthnic(id2bl, id2bb, id2bw, tw) #done
-        elif("nc1" in district):
+        if("nc1" in district):
             sortEthnic(nc1bl, nc1bb, nc1bw, tw)
-        elif("nc2" in district):
+        if("nc2" in district):
             sortEthnic(nc2bl, nc2bb, nc2bw, tw)
-        elif("nc3" in district):
+        if("nc3" in district):
             sortEthnic(nc3bl, nc3bb, nc3bw, tw)
-        elif("nc4" in district):
+        if("nc4" in district):
             sortEthnic(nc4bl, nc4bb, nc4bw, tw)
-        elif("nc5" in district):
+        if("nc5" in district):
             sortEthnic(nc5bl, nc5bb, nc5bw, tw)
-        elif("nc6" in district):
+        if("nc6" in district):
             sortEthnic(nc6bl, nc6bb, nc6bw, tw)
-        elif("nc7" in district):
+        if("nc7" in district):
             sortEthnic(nc7bl, nc7bb, nc7bw, tw)
-        elif("nc8" in district):
+        if("nc8" in district):
             sortEthnic(nc8bl, nc8bb, nc8bw, tw) #done
-        elif("nc9" in district):
+        if("nc9" in district):
             sortEthnic(nc9bl, nc9bb, nc9bw, tw)
-        elif("nc10" in district):
+        if("nc10" in district):
             sortEthnic(nc10bl, nc10bb, nc10bw, tw)
-        elif("nc11" in district):
+        if("nc11" in district):
             sortEthnic(nc11bl, nc11bb, nc11bw, tw)
-        elif("nc12" in district):
+        if("nc12" in district):
             sortEthnic(nc12bl, nc12bb, nc12bw, tw)
-        elif("nc13" in district):
+        if("nc13" in district):
             sortEthnic(nc13bl, nc13bb, nc13bw, tw)
-        elif("nh1" in district):
+        if("nh1" in district):
             sortEthnic(nh1bl, nh1bb, nh1bw, tw) #done
-        elif("nh2" in district):
+        if("nh2" in district):
             sortEthnic(nh2bl, nh2bb, nh2bw, tw) #done
-        elif("nv1" in district):
+        if("nv1" in district):
             sortEthnic(nv1bl, nv1bb, nv1bw, tw) #done
-        elif("nv2" in district):
+        if("nv2" in district):
             sortEthnic(nv2bl, nv2bb, nv2bw, tw)
-        elif("nv3" in district):
+        if("nv3" in district):
             sortEthnic(nv3bl, nv3bb, nv3bw, tw)
-        elif("nv4" in district):
+        if("nv4" in district):
             sortEthnic(nv4bl, nv4bb, nv4bw, tw)
-        elif("co1" in district):
+        if("co1" in district):
             sortEthnic(co1bl, co1bb, co1bw, tw)
-        elif("co2" in district):
+        if("co2" in district):
             sortEthnic(co2bl, co2bb, co2bw, tw) #done
-        elif("co3" in district):
+        if("co3" in district):
             sortEthnic(co3bl, co3bb, co3bw, tw)
-        elif("co4" in district):
+        if("co4" in district):
             sortEthnic(co4bl, co4bb, co4bw, tw)
-        elif("co5" in district):
+        if("co5" in district):
             sortEthnic(co5bl, co5bb, co5bw, tw)
-        elif("co6" in district):
+        if("co6" in district):
             sortEthnic(co6bl, co6bb, co6bw, tw) #done
-        elif("co7" in district):
+        if("co7" in district):
             sortEthnic(co7bl, co7bb, co7bw, tw) #done
-        elif("nm1" in district):
+        if("nm1" in district):
             sortEthnic(nm1bl, nm1bb, nm1bw, tw) #done
-        elif("nm2" in district):
+        if("nm2" in district):
             sortEthnic(nm2bl, nm2bb, nm2bw, tw)
-        elif("nm3" in district):
+        if("nm3" in district):
             sortEthnic(nm3bl, nm3bb, nm3bw, tw) #done
-        elif("az1" in district):
+        if("az1" in district):
             sortEthnic(az1bl, az1bb, az1bw, tw)
-        elif("az2" in district):
+        if("az2" in district):
             sortEthnic(az2bl, az2bb, az2bw, tw)
-        elif("az3" in district):
+        if("az3" in district):
             sortEthnic(az3bl, az3bb, az3bw, tw)		#done
-        elif("az4" in district):
+        if("az4" in district):
             sortEthnic(az4bl, az4bb, az4bw, tw)
-        elif("az5" in district):
+        if("az5" in district):
             sortEthnic(az5bl, az5bb, az5bw, tw)
-        elif("az6" in district):
+        if("az6" in district):
             sortEthnic(az6bl, az6bb, az6bw, tw) #done
-        elif("az7" in district):
+        if("az7" in district):
             sortEthnic(az7bl, az7bb, az7bw, tw)		#done
-        elif("az8" in district):
+        if("az8" in district):
             sortEthnic(az8bl, az8bb, az8bw, tw)
-        elif("az9" in district):
+        if("az9" in district):
             sortEthnic(az9bl, az9bb, az9bw, tw)			#done
-        elif("ga1" in district):
+        if("ga1" in district):
             sortEthnic(ga1bl, ga1bb, ga1bw, tw)
-        elif("ga2" in district):
+        if("ga2" in district):
             sortEthnic(ga2bl, ga2bb, ga2bw, tw)
-        elif("ga3" in district):
+        if("ga3" in district):
             sortEthnic(ga3bl, ga3bb, ga3bw, tw)	#done
-        elif("ga4" in district):
+        if("ga4" in district):
             sortEthnic(ga4bl, ga4bb, ga4bw, tw)
-        elif("ga5" in district):
+        if("ga5" in district):
             sortEthnic(ga5bl, ga5bb, ga5bw, tw)
-        elif("ga6" in district):
+        if("ga6" in district):
             sortEthnic(ga6bl, ga6bb, ga6bw, tw)
-        elif("ga7" in district):
+        if("ga7" in district):
             sortEthnic(ga7bl, ga7bb, ga7bw, tw)
-        elif("ga8" in district):
+        if("ga8" in district):
             sortEthnic(ga8bl, ga8bb, ga8bw, tw)
-        elif("ga9" in district):
+        if("ga9" in district):
             sortEthnic(ga9bl, ga9bb, ga9bw, tw)
-        elif("ga10" in district):
+        if("ga10" in district):
             sortEthnic(ga10bl, ga10bb, ga10bw, tw)
-        elif("ga11" in district):
+        if("ga11" in district):
             sortEthnic(ga11bl, ga11bb, ga11bw, tw)
-        elif("ga12" in district):
+        if("ga12" in district):
             sortEthnic(ga12bl, ga12bb, ga12bw, tw)
-        elif("ga13" in district):
+        if("ga13" in district):
             sortEthnic(ga13bl, ga13bb, ga13bw, tw)
-        elif("ga14" in district):
+        if("ga14" in district):
             sortEthnic(ga14bl, ga14bb, ga14bw, tw)
-        elif("tx1" in district):
+        if("tx1" in district):
             sortEthnic(tx1bl, tx1bb, tx1bw, tw) #done
-        elif("tx2" in district):
+        if("tx2" in district):
             sortEthnic(tx2bl, tx2bb, tx2bw, tw)
-        elif("tx3" in district):
+        if("tx3" in district):
             sortEthnic(tx3bl, tx3bb, tx3bw, tw)
-        elif("tx4" in district):
+        if("tx4" in district):
             sortEthnic(tx4bl, tx4bb, tx4bw, tw)
-        elif("tx5" in district):
+        if("tx5" in district):
             sortEthnic(tx5bl, tx5bb, tx5bw, tw) #done
-        elif("tx6" in district):
+        if("tx6" in district):
             sortEthnic(tx6bl, tx6bb, tx6bw, tw) #done
-        elif("tx7" in district):
+        if("tx7" in district):
             sortEthnic(tx7bl, tx7bb, tx7bw, tw)
-        elif("tx8" in district):
+        if("tx8" in district):
             sortEthnic(tx8bl, tx8bb, tx8bw, tw)
-        elif("tx9" in district):
+        if("tx9" in district):
             sortEthnic(tx9bl, tx9bb, tx9bw, tw)
-        elif("tx10" in district):
+        if("tx10" in district):
             sortEthnic(tx10bl, tx10bb, tx10bw, tw) #done
-        elif("tx11" in district):
+        if("tx11" in district):
             sortEthnic(tx11bl, tx11bb, tx11bw, tw)
-        elif("tx12" in district):
+        if("tx12" in district):
             sortEthnic(tx12bl, tx12bb, tx12bw, tw)
-        elif("tx13" in district):
+        if("tx13" in district):
             sortEthnic(tx13bl, tx13bb, tx13bw, tw)
-        elif("tx14" in district):
+        if("tx14" in district):
             sortEthnic(tx14bl, tx14bb, tx14bw, tw)
-        elif("tx15" in district):
+        if("tx15" in district):
             sortEthnic(tx15bl, tx15bb, tx15bw, tw)
-        elif("tx16" in district):
+        if("tx16" in district):
             sortEthnic(tx16bl, tx16bb, tx16bw, tw)
-        elif("tx17" in district):
+        if("tx17" in district):
             sortEthnic(tx17bl, tx17bb, tx17bw, tw)
-        elif("tx18" in district):
+        if("tx18" in district):
             sortEthnic(tx18bl, tx18bb, tx18bw, tw)
-        elif("tx19" in district):
+        if("tx19" in district):
             sortEthnic(tx19bl, tx19bb, tx19bw, tw)
-        elif("tx20" in district):
+        if("tx20" in district):
             sortEthnic(tx20bl, tx20bb, tx20bw, tw)
-        elif("tx21" in district):
+        if("tx21" in district):
             sortEthnic(tx21bl, tx21bb, tx21bw, tw)
-        elif("tx22" in district):
+        if("tx22" in district):
             sortEthnic(tx22bl, tx22bb, tx22bw, tw)
-        elif("tx23" in district):
+        if("tx23" in district):
             sortEthnic(tx23bl, tx23bb, tx23bw, tw)
-        elif("tx24" in district):
+        if("tx24" in district):
             sortEthnic(tx24bl, tx24bb, tx24bw, tw) #done
-        elif("tx25" in district):
+        if("tx25" in district):
             sortEthnic(tx25bl, tx25bb, tx25bw, tw)
-        elif("tx26" in district):
+        if("tx26" in district):
             sortEthnic(tx26bl, tx26bb, tx26bw, tw)
-        elif("tx27" in district):
+        if("tx27" in district):
             sortEthnic(tx27bl, tx27bb, tx27bw, tw)
-        elif("tx28" in district):
+        if("tx28" in district):
             sortEthnic(tx28bl, tx28bb, tx28bw, tw)
-        elif("tx29" in district):
+        if("tx29" in district):
             sortEthnic(tx29bl, tx29bb, tx29bw, tw)
-        elif("tx30" in district):
+        if("tx30" in district):
             sortEthnic(tx30bl, tx30bb, tx30bw, tw)
-        elif("tx31" in district):
+        if("tx31" in district):
             sortEthnic(tx31bl, tx31bb, tx31bw, tw)
-        elif("tx32" in district):
+        if("tx32" in district):
             sortEthnic(tx32bl, tx32bb, tx32bw, tw) #done
-        elif("tx33" in district):
+        if("tx33" in district):
             sortEthnic(tx33bl, tx33bb, tx33bw, tw)
-        elif("tx34" in district):
+        if("tx34" in district):
             sortEthnic(tx34bl, tx34bb, tx34bw, tw)
-        elif("tx35" in district):
+        if("tx35" in district):
             sortEthnic(tx35bl, tx35bb, tx35bw, tw)
-        elif("tx36" in district):
+        if("tx36" in district):
             sortEthnic(tx36bl, tx36bb, tx36bw, tw)
-        elif("in1" in district):
+        if("in1" in district):
             sortEthnic(in1bl, in1bb, in1bw, tw)
-        elif("in2" in district):
+        if("in2" in district):
             sortEthnic(in2bl, in2bb, in2bw, tw)
-        elif("in3" in district):
+        if("in3" in district):
             sortEthnic(in3bl, in3bb, in3bw, tw)	 #done
-        elif("in4" in district):
+        if("in4" in district):
             sortEthnic(in4bl, in4bb, in4bw, tw)
-        elif("in5" in district):
+        if("in5" in district):
             sortEthnic(in5bl, in5bb, in5bw, tw)
-        elif("in6" in district):
+        if("in6" in district):
             sortEthnic(in6bl, in6bb, in6bw, tw)
-        elif("in7" in district):
+        if("in7" in district):
             sortEthnic(in7bl, in7bb, in7bw, tw)
-        elif("in8" in district):
+        if("in8" in district):
             sortEthnic(in8bl, in8bb, in8bw, tw)
-        elif("in9" in district):
+        if("in9" in district):
             sortEthnic(in9bl, in9bb, in9bw, tw)
-        elif("va1" in district):
+        if("va1" in district):
             sortEthnic(va1bl, va1bb, va1bw, tw)
-        elif("va2" in district):
+        if("va2" in district):
             sortEthnic(va2bl, va2bb, va2bw, tw)
-        elif("va3" in district):
+        if("va3" in district):
             sortEthnic(va3bl, va3bb, va3bw, tw)
-        elif("va4" in district):
+        if("va4" in district):
             sortEthnic(va4bl, va4bb, va4bw, tw)	#done
-        elif("va5" in district):
+        if("va5" in district):
             sortEthnic(va5bl, va5bb, va5bw, tw)
-        elif("va6" in district):
+        if("va6" in district):
             sortEthnic(va6bl, va6bb, va6bw, tw)
-        elif("va7" in district):
+        if("va7" in district):
             sortEthnic(va7bl, va7bb, va7bw, tw)
-        elif("va8" in district):
+        if("va8" in district):
             sortEthnic(va8bl, va8bb, va8bw, tw)
-        elif("va9" in district):
+        if("va9" in district):
             sortEthnic(va9bl, va9bb, va9bw, tw)
-        elif("va10" in district):
+        if("va10" in district):
             sortEthnic(va10bl, va10bb, va10bw, tw)
-        elif("va11" in district):
+        if("va11" in district):
             sortEthnic(va11bl, va11bb, va11bw, tw)
-        elif("il1" in district):
+        if("il1" in district):
             sortEthnic(il1bl, il1bb, il1bw, tw)
-        elif("il2" in district):
+        if("il2" in district):
             sortEthnic(il2bl, il2bb, il2bw, tw)
-        elif("il3" in district):
+        if("il3" in district):
             sortEthnic(il3bl, il3bb, il3bw, tw)
-        elif("il4" in district):
+        if("il4" in district):
             sortEthnic(il4bl, il4bb, il4bw, tw)	#done
-        elif("il5" in district):
+        if("il5" in district):
             sortEthnic(il5bl, il5bb, il5bw, tw)
-        elif("il6" in district):
+        if("il6" in district):
             sortEthnic(il6bl, il6bb, il6bw, tw)
-        elif("il7" in district):
+        if("il7" in district):
             sortEthnic(il7bl, il7bb, il7bw, tw)
-        elif("il8" in district):
+        if("il8" in district):
             sortEthnic(il8bl, il8bb, il8bw, tw)
-        elif("il9" in district):
+        if("il9" in district):
             sortEthnic(il9bl, il9bb, il9bw, tw)
-        elif("il10" in district):
+        if("il10" in district):
             sortEthnic(il10bl, il10bb, il10bw, tw) #done
-        elif("il11" in district):
+        if("il11" in district):
             sortEthnic(il11bl, il11bb, il11bw, tw)
-        elif("il12" in district):
+        if("il12" in district):
             sortEthnic(il12bl, il12bb, il12bw, tw) #done
-        elif("il13" in district):
+        if("il13" in district):
             sortEthnic(il13bl, il13bb, il13bw, tw)
-        elif("il14" in district):
+        if("il14" in district):
             sortEthnic(il14bl, il14bb, il14bw, tw)#done
-        elif("il15" in district):
+        if("il15" in district):
             sortEthnic(il15bl, il15bb, il15bw, tw) #done
-        elif("il16" in district):
+        if("il16" in district):
             sortEthnic(il16bl, il16bb, il16bw, tw)
-        elif("il17" in district):
+        if("il17" in district):
             sortEthnic(il17bl, il17bb, il17bw, tw)
-        elif("il18" in district):
+        if("il18" in district):
             sortEthnic(il18bl, il18bb, il18bw, tw)
-        elif("de1" in district):
+        if("de1" in district):
             sortEthnic(de1bl, de1bb, de1bw, tw) #done
-        elif("vt1" in district):
+        if("vt1" in district):
             sortEthnic(vt1bl, vt1bb, vt1bw, tw) #done
-        elif("ut1" in district):
+        if("ut1" in district):
             sortEthnic(ut1bl, ut1bb, ut1bw, tw)
-        elif("ut2" in district):
+        if("ut2" in district):
             sortEthnic(ut2bl, ut2bb, ut2bw, tw)
-        elif("ut3" in district):
+        if("ut3" in district):
             sortEthnic(ut3bl, ut3bb, ut3bw, tw)
-        elif("ut4" in district):
+        if("ut4" in district):
             sortEthnic(ut4bl, ut4bb, ut4bw, tw)
-        elif("ne1" in district):
+        if("ne1" in district):
             sortEthnic(ne1bl, ne1bb, ne1bw, tw)
-        elif("ne2" in district):
+        if("ne2" in district):
             sortEthnic(ne2bl, ne2bb, ne2bw, tw)
-        elif("ne3" in district):
+        if("ne3" in district):
             sortEthnic(ne3bl, ne3bb, ne3bw, tw)	#done
-        elif("ak1" in district):
+        if("ak1" in district):
             sortEthnic(ak1bl, ak1bb, ak1bw, tw) #done
-        elif("wy1" in district):
+        if("wy1" in district):
             sortEthnic(wy1bl, wy1bb, wy1bw, tw) #done
-        elif("al1" in district):
+        if("al1" in district):
             sortEthnic(al1bl, al1bb, al1bw, tw)
-        elif("al2" in district):
+        if("al2" in district):
             sortEthnic(al2bl, al2bb, al2bw, tw)
-        elif("al3" in district):
+        if("al3" in district):
             sortEthnic(al3bl, al3bb, al3bw, tw)
-        elif("al4" in district):
+        if("al4" in district):
             sortEthnic(al4bl, al4bb, al4bw, tw)
-        elif("al5" in district):
+        if("al5" in district):
             sortEthnic(al5bl, al5bb, al5bw, tw)
-        elif("al6" in district):
+        if("al6" in district):
             sortEthnic(al6bl, al6bb, al6bw, tw)
-        elif("al7" in district):
+        if("al7" in district):
             sortEthnic(al7bl, al7bb, al7bw, tw)	#done
-        elif("tn1" in district):
+        if("tn1" in district):
             sortEthnic(tn1bl, tn1bb, tn1bw, tw)
-        elif("tn2" in district):
+        if("tn2" in district):
             sortEthnic(tn2bl, tn2bb, tn2bw, tw)
-        elif("tn3" in district):
+        if("tn3" in district):
             sortEthnic(tn3bl, tn3bb, tn3bw, tw)
-        elif("tn4" in district):
+        if("tn4" in district):
             sortEthnic(tn4bl, tn4bb, tn4bw, tw)
-        elif("tn5" in district):
+        if("tn5" in district):
             sortEthnic(tn5bl, tn5bb, tn5bw, tw)
-        elif("tn6" in district):
+        if("tn6" in district):
             sortEthnic(tn6bl, tn6bb, tn6bw, tw)
-        elif("tn7" in district):
+        if("tn7" in district):
             sortEthnic(tn7bl, tn7bb, tn7bw, tw)
-        elif("tn8" in district):
+        if("tn8" in district):
             sortEthnic(tn8bl, tn8bb, tn8bw, tw)
-        elif("tn9" in district):
+        if("tn9" in district):
             sortEthnic(tn9bl, tn9bb, tn9bw, tw)
-        elif("nd1" in district):
+        if("nd1" in district):
             sortEthnic(nd1bl, nd1bb, nd1bw, tw) #done
-        elif("sd1" in district):
+        if("sd1" in district):
             sortEthnic(sd1bl, sd1bb, sd1bw, tw) #done
-        elif("wv1" in district):
+        if("wv1" in district):
             sortEthnic(wv1bl, wv1bb, wv1bw, tw)
-        elif("wv2" in district):
+        if("wv2" in district):
             sortEthnic(wv2bl, wv2bb, wv2bw, tw)
-        elif("wv3" in district):
+        if("wv3" in district):
             sortEthnic(wv3bl, wv3bb, wv3bw, tw) #done
-        elif("ar1" in district):
+        if("ar1" in district):
             sortEthnic(ar1bl, ar1bb, ar1bw, tw) #done
-        elif("ar2" in district):
+        if("ar2" in district):
             sortEthnic(ar2bl, ar2bb, ar2bw, tw)
-        elif("ar3" in district):
+        if("ar3" in district):
             sortEthnic(ar3bl, ar3bb, ar3bw, tw)
-        elif("ar4" in district):
+        if("ar4" in district):
             sortEthnic(ar4bl, ar4bb, ar4bw, tw)
 
 cursor = collection.find({"retweeted_status.full_text":{"$exists": "false"}})
@@ -2004,391 +2004,391 @@ for tw in cursor:
     if(district != "null"):
         if("mo1" in district):
             sortEthnic(mo1tl, mo1tb, mo1tw, tw)
-        elif("mo2" in district):
+        if("mo2" in district):
             sortEthnic(mo2tl, mo2tb, mo2tw, tw)
-        elif("mo3" in district):
+        if("mo3" in district):
             sortEthnic(mo3tl, mo3tb, mo3tw, tw)
-        elif("mo4" in district):
+        if("mo4" in district):
             sortEthnic(mo4tl, mo4tb, mo4tw, tw)
-        elif("mo5" in district):
+        if("mo5" in district):
             sortEthnic(mo5tl, mo5tb, mo5tw, tw)
-        elif("mo6" in district):
+        if("mo6" in district):
             sortEthnic(mo6tl, mo6tb, mo6tw, tw)
-        elif("mo7" in district):
+        if("mo7" in district):
             sortEthnic(mo7tl, mo7tb, mo7tw, tw)
-        elif("mo8" in district):
+        if("mo8" in district):
             sortEthnic(mo8tl, mo8tb, mo8tw, tw)
-        elif("sc1" in district):
+        if("sc1" in district):
             sortEthnic(sc1tl, sc1tb, sc1tw, tw)
-        elif("sc2" in district):
+        if("sc2" in district):
             sortEthnic(sc2tl, sc2tb, sc2tw, tw)
-        elif("sc3" in district):
+        if("sc3" in district):
             sortEthnic(sc3tl, sc3tb, sc3tw, tw)
-        elif("sc4" in district):
+        if("sc4" in district):
             sortEthnic(sc4tl, sc4tb, sc4tw, tw)
-        elif("sc5" in district):
+        if("sc5" in district):
             sortEthnic(sc5tl, sc5tb, sc5tw, tw)
-        elif("sc6" in district):
+        if("sc6" in district):
             sortEthnic(sc6tl, sc6tb, sc6tw, tw)
-        elif("sc7" in district):
+        if("sc7" in district):
             sortEthnic(sc7tl, sc7tb, sc7tw, tw)
-        elif("ky1" in district):
+        if("ky1" in district):
             sortEthnic(ky1tl, ky1tb, ky1tw, tw)
-        elif("ky2" in district):
+        if("ky2" in district):
             sortEthnic(ky2tl, ky2tb, ky2tw, tw)
-        elif("ky3" in district):
+        if("ky3" in district):
             sortEthnic(ky3tl, ky3tb, ky3tw, tw)
-        elif("ky4" in district):
+        if("ky4" in district):
             sortEthnic(ky4tl, ky4tb, ky4tw, tw)
-        elif("ky5" in district):
+        if("ky5" in district):
             sortEthnic(ky5tl, ky5tb, ky5tw, tw)
-        elif("ky6" in district):
+        if("ky6" in district):
             sortEthnic(ky6tl, ky6tb, ky6tw, tw)
-        elif("ok1" in district):
+        if("ok1" in district):
             sortEthnic(ok1tl, ok1tb, ok1tw, tw) #done
-        elif("ok2" in district):
+        if("ok2" in district):
             sortEthnic(ok2tl, ok2tb, ok2tw, tw)
-        elif("ok3" in district):
+        if("ok3" in district):
             sortEthnic(ok3tl, ok3tb, ok3tw, tw)	#done
-        elif("ok4" in district):
+        if("ok4" in district):
             sortEthnic(ok4tl, ok4tb, ok4tw, tw)	#done
-        elif("ok5" in district):
+        if("ok5" in district):
             sortEthnic(ok5tl, ok5tb, ok5tw, tw)
-        elif("ia1" in district):
+        if("ia1" in district):
             sortEthnic(ia1tl, ia1tb, ia1tw, tw) #done
-        elif("ia2" in district):
+        if("ia2" in district):
             sortEthnic(ia2tl, ia2tb, ia2tw, tw) #done
-        elif("ia3" in district):
+        if("ia3" in district):
             sortEthnic(ia3tl, ia3tb, ia3tw, tw)	#done
-        elif("ia4" in district):
+        if("ia4" in district):
             sortEthnic(ia4tl, ia4tb, ia4tw, tw)	#done
-        elif("ks1" in district):
+        if("ks1" in district):
             sortEthnic(ks1tl, ks1tb, ks1tw, tw) #done
-        elif("ks2" in district):
+        if("ks2" in district):
             sortEthnic(ks2tl, ks2tb, ks2tw, tw) #done
-        elif("ks3" in district):
+        if("ks3" in district):
             sortEthnic(ks3tl, ks3tb, ks3tw, tw)
-        elif("ks4" in district):
+        if("ks4" in district):
             sortEthnic(ks4tl, ks4tb, ks4tw, tw)
-        elif("ca1" in district):
+        if("ca1" in district):
             sortEthnic(ca1tl, ca1tb, ca1tw, tw) #done
-        elif("ca2" in district):
+        if("ca2" in district):
             sortEthnic(ca2tl, ca2tb, ca2tw, tw) #done
-        elif("ca3" in district):
+        if("ca3" in district):
             sortEthnic(ca3tl, ca3tb, ca3tw, tw)
-        elif("ca4" in district):
+        if("ca4" in district):
             sortEthnic(ca4tl, ca4tb, ca4tw, tw)
-        elif("ca5" in district):
+        if("ca5" in district):
             sortEthnic(ca5tl, ca5tb, ca5tw, tw) #done
-        elif("ca6" in district):
+        if("ca6" in district):
             sortEthnic(ca6tl, ca6tb, ca6tw, tw)
-        elif("ca7" in district):
+        if("ca7" in district):
             sortEthnic(ca7tl, ca7tb, ca7tw, tw) #done
-        elif("ca8" in district):
+        if("ca8" in district):
             sortEthnic(ca8tl, ca8tb, ca8tw, tw)
-        elif("ca9" in district):
+        if("ca9" in district):
             sortEthnic(ca9tl, ca9tb, ca9tw, tw) #done
-        elif("ca10" in district):
+        if("ca10" in district):
             sortEthnic(ca10tl, ca10tb, ca10tw, tw) #done
-        elif("ca11" in district):
+        if("ca11" in district):
             sortEthnic(ca11tl, ca11tb, ca11tw, tw)
-        elif("ca12" in district):
+        if("ca12" in district):
             sortEthnic(ca12tl, ca12tb, ca12tw, tw)
-        elif("ca13" in district):
+        if("ca13" in district):
             sortEthnic(ca13tl, ca13tb, ca13tw, tw)
-        elif("ca14" in district):
+        if("ca14" in district):
             sortEthnic(ca14tl, ca14tb, ca14tw, tw)
-        elif("ca15" in district):
+        if("ca15" in district):
             sortEthnic(ca15tl, ca15tb, ca15tw, tw)
-        elif("ca16" in district):
+        if("ca16" in district):
             sortEthnic(ca16tl, ca16tb, ca16tw, tw) #done
-        elif("ca17" in district):
+        if("ca17" in district):
             sortEthnic(ca17tl, ca17tb, ca17tw, tw) #done
-        elif("ca18" in district):
+        if("ca18" in district):
             sortEthnic(ca18tl, ca18tb, ca18tw, tw)
-        elif("ca19" in district):
+        if("ca19" in district):
             sortEthnic(ca19tl, ca19tb, ca19tw, tw) #done
-        elif("ca20" in district):
+        if("ca20" in district):
             sortEthnic(ca20tl, ca20tb, ca20tw, tw)
-        elif("ca21" in district):
+        if("ca21" in district):
             sortEthnic(ca21tl, ca21tb, ca21tw, tw)
-        elif("ca22" in district):
+        if("ca22" in district):
             sortEthnic(ca22tl, ca22tb, ca22tw, tw)
-        elif("ca23" in district):
+        if("ca23" in district):
             sortEthnic(ca23tl, ca23tb, ca23tw, tw)
-        elif("ca24" in district):
+        if("ca24" in district):
             sortEthnic(ca24tl, ca24tb, ca24tw, tw)
-        elif("ca25" in district):
+        if("ca25" in district):
             sortEthnic(ca25tl, ca25tb, ca25tw, tw)
-        elif("ca26" in district):
+        if("ca26" in district):
             sortEthnic(ca26tl, ca26tb, ca26tw, tw) #done
-        elif("ca27" in district):
+        if("ca27" in district):
             sortEthnic(ca27tl, ca27tb, ca27tw, tw)
-        elif("ca28" in district):
+        if("ca28" in district):
             sortEthnic(ca28tl, ca28tb, ca28tw, tw)
-        elif("ca29" in district):
+        if("ca29" in district):
             sortEthnic(ca29tl, ca29tb, ca29tw, tw)
-        elif("ca30" in district):
+        if("ca30" in district):
             sortEthnic(ca30tl, ca30tb, ca30tw, tw)
-        elif("ca31" in district):
+        if("ca31" in district):
             sortEthnic(ca31tl, ca31tb, ca31tw, tw) #done
-        elif("ca32" in district):
+        if("ca32" in district):
             sortEthnic(ca32tl, ca32tb, ca32tw, tw) #done
-        elif("ca33" in district):
+        if("ca33" in district):
             sortEthnic(ca33tl, ca33tb, ca33tw, tw)
-        elif("ca34" in district):
+        if("ca34" in district):
             sortEthnic(ca34tl, ca34tb, ca34tw, tw)
-        elif("ca35" in district):
+        if("ca35" in district):
             sortEthnic(ca35tl, ca35tb, ca35tw, tw) #done
-        elif("ca36" in district):
+        if("ca36" in district):
             sortEthnic(ca36tl, ca36tb, ca36tw, tw)
-        elif("ca37" in district):
+        if("ca37" in district):
             sortEthnic(ca37tl, ca37tb, ca37tw, tw) #done
-        elif("ca38" in district):
+        if("ca38" in district):
             sortEthnic(ca38tl, ca38tb, ca38tw, tw) #done
-        elif("ca39" in district):
+        if("ca39" in district):
             sortEthnic(ca39tl, ca39tb, ca39tw, tw)
-        elif("ca40" in district):
+        if("ca40" in district):
             sortEthnic(ca40tl, ca40tb, ca40tw, tw) #done
-        elif("ca41" in district):
+        if("ca41" in district):
             sortEthnic(ca41tl, ca41tb, ca41tw, tw) #done
-        elif("ca42" in district):
+        if("ca42" in district):
             sortEthnic(ca42tl, ca42tb, ca42tw, tw)
-        elif("ca43" in district):
+        if("ca43" in district):
             sortEthnic(ca43tl, ca43tb, ca43tw, tw)
-        elif("ca44" in district):
+        if("ca44" in district):
             sortEthnic(ca44tl, ca44tb, ca44tw, tw)
-        elif("ca45" in district):
+        if("ca45" in district):
             sortEthnic(ca45tl, ca45tb, ca45tw, tw)
-        elif("ca46" in district):
+        if("ca46" in district):
             sortEthnic(ca46tl, ca46tb, ca46tw, tw) #done
-        elif("ca47" in district):
+        if("ca47" in district):
             sortEthnic(ca47tl, ca47tb, ca47tw, tw)
-        elif("ca48" in district):
+        if("ca48" in district):
             sortEthnic(ca48tl, ca48tb, ca48tw, tw) #done
-        elif("ca49" in district):
+        if("ca49" in district):
             sortEthnic(ca49tl, ca49tb, ca49tw, tw) #done
-        elif("ca50" in district):
+        if("ca50" in district):
             sortEthnic(ca50tl, ca50tb, ca50tw, tw)
-        elif("ca51" in district):
+        if("ca51" in district):
             sortEthnic(ca51tl, ca51tb, ca51tw, tw) #done
-        elif("ca52" in district):
+        if("ca52" in district):
             sortEthnic(ca52tl, ca52tb, ca52tw, tw) #done
-        elif("ca53" in district):
+        if("ca53" in district):
             sortEthnic(ca53tl, ca53tb, ca53tw, tw) #done
-        elif("la1" in district):
+        if("la1" in district):
             sortEthnic(la1tl, la1tb, la1tw, tw)
-        elif("la2" in district):
+        if("la2" in district):
             sortEthnic(la2tl, la2tb, la2tw, tw) #done
-        elif("la3" in district):
+        if("la3" in district):
             sortEthnic(la3tl, la3tb, la3tw, tw)
-        elif("la4" in district):
+        if("la4" in district):
             sortEthnic(la4tl, la4tb, la4tw, tw)
-        elif("la5" in district):
+        if("la5" in district):
             sortEthnic(la5tl, la5tb, la5tw, tw)
-        elif("la6" in district):
+        if("la6" in district):
             sortEthnic(la6tl, la6tb, la6tw, tw)
-        elif("ct1" in district):
+        if("ct1" in district):
             sortEthnic(ct1tl, ct1tb, ct1tw, tw)
-        elif("ct2" in district):
+        if("ct2" in district):
             sortEthnic(ct2tl, ct2tb, ct2tw, tw) #done
-        elif("ct3" in district):
+        if("ct3" in district):
             sortEthnic(ct3tl, ct3tb, ct3tw, tw)
-        elif("ct4" in district):
+        if("ct4" in district):
             sortEthnic(ct4tl, ct4tb, ct4tw, tw)	 #done
-        elif("ct5" in district):
+        if("ct5" in district):
             sortEthnic(ct5tl, ct5tb, ct5tw, tw)
-        elif("mt1" in district):
+        if("mt1" in district):
             sortEthnic(mt1tl, mt1tb, mt1tw, tw) #done
-        elif("ms1" in district):
+        if("ms1" in district):
             sortEthnic(ms1tl, ms1tb, ms1tw, tw) #done
-        elif("ms2" in district):
+        if("ms2" in district):
             sortEthnic(ms2tl, ms2tb, ms2tw, tw)
-        elif("ms3" in district):
+        if("ms3" in district):
             sortEthnic(ms3tl, ms3tb, ms3tw, tw)
-        elif("ms4" in district):
+        if("ms4" in district):
             sortEthnic(ms4tl, ms4tb, ms4tw, tw)
-        elif("pa1" in district):
+        if("pa1" in district):
             sortEthnic(pa1tl, pa1tb, pa1tw, tw)
-        elif("pa2" in district):
+        if("pa2" in district):
             sortEthnic(pa2tl, pa2tb, pa2tw, tw) #done
-        elif("pa3" in district):
+        if("pa3" in district):
             sortEthnic(pa3tl, pa3tb, pa3tw, tw)	#done
-        elif("pa4" in district):
+        if("pa4" in district):
             sortEthnic(pa4tl, pa4tb, pa4tw, tw)	#done
-        elif("pa5" in district):
+        if("pa5" in district):
             sortEthnic(pa5tl, pa5tb, pa5tw, tw) #done
-        elif("pa6" in district):
+        if("pa6" in district):
             sortEthnic(pa6tl, pa6tb, pa6tw, tw)
-        elif("pa7" in district):
+        if("pa7" in district):
             sortEthnic(pa7tl, pa7tb, pa7tw, tw) #done
-        elif("pa8" in district):
+        if("pa8" in district):
             sortEthnic(pa8tl, pa8tb, pa8tw, tw) #done
-        elif("pa9" in district):
+        if("pa9" in district):
             sortEthnic(pa9tl, pa9tb, pa9tw, tw)
-        elif("pa10" in district):
+        if("pa10" in district):
             sortEthnic(pa10tl, pa10tb, pa10tw, tw) #done
-        elif("pa11" in district):
+        if("pa11" in district):
             sortEthnic(pa11tl, pa11tb, pa11tw, tw)
-        elif("pa12" in district):
+        if("pa12" in district):
             sortEthnic(pa12tl, pa12tb, pa12tw, tw) #done
-        elif("pa13" in district):
+        if("pa13" in district):
             sortEthnic(pa13tl, pa13tb, pa13tw, tw) #done
-        elif("pa14" in district):
+        if("pa14" in district):
             sortEthnic(pa14tl, pa14tb, pa14tw, tw)
-        elif("pa15" in district):
+        if("pa15" in district):
             sortEthnic(pa15tl, pa15tb, pa15tw, tw) #done
-        elif("pa16" in district):
+        if("pa16" in district):
             sortEthnic(pa16tl, pa16tb, pa16tw, tw) #done
-        elif("pa17" in district):
+        if("pa17" in district):
             sortEthnic(pa17tl, pa17tb, pa17tw, tw) #done
-        elif("pa18" in district):
+        if("pa18" in district):
             sortEthnic(pa18tl, pa18tb, pa18tw, tw) #done
-        elif("oh1" in district):
+        if("oh1" in district):
             sortEthnic(oh1tl, oh1tb, oh1tw, tw)
-        elif("oh2" in district):
+        if("oh2" in district):
             sortEthnic(oh2tl, oh2tb, oh2tw, tw)
-        elif("oh3" in district):
+        if("oh3" in district):
             sortEthnic(oh3tl, oh3tb, oh3tw, tw)
-        elif("oh4" in district):
+        if("oh4" in district):
             sortEthnic(oh4tl, oh4tb, oh4tw, tw)
-        elif("oh5" in district):
+        if("oh5" in district):
             sortEthnic(oh5tl, oh5tb, oh5tw, tw)
         if("oh6" in district):
             sortEthnic(oh6tl, oh6tb, oh6tw, tw)
-        elif("oh7" in district):
+        if("oh7" in district):
             sortEthnic(oh7tl, oh7tb, oh7tw, tw)
-        elif("oh8" in district):
+        if("oh8" in district):
             sortEthnic(oh8tl, oh8tb, oh8tw, tw)
-        elif("oh9" in district):
+        if("oh9" in district):
             sortEthnic(oh9tl, oh9tb, oh9tw, tw)
-        elif("oh10" in district):
+        if("oh10" in district):
             sortEthnic(oh10tl, oh10tb, oh10tw, tw)
-        elif("oh11" in district):
+        if("oh11" in district):
             sortEthnic(oh11tl, oh11tb, oh11tw, tw)
-        elif("oh12" in district):
+        if("oh12" in district):
             sortEthnic(oh12tl, oh12tb, oh12tw, tw)
-        elif("oh13" in district):
+        if("oh13" in district):
             sortEthnic(oh13tl, oh13tb, oh13tw, tw)
-        elif("oh14" in district):
+        if("oh14" in district):
             sortEthnic(oh14tl, oh14tb, oh14tw, tw)
-        elif("oh15" in district):
+        if("oh15" in district):
             sortEthnic(oh15tl, oh15tb, oh15tw, tw)
-        elif("oh16" in district):
+        if("oh16" in district):
             sortEthnic(oh16tl, oh16tb, oh16tw, tw)
-        elif("fl1" in district):
+        if("fl1" in district):
             sortEthnic(fl1tl, fl1tb, fl1tw, tw)
-        elif("fl2" in district):
+        if("fl2" in district):
             sortEthnic(fl2tl, fl2tb, fl2tw, tw)
-        elif("fl3" in district):
+        if("fl3" in district):
             sortEthnic(fl3tl, fl3tb, fl3tw, tw)
-        elif("fl4" in district):
+        if("fl4" in district):
             sortEthnic(fl4tl, fl4tb, fl4tw, tw)
-        elif("fl5" in district):
+        if("fl5" in district):
             sortEthnic(fl5tl, fl5tb, fl5tw, tw) #done
-        elif("fl6" in district):
+        if("fl6" in district):
             sortEthnic(fl6tl, fl6tb, fl6tw, tw)
-        elif("fl7" in district):
+        if("fl7" in district):
             sortEthnic(fl7tl, fl7tb, fl7tw, tw)
-        elif("fl8" in district):
+        if("fl8" in district):
             sortEthnic(fl8tl, fl8tb, fl8tw, tw)
-        elif("fl9" in district):
+        if("fl9" in district):
             sortEthnic(fl9tl, fl9tb, fl9tw, tw)
-        elif("fl10" in district):
+        if("fl10" in district):
             sortEthnic(fl10tl, fl10tb, fl10tw, tw)
-        elif("fl11" in district):
+        if("fl11" in district):
             sortEthnic(fl11tl, fl11tb, fl11tw, tw)
-        elif("fl12" in district):
+        if("fl12" in district):
             sortEthnic(fl12tl, fl12tb, fl12tw, tw)
-        elif("fl13" in district):
+        if("fl13" in district):
             sortEthnic(fl13tl, fl13tb, fl13tw, tw)
-        elif("fl14" in district):
+        if("fl14" in district):
             sortEthnic(fl14tl, fl14tb, fl14tw, tw)
-        elif("fl15" in district):
+        if("fl15" in district):
             sortEthnic(fl15tl, fl15tb, fl15tw, tw)
-        elif("fl16" in district):
+        if("fl16" in district):
             sortEthnic(fl16tl, fl16tb, fl16tw, tw)
-        elif("fl17" in district):
+        if("fl17" in district):
             sortEthnic(fl17tl, fl17tb, fl17tw, tw)
-        elif("fl18" in district):
+        if("fl18" in district):
             sortEthnic(fl18tl, fl18tb, fl18tw, tw)
-        elif("fl19" in district):
+        if("fl19" in district):
             sortEthnic(fl19tl, fl19tb, fl19tw, tw)
-        elif("fl20" in district):
+        if("fl20" in district):
             sortEthnic(fl20tl, fl20tb, fl20tw, tw)
-        elif("fl21" in district):
+        if("fl21" in district):
             sortEthnic(fl21tl, fl21tb, fl21tw, tw) #done
-        elif("fl22" in district):
+        if("fl22" in district):
             sortEthnic(fl22tl, fl22tb, fl22tw, tw)
-        elif("fl23" in district):
+        if("fl23" in district):
             sortEthnic(fl23tl, fl23tb, fl23tw, tw)
-        elif("fl24" in district):
+        if("fl24" in district):
             sortEthnic(fl24tl, fl24tb, fl24tw, tw)
-        elif("fl25" in district):
+        if("fl25" in district):
             sortEthnic(fl25tl, fl25tb, fl25tw, tw) #done
-        elif("fl26" in district):
+        if("fl26" in district):
             sortEthnic(fl26tl, fl26tb, fl26tw, tw) #done
-        elif("fl27" in district):
+        if("fl27" in district):
             sortEthnic(fl27tl, fl27tb, fl27tw, tw)
-        elif("wa1" in district):
+        if("wa1" in district):
             sortEthnic(wa1tl, wa1tb, wa1tw, tw)
-        elif("wa2" in district):
+        if("wa2" in district):
             sortEthnic(wa2tl, wa2tb, wa2tw, tw)
-        elif("wa3" in district):
+        if("wa3" in district):
             sortEthnic(wa3tl, wa3tb, wa3tw, tw)
-        elif("wa4" in district):
+        if("wa4" in district):
             sortEthnic(wa4tl, wa4tb, wa4tw, tw)
-        elif("wa5" in district):
+        if("wa5" in district):
             sortEthnic(wa5tl, wa5tb, wa5tw, tw)
-        elif("wa6" in district):
+        if("wa6" in district):
             sortEthnic(wa6tl, wa6tb, wa6tw, tw)
-        elif("wa7" in district):
+        if("wa7" in district):
             sortEthnic(wa7tl, wa7tb, wa7tw, tw)
-        elif("wa8" in district):
+        if("wa8" in district):
             sortEthnic(wa8tl, wa8tb, wa8tw, tw)
-        elif("wa9" in district):
+        if("wa9" in district):
             sortEthnic(wa9tl, wa9tb, wa9tw, tw)
-        elif("wa10" in district):
+        if("wa10" in district):
             sortEthnic(wa10tl, wa10tb, wa10tw, tw)
-        elif("hi1" in district):
+        if("hi1" in district):
             sortEthnic(hi1tl, hi1tb, hi1tw, tw) #done
-        elif("hi2" in district):
+        if("hi2" in district):
             sortEthnic(hi2tl, hi2tb, hi2tw, tw) #done
-        elif("nj1" in district):
+        if("nj1" in district):
             sortEthnic(nj1tl, nj1tb, nj1tw, tw) #done
-        elif("nj2" in district):
+        if("nj2" in district):
             sortEthnic(nj2tl, nj2tb, nj2tw, tw) #done
-        elif("nj3" in district):
+        if("nj3" in district):
             sortEthnic(nj3tl, nj3tb, nj3tw, tw)	#done
-        elif("nj4" in district):
+        if("nj4" in district):
             sortEthnic(nj4tl, nj4tb, nj4tw, tw)	#done
-        elif("nj5" in district):
+        if("nj5" in district):
             sortEthnic(nj5tl, nj5tb, nj5tw, tw) #done
-        elif("nj6" in district):
+        if("nj6" in district):
             sortEthnic(nj6tl, nj6tb, nj6tw, tw) #done
-        elif("nj7" in district):
+        if("nj7" in district):
             sortEthnic(nj7tl, nj7tb, nj7tw, tw) #done
-        elif("nj8" in district):
+        if("nj8" in district):
             sortEthnic(nj8tl, nj8tb, nj8tw, tw) #done
-        elif("nj9" in district):
+        if("nj9" in district):
             sortEthnic(nj9tl, nj9tb, nj9tw, tw) #done
-        elif("nj10" in district):
+        if("nj10" in district):
             sortEthnic(nj10tl, nj10tb, nj10tw, tw) #done
-        elif("nj11" in district):
+        if("nj11" in district):
             sortEthnic(nj11tl, nj11tb, nj11tw, tw) #done
-        elif("nj12" in district):
+        if("nj12" in district):
             sortEthnic(nj12tl, nj12tb, nj12tw, tw) #done
-        elif("ny1" in district):
+        if("ny1" in district):
             sortEthnic(ny1tl, ny1tb, ny1tw, tw) #done
-        elif("ny2" in district):
+        if("ny2" in district):
             sortEthnic(ny2tl, ny2tb, ny2tw, tw) #done
-        elif("ny3" in district):
+        if("ny3" in district):
             sortEthnic(ny3tl, ny3tb, ny3tw, tw)
-        elif("ny4" in district):
+        if("ny4" in district):
             sortEthnic(ny4tl, ny4tb, ny4tw, tw)
-        elif("ny5" in district):
+        if("ny5" in district):
             sortEthnic(ny5tl, ny5tb, ny5tw, tw)
-        elif("ny6" in district or "ny7" in district or "ny8" in district or "ny9" in district or "ny10" in district or "ny11" in district or "ny12" in district or "ny13" in district or "ny14" in district or "ny15" in district):
+        if("ny6" in district or "ny7" in district or "ny8" in district or "ny9" in district or "ny10" in district or "ny11" in district or "ny12" in district or "ny13" in district or "ny14" in district or "ny15" in district):
             sortEthnic(ny6tl, ny6tb, ny6tw, tw)
             sortEthnic(ny7tl, ny7tb, ny7tw, tw)
             sortEthnic(ny8tl, ny8tb, ny8tw, tw)
@@ -2399,859 +2399,859 @@ for tw in cursor:
             sortEthnic(ny13tl, ny13tb, ny13tw, tw)
             sortEthnic(ny14tl, ny14tb, ny14tw, tw)
             sortEthnic(ny15tl, ny15tb, ny15tw, tw)
-        elif("ny16" in district):
+        if("ny16" in district):
             sortEthnic(ny16tl, ny16tb, ny16tw, tw)
-        elif("ny17" in district):
+        if("ny17" in district):
             sortEthnic(ny17tl, ny17tb, ny17tw, tw) #done
-        elif("ny18" in district):
+        if("ny18" in district):
             sortEthnic(ny18tl, ny18tb, ny18tw, tw)
-        elif("ny19" in district):
+        if("ny19" in district):
             sortEthnic(ny19tl, ny19tb, ny19tw, tw) #done
-        elif("ny20" in district):
+        if("ny20" in district):
             sortEthnic(ny20tl, ny20tb, ny20tw, tw)
-        elif("ny21" in district):
+        if("ny21" in district):
             sortEthnic(ny21tl, ny21tb, ny21tw, tw) #done
-        elif("ny22" in district):
+        if("ny22" in district):
             sortEthnic(ny22tl, ny22tb, ny22tw, tw) #done
-        elif("ny23" in district):
+        if("ny23" in district):
             sortEthnic(ny23tl, ny23tb, ny23tw, tw)
-        elif("ny24" in district):
+        if("ny24" in district):
             sortEthnic(ny24tl, ny24tb, ny24tw, tw)
-        elif("ny25" in district):
+        if("ny25" in district):
             sortEthnic(ny25tl, ny25tb, ny25tw, tw)
-        elif("ny26" in district):
+        if("ny26" in district):
             sortEthnic(ny26tl, ny26tb, ny26tw, tw)
-        elif("ny27" in district):
+        if("ny27" in district):
             sortEthnic(ny27tl, ny27tb, ny27tw, tw) #done
-        elif("ri1" in district):
+        if("ri1" in district):
             sortEthnic(ri1tl, ri1tb, ri1tw, tw)	#done
-        elif("ri2" in district):
+        if("ri2" in district):
             sortEthnic(ri2tl, ri2tb, ri2tw, tw)
-        elif("mn1" in district):
+        if("mn1" in district):
             sortEthnic(mn1tl, mn1tb, mn1tw, tw) #done
-        elif("mn2" in district):
+        if("mn2" in district):
             sortEthnic(mn2tl, mn2tb, mn2tw, tw)
-        elif("mn3" in district):
+        if("mn3" in district):
             sortEthnic(mn3tl, mn3tb, mn3tw, tw)	#done
-        elif("mn4" in district):
+        if("mn4" in district):
             sortEthnic(mn4tl, mn4tb, mn4tw, tw)
-        elif("mn5" in district):
+        if("mn5" in district):
             sortEthnic(mn5tl, mn5tb, mn5tw, tw) #done
-        elif("mn6" in district):
+        if("mn6" in district):
             sortEthnic(mn6tl, mn6tb, mn6tw, tw) #done
-        elif("mn7" in district):
+        if("mn7" in district):
             sortEthnic(mn7tl, mn7tb, mn7tw, tw) #done
-        elif("mn8" in district):
+        if("mn8" in district):
             sortEthnic(mn8tl, mn8tb, mn8tw, tw)
-        elif("mi1" in district):
+        if("mi1" in district):
             sortEthnic(mi1tl, mi1tb, mi1tw, tw)
-        elif("mi2" in district):
+        if("mi2" in district):
             sortEthnic(mi2tl, mi2tb, mi2tw, tw) #done
-        elif("mi3" in district):
+        if("mi3" in district):
             sortEthnic(mi3tl, mi3tb, mi3tw, tw)
-        elif("mi4" in district):
+        if("mi4" in district):
             sortEthnic(mi4tl, mi4tb, mi4tw, tw)	#done
-        elif("mi5" in district):
+        if("mi5" in district):
             sortEthnic(mi5tl, mi5tb, mi5tw, tw) #done
-        elif("mi6" in district):
+        if("mi6" in district):
             sortEthnic(mi6tl, mi6tb, mi6tw, tw)
-        elif("mi7" in district):
+        if("mi7" in district):
             sortEthnic(mi7tl, mi7tb, mi7tw, tw)
-        elif("mi8" in district):
+        if("mi8" in district):
             sortEthnic(mi8tl, mi8tb, mi8tw, tw)
-        elif("mi9" in district):
+        if("mi9" in district):
             sortEthnic(mi9tl, mi9tb, mi9tw, tw) #done
-        elif("mi10" in district):
+        if("mi10" in district):
             sortEthnic(mi10tl, mi10tb, mi10tw, tw) #done
-        elif("mi11" in district):
+        if("mi11" in district):
             sortEthnic(mi11tl, mi11tb, mi11tw, tw)
-        elif("mi12" in district):
+        if("mi12" in district):
             sortEthnic(mi12tl, mi12tb, mi12tw, tw)
-        elif("mi13" in district):
+        if("mi13" in district):
             sortEthnic(mi13tl, mi13tb, mi13tw, tw) #done
-        elif("mi14" in district):
+        if("mi14" in district):
             sortEthnic(mi14tl, mi14tb, mi14tw, tw) #done
-        elif("wi1" in district):
+        if("wi1" in district):
             sortEthnic(wi1tl, wi1tb, wi1tw, tw)
-        elif("wi2" in district):
+        if("wi2" in district):
             sortEthnic(wi2tl, wi2tb, wi2tw, tw)
-        elif("wi3" in district):
+        if("wi3" in district):
             sortEthnic(wi3tl, wi3tb, wi3tw, tw)	#done
-        elif("wi4" in district):
+        if("wi4" in district):
             sortEthnic(wi4tl, wi4tb, wi4tw, tw)
-        elif("wi5" in district):
+        if("wi5" in district):
             sortEthnic(wi5tl, wi5tb, wi5tw, tw) #done
-        elif("wi6" in district):
+        if("wi6" in district):
             sortEthnic(wi6tl, wi6tb, wi6tw, tw)
-        elif("wi7" in district):
+        if("wi7" in district):
             sortEthnic(wi7tl, wi7tb, wi7tw, tw) #done
-        elif("wi8" in district):
+        if("wi8" in district):
             sortEthnic(wi8tl, wi8tb, wi8tw, tw)
-        elif("or1" in district):
+        if("or1" in district):
             sortEthnic(or1tl, or1tb, or1tw, tw)
-        elif("or2" in district):
+        if("or2" in district):
             sortEthnic(or2tl, or2tb, or2tw, tw) #done
-        elif("or3" in district):
+        if("or3" in district):
             sortEthnic(or3tl, or3tb, or3tw, tw)
-        elif("or4" in district):
+        if("or4" in district):
             sortEthnic(or4tl, or4tb, or4tw, tw)
-        elif("or5" in district):
+        if("or5" in district):
             sortEthnic(or5tl, or5tb, or5tw, tw)
-        elif("md1" in district):
+        if("md1" in district):
             sortEthnic(md1tl, md1tb, md1tw, tw) #done
-        elif("md2" in district):
+        if("md2" in district):
             sortEthnic(md2tl, md2tb, md2tw, tw)
-        elif("md3" in district):
+        if("md3" in district):
             sortEthnic(md3tl, md3tb, md3tw, tw)	#done
-        elif("md4" in district):
+        if("md4" in district):
             sortEthnic(md4tl, md4tb, md4tw, tw)	#done
-        elif("md5" in district):
+        if("md5" in district):
             sortEthnic(md5tl, md5tb, md5tw, tw) #done
-        elif("md6" in district):
+        if("md6" in district):
             sortEthnic(md6tl, md6tb, md6tw, tw) #done
-        elif("md7" in district):
+        if("md7" in district):
             sortEthnic(md7tl, md7tb, md7tw, tw)
-        elif("md8" in district):
+        if("md8" in district):
             sortEthnic(md8tl, md8tb, md8tw, tw)
-        elif("ma1" in district):
+        if("ma1" in district):
             sortEthnic(ma1tl, ma1tb, ma1tw, tw) #done
-        elif("ma2" in district):
+        if("ma2" in district):
             sortEthnic(ma2tl, ma2tb, ma2tw, tw)
-        elif("ma3" in district):
+        if("ma3" in district):
             sortEthnic(ma3tl, ma3tb, ma3tw, tw)	 #done
-        elif("ma4" in district):
+        if("ma4" in district):
             sortEthnic(ma4tl, ma4tb, ma4tw, tw)
-        elif("ma5" in district):
+        if("ma5" in district):
             sortEthnic(ma5tl, ma5tb, ma5tw, tw)
-        elif("ma6" in district):
+        if("ma6" in district):
             sortEthnic(ma6tl, ma6tb, ma6tw, tw)
-        elif("ma7" in district):
+        if("ma7" in district):
             sortEthnic(ma7tl, ma7tb, ma7tw, tw)
-        elif("ma8" in district):
+        if("ma8" in district):
             sortEthnic(ma8tl, ma8tb, ma8tw, tw)
-        elif("ma9" in district):
+        if("ma9" in district):
             sortEthnic(ma9tl, ma9tb, ma9tw, tw) #done
-        elif("me1" in district):
+        if("me1" in district):
             sortEthnic(me1tl, me1tb, me1tw, tw) #done
-        elif("me2" in district):
+        if("me2" in district):
             sortEthnic(me2tl, me2tb, me2tw, tw) #done
-        elif("id1" in district):
+        if("id1" in district):
             sortEthnic(id1tl, id1tb, id1tw, tw) #done
-        elif("id2" in district):
+        if("id2" in district):
             sortEthnic(id2tl, id2tb, id2tw, tw) #done
-        elif("nc1" in district):
+        if("nc1" in district):
             sortEthnic(nc1tl, nc1tb, nc1tw, tw)
-        elif("nc2" in district):
+        if("nc2" in district):
             sortEthnic(nc2tl, nc2tb, nc2tw, tw)
-        elif("nc3" in district):
+        if("nc3" in district):
             sortEthnic(nc3tl, nc3tb, nc3tw, tw)
-        elif("nc4" in district):
+        if("nc4" in district):
             sortEthnic(nc4tl, nc4tb, nc4tw, tw)
-        elif("nc5" in district):
+        if("nc5" in district):
             sortEthnic(nc5tl, nc5tb, nc5tw, tw)
-        elif("nc6" in district):
+        if("nc6" in district):
             sortEthnic(nc6tl, nc6tb, nc6tw, tw)
-        elif("nc7" in district):
+        if("nc7" in district):
             sortEthnic(nc7tl, nc7tb, nc7tw, tw)
-        elif("nc8" in district):
+        if("nc8" in district):
             sortEthnic(nc8tl, nc8tb, nc8tw, tw) #done
-        elif("nc9" in district):
+        if("nc9" in district):
             sortEthnic(nc9tl, nc9tb, nc9tw, tw)
-        elif("nc10" in district):
+        if("nc10" in district):
             sortEthnic(nc10tl, nc10tb, nc10tw, tw)
-        elif("nc11" in district):
+        if("nc11" in district):
             sortEthnic(nc11tl, nc11tb, nc11tw, tw)
-        elif("nc12" in district):
+        if("nc12" in district):
             sortEthnic(nc12tl, nc12tb, nc12tw, tw)
-        elif("nc13" in district):
+        if("nc13" in district):
             sortEthnic(nc13tl, nc13tb, nc13tw, tw)
-        elif("nh1" in district):
+        if("nh1" in district):
             sortEthnic(nh1tl, nh1tb, nh1tw, tw) #done
-        elif("nh2" in district):
+        if("nh2" in district):
             sortEthnic(nh2tl, nh2tb, nh2tw, tw) #done
-        elif("nv1" in district):
+        if("nv1" in district):
             sortEthnic(nv1tl, nv1tb, nv1tw, tw) #done
-        elif("nv2" in district):
+        if("nv2" in district):
             sortEthnic(nv2tl, nv2tb, nv2tw, tw)
-        elif("nv3" in district):
+        if("nv3" in district):
             sortEthnic(nv3tl, nv3tb, nv3tw, tw)
-        elif("nv4" in district):
+        if("nv4" in district):
             sortEthnic(nv4tl, nv4tb, nv4tw, tw)
-        elif("co1" in district):
+        if("co1" in district):
             sortEthnic(co1tl, co1tb, co1tw, tw)
-        elif("co2" in district):
+        if("co2" in district):
             sortEthnic(co2tl, co2tb, co2tw, tw) #done
-        elif("co3" in district):
+        if("co3" in district):
             sortEthnic(co3tl, co3tb, co3tw, tw)
-        elif("co4" in district):
+        if("co4" in district):
             sortEthnic(co4tl, co4tb, co4tw, tw)
-        elif("co5" in district):
+        if("co5" in district):
             sortEthnic(co5tl, co5tb, co5tw, tw)
-        elif("co6" in district):
+        if("co6" in district):
             sortEthnic(co6tl, co6tb, co6tw, tw) #done
-        elif("co7" in district):
+        if("co7" in district):
             sortEthnic(co7tl, co7tb, co7tw, tw) #done
-        elif("nm1" in district):
+        if("nm1" in district):
             sortEthnic(nm1tl, nm1tb, nm1tw, tw) #done
-        elif("nm2" in district):
+        if("nm2" in district):
             sortEthnic(nm2tl, nm2tb, nm2tw, tw)
-        elif("nm3" in district):
+        if("nm3" in district):
             sortEthnic(nm3tl, nm3tb, nm3tw, tw) #done
-        elif("az1" in district):
+        if("az1" in district):
             sortEthnic(az1tl, az1tb, az1tw, tw)
-        elif("az2" in district):
+        if("az2" in district):
             sortEthnic(az2tl, az2tb, az2tw, tw)
-        elif("az3" in district):
+        if("az3" in district):
             sortEthnic(az3tl, az3tb, az3tw, tw)		#done
-        elif("az4" in district):
+        if("az4" in district):
             sortEthnic(az4tl, az4tb, az4tw, tw)
-        elif("az5" in district):
+        if("az5" in district):
             sortEthnic(az5tl, az5tb, az5tw, tw)
-        elif("az6" in district):
+        if("az6" in district):
             sortEthnic(az6tl, az6tb, az6tw, tw) #done
-        elif("az7" in district):
+        if("az7" in district):
             sortEthnic(az7tl, az7tb, az7tw, tw)		#done
-        elif("az8" in district):
+        if("az8" in district):
             sortEthnic(az8tl, az8tb, az8tw, tw)
-        elif("az9" in district):
+        if("az9" in district):
             sortEthnic(az9tl, az9tb, az9tw, tw)			#done
-        elif("ga1" in district):
+        if("ga1" in district):
             sortEthnic(ga1tl, ga1tb, ga1tw, tw)
-        elif("ga2" in district):
+        if("ga2" in district):
             sortEthnic(ga2tl, ga2tb, ga2tw, tw)
-        elif("ga3" in district):
+        if("ga3" in district):
             sortEthnic(ga3tl, ga3tb, ga3tw, tw)	#done
-        elif("ga4" in district):
+        if("ga4" in district):
             sortEthnic(ga4tl, ga4tb, ga4tw, tw)
-        elif("ga5" in district):
+        if("ga5" in district):
             sortEthnic(ga5tl, ga5tb, ga5tw, tw)
-        elif("ga6" in district):
+        if("ga6" in district):
             sortEthnic(ga6tl, ga6tb, ga6tw, tw)
-        elif("ga7" in district):
+        if("ga7" in district):
             sortEthnic(ga7tl, ga7tb, ga7tw, tw)
-        elif("ga8" in district):
+        if("ga8" in district):
             sortEthnic(ga8tl, ga8tb, ga8tw, tw)
-        elif("ga9" in district):
+        if("ga9" in district):
             sortEthnic(ga9tl, ga9tb, ga9tw, tw)
-        elif("ga10" in district):
+        if("ga10" in district):
             sortEthnic(ga10tl, ga10tb, ga10tw, tw)
-        elif("ga11" in district):
+        if("ga11" in district):
             sortEthnic(ga11tl, ga11tb, ga11tw, tw)
-        elif("ga12" in district):
+        if("ga12" in district):
             sortEthnic(ga12tl, ga12tb, ga12tw, tw)
-        elif("ga13" in district):
+        if("ga13" in district):
             sortEthnic(ga13tl, ga13tb, ga13tw, tw)
-        elif("ga14" in district):
+        if("ga14" in district):
             sortEthnic(ga14tl, ga14tb, ga14tw, tw)
-        elif("tx1" in district):
+        if("tx1" in district):
             sortEthnic(tx1tl, tx1tb, tx1tw, tw) #done
-        elif("tx2" in district):
+        if("tx2" in district):
             sortEthnic(tx2tl, tx2tb, tx2tw, tw)
-        elif("tx3" in district):
+        if("tx3" in district):
             sortEthnic(tx3tl, tx3tb, tx3tw, tw)
-        elif("tx4" in district):
+        if("tx4" in district):
             sortEthnic(tx4tl, tx4tb, tx4tw, tw)
-        elif("tx5" in district):
+        if("tx5" in district):
             sortEthnic(tx5tl, tx5tb, tx5tw, tw) #done
-        elif("tx6" in district):
+        if("tx6" in district):
             sortEthnic(tx6tl, tx6tb, tx6tw, tw) #done
-        elif("tx7" in district):
+        if("tx7" in district):
             sortEthnic(tx7tl, tx7tb, tx7tw, tw)
-        elif("tx8" in district):
+        if("tx8" in district):
             sortEthnic(tx8tl, tx8tb, tx8tw, tw)
-        elif("tx9" in district):
+        if("tx9" in district):
             sortEthnic(tx9tl, tx9tb, tx9tw, tw)
-        elif("tx10" in district):
+        if("tx10" in district):
             sortEthnic(tx10tl, tx10tb, tx10tw, tw) #done
-        elif("tx11" in district):
+        if("tx11" in district):
             sortEthnic(tx11tl, tx11tb, tx11tw, tw)
-        elif("tx12" in district):
+        if("tx12" in district):
             sortEthnic(tx12tl, tx12tb, tx12tw, tw)
-        elif("tx13" in district):
+        if("tx13" in district):
             sortEthnic(tx13tl, tx13tb, tx13tw, tw)
-        elif("tx14" in district):
+        if("tx14" in district):
             sortEthnic(tx14tl, tx14tb, tx14tw, tw)
-        elif("tx15" in district):
+        if("tx15" in district):
             sortEthnic(tx15tl, tx15tb, tx15tw, tw)
-        elif("tx16" in district):
+        if("tx16" in district):
             sortEthnic(tx16tl, tx16tb, tx16tw, tw)
-        elif("tx17" in district):
+        if("tx17" in district):
             sortEthnic(tx17tl, tx17tb, tx17tw, tw)
-        elif("tx18" in district):
+        if("tx18" in district):
             sortEthnic(tx18tl, tx18tb, tx18tw, tw)
-        elif("tx19" in district):
+        if("tx19" in district):
             sortEthnic(tx19tl, tx19tb, tx19tw, tw)
-        elif("tx20" in district):
+        if("tx20" in district):
             sortEthnic(tx20tl, tx20tb, tx20tw, tw)
-        elif("tx21" in district):
+        if("tx21" in district):
             sortEthnic(tx21tl, tx21tb, tx21tw, tw)
-        elif("tx22" in district):
+        if("tx22" in district):
             sortEthnic(tx22tl, tx22tb, tx22tw, tw)
-        elif("tx23" in district):
+        if("tx23" in district):
             sortEthnic(tx23tl, tx23tb, tx23tw, tw)
-        elif("tx24" in district):
+        if("tx24" in district):
             sortEthnic(tx24tl, tx24tb, tx24tw, tw) #done
-        elif("tx25" in district):
+        if("tx25" in district):
             sortEthnic(tx25tl, tx25tb, tx25tw, tw)
-        elif("tx26" in district):
+        if("tx26" in district):
             sortEthnic(tx26tl, tx26tb, tx26tw, tw)
-        elif("tx27" in district):
+        if("tx27" in district):
             sortEthnic(tx27tl, tx27tb, tx27tw, tw)
-        elif("tx28" in district):
+        if("tx28" in district):
             sortEthnic(tx28tl, tx28tb, tx28tw, tw)
-        elif("tx29" in district):
+        if("tx29" in district):
             sortEthnic(tx29tl, tx29tb, tx29tw, tw)
-        elif("tx30" in district):
+        if("tx30" in district):
             sortEthnic(tx30tl, tx30tb, tx30tw, tw)
-        elif("tx31" in district):
+        if("tx31" in district):
             sortEthnic(tx31tl, tx31tb, tx31tw, tw)
-        elif("tx32" in district):
+        if("tx32" in district):
             sortEthnic(tx32tl, tx32tb, tx32tw, tw) #done
-        elif("tx33" in district):
+        if("tx33" in district):
             sortEthnic(tx33tl, tx33tb, tx33tw, tw)
-        elif("tx34" in district):
+        if("tx34" in district):
             sortEthnic(tx34tl, tx34tb, tx34tw, tw)
-        elif("tx35" in district):
+        if("tx35" in district):
             sortEthnic(tx35tl, tx35tb, tx35tw, tw)
-        elif("tx36" in district):
+        if("tx36" in district):
             sortEthnic(tx36tl, tx36tb, tx36tw, tw)
-        elif("in1" in district):
+        if("in1" in district):
             sortEthnic(in1tl, in1tb, in1tw, tw)
-        elif("in2" in district):
+        if("in2" in district):
             sortEthnic(in2tl, in2tb, in2tw, tw)
-        elif("in3" in district):
+        if("in3" in district):
             sortEthnic(in3tl, in3tb, in3tw, tw)	 #done
-        elif("in4" in district):
+        if("in4" in district):
             sortEthnic(in4tl, in4tb, in4tw, tw)
-        elif("in5" in district):
+        if("in5" in district):
             sortEthnic(in5tl, in5tb, in5tw, tw)
-        elif("in6" in district):
+        if("in6" in district):
             sortEthnic(in6tl, in6tb, in6tw, tw)
-        elif("in7" in district):
+        if("in7" in district):
             sortEthnic(in7tl, in7tb, in7tw, tw)
-        elif("in8" in district):
+        if("in8" in district):
             sortEthnic(in8tl, in8tb, in8tw, tw)
-        elif("in9" in district):
+        if("in9" in district):
             sortEthnic(in9tl, in9tb, in9tw, tw)
-        elif("va1" in district):
+        if("va1" in district):
             sortEthnic(va1tl, va1tb, va1tw, tw)
-        elif("va2" in district):
+        if("va2" in district):
             sortEthnic(va2tl, va2tb, va2tw, tw)
-        elif("va3" in district):
+        if("va3" in district):
             sortEthnic(va3tl, va3tb, va3tw, tw)
-        elif("va4" in district):
+        if("va4" in district):
             sortEthnic(va4tl, va4tb, va4tw, tw)	#done
-        elif("va5" in district):
+        if("va5" in district):
             sortEthnic(va5tl, va5tb, va5tw, tw)
-        elif("va6" in district):
+        if("va6" in district):
             sortEthnic(va6tl, va6tb, va6tw, tw)
-        elif("va7" in district):
+        if("va7" in district):
             sortEthnic(va7tl, va7tb, va7tw, tw)
-        elif("va8" in district):
+        if("va8" in district):
             sortEthnic(va8tl, va8tb, va8tw, tw)
-        elif("va9" in district):
+        if("va9" in district):
             sortEthnic(va9tl, va9tb, va9tw, tw)
-        elif("va10" in district):
+        if("va10" in district):
             sortEthnic(va10tl, va10tb, va10tw, tw)
-        elif("va11" in district):
+        if("va11" in district):
             sortEthnic(va11tl, va11tb, va11tw, tw)
-        elif("il1" in district):
+        if("il1" in district):
             sortEthnic(il1tl, il1tb, il1tw, tw)
-        elif("il2" in district):
+        if("il2" in district):
             sortEthnic(il2tl, il2tb, il2tw, tw)
-        elif("il3" in district):
+        if("il3" in district):
             sortEthnic(il3tl, il3tb, il3tw, tw)
-        elif("il4" in district):
+        if("il4" in district):
             sortEthnic(il4tl, il4tb, il4tw, tw)	#done
-        elif("il5" in district):
+        if("il5" in district):
             sortEthnic(il5tl, il5tb, il5tw, tw)
-        elif("il6" in district):
+        if("il6" in district):
             sortEthnic(il6tl, il6tb, il6tw, tw)
-        elif("il7" in district):
+        if("il7" in district):
             sortEthnic(il7tl, il7tb, il7tw, tw)
-        elif("il8" in district):
+        if("il8" in district):
             sortEthnic(il8tl, il8tb, il8tw, tw)
-        elif("il9" in district):
+        if("il9" in district):
             sortEthnic(il9tl, il9tb, il9tw, tw)
-        elif("il10" in district):
+        if("il10" in district):
             sortEthnic(il10tl, il10tb, il10tw, tw) #done
-        elif("il11" in district):
+        if("il11" in district):
             sortEthnic(il11tl, il11tb, il11tw, tw)
-        elif("il12" in district):
+        if("il12" in district):
             sortEthnic(il12tl, il12tb, il12tw, tw) #done
-        elif("il13" in district):
+        if("il13" in district):
             sortEthnic(il13tl, il13tb, il13tw, tw)
-        elif("il14" in district):
+        if("il14" in district):
             sortEthnic(il14tl, il14tb, il14tw, tw)#done
-        elif("il15" in district):
+        if("il15" in district):
             sortEthnic(il15tl, il15tb, il15tw, tw) #done
-        elif("il16" in district):
+        if("il16" in district):
             sortEthnic(il16tl, il16tb, il16tw, tw)
-        elif("il17" in district):
+        if("il17" in district):
             sortEthnic(il17tl, il17tb, il17tw, tw)
-        elif("il18" in district):
+        if("il18" in district):
             sortEthnic(il18tl, il18tb, il18tw, tw)
-        elif("de1" in district):
+        if("de1" in district):
             sortEthnic(de1tl, de1tb, de1tw, tw) #done
-        elif("vt1" in district):
+        if("vt1" in district):
             sortEthnic(vt1tl, vt1tb, vt1tw, tw) #done
-        elif("ut1" in district):
+        if("ut1" in district):
             sortEthnic(ut1tl, ut1tb, ut1tw, tw)
-        elif("ut2" in district):
+        if("ut2" in district):
             sortEthnic(ut2tl, ut2tb, ut2tw, tw)
-        elif("ut3" in district):
+        if("ut3" in district):
             sortEthnic(ut3tl, ut3tb, ut3tw, tw)
-        elif("ut4" in district):
+        if("ut4" in district):
             sortEthnic(ut4tl, ut4tb, ut4tw, tw)
-        elif("ne1" in district):
+        if("ne1" in district):
             sortEthnic(ne1tl, ne1tb, ne1tw, tw)
-        elif("ne2" in district):
+        if("ne2" in district):
             sortEthnic(ne2tl, ne2tb, ne2tw, tw)
-        elif("ne3" in district):
+        if("ne3" in district):
             sortEthnic(ne3tl, ne3tb, ne3tw, tw)	#done
-        elif("ak1" in district):
+        if("ak1" in district):
             sortEthnic(ak1tl, ak1tb, ak1tw, tw) #done
-        elif("wy1" in district):
+        if("wy1" in district):
             sortEthnic(wy1tl, wy1tb, wy1tw, tw) #done
-        elif("al1" in district):
+        if("al1" in district):
             sortEthnic(al1tl, al1tb, al1tw, tw)
-        elif("al2" in district):
+        if("al2" in district):
             sortEthnic(al2tl, al2tb, al2tw, tw)
-        elif("al3" in district):
+        if("al3" in district):
             sortEthnic(al3tl, al3tb, al3tw, tw)
-        elif("al4" in district):
+        if("al4" in district):
             sortEthnic(al4tl, al4tb, al4tw, tw)
-        elif("al5" in district):
+        if("al5" in district):
             sortEthnic(al5tl, al5tb, al5tw, tw)
-        elif("al6" in district):
+        if("al6" in district):
             sortEthnic(al6tl, al6tb, al6tw, tw)
-        elif("al7" in district):
+        if("al7" in district):
             sortEthnic(al7tl, al7tb, al7tw, tw)	#done
-        elif("tn1" in district):
+        if("tn1" in district):
             sortEthnic(tn1tl, tn1tb, tn1tw, tw)
-        elif("tn2" in district):
+        if("tn2" in district):
             sortEthnic(tn2tl, tn2tb, tn2tw, tw)
-        elif("tn3" in district):
+        if("tn3" in district):
             sortEthnic(tn3tl, tn3tb, tn3tw, tw)
-        elif("tn4" in district):
+        if("tn4" in district):
             sortEthnic(tn4tl, tn4tb, tn4tw, tw)
-        elif("tn5" in district):
+        if("tn5" in district):
             sortEthnic(tn5tl, tn5tb, tn5tw, tw)
-        elif("tn6" in district):
+        if("tn6" in district):
             sortEthnic(tn6tl, tn6tb, tn6tw, tw)
-        elif("tn7" in district):
+        if("tn7" in district):
             sortEthnic(tn7tl, tn7tb, tn7tw, tw)
-        elif("tn8" in district):
+        if("tn8" in district):
             sortEthnic(tn8tl, tn8tb, tn8tw, tw)
-        elif("tn9" in district):
+        if("tn9" in district):
             sortEthnic(tn9tl, tn9tb, tn9tw, tw)
-        elif("nd1" in district):
+        if("nd1" in district):
             sortEthnic(nd1tl, nd1tb, nd1tw, tw) #done
-        elif("sd1" in district):
+        if("sd1" in district):
             sortEthnic(sd1tl, sd1tb, sd1tw, tw) #done
-        elif("wv1" in district):
+        if("wv1" in district):
             sortEthnic(wv1tl, wv1tb, wv1tw, tw)
-        elif("wv2" in district):
+        if("wv2" in district):
             sortEthnic(wv2tl, wv2tb, wv2tw, tw)
-        elif("wv3" in district):
+        if("wv3" in district):
             sortEthnic(wv3tl, wv3tb, wv3tw, tw) #done
-        elif("ar1" in district):
+        if("ar1" in district):
             sortEthnic(ar1tl, ar1tb, ar1tw, tw) #done
-        elif("ar2" in district):
+        if("ar2" in district):
             sortEthnic(ar2tl, ar2tb, ar2tw, tw)
-        elif("ar3" in district):
+        if("ar3" in district):
             sortEthnic(ar3tl, ar3tb, ar3tw, tw)
-        elif("ar4" in district):
+        if("ar4" in district):
             sortEthnic(ar4tl, ar4tb, ar4tw, tw)
     district = sortloc(["#biden2020", "#voteblue"], tw["user"]["location"], tw["full_text"].lower())
     if(district != "null"):
         if("mo1" in district):
             sortEthnic(mo1bl, mo1bb, mo1bw, tw)
-        elif("mo2" in district):
+        if("mo2" in district):
             sortEthnic(mo2bl, mo2bb, mo2bw, tw)
-        elif("mo3" in district):
+        if("mo3" in district):
             sortEthnic(mo3bl, mo3bb, mo3bw, tw)
-        elif("mo4" in district):
+        if("mo4" in district):
             sortEthnic(mo4bl, mo4bb, mo4bw, tw)
-        elif("mo5" in district):
+        if("mo5" in district):
             sortEthnic(mo5bl, mo5bb, mo5bw, tw)
-        elif("mo6" in district):
+        if("mo6" in district):
             sortEthnic(mo6bl, mo6bb, mo6bw, tw)
-        elif("mo7" in district):
+        if("mo7" in district):
             sortEthnic(mo7bl, mo7bb, mo7bw, tw)
-        elif("mo8" in district):
+        if("mo8" in district):
             sortEthnic(mo8bl, mo8bb, mo8bw, tw)
-        elif("sc1" in district):
+        if("sc1" in district):
             sortEthnic(sc1bl, sc1bb, sc1bw, tw)
-        elif("sc2" in district):
+        if("sc2" in district):
             sortEthnic(sc2bl, sc2bb, sc2bw, tw)
-        elif("sc3" in district):
+        if("sc3" in district):
             sortEthnic(sc3bl, sc3bb, sc3bw, tw)
-        elif("sc4" in district):
+        if("sc4" in district):
             sortEthnic(sc4bl, sc4bb, sc4bw, tw)
-        elif("sc5" in district):
+        if("sc5" in district):
             sortEthnic(sc5bl, sc5bb, sc5bw, tw)
-        elif("sc6" in district):
+        if("sc6" in district):
             sortEthnic(sc6bl, sc6bb, sc6bw, tw)
-        elif("sc7" in district):
+        if("sc7" in district):
             sortEthnic(sc7bl, sc7bb, sc7bw, tw)
-        elif("ky1" in district):
+        if("ky1" in district):
             sortEthnic(ky1bl, ky1bb, ky1bw, tw)
-        elif("ky2" in district):
+        if("ky2" in district):
             sortEthnic(ky2bl, ky2bb, ky2bw, tw)
-        elif("ky3" in district):
+        if("ky3" in district):
             sortEthnic(ky3bl, ky3bb, ky3bw, tw)
-        elif("ky4" in district):
+        if("ky4" in district):
             sortEthnic(ky4bl, ky4bb, ky4bw, tw)
-        elif("ky5" in district):
+        if("ky5" in district):
             sortEthnic(ky5bl, ky5bb, ky5bw, tw)
-        elif("ky6" in district):
+        if("ky6" in district):
             sortEthnic(ky6bl, ky6bb, ky6bw, tw)
-        elif("ok1" in district):
+        if("ok1" in district):
             sortEthnic(ok1bl, ok1bb, ok1bw, tw) #done
-        elif("ok2" in district):
+        if("ok2" in district):
             sortEthnic(ok2bl, ok2bb, ok2bw, tw)
-        elif("ok3" in district):
+        if("ok3" in district):
             sortEthnic(ok3bl, ok3bb, ok3bw, tw)	#done
-        elif("ok4" in district):
+        if("ok4" in district):
             sortEthnic(ok4bl, ok4bb, ok4bw, tw)	#done
-        elif("ok5" in district):
+        if("ok5" in district):
             sortEthnic(ok5bl, ok5bb, ok5bw, tw)
-        elif("ia1" in district):
+        if("ia1" in district):
             sortEthnic(ia1bl, ia1bb, ia1bw, tw) #done
-        elif("ia2" in district):
+        if("ia2" in district):
             sortEthnic(ia2bl, ia2bb, ia2bw, tw) #done
-        elif("ia3" in district):
+        if("ia3" in district):
             sortEthnic(ia3bl, ia3bb, ia3bw, tw)	#done
-        elif("ia4" in district):
+        if("ia4" in district):
             sortEthnic(ia4bl, ia4bb, ia4bw, tw)	#done
-        elif("ks1" in district):
+        if("ks1" in district):
             sortEthnic(ks1bl, ks1bb, ks1bw, tw) #done
-        elif("ks2" in district):
+        if("ks2" in district):
             sortEthnic(ks2bl, ks2bb, ks2bw, tw) #done
-        elif("ks3" in district):
+        if("ks3" in district):
             sortEthnic(ks3bl, ks3bb, ks3bw, tw)
-        elif("ks4" in district):
+        if("ks4" in district):
             sortEthnic(ks4bl, ks4bb, ks4bw, tw)
-        elif("ca1" in district):
+        if("ca1" in district):
             sortEthnic(ca1bl, ca1bb, ca1bw, tw) #done
-        elif("ca2" in district):
+        if("ca2" in district):
             sortEthnic(ca2bl, ca2bb, ca2bw, tw) #done
-        elif("ca3" in district):
+        if("ca3" in district):
             sortEthnic(ca3bl, ca3bb, ca3bw, tw)
-        elif("ca4" in district):
+        if("ca4" in district):
             sortEthnic(ca4bl, ca4bb, ca4bw, tw)
-        elif("ca5" in district):
+        if("ca5" in district):
             sortEthnic(ca5bl, ca5bb, ca5bw, tw) #done
-        elif("ca6" in district):
+        if("ca6" in district):
             sortEthnic(ca6bl, ca6bb, ca6bw, tw)
-        elif("ca7" in district):
+        if("ca7" in district):
             sortEthnic(ca7bl, ca7bb, ca7bw, tw) #done
-        elif("ca8" in district):
+        if("ca8" in district):
             sortEthnic(ca8bl, ca8bb, ca8bw, tw)
-        elif("ca9" in district):
+        if("ca9" in district):
             sortEthnic(ca9bl, ca9bb, ca9bw, tw) #done
-        elif("ca10" in district):
+        if("ca10" in district):
             sortEthnic(ca10bl, ca10bb, ca10bw, tw) #done
-        elif("ca11" in district):
+        if("ca11" in district):
             sortEthnic(ca11bl, ca11bb, ca11bw, tw)
-        elif("ca12" in district):
+        if("ca12" in district):
             sortEthnic(ca12bl, ca12bb, ca12bw, tw)
-        elif("ca13" in district):
+        if("ca13" in district):
             sortEthnic(ca13bl, ca13bb, ca13bw, tw)
-        elif("ca14" in district):
+        if("ca14" in district):
             sortEthnic(ca14bl, ca14bb, ca14bw, tw)
-        elif("ca15" in district):
+        if("ca15" in district):
             sortEthnic(ca15bl, ca15bb, ca15bw, tw)
-        elif("ca16" in district):
+        if("ca16" in district):
             sortEthnic(ca16bl, ca16bb, ca16bw, tw) #done
-        elif("ca17" in district):
+        if("ca17" in district):
             sortEthnic(ca17bl, ca17bb, ca17bw, tw) #done
-        elif("ca18" in district):
+        if("ca18" in district):
             sortEthnic(ca18bl, ca18bb, ca18bw, tw)
-        elif("ca19" in district):
+        if("ca19" in district):
             sortEthnic(ca19bl, ca19bb, ca19bw, tw) #done
-        elif("ca20" in district):
+        if("ca20" in district):
             sortEthnic(ca20bl, ca20bb, ca20bw, tw)
-        elif("ca21" in district):
+        if("ca21" in district):
             sortEthnic(ca21bl, ca21bb, ca21bw, tw)
-        elif("ca22" in district):
+        if("ca22" in district):
             sortEthnic(ca22bl, ca22bb, ca22bw, tw)
-        elif("ca23" in district):
+        if("ca23" in district):
             sortEthnic(ca23bl, ca23bb, ca23bw, tw)
-        elif("ca24" in district):
+        if("ca24" in district):
             sortEthnic(ca24bl, ca24bb, ca24bw, tw)
-        elif("ca25" in district):
+        if("ca25" in district):
             sortEthnic(ca25bl, ca25bb, ca25bw, tw)
-        elif("ca26" in district):
+        if("ca26" in district):
             sortEthnic(ca26bl, ca26bb, ca26bw, tw) #done
-        elif("ca27" in district):
+        if("ca27" in district):
             sortEthnic(ca27bl, ca27bb, ca27bw, tw)
-        elif("ca28" in district):
+        if("ca28" in district):
             sortEthnic(ca28bl, ca28bb, ca28bw, tw)
-        elif("ca29" in district):
+        if("ca29" in district):
             sortEthnic(ca29bl, ca29bb, ca29bw, tw)
-        elif("ca30" in district):
+        if("ca30" in district):
             sortEthnic(ca30bl, ca30bb, ca30bw, tw)
-        elif("ca31" in district):
+        if("ca31" in district):
             sortEthnic(ca31bl, ca31bb, ca31bw, tw) #done
-        elif("ca32" in district):
+        if("ca32" in district):
             sortEthnic(ca32bl, ca32bb, ca32bw, tw) #done
-        elif("ca33" in district):
+        if("ca33" in district):
             sortEthnic(ca33bl, ca33bb, ca33bw, tw)
-        elif("ca34" in district):
+        if("ca34" in district):
             sortEthnic(ca34bl, ca34bb, ca34bw, tw)
-        elif("ca35" in district):
+        if("ca35" in district):
             sortEthnic(ca35bl, ca35bb, ca35bw, tw) #done
-        elif("ca36" in district):
+        if("ca36" in district):
             sortEthnic(ca36bl, ca36bb, ca36bw, tw)
-        elif("ca37" in district):
+        if("ca37" in district):
             sortEthnic(ca37bl, ca37bb, ca37bw, tw) #done
-        elif("ca38" in district):
+        if("ca38" in district):
             sortEthnic(ca38bl, ca38bb, ca38bw, tw) #done
-        elif("ca39" in district):
+        if("ca39" in district):
             sortEthnic(ca39bl, ca39bb, ca39bw, tw)
-        elif("ca40" in district):
+        if("ca40" in district):
             sortEthnic(ca40bl, ca40bb, ca40bw, tw) #done
-        elif("ca41" in district):
+        if("ca41" in district):
             sortEthnic(ca41bl, ca41bb, ca41bw, tw) #done
-        elif("ca42" in district):
+        if("ca42" in district):
             sortEthnic(ca42bl, ca42bb, ca42bw, tw)
-        elif("ca43" in district):
+        if("ca43" in district):
             sortEthnic(ca43bl, ca43bb, ca43bw, tw)
-        elif("ca44" in district):
+        if("ca44" in district):
             sortEthnic(ca44bl, ca44bb, ca44bw, tw)
-        elif("ca45" in district):
+        if("ca45" in district):
             sortEthnic(ca45bl, ca45bb, ca45bw, tw)
-        elif("ca46" in district):
+        if("ca46" in district):
             sortEthnic(ca46bl, ca46bb, ca46bw, tw) #done
-        elif("ca47" in district):
+        if("ca47" in district):
             sortEthnic(ca47bl, ca47bb, ca47bw, tw)
-        elif("ca48" in district):
+        if("ca48" in district):
             sortEthnic(ca48bl, ca48bb, ca48bw, tw) #done
-        elif("ca49" in district):
+        if("ca49" in district):
             sortEthnic(ca49bl, ca49bb, ca49bw, tw) #done
-        elif("ca50" in district):
+        if("ca50" in district):
             sortEthnic(ca50bl, ca50bb, ca50bw, tw)
-        elif("ca51" in district):
+        if("ca51" in district):
             sortEthnic(ca51bl, ca51bb, ca51bw, tw) #done
-        elif("ca52" in district):
+        if("ca52" in district):
             sortEthnic(ca52bl, ca52bb, ca52bw, tw) #done
-        elif("ca53" in district):
+        if("ca53" in district):
             sortEthnic(ca53bl, ca53bb, ca53bw, tw) #done
-        elif("la1" in district):
+        if("la1" in district):
             sortEthnic(la1bl, la1bb, la1bw, tw)
-        elif("la2" in district):
+        if("la2" in district):
             sortEthnic(la2bl, la2bb, la2bw, tw) #done
-        elif("la3" in district):
+        if("la3" in district):
             sortEthnic(la3bl, la3bb, la3bw, tw)
-        elif("la4" in district):
+        if("la4" in district):
             sortEthnic(la4bl, la4bb, la4bw, tw)
-        elif("la5" in district):
+        if("la5" in district):
             sortEthnic(la5bl, la5bb, la5bw, tw)
-        elif("la6" in district):
+        if("la6" in district):
             sortEthnic(la6bl, la6bb, la6bw, tw)
-        elif("ct1" in district):
+        if("ct1" in district):
             sortEthnic(ct1bl, ct1bb, ct1bw, tw)
-        elif("ct2" in district):
+        if("ct2" in district):
             sortEthnic(ct2bl, ct2bb, ct2bw, tw) #done
-        elif("ct3" in district):
+        if("ct3" in district):
             sortEthnic(ct3bl, ct3bb, ct3bw, tw)
-        elif("ct4" in district):
+        if("ct4" in district):
             sortEthnic(ct4bl, ct4bb, ct4bw, tw)	 #done
-        elif("ct5" in district):
+        if("ct5" in district):
             sortEthnic(ct5bl, ct5bb, ct5bw, tw)
-        elif("mt1" in district):
+        if("mt1" in district):
             sortEthnic(mt1bl, mt1bb, mt1bw, tw) #done
-        elif("ms1" in district):
+        if("ms1" in district):
             sortEthnic(ms1bl, ms1bb, ms1bw, tw) #done
-        elif("ms2" in district):
+        if("ms2" in district):
             sortEthnic(ms2bl, ms2bb, ms2bw, tw)
-        elif("ms3" in district):
+        if("ms3" in district):
             sortEthnic(ms3bl, ms3bb, ms3bw, tw)
-        elif("ms4" in district):
+        if("ms4" in district):
             sortEthnic(ms4bl, ms4bb, ms4bw, tw)
-        elif("pa1" in district):
+        if("pa1" in district):
             sortEthnic(pa1bl, pa1bb, pa1bw, tw)
-        elif("pa2" in district):
+        if("pa2" in district):
             sortEthnic(pa2bl, pa2bb, pa2bw, tw) #done
-        elif("pa3" in district):
+        if("pa3" in district):
             sortEthnic(pa3bl, pa3bb, pa3bw, tw)	#done
-        elif("pa4" in district):
+        if("pa4" in district):
             sortEthnic(pa4bl, pa4bb, pa4bw, tw)	#done
-        elif("pa5" in district):
+        if("pa5" in district):
             sortEthnic(pa5bl, pa5bb, pa5bw, tw) #done
-        elif("pa6" in district):
+        if("pa6" in district):
             sortEthnic(pa6bl, pa6bb, pa6bw, tw)
-        elif("pa7" in district):
+        if("pa7" in district):
             sortEthnic(pa7bl, pa7bb, pa7bw, tw) #done
-        elif("pa8" in district):
+        if("pa8" in district):
             sortEthnic(pa8bl, pa8bb, pa8bw, tw) #done
-        elif("pa9" in district):
+        if("pa9" in district):
             sortEthnic(pa9bl, pa9bb, pa9bw, tw)
-        elif("pa10" in district):
+        if("pa10" in district):
             sortEthnic(pa10bl, pa10bb, pa10bw, tw) #done
-        elif("pa11" in district):
+        if("pa11" in district):
             sortEthnic(pa11bl, pa11bb, pa11bw, tw)
-        elif("pa12" in district):
+        if("pa12" in district):
             sortEthnic(pa12bl, pa12bb, pa12bw, tw) #done
-        elif("pa13" in district):
+        if("pa13" in district):
             sortEthnic(pa13bl, pa13bb, pa13bw, tw) #done
-        elif("pa14" in district):
+        if("pa14" in district):
             sortEthnic(pa14bl, pa14bb, pa14bw, tw)
-        elif("pa15" in district):
+        if("pa15" in district):
             sortEthnic(pa15bl, pa15bb, pa15bw, tw) #done
-        elif("pa16" in district):
+        if("pa16" in district):
             sortEthnic(pa16bl, pa16bb, pa16bw, tw) #done
-        elif("pa17" in district):
+        if("pa17" in district):
             sortEthnic(pa17bl, pa17bb, pa17bw, tw) #done
-        elif("pa18" in district):
+        if("pa18" in district):
             sortEthnic(pa18bl, pa18bb, pa18bw, tw) #done
-        elif("oh1" in district):
+        if("oh1" in district):
             sortEthnic(oh1bl, oh1bb, oh1bw, tw)
-        elif("oh2" in district):
+        if("oh2" in district):
             sortEthnic(oh2bl, oh2bb, oh2bw, tw)
-        elif("oh3" in district):
+        if("oh3" in district):
             sortEthnic(oh3bl, oh3bb, oh3bw, tw)
-        elif("oh4" in district):
+        if("oh4" in district):
             sortEthnic(oh4bl, oh4bb, oh4bw, tw)
-        elif("oh5" in district):
+        if("oh5" in district):
             sortEthnic(oh5bl, oh5bb, oh5bw, tw)
         if("oh6" in district):
             sortEthnic(oh6bl, oh6bb, oh6bw, tw)
-        elif("oh7" in district):
+        if("oh7" in district):
             sortEthnic(oh7bl, oh7bb, oh7bw, tw)
-        elif("oh8" in district):
+        if("oh8" in district):
             sortEthnic(oh8bl, oh8bb, oh8bw, tw)
-        elif("oh9" in district):
+        if("oh9" in district):
             sortEthnic(oh9bl, oh9bb, oh9bw, tw)
-        elif("oh10" in district):
+        if("oh10" in district):
             sortEthnic(oh10bl, oh10bb, oh10bw, tw)
-        elif("oh11" in district):
+        if("oh11" in district):
             sortEthnic(oh11bl, oh11bb, oh11bw, tw)
-        elif("oh12" in district):
+        if("oh12" in district):
             sortEthnic(oh12bl, oh12bb, oh12bw, tw)
-        elif("oh13" in district):
+        if("oh13" in district):
             sortEthnic(oh13bl, oh13bb, oh13bw, tw)
-        elif("oh14" in district):
+        if("oh14" in district):
             sortEthnic(oh14bl, oh14bb, oh14bw, tw)
-        elif("oh15" in district):
+        if("oh15" in district):
             sortEthnic(oh15bl, oh15bb, oh15bw, tw)
-        elif("oh16" in district):
+        if("oh16" in district):
             sortEthnic(oh16bl, oh16bb, oh16bw, tw)
-        elif("fl1" in district):
+        if("fl1" in district):
             sortEthnic(fl1bl, fl1bb, fl1bw, tw)
-        elif("fl2" in district):
+        if("fl2" in district):
             sortEthnic(fl2bl, fl2bb, fl2bw, tw)
-        elif("fl3" in district):
+        if("fl3" in district):
             sortEthnic(fl3bl, fl3bb, fl3bw, tw)
-        elif("fl4" in district):
+        if("fl4" in district):
             sortEthnic(fl4bl, fl4bb, fl4bw, tw)
-        elif("fl5" in district):
+        if("fl5" in district):
             sortEthnic(fl5bl, fl5bb, fl5bw, tw) #done
-        elif("fl6" in district):
+        if("fl6" in district):
             sortEthnic(fl6bl, fl6bb, fl6bw, tw)
-        elif("fl7" in district):
+        if("fl7" in district):
             sortEthnic(fl7bl, fl7bb, fl7bw, tw)
-        elif("fl8" in district):
+        if("fl8" in district):
             sortEthnic(fl8bl, fl8bb, fl8bw, tw)
-        elif("fl9" in district):
+        if("fl9" in district):
             sortEthnic(fl9bl, fl9bb, fl9bw, tw)
-        elif("fl10" in district):
+        if("fl10" in district):
             sortEthnic(fl10bl, fl10bb, fl10bw, tw)
-        elif("fl11" in district):
+        if("fl11" in district):
             sortEthnic(fl11bl, fl11bb, fl11bw, tw)
-        elif("fl12" in district):
+        if("fl12" in district):
             sortEthnic(fl12bl, fl12bb, fl12bw, tw)
-        elif("fl13" in district):
+        if("fl13" in district):
             sortEthnic(fl13bl, fl13bb, fl13bw, tw)
-        elif("fl14" in district):
+        if("fl14" in district):
             sortEthnic(fl14bl, fl14bb, fl14bw, tw)
-        elif("fl15" in district):
+        if("fl15" in district):
             sortEthnic(fl15bl, fl15bb, fl15bw, tw)
-        elif("fl16" in district):
+        if("fl16" in district):
             sortEthnic(fl16bl, fl16bb, fl16bw, tw)
-        elif("fl17" in district):
+        if("fl17" in district):
             sortEthnic(fl17bl, fl17bb, fl17bw, tw)
-        elif("fl18" in district):
+        if("fl18" in district):
             sortEthnic(fl18bl, fl18bb, fl18bw, tw)
-        elif("fl19" in district):
+        if("fl19" in district):
             sortEthnic(fl19bl, fl19bb, fl19bw, tw)
-        elif("fl20" in district):
+        if("fl20" in district):
             sortEthnic(fl20bl, fl20bb, fl20bw, tw)
-        elif("fl21" in district):
+        if("fl21" in district):
             sortEthnic(fl21bl, fl21bb, fl21bw, tw) #done
-        elif("fl22" in district):
+        if("fl22" in district):
             sortEthnic(fl22bl, fl22bb, fl22bw, tw)
-        elif("fl23" in district):
+        if("fl23" in district):
             sortEthnic(fl23bl, fl23bb, fl23bw, tw)
-        elif("fl24" in district):
+        if("fl24" in district):
             sortEthnic(fl24bl, fl24bb, fl24bw, tw)
-        elif("fl25" in district):
+        if("fl25" in district):
             sortEthnic(fl25bl, fl25bb, fl25bw, tw) #done
-        elif("fl26" in district):
+        if("fl26" in district):
             sortEthnic(fl26bl, fl26bb, fl26bw, tw) #done
-        elif("fl27" in district):
+        if("fl27" in district):
             sortEthnic(fl27bl, fl27bb, fl27bw, tw)
-        elif("wa1" in district):
+        if("wa1" in district):
             sortEthnic(wa1bl, wa1bb, wa1bw, tw)
-        elif("wa2" in district):
+        if("wa2" in district):
             sortEthnic(wa2bl, wa2bb, wa2bw, tw)
-        elif("wa3" in district):
+        if("wa3" in district):
             sortEthnic(wa3bl, wa3bb, wa3bw, tw)
-        elif("wa4" in district):
+        if("wa4" in district):
             sortEthnic(wa4bl, wa4bb, wa4bw, tw)
-        elif("wa5" in district):
+        if("wa5" in district):
             sortEthnic(wa5bl, wa5bb, wa5bw, tw)
-        elif("wa6" in district):
+        if("wa6" in district):
             sortEthnic(wa6bl, wa6bb, wa6bw, tw)
-        elif("wa7" in district):
+        if("wa7" in district):
             sortEthnic(wa7bl, wa7bb, wa7bw, tw)
-        elif("wa8" in district):
+        if("wa8" in district):
             sortEthnic(wa8bl, wa8bb, wa8bw, tw)
-        elif("wa9" in district):
+        if("wa9" in district):
             sortEthnic(wa9bl, wa9bb, wa9bw, tw)
-        elif("wa10" in district):
+        if("wa10" in district):
             sortEthnic(wa10bl, wa10bb, wa10bw, tw)
-        elif("hi1" in district):
+        if("hi1" in district):
             sortEthnic(hi1bl, hi1bb, hi1bw, tw) #done
-        elif("hi2" in district):
+        if("hi2" in district):
             sortEthnic(hi2bl, hi2bb, hi2bw, tw) #done
-        elif("nj1" in district):
+        if("nj1" in district):
             sortEthnic(nj1bl, nj1bb, nj1bw, tw) #done
-        elif("nj2" in district):
+        if("nj2" in district):
             sortEthnic(nj2bl, nj2bb, nj2bw, tw) #done
-        elif("nj3" in district):
+        if("nj3" in district):
             sortEthnic(nj3bl, nj3bb, nj3bw, tw)	#done
-        elif("nj4" in district):
+        if("nj4" in district):
             sortEthnic(nj4bl, nj4bb, nj4bw, tw)	#done
-        elif("nj5" in district):
+        if("nj5" in district):
             sortEthnic(nj5bl, nj5bb, nj5bw, tw) #done
-        elif("nj6" in district):
+        if("nj6" in district):
             sortEthnic(nj6bl, nj6bb, nj6bw, tw) #done
-        elif("nj7" in district):
+        if("nj7" in district):
             sortEthnic(nj7bl, nj7bb, nj7bw, tw) #done
-        elif("nj8" in district):
+        if("nj8" in district):
             sortEthnic(nj8bl, nj8bb, nj8bw, tw) #done
-        elif("nj9" in district):
+        if("nj9" in district):
             sortEthnic(nj9bl, nj9bb, nj9bw, tw) #done
-        elif("nj10" in district):
+        if("nj10" in district):
             sortEthnic(nj10bl, nj10bb, nj10bw, tw) #done
-        elif("nj11" in district):
+        if("nj11" in district):
             sortEthnic(nj11bl, nj11bb, nj11bw, tw) #done
-        elif("nj12" in district):
+        if("nj12" in district):
             sortEthnic(nj12bl, nj12bb, nj12bw, tw) #done
-        elif("ny1" in district):
+        if("ny1" in district):
             sortEthnic(ny1bl, ny1bb, ny1bw, tw) #done
-        elif("ny2" in district):
+        if("ny2" in district):
             sortEthnic(ny2bl, ny2bb, ny2bw, tw) #done
-        elif("ny3" in district):
+        if("ny3" in district):
             sortEthnic(ny3bl, ny3bb, ny3bw, tw)
-        elif("ny4" in district):
+        if("ny4" in district):
             sortEthnic(ny4bl, ny4bb, ny4bw, tw)
-        elif("ny5" in district):
+        if("ny5" in district):
             sortEthnic(ny5bl, ny5bb, ny5bw, tw)
-        elif("ny6" in district or "ny7" in district or "ny8" in district or "ny9" in district or "ny10" in district or "ny11" in district or "ny12" in district or "ny13" in district or "ny14" in district or "ny15" in district):
+        if("ny6" in district or "ny7" in district or "ny8" in district or "ny9" in district or "ny10" in district or "ny11" in district or "ny12" in district or "ny13" in district or "ny14" in district or "ny15" in district):
             sortEthnic(ny6bl, ny6bb, ny6bw, tw)
             sortEthnic(ny7bl, ny7bb, ny7bw, tw)
             sortEthnic(ny8bl, ny8bb, ny8bw, tw)
@@ -3262,469 +3262,469 @@ for tw in cursor:
             sortEthnic(ny13bl, ny13bb, ny13bw, tw)
             sortEthnic(ny14bl, ny14bb, ny14bw, tw)
             sortEthnic(ny15bl, ny15bb, ny15bw, tw)
-        elif("ny16" in district):
+        if("ny16" in district):
             sortEthnic(ny16bl, ny16bb, ny16bw, tw)
-        elif("ny17" in district):
+        if("ny17" in district):
             sortEthnic(ny17bl, ny17bb, ny17bw, tw) #done
-        elif("ny18" in district):
+        if("ny18" in district):
             sortEthnic(ny18bl, ny18bb, ny18bw, tw)
-        elif("ny19" in district):
+        if("ny19" in district):
             sortEthnic(ny19bl, ny19bb, ny19bw, tw) #done
-        elif("ny20" in district):
+        if("ny20" in district):
             sortEthnic(ny20bl, ny20bb, ny20bw, tw)
-        elif("ny21" in district):
+        if("ny21" in district):
             sortEthnic(ny21bl, ny21bb, ny21bw, tw) #done
-        elif("ny22" in district):
+        if("ny22" in district):
             sortEthnic(ny22bl, ny22bb, ny22bw, tw) #done
-        elif("ny23" in district):
+        if("ny23" in district):
             sortEthnic(ny23bl, ny23bb, ny23bw, tw)
-        elif("ny24" in district):
+        if("ny24" in district):
             sortEthnic(ny24bl, ny24bb, ny24bw, tw)
-        elif("ny25" in district):
+        if("ny25" in district):
             sortEthnic(ny25bl, ny25bb, ny25bw, tw)
-        elif("ny26" in district):
+        if("ny26" in district):
             sortEthnic(ny26bl, ny26bb, ny26bw, tw)
-        elif("ny27" in district):
+        if("ny27" in district):
             sortEthnic(ny27bl, ny27bb, ny27bw, tw) #done
-        elif("ri1" in district):
+        if("ri1" in district):
             sortEthnic(ri1bl, ri1bb, ri1bw, tw)	#done
-        elif("ri2" in district):
+        if("ri2" in district):
             sortEthnic(ri2bl, ri2bb, ri2bw, tw)
-        elif("mn1" in district):
+        if("mn1" in district):
             sortEthnic(mn1bl, mn1bb, mn1bw, tw) #done
-        elif("mn2" in district):
+        if("mn2" in district):
             sortEthnic(mn2bl, mn2bb, mn2bw, tw)
-        elif("mn3" in district):
+        if("mn3" in district):
             sortEthnic(mn3bl, mn3bb, mn3bw, tw)	#done
-        elif("mn4" in district):
+        if("mn4" in district):
             sortEthnic(mn4bl, mn4bb, mn4bw, tw)
-        elif("mn5" in district):
+        if("mn5" in district):
             sortEthnic(mn5bl, mn5bb, mn5bw, tw) #done
-        elif("mn6" in district):
+        if("mn6" in district):
             sortEthnic(mn6bl, mn6bb, mn6bw, tw) #done
-        elif("mn7" in district):
+        if("mn7" in district):
             sortEthnic(mn7bl, mn7bb, mn7bw, tw) #done
-        elif("mn8" in district):
+        if("mn8" in district):
             sortEthnic(mn8bl, mn8bb, mn8bw, tw)
-        elif("mi1" in district):
+        if("mi1" in district):
             sortEthnic(mi1bl, mi1bb, mi1bw, tw)
-        elif("mi2" in district):
+        if("mi2" in district):
             sortEthnic(mi2bl, mi2bb, mi2bw, tw) #done
-        elif("mi3" in district):
+        if("mi3" in district):
             sortEthnic(mi3bl, mi3bb, mi3bw, tw)
-        elif("mi4" in district):
+        if("mi4" in district):
             sortEthnic(mi4bl, mi4bb, mi4bw, tw)	#done
-        elif("mi5" in district):
+        if("mi5" in district):
             sortEthnic(mi5bl, mi5bb, mi5bw, tw) #done
-        elif("mi6" in district):
+        if("mi6" in district):
             sortEthnic(mi6bl, mi6bb, mi6bw, tw)
-        elif("mi7" in district):
+        if("mi7" in district):
             sortEthnic(mi7bl, mi7bb, mi7bw, tw)
-        elif("mi8" in district):
+        if("mi8" in district):
             sortEthnic(mi8bl, mi8bb, mi8bw, tw)
-        elif("mi9" in district):
+        if("mi9" in district):
             sortEthnic(mi9bl, mi9bb, mi9bw, tw) #done
-        elif("mi10" in district):
+        if("mi10" in district):
             sortEthnic(mi10bl, mi10bb, mi10bw, tw) #done
-        elif("mi11" in district):
+        if("mi11" in district):
             sortEthnic(mi11bl, mi11bb, mi11bw, tw)
-        elif("mi12" in district):
+        if("mi12" in district):
             sortEthnic(mi12bl, mi12bb, mi12bw, tw)
-        elif("mi13" in district):
+        if("mi13" in district):
             sortEthnic(mi13bl, mi13bb, mi13bw, tw) #done
-        elif("mi14" in district):
+        if("mi14" in district):
             sortEthnic(mi14bl, mi14bb, mi14bw, tw) #done
-        elif("wi1" in district):
+        if("wi1" in district):
             sortEthnic(wi1bl, wi1bb, wi1bw, tw)
-        elif("wi2" in district):
+        if("wi2" in district):
             sortEthnic(wi2bl, wi2bb, wi2bw, tw)
-        elif("wi3" in district):
+        if("wi3" in district):
             sortEthnic(wi3bl, wi3bb, wi3bw, tw)	#done
-        elif("wi4" in district):
+        if("wi4" in district):
             sortEthnic(wi4bl, wi4bb, wi4bw, tw)
-        elif("wi5" in district):
+        if("wi5" in district):
             sortEthnic(wi5bl, wi5bb, wi5bw, tw) #done
-        elif("wi6" in district):
+        if("wi6" in district):
             sortEthnic(wi6bl, wi6bb, wi6bw, tw)
-        elif("wi7" in district):
+        if("wi7" in district):
             sortEthnic(wi7bl, wi7bb, wi7bw, tw) #done
-        elif("wi8" in district):
+        if("wi8" in district):
             sortEthnic(wi8bl, wi8bb, wi8bw, tw)
-        elif("or1" in district):
+        if("or1" in district):
             sortEthnic(or1bl, or1bb, or1bw, tw)
-        elif("or2" in district):
+        if("or2" in district):
             sortEthnic(or2bl, or2bb, or2bw, tw) #done
-        elif("or3" in district):
+        if("or3" in district):
             sortEthnic(or3bl, or3bb, or3bw, tw)
-        elif("or4" in district):
+        if("or4" in district):
             sortEthnic(or4bl, or4bb, or4bw, tw)
-        elif("or5" in district):
+        if("or5" in district):
             sortEthnic(or5bl, or5bb, or5bw, tw)
-        elif("md1" in district):
+        if("md1" in district):
             sortEthnic(md1bl, md1bb, md1bw, tw) #done
-        elif("md2" in district):
+        if("md2" in district):
             sortEthnic(md2bl, md2bb, md2bw, tw)
-        elif("md3" in district):
+        if("md3" in district):
             sortEthnic(md3bl, md3bb, md3bw, tw)	#done
-        elif("md4" in district):
+        if("md4" in district):
             sortEthnic(md4bl, md4bb, md4bw, tw)	#done
-        elif("md5" in district):
+        if("md5" in district):
             sortEthnic(md5bl, md5bb, md5bw, tw) #done
-        elif("md6" in district):
+        if("md6" in district):
             sortEthnic(md6bl, md6bb, md6bw, tw) #done
-        elif("md7" in district):
+        if("md7" in district):
             sortEthnic(md7bl, md7bb, md7bw, tw)
-        elif("md8" in district):
+        if("md8" in district):
             sortEthnic(md8bl, md8bb, md8bw, tw)
-        elif("ma1" in district):
+        if("ma1" in district):
             sortEthnic(ma1bl, ma1bb, ma1bw, tw) #done
-        elif("ma2" in district):
+        if("ma2" in district):
             sortEthnic(ma2bl, ma2bb, ma2bw, tw)
-        elif("ma3" in district):
+        if("ma3" in district):
             sortEthnic(ma3bl, ma3bb, ma3bw, tw)	 #done
-        elif("ma4" in district):
+        if("ma4" in district):
             sortEthnic(ma4bl, ma4bb, ma4bw, tw)
-        elif("ma5" in district):
+        if("ma5" in district):
             sortEthnic(ma5bl, ma5bb, ma5bw, tw)
-        elif("ma6" in district):
+        if("ma6" in district):
             sortEthnic(ma6bl, ma6bb, ma6bw, tw)
-        elif("ma7" in district):
+        if("ma7" in district):
             sortEthnic(ma7bl, ma7bb, ma7bw, tw)
-        elif("ma8" in district):
+        if("ma8" in district):
             sortEthnic(ma8bl, ma8bb, ma8bw, tw)
-        elif("ma9" in district):
+        if("ma9" in district):
             sortEthnic(ma9bl, ma9bb, ma9bw, tw) #done
-        elif("me1" in district):
+        if("me1" in district):
             sortEthnic(me1bl, me1bb, me1bw, tw) #done
-        elif("me2" in district):
+        if("me2" in district):
             sortEthnic(me2bl, me2bb, me2bw, tw) #done
-        elif("id1" in district):
+        if("id1" in district):
             sortEthnic(id1bl, id1bb, id1bw, tw) #done
-        elif("id2" in district):
+        if("id2" in district):
             sortEthnic(id2bl, id2bb, id2bw, tw) #done
-        elif("nc1" in district):
+        if("nc1" in district):
             sortEthnic(nc1bl, nc1bb, nc1bw, tw)
-        elif("nc2" in district):
+        if("nc2" in district):
             sortEthnic(nc2bl, nc2bb, nc2bw, tw)
-        elif("nc3" in district):
+        if("nc3" in district):
             sortEthnic(nc3bl, nc3bb, nc3bw, tw)
-        elif("nc4" in district):
+        if("nc4" in district):
             sortEthnic(nc4bl, nc4bb, nc4bw, tw)
-        elif("nc5" in district):
+        if("nc5" in district):
             sortEthnic(nc5bl, nc5bb, nc5bw, tw)
-        elif("nc6" in district):
+        if("nc6" in district):
             sortEthnic(nc6bl, nc6bb, nc6bw, tw)
-        elif("nc7" in district):
+        if("nc7" in district):
             sortEthnic(nc7bl, nc7bb, nc7bw, tw)
-        elif("nc8" in district):
+        if("nc8" in district):
             sortEthnic(nc8bl, nc8bb, nc8bw, tw) #done
-        elif("nc9" in district):
+        if("nc9" in district):
             sortEthnic(nc9bl, nc9bb, nc9bw, tw)
-        elif("nc10" in district):
+        if("nc10" in district):
             sortEthnic(nc10bl, nc10bb, nc10bw, tw)
-        elif("nc11" in district):
+        if("nc11" in district):
             sortEthnic(nc11bl, nc11bb, nc11bw, tw)
-        elif("nc12" in district):
+        if("nc12" in district):
             sortEthnic(nc12bl, nc12bb, nc12bw, tw)
-        elif("nc13" in district):
+        if("nc13" in district):
             sortEthnic(nc13bl, nc13bb, nc13bw, tw)
-        elif("nh1" in district):
+        if("nh1" in district):
             sortEthnic(nh1bl, nh1bb, nh1bw, tw) #done
-        elif("nh2" in district):
+        if("nh2" in district):
             sortEthnic(nh2bl, nh2bb, nh2bw, tw) #done
-        elif("nv1" in district):
+        if("nv1" in district):
             sortEthnic(nv1bl, nv1bb, nv1bw, tw) #done
-        elif("nv2" in district):
+        if("nv2" in district):
             sortEthnic(nv2bl, nv2bb, nv2bw, tw)
-        elif("nv3" in district):
+        if("nv3" in district):
             sortEthnic(nv3bl, nv3bb, nv3bw, tw)
-        elif("nv4" in district):
+        if("nv4" in district):
             sortEthnic(nv4bl, nv4bb, nv4bw, tw)
-        elif("co1" in district):
+        if("co1" in district):
             sortEthnic(co1bl, co1bb, co1bw, tw)
-        elif("co2" in district):
+        if("co2" in district):
             sortEthnic(co2bl, co2bb, co2bw, tw) #done
-        elif("co3" in district):
+        if("co3" in district):
             sortEthnic(co3bl, co3bb, co3bw, tw)
-        elif("co4" in district):
+        if("co4" in district):
             sortEthnic(co4bl, co4bb, co4bw, tw)
-        elif("co5" in district):
+        if("co5" in district):
             sortEthnic(co5bl, co5bb, co5bw, tw)
-        elif("co6" in district):
+        if("co6" in district):
             sortEthnic(co6bl, co6bb, co6bw, tw) #done
-        elif("co7" in district):
+        if("co7" in district):
             sortEthnic(co7bl, co7bb, co7bw, tw) #done
-        elif("nm1" in district):
+        if("nm1" in district):
             sortEthnic(nm1bl, nm1bb, nm1bw, tw) #done
-        elif("nm2" in district):
+        if("nm2" in district):
             sortEthnic(nm2bl, nm2bb, nm2bw, tw)
-        elif("nm3" in district):
+        if("nm3" in district):
             sortEthnic(nm3bl, nm3bb, nm3bw, tw) #done
-        elif("az1" in district):
+        if("az1" in district):
             sortEthnic(az1bl, az1bb, az1bw, tw)
-        elif("az2" in district):
+        if("az2" in district):
             sortEthnic(az2bl, az2bb, az2bw, tw)
-        elif("az3" in district):
+        if("az3" in district):
             sortEthnic(az3bl, az3bb, az3bw, tw)		#done
-        elif("az4" in district):
+        if("az4" in district):
             sortEthnic(az4bl, az4bb, az4bw, tw)
-        elif("az5" in district):
+        if("az5" in district):
             sortEthnic(az5bl, az5bb, az5bw, tw)
-        elif("az6" in district):
+        if("az6" in district):
             sortEthnic(az6bl, az6bb, az6bw, tw) #done
-        elif("az7" in district):
+        if("az7" in district):
             sortEthnic(az7bl, az7bb, az7bw, tw)		#done
-        elif("az8" in district):
+        if("az8" in district):
             sortEthnic(az8bl, az8bb, az8bw, tw)
-        elif("az9" in district):
+        if("az9" in district):
             sortEthnic(az9bl, az9bb, az9bw, tw)			#done
-        elif("ga1" in district):
+        if("ga1" in district):
             sortEthnic(ga1bl, ga1bb, ga1bw, tw)
-        elif("ga2" in district):
+        if("ga2" in district):
             sortEthnic(ga2bl, ga2bb, ga2bw, tw)
-        elif("ga3" in district):
+        if("ga3" in district):
             sortEthnic(ga3bl, ga3bb, ga3bw, tw)	#done
-        elif("ga4" in district):
+        if("ga4" in district):
             sortEthnic(ga4bl, ga4bb, ga4bw, tw)
-        elif("ga5" in district):
+        if("ga5" in district):
             sortEthnic(ga5bl, ga5bb, ga5bw, tw)
-        elif("ga6" in district):
+        if("ga6" in district):
             sortEthnic(ga6bl, ga6bb, ga6bw, tw)
-        elif("ga7" in district):
+        if("ga7" in district):
             sortEthnic(ga7bl, ga7bb, ga7bw, tw)
-        elif("ga8" in district):
+        if("ga8" in district):
             sortEthnic(ga8bl, ga8bb, ga8bw, tw)
-        elif("ga9" in district):
+        if("ga9" in district):
             sortEthnic(ga9bl, ga9bb, ga9bw, tw)
-        elif("ga10" in district):
+        if("ga10" in district):
             sortEthnic(ga10bl, ga10bb, ga10bw, tw)
-        elif("ga11" in district):
+        if("ga11" in district):
             sortEthnic(ga11bl, ga11bb, ga11bw, tw)
-        elif("ga12" in district):
+        if("ga12" in district):
             sortEthnic(ga12bl, ga12bb, ga12bw, tw)
-        elif("ga13" in district):
+        if("ga13" in district):
             sortEthnic(ga13bl, ga13bb, ga13bw, tw)
-        elif("ga14" in district):
+        if("ga14" in district):
             sortEthnic(ga14bl, ga14bb, ga14bw, tw)
-        elif("tx1" in district):
+        if("tx1" in district):
             sortEthnic(tx1bl, tx1bb, tx1bw, tw) #done
-        elif("tx2" in district):
+        if("tx2" in district):
             sortEthnic(tx2bl, tx2bb, tx2bw, tw)
-        elif("tx3" in district):
+        if("tx3" in district):
             sortEthnic(tx3bl, tx3bb, tx3bw, tw)
-        elif("tx4" in district):
+        if("tx4" in district):
             sortEthnic(tx4bl, tx4bb, tx4bw, tw)
-        elif("tx5" in district):
+        if("tx5" in district):
             sortEthnic(tx5bl, tx5bb, tx5bw, tw) #done
-        elif("tx6" in district):
+        if("tx6" in district):
             sortEthnic(tx6bl, tx6bb, tx6bw, tw) #done
-        elif("tx7" in district):
+        if("tx7" in district):
             sortEthnic(tx7bl, tx7bb, tx7bw, tw)
-        elif("tx8" in district):
+        if("tx8" in district):
             sortEthnic(tx8bl, tx8bb, tx8bw, tw)
-        elif("tx9" in district):
+        if("tx9" in district):
             sortEthnic(tx9bl, tx9bb, tx9bw, tw)
-        elif("tx10" in district):
+        if("tx10" in district):
             sortEthnic(tx10bl, tx10bb, tx10bw, tw) #done
-        elif("tx11" in district):
+        if("tx11" in district):
             sortEthnic(tx11bl, tx11bb, tx11bw, tw)
-        elif("tx12" in district):
+        if("tx12" in district):
             sortEthnic(tx12bl, tx12bb, tx12bw, tw)
-        elif("tx13" in district):
+        if("tx13" in district):
             sortEthnic(tx13bl, tx13bb, tx13bw, tw)
-        elif("tx14" in district):
+        if("tx14" in district):
             sortEthnic(tx14bl, tx14bb, tx14bw, tw)
-        elif("tx15" in district):
+        if("tx15" in district):
             sortEthnic(tx15bl, tx15bb, tx15bw, tw)
-        elif("tx16" in district):
+        if("tx16" in district):
             sortEthnic(tx16bl, tx16bb, tx16bw, tw)
-        elif("tx17" in district):
+        if("tx17" in district):
             sortEthnic(tx17bl, tx17bb, tx17bw, tw)
-        elif("tx18" in district):
+        if("tx18" in district):
             sortEthnic(tx18bl, tx18bb, tx18bw, tw)
-        elif("tx19" in district):
+        if("tx19" in district):
             sortEthnic(tx19bl, tx19bb, tx19bw, tw)
-        elif("tx20" in district):
+        if("tx20" in district):
             sortEthnic(tx20bl, tx20bb, tx20bw, tw)
-        elif("tx21" in district):
+        if("tx21" in district):
             sortEthnic(tx21bl, tx21bb, tx21bw, tw)
-        elif("tx22" in district):
+        if("tx22" in district):
             sortEthnic(tx22bl, tx22bb, tx22bw, tw)
-        elif("tx23" in district):
+        if("tx23" in district):
             sortEthnic(tx23bl, tx23bb, tx23bw, tw)
-        elif("tx24" in district):
+        if("tx24" in district):
             sortEthnic(tx24bl, tx24bb, tx24bw, tw) #done
-        elif("tx25" in district):
+        if("tx25" in district):
             sortEthnic(tx25bl, tx25bb, tx25bw, tw)
-        elif("tx26" in district):
+        if("tx26" in district):
             sortEthnic(tx26bl, tx26bb, tx26bw, tw)
-        elif("tx27" in district):
+        if("tx27" in district):
             sortEthnic(tx27bl, tx27bb, tx27bw, tw)
-        elif("tx28" in district):
+        if("tx28" in district):
             sortEthnic(tx28bl, tx28bb, tx28bw, tw)
-        elif("tx29" in district):
+        if("tx29" in district):
             sortEthnic(tx29bl, tx29bb, tx29bw, tw)
-        elif("tx30" in district):
+        if("tx30" in district):
             sortEthnic(tx30bl, tx30bb, tx30bw, tw)
-        elif("tx31" in district):
+        if("tx31" in district):
             sortEthnic(tx31bl, tx31bb, tx31bw, tw)
-        elif("tx32" in district):
+        if("tx32" in district):
             sortEthnic(tx32bl, tx32bb, tx32bw, tw) #done
-        elif("tx33" in district):
+        if("tx33" in district):
             sortEthnic(tx33bl, tx33bb, tx33bw, tw)
-        elif("tx34" in district):
+        if("tx34" in district):
             sortEthnic(tx34bl, tx34bb, tx34bw, tw)
-        elif("tx35" in district):
+        if("tx35" in district):
             sortEthnic(tx35bl, tx35bb, tx35bw, tw)
-        elif("tx36" in district):
+        if("tx36" in district):
             sortEthnic(tx36bl, tx36bb, tx36bw, tw)
-        elif("in1" in district):
+        if("in1" in district):
             sortEthnic(in1bl, in1bb, in1bw, tw)
-        elif("in2" in district):
+        if("in2" in district):
             sortEthnic(in2bl, in2bb, in2bw, tw)
-        elif("in3" in district):
+        if("in3" in district):
             sortEthnic(in3bl, in3bb, in3bw, tw)	 #done
-        elif("in4" in district):
+        if("in4" in district):
             sortEthnic(in4bl, in4bb, in4bw, tw)
-        elif("in5" in district):
+        if("in5" in district):
             sortEthnic(in5bl, in5bb, in5bw, tw)
-        elif("in6" in district):
+        if("in6" in district):
             sortEthnic(in6bl, in6bb, in6bw, tw)
-        elif("in7" in district):
+        if("in7" in district):
             sortEthnic(in7bl, in7bb, in7bw, tw)
-        elif("in8" in district):
+        if("in8" in district):
             sortEthnic(in8bl, in8bb, in8bw, tw)
-        elif("in9" in district):
+        if("in9" in district):
             sortEthnic(in9bl, in9bb, in9bw, tw)
-        elif("va1" in district):
+        if("va1" in district):
             sortEthnic(va1bl, va1bb, va1bw, tw)
-        elif("va2" in district):
+        if("va2" in district):
             sortEthnic(va2bl, va2bb, va2bw, tw)
-        elif("va3" in district):
+        if("va3" in district):
             sortEthnic(va3bl, va3bb, va3bw, tw)
-        elif("va4" in district):
+        if("va4" in district):
             sortEthnic(va4bl, va4bb, va4bw, tw)	#done
-        elif("va5" in district):
+        if("va5" in district):
             sortEthnic(va5bl, va5bb, va5bw, tw)
-        elif("va6" in district):
+        if("va6" in district):
             sortEthnic(va6bl, va6bb, va6bw, tw)
-        elif("va7" in district):
+        if("va7" in district):
             sortEthnic(va7bl, va7bb, va7bw, tw)
-        elif("va8" in district):
+        if("va8" in district):
             sortEthnic(va8bl, va8bb, va8bw, tw)
-        elif("va9" in district):
+        if("va9" in district):
             sortEthnic(va9bl, va9bb, va9bw, tw)
-        elif("va10" in district):
+        if("va10" in district):
             sortEthnic(va10bl, va10bb, va10bw, tw)
-        elif("va11" in district):
+        if("va11" in district):
             sortEthnic(va11bl, va11bb, va11bw, tw)
-        elif("il1" in district):
+        if("il1" in district):
             sortEthnic(il1bl, il1bb, il1bw, tw)
-        elif("il2" in district):
+        if("il2" in district):
             sortEthnic(il2bl, il2bb, il2bw, tw)
-        elif("il3" in district):
+        if("il3" in district):
             sortEthnic(il3bl, il3bb, il3bw, tw)
-        elif("il4" in district):
+        if("il4" in district):
             sortEthnic(il4bl, il4bb, il4bw, tw)	#done
-        elif("il5" in district):
+        if("il5" in district):
             sortEthnic(il5bl, il5bb, il5bw, tw)
-        elif("il6" in district):
+        if("il6" in district):
             sortEthnic(il6bl, il6bb, il6bw, tw)
-        elif("il7" in district):
+        if("il7" in district):
             sortEthnic(il7bl, il7bb, il7bw, tw)
-        elif("il8" in district):
+        if("il8" in district):
             sortEthnic(il8bl, il8bb, il8bw, tw)
-        elif("il9" in district):
+        if("il9" in district):
             sortEthnic(il9bl, il9bb, il9bw, tw)
-        elif("il10" in district):
+        if("il10" in district):
             sortEthnic(il10bl, il10bb, il10bw, tw) #done
-        elif("il11" in district):
+        if("il11" in district):
             sortEthnic(il11bl, il11bb, il11bw, tw)
-        elif("il12" in district):
+        if("il12" in district):
             sortEthnic(il12bl, il12bb, il12bw, tw) #done
-        elif("il13" in district):
+        if("il13" in district):
             sortEthnic(il13bl, il13bb, il13bw, tw)
-        elif("il14" in district):
+        if("il14" in district):
             sortEthnic(il14bl, il14bb, il14bw, tw)#done
-        elif("il15" in district):
+        if("il15" in district):
             sortEthnic(il15bl, il15bb, il15bw, tw) #done
-        elif("il16" in district):
+        if("il16" in district):
             sortEthnic(il16bl, il16bb, il16bw, tw)
-        elif("il17" in district):
+        if("il17" in district):
             sortEthnic(il17bl, il17bb, il17bw, tw)
-        elif("il18" in district):
+        if("il18" in district):
             sortEthnic(il18bl, il18bb, il18bw, tw)
-        elif("de1" in district):
+        if("de1" in district):
             sortEthnic(de1bl, de1bb, de1bw, tw) #done
-        elif("vt1" in district):
+        if("vt1" in district):
             sortEthnic(vt1bl, vt1bb, vt1bw, tw) #done
-        elif("ut1" in district):
+        if("ut1" in district):
             sortEthnic(ut1bl, ut1bb, ut1bw, tw)
-        elif("ut2" in district):
+        if("ut2" in district):
             sortEthnic(ut2bl, ut2bb, ut2bw, tw)
-        elif("ut3" in district):
+        if("ut3" in district):
             sortEthnic(ut3bl, ut3bb, ut3bw, tw)
-        elif("ut4" in district):
+        if("ut4" in district):
             sortEthnic(ut4bl, ut4bb, ut4bw, tw)
-        elif("ne1" in district):
+        if("ne1" in district):
             sortEthnic(ne1bl, ne1bb, ne1bw, tw)
-        elif("ne2" in district):
+        if("ne2" in district):
             sortEthnic(ne2bl, ne2bb, ne2bw, tw)
-        elif("ne3" in district):
+        if("ne3" in district):
             sortEthnic(ne3bl, ne3bb, ne3bw, tw)	#done
-        elif("ak1" in district):
+        if("ak1" in district):
             sortEthnic(ak1bl, ak1bb, ak1bw, tw) #done
-        elif("wy1" in district):
+        if("wy1" in district):
             sortEthnic(wy1bl, wy1bb, wy1bw, tw) #done
-        elif("al1" in district):
+        if("al1" in district):
             sortEthnic(al1bl, al1bb, al1bw, tw)
-        elif("al2" in district):
+        if("al2" in district):
             sortEthnic(al2bl, al2bb, al2bw, tw)
-        elif("al3" in district):
+        if("al3" in district):
             sortEthnic(al3bl, al3bb, al3bw, tw)
-        elif("al4" in district):
+        if("al4" in district):
             sortEthnic(al4bl, al4bb, al4bw, tw)
-        elif("al5" in district):
+        if("al5" in district):
             sortEthnic(al5bl, al5bb, al5bw, tw)
-        elif("al6" in district):
+        if("al6" in district):
             sortEthnic(al6bl, al6bb, al6bw, tw)
-        elif("al7" in district):
+        if("al7" in district):
             sortEthnic(al7bl, al7bb, al7bw, tw)	#done
-        elif("tn1" in district):
+        if("tn1" in district):
             sortEthnic(tn1bl, tn1bb, tn1bw, tw)
-        elif("tn2" in district):
+        if("tn2" in district):
             sortEthnic(tn2bl, tn2bb, tn2bw, tw)
-        elif("tn3" in district):
+        if("tn3" in district):
             sortEthnic(tn3bl, tn3bb, tn3bw, tw)
-        elif("tn4" in district):
+        if("tn4" in district):
             sortEthnic(tn4bl, tn4bb, tn4bw, tw)
-        elif("tn5" in district):
+        if("tn5" in district):
             sortEthnic(tn5bl, tn5bb, tn5bw, tw)
-        elif("tn6" in district):
+        if("tn6" in district):
             sortEthnic(tn6bl, tn6bb, tn6bw, tw)
-        elif("tn7" in district):
+        if("tn7" in district):
             sortEthnic(tn7bl, tn7bb, tn7bw, tw)
-        elif("tn8" in district):
+        if("tn8" in district):
             sortEthnic(tn8bl, tn8bb, tn8bw, tw)
-        elif("tn9" in district):
+        if("tn9" in district):
             sortEthnic(tn9bl, tn9bb, tn9bw, tw)
-        elif("nd1" in district):
+        if("nd1" in district):
             sortEthnic(nd1bl, nd1bb, nd1bw, tw) #done
-        elif("sd1" in district):
+        if("sd1" in district):
             sortEthnic(sd1bl, sd1bb, sd1bw, tw) #done
-        elif("wv1" in district):
+        if("wv1" in district):
             sortEthnic(wv1bl, wv1bb, wv1bw, tw)
-        elif("wv2" in district):
+        if("wv2" in district):
             sortEthnic(wv2bl, wv2bb, wv2bw, tw)
-        elif("wv3" in district):
+        if("wv3" in district):
             sortEthnic(wv3bl, wv3bb, wv3bw, tw) #done
-        elif("ar1" in district):
+        if("ar1" in district):
             sortEthnic(ar1bl, ar1bb, ar1bw, tw) #done
-        elif("ar2" in district):
+        if("ar2" in district):
             sortEthnic(ar2bl, ar2bb, ar2bw, tw)
-        elif("ar3" in district):
+        if("ar3" in district):
             sortEthnic(ar3bl, ar3bb, ar3bw, tw)
-        elif("ar4" in district):
+        if("ar4" in district):
             sortEthnic(ar4bl, ar4bb, ar4bw, tw)
 
 
