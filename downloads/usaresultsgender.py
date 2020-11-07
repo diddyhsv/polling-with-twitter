@@ -30,6 +30,7 @@ def sortEthnic(lat, bla, whi, tw):
 		whi.append(tw["user"]["id"])
 
 def calcResult(name, pop, blat, bbla, bwhi, tlat, tbla, twhi, percl, percb, percw):
+	users = 0
 	print(name)
 	trlat, trbla, trwhi, bilat, bibla, biwhi = 0, 0, 0, 0, 0, 0
 	print(f"Men ({percl*100}%)")
@@ -142,12 +143,14 @@ def calcResult(name, pop, blat, bbla, bwhi, tlat, tbla, twhi, percl, percb, perc
 		print("No White Tweets Registered in This District")
 	trumpvotes = (trlat*pop*percl)+(trbla*pop*percb)+(trwhi*pop*(1-percl-percb))
 	bidenvotes = (bilat*pop*percl)+(bibla*pop*percb)+(biwhi*pop*(1-percl-percb))
+	users = len(set(twhi)) + len(set(bwhi)) + len(set(tlat)) + len(set(blat)) + len(set(tbla)) + len(set(bbla))
 	# trumpvotes = (trlat*pop*percl)+(trwhi*pop*percw)
 	# bidenvotes = (bilat*pop*percl)+(biwhi*pop*percw)
 	print("FINAL RESULT")
 	print("TRUMP: ", (trumpvotes/pop)*100)
 	print("BIDEN: ", (bidenvotes/pop)*100)
 	print("Undecided: ", ((pop-trumpvotes-bidenvotes)/pop)*100)
+	print("Total votes: ", users)
 	print("")
 	global bidendistricts
 	global trumpdistricts
@@ -157,6 +160,7 @@ def calcResult(name, pop, blat, bbla, bwhi, tlat, tbla, twhi, percl, percb, perc
 		bidendistricts += 1
 
 def calcStateResult(name, tlat, tbla, twhi, blat, bbla, bwhi, plat, pbla, pwhi):
+	users = 0
 	print(name)
 	trlat, bilat, trbla, bibla, trwhi, biwhi = [], [], [], [], [], []
 	for x in range(0,len(tlat)-1):
@@ -164,16 +168,19 @@ def calcStateResult(name, tlat, tbla, twhi, blat, bbla, bwhi, plat, pbla, pwhi):
 			if(len(set(tlat[x]))+len(set(blat[x])) > 1):
 				trlat.append(len(set(tlat[x]))/(len(set(tlat[x]))+len(set(blat[x]))))	#0.34, 0.44, 0.64
 				bilat.append(len(set(blat[x]))/(len(set(tlat[x]))+len(set(blat[x]))))
+				users += len(set(tlat[x])) + len (set(blat[x]))
 	for x in range(0,len(tbla)-1):
 		if(not(len(tbla[x]) == 0 | len(bbla[x]) == 0)):
 			if(len(set(tbla[x]))+len(set(bbla[x])) > 1):
 				trbla.append(len(set(tbla[x]))/(len(set(tbla[x]))+len(set(bbla[x]))))
 				bibla.append(len(set(bbla[x]))/(len(set(tbla[x]))+len(set(bbla[x]))))
+				users += len(set(tbla[x])) + len (set(bbla[x]))
 	for x in range(0,len(twhi)-1):
 		if(not(len(twhi[x]) == 0 | len(bwhi[x]) == 0)):
 			if(len(set(twhi[x]))+len(set(bwhi[x])) > 1):
 				trwhi.append(len(set(twhi[x]))/(len(set(twhi[x]))+len(set(bwhi[x]))))
 				biwhi.append(len(set(bwhi[x]))/(len(set(twhi[x]))+len(set(bwhi[x]))))
+				users += len(set(twhi[x])) + len (set(bwhi[x]))
 	print(f"Men ({plat*100}%)")
 	if(not(len(trlat) == 0 | len(bilat) == 0)):
 		tl = sum(trlat)/len(trlat)
@@ -204,6 +211,7 @@ def calcStateResult(name, tlat, tbla, twhi, blat, bbla, bwhi, plat, pbla, pwhi):
 	print("TOTAL RESULT")
 	print("TRUMP: ", (tl*plat)+(tb*pbla)+(tw*(1-plat-pbla)))
 	print("BIDEN: ", (bl*plat)+(bb*pbla)+(bw*(1-plat-pbla)))
+	print("Total Users: ", users)
 	print("")
 	results.append(name + " - Trump: " + str((tl*plat)+(tb*pbla)+(tw*(1-plat-pbla))) + "; Biden: " + str((bl*plat)+(bb*pbla)+(bw*(1-plat-pbla))))
 
