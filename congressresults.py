@@ -271,391 +271,391 @@ for tw in cursor:
     if(district != "null"):
         if(district == "mo1"):
             sortEthnic(mo1tl, mo1tb, mo1tw, tw)
-        elif(district == "mo2"):
+        if(district == "mo2"):
             sortEthnic(mo2tl, mo2tb, mo2tw, tw)
-        elif(district == "mo3"):
+        if(district == "mo3"):
             sortEthnic(mo3tl, mo3tb, mo3tw, tw)
-        elif(district == "mo4"):
+        if(district == "mo4"):
             sortEthnic(mo4tl, mo4tb, mo4tw, tw)
-        elif(district == "mo5"):
+        if(district == "mo5"):
             sortEthnic(mo5tl, mo5tb, mo5tw, tw)
-        elif(district == "mo6"):
+        if(district == "mo6"):
             sortEthnic(mo6tl, mo6tb, mo6tw, tw)
-        elif(district == "mo7"):
+        if(district == "mo7"):
             sortEthnic(mo7tl, mo7tb, mo7tw, tw)
-        elif(district == "mo8"):
+        if(district == "mo8"):
             sortEthnic(mo8tl, mo8tb, mo8tw, tw)
-        elif(district == "sc1"):
+        if(district == "sc1"):
             sortEthnic(sc1tl, sc1tb, sc1tw, tw)
-        elif(district == "sc2"):
+        if(district == "sc2"):
             sortEthnic(sc2tl, sc2tb, sc2tw, tw)
-        elif(district == "sc3"):
+        if(district == "sc3"):
             sortEthnic(sc3tl, sc3tb, sc3tw, tw)
-        elif(district == "sc4"):
+        if(district == "sc4"):
             sortEthnic(sc4tl, sc4tb, sc4tw, tw)
-        elif(district == "sc5"):
+        if(district == "sc5"):
             sortEthnic(sc5tl, sc5tb, sc5tw, tw)
-        elif(district == "sc6"):
+        if(district == "sc6"):
             sortEthnic(sc6tl, sc6tb, sc6tw, tw)
-        elif(district == "sc7"):
+        if(district == "sc7"):
             sortEthnic(sc7tl, sc7tb, sc7tw, tw)
-        elif(district == "ky1"):
+        if(district == "ky1"):
             sortEthnic(ky1tl, ky1tb, ky1tw, tw)
-        elif(district == "ky2"):
+        if(district == "ky2"):
             sortEthnic(ky2tl, ky2tb, ky2tw, tw)
-        elif(district == "ky3"):
+        if(district == "ky3"):
             sortEthnic(ky3tl, ky3tb, ky3tw, tw)
-        elif(district == "ky4"):
+        if(district == "ky4"):
             sortEthnic(ky4tl, ky4tb, ky4tw, tw)
-        elif(district == "ky5"):
+        if(district == "ky5"):
             sortEthnic(ky5tl, ky5tb, ky5tw, tw)
-        elif(district == "ky6"):
+        if(district == "ky6"):
             sortEthnic(ky6tl, ky6tb, ky6tw, tw)
-        elif(district == "ok1"):
+        if(district == "ok1"):
             sortEthnic(ok1tl, ok1tb, ok1tw, tw) #done
-        elif(district == "ok2"):
+        if(district == "ok2"):
             sortEthnic(ok2tl, ok2tb, ok2tw, tw)
-        elif(district == "ok3"):
+        if(district == "ok3"):
             sortEthnic(ok3tl, ok3tb, ok3tw, tw)	#done
-        elif(district == "ok4"):
+        if(district == "ok4"):
             sortEthnic(ok4tl, ok4tb, ok4tw, tw)	#done
-        elif(district == "ok5"):
+        if(district == "ok5"):
             sortEthnic(ok5tl, ok5tb, ok5tw, tw)
-        elif(district == "ia1"):
+        if(district == "ia1"):
             sortEthnic(ia1tl, ia1tb, ia1tw, tw) #done
-        elif(district == "ia2"):
+        if(district == "ia2"):
             sortEthnic(ia2tl, ia2tb, ia2tw, tw) #done
-        elif(district == "ia3"):
+        if(district == "ia3"):
             sortEthnic(ia3tl, ia3tb, ia3tw, tw)	#done
-        elif(district == "ia4"):
+        if(district == "ia4"):
             sortEthnic(ia4tl, ia4tb, ia4tw, tw)	#done
-        elif(district == "ks1"):
+        if(district == "ks1"):
             sortEthnic(ks1tl, ks1tb, ks1tw, tw) #done
-        elif(district == "ks2"):
+        if(district == "ks2"):
             sortEthnic(ks2tl, ks2tb, ks2tw, tw) #done
-        elif(district == "ks3"):
+        if(district == "ks3"):
             sortEthnic(ks3tl, ks3tb, ks3tw, tw)
-        elif(district == "ks4"):
+        if(district == "ks4"):
             sortEthnic(ks4tl, ks4tb, ks4tw, tw)
-        elif(district == "ca1"):
+        if(district == "ca1"):
             sortEthnic(ca1tl, ca1tb, ca1tw, tw) #done
-        elif(district == "ca2"):
+        if(district == "ca2"):
             sortEthnic(ca2tl, ca2tb, ca2tw, tw) #done
-        elif(district == "ca3"):
+        if(district == "ca3"):
             sortEthnic(ca3tl, ca3tb, ca3tw, tw)
-        elif(district == "ca4"):
+        if(district == "ca4"):
             sortEthnic(ca4tl, ca4tb, ca4tw, tw)
-        elif(district == "ca5"):
+        if(district == "ca5"):
             sortEthnic(ca5tl, ca5tb, ca5tw, tw) #done
-        elif(district == "ca6"):
+        if(district == "ca6"):
             sortEthnic(ca6tl, ca6tb, ca6tw, tw)
-        elif(district == "ca7"):
+        if(district == "ca7"):
             sortEthnic(ca7tl, ca7tb, ca7tw, tw) #done
-        elif(district == "ca8"):
+        if(district == "ca8"):
             sortEthnic(ca8tl, ca8tb, ca8tw, tw)
-        elif(district == "ca9"):
+        if(district == "ca9"):
             sortEthnic(ca9tl, ca9tb, ca9tw, tw) #done
-        elif(district == "ca10"):
+        if(district == "ca10"):
             sortEthnic(ca10tl, ca10tb, ca10tw, tw) #done
-        elif(district == "ca11"):
+        if(district == "ca11"):
             sortEthnic(ca11tl, ca11tb, ca11tw, tw)
-        elif(district == "ca12"):
+        if(district == "ca12"):
             sortEthnic(ca12tl, ca12tb, ca12tw, tw)
-        elif(district == "ca13"):
+        if(district == "ca13"):
             sortEthnic(ca13tl, ca13tb, ca13tw, tw)
-        elif(district == "ca14"):
+        if(district == "ca14"):
             sortEthnic(ca14tl, ca14tb, ca14tw, tw)
-        elif(district == "ca15"):
+        if(district == "ca15"):
             sortEthnic(ca15tl, ca15tb, ca15tw, tw)
-        elif(district == "ca16"):
+        if(district == "ca16"):
             sortEthnic(ca16tl, ca16tb, ca16tw, tw) #done
-        elif(district == "ca17"):
+        if(district == "ca17"):
             sortEthnic(ca17tl, ca17tb, ca17tw, tw) #done
-        elif(district == "ca18"):
+        if(district == "ca18"):
             sortEthnic(ca18tl, ca18tb, ca18tw, tw)
-        elif(district == "ca19"):
+        if(district == "ca19"):
             sortEthnic(ca19tl, ca19tb, ca19tw, tw) #done
-        elif(district == "ca20"):
+        if(district == "ca20"):
             sortEthnic(ca20tl, ca20tb, ca20tw, tw)
-        elif(district == "ca21"):
+        if(district == "ca21"):
             sortEthnic(ca21tl, ca21tb, ca21tw, tw)
-        elif(district == "ca22"):
+        if(district == "ca22"):
             sortEthnic(ca22tl, ca22tb, ca22tw, tw)
-        elif(district == "ca23"):
+        if(district == "ca23"):
             sortEthnic(ca23tl, ca23tb, ca23tw, tw)
-        elif(district == "ca24"):
+        if(district == "ca24"):
             sortEthnic(ca24tl, ca24tb, ca24tw, tw)
-        elif(district == "ca25"):
+        if(district == "ca25"):
             sortEthnic(ca25tl, ca25tb, ca25tw, tw)
-        elif(district == "ca26"):
+        if(district == "ca26"):
             sortEthnic(ca26tl, ca26tb, ca26tw, tw) #done
-        elif(district == "ca27"):
+        if(district == "ca27"):
             sortEthnic(ca27tl, ca27tb, ca27tw, tw)
-        elif(district == "ca28"):
+        if(district == "ca28"):
             sortEthnic(ca28tl, ca28tb, ca28tw, tw)
-        elif(district == "ca29"):
+        if(district == "ca29"):
             sortEthnic(ca29tl, ca29tb, ca29tw, tw)
-        elif(district == "ca30"):
+        if(district == "ca30"):
             sortEthnic(ca30tl, ca30tb, ca30tw, tw)
-        elif(district == "ca31"):
+        if(district == "ca31"):
             sortEthnic(ca31tl, ca31tb, ca31tw, tw) #done
-        elif(district == "ca32"):
+        if(district == "ca32"):
             sortEthnic(ca32tl, ca32tb, ca32tw, tw) #done
-        elif(district == "ca33"):
+        if(district == "ca33"):
             sortEthnic(ca33tl, ca33tb, ca33tw, tw)
-        elif(district == "ca34"):
+        if(district == "ca34"):
             sortEthnic(ca34tl, ca34tb, ca34tw, tw)
-        elif(district == "ca35"):
+        if(district == "ca35"):
             sortEthnic(ca35tl, ca35tb, ca35tw, tw) #done
-        elif(district == "ca36"):
+        if(district == "ca36"):
             sortEthnic(ca36tl, ca36tb, ca36tw, tw)
-        elif(district == "ca37"):
+        if(district == "ca37"):
             sortEthnic(ca37tl, ca37tb, ca37tw, tw) #done
-        elif(district == "ca38"):
+        if(district == "ca38"):
             sortEthnic(ca38tl, ca38tb, ca38tw, tw) #done
-        elif(district == "ca39"):
+        if(district == "ca39"):
             sortEthnic(ca39tl, ca39tb, ca39tw, tw)
-        elif(district == "ca40"):
+        if(district == "ca40"):
             sortEthnic(ca40tl, ca40tb, ca40tw, tw) #done
-        elif(district == "ca41"):
+        if(district == "ca41"):
             sortEthnic(ca41tl, ca41tb, ca41tw, tw) #done
-        elif(district == "ca42"):
+        if(district == "ca42"):
             sortEthnic(ca42tl, ca42tb, ca42tw, tw)
-        elif(district == "ca43"):
+        if(district == "ca43"):
             sortEthnic(ca43tl, ca43tb, ca43tw, tw)
-        elif(district == "ca44"):
+        if(district == "ca44"):
             sortEthnic(ca44tl, ca44tb, ca44tw, tw)
-        elif(district == "ca45"):
+        if(district == "ca45"):
             sortEthnic(ca45tl, ca45tb, ca45tw, tw)
-        elif(district == "ca46"):
+        if(district == "ca46"):
             sortEthnic(ca46tl, ca46tb, ca46tw, tw) #done
-        elif(district == "ca47"):
+        if(district == "ca47"):
             sortEthnic(ca47tl, ca47tb, ca47tw, tw)
-        elif(district == "ca48"):
+        if(district == "ca48"):
             sortEthnic(ca48tl, ca48tb, ca48tw, tw) #done
-        elif(district == "ca49"):
+        if(district == "ca49"):
             sortEthnic(ca49tl, ca49tb, ca49tw, tw) #done
-        elif(district == "ca50"):
+        if(district == "ca50"):
             sortEthnic(ca50tl, ca50tb, ca50tw, tw)
-        elif(district == "ca51"):
+        if(district == "ca51"):
             sortEthnic(ca51tl, ca51tb, ca51tw, tw) #done
-        elif(district == "ca52"):
+        if(district == "ca52"):
             sortEthnic(ca52tl, ca52tb, ca52tw, tw) #done
-        elif(district == "ca53"):
+        if(district == "ca53"):
             sortEthnic(ca53tl, ca53tb, ca53tw, tw) #done
-        elif(district == "la1"):
+        if(district == "la1"):
             sortEthnic(la1tl, la1tb, la1tw, tw)
-        elif(district == "la2"):
+        if(district == "la2"):
             sortEthnic(la2tl, la2tb, la2tw, tw) #done
-        elif(district == "la3"):
+        if(district == "la3"):
             sortEthnic(la3tl, la3tb, la3tw, tw)
-        elif(district == "la4"):
+        if(district == "la4"):
             sortEthnic(la4tl, la4tb, la4tw, tw)
-        elif(district == "la5"):
+        if(district == "la5"):
             sortEthnic(la5tl, la5tb, la5tw, tw)
-        elif(district == "la6"):
+        if(district == "la6"):
             sortEthnic(la6tl, la6tb, la6tw, tw)
-        elif(district == "ct1"):
+        if(district == "ct1"):
             sortEthnic(ct1tl, ct1tb, ct1tw, tw)
-        elif(district == "ct2"):
+        if(district == "ct2"):
             sortEthnic(ct2tl, ct2tb, ct2tw, tw) #done
-        elif(district == "ct3"):
+        if(district == "ct3"):
             sortEthnic(ct3tl, ct3tb, ct3tw, tw)
-        elif(district == "ct4"):
+        if(district == "ct4"):
             sortEthnic(ct4tl, ct4tb, ct4tw, tw)	 #done
-        elif(district == "ct5"):
+        if(district == "ct5"):
             sortEthnic(ct5tl, ct5tb, ct5tw, tw)
-        elif(district == "mt1"):
+        if(district == "mt1"):
             sortEthnic(mt1tl, mt1tb, mt1tw, tw) #done
-        elif(district == "ms1"):
+        if(district == "ms1"):
             sortEthnic(ms1tl, ms1tb, ms1tw, tw) #done
-        elif(district == "ms2"):
+        if(district == "ms2"):
             sortEthnic(ms2tl, ms2tb, ms2tw, tw)
-        elif(district == "ms3"):
+        if(district == "ms3"):
             sortEthnic(ms3tl, ms3tb, ms3tw, tw)
-        elif(district == "ms4"):
+        if(district == "ms4"):
             sortEthnic(ms4tl, ms4tb, ms4tw, tw)
-        elif(district == "pa1"):
+        if(district == "pa1"):
             sortEthnic(pa1tl, pa1tb, pa1tw, tw)
-        elif(district == "pa2"):
+        if(district == "pa2"):
             sortEthnic(pa2tl, pa2tb, pa2tw, tw) #done
-        elif(district == "pa3"):
+        if(district == "pa3"):
             sortEthnic(pa3tl, pa3tb, pa3tw, tw)	#done
-        elif(district == "pa4"):
+        if(district == "pa4"):
             sortEthnic(pa4tl, pa4tb, pa4tw, tw)	#done
-        elif(district == "pa5"):
+        if(district == "pa5"):
             sortEthnic(pa5tl, pa5tb, pa5tw, tw) #done
-        elif(district == "pa6"):
+        if(district == "pa6"):
             sortEthnic(pa6tl, pa6tb, pa6tw, tw)
-        elif(district == "pa7"):
+        if(district == "pa7"):
             sortEthnic(pa7tl, pa7tb, pa7tw, tw) #done
-        elif(district == "pa8"):
+        if(district == "pa8"):
             sortEthnic(pa8tl, pa8tb, pa8tw, tw) #done
-        elif(district == "pa9"):
+        if(district == "pa9"):
             sortEthnic(pa9tl, pa9tb, pa9tw, tw)
-        elif(district == "pa10"):
+        if(district == "pa10"):
             sortEthnic(pa10tl, pa10tb, pa10tw, tw) #done
-        elif(district == "pa11"):
+        if(district == "pa11"):
             sortEthnic(pa11tl, pa11tb, pa11tw, tw)
-        elif(district == "pa12"):
+        if(district == "pa12"):
             sortEthnic(pa12tl, pa12tb, pa12tw, tw) #done
-        elif(district == "pa13"):
+        if(district == "pa13"):
             sortEthnic(pa13tl, pa13tb, pa13tw, tw) #done
-        elif(district == "pa14"):
+        if(district == "pa14"):
             sortEthnic(pa14tl, pa14tb, pa14tw, tw)
-        elif(district == "pa15"):
+        if(district == "pa15"):
             sortEthnic(pa15tl, pa15tb, pa15tw, tw) #done
-        elif(district == "pa16"):
+        if(district == "pa16"):
             sortEthnic(pa16tl, pa16tb, pa16tw, tw) #done
-        elif(district == "pa17"):
+        if(district == "pa17"):
             sortEthnic(pa17tl, pa17tb, pa17tw, tw) #done
-        elif(district == "pa18"):
+        if(district == "pa18"):
             sortEthnic(pa18tl, pa18tb, pa18tw, tw) #done
-        elif(district == "oh1"):
+        if(district == "oh1"):
             sortEthnic(oh1tl, oh1tb, oh1tw, tw)
-        elif(district == "oh2"):
+        if(district == "oh2"):
             sortEthnic(oh2tl, oh2tb, oh2tw, tw)
-        elif(district == "oh3"):
+        if(district == "oh3"):
             sortEthnic(oh3tl, oh3tb, oh3tw, tw)
-        elif(district == "oh4"):
+        if(district == "oh4"):
             sortEthnic(oh4tl, oh4tb, oh4tw, tw)
-        elif(district == "oh5"):
+        if(district == "oh5"):
             sortEthnic(oh5tl, oh5tb, oh5tw, tw)
         if(district == "oh6"):
             sortEthnic(oh6tl, oh6tb, oh6tw, tw)
-        elif(district == "oh7"):
+        if(district == "oh7"):
             sortEthnic(oh7tl, oh7tb, oh7tw, tw)
-        elif(district == "oh8"):
+        if(district == "oh8"):
             sortEthnic(oh8tl, oh8tb, oh8tw, tw)
-        elif(district == "oh9"):
+        if(district == "oh9"):
             sortEthnic(oh9tl, oh9tb, oh9tw, tw)
-        elif(district == "oh10"):
+        if(district == "oh10"):
             sortEthnic(oh10tl, oh10tb, oh10tw, tw)
-        elif(district == "oh11"):
+        if(district == "oh11"):
             sortEthnic(oh11tl, oh11tb, oh11tw, tw)
-        elif(district == "oh12"):
+        if(district == "oh12"):
             sortEthnic(oh12tl, oh12tb, oh12tw, tw)
-        elif(district == "oh13"):
+        if(district == "oh13"):
             sortEthnic(oh13tl, oh13tb, oh13tw, tw)
-        elif(district == "oh14"):
+        if(district == "oh14"):
             sortEthnic(oh14tl, oh14tb, oh14tw, tw)
-        elif(district == "oh15"):
+        if(district == "oh15"):
             sortEthnic(oh15tl, oh15tb, oh15tw, tw)
-        elif(district == "oh16"):
+        if(district == "oh16"):
             sortEthnic(oh16tl, oh16tb, oh16tw, tw)
-        elif(district == "fl1"):
+        if(district == "fl1"):
             sortEthnic(fl1tl, fl1tb, fl1tw, tw)
-        elif(district == "fl2"):
+        if(district == "fl2"):
             sortEthnic(fl2tl, fl2tb, fl2tw, tw)
-        elif(district == "fl3"):
+        if(district == "fl3"):
             sortEthnic(fl3tl, fl3tb, fl3tw, tw)
-        elif(district == "fl4"):
+        if(district == "fl4"):
             sortEthnic(fl4tl, fl4tb, fl4tw, tw)
-        elif(district == "fl5"):
+        if(district == "fl5"):
             sortEthnic(fl5tl, fl5tb, fl5tw, tw) #done
-        elif(district == "fl6"):
+        if(district == "fl6"):
             sortEthnic(fl6tl, fl6tb, fl6tw, tw)
-        elif(district == "fl7"):
+        if(district == "fl7"):
             sortEthnic(fl7tl, fl7tb, fl7tw, tw)
-        elif(district == "fl8"):
+        if(district == "fl8"):
             sortEthnic(fl8tl, fl8tb, fl8tw, tw)
-        elif(district == "fl9"):
+        if(district == "fl9"):
             sortEthnic(fl9tl, fl9tb, fl9tw, tw)
-        elif(district == "fl10"):
+        if(district == "fl10"):
             sortEthnic(fl10tl, fl10tb, fl10tw, tw)
-        elif(district == "fl11"):
+        if(district == "fl11"):
             sortEthnic(fl11tl, fl11tb, fl11tw, tw)
-        elif(district == "fl12"):
+        if(district == "fl12"):
             sortEthnic(fl12tl, fl12tb, fl12tw, tw)
-        elif(district == "fl13"):
+        if(district == "fl13"):
             sortEthnic(fl13tl, fl13tb, fl13tw, tw)
-        elif(district == "fl14"):
+        if(district == "fl14"):
             sortEthnic(fl14tl, fl14tb, fl14tw, tw)
-        elif(district == "fl15"):
+        if(district == "fl15"):
             sortEthnic(fl15tl, fl15tb, fl15tw, tw)
-        elif(district == "fl16"):
+        if(district == "fl16"):
             sortEthnic(fl16tl, fl16tb, fl16tw, tw)
-        elif(district == "fl17"):
+        if(district == "fl17"):
             sortEthnic(fl17tl, fl17tb, fl17tw, tw)
-        elif(district == "fl18"):
+        if(district == "fl18"):
             sortEthnic(fl18tl, fl18tb, fl18tw, tw)
-        elif(district == "fl19"):
+        if(district == "fl19"):
             sortEthnic(fl19tl, fl19tb, fl19tw, tw)
-        elif(district == "fl20"):
+        if(district == "fl20"):
             sortEthnic(fl20tl, fl20tb, fl20tw, tw)
-        elif(district == "fl21"):
+        if(district == "fl21"):
             sortEthnic(fl21tl, fl21tb, fl21tw, tw) #done
-        elif(district == "fl22"):
+        if(district == "fl22"):
             sortEthnic(fl22tl, fl22tb, fl22tw, tw)
-        elif(district == "fl23"):
+        if(district == "fl23"):
             sortEthnic(fl23tl, fl23tb, fl23tw, tw)
-        elif(district == "fl24"):
+        if(district == "fl24"):
             sortEthnic(fl24tl, fl24tb, fl24tw, tw)
-        elif(district == "fl25"):
+        if(district == "fl25"):
             sortEthnic(fl25tl, fl25tb, fl25tw, tw) #done
-        elif(district == "fl26"):
+        if(district == "fl26"):
             sortEthnic(fl26tl, fl26tb, fl26tw, tw) #done
-        elif(district == "fl27"):
+        if(district == "fl27"):
             sortEthnic(fl27tl, fl27tb, fl27tw, tw)
-        elif(district == "wa1"):
+        if(district == "wa1"):
             sortEthnic(wa1tl, wa1tb, wa1tw, tw)
-        elif(district == "wa2"):
+        if(district == "wa2"):
             sortEthnic(wa2tl, wa2tb, wa2tw, tw)
-        elif(district == "wa3"):
+        if(district == "wa3"):
             sortEthnic(wa3tl, wa3tb, wa3tw, tw)
-        elif(district == "wa4"):
+        if(district == "wa4"):
             sortEthnic(wa4tl, wa4tb, wa4tw, tw)
-        elif(district == "wa5"):
+        if(district == "wa5"):
             sortEthnic(wa5tl, wa5tb, wa5tw, tw)
-        elif(district == "wa6"):
+        if(district == "wa6"):
             sortEthnic(wa6tl, wa6tb, wa6tw, tw)
-        elif(district == "wa7"):
+        if(district == "wa7"):
             sortEthnic(wa7tl, wa7tb, wa7tw, tw)
-        elif(district == "wa8"):
+        if(district == "wa8"):
             sortEthnic(wa8tl, wa8tb, wa8tw, tw)
-        elif(district == "wa9"):
+        if(district == "wa9"):
             sortEthnic(wa9tl, wa9tb, wa9tw, tw)
-        elif(district == "wa10"):
+        if(district == "wa10"):
             sortEthnic(wa10tl, wa10tb, wa10tw, tw)
-        elif(district == "hi1"):
+        if(district == "hi1"):
             sortEthnic(hi1tl, hi1tb, hi1tw, tw) #done
-        elif(district == "hi2"):
+        if(district == "hi2"):
             sortEthnic(hi2tl, hi2tb, hi2tw, tw) #done
-        elif(district == "nj1"):
+        if(district == "nj1"):
             sortEthnic(nj1tl, nj1tb, nj1tw, tw) #done
-        elif(district == "nj2"):
+        if(district == "nj2"):
             sortEthnic(nj2tl, nj2tb, nj2tw, tw) #done
-        elif(district == "nj3"):
+        if(district == "nj3"):
             sortEthnic(nj3tl, nj3tb, nj3tw, tw)	#done
-        elif(district == "nj4"):
+        if(district == "nj4"):
             sortEthnic(nj4tl, nj4tb, nj4tw, tw)	#done
-        elif(district == "nj5"):
+        if(district == "nj5"):
             sortEthnic(nj5tl, nj5tb, nj5tw, tw) #done
-        elif(district == "nj6"):
+        if(district == "nj6"):
             sortEthnic(nj6tl, nj6tb, nj6tw, tw) #done
-        elif(district == "nj7"):
+        if(district == "nj7"):
             sortEthnic(nj7tl, nj7tb, nj7tw, tw) #done
-        elif(district == "nj8"):
+        if(district == "nj8"):
             sortEthnic(nj8tl, nj8tb, nj8tw, tw) #done
-        elif(district == "nj9"):
+        if(district == "nj9"):
             sortEthnic(nj9tl, nj9tb, nj9tw, tw) #done
-        elif(district == "nj10"):
+        if(district == "nj10"):
             sortEthnic(nj10tl, nj10tb, nj10tw, tw) #done
-        elif(district == "nj11"):
+        if(district == "nj11"):
             sortEthnic(nj11tl, nj11tb, nj11tw, tw) #done
-        elif(district == "nj12"):
+        if(district == "nj12"):
             sortEthnic(nj12tl, nj12tb, nj12tw, tw) #done
-        elif(district == "ny1"):
+        if(district == "ny1"):
             sortEthnic(ny1tl, ny1tb, ny1tw, tw) #done
-        elif(district == "ny2"):
+        if(district == "ny2"):
             sortEthnic(ny2tl, ny2tb, ny2tw, tw) #done
-        elif(district == "ny3"):
+        if(district == "ny3"):
             sortEthnic(ny3tl, ny3tb, ny3tw, tw)
-        elif(district == "ny4"):
+        if(district == "ny4"):
             sortEthnic(ny4tl, ny4tb, ny4tw, tw)
-        elif(district == "ny5"):
+        if(district == "ny5"):
             sortEthnic(ny5tl, ny5tb, ny5tw, tw)
-        elif(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
+        if(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
             sortEthnic(ny6tl, ny6tb, ny6tw, tw)
             sortEthnic(ny7tl, ny7tb, ny7tw, tw)
             sortEthnic(ny8tl, ny8tb, ny8tw, tw)
@@ -666,859 +666,859 @@ for tw in cursor:
             sortEthnic(ny13tl, ny13tb, ny13tw, tw)
             sortEthnic(ny14tl, ny14tb, ny14tw, tw)
             sortEthnic(ny15tl, ny15tb, ny15tw, tw)
-        elif(district == "ny16"):
+        if(district == "ny16"):
             sortEthnic(ny16tl, ny16tb, ny16tw, tw)
-        elif(district == "ny17"):
+        if(district == "ny17"):
             sortEthnic(ny17tl, ny17tb, ny17tw, tw) #done
-        elif(district == "ny18"):
+        if(district == "ny18"):
             sortEthnic(ny18tl, ny18tb, ny18tw, tw)
-        elif(district == "ny19"):
+        if(district == "ny19"):
             sortEthnic(ny19tl, ny19tb, ny19tw, tw) #done
-        elif(district == "ny20"):
+        if(district == "ny20"):
             sortEthnic(ny20tl, ny20tb, ny20tw, tw)
-        elif(district == "ny21"):
+        if(district == "ny21"):
             sortEthnic(ny21tl, ny21tb, ny21tw, tw) #done
-        elif(district == "ny22"):
+        if(district == "ny22"):
             sortEthnic(ny22tl, ny22tb, ny22tw, tw) #done
-        elif(district == "ny23"):
+        if(district == "ny23"):
             sortEthnic(ny23tl, ny23tb, ny23tw, tw)
-        elif(district == "ny24"):
+        if(district == "ny24"):
             sortEthnic(ny24tl, ny24tb, ny24tw, tw)
-        elif(district == "ny25"):
+        if(district == "ny25"):
             sortEthnic(ny25tl, ny25tb, ny25tw, tw)
-        elif(district == "ny26"):
+        if(district == "ny26"):
             sortEthnic(ny26tl, ny26tb, ny26tw, tw)
-        elif(district == "ny27"):
+        if(district == "ny27"):
             sortEthnic(ny27tl, ny27tb, ny27tw, tw) #done
-        elif(district == "ri1"):
+        if(district == "ri1"):
             sortEthnic(ri1tl, ri1tb, ri1tw, tw)	#done
-        elif(district == "ri2"):
+        if(district == "ri2"):
             sortEthnic(ri2tl, ri2tb, ri2tw, tw)				
-        elif(district == "mn1"):
+        if(district == "mn1"):
             sortEthnic(mn1tl, mn1tb, mn1tw, tw) #done
-        elif(district == "mn2"):
+        if(district == "mn2"):
             sortEthnic(mn2tl, mn2tb, mn2tw, tw)
-        elif(district == "mn3"):
+        if(district == "mn3"):
             sortEthnic(mn3tl, mn3tb, mn3tw, tw)	#done
-        elif(district == "mn4"):
+        if(district == "mn4"):
             sortEthnic(mn4tl, mn4tb, mn4tw, tw)
-        elif(district == "mn5"):
+        if(district == "mn5"):
             sortEthnic(mn5tl, mn5tb, mn5tw, tw) #done
-        elif(district == "mn6"):
+        if(district == "mn6"):
             sortEthnic(mn6tl, mn6tb, mn6tw, tw) #done
-        elif(district == "mn7"):
+        if(district == "mn7"):
             sortEthnic(mn7tl, mn7tb, mn7tw, tw) #done
-        elif(district == "mn8"):
+        if(district == "mn8"):
             sortEthnic(mn8tl, mn8tb, mn8tw, tw)
-        elif(district == "mi1"):
+        if(district == "mi1"):
             sortEthnic(mi1tl, mi1tb, mi1tw, tw)
-        elif(district == "mi2"):
+        if(district == "mi2"):
             sortEthnic(mi2tl, mi2tb, mi2tw, tw) #done
-        elif(district == "mi3"):
+        if(district == "mi3"):
             sortEthnic(mi3tl, mi3tb, mi3tw, tw)
-        elif(district == "mi4"):
+        if(district == "mi4"):
             sortEthnic(mi4tl, mi4tb, mi4tw, tw)	#done
-        elif(district == "mi5"):
+        if(district == "mi5"):
             sortEthnic(mi5tl, mi5tb, mi5tw, tw) #done
-        elif(district == "mi6"):
+        if(district == "mi6"):
             sortEthnic(mi6tl, mi6tb, mi6tw, tw)
-        elif(district == "mi7"):
+        if(district == "mi7"):
             sortEthnic(mi7tl, mi7tb, mi7tw, tw)
-        elif(district == "mi8"):
+        if(district == "mi8"):
             sortEthnic(mi8tl, mi8tb, mi8tw, tw)
-        elif(district == "mi9"):
+        if(district == "mi9"):
             sortEthnic(mi9tl, mi9tb, mi9tw, tw) #done
-        elif(district == "mi10"):
+        if(district == "mi10"):
             sortEthnic(mi10tl, mi10tb, mi10tw, tw) #done
-        elif(district == "mi11"):
+        if(district == "mi11"):
             sortEthnic(mi11tl, mi11tb, mi11tw, tw)
-        elif(district == "mi12"):
+        if(district == "mi12"):
             sortEthnic(mi12tl, mi12tb, mi12tw, tw)
-        elif(district == "mi13"):
+        if(district == "mi13"):
             sortEthnic(mi13tl, mi13tb, mi13tw, tw) #done
-        elif(district == "mi14"):
+        if(district == "mi14"):
             sortEthnic(mi14tl, mi14tb, mi14tw, tw) #done
-        elif(district == "wi1"):
+        if(district == "wi1"):
             sortEthnic(wi1tl, wi1tb, wi1tw, tw)
-        elif(district == "wi2"):
+        if(district == "wi2"):
             sortEthnic(wi2tl, wi2tb, wi2tw, tw)
-        elif(district == "wi3"):
+        if(district == "wi3"):
             sortEthnic(wi3tl, wi3tb, wi3tw, tw)	#done
-        elif(district == "wi4"):
+        if(district == "wi4"):
             sortEthnic(wi4tl, wi4tb, wi4tw, tw)
-        elif(district == "wi5"):
+        if(district == "wi5"):
             sortEthnic(wi5tl, wi5tb, wi5tw, tw) #done
-        elif(district == "wi6"):
+        if(district == "wi6"):
             sortEthnic(wi6tl, wi6tb, wi6tw, tw)
-        elif(district == "wi7"):
+        if(district == "wi7"):
             sortEthnic(wi7tl, wi7tb, wi7tw, tw) #done
-        elif(district == "wi8"):
+        if(district == "wi8"):
             sortEthnic(wi8tl, wi8tb, wi8tw, tw)
-        elif(district == "or1"):
+        if(district == "or1"):
             sortEthnic(or1tl, or1tb, or1tw, tw)
-        elif(district == "or2"):
+        if(district == "or2"):
             sortEthnic(or2tl, or2tb, or2tw, tw) #done
-        elif(district == "or3"):
+        if(district == "or3"):
             sortEthnic(or3tl, or3tb, or3tw, tw)
-        elif(district == "or4"):
+        if(district == "or4"):
             sortEthnic(or4tl, or4tb, or4tw, tw)
-        elif(district == "or5"):
+        if(district == "or5"):
             sortEthnic(or5tl, or5tb, or5tw, tw)
-        elif(district == "md1"):
+        if(district == "md1"):
             sortEthnic(md1tl, md1tb, md1tw, tw) #done
-        elif(district == "md2"):
+        if(district == "md2"):
             sortEthnic(md2tl, md2tb, md2tw, tw)
-        elif(district == "md3"):
+        if(district == "md3"):
             sortEthnic(md3tl, md3tb, md3tw, tw)	#done
-        elif(district == "md4"):
+        if(district == "md4"):
             sortEthnic(md4tl, md4tb, md4tw, tw)	#done
-        elif(district == "md5"):
+        if(district == "md5"):
             sortEthnic(md5tl, md5tb, md5tw, tw) #done
-        elif(district == "md6"):
+        if(district == "md6"):
             sortEthnic(md6tl, md6tb, md6tw, tw) #done
-        elif(district == "md7"):
+        if(district == "md7"):
             sortEthnic(md7tl, md7tb, md7tw, tw)
-        elif(district == "md8"):
+        if(district == "md8"):
             sortEthnic(md8tl, md8tb, md8tw, tw)
-        elif(district == "ma1"):
+        if(district == "ma1"):
             sortEthnic(ma1tl, ma1tb, ma1tw, tw) #done
-        elif(district == "ma2"):
+        if(district == "ma2"):
             sortEthnic(ma2tl, ma2tb, ma2tw, tw)
-        elif(district == "ma3"):
+        if(district == "ma3"):
             sortEthnic(ma3tl, ma3tb, ma3tw, tw)	 #done
-        elif(district == "ma4"):
+        if(district == "ma4"):
             sortEthnic(ma4tl, ma4tb, ma4tw, tw)
-        elif(district == "ma5"):
+        if(district == "ma5"):
             sortEthnic(ma5tl, ma5tb, ma5tw, tw)
-        elif(district == "ma6"):
+        if(district == "ma6"):
             sortEthnic(ma6tl, ma6tb, ma6tw, tw)
-        elif(district == "ma7"):
+        if(district == "ma7"):
             sortEthnic(ma7tl, ma7tb, ma7tw, tw)
-        elif(district == "ma8"):
+        if(district == "ma8"):
             sortEthnic(ma8tl, ma8tb, ma8tw, tw)
-        elif(district == "ma9"):
+        if(district == "ma9"):
             sortEthnic(ma9tl, ma9tb, ma9tw, tw) #done
-        elif(district == "me1"):
+        if(district == "me1"):
             sortEthnic(me1tl, me1tb, me1tw, tw) #done
-        elif(district == "me2"):
+        if(district == "me2"):
             sortEthnic(me2tl, me2tb, me2tw, tw) #done
-        elif(district == "id1"):
+        if(district == "id1"):
             sortEthnic(id1tl, id1tb, id1tw, tw) #done
-        elif(district == "id2"):
+        if(district == "id2"):
             sortEthnic(id2tl, id2tb, id2tw, tw) #done
-        elif(district == "nc1"):
+        if(district == "nc1"):
             sortEthnic(nc1tl, nc1tb, nc1tw, tw)
-        elif(district == "nc2"):
+        if(district == "nc2"):
             sortEthnic(nc2tl, nc2tb, nc2tw, tw)
-        elif(district == "nc3"):
+        if(district == "nc3"):
             sortEthnic(nc3tl, nc3tb, nc3tw, tw)
-        elif(district == "nc4"):
+        if(district == "nc4"):
             sortEthnic(nc4tl, nc4tb, nc4tw, tw)
-        elif(district == "nc5"):
+        if(district == "nc5"):
             sortEthnic(nc5tl, nc5tb, nc5tw, tw)
-        elif(district == "nc6"):
+        if(district == "nc6"):
             sortEthnic(nc6tl, nc6tb, nc6tw, tw)
-        elif(district == "nc7"):
+        if(district == "nc7"):
             sortEthnic(nc7tl, nc7tb, nc7tw, tw)
-        elif(district == "nc8"):
+        if(district == "nc8"):
             sortEthnic(nc8tl, nc8tb, nc8tw, tw) #done
-        elif(district == "nc9"):
+        if(district == "nc9"):
             sortEthnic(nc9tl, nc9tb, nc9tw, tw)
-        elif(district == "nc10"):
+        if(district == "nc10"):
             sortEthnic(nc10tl, nc10tb, nc10tw, tw)
-        elif(district == "nc11"):
+        if(district == "nc11"):
             sortEthnic(nc11tl, nc11tb, nc11tw, tw)
-        elif(district == "nc12"):
+        if(district == "nc12"):
             sortEthnic(nc12tl, nc12tb, nc12tw, tw)
-        elif(district == "nc13"):
+        if(district == "nc13"):
             sortEthnic(nc13tl, nc13tb, nc13tw, tw)
-        elif(district == "nh1"):
+        if(district == "nh1"):
             sortEthnic(nh1tl, nh1tb, nh1tw, tw) #done
-        elif(district == "nh2"):
+        if(district == "nh2"):
             sortEthnic(nh2tl, nh2tb, nh2tw, tw) #done
-        elif(district == "nv1"):
+        if(district == "nv1"):
             sortEthnic(nv1tl, nv1tb, nv1tw, tw) #done
-        elif(district == "nv2"):
+        if(district == "nv2"):
             sortEthnic(nv2tl, nv2tb, nv2tw, tw)
-        elif(district == "nv3"):
+        if(district == "nv3"):
             sortEthnic(nv3tl, nv3tb, nv3tw, tw)
-        elif(district == "nv4"):
+        if(district == "nv4"):
             sortEthnic(nv4tl, nv4tb, nv4tw, tw)
-        elif(district == "co1"):
+        if(district == "co1"):
             sortEthnic(co1tl, co1tb, co1tw, tw)
-        elif(district == "co2"):
+        if(district == "co2"):
             sortEthnic(co2tl, co2tb, co2tw, tw) #done
-        elif(district == "co3"):
+        if(district == "co3"):
             sortEthnic(co3tl, co3tb, co3tw, tw)
-        elif(district == "co4"):
+        if(district == "co4"):
             sortEthnic(co4tl, co4tb, co4tw, tw)
-        elif(district == "co5"):
+        if(district == "co5"):
             sortEthnic(co5tl, co5tb, co5tw, tw)
-        elif(district == "co6"):
+        if(district == "co6"):
             sortEthnic(co6tl, co6tb, co6tw, tw) #done
-        elif(district == "co7"):
+        if(district == "co7"):
             sortEthnic(co7tl, co7tb, co7tw, tw) #done
-        elif(district == "nm1"):
+        if(district == "nm1"):
             sortEthnic(nm1tl, nm1tb, nm1tw, tw) #done
-        elif(district == "nm2"):
+        if(district == "nm2"):
             sortEthnic(nm2tl, nm2tb, nm2tw, tw)
-        elif(district == "nm3"):
+        if(district == "nm3"):
             sortEthnic(nm3tl, nm3tb, nm3tw, tw) #done
-        elif(district == "az1"):
+        if(district == "az1"):
             sortEthnic(az1tl, az1tb, az1tw, tw)
-        elif(district == "az2"):
+        if(district == "az2"):
             sortEthnic(az2tl, az2tb, az2tw, tw)
-        elif(district == "az3"):
+        if(district == "az3"):
             sortEthnic(az3tl, az3tb, az3tw, tw)		#done
-        elif(district == "az4"):
+        if(district == "az4"):
             sortEthnic(az4tl, az4tb, az4tw, tw)
-        elif(district == "az5"):
+        if(district == "az5"):
             sortEthnic(az5tl, az5tb, az5tw, tw)
-        elif(district == "az6"):
+        if(district == "az6"):
             sortEthnic(az6tl, az6tb, az6tw, tw) #done
-        elif(district == "az7"):
+        if(district == "az7"):
             sortEthnic(az7tl, az7tb, az7tw, tw)		#done
-        elif(district == "az8"):
+        if(district == "az8"):
             sortEthnic(az8tl, az8tb, az8tw, tw)
-        elif(district == "az9"):
+        if(district == "az9"):
             sortEthnic(az9tl, az9tb, az9tw, tw)			#done
-        elif(district == "ga1"):
+        if(district == "ga1"):
             sortEthnic(ga1tl, ga1tb, ga1tw, tw)
-        elif(district == "ga2"):
+        if(district == "ga2"):
             sortEthnic(ga2tl, ga2tb, ga2tw, tw)
-        elif(district == "ga3"):
+        if(district == "ga3"):
             sortEthnic(ga3tl, ga3tb, ga3tw, tw)	#done
-        elif(district == "ga4"):
+        if(district == "ga4"):
             sortEthnic(ga4tl, ga4tb, ga4tw, tw)
-        elif(district == "ga5"):
+        if(district == "ga5"):
             sortEthnic(ga5tl, ga5tb, ga5tw, tw)
-        elif(district == "ga6"):
+        if(district == "ga6"):
             sortEthnic(ga6tl, ga6tb, ga6tw, tw)
-        elif(district == "ga7"):
+        if(district == "ga7"):
             sortEthnic(ga7tl, ga7tb, ga7tw, tw)
-        elif(district == "ga8"):
+        if(district == "ga8"):
             sortEthnic(ga8tl, ga8tb, ga8tw, tw)
-        elif(district == "ga9"):
+        if(district == "ga9"):
             sortEthnic(ga9tl, ga9tb, ga9tw, tw)
-        elif(district == "ga10"):
+        if(district == "ga10"):
             sortEthnic(ga10tl, ga10tb, ga10tw, tw)
-        elif(district == "ga11"):
+        if(district == "ga11"):
             sortEthnic(ga11tl, ga11tb, ga11tw, tw)
-        elif(district == "ga12"):
+        if(district == "ga12"):
             sortEthnic(ga12tl, ga12tb, ga12tw, tw)
-        elif(district == "ga13"):
+        if(district == "ga13"):
             sortEthnic(ga13tl, ga13tb, ga13tw, tw)
-        elif(district == "ga14"):
+        if(district == "ga14"):
             sortEthnic(ga14tl, ga14tb, ga14tw, tw)
-        elif(district == "tx1"):
+        if(district == "tx1"):
             sortEthnic(tx1tl, tx1tb, tx1tw, tw) #done
-        elif(district == "tx2"):
+        if(district == "tx2"):
             sortEthnic(tx2tl, tx2tb, tx2tw, tw)
-        elif(district == "tx3"):
+        if(district == "tx3"):
             sortEthnic(tx3tl, tx3tb, tx3tw, tw)
-        elif(district == "tx4"):
+        if(district == "tx4"):
             sortEthnic(tx4tl, tx4tb, tx4tw, tw)
-        elif(district == "tx5"):
+        if(district == "tx5"):
             sortEthnic(tx5tl, tx5tb, tx5tw, tw) #done
-        elif(district == "tx6"):
+        if(district == "tx6"):
             sortEthnic(tx6tl, tx6tb, tx6tw, tw) #done
-        elif(district == "tx7"):
+        if(district == "tx7"):
             sortEthnic(tx7tl, tx7tb, tx7tw, tw)
-        elif(district == "tx8"):
+        if(district == "tx8"):
             sortEthnic(tx8tl, tx8tb, tx8tw, tw)
-        elif(district == "tx9"):
+        if(district == "tx9"):
             sortEthnic(tx9tl, tx9tb, tx9tw, tw)
-        elif(district == "tx10"):
+        if(district == "tx10"):
             sortEthnic(tx10tl, tx10tb, tx10tw, tw) #done
-        elif(district == "tx11"):
+        if(district == "tx11"):
             sortEthnic(tx11tl, tx11tb, tx11tw, tw)
-        elif(district == "tx12"):
+        if(district == "tx12"):
             sortEthnic(tx12tl, tx12tb, tx12tw, tw)
-        elif(district == "tx13"):
+        if(district == "tx13"):
             sortEthnic(tx13tl, tx13tb, tx13tw, tw)
-        elif(district == "tx14"):
+        if(district == "tx14"):
             sortEthnic(tx14tl, tx14tb, tx14tw, tw)
-        elif(district == "tx15"):
+        if(district == "tx15"):
             sortEthnic(tx15tl, tx15tb, tx15tw, tw)
-        elif(district == "tx16"):
+        if(district == "tx16"):
             sortEthnic(tx16tl, tx16tb, tx16tw, tw)
-        elif(district == "tx17"):
+        if(district == "tx17"):
             sortEthnic(tx17tl, tx17tb, tx17tw, tw)
-        elif(district == "tx18"):
+        if(district == "tx18"):
             sortEthnic(tx18tl, tx18tb, tx18tw, tw)
-        elif(district == "tx19"):
+        if(district == "tx19"):
             sortEthnic(tx19tl, tx19tb, tx19tw, tw)
-        elif(district == "tx20"):
+        if(district == "tx20"):
             sortEthnic(tx20tl, tx20tb, tx20tw, tw)
-        elif(district == "tx21"):
+        if(district == "tx21"):
             sortEthnic(tx21tl, tx21tb, tx21tw, tw)
-        elif(district == "tx22"):
+        if(district == "tx22"):
             sortEthnic(tx22tl, tx22tb, tx22tw, tw)
-        elif(district == "tx23"):
+        if(district == "tx23"):
             sortEthnic(tx23tl, tx23tb, tx23tw, tw)
-        elif(district == "tx24"):
+        if(district == "tx24"):
             sortEthnic(tx24tl, tx24tb, tx24tw, tw) #done
-        elif(district == "tx25"):
+        if(district == "tx25"):
             sortEthnic(tx25tl, tx25tb, tx25tw, tw)
-        elif(district == "tx26"):
+        if(district == "tx26"):
             sortEthnic(tx26tl, tx26tb, tx26tw, tw)
-        elif(district == "tx27"):
+        if(district == "tx27"):
             sortEthnic(tx27tl, tx27tb, tx27tw, tw)
-        elif(district == "tx28"):
+        if(district == "tx28"):
             sortEthnic(tx28tl, tx28tb, tx28tw, tw)
-        elif(district == "tx29"):
+        if(district == "tx29"):
             sortEthnic(tx29tl, tx29tb, tx29tw, tw)
-        elif(district == "tx30"):
+        if(district == "tx30"):
             sortEthnic(tx30tl, tx30tb, tx30tw, tw)
-        elif(district == "tx31"):
+        if(district == "tx31"):
             sortEthnic(tx31tl, tx31tb, tx31tw, tw)
-        elif(district == "tx32"):
+        if(district == "tx32"):
             sortEthnic(tx32tl, tx32tb, tx32tw, tw) #done
-        elif(district == "tx33"):
+        if(district == "tx33"):
             sortEthnic(tx33tl, tx33tb, tx33tw, tw)
-        elif(district == "tx34"):
+        if(district == "tx34"):
             sortEthnic(tx34tl, tx34tb, tx34tw, tw)
-        elif(district == "tx35"):
+        if(district == "tx35"):
             sortEthnic(tx35tl, tx35tb, tx35tw, tw)
-        elif(district == "tx36"):
+        if(district == "tx36"):
             sortEthnic(tx36tl, tx36tb, tx36tw, tw)
-        elif(district == "in1"):
+        if(district == "in1"):
             sortEthnic(in1tl, in1tb, in1tw, tw)
-        elif(district == "in2"):
+        if(district == "in2"):
             sortEthnic(in2tl, in2tb, in2tw, tw)
-        elif(district == "in3"):
+        if(district == "in3"):
             sortEthnic(in3tl, in3tb, in3tw, tw)	 #done
-        elif(district == "in4"):
+        if(district == "in4"):
             sortEthnic(in4tl, in4tb, in4tw, tw)
-        elif(district == "in5"):
+        if(district == "in5"):
             sortEthnic(in5tl, in5tb, in5tw, tw)
-        elif(district == "in6"):
+        if(district == "in6"):
             sortEthnic(in6tl, in6tb, in6tw, tw)
-        elif(district == "in7"):
+        if(district == "in7"):
             sortEthnic(in7tl, in7tb, in7tw, tw)
-        elif(district == "in8"):
+        if(district == "in8"):
             sortEthnic(in8tl, in8tb, in8tw, tw)
-        elif(district == "in9"):
+        if(district == "in9"):
             sortEthnic(in9tl, in9tb, in9tw, tw)
-        elif(district == "va1"):
+        if(district == "va1"):
             sortEthnic(va1tl, va1tb, va1tw, tw)
-        elif(district == "va2"):
+        if(district == "va2"):
             sortEthnic(va2tl, va2tb, va2tw, tw)
-        elif(district == "va3"):
+        if(district == "va3"):
             sortEthnic(va3tl, va3tb, va3tw, tw)
-        elif(district == "va4"):
+        if(district == "va4"):
             sortEthnic(va4tl, va4tb, va4tw, tw)	#done
-        elif(district == "va5"):
+        if(district == "va5"):
             sortEthnic(va5tl, va5tb, va5tw, tw)
-        elif(district == "va6"):
+        if(district == "va6"):
             sortEthnic(va6tl, va6tb, va6tw, tw)
-        elif(district == "va7"):
+        if(district == "va7"):
             sortEthnic(va7tl, va7tb, va7tw, tw)
-        elif(district == "va8"):
+        if(district == "va8"):
             sortEthnic(va8tl, va8tb, va8tw, tw)
-        elif(district == "va9"):
+        if(district == "va9"):
             sortEthnic(va9tl, va9tb, va9tw, tw)
-        elif(district == "va10"):
+        if(district == "va10"):
             sortEthnic(va10tl, va10tb, va10tw, tw)
-        elif(district == "va11"):
+        if(district == "va11"):
             sortEthnic(va11tl, va11tb, va11tw, tw)
-        elif(district == "il1"):
+        if(district == "il1"):
             sortEthnic(il1tl, il1tb, il1tw, tw)
-        elif(district == "il2"):
+        if(district == "il2"):
             sortEthnic(il2tl, il2tb, il2tw, tw)
-        elif(district == "il3"):
+        if(district == "il3"):
             sortEthnic(il3tl, il3tb, il3tw, tw)
-        elif(district == "il4"):
+        if(district == "il4"):
             sortEthnic(il4tl, il4tb, il4tw, tw)	#done
-        elif(district == "il5"):
+        if(district == "il5"):
             sortEthnic(il5tl, il5tb, il5tw, tw)
-        elif(district == "il6"):
+        if(district == "il6"):
             sortEthnic(il6tl, il6tb, il6tw, tw)
-        elif(district == "il7"):
+        if(district == "il7"):
             sortEthnic(il7tl, il7tb, il7tw, tw)
-        elif(district == "il8"):
+        if(district == "il8"):
             sortEthnic(il8tl, il8tb, il8tw, tw)
-        elif(district == "il9"):
+        if(district == "il9"):
             sortEthnic(il9tl, il9tb, il9tw, tw)
-        elif(district == "il10"):
+        if(district == "il10"):
             sortEthnic(il10tl, il10tb, il10tw, tw) #done
-        elif(district == "il11"):
+        if(district == "il11"):
             sortEthnic(il11tl, il11tb, il11tw, tw)
-        elif(district == "il12"):
+        if(district == "il12"):
             sortEthnic(il12tl, il12tb, il12tw, tw) #done
-        elif(district == "il13"):
+        if(district == "il13"):
             sortEthnic(il13tl, il13tb, il13tw, tw)
-        elif(district == "il14"):
+        if(district == "il14"):
             sortEthnic(il14tl, il14tb, il14tw, tw)#done
-        elif(district == "il15"):
+        if(district == "il15"):
             sortEthnic(il15tl, il15tb, il15tw, tw) #done
-        elif(district == "il16"):
+        if(district == "il16"):
             sortEthnic(il16tl, il16tb, il16tw, tw)
-        elif(district == "il17"):
+        if(district == "il17"):
             sortEthnic(il17tl, il17tb, il17tw, tw)
-        elif(district == "il18"):
+        if(district == "il18"):
             sortEthnic(il18tl, il18tb, il18tw, tw)
-        elif(district == "de1"):
+        if(district == "de1"):
             sortEthnic(de1tl, de1tb, de1tw, tw) #done
-        elif(district == "vt1"):
+        if(district == "vt1"):
             sortEthnic(vt1tl, vt1tb, vt1tw, tw) #done
-        elif(district == "ut1"):
+        if(district == "ut1"):
             sortEthnic(ut1tl, ut1tb, ut1tw, tw)
-        elif(district == "ut2"):
+        if(district == "ut2"):
             sortEthnic(ut2tl, ut2tb, ut2tw, tw)
-        elif(district == "ut3"):
+        if(district == "ut3"):
             sortEthnic(ut3tl, ut3tb, ut3tw, tw)
-        elif(district == "ut4"):
+        if(district == "ut4"):
             sortEthnic(ut4tl, ut4tb, ut4tw, tw)
-        elif(district == "ne1"):
+        if(district == "ne1"):
             sortEthnic(ne1tl, ne1tb, ne1tw, tw)
-        elif(district == "ne2"):
+        if(district == "ne2"):
             sortEthnic(ne2tl, ne2tb, ne2tw, tw)
-        elif(district == "ne3"):
+        if(district == "ne3"):
             sortEthnic(ne3tl, ne3tb, ne3tw, tw)	#done
-        elif(district == "ak1"):
+        if(district == "ak1"):
             sortEthnic(ak1tl, ak1tb, ak1tw, tw) #done
-        elif(district == "wy1"):
+        if(district == "wy1"):
             sortEthnic(wy1tl, wy1tb, wy1tw, tw) #done
-        elif(district == "al1"):
+        if(district == "al1"):
             sortEthnic(al1tl, al1tb, al1tw, tw)
-        elif(district == "al2"):
+        if(district == "al2"):
             sortEthnic(al2tl, al2tb, al2tw, tw)
-        elif(district == "al3"):
+        if(district == "al3"):
             sortEthnic(al3tl, al3tb, al3tw, tw)
-        elif(district == "al4"):
+        if(district == "al4"):
             sortEthnic(al4tl, al4tb, al4tw, tw)
-        elif(district == "al5"):
+        if(district == "al5"):
             sortEthnic(al5tl, al5tb, al5tw, tw)
-        elif(district == "al6"):
+        if(district == "al6"):
             sortEthnic(al6tl, al6tb, al6tw, tw)
-        elif(district == "al7"):
+        if(district == "al7"):
             sortEthnic(al7tl, al7tb, al7tw, tw)	#done
-        elif(district == "tn1"):
+        if(district == "tn1"):
             sortEthnic(tn1tl, tn1tb, tn1tw, tw)
-        elif(district == "tn2"):
+        if(district == "tn2"):
             sortEthnic(tn2tl, tn2tb, tn2tw, tw)
-        elif(district == "tn3"):
+        if(district == "tn3"):
             sortEthnic(tn3tl, tn3tb, tn3tw, tw)
-        elif(district == "tn4"):
+        if(district == "tn4"):
             sortEthnic(tn4tl, tn4tb, tn4tw, tw)
-        elif(district == "tn5"):
+        if(district == "tn5"):
             sortEthnic(tn5tl, tn5tb, tn5tw, tw)
-        elif(district == "tn6"):
+        if(district == "tn6"):
             sortEthnic(tn6tl, tn6tb, tn6tw, tw)
-        elif(district == "tn7"):
+        if(district == "tn7"):
             sortEthnic(tn7tl, tn7tb, tn7tw, tw)
-        elif(district == "tn8"):
+        if(district == "tn8"):
             sortEthnic(tn8tl, tn8tb, tn8tw, tw)
-        elif(district == "tn9"):
+        if(district == "tn9"):
             sortEthnic(tn9tl, tn9tb, tn9tw, tw)
-        elif(district == "nd1"):
+        if(district == "nd1"):
             sortEthnic(nd1tl, nd1tb, nd1tw, tw) #done
-        elif(district == "sd1"):
+        if(district == "sd1"):
             sortEthnic(sd1tl, sd1tb, sd1tw, tw) #done
-        elif(district == "wv1"):
+        if(district == "wv1"):
             sortEthnic(wv1tl, wv1tb, wv1tw, tw)
-        elif(district == "wv2"):
+        if(district == "wv2"):
             sortEthnic(wv2tl, wv2tb, wv2tw, tw)
-        elif(district == "wv3"):
+        if(district == "wv3"):
             sortEthnic(wv3tl, wv3tb, wv3tw, tw) #done
-        elif(district == "ar1"):
+        if(district == "ar1"):
             sortEthnic(ar1tl, ar1tb, ar1tw, tw) #done
-        elif(district == "ar2"):
+        if(district == "ar2"):
             sortEthnic(ar2tl, ar2tb, ar2tw, tw)
-        elif(district == "ar3"):
+        if(district == "ar3"):
             sortEthnic(ar3tl, ar3tb, ar3tw, tw)
-        elif(district == "ar4"):
+        if(district == "ar4"):
             sortEthnic(ar4tl, ar4tb, ar4tw, tw)
     district = sortloc("#voteblue", tw["user"]["location"], tw["retweeted_status"]["full_text"].lower())
     if(district != "null"):
         if(district == "mo1"):
             sortEthnic(mo1bl, mo1bb, mo1bw, tw)
-        elif(district == "mo2"):
+        if(district == "mo2"):
             sortEthnic(mo2bl, mo2bb, mo2bw, tw)
-        elif(district == "mo3"):
+        if(district == "mo3"):
             sortEthnic(mo3bl, mo3bb, mo3bw, tw)
-        elif(district == "mo4"):
+        if(district == "mo4"):
             sortEthnic(mo4bl, mo4bb, mo4bw, tw)
-        elif(district == "mo5"):
+        if(district == "mo5"):
             sortEthnic(mo5bl, mo5bb, mo5bw, tw)
-        elif(district == "mo6"):
+        if(district == "mo6"):
             sortEthnic(mo6bl, mo6bb, mo6bw, tw)
-        elif(district == "mo7"):
+        if(district == "mo7"):
             sortEthnic(mo7bl, mo7bb, mo7bw, tw)
-        elif(district == "mo8"):
+        if(district == "mo8"):
             sortEthnic(mo8bl, mo8bb, mo8bw, tw)
-        elif(district == "sc1"):
+        if(district == "sc1"):
             sortEthnic(sc1bl, sc1bb, sc1bw, tw)
-        elif(district == "sc2"):
+        if(district == "sc2"):
             sortEthnic(sc2bl, sc2bb, sc2bw, tw)
-        elif(district == "sc3"):
+        if(district == "sc3"):
             sortEthnic(sc3bl, sc3bb, sc3bw, tw)
-        elif(district == "sc4"):
+        if(district == "sc4"):
             sortEthnic(sc4bl, sc4bb, sc4bw, tw)
-        elif(district == "sc5"):
+        if(district == "sc5"):
             sortEthnic(sc5bl, sc5bb, sc5bw, tw)
-        elif(district == "sc6"):
+        if(district == "sc6"):
             sortEthnic(sc6bl, sc6bb, sc6bw, tw)
-        elif(district == "sc7"):
+        if(district == "sc7"):
             sortEthnic(sc7bl, sc7bb, sc7bw, tw)
-        elif(district == "ky1"):
+        if(district == "ky1"):
             sortEthnic(ky1bl, ky1bb, ky1bw, tw)
-        elif(district == "ky2"):
+        if(district == "ky2"):
             sortEthnic(ky2bl, ky2bb, ky2bw, tw)
-        elif(district == "ky3"):
+        if(district == "ky3"):
             sortEthnic(ky3bl, ky3bb, ky3bw, tw)
-        elif(district == "ky4"):
+        if(district == "ky4"):
             sortEthnic(ky4bl, ky4bb, ky4bw, tw)
-        elif(district == "ky5"):
+        if(district == "ky5"):
             sortEthnic(ky5bl, ky5bb, ky5bw, tw)
-        elif(district == "ky6"):
+        if(district == "ky6"):
             sortEthnic(ky6bl, ky6bb, ky6bw, tw)
-        elif(district == "ok1"):
+        if(district == "ok1"):
             sortEthnic(ok1bl, ok1bb, ok1bw, tw) #done
-        elif(district == "ok2"):
+        if(district == "ok2"):
             sortEthnic(ok2bl, ok2bb, ok2bw, tw)
-        elif(district == "ok3"):
+        if(district == "ok3"):
             sortEthnic(ok3bl, ok3bb, ok3bw, tw)	#done
-        elif(district == "ok4"):
+        if(district == "ok4"):
             sortEthnic(ok4bl, ok4bb, ok4bw, tw)	#done
-        elif(district == "ok5"):
+        if(district == "ok5"):
             sortEthnic(ok5bl, ok5bb, ok5bw, tw)
-        elif(district == "ia1"):
+        if(district == "ia1"):
             sortEthnic(ia1bl, ia1bb, ia1bw, tw) #done
-        elif(district == "ia2"):
+        if(district == "ia2"):
             sortEthnic(ia2bl, ia2bb, ia2bw, tw) #done
-        elif(district == "ia3"):
+        if(district == "ia3"):
             sortEthnic(ia3bl, ia3bb, ia3bw, tw)	#done
-        elif(district == "ia4"):
+        if(district == "ia4"):
             sortEthnic(ia4bl, ia4bb, ia4bw, tw)	#done
-        elif(district == "ks1"):
+        if(district == "ks1"):
             sortEthnic(ks1bl, ks1bb, ks1bw, tw) #done
-        elif(district == "ks2"):
+        if(district == "ks2"):
             sortEthnic(ks2bl, ks2bb, ks2bw, tw) #done
-        elif(district == "ks3"):
+        if(district == "ks3"):
             sortEthnic(ks3bl, ks3bb, ks3bw, tw)
-        elif(district == "ks4"):
+        if(district == "ks4"):
             sortEthnic(ks4bl, ks4bb, ks4bw, tw)
-        elif(district == "ca1"):
+        if(district == "ca1"):
             sortEthnic(ca1bl, ca1bb, ca1bw, tw) #done
-        elif(district == "ca2"):
+        if(district == "ca2"):
             sortEthnic(ca2bl, ca2bb, ca2bw, tw) #done
-        elif(district == "ca3"):
+        if(district == "ca3"):
             sortEthnic(ca3bl, ca3bb, ca3bw, tw)
-        elif(district == "ca4"):
+        if(district == "ca4"):
             sortEthnic(ca4bl, ca4bb, ca4bw, tw)
-        elif(district == "ca5"):
+        if(district == "ca5"):
             sortEthnic(ca5bl, ca5bb, ca5bw, tw) #done
-        elif(district == "ca6"):
+        if(district == "ca6"):
             sortEthnic(ca6bl, ca6bb, ca6bw, tw)
-        elif(district == "ca7"):
+        if(district == "ca7"):
             sortEthnic(ca7bl, ca7bb, ca7bw, tw) #done
-        elif(district == "ca8"):
+        if(district == "ca8"):
             sortEthnic(ca8bl, ca8bb, ca8bw, tw)
-        elif(district == "ca9"):
+        if(district == "ca9"):
             sortEthnic(ca9bl, ca9bb, ca9bw, tw) #done
-        elif(district == "ca10"):
+        if(district == "ca10"):
             sortEthnic(ca10bl, ca10bb, ca10bw, tw) #done
-        elif(district == "ca11"):
+        if(district == "ca11"):
             sortEthnic(ca11bl, ca11bb, ca11bw, tw)
-        elif(district == "ca12"):
+        if(district == "ca12"):
             sortEthnic(ca12bl, ca12bb, ca12bw, tw)
-        elif(district == "ca13"):
+        if(district == "ca13"):
             sortEthnic(ca13bl, ca13bb, ca13bw, tw)
-        elif(district == "ca14"):
+        if(district == "ca14"):
             sortEthnic(ca14bl, ca14bb, ca14bw, tw)
-        elif(district == "ca15"):
+        if(district == "ca15"):
             sortEthnic(ca15bl, ca15bb, ca15bw, tw)
-        elif(district == "ca16"):
+        if(district == "ca16"):
             sortEthnic(ca16bl, ca16bb, ca16bw, tw) #done
-        elif(district == "ca17"):
+        if(district == "ca17"):
             sortEthnic(ca17bl, ca17bb, ca17bw, tw) #done
-        elif(district == "ca18"):
+        if(district == "ca18"):
             sortEthnic(ca18bl, ca18bb, ca18bw, tw)
-        elif(district == "ca19"):
+        if(district == "ca19"):
             sortEthnic(ca19bl, ca19bb, ca19bw, tw) #done
-        elif(district == "ca20"):
+        if(district == "ca20"):
             sortEthnic(ca20bl, ca20bb, ca20bw, tw)
-        elif(district == "ca21"):
+        if(district == "ca21"):
             sortEthnic(ca21bl, ca21bb, ca21bw, tw)
-        elif(district == "ca22"):
+        if(district == "ca22"):
             sortEthnic(ca22bl, ca22bb, ca22bw, tw)
-        elif(district == "ca23"):
+        if(district == "ca23"):
             sortEthnic(ca23bl, ca23bb, ca23bw, tw)
-        elif(district == "ca24"):
+        if(district == "ca24"):
             sortEthnic(ca24bl, ca24bb, ca24bw, tw)
-        elif(district == "ca25"):
+        if(district == "ca25"):
             sortEthnic(ca25bl, ca25bb, ca25bw, tw)
-        elif(district == "ca26"):
+        if(district == "ca26"):
             sortEthnic(ca26bl, ca26bb, ca26bw, tw) #done
-        elif(district == "ca27"):
+        if(district == "ca27"):
             sortEthnic(ca27bl, ca27bb, ca27bw, tw)
-        elif(district == "ca28"):
+        if(district == "ca28"):
             sortEthnic(ca28bl, ca28bb, ca28bw, tw)
-        elif(district == "ca29"):
+        if(district == "ca29"):
             sortEthnic(ca29bl, ca29bb, ca29bw, tw)
-        elif(district == "ca30"):
+        if(district == "ca30"):
             sortEthnic(ca30bl, ca30bb, ca30bw, tw)
-        elif(district == "ca31"):
+        if(district == "ca31"):
             sortEthnic(ca31bl, ca31bb, ca31bw, tw) #done
-        elif(district == "ca32"):
+        if(district == "ca32"):
             sortEthnic(ca32bl, ca32bb, ca32bw, tw) #done
-        elif(district == "ca33"):
+        if(district == "ca33"):
             sortEthnic(ca33bl, ca33bb, ca33bw, tw)
-        elif(district == "ca34"):
+        if(district == "ca34"):
             sortEthnic(ca34bl, ca34bb, ca34bw, tw)
-        elif(district == "ca35"):
+        if(district == "ca35"):
             sortEthnic(ca35bl, ca35bb, ca35bw, tw) #done
-        elif(district == "ca36"):
+        if(district == "ca36"):
             sortEthnic(ca36bl, ca36bb, ca36bw, tw)
-        elif(district == "ca37"):
+        if(district == "ca37"):
             sortEthnic(ca37bl, ca37bb, ca37bw, tw) #done
-        elif(district == "ca38"):
+        if(district == "ca38"):
             sortEthnic(ca38bl, ca38bb, ca38bw, tw) #done
-        elif(district == "ca39"):
+        if(district == "ca39"):
             sortEthnic(ca39bl, ca39bb, ca39bw, tw)
-        elif(district == "ca40"):
+        if(district == "ca40"):
             sortEthnic(ca40bl, ca40bb, ca40bw, tw) #done
-        elif(district == "ca41"):
+        if(district == "ca41"):
             sortEthnic(ca41bl, ca41bb, ca41bw, tw) #done
-        elif(district == "ca42"):
+        if(district == "ca42"):
             sortEthnic(ca42bl, ca42bb, ca42bw, tw)
-        elif(district == "ca43"):
+        if(district == "ca43"):
             sortEthnic(ca43bl, ca43bb, ca43bw, tw)
-        elif(district == "ca44"):
+        if(district == "ca44"):
             sortEthnic(ca44bl, ca44bb, ca44bw, tw)
-        elif(district == "ca45"):
+        if(district == "ca45"):
             sortEthnic(ca45bl, ca45bb, ca45bw, tw)
-        elif(district == "ca46"):
+        if(district == "ca46"):
             sortEthnic(ca46bl, ca46bb, ca46bw, tw) #done
-        elif(district == "ca47"):
+        if(district == "ca47"):
             sortEthnic(ca47bl, ca47bb, ca47bw, tw)
-        elif(district == "ca48"):
+        if(district == "ca48"):
             sortEthnic(ca48bl, ca48bb, ca48bw, tw) #done
-        elif(district == "ca49"):
+        if(district == "ca49"):
             sortEthnic(ca49bl, ca49bb, ca49bw, tw) #done
-        elif(district == "ca50"):
+        if(district == "ca50"):
             sortEthnic(ca50bl, ca50bb, ca50bw, tw)
-        elif(district == "ca51"):
+        if(district == "ca51"):
             sortEthnic(ca51bl, ca51bb, ca51bw, tw) #done
-        elif(district == "ca52"):
+        if(district == "ca52"):
             sortEthnic(ca52bl, ca52bb, ca52bw, tw) #done
-        elif(district == "ca53"):
+        if(district == "ca53"):
             sortEthnic(ca53bl, ca53bb, ca53bw, tw) #done
-        elif(district == "la1"):
+        if(district == "la1"):
             sortEthnic(la1bl, la1bb, la1bw, tw)
-        elif(district == "la2"):
+        if(district == "la2"):
             sortEthnic(la2bl, la2bb, la2bw, tw) #done
-        elif(district == "la3"):
+        if(district == "la3"):
             sortEthnic(la3bl, la3bb, la3bw, tw)
-        elif(district == "la4"):
+        if(district == "la4"):
             sortEthnic(la4bl, la4bb, la4bw, tw)
-        elif(district == "la5"):
+        if(district == "la5"):
             sortEthnic(la5bl, la5bb, la5bw, tw)
-        elif(district == "la6"):
+        if(district == "la6"):
             sortEthnic(la6bl, la6bb, la6bw, tw)
-        elif(district == "ct1"):
+        if(district == "ct1"):
             sortEthnic(ct1bl, ct1bb, ct1bw, tw)
-        elif(district == "ct2"):
+        if(district == "ct2"):
             sortEthnic(ct2bl, ct2bb, ct2bw, tw) #done
-        elif(district == "ct3"):
+        if(district == "ct3"):
             sortEthnic(ct3bl, ct3bb, ct3bw, tw)
-        elif(district == "ct4"):
+        if(district == "ct4"):
             sortEthnic(ct4bl, ct4bb, ct4bw, tw)	 #done
-        elif(district == "ct5"):
+        if(district == "ct5"):
             sortEthnic(ct5bl, ct5bb, ct5bw, tw)
-        elif(district == "mt1"):
+        if(district == "mt1"):
             sortEthnic(mt1bl, mt1bb, mt1bw, tw) #done
-        elif(district == "ms1"):
+        if(district == "ms1"):
             sortEthnic(ms1bl, ms1bb, ms1bw, tw) #done
-        elif(district == "ms2"):
+        if(district == "ms2"):
             sortEthnic(ms2bl, ms2bb, ms2bw, tw)
-        elif(district == "ms3"):
+        if(district == "ms3"):
             sortEthnic(ms3bl, ms3bb, ms3bw, tw)
-        elif(district == "ms4"):
+        if(district == "ms4"):
             sortEthnic(ms4bl, ms4bb, ms4bw, tw)
-        elif(district == "pa1"):
+        if(district == "pa1"):
             sortEthnic(pa1bl, pa1bb, pa1bw, tw)
-        elif(district == "pa2"):
+        if(district == "pa2"):
             sortEthnic(pa2bl, pa2bb, pa2bw, tw) #done
-        elif(district == "pa3"):
+        if(district == "pa3"):
             sortEthnic(pa3bl, pa3bb, pa3bw, tw)	#done
-        elif(district == "pa4"):
+        if(district == "pa4"):
             sortEthnic(pa4bl, pa4bb, pa4bw, tw)	#done
-        elif(district == "pa5"):
+        if(district == "pa5"):
             sortEthnic(pa5bl, pa5bb, pa5bw, tw) #done
-        elif(district == "pa6"):
+        if(district == "pa6"):
             sortEthnic(pa6bl, pa6bb, pa6bw, tw)
-        elif(district == "pa7"):
+        if(district == "pa7"):
             sortEthnic(pa7bl, pa7bb, pa7bw, tw) #done
-        elif(district == "pa8"):
+        if(district == "pa8"):
             sortEthnic(pa8bl, pa8bb, pa8bw, tw) #done
-        elif(district == "pa9"):
+        if(district == "pa9"):
             sortEthnic(pa9bl, pa9bb, pa9bw, tw)
-        elif(district == "pa10"):
+        if(district == "pa10"):
             sortEthnic(pa10bl, pa10bb, pa10bw, tw) #done
-        elif(district == "pa11"):
+        if(district == "pa11"):
             sortEthnic(pa11bl, pa11bb, pa11bw, tw)
-        elif(district == "pa12"):
+        if(district == "pa12"):
             sortEthnic(pa12bl, pa12bb, pa12bw, tw) #done
-        elif(district == "pa13"):
+        if(district == "pa13"):
             sortEthnic(pa13bl, pa13bb, pa13bw, tw) #done
-        elif(district == "pa14"):
+        if(district == "pa14"):
             sortEthnic(pa14bl, pa14bb, pa14bw, tw)
-        elif(district == "pa15"):
+        if(district == "pa15"):
             sortEthnic(pa15bl, pa15bb, pa15bw, tw) #done
-        elif(district == "pa16"):
+        if(district == "pa16"):
             sortEthnic(pa16bl, pa16bb, pa16bw, tw) #done
-        elif(district == "pa17"):
+        if(district == "pa17"):
             sortEthnic(pa17bl, pa17bb, pa17bw, tw) #done
-        elif(district == "pa18"):
+        if(district == "pa18"):
             sortEthnic(pa18bl, pa18bb, pa18bw, tw) #done
-        elif(district == "oh1"):
+        if(district == "oh1"):
             sortEthnic(oh1bl, oh1bb, oh1bw, tw)
-        elif(district == "oh2"):
+        if(district == "oh2"):
             sortEthnic(oh2bl, oh2bb, oh2bw, tw)
-        elif(district == "oh3"):
+        if(district == "oh3"):
             sortEthnic(oh3bl, oh3bb, oh3bw, tw)
-        elif(district == "oh4"):
+        if(district == "oh4"):
             sortEthnic(oh4bl, oh4bb, oh4bw, tw)
-        elif(district == "oh5"):
+        if(district == "oh5"):
             sortEthnic(oh5bl, oh5bb, oh5bw, tw)
         if(district == "oh6"):
             sortEthnic(oh6bl, oh6bb, oh6bw, tw)
-        elif(district == "oh7"):
+        if(district == "oh7"):
             sortEthnic(oh7bl, oh7bb, oh7bw, tw)
-        elif(district == "oh8"):
+        if(district == "oh8"):
             sortEthnic(oh8bl, oh8bb, oh8bw, tw)
-        elif(district == "oh9"):
+        if(district == "oh9"):
             sortEthnic(oh9bl, oh9bb, oh9bw, tw)
-        elif(district == "oh10"):
+        if(district == "oh10"):
             sortEthnic(oh10bl, oh10bb, oh10bw, tw)
-        elif(district == "oh11"):
+        if(district == "oh11"):
             sortEthnic(oh11bl, oh11bb, oh11bw, tw)
-        elif(district == "oh12"):
+        if(district == "oh12"):
             sortEthnic(oh12bl, oh12bb, oh12bw, tw)
-        elif(district == "oh13"):
+        if(district == "oh13"):
             sortEthnic(oh13bl, oh13bb, oh13bw, tw)
-        elif(district == "oh14"):
+        if(district == "oh14"):
             sortEthnic(oh14bl, oh14bb, oh14bw, tw)
-        elif(district == "oh15"):
+        if(district == "oh15"):
             sortEthnic(oh15bl, oh15bb, oh15bw, tw)
-        elif(district == "oh16"):
+        if(district == "oh16"):
             sortEthnic(oh16bl, oh16bb, oh16bw, tw)
-        elif(district == "fl1"):
+        if(district == "fl1"):
             sortEthnic(fl1bl, fl1bb, fl1bw, tw)
-        elif(district == "fl2"):
+        if(district == "fl2"):
             sortEthnic(fl2bl, fl2bb, fl2bw, tw)
-        elif(district == "fl3"):
+        if(district == "fl3"):
             sortEthnic(fl3bl, fl3bb, fl3bw, tw)
-        elif(district == "fl4"):
+        if(district == "fl4"):
             sortEthnic(fl4bl, fl4bb, fl4bw, tw)
-        elif(district == "fl5"):
+        if(district == "fl5"):
             sortEthnic(fl5bl, fl5bb, fl5bw, tw) #done
-        elif(district == "fl6"):
+        if(district == "fl6"):
             sortEthnic(fl6bl, fl6bb, fl6bw, tw)
-        elif(district == "fl7"):
+        if(district == "fl7"):
             sortEthnic(fl7bl, fl7bb, fl7bw, tw)
-        elif(district == "fl8"):
+        if(district == "fl8"):
             sortEthnic(fl8bl, fl8bb, fl8bw, tw)
-        elif(district == "fl9"):
+        if(district == "fl9"):
             sortEthnic(fl9bl, fl9bb, fl9bw, tw)
-        elif(district == "fl10"):
+        if(district == "fl10"):
             sortEthnic(fl10bl, fl10bb, fl10bw, tw)
-        elif(district == "fl11"):
+        if(district == "fl11"):
             sortEthnic(fl11bl, fl11bb, fl11bw, tw)
-        elif(district == "fl12"):
+        if(district == "fl12"):
             sortEthnic(fl12bl, fl12bb, fl12bw, tw)
-        elif(district == "fl13"):
+        if(district == "fl13"):
             sortEthnic(fl13bl, fl13bb, fl13bw, tw)
-        elif(district == "fl14"):
+        if(district == "fl14"):
             sortEthnic(fl14bl, fl14bb, fl14bw, tw)
-        elif(district == "fl15"):
+        if(district == "fl15"):
             sortEthnic(fl15bl, fl15bb, fl15bw, tw)
-        elif(district == "fl16"):
+        if(district == "fl16"):
             sortEthnic(fl16bl, fl16bb, fl16bw, tw)
-        elif(district == "fl17"):
+        if(district == "fl17"):
             sortEthnic(fl17bl, fl17bb, fl17bw, tw)
-        elif(district == "fl18"):
+        if(district == "fl18"):
             sortEthnic(fl18bl, fl18bb, fl18bw, tw)
-        elif(district == "fl19"):
+        if(district == "fl19"):
             sortEthnic(fl19bl, fl19bb, fl19bw, tw)
-        elif(district == "fl20"):
+        if(district == "fl20"):
             sortEthnic(fl20bl, fl20bb, fl20bw, tw)
-        elif(district == "fl21"):
+        if(district == "fl21"):
             sortEthnic(fl21bl, fl21bb, fl21bw, tw) #done
-        elif(district == "fl22"):
+        if(district == "fl22"):
             sortEthnic(fl22bl, fl22bb, fl22bw, tw)
-        elif(district == "fl23"):
+        if(district == "fl23"):
             sortEthnic(fl23bl, fl23bb, fl23bw, tw)
-        elif(district == "fl24"):
+        if(district == "fl24"):
             sortEthnic(fl24bl, fl24bb, fl24bw, tw)
-        elif(district == "fl25"):
+        if(district == "fl25"):
             sortEthnic(fl25bl, fl25bb, fl25bw, tw) #done
-        elif(district == "fl26"):
+        if(district == "fl26"):
             sortEthnic(fl26bl, fl26bb, fl26bw, tw) #done
-        elif(district == "fl27"):
+        if(district == "fl27"):
             sortEthnic(fl27bl, fl27bb, fl27bw, tw)
-        elif(district == "wa1"):
+        if(district == "wa1"):
             sortEthnic(wa1bl, wa1bb, wa1bw, tw)
-        elif(district == "wa2"):
+        if(district == "wa2"):
             sortEthnic(wa2bl, wa2bb, wa2bw, tw)
-        elif(district == "wa3"):
+        if(district == "wa3"):
             sortEthnic(wa3bl, wa3bb, wa3bw, tw)
-        elif(district == "wa4"):
+        if(district == "wa4"):
             sortEthnic(wa4bl, wa4bb, wa4bw, tw)
-        elif(district == "wa5"):
+        if(district == "wa5"):
             sortEthnic(wa5bl, wa5bb, wa5bw, tw)
-        elif(district == "wa6"):
+        if(district == "wa6"):
             sortEthnic(wa6bl, wa6bb, wa6bw, tw)
-        elif(district == "wa7"):
+        if(district == "wa7"):
             sortEthnic(wa7bl, wa7bb, wa7bw, tw)
-        elif(district == "wa8"):
+        if(district == "wa8"):
             sortEthnic(wa8bl, wa8bb, wa8bw, tw)
-        elif(district == "wa9"):
+        if(district == "wa9"):
             sortEthnic(wa9bl, wa9bb, wa9bw, tw)
-        elif(district == "wa10"):
+        if(district == "wa10"):
             sortEthnic(wa10bl, wa10bb, wa10bw, tw)
-        elif(district == "hi1"):
+        if(district == "hi1"):
             sortEthnic(hi1bl, hi1bb, hi1bw, tw) #done
-        elif(district == "hi2"):
+        if(district == "hi2"):
             sortEthnic(hi2bl, hi2bb, hi2bw, tw) #done
-        elif(district == "nj1"):
+        if(district == "nj1"):
             sortEthnic(nj1bl, nj1bb, nj1bw, tw) #done
-        elif(district == "nj2"):
+        if(district == "nj2"):
             sortEthnic(nj2bl, nj2bb, nj2bw, tw) #done
-        elif(district == "nj3"):
+        if(district == "nj3"):
             sortEthnic(nj3bl, nj3bb, nj3bw, tw)	#done
-        elif(district == "nj4"):
+        if(district == "nj4"):
             sortEthnic(nj4bl, nj4bb, nj4bw, tw)	#done
-        elif(district == "nj5"):
+        if(district == "nj5"):
             sortEthnic(nj5bl, nj5bb, nj5bw, tw) #done
-        elif(district == "nj6"):
+        if(district == "nj6"):
             sortEthnic(nj6bl, nj6bb, nj6bw, tw) #done
-        elif(district == "nj7"):
+        if(district == "nj7"):
             sortEthnic(nj7bl, nj7bb, nj7bw, tw) #done
-        elif(district == "nj8"):
+        if(district == "nj8"):
             sortEthnic(nj8bl, nj8bb, nj8bw, tw) #done
-        elif(district == "nj9"):
+        if(district == "nj9"):
             sortEthnic(nj9bl, nj9bb, nj9bw, tw) #done
-        elif(district == "nj10"):
+        if(district == "nj10"):
             sortEthnic(nj10bl, nj10bb, nj10bw, tw) #done
-        elif(district == "nj11"):
+        if(district == "nj11"):
             sortEthnic(nj11bl, nj11bb, nj11bw, tw) #done
-        elif(district == "nj12"):
+        if(district == "nj12"):
             sortEthnic(nj12bl, nj12bb, nj12bw, tw) #done
-        elif(district == "ny1"):
+        if(district == "ny1"):
             sortEthnic(ny1bl, ny1bb, ny1bw, tw) #done
-        elif(district == "ny2"):
+        if(district == "ny2"):
             sortEthnic(ny2bl, ny2bb, ny2bw, tw) #done
-        elif(district == "ny3"):
+        if(district == "ny3"):
             sortEthnic(ny3bl, ny3bb, ny3bw, tw)
-        elif(district == "ny4"):
+        if(district == "ny4"):
             sortEthnic(ny4bl, ny4bb, ny4bw, tw)
-        elif(district == "ny5"):
+        if(district == "ny5"):
             sortEthnic(ny5bl, ny5bb, ny5bw, tw)
-        elif(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
+        if(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
             sortEthnic(ny6bl, ny6bb, ny6bw, tw)
             sortEthnic(ny7bl, ny7bb, ny7bw, tw)
             sortEthnic(ny8bl, ny8bb, ny8bw, tw)
@@ -1529,469 +1529,469 @@ for tw in cursor:
             sortEthnic(ny13bl, ny13bb, ny13bw, tw)
             sortEthnic(ny14bl, ny14bb, ny14bw, tw)
             sortEthnic(ny15bl, ny15bb, ny15bw, tw)
-        elif(district == "ny16"):
+        if(district == "ny16"):
             sortEthnic(ny16bl, ny16bb, ny16bw, tw)
-        elif(district == "ny17"):
+        if(district == "ny17"):
             sortEthnic(ny17bl, ny17bb, ny17bw, tw) #done
-        elif(district == "ny18"):
+        if(district == "ny18"):
             sortEthnic(ny18bl, ny18bb, ny18bw, tw)
-        elif(district == "ny19"):
+        if(district == "ny19"):
             sortEthnic(ny19bl, ny19bb, ny19bw, tw) #done
-        elif(district == "ny20"):
+        if(district == "ny20"):
             sortEthnic(ny20bl, ny20bb, ny20bw, tw)
-        elif(district == "ny21"):
+        if(district == "ny21"):
             sortEthnic(ny21bl, ny21bb, ny21bw, tw) #done
-        elif(district == "ny22"):
+        if(district == "ny22"):
             sortEthnic(ny22bl, ny22bb, ny22bw, tw) #done
-        elif(district == "ny23"):
+        if(district == "ny23"):
             sortEthnic(ny23bl, ny23bb, ny23bw, tw)
-        elif(district == "ny24"):
+        if(district == "ny24"):
             sortEthnic(ny24bl, ny24bb, ny24bw, tw)
-        elif(district == "ny25"):
+        if(district == "ny25"):
             sortEthnic(ny25bl, ny25bb, ny25bw, tw)
-        elif(district == "ny26"):
+        if(district == "ny26"):
             sortEthnic(ny26bl, ny26bb, ny26bw, tw)
-        elif(district == "ny27"):
+        if(district == "ny27"):
             sortEthnic(ny27bl, ny27bb, ny27bw, tw) #done
-        elif(district == "ri1"):
+        if(district == "ri1"):
             sortEthnic(ri1bl, ri1bb, ri1bw, tw)	#done
-        elif(district == "ri2"):
+        if(district == "ri2"):
             sortEthnic(ri2bl, ri2bb, ri2bw, tw)
-        elif(district == "mn1"):
+        if(district == "mn1"):
             sortEthnic(mn1bl, mn1bb, mn1bw, tw) #done
-        elif(district == "mn2"):
+        if(district == "mn2"):
             sortEthnic(mn2bl, mn2bb, mn2bw, tw)
-        elif(district == "mn3"):
+        if(district == "mn3"):
             sortEthnic(mn3bl, mn3bb, mn3bw, tw)	#done
-        elif(district == "mn4"):
+        if(district == "mn4"):
             sortEthnic(mn4bl, mn4bb, mn4bw, tw)
-        elif(district == "mn5"):
+        if(district == "mn5"):
             sortEthnic(mn5bl, mn5bb, mn5bw, tw) #done
-        elif(district == "mn6"):
+        if(district == "mn6"):
             sortEthnic(mn6bl, mn6bb, mn6bw, tw) #done
-        elif(district == "mn7"):
+        if(district == "mn7"):
             sortEthnic(mn7bl, mn7bb, mn7bw, tw) #done
-        elif(district == "mn8"):
+        if(district == "mn8"):
             sortEthnic(mn8bl, mn8bb, mn8bw, tw)
-        elif(district == "mi1"):
+        if(district == "mi1"):
             sortEthnic(mi1bl, mi1bb, mi1bw, tw)
-        elif(district == "mi2"):
+        if(district == "mi2"):
             sortEthnic(mi2bl, mi2bb, mi2bw, tw) #done
-        elif(district == "mi3"):
+        if(district == "mi3"):
             sortEthnic(mi3bl, mi3bb, mi3bw, tw)
-        elif(district == "mi4"):
+        if(district == "mi4"):
             sortEthnic(mi4bl, mi4bb, mi4bw, tw)	#done
-        elif(district == "mi5"):
+        if(district == "mi5"):
             sortEthnic(mi5bl, mi5bb, mi5bw, tw) #done
-        elif(district == "mi6"):
+        if(district == "mi6"):
             sortEthnic(mi6bl, mi6bb, mi6bw, tw)
-        elif(district == "mi7"):
+        if(district == "mi7"):
             sortEthnic(mi7bl, mi7bb, mi7bw, tw)
-        elif(district == "mi8"):
+        if(district == "mi8"):
             sortEthnic(mi8bl, mi8bb, mi8bw, tw)
-        elif(district == "mi9"):
+        if(district == "mi9"):
             sortEthnic(mi9bl, mi9bb, mi9bw, tw) #done
-        elif(district == "mi10"):
+        if(district == "mi10"):
             sortEthnic(mi10bl, mi10bb, mi10bw, tw) #done
-        elif(district == "mi11"):
+        if(district == "mi11"):
             sortEthnic(mi11bl, mi11bb, mi11bw, tw)
-        elif(district == "mi12"):
+        if(district == "mi12"):
             sortEthnic(mi12bl, mi12bb, mi12bw, tw)
-        elif(district == "mi13"):
+        if(district == "mi13"):
             sortEthnic(mi13bl, mi13bb, mi13bw, tw) #done
-        elif(district == "mi14"):
+        if(district == "mi14"):
             sortEthnic(mi14bl, mi14bb, mi14bw, tw) #done
-        elif(district == "wi1"):
+        if(district == "wi1"):
             sortEthnic(wi1bl, wi1bb, wi1bw, tw)
-        elif(district == "wi2"):
+        if(district == "wi2"):
             sortEthnic(wi2bl, wi2bb, wi2bw, tw)
-        elif(district == "wi3"):
+        if(district == "wi3"):
             sortEthnic(wi3bl, wi3bb, wi3bw, tw)	#done
-        elif(district == "wi4"):
+        if(district == "wi4"):
             sortEthnic(wi4bl, wi4bb, wi4bw, tw)
-        elif(district == "wi5"):
+        if(district == "wi5"):
             sortEthnic(wi5bl, wi5bb, wi5bw, tw) #done
-        elif(district == "wi6"):
+        if(district == "wi6"):
             sortEthnic(wi6bl, wi6bb, wi6bw, tw)
-        elif(district == "wi7"):
+        if(district == "wi7"):
             sortEthnic(wi7bl, wi7bb, wi7bw, tw) #done
-        elif(district == "wi8"):
+        if(district == "wi8"):
             sortEthnic(wi8bl, wi8bb, wi8bw, tw)
-        elif(district == "or1"):
+        if(district == "or1"):
             sortEthnic(or1bl, or1bb, or1bw, tw)
-        elif(district == "or2"):
+        if(district == "or2"):
             sortEthnic(or2bl, or2bb, or2bw, tw) #done
-        elif(district == "or3"):
+        if(district == "or3"):
             sortEthnic(or3bl, or3bb, or3bw, tw)
-        elif(district == "or4"):
+        if(district == "or4"):
             sortEthnic(or4bl, or4bb, or4bw, tw)
-        elif(district == "or5"):
+        if(district == "or5"):
             sortEthnic(or5bl, or5bb, or5bw, tw)
-        elif(district == "md1"):
+        if(district == "md1"):
             sortEthnic(md1bl, md1bb, md1bw, tw) #done
-        elif(district == "md2"):
+        if(district == "md2"):
             sortEthnic(md2bl, md2bb, md2bw, tw)
-        elif(district == "md3"):
+        if(district == "md3"):
             sortEthnic(md3bl, md3bb, md3bw, tw)	#done
-        elif(district == "md4"):
+        if(district == "md4"):
             sortEthnic(md4bl, md4bb, md4bw, tw)	#done
-        elif(district == "md5"):
+        if(district == "md5"):
             sortEthnic(md5bl, md5bb, md5bw, tw) #done
-        elif(district == "md6"):
+        if(district == "md6"):
             sortEthnic(md6bl, md6bb, md6bw, tw) #done
-        elif(district == "md7"):
+        if(district == "md7"):
             sortEthnic(md7bl, md7bb, md7bw, tw)
-        elif(district == "md8"):
+        if(district == "md8"):
             sortEthnic(md8bl, md8bb, md8bw, tw)
-        elif(district == "ma1"):
+        if(district == "ma1"):
             sortEthnic(ma1bl, ma1bb, ma1bw, tw) #done
-        elif(district == "ma2"):
+        if(district == "ma2"):
             sortEthnic(ma2bl, ma2bb, ma2bw, tw)
-        elif(district == "ma3"):
+        if(district == "ma3"):
             sortEthnic(ma3bl, ma3bb, ma3bw, tw)	 #done
-        elif(district == "ma4"):
+        if(district == "ma4"):
             sortEthnic(ma4bl, ma4bb, ma4bw, tw)
-        elif(district == "ma5"):
+        if(district == "ma5"):
             sortEthnic(ma5bl, ma5bb, ma5bw, tw)
-        elif(district == "ma6"):
+        if(district == "ma6"):
             sortEthnic(ma6bl, ma6bb, ma6bw, tw)
-        elif(district == "ma7"):
+        if(district == "ma7"):
             sortEthnic(ma7bl, ma7bb, ma7bw, tw)
-        elif(district == "ma8"):
+        if(district == "ma8"):
             sortEthnic(ma8bl, ma8bb, ma8bw, tw)
-        elif(district == "ma9"):
+        if(district == "ma9"):
             sortEthnic(ma9bl, ma9bb, ma9bw, tw) #done
-        elif(district == "me1"):
+        if(district == "me1"):
             sortEthnic(me1bl, me1bb, me1bw, tw) #done
-        elif(district == "me2"):
+        if(district == "me2"):
             sortEthnic(me2bl, me2bb, me2bw, tw) #done
-        elif(district == "id1"):
+        if(district == "id1"):
             sortEthnic(id1bl, id1bb, id1bw, tw) #done
-        elif(district == "id2"):
+        if(district == "id2"):
             sortEthnic(id2bl, id2bb, id2bw, tw) #done
-        elif(district == "nc1"):
+        if(district == "nc1"):
             sortEthnic(nc1bl, nc1bb, nc1bw, tw)
-        elif(district == "nc2"):
+        if(district == "nc2"):
             sortEthnic(nc2bl, nc2bb, nc2bw, tw)
-        elif(district == "nc3"):
+        if(district == "nc3"):
             sortEthnic(nc3bl, nc3bb, nc3bw, tw)
-        elif(district == "nc4"):
+        if(district == "nc4"):
             sortEthnic(nc4bl, nc4bb, nc4bw, tw)
-        elif(district == "nc5"):
+        if(district == "nc5"):
             sortEthnic(nc5bl, nc5bb, nc5bw, tw)
-        elif(district == "nc6"):
+        if(district == "nc6"):
             sortEthnic(nc6bl, nc6bb, nc6bw, tw)
-        elif(district == "nc7"):
+        if(district == "nc7"):
             sortEthnic(nc7bl, nc7bb, nc7bw, tw)
-        elif(district == "nc8"):
+        if(district == "nc8"):
             sortEthnic(nc8bl, nc8bb, nc8bw, tw) #done
-        elif(district == "nc9"):
+        if(district == "nc9"):
             sortEthnic(nc9bl, nc9bb, nc9bw, tw)
-        elif(district == "nc10"):
+        if(district == "nc10"):
             sortEthnic(nc10bl, nc10bb, nc10bw, tw)
-        elif(district == "nc11"):
+        if(district == "nc11"):
             sortEthnic(nc11bl, nc11bb, nc11bw, tw)
-        elif(district == "nc12"):
+        if(district == "nc12"):
             sortEthnic(nc12bl, nc12bb, nc12bw, tw)
-        elif(district == "nc13"):
+        if(district == "nc13"):
             sortEthnic(nc13bl, nc13bb, nc13bw, tw)
-        elif(district == "nh1"):
+        if(district == "nh1"):
             sortEthnic(nh1bl, nh1bb, nh1bw, tw) #done
-        elif(district == "nh2"):
+        if(district == "nh2"):
             sortEthnic(nh2bl, nh2bb, nh2bw, tw) #done
-        elif(district == "nv1"):
+        if(district == "nv1"):
             sortEthnic(nv1bl, nv1bb, nv1bw, tw) #done
-        elif(district == "nv2"):
+        if(district == "nv2"):
             sortEthnic(nv2bl, nv2bb, nv2bw, tw)
-        elif(district == "nv3"):
+        if(district == "nv3"):
             sortEthnic(nv3bl, nv3bb, nv3bw, tw)
-        elif(district == "nv4"):
+        if(district == "nv4"):
             sortEthnic(nv4bl, nv4bb, nv4bw, tw)
-        elif(district == "co1"):
+        if(district == "co1"):
             sortEthnic(co1bl, co1bb, co1bw, tw)
-        elif(district == "co2"):
+        if(district == "co2"):
             sortEthnic(co2bl, co2bb, co2bw, tw) #done
-        elif(district == "co3"):
+        if(district == "co3"):
             sortEthnic(co3bl, co3bb, co3bw, tw)
-        elif(district == "co4"):
+        if(district == "co4"):
             sortEthnic(co4bl, co4bb, co4bw, tw)
-        elif(district == "co5"):
+        if(district == "co5"):
             sortEthnic(co5bl, co5bb, co5bw, tw)
-        elif(district == "co6"):
+        if(district == "co6"):
             sortEthnic(co6bl, co6bb, co6bw, tw) #done
-        elif(district == "co7"):
+        if(district == "co7"):
             sortEthnic(co7bl, co7bb, co7bw, tw) #done
-        elif(district == "nm1"):
+        if(district == "nm1"):
             sortEthnic(nm1bl, nm1bb, nm1bw, tw) #done
-        elif(district == "nm2"):
+        if(district == "nm2"):
             sortEthnic(nm2bl, nm2bb, nm2bw, tw)
-        elif(district == "nm3"):
+        if(district == "nm3"):
             sortEthnic(nm3bl, nm3bb, nm3bw, tw) #done
-        elif(district == "az1"):
+        if(district == "az1"):
             sortEthnic(az1bl, az1bb, az1bw, tw)
-        elif(district == "az2"):
+        if(district == "az2"):
             sortEthnic(az2bl, az2bb, az2bw, tw)
-        elif(district == "az3"):
+        if(district == "az3"):
             sortEthnic(az3bl, az3bb, az3bw, tw)		#done
-        elif(district == "az4"):
+        if(district == "az4"):
             sortEthnic(az4bl, az4bb, az4bw, tw)
-        elif(district == "az5"):
+        if(district == "az5"):
             sortEthnic(az5bl, az5bb, az5bw, tw)
-        elif(district == "az6"):
+        if(district == "az6"):
             sortEthnic(az6bl, az6bb, az6bw, tw) #done
-        elif(district == "az7"):
+        if(district == "az7"):
             sortEthnic(az7bl, az7bb, az7bw, tw)		#done
-        elif(district == "az8"):
+        if(district == "az8"):
             sortEthnic(az8bl, az8bb, az8bw, tw)
-        elif(district == "az9"):
+        if(district == "az9"):
             sortEthnic(az9bl, az9bb, az9bw, tw)			#done
-        elif(district == "ga1"):
+        if(district == "ga1"):
             sortEthnic(ga1bl, ga1bb, ga1bw, tw)
-        elif(district == "ga2"):
+        if(district == "ga2"):
             sortEthnic(ga2bl, ga2bb, ga2bw, tw)
-        elif(district == "ga3"):
+        if(district == "ga3"):
             sortEthnic(ga3bl, ga3bb, ga3bw, tw)	#done
-        elif(district == "ga4"):
+        if(district == "ga4"):
             sortEthnic(ga4bl, ga4bb, ga4bw, tw)
-        elif(district == "ga5"):
+        if(district == "ga5"):
             sortEthnic(ga5bl, ga5bb, ga5bw, tw)
-        elif(district == "ga6"):
+        if(district == "ga6"):
             sortEthnic(ga6bl, ga6bb, ga6bw, tw)
-        elif(district == "ga7"):
+        if(district == "ga7"):
             sortEthnic(ga7bl, ga7bb, ga7bw, tw)
-        elif(district == "ga8"):
+        if(district == "ga8"):
             sortEthnic(ga8bl, ga8bb, ga8bw, tw)
-        elif(district == "ga9"):
+        if(district == "ga9"):
             sortEthnic(ga9bl, ga9bb, ga9bw, tw)
-        elif(district == "ga10"):
+        if(district == "ga10"):
             sortEthnic(ga10bl, ga10bb, ga10bw, tw)
-        elif(district == "ga11"):
+        if(district == "ga11"):
             sortEthnic(ga11bl, ga11bb, ga11bw, tw)
-        elif(district == "ga12"):
+        if(district == "ga12"):
             sortEthnic(ga12bl, ga12bb, ga12bw, tw)
-        elif(district == "ga13"):
+        if(district == "ga13"):
             sortEthnic(ga13bl, ga13bb, ga13bw, tw)
-        elif(district == "ga14"):
+        if(district == "ga14"):
             sortEthnic(ga14bl, ga14bb, ga14bw, tw)
-        elif(district == "tx1"):
+        if(district == "tx1"):
             sortEthnic(tx1bl, tx1bb, tx1bw, tw) #done
-        elif(district == "tx2"):
+        if(district == "tx2"):
             sortEthnic(tx2bl, tx2bb, tx2bw, tw)
-        elif(district == "tx3"):
+        if(district == "tx3"):
             sortEthnic(tx3bl, tx3bb, tx3bw, tw)
-        elif(district == "tx4"):
+        if(district == "tx4"):
             sortEthnic(tx4bl, tx4bb, tx4bw, tw)
-        elif(district == "tx5"):
+        if(district == "tx5"):
             sortEthnic(tx5bl, tx5bb, tx5bw, tw) #done
-        elif(district == "tx6"):
+        if(district == "tx6"):
             sortEthnic(tx6bl, tx6bb, tx6bw, tw) #done
-        elif(district == "tx7"):
+        if(district == "tx7"):
             sortEthnic(tx7bl, tx7bb, tx7bw, tw)
-        elif(district == "tx8"):
+        if(district == "tx8"):
             sortEthnic(tx8bl, tx8bb, tx8bw, tw)
-        elif(district == "tx9"):
+        if(district == "tx9"):
             sortEthnic(tx9bl, tx9bb, tx9bw, tw)
-        elif(district == "tx10"):
+        if(district == "tx10"):
             sortEthnic(tx10bl, tx10bb, tx10bw, tw) #done
-        elif(district == "tx11"):
+        if(district == "tx11"):
             sortEthnic(tx11bl, tx11bb, tx11bw, tw)
-        elif(district == "tx12"):
+        if(district == "tx12"):
             sortEthnic(tx12bl, tx12bb, tx12bw, tw)
-        elif(district == "tx13"):
+        if(district == "tx13"):
             sortEthnic(tx13bl, tx13bb, tx13bw, tw)
-        elif(district == "tx14"):
+        if(district == "tx14"):
             sortEthnic(tx14bl, tx14bb, tx14bw, tw)
-        elif(district == "tx15"):
+        if(district == "tx15"):
             sortEthnic(tx15bl, tx15bb, tx15bw, tw)
-        elif(district == "tx16"):
+        if(district == "tx16"):
             sortEthnic(tx16bl, tx16bb, tx16bw, tw)
-        elif(district == "tx17"):
+        if(district == "tx17"):
             sortEthnic(tx17bl, tx17bb, tx17bw, tw)
-        elif(district == "tx18"):
+        if(district == "tx18"):
             sortEthnic(tx18bl, tx18bb, tx18bw, tw)
-        elif(district == "tx19"):
+        if(district == "tx19"):
             sortEthnic(tx19bl, tx19bb, tx19bw, tw)
-        elif(district == "tx20"):
+        if(district == "tx20"):
             sortEthnic(tx20bl, tx20bb, tx20bw, tw)
-        elif(district == "tx21"):
+        if(district == "tx21"):
             sortEthnic(tx21bl, tx21bb, tx21bw, tw)
-        elif(district == "tx22"):
+        if(district == "tx22"):
             sortEthnic(tx22bl, tx22bb, tx22bw, tw)
-        elif(district == "tx23"):
+        if(district == "tx23"):
             sortEthnic(tx23bl, tx23bb, tx23bw, tw)
-        elif(district == "tx24"):
+        if(district == "tx24"):
             sortEthnic(tx24bl, tx24bb, tx24bw, tw) #done
-        elif(district == "tx25"):
+        if(district == "tx25"):
             sortEthnic(tx25bl, tx25bb, tx25bw, tw)
-        elif(district == "tx26"):
+        if(district == "tx26"):
             sortEthnic(tx26bl, tx26bb, tx26bw, tw)
-        elif(district == "tx27"):
+        if(district == "tx27"):
             sortEthnic(tx27bl, tx27bb, tx27bw, tw)
-        elif(district == "tx28"):
+        if(district == "tx28"):
             sortEthnic(tx28bl, tx28bb, tx28bw, tw)
-        elif(district == "tx29"):
+        if(district == "tx29"):
             sortEthnic(tx29bl, tx29bb, tx29bw, tw)
-        elif(district == "tx30"):
+        if(district == "tx30"):
             sortEthnic(tx30bl, tx30bb, tx30bw, tw)
-        elif(district == "tx31"):
+        if(district == "tx31"):
             sortEthnic(tx31bl, tx31bb, tx31bw, tw)
-        elif(district == "tx32"):
+        if(district == "tx32"):
             sortEthnic(tx32bl, tx32bb, tx32bw, tw) #done
-        elif(district == "tx33"):
+        if(district == "tx33"):
             sortEthnic(tx33bl, tx33bb, tx33bw, tw)
-        elif(district == "tx34"):
+        if(district == "tx34"):
             sortEthnic(tx34bl, tx34bb, tx34bw, tw)
-        elif(district == "tx35"):
+        if(district == "tx35"):
             sortEthnic(tx35bl, tx35bb, tx35bw, tw)
-        elif(district == "tx36"):
+        if(district == "tx36"):
             sortEthnic(tx36bl, tx36bb, tx36bw, tw)
-        elif(district == "in1"):
+        if(district == "in1"):
             sortEthnic(in1bl, in1bb, in1bw, tw)
-        elif(district == "in2"):
+        if(district == "in2"):
             sortEthnic(in2bl, in2bb, in2bw, tw)
-        elif(district == "in3"):
+        if(district == "in3"):
             sortEthnic(in3bl, in3bb, in3bw, tw)	 #done
-        elif(district == "in4"):
+        if(district == "in4"):
             sortEthnic(in4bl, in4bb, in4bw, tw)
-        elif(district == "in5"):
+        if(district == "in5"):
             sortEthnic(in5bl, in5bb, in5bw, tw)
-        elif(district == "in6"):
+        if(district == "in6"):
             sortEthnic(in6bl, in6bb, in6bw, tw)
-        elif(district == "in7"):
+        if(district == "in7"):
             sortEthnic(in7bl, in7bb, in7bw, tw)
-        elif(district == "in8"):
+        if(district == "in8"):
             sortEthnic(in8bl, in8bb, in8bw, tw)
-        elif(district == "in9"):
+        if(district == "in9"):
             sortEthnic(in9bl, in9bb, in9bw, tw)
-        elif(district == "va1"):
+        if(district == "va1"):
             sortEthnic(va1bl, va1bb, va1bw, tw)
-        elif(district == "va2"):
+        if(district == "va2"):
             sortEthnic(va2bl, va2bb, va2bw, tw)
-        elif(district == "va3"):
+        if(district == "va3"):
             sortEthnic(va3bl, va3bb, va3bw, tw)
-        elif(district == "va4"):
+        if(district == "va4"):
             sortEthnic(va4bl, va4bb, va4bw, tw)	#done
-        elif(district == "va5"):
+        if(district == "va5"):
             sortEthnic(va5bl, va5bb, va5bw, tw)
-        elif(district == "va6"):
+        if(district == "va6"):
             sortEthnic(va6bl, va6bb, va6bw, tw)
-        elif(district == "va7"):
+        if(district == "va7"):
             sortEthnic(va7bl, va7bb, va7bw, tw)
-        elif(district == "va8"):
+        if(district == "va8"):
             sortEthnic(va8bl, va8bb, va8bw, tw)
-        elif(district == "va9"):
+        if(district == "va9"):
             sortEthnic(va9bl, va9bb, va9bw, tw)
-        elif(district == "va10"):
+        if(district == "va10"):
             sortEthnic(va10bl, va10bb, va10bw, tw)
-        elif(district == "va11"):
+        if(district == "va11"):
             sortEthnic(va11bl, va11bb, va11bw, tw)
-        elif(district == "il1"):
+        if(district == "il1"):
             sortEthnic(il1bl, il1bb, il1bw, tw)
-        elif(district == "il2"):
+        if(district == "il2"):
             sortEthnic(il2bl, il2bb, il2bw, tw)
-        elif(district == "il3"):
+        if(district == "il3"):
             sortEthnic(il3bl, il3bb, il3bw, tw)
-        elif(district == "il4"):
+        if(district == "il4"):
             sortEthnic(il4bl, il4bb, il4bw, tw)	#done
-        elif(district == "il5"):
+        if(district == "il5"):
             sortEthnic(il5bl, il5bb, il5bw, tw)
-        elif(district == "il6"):
+        if(district == "il6"):
             sortEthnic(il6bl, il6bb, il6bw, tw)
-        elif(district == "il7"):
+        if(district == "il7"):
             sortEthnic(il7bl, il7bb, il7bw, tw)
-        elif(district == "il8"):
+        if(district == "il8"):
             sortEthnic(il8bl, il8bb, il8bw, tw)
-        elif(district == "il9"):
+        if(district == "il9"):
             sortEthnic(il9bl, il9bb, il9bw, tw)
-        elif(district == "il10"):
+        if(district == "il10"):
             sortEthnic(il10bl, il10bb, il10bw, tw) #done
-        elif(district == "il11"):
+        if(district == "il11"):
             sortEthnic(il11bl, il11bb, il11bw, tw)
-        elif(district == "il12"):
+        if(district == "il12"):
             sortEthnic(il12bl, il12bb, il12bw, tw) #done
-        elif(district == "il13"):
+        if(district == "il13"):
             sortEthnic(il13bl, il13bb, il13bw, tw)
-        elif(district == "il14"):
+        if(district == "il14"):
             sortEthnic(il14bl, il14bb, il14bw, tw)#done
-        elif(district == "il15"):
+        if(district == "il15"):
             sortEthnic(il15bl, il15bb, il15bw, tw) #done
-        elif(district == "il16"):
+        if(district == "il16"):
             sortEthnic(il16bl, il16bb, il16bw, tw)
-        elif(district == "il17"):
+        if(district == "il17"):
             sortEthnic(il17bl, il17bb, il17bw, tw)
-        elif(district == "il18"):
+        if(district == "il18"):
             sortEthnic(il18bl, il18bb, il18bw, tw)
-        elif(district == "de1"):
+        if(district == "de1"):
             sortEthnic(de1bl, de1bb, de1bw, tw) #done
-        elif(district == "vt1"):
+        if(district == "vt1"):
             sortEthnic(vt1bl, vt1bb, vt1bw, tw) #done
-        elif(district == "ut1"):
+        if(district == "ut1"):
             sortEthnic(ut1bl, ut1bb, ut1bw, tw)
-        elif(district == "ut2"):
+        if(district == "ut2"):
             sortEthnic(ut2bl, ut2bb, ut2bw, tw)
-        elif(district == "ut3"):
+        if(district == "ut3"):
             sortEthnic(ut3bl, ut3bb, ut3bw, tw)
-        elif(district == "ut4"):
+        if(district == "ut4"):
             sortEthnic(ut4bl, ut4bb, ut4bw, tw)
-        elif(district == "ne1"):
+        if(district == "ne1"):
             sortEthnic(ne1bl, ne1bb, ne1bw, tw)
-        elif(district == "ne2"):
+        if(district == "ne2"):
             sortEthnic(ne2bl, ne2bb, ne2bw, tw)
-        elif(district == "ne3"):
+        if(district == "ne3"):
             sortEthnic(ne3bl, ne3bb, ne3bw, tw)	#done
-        elif(district == "ak1"):
+        if(district == "ak1"):
             sortEthnic(ak1bl, ak1bb, ak1bw, tw) #done
-        elif(district == "wy1"):
+        if(district == "wy1"):
             sortEthnic(wy1bl, wy1bb, wy1bw, tw) #done
-        elif(district == "al1"):
+        if(district == "al1"):
             sortEthnic(al1bl, al1bb, al1bw, tw)
-        elif(district == "al2"):
+        if(district == "al2"):
             sortEthnic(al2bl, al2bb, al2bw, tw)
-        elif(district == "al3"):
+        if(district == "al3"):
             sortEthnic(al3bl, al3bb, al3bw, tw)
-        elif(district == "al4"):
+        if(district == "al4"):
             sortEthnic(al4bl, al4bb, al4bw, tw)
-        elif(district == "al5"):
+        if(district == "al5"):
             sortEthnic(al5bl, al5bb, al5bw, tw)
-        elif(district == "al6"):
+        if(district == "al6"):
             sortEthnic(al6bl, al6bb, al6bw, tw)
-        elif(district == "al7"):
+        if(district == "al7"):
             sortEthnic(al7bl, al7bb, al7bw, tw)	#done
-        elif(district == "tn1"):
+        if(district == "tn1"):
             sortEthnic(tn1bl, tn1bb, tn1bw, tw)
-        elif(district == "tn2"):
+        if(district == "tn2"):
             sortEthnic(tn2bl, tn2bb, tn2bw, tw)
-        elif(district == "tn3"):
+        if(district == "tn3"):
             sortEthnic(tn3bl, tn3bb, tn3bw, tw)
-        elif(district == "tn4"):
+        if(district == "tn4"):
             sortEthnic(tn4bl, tn4bb, tn4bw, tw)
-        elif(district == "tn5"):
+        if(district == "tn5"):
             sortEthnic(tn5bl, tn5bb, tn5bw, tw)
-        elif(district == "tn6"):
+        if(district == "tn6"):
             sortEthnic(tn6bl, tn6bb, tn6bw, tw)
-        elif(district == "tn7"):
+        if(district == "tn7"):
             sortEthnic(tn7bl, tn7bb, tn7bw, tw)
-        elif(district == "tn8"):
+        if(district == "tn8"):
             sortEthnic(tn8bl, tn8bb, tn8bw, tw)
-        elif(district == "tn9"):
+        if(district == "tn9"):
             sortEthnic(tn9bl, tn9bb, tn9bw, tw)
-        elif(district == "nd1"):
+        if(district == "nd1"):
             sortEthnic(nd1bl, nd1bb, nd1bw, tw) #done
-        elif(district == "sd1"):
+        if(district == "sd1"):
             sortEthnic(sd1bl, sd1bb, sd1bw, tw) #done
-        elif(district == "wv1"):
+        if(district == "wv1"):
             sortEthnic(wv1bl, wv1bb, wv1bw, tw)
-        elif(district == "wv2"):
+        if(district == "wv2"):
             sortEthnic(wv2bl, wv2bb, wv2bw, tw)
-        elif(district == "wv3"):
+        if(district == "wv3"):
             sortEthnic(wv3bl, wv3bb, wv3bw, tw) #done
-        elif(district == "ar1"):
+        if(district == "ar1"):
             sortEthnic(ar1bl, ar1bb, ar1bw, tw) #done
-        elif(district == "ar2"):
+        if(district == "ar2"):
             sortEthnic(ar2bl, ar2bb, ar2bw, tw)
-        elif(district == "ar3"):
+        if(district == "ar3"):
             sortEthnic(ar3bl, ar3bb, ar3bw, tw)
-        elif(district == "ar4"):
+        if(district == "ar4"):
             sortEthnic(ar4bl, ar4bb, ar4bw, tw)
 
 cursor = collection.find({"retweeted_status.full_text":{"$exists": "false"}})
@@ -2000,391 +2000,391 @@ for tw in cursor:
     if(district != "null"):
         if(district == "mo1"):
             sortEthnic(mo1tl, mo1tb, mo1tw, tw)
-        elif(district == "mo2"):
+        if(district == "mo2"):
             sortEthnic(mo2tl, mo2tb, mo2tw, tw)
-        elif(district == "mo3"):
+        if(district == "mo3"):
             sortEthnic(mo3tl, mo3tb, mo3tw, tw)
-        elif(district == "mo4"):
+        if(district == "mo4"):
             sortEthnic(mo4tl, mo4tb, mo4tw, tw)
-        elif(district == "mo5"):
+        if(district == "mo5"):
             sortEthnic(mo5tl, mo5tb, mo5tw, tw)
-        elif(district == "mo6"):
+        if(district == "mo6"):
             sortEthnic(mo6tl, mo6tb, mo6tw, tw)
-        elif(district == "mo7"):
+        if(district == "mo7"):
             sortEthnic(mo7tl, mo7tb, mo7tw, tw)
-        elif(district == "mo8"):
+        if(district == "mo8"):
             sortEthnic(mo8tl, mo8tb, mo8tw, tw)
-        elif(district == "sc1"):
+        if(district == "sc1"):
             sortEthnic(sc1tl, sc1tb, sc1tw, tw)
-        elif(district == "sc2"):
+        if(district == "sc2"):
             sortEthnic(sc2tl, sc2tb, sc2tw, tw)
-        elif(district == "sc3"):
+        if(district == "sc3"):
             sortEthnic(sc3tl, sc3tb, sc3tw, tw)
-        elif(district == "sc4"):
+        if(district == "sc4"):
             sortEthnic(sc4tl, sc4tb, sc4tw, tw)
-        elif(district == "sc5"):
+        if(district == "sc5"):
             sortEthnic(sc5tl, sc5tb, sc5tw, tw)
-        elif(district == "sc6"):
+        if(district == "sc6"):
             sortEthnic(sc6tl, sc6tb, sc6tw, tw)
-        elif(district == "sc7"):
+        if(district == "sc7"):
             sortEthnic(sc7tl, sc7tb, sc7tw, tw)
-        elif(district == "ky1"):
+        if(district == "ky1"):
             sortEthnic(ky1tl, ky1tb, ky1tw, tw)
-        elif(district == "ky2"):
+        if(district == "ky2"):
             sortEthnic(ky2tl, ky2tb, ky2tw, tw)
-        elif(district == "ky3"):
+        if(district == "ky3"):
             sortEthnic(ky3tl, ky3tb, ky3tw, tw)
-        elif(district == "ky4"):
+        if(district == "ky4"):
             sortEthnic(ky4tl, ky4tb, ky4tw, tw)
-        elif(district == "ky5"):
+        if(district == "ky5"):
             sortEthnic(ky5tl, ky5tb, ky5tw, tw)
-        elif(district == "ky6"):
+        if(district == "ky6"):
             sortEthnic(ky6tl, ky6tb, ky6tw, tw)
-        elif(district == "ok1"):
+        if(district == "ok1"):
             sortEthnic(ok1tl, ok1tb, ok1tw, tw) #done
-        elif(district == "ok2"):
+        if(district == "ok2"):
             sortEthnic(ok2tl, ok2tb, ok2tw, tw)
-        elif(district == "ok3"):
+        if(district == "ok3"):
             sortEthnic(ok3tl, ok3tb, ok3tw, tw)	#done
-        elif(district == "ok4"):
+        if(district == "ok4"):
             sortEthnic(ok4tl, ok4tb, ok4tw, tw)	#done
-        elif(district == "ok5"):
+        if(district == "ok5"):
             sortEthnic(ok5tl, ok5tb, ok5tw, tw)
-        elif(district == "ia1"):
+        if(district == "ia1"):
             sortEthnic(ia1tl, ia1tb, ia1tw, tw) #done
-        elif(district == "ia2"):
+        if(district == "ia2"):
             sortEthnic(ia2tl, ia2tb, ia2tw, tw) #done
-        elif(district == "ia3"):
+        if(district == "ia3"):
             sortEthnic(ia3tl, ia3tb, ia3tw, tw)	#done
-        elif(district == "ia4"):
+        if(district == "ia4"):
             sortEthnic(ia4tl, ia4tb, ia4tw, tw)	#done
-        elif(district == "ks1"):
+        if(district == "ks1"):
             sortEthnic(ks1tl, ks1tb, ks1tw, tw) #done
-        elif(district == "ks2"):
+        if(district == "ks2"):
             sortEthnic(ks2tl, ks2tb, ks2tw, tw) #done
-        elif(district == "ks3"):
+        if(district == "ks3"):
             sortEthnic(ks3tl, ks3tb, ks3tw, tw)
-        elif(district == "ks4"):
+        if(district == "ks4"):
             sortEthnic(ks4tl, ks4tb, ks4tw, tw)
-        elif(district == "ca1"):
+        if(district == "ca1"):
             sortEthnic(ca1tl, ca1tb, ca1tw, tw) #done
-        elif(district == "ca2"):
+        if(district == "ca2"):
             sortEthnic(ca2tl, ca2tb, ca2tw, tw) #done
-        elif(district == "ca3"):
+        if(district == "ca3"):
             sortEthnic(ca3tl, ca3tb, ca3tw, tw)
-        elif(district == "ca4"):
+        if(district == "ca4"):
             sortEthnic(ca4tl, ca4tb, ca4tw, tw)
-        elif(district == "ca5"):
+        if(district == "ca5"):
             sortEthnic(ca5tl, ca5tb, ca5tw, tw) #done
-        elif(district == "ca6"):
+        if(district == "ca6"):
             sortEthnic(ca6tl, ca6tb, ca6tw, tw)
-        elif(district == "ca7"):
+        if(district == "ca7"):
             sortEthnic(ca7tl, ca7tb, ca7tw, tw) #done
-        elif(district == "ca8"):
+        if(district == "ca8"):
             sortEthnic(ca8tl, ca8tb, ca8tw, tw)
-        elif(district == "ca9"):
+        if(district == "ca9"):
             sortEthnic(ca9tl, ca9tb, ca9tw, tw) #done
-        elif(district == "ca10"):
+        if(district == "ca10"):
             sortEthnic(ca10tl, ca10tb, ca10tw, tw) #done
-        elif(district == "ca11"):
+        if(district == "ca11"):
             sortEthnic(ca11tl, ca11tb, ca11tw, tw)
-        elif(district == "ca12"):
+        if(district == "ca12"):
             sortEthnic(ca12tl, ca12tb, ca12tw, tw)
-        elif(district == "ca13"):
+        if(district == "ca13"):
             sortEthnic(ca13tl, ca13tb, ca13tw, tw)
-        elif(district == "ca14"):
+        if(district == "ca14"):
             sortEthnic(ca14tl, ca14tb, ca14tw, tw)
-        elif(district == "ca15"):
+        if(district == "ca15"):
             sortEthnic(ca15tl, ca15tb, ca15tw, tw)
-        elif(district == "ca16"):
+        if(district == "ca16"):
             sortEthnic(ca16tl, ca16tb, ca16tw, tw) #done
-        elif(district == "ca17"):
+        if(district == "ca17"):
             sortEthnic(ca17tl, ca17tb, ca17tw, tw) #done
-        elif(district == "ca18"):
+        if(district == "ca18"):
             sortEthnic(ca18tl, ca18tb, ca18tw, tw)
-        elif(district == "ca19"):
+        if(district == "ca19"):
             sortEthnic(ca19tl, ca19tb, ca19tw, tw) #done
-        elif(district == "ca20"):
+        if(district == "ca20"):
             sortEthnic(ca20tl, ca20tb, ca20tw, tw)
-        elif(district == "ca21"):
+        if(district == "ca21"):
             sortEthnic(ca21tl, ca21tb, ca21tw, tw)
-        elif(district == "ca22"):
+        if(district == "ca22"):
             sortEthnic(ca22tl, ca22tb, ca22tw, tw)
-        elif(district == "ca23"):
+        if(district == "ca23"):
             sortEthnic(ca23tl, ca23tb, ca23tw, tw)
-        elif(district == "ca24"):
+        if(district == "ca24"):
             sortEthnic(ca24tl, ca24tb, ca24tw, tw)
-        elif(district == "ca25"):
+        if(district == "ca25"):
             sortEthnic(ca25tl, ca25tb, ca25tw, tw)
-        elif(district == "ca26"):
+        if(district == "ca26"):
             sortEthnic(ca26tl, ca26tb, ca26tw, tw) #done
-        elif(district == "ca27"):
+        if(district == "ca27"):
             sortEthnic(ca27tl, ca27tb, ca27tw, tw)
-        elif(district == "ca28"):
+        if(district == "ca28"):
             sortEthnic(ca28tl, ca28tb, ca28tw, tw)
-        elif(district == "ca29"):
+        if(district == "ca29"):
             sortEthnic(ca29tl, ca29tb, ca29tw, tw)
-        elif(district == "ca30"):
+        if(district == "ca30"):
             sortEthnic(ca30tl, ca30tb, ca30tw, tw)
-        elif(district == "ca31"):
+        if(district == "ca31"):
             sortEthnic(ca31tl, ca31tb, ca31tw, tw) #done
-        elif(district == "ca32"):
+        if(district == "ca32"):
             sortEthnic(ca32tl, ca32tb, ca32tw, tw) #done
-        elif(district == "ca33"):
+        if(district == "ca33"):
             sortEthnic(ca33tl, ca33tb, ca33tw, tw)
-        elif(district == "ca34"):
+        if(district == "ca34"):
             sortEthnic(ca34tl, ca34tb, ca34tw, tw)
-        elif(district == "ca35"):
+        if(district == "ca35"):
             sortEthnic(ca35tl, ca35tb, ca35tw, tw) #done
-        elif(district == "ca36"):
+        if(district == "ca36"):
             sortEthnic(ca36tl, ca36tb, ca36tw, tw)
-        elif(district == "ca37"):
+        if(district == "ca37"):
             sortEthnic(ca37tl, ca37tb, ca37tw, tw) #done
-        elif(district == "ca38"):
+        if(district == "ca38"):
             sortEthnic(ca38tl, ca38tb, ca38tw, tw) #done
-        elif(district == "ca39"):
+        if(district == "ca39"):
             sortEthnic(ca39tl, ca39tb, ca39tw, tw)
-        elif(district == "ca40"):
+        if(district == "ca40"):
             sortEthnic(ca40tl, ca40tb, ca40tw, tw) #done
-        elif(district == "ca41"):
+        if(district == "ca41"):
             sortEthnic(ca41tl, ca41tb, ca41tw, tw) #done
-        elif(district == "ca42"):
+        if(district == "ca42"):
             sortEthnic(ca42tl, ca42tb, ca42tw, tw)
-        elif(district == "ca43"):
+        if(district == "ca43"):
             sortEthnic(ca43tl, ca43tb, ca43tw, tw)
-        elif(district == "ca44"):
+        if(district == "ca44"):
             sortEthnic(ca44tl, ca44tb, ca44tw, tw)
-        elif(district == "ca45"):
+        if(district == "ca45"):
             sortEthnic(ca45tl, ca45tb, ca45tw, tw)
-        elif(district == "ca46"):
+        if(district == "ca46"):
             sortEthnic(ca46tl, ca46tb, ca46tw, tw) #done
-        elif(district == "ca47"):
+        if(district == "ca47"):
             sortEthnic(ca47tl, ca47tb, ca47tw, tw)
-        elif(district == "ca48"):
+        if(district == "ca48"):
             sortEthnic(ca48tl, ca48tb, ca48tw, tw) #done
-        elif(district == "ca49"):
+        if(district == "ca49"):
             sortEthnic(ca49tl, ca49tb, ca49tw, tw) #done
-        elif(district == "ca50"):
+        if(district == "ca50"):
             sortEthnic(ca50tl, ca50tb, ca50tw, tw)
-        elif(district == "ca51"):
+        if(district == "ca51"):
             sortEthnic(ca51tl, ca51tb, ca51tw, tw) #done
-        elif(district == "ca52"):
+        if(district == "ca52"):
             sortEthnic(ca52tl, ca52tb, ca52tw, tw) #done
-        elif(district == "ca53"):
+        if(district == "ca53"):
             sortEthnic(ca53tl, ca53tb, ca53tw, tw) #done
-        elif(district == "la1"):
+        if(district == "la1"):
             sortEthnic(la1tl, la1tb, la1tw, tw)
-        elif(district == "la2"):
+        if(district == "la2"):
             sortEthnic(la2tl, la2tb, la2tw, tw) #done
-        elif(district == "la3"):
+        if(district == "la3"):
             sortEthnic(la3tl, la3tb, la3tw, tw)
-        elif(district == "la4"):
+        if(district == "la4"):
             sortEthnic(la4tl, la4tb, la4tw, tw)
-        elif(district == "la5"):
+        if(district == "la5"):
             sortEthnic(la5tl, la5tb, la5tw, tw)
-        elif(district == "la6"):
+        if(district == "la6"):
             sortEthnic(la6tl, la6tb, la6tw, tw)
-        elif(district == "ct1"):
+        if(district == "ct1"):
             sortEthnic(ct1tl, ct1tb, ct1tw, tw)
-        elif(district == "ct2"):
+        if(district == "ct2"):
             sortEthnic(ct2tl, ct2tb, ct2tw, tw) #done
-        elif(district == "ct3"):
+        if(district == "ct3"):
             sortEthnic(ct3tl, ct3tb, ct3tw, tw)
-        elif(district == "ct4"):
+        if(district == "ct4"):
             sortEthnic(ct4tl, ct4tb, ct4tw, tw)	 #done
-        elif(district == "ct5"):
+        if(district == "ct5"):
             sortEthnic(ct5tl, ct5tb, ct5tw, tw)
-        elif(district == "mt1"):
+        if(district == "mt1"):
             sortEthnic(mt1tl, mt1tb, mt1tw, tw) #done
-        elif(district == "ms1"):
+        if(district == "ms1"):
             sortEthnic(ms1tl, ms1tb, ms1tw, tw) #done
-        elif(district == "ms2"):
+        if(district == "ms2"):
             sortEthnic(ms2tl, ms2tb, ms2tw, tw)
-        elif(district == "ms3"):
+        if(district == "ms3"):
             sortEthnic(ms3tl, ms3tb, ms3tw, tw)
-        elif(district == "ms4"):
+        if(district == "ms4"):
             sortEthnic(ms4tl, ms4tb, ms4tw, tw)
-        elif(district == "pa1"):
+        if(district == "pa1"):
             sortEthnic(pa1tl, pa1tb, pa1tw, tw)
-        elif(district == "pa2"):
+        if(district == "pa2"):
             sortEthnic(pa2tl, pa2tb, pa2tw, tw) #done
-        elif(district == "pa3"):
+        if(district == "pa3"):
             sortEthnic(pa3tl, pa3tb, pa3tw, tw)	#done
-        elif(district == "pa4"):
+        if(district == "pa4"):
             sortEthnic(pa4tl, pa4tb, pa4tw, tw)	#done
-        elif(district == "pa5"):
+        if(district == "pa5"):
             sortEthnic(pa5tl, pa5tb, pa5tw, tw) #done
-        elif(district == "pa6"):
+        if(district == "pa6"):
             sortEthnic(pa6tl, pa6tb, pa6tw, tw)
-        elif(district == "pa7"):
+        if(district == "pa7"):
             sortEthnic(pa7tl, pa7tb, pa7tw, tw) #done
-        elif(district == "pa8"):
+        if(district == "pa8"):
             sortEthnic(pa8tl, pa8tb, pa8tw, tw) #done
-        elif(district == "pa9"):
+        if(district == "pa9"):
             sortEthnic(pa9tl, pa9tb, pa9tw, tw)
-        elif(district == "pa10"):
+        if(district == "pa10"):
             sortEthnic(pa10tl, pa10tb, pa10tw, tw) #done
-        elif(district == "pa11"):
+        if(district == "pa11"):
             sortEthnic(pa11tl, pa11tb, pa11tw, tw)
-        elif(district == "pa12"):
+        if(district == "pa12"):
             sortEthnic(pa12tl, pa12tb, pa12tw, tw) #done
-        elif(district == "pa13"):
+        if(district == "pa13"):
             sortEthnic(pa13tl, pa13tb, pa13tw, tw) #done
-        elif(district == "pa14"):
+        if(district == "pa14"):
             sortEthnic(pa14tl, pa14tb, pa14tw, tw)
-        elif(district == "pa15"):
+        if(district == "pa15"):
             sortEthnic(pa15tl, pa15tb, pa15tw, tw) #done
-        elif(district == "pa16"):
+        if(district == "pa16"):
             sortEthnic(pa16tl, pa16tb, pa16tw, tw) #done
-        elif(district == "pa17"):
+        if(district == "pa17"):
             sortEthnic(pa17tl, pa17tb, pa17tw, tw) #done
-        elif(district == "pa18"):
+        if(district == "pa18"):
             sortEthnic(pa18tl, pa18tb, pa18tw, tw) #done
-        elif(district == "oh1"):
+        if(district == "oh1"):
             sortEthnic(oh1tl, oh1tb, oh1tw, tw)
-        elif(district == "oh2"):
+        if(district == "oh2"):
             sortEthnic(oh2tl, oh2tb, oh2tw, tw)
-        elif(district == "oh3"):
+        if(district == "oh3"):
             sortEthnic(oh3tl, oh3tb, oh3tw, tw)
-        elif(district == "oh4"):
+        if(district == "oh4"):
             sortEthnic(oh4tl, oh4tb, oh4tw, tw)
-        elif(district == "oh5"):
+        if(district == "oh5"):
             sortEthnic(oh5tl, oh5tb, oh5tw, tw)
         if(district == "oh6"):
             sortEthnic(oh6tl, oh6tb, oh6tw, tw)
-        elif(district == "oh7"):
+        if(district == "oh7"):
             sortEthnic(oh7tl, oh7tb, oh7tw, tw)
-        elif(district == "oh8"):
+        if(district == "oh8"):
             sortEthnic(oh8tl, oh8tb, oh8tw, tw)
-        elif(district == "oh9"):
+        if(district == "oh9"):
             sortEthnic(oh9tl, oh9tb, oh9tw, tw)
-        elif(district == "oh10"):
+        if(district == "oh10"):
             sortEthnic(oh10tl, oh10tb, oh10tw, tw)
-        elif(district == "oh11"):
+        if(district == "oh11"):
             sortEthnic(oh11tl, oh11tb, oh11tw, tw)
-        elif(district == "oh12"):
+        if(district == "oh12"):
             sortEthnic(oh12tl, oh12tb, oh12tw, tw)
-        elif(district == "oh13"):
+        if(district == "oh13"):
             sortEthnic(oh13tl, oh13tb, oh13tw, tw)
-        elif(district == "oh14"):
+        if(district == "oh14"):
             sortEthnic(oh14tl, oh14tb, oh14tw, tw)
-        elif(district == "oh15"):
+        if(district == "oh15"):
             sortEthnic(oh15tl, oh15tb, oh15tw, tw)
-        elif(district == "oh16"):
+        if(district == "oh16"):
             sortEthnic(oh16tl, oh16tb, oh16tw, tw)
-        elif(district == "fl1"):
+        if(district == "fl1"):
             sortEthnic(fl1tl, fl1tb, fl1tw, tw)
-        elif(district == "fl2"):
+        if(district == "fl2"):
             sortEthnic(fl2tl, fl2tb, fl2tw, tw)
-        elif(district == "fl3"):
+        if(district == "fl3"):
             sortEthnic(fl3tl, fl3tb, fl3tw, tw)
-        elif(district == "fl4"):
+        if(district == "fl4"):
             sortEthnic(fl4tl, fl4tb, fl4tw, tw)
-        elif(district == "fl5"):
+        if(district == "fl5"):
             sortEthnic(fl5tl, fl5tb, fl5tw, tw) #done
-        elif(district == "fl6"):
+        if(district == "fl6"):
             sortEthnic(fl6tl, fl6tb, fl6tw, tw)
-        elif(district == "fl7"):
+        if(district == "fl7"):
             sortEthnic(fl7tl, fl7tb, fl7tw, tw)
-        elif(district == "fl8"):
+        if(district == "fl8"):
             sortEthnic(fl8tl, fl8tb, fl8tw, tw)
-        elif(district == "fl9"):
+        if(district == "fl9"):
             sortEthnic(fl9tl, fl9tb, fl9tw, tw)
-        elif(district == "fl10"):
+        if(district == "fl10"):
             sortEthnic(fl10tl, fl10tb, fl10tw, tw)
-        elif(district == "fl11"):
+        if(district == "fl11"):
             sortEthnic(fl11tl, fl11tb, fl11tw, tw)
-        elif(district == "fl12"):
+        if(district == "fl12"):
             sortEthnic(fl12tl, fl12tb, fl12tw, tw)
-        elif(district == "fl13"):
+        if(district == "fl13"):
             sortEthnic(fl13tl, fl13tb, fl13tw, tw)
-        elif(district == "fl14"):
+        if(district == "fl14"):
             sortEthnic(fl14tl, fl14tb, fl14tw, tw)
-        elif(district == "fl15"):
+        if(district == "fl15"):
             sortEthnic(fl15tl, fl15tb, fl15tw, tw)
-        elif(district == "fl16"):
+        if(district == "fl16"):
             sortEthnic(fl16tl, fl16tb, fl16tw, tw)
-        elif(district == "fl17"):
+        if(district == "fl17"):
             sortEthnic(fl17tl, fl17tb, fl17tw, tw)
-        elif(district == "fl18"):
+        if(district == "fl18"):
             sortEthnic(fl18tl, fl18tb, fl18tw, tw)
-        elif(district == "fl19"):
+        if(district == "fl19"):
             sortEthnic(fl19tl, fl19tb, fl19tw, tw)
-        elif(district == "fl20"):
+        if(district == "fl20"):
             sortEthnic(fl20tl, fl20tb, fl20tw, tw)
-        elif(district == "fl21"):
+        if(district == "fl21"):
             sortEthnic(fl21tl, fl21tb, fl21tw, tw) #done
-        elif(district == "fl22"):
+        if(district == "fl22"):
             sortEthnic(fl22tl, fl22tb, fl22tw, tw)
-        elif(district == "fl23"):
+        if(district == "fl23"):
             sortEthnic(fl23tl, fl23tb, fl23tw, tw)
-        elif(district == "fl24"):
+        if(district == "fl24"):
             sortEthnic(fl24tl, fl24tb, fl24tw, tw)
-        elif(district == "fl25"):
+        if(district == "fl25"):
             sortEthnic(fl25tl, fl25tb, fl25tw, tw) #done
-        elif(district == "fl26"):
+        if(district == "fl26"):
             sortEthnic(fl26tl, fl26tb, fl26tw, tw) #done
-        elif(district == "fl27"):
+        if(district == "fl27"):
             sortEthnic(fl27tl, fl27tb, fl27tw, tw)
-        elif(district == "wa1"):
+        if(district == "wa1"):
             sortEthnic(wa1tl, wa1tb, wa1tw, tw)
-        elif(district == "wa2"):
+        if(district == "wa2"):
             sortEthnic(wa2tl, wa2tb, wa2tw, tw)
-        elif(district == "wa3"):
+        if(district == "wa3"):
             sortEthnic(wa3tl, wa3tb, wa3tw, tw)
-        elif(district == "wa4"):
+        if(district == "wa4"):
             sortEthnic(wa4tl, wa4tb, wa4tw, tw)
-        elif(district == "wa5"):
+        if(district == "wa5"):
             sortEthnic(wa5tl, wa5tb, wa5tw, tw)
-        elif(district == "wa6"):
+        if(district == "wa6"):
             sortEthnic(wa6tl, wa6tb, wa6tw, tw)
-        elif(district == "wa7"):
+        if(district == "wa7"):
             sortEthnic(wa7tl, wa7tb, wa7tw, tw)
-        elif(district == "wa8"):
+        if(district == "wa8"):
             sortEthnic(wa8tl, wa8tb, wa8tw, tw)
-        elif(district == "wa9"):
+        if(district == "wa9"):
             sortEthnic(wa9tl, wa9tb, wa9tw, tw)
-        elif(district == "wa10"):
+        if(district == "wa10"):
             sortEthnic(wa10tl, wa10tb, wa10tw, tw)
-        elif(district == "hi1"):
+        if(district == "hi1"):
             sortEthnic(hi1tl, hi1tb, hi1tw, tw) #done
-        elif(district == "hi2"):
+        if(district == "hi2"):
             sortEthnic(hi2tl, hi2tb, hi2tw, tw) #done
-        elif(district == "nj1"):
+        if(district == "nj1"):
             sortEthnic(nj1tl, nj1tb, nj1tw, tw) #done
-        elif(district == "nj2"):
+        if(district == "nj2"):
             sortEthnic(nj2tl, nj2tb, nj2tw, tw) #done
-        elif(district == "nj3"):
+        if(district == "nj3"):
             sortEthnic(nj3tl, nj3tb, nj3tw, tw)	#done
-        elif(district == "nj4"):
+        if(district == "nj4"):
             sortEthnic(nj4tl, nj4tb, nj4tw, tw)	#done
-        elif(district == "nj5"):
+        if(district == "nj5"):
             sortEthnic(nj5tl, nj5tb, nj5tw, tw) #done
-        elif(district == "nj6"):
+        if(district == "nj6"):
             sortEthnic(nj6tl, nj6tb, nj6tw, tw) #done
-        elif(district == "nj7"):
+        if(district == "nj7"):
             sortEthnic(nj7tl, nj7tb, nj7tw, tw) #done
-        elif(district == "nj8"):
+        if(district == "nj8"):
             sortEthnic(nj8tl, nj8tb, nj8tw, tw) #done
-        elif(district == "nj9"):
+        if(district == "nj9"):
             sortEthnic(nj9tl, nj9tb, nj9tw, tw) #done
-        elif(district == "nj10"):
+        if(district == "nj10"):
             sortEthnic(nj10tl, nj10tb, nj10tw, tw) #done
-        elif(district == "nj11"):
+        if(district == "nj11"):
             sortEthnic(nj11tl, nj11tb, nj11tw, tw) #done
-        elif(district == "nj12"):
+        if(district == "nj12"):
             sortEthnic(nj12tl, nj12tb, nj12tw, tw) #done
-        elif(district == "ny1"):
+        if(district == "ny1"):
             sortEthnic(ny1tl, ny1tb, ny1tw, tw) #done
-        elif(district == "ny2"):
+        if(district == "ny2"):
             sortEthnic(ny2tl, ny2tb, ny2tw, tw) #done
-        elif(district == "ny3"):
+        if(district == "ny3"):
             sortEthnic(ny3tl, ny3tb, ny3tw, tw)
-        elif(district == "ny4"):
+        if(district == "ny4"):
             sortEthnic(ny4tl, ny4tb, ny4tw, tw)
-        elif(district == "ny5"):
+        if(district == "ny5"):
             sortEthnic(ny5tl, ny5tb, ny5tw, tw)
-        elif(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
+        if(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
             sortEthnic(ny6tl, ny6tb, ny6tw, tw)
             sortEthnic(ny7tl, ny7tb, ny7tw, tw)
             sortEthnic(ny8tl, ny8tb, ny8tw, tw)
@@ -2395,859 +2395,859 @@ for tw in cursor:
             sortEthnic(ny13tl, ny13tb, ny13tw, tw)
             sortEthnic(ny14tl, ny14tb, ny14tw, tw)
             sortEthnic(ny15tl, ny15tb, ny15tw, tw)
-        elif(district == "ny16"):
+        if(district == "ny16"):
             sortEthnic(ny16tl, ny16tb, ny16tw, tw)
-        elif(district == "ny17"):
+        if(district == "ny17"):
             sortEthnic(ny17tl, ny17tb, ny17tw, tw) #done
-        elif(district == "ny18"):
+        if(district == "ny18"):
             sortEthnic(ny18tl, ny18tb, ny18tw, tw)
-        elif(district == "ny19"):
+        if(district == "ny19"):
             sortEthnic(ny19tl, ny19tb, ny19tw, tw) #done
-        elif(district == "ny20"):
+        if(district == "ny20"):
             sortEthnic(ny20tl, ny20tb, ny20tw, tw)
-        elif(district == "ny21"):
+        if(district == "ny21"):
             sortEthnic(ny21tl, ny21tb, ny21tw, tw) #done
-        elif(district == "ny22"):
+        if(district == "ny22"):
             sortEthnic(ny22tl, ny22tb, ny22tw, tw) #done
-        elif(district == "ny23"):
+        if(district == "ny23"):
             sortEthnic(ny23tl, ny23tb, ny23tw, tw)
-        elif(district == "ny24"):
+        if(district == "ny24"):
             sortEthnic(ny24tl, ny24tb, ny24tw, tw)
-        elif(district == "ny25"):
+        if(district == "ny25"):
             sortEthnic(ny25tl, ny25tb, ny25tw, tw)
-        elif(district == "ny26"):
+        if(district == "ny26"):
             sortEthnic(ny26tl, ny26tb, ny26tw, tw)
-        elif(district == "ny27"):
+        if(district == "ny27"):
             sortEthnic(ny27tl, ny27tb, ny27tw, tw) #done
-        elif(district == "ri1"):
+        if(district == "ri1"):
             sortEthnic(ri1tl, ri1tb, ri1tw, tw)	#done
-        elif(district == "ri2"):
+        if(district == "ri2"):
             sortEthnic(ri2tl, ri2tb, ri2tw, tw)
-        elif(district == "mn1"):
+        if(district == "mn1"):
             sortEthnic(mn1tl, mn1tb, mn1tw, tw) #done
-        elif(district == "mn2"):
+        if(district == "mn2"):
             sortEthnic(mn2tl, mn2tb, mn2tw, tw)
-        elif(district == "mn3"):
+        if(district == "mn3"):
             sortEthnic(mn3tl, mn3tb, mn3tw, tw)	#done
-        elif(district == "mn4"):
+        if(district == "mn4"):
             sortEthnic(mn4tl, mn4tb, mn4tw, tw)
-        elif(district == "mn5"):
+        if(district == "mn5"):
             sortEthnic(mn5tl, mn5tb, mn5tw, tw) #done
-        elif(district == "mn6"):
+        if(district == "mn6"):
             sortEthnic(mn6tl, mn6tb, mn6tw, tw) #done
-        elif(district == "mn7"):
+        if(district == "mn7"):
             sortEthnic(mn7tl, mn7tb, mn7tw, tw) #done
-        elif(district == "mn8"):
+        if(district == "mn8"):
             sortEthnic(mn8tl, mn8tb, mn8tw, tw)
-        elif(district == "mi1"):
+        if(district == "mi1"):
             sortEthnic(mi1tl, mi1tb, mi1tw, tw)
-        elif(district == "mi2"):
+        if(district == "mi2"):
             sortEthnic(mi2tl, mi2tb, mi2tw, tw) #done
-        elif(district == "mi3"):
+        if(district == "mi3"):
             sortEthnic(mi3tl, mi3tb, mi3tw, tw)
-        elif(district == "mi4"):
+        if(district == "mi4"):
             sortEthnic(mi4tl, mi4tb, mi4tw, tw)	#done
-        elif(district == "mi5"):
+        if(district == "mi5"):
             sortEthnic(mi5tl, mi5tb, mi5tw, tw) #done
-        elif(district == "mi6"):
+        if(district == "mi6"):
             sortEthnic(mi6tl, mi6tb, mi6tw, tw)
-        elif(district == "mi7"):
+        if(district == "mi7"):
             sortEthnic(mi7tl, mi7tb, mi7tw, tw)
-        elif(district == "mi8"):
+        if(district == "mi8"):
             sortEthnic(mi8tl, mi8tb, mi8tw, tw)
-        elif(district == "mi9"):
+        if(district == "mi9"):
             sortEthnic(mi9tl, mi9tb, mi9tw, tw) #done
-        elif(district == "mi10"):
+        if(district == "mi10"):
             sortEthnic(mi10tl, mi10tb, mi10tw, tw) #done
-        elif(district == "mi11"):
+        if(district == "mi11"):
             sortEthnic(mi11tl, mi11tb, mi11tw, tw)
-        elif(district == "mi12"):
+        if(district == "mi12"):
             sortEthnic(mi12tl, mi12tb, mi12tw, tw)
-        elif(district == "mi13"):
+        if(district == "mi13"):
             sortEthnic(mi13tl, mi13tb, mi13tw, tw) #done
-        elif(district == "mi14"):
+        if(district == "mi14"):
             sortEthnic(mi14tl, mi14tb, mi14tw, tw) #done
-        elif(district == "wi1"):
+        if(district == "wi1"):
             sortEthnic(wi1tl, wi1tb, wi1tw, tw)
-        elif(district == "wi2"):
+        if(district == "wi2"):
             sortEthnic(wi2tl, wi2tb, wi2tw, tw)
-        elif(district == "wi3"):
+        if(district == "wi3"):
             sortEthnic(wi3tl, wi3tb, wi3tw, tw)	#done
-        elif(district == "wi4"):
+        if(district == "wi4"):
             sortEthnic(wi4tl, wi4tb, wi4tw, tw)
-        elif(district == "wi5"):
+        if(district == "wi5"):
             sortEthnic(wi5tl, wi5tb, wi5tw, tw) #done
-        elif(district == "wi6"):
+        if(district == "wi6"):
             sortEthnic(wi6tl, wi6tb, wi6tw, tw)
-        elif(district == "wi7"):
+        if(district == "wi7"):
             sortEthnic(wi7tl, wi7tb, wi7tw, tw) #done
-        elif(district == "wi8"):
+        if(district == "wi8"):
             sortEthnic(wi8tl, wi8tb, wi8tw, tw)
-        elif(district == "or1"):
+        if(district == "or1"):
             sortEthnic(or1tl, or1tb, or1tw, tw)
-        elif(district == "or2"):
+        if(district == "or2"):
             sortEthnic(or2tl, or2tb, or2tw, tw) #done
-        elif(district == "or3"):
+        if(district == "or3"):
             sortEthnic(or3tl, or3tb, or3tw, tw)
-        elif(district == "or4"):
+        if(district == "or4"):
             sortEthnic(or4tl, or4tb, or4tw, tw)
-        elif(district == "or5"):
+        if(district == "or5"):
             sortEthnic(or5tl, or5tb, or5tw, tw)
-        elif(district == "md1"):
+        if(district == "md1"):
             sortEthnic(md1tl, md1tb, md1tw, tw) #done
-        elif(district == "md2"):
+        if(district == "md2"):
             sortEthnic(md2tl, md2tb, md2tw, tw)
-        elif(district == "md3"):
+        if(district == "md3"):
             sortEthnic(md3tl, md3tb, md3tw, tw)	#done
-        elif(district == "md4"):
+        if(district == "md4"):
             sortEthnic(md4tl, md4tb, md4tw, tw)	#done
-        elif(district == "md5"):
+        if(district == "md5"):
             sortEthnic(md5tl, md5tb, md5tw, tw) #done
-        elif(district == "md6"):
+        if(district == "md6"):
             sortEthnic(md6tl, md6tb, md6tw, tw) #done
-        elif(district == "md7"):
+        if(district == "md7"):
             sortEthnic(md7tl, md7tb, md7tw, tw)
-        elif(district == "md8"):
+        if(district == "md8"):
             sortEthnic(md8tl, md8tb, md8tw, tw)
-        elif(district == "ma1"):
+        if(district == "ma1"):
             sortEthnic(ma1tl, ma1tb, ma1tw, tw) #done
-        elif(district == "ma2"):
+        if(district == "ma2"):
             sortEthnic(ma2tl, ma2tb, ma2tw, tw)
-        elif(district == "ma3"):
+        if(district == "ma3"):
             sortEthnic(ma3tl, ma3tb, ma3tw, tw)	 #done
-        elif(district == "ma4"):
+        if(district == "ma4"):
             sortEthnic(ma4tl, ma4tb, ma4tw, tw)
-        elif(district == "ma5"):
+        if(district == "ma5"):
             sortEthnic(ma5tl, ma5tb, ma5tw, tw)
-        elif(district == "ma6"):
+        if(district == "ma6"):
             sortEthnic(ma6tl, ma6tb, ma6tw, tw)
-        elif(district == "ma7"):
+        if(district == "ma7"):
             sortEthnic(ma7tl, ma7tb, ma7tw, tw)
-        elif(district == "ma8"):
+        if(district == "ma8"):
             sortEthnic(ma8tl, ma8tb, ma8tw, tw)
-        elif(district == "ma9"):
+        if(district == "ma9"):
             sortEthnic(ma9tl, ma9tb, ma9tw, tw) #done
-        elif(district == "me1"):
+        if(district == "me1"):
             sortEthnic(me1tl, me1tb, me1tw, tw) #done
-        elif(district == "me2"):
+        if(district == "me2"):
             sortEthnic(me2tl, me2tb, me2tw, tw) #done
-        elif(district == "id1"):
+        if(district == "id1"):
             sortEthnic(id1tl, id1tb, id1tw, tw) #done
-        elif(district == "id2"):
+        if(district == "id2"):
             sortEthnic(id2tl, id2tb, id2tw, tw) #done
-        elif(district == "nc1"):
+        if(district == "nc1"):
             sortEthnic(nc1tl, nc1tb, nc1tw, tw)
-        elif(district == "nc2"):
+        if(district == "nc2"):
             sortEthnic(nc2tl, nc2tb, nc2tw, tw)
-        elif(district == "nc3"):
+        if(district == "nc3"):
             sortEthnic(nc3tl, nc3tb, nc3tw, tw)
-        elif(district == "nc4"):
+        if(district == "nc4"):
             sortEthnic(nc4tl, nc4tb, nc4tw, tw)
-        elif(district == "nc5"):
+        if(district == "nc5"):
             sortEthnic(nc5tl, nc5tb, nc5tw, tw)
-        elif(district == "nc6"):
+        if(district == "nc6"):
             sortEthnic(nc6tl, nc6tb, nc6tw, tw)
-        elif(district == "nc7"):
+        if(district == "nc7"):
             sortEthnic(nc7tl, nc7tb, nc7tw, tw)
-        elif(district == "nc8"):
+        if(district == "nc8"):
             sortEthnic(nc8tl, nc8tb, nc8tw, tw) #done
-        elif(district == "nc9"):
+        if(district == "nc9"):
             sortEthnic(nc9tl, nc9tb, nc9tw, tw)
-        elif(district == "nc10"):
+        if(district == "nc10"):
             sortEthnic(nc10tl, nc10tb, nc10tw, tw)
-        elif(district == "nc11"):
+        if(district == "nc11"):
             sortEthnic(nc11tl, nc11tb, nc11tw, tw)
-        elif(district == "nc12"):
+        if(district == "nc12"):
             sortEthnic(nc12tl, nc12tb, nc12tw, tw)
-        elif(district == "nc13"):
+        if(district == "nc13"):
             sortEthnic(nc13tl, nc13tb, nc13tw, tw)
-        elif(district == "nh1"):
+        if(district == "nh1"):
             sortEthnic(nh1tl, nh1tb, nh1tw, tw) #done
-        elif(district == "nh2"):
+        if(district == "nh2"):
             sortEthnic(nh2tl, nh2tb, nh2tw, tw) #done
-        elif(district == "nv1"):
+        if(district == "nv1"):
             sortEthnic(nv1tl, nv1tb, nv1tw, tw) #done
-        elif(district == "nv2"):
+        if(district == "nv2"):
             sortEthnic(nv2tl, nv2tb, nv2tw, tw)
-        elif(district == "nv3"):
+        if(district == "nv3"):
             sortEthnic(nv3tl, nv3tb, nv3tw, tw)
-        elif(district == "nv4"):
+        if(district == "nv4"):
             sortEthnic(nv4tl, nv4tb, nv4tw, tw)
-        elif(district == "co1"):
+        if(district == "co1"):
             sortEthnic(co1tl, co1tb, co1tw, tw)
-        elif(district == "co2"):
+        if(district == "co2"):
             sortEthnic(co2tl, co2tb, co2tw, tw) #done
-        elif(district == "co3"):
+        if(district == "co3"):
             sortEthnic(co3tl, co3tb, co3tw, tw)
-        elif(district == "co4"):
+        if(district == "co4"):
             sortEthnic(co4tl, co4tb, co4tw, tw)
-        elif(district == "co5"):
+        if(district == "co5"):
             sortEthnic(co5tl, co5tb, co5tw, tw)
-        elif(district == "co6"):
+        if(district == "co6"):
             sortEthnic(co6tl, co6tb, co6tw, tw) #done
-        elif(district == "co7"):
+        if(district == "co7"):
             sortEthnic(co7tl, co7tb, co7tw, tw) #done
-        elif(district == "nm1"):
+        if(district == "nm1"):
             sortEthnic(nm1tl, nm1tb, nm1tw, tw) #done
-        elif(district == "nm2"):
+        if(district == "nm2"):
             sortEthnic(nm2tl, nm2tb, nm2tw, tw)
-        elif(district == "nm3"):
+        if(district == "nm3"):
             sortEthnic(nm3tl, nm3tb, nm3tw, tw) #done
-        elif(district == "az1"):
+        if(district == "az1"):
             sortEthnic(az1tl, az1tb, az1tw, tw)
-        elif(district == "az2"):
+        if(district == "az2"):
             sortEthnic(az2tl, az2tb, az2tw, tw)
-        elif(district == "az3"):
+        if(district == "az3"):
             sortEthnic(az3tl, az3tb, az3tw, tw)		#done
-        elif(district == "az4"):
+        if(district == "az4"):
             sortEthnic(az4tl, az4tb, az4tw, tw)
-        elif(district == "az5"):
+        if(district == "az5"):
             sortEthnic(az5tl, az5tb, az5tw, tw)
-        elif(district == "az6"):
+        if(district == "az6"):
             sortEthnic(az6tl, az6tb, az6tw, tw) #done
-        elif(district == "az7"):
+        if(district == "az7"):
             sortEthnic(az7tl, az7tb, az7tw, tw)		#done
-        elif(district == "az8"):
+        if(district == "az8"):
             sortEthnic(az8tl, az8tb, az8tw, tw)
-        elif(district == "az9"):
+        if(district == "az9"):
             sortEthnic(az9tl, az9tb, az9tw, tw)			#done
-        elif(district == "ga1"):
+        if(district == "ga1"):
             sortEthnic(ga1tl, ga1tb, ga1tw, tw)
-        elif(district == "ga2"):
+        if(district == "ga2"):
             sortEthnic(ga2tl, ga2tb, ga2tw, tw)
-        elif(district == "ga3"):
+        if(district == "ga3"):
             sortEthnic(ga3tl, ga3tb, ga3tw, tw)	#done
-        elif(district == "ga4"):
+        if(district == "ga4"):
             sortEthnic(ga4tl, ga4tb, ga4tw, tw)
-        elif(district == "ga5"):
+        if(district == "ga5"):
             sortEthnic(ga5tl, ga5tb, ga5tw, tw)
-        elif(district == "ga6"):
+        if(district == "ga6"):
             sortEthnic(ga6tl, ga6tb, ga6tw, tw)
-        elif(district == "ga7"):
+        if(district == "ga7"):
             sortEthnic(ga7tl, ga7tb, ga7tw, tw)
-        elif(district == "ga8"):
+        if(district == "ga8"):
             sortEthnic(ga8tl, ga8tb, ga8tw, tw)
-        elif(district == "ga9"):
+        if(district == "ga9"):
             sortEthnic(ga9tl, ga9tb, ga9tw, tw)
-        elif(district == "ga10"):
+        if(district == "ga10"):
             sortEthnic(ga10tl, ga10tb, ga10tw, tw)
-        elif(district == "ga11"):
+        if(district == "ga11"):
             sortEthnic(ga11tl, ga11tb, ga11tw, tw)
-        elif(district == "ga12"):
+        if(district == "ga12"):
             sortEthnic(ga12tl, ga12tb, ga12tw, tw)
-        elif(district == "ga13"):
+        if(district == "ga13"):
             sortEthnic(ga13tl, ga13tb, ga13tw, tw)
-        elif(district == "ga14"):
+        if(district == "ga14"):
             sortEthnic(ga14tl, ga14tb, ga14tw, tw)
-        elif(district == "tx1"):
+        if(district == "tx1"):
             sortEthnic(tx1tl, tx1tb, tx1tw, tw) #done
-        elif(district == "tx2"):
+        if(district == "tx2"):
             sortEthnic(tx2tl, tx2tb, tx2tw, tw)
-        elif(district == "tx3"):
+        if(district == "tx3"):
             sortEthnic(tx3tl, tx3tb, tx3tw, tw)
-        elif(district == "tx4"):
+        if(district == "tx4"):
             sortEthnic(tx4tl, tx4tb, tx4tw, tw)
-        elif(district == "tx5"):
+        if(district == "tx5"):
             sortEthnic(tx5tl, tx5tb, tx5tw, tw) #done
-        elif(district == "tx6"):
+        if(district == "tx6"):
             sortEthnic(tx6tl, tx6tb, tx6tw, tw) #done
-        elif(district == "tx7"):
+        if(district == "tx7"):
             sortEthnic(tx7tl, tx7tb, tx7tw, tw)
-        elif(district == "tx8"):
+        if(district == "tx8"):
             sortEthnic(tx8tl, tx8tb, tx8tw, tw)
-        elif(district == "tx9"):
+        if(district == "tx9"):
             sortEthnic(tx9tl, tx9tb, tx9tw, tw)
-        elif(district == "tx10"):
+        if(district == "tx10"):
             sortEthnic(tx10tl, tx10tb, tx10tw, tw) #done
-        elif(district == "tx11"):
+        if(district == "tx11"):
             sortEthnic(tx11tl, tx11tb, tx11tw, tw)
-        elif(district == "tx12"):
+        if(district == "tx12"):
             sortEthnic(tx12tl, tx12tb, tx12tw, tw)
-        elif(district == "tx13"):
+        if(district == "tx13"):
             sortEthnic(tx13tl, tx13tb, tx13tw, tw)
-        elif(district == "tx14"):
+        if(district == "tx14"):
             sortEthnic(tx14tl, tx14tb, tx14tw, tw)
-        elif(district == "tx15"):
+        if(district == "tx15"):
             sortEthnic(tx15tl, tx15tb, tx15tw, tw)
-        elif(district == "tx16"):
+        if(district == "tx16"):
             sortEthnic(tx16tl, tx16tb, tx16tw, tw)
-        elif(district == "tx17"):
+        if(district == "tx17"):
             sortEthnic(tx17tl, tx17tb, tx17tw, tw)
-        elif(district == "tx18"):
+        if(district == "tx18"):
             sortEthnic(tx18tl, tx18tb, tx18tw, tw)
-        elif(district == "tx19"):
+        if(district == "tx19"):
             sortEthnic(tx19tl, tx19tb, tx19tw, tw)
-        elif(district == "tx20"):
+        if(district == "tx20"):
             sortEthnic(tx20tl, tx20tb, tx20tw, tw)
-        elif(district == "tx21"):
+        if(district == "tx21"):
             sortEthnic(tx21tl, tx21tb, tx21tw, tw)
-        elif(district == "tx22"):
+        if(district == "tx22"):
             sortEthnic(tx22tl, tx22tb, tx22tw, tw)
-        elif(district == "tx23"):
+        if(district == "tx23"):
             sortEthnic(tx23tl, tx23tb, tx23tw, tw)
-        elif(district == "tx24"):
+        if(district == "tx24"):
             sortEthnic(tx24tl, tx24tb, tx24tw, tw) #done
-        elif(district == "tx25"):
+        if(district == "tx25"):
             sortEthnic(tx25tl, tx25tb, tx25tw, tw)
-        elif(district == "tx26"):
+        if(district == "tx26"):
             sortEthnic(tx26tl, tx26tb, tx26tw, tw)
-        elif(district == "tx27"):
+        if(district == "tx27"):
             sortEthnic(tx27tl, tx27tb, tx27tw, tw)
-        elif(district == "tx28"):
+        if(district == "tx28"):
             sortEthnic(tx28tl, tx28tb, tx28tw, tw)
-        elif(district == "tx29"):
+        if(district == "tx29"):
             sortEthnic(tx29tl, tx29tb, tx29tw, tw)
-        elif(district == "tx30"):
+        if(district == "tx30"):
             sortEthnic(tx30tl, tx30tb, tx30tw, tw)
-        elif(district == "tx31"):
+        if(district == "tx31"):
             sortEthnic(tx31tl, tx31tb, tx31tw, tw)
-        elif(district == "tx32"):
+        if(district == "tx32"):
             sortEthnic(tx32tl, tx32tb, tx32tw, tw) #done
-        elif(district == "tx33"):
+        if(district == "tx33"):
             sortEthnic(tx33tl, tx33tb, tx33tw, tw)
-        elif(district == "tx34"):
+        if(district == "tx34"):
             sortEthnic(tx34tl, tx34tb, tx34tw, tw)
-        elif(district == "tx35"):
+        if(district == "tx35"):
             sortEthnic(tx35tl, tx35tb, tx35tw, tw)
-        elif(district == "tx36"):
+        if(district == "tx36"):
             sortEthnic(tx36tl, tx36tb, tx36tw, tw)
-        elif(district == "in1"):
+        if(district == "in1"):
             sortEthnic(in1tl, in1tb, in1tw, tw)
-        elif(district == "in2"):
+        if(district == "in2"):
             sortEthnic(in2tl, in2tb, in2tw, tw)
-        elif(district == "in3"):
+        if(district == "in3"):
             sortEthnic(in3tl, in3tb, in3tw, tw)	 #done
-        elif(district == "in4"):
+        if(district == "in4"):
             sortEthnic(in4tl, in4tb, in4tw, tw)
-        elif(district == "in5"):
+        if(district == "in5"):
             sortEthnic(in5tl, in5tb, in5tw, tw)
-        elif(district == "in6"):
+        if(district == "in6"):
             sortEthnic(in6tl, in6tb, in6tw, tw)
-        elif(district == "in7"):
+        if(district == "in7"):
             sortEthnic(in7tl, in7tb, in7tw, tw)
-        elif(district == "in8"):
+        if(district == "in8"):
             sortEthnic(in8tl, in8tb, in8tw, tw)
-        elif(district == "in9"):
+        if(district == "in9"):
             sortEthnic(in9tl, in9tb, in9tw, tw)
-        elif(district == "va1"):
+        if(district == "va1"):
             sortEthnic(va1tl, va1tb, va1tw, tw)
-        elif(district == "va2"):
+        if(district == "va2"):
             sortEthnic(va2tl, va2tb, va2tw, tw)
-        elif(district == "va3"):
+        if(district == "va3"):
             sortEthnic(va3tl, va3tb, va3tw, tw)
-        elif(district == "va4"):
+        if(district == "va4"):
             sortEthnic(va4tl, va4tb, va4tw, tw)	#done
-        elif(district == "va5"):
+        if(district == "va5"):
             sortEthnic(va5tl, va5tb, va5tw, tw)
-        elif(district == "va6"):
+        if(district == "va6"):
             sortEthnic(va6tl, va6tb, va6tw, tw)
-        elif(district == "va7"):
+        if(district == "va7"):
             sortEthnic(va7tl, va7tb, va7tw, tw)
-        elif(district == "va8"):
+        if(district == "va8"):
             sortEthnic(va8tl, va8tb, va8tw, tw)
-        elif(district == "va9"):
+        if(district == "va9"):
             sortEthnic(va9tl, va9tb, va9tw, tw)
-        elif(district == "va10"):
+        if(district == "va10"):
             sortEthnic(va10tl, va10tb, va10tw, tw)
-        elif(district == "va11"):
+        if(district == "va11"):
             sortEthnic(va11tl, va11tb, va11tw, tw)
-        elif(district == "il1"):
+        if(district == "il1"):
             sortEthnic(il1tl, il1tb, il1tw, tw)
-        elif(district == "il2"):
+        if(district == "il2"):
             sortEthnic(il2tl, il2tb, il2tw, tw)
-        elif(district == "il3"):
+        if(district == "il3"):
             sortEthnic(il3tl, il3tb, il3tw, tw)
-        elif(district == "il4"):
+        if(district == "il4"):
             sortEthnic(il4tl, il4tb, il4tw, tw)	#done
-        elif(district == "il5"):
+        if(district == "il5"):
             sortEthnic(il5tl, il5tb, il5tw, tw)
-        elif(district == "il6"):
+        if(district == "il6"):
             sortEthnic(il6tl, il6tb, il6tw, tw)
-        elif(district == "il7"):
+        if(district == "il7"):
             sortEthnic(il7tl, il7tb, il7tw, tw)
-        elif(district == "il8"):
+        if(district == "il8"):
             sortEthnic(il8tl, il8tb, il8tw, tw)
-        elif(district == "il9"):
+        if(district == "il9"):
             sortEthnic(il9tl, il9tb, il9tw, tw)
-        elif(district == "il10"):
+        if(district == "il10"):
             sortEthnic(il10tl, il10tb, il10tw, tw) #done
-        elif(district == "il11"):
+        if(district == "il11"):
             sortEthnic(il11tl, il11tb, il11tw, tw)
-        elif(district == "il12"):
+        if(district == "il12"):
             sortEthnic(il12tl, il12tb, il12tw, tw) #done
-        elif(district == "il13"):
+        if(district == "il13"):
             sortEthnic(il13tl, il13tb, il13tw, tw)
-        elif(district == "il14"):
+        if(district == "il14"):
             sortEthnic(il14tl, il14tb, il14tw, tw)#done
-        elif(district == "il15"):
+        if(district == "il15"):
             sortEthnic(il15tl, il15tb, il15tw, tw) #done
-        elif(district == "il16"):
+        if(district == "il16"):
             sortEthnic(il16tl, il16tb, il16tw, tw)
-        elif(district == "il17"):
+        if(district == "il17"):
             sortEthnic(il17tl, il17tb, il17tw, tw)
-        elif(district == "il18"):
+        if(district == "il18"):
             sortEthnic(il18tl, il18tb, il18tw, tw)
-        elif(district == "de1"):
+        if(district == "de1"):
             sortEthnic(de1tl, de1tb, de1tw, tw) #done
-        elif(district == "vt1"):
+        if(district == "vt1"):
             sortEthnic(vt1tl, vt1tb, vt1tw, tw) #done
-        elif(district == "ut1"):
+        if(district == "ut1"):
             sortEthnic(ut1tl, ut1tb, ut1tw, tw)
-        elif(district == "ut2"):
+        if(district == "ut2"):
             sortEthnic(ut2tl, ut2tb, ut2tw, tw)
-        elif(district == "ut3"):
+        if(district == "ut3"):
             sortEthnic(ut3tl, ut3tb, ut3tw, tw)
-        elif(district == "ut4"):
+        if(district == "ut4"):
             sortEthnic(ut4tl, ut4tb, ut4tw, tw)
-        elif(district == "ne1"):
+        if(district == "ne1"):
             sortEthnic(ne1tl, ne1tb, ne1tw, tw)
-        elif(district == "ne2"):
+        if(district == "ne2"):
             sortEthnic(ne2tl, ne2tb, ne2tw, tw)
-        elif(district == "ne3"):
+        if(district == "ne3"):
             sortEthnic(ne3tl, ne3tb, ne3tw, tw)	#done
-        elif(district == "ak1"):
+        if(district == "ak1"):
             sortEthnic(ak1tl, ak1tb, ak1tw, tw) #done
-        elif(district == "wy1"):
+        if(district == "wy1"):
             sortEthnic(wy1tl, wy1tb, wy1tw, tw) #done
-        elif(district == "al1"):
+        if(district == "al1"):
             sortEthnic(al1tl, al1tb, al1tw, tw)
-        elif(district == "al2"):
+        if(district == "al2"):
             sortEthnic(al2tl, al2tb, al2tw, tw)
-        elif(district == "al3"):
+        if(district == "al3"):
             sortEthnic(al3tl, al3tb, al3tw, tw)
-        elif(district == "al4"):
+        if(district == "al4"):
             sortEthnic(al4tl, al4tb, al4tw, tw)
-        elif(district == "al5"):
+        if(district == "al5"):
             sortEthnic(al5tl, al5tb, al5tw, tw)
-        elif(district == "al6"):
+        if(district == "al6"):
             sortEthnic(al6tl, al6tb, al6tw, tw)
-        elif(district == "al7"):
+        if(district == "al7"):
             sortEthnic(al7tl, al7tb, al7tw, tw)	#done
-        elif(district == "tn1"):
+        if(district == "tn1"):
             sortEthnic(tn1tl, tn1tb, tn1tw, tw)
-        elif(district == "tn2"):
+        if(district == "tn2"):
             sortEthnic(tn2tl, tn2tb, tn2tw, tw)
-        elif(district == "tn3"):
+        if(district == "tn3"):
             sortEthnic(tn3tl, tn3tb, tn3tw, tw)
-        elif(district == "tn4"):
+        if(district == "tn4"):
             sortEthnic(tn4tl, tn4tb, tn4tw, tw)
-        elif(district == "tn5"):
+        if(district == "tn5"):
             sortEthnic(tn5tl, tn5tb, tn5tw, tw)
-        elif(district == "tn6"):
+        if(district == "tn6"):
             sortEthnic(tn6tl, tn6tb, tn6tw, tw)
-        elif(district == "tn7"):
+        if(district == "tn7"):
             sortEthnic(tn7tl, tn7tb, tn7tw, tw)
-        elif(district == "tn8"):
+        if(district == "tn8"):
             sortEthnic(tn8tl, tn8tb, tn8tw, tw)
-        elif(district == "tn9"):
+        if(district == "tn9"):
             sortEthnic(tn9tl, tn9tb, tn9tw, tw)
-        elif(district == "nd1"):
+        if(district == "nd1"):
             sortEthnic(nd1tl, nd1tb, nd1tw, tw) #done
-        elif(district == "sd1"):
+        if(district == "sd1"):
             sortEthnic(sd1tl, sd1tb, sd1tw, tw) #done
-        elif(district == "wv1"):
+        if(district == "wv1"):
             sortEthnic(wv1tl, wv1tb, wv1tw, tw)
-        elif(district == "wv2"):
+        if(district == "wv2"):
             sortEthnic(wv2tl, wv2tb, wv2tw, tw)
-        elif(district == "wv3"):
+        if(district == "wv3"):
             sortEthnic(wv3tl, wv3tb, wv3tw, tw) #done
-        elif(district == "ar1"):
+        if(district == "ar1"):
             sortEthnic(ar1tl, ar1tb, ar1tw, tw) #done
-        elif(district == "ar2"):
+        if(district == "ar2"):
             sortEthnic(ar2tl, ar2tb, ar2tw, tw)
-        elif(district == "ar3"):
+        if(district == "ar3"):
             sortEthnic(ar3tl, ar3tb, ar3tw, tw)
-        elif(district == "ar4"):
+        if(district == "ar4"):
             sortEthnic(ar4tl, ar4tb, ar4tw, tw)
     district = sortloc("#voteblue", tw["user"]["location"], tw["full_text"].lower())
     if(district != "null"):
         if(district == "mo1"):
             sortEthnic(mo1bl, mo1bb, mo1bw, tw)
-        elif(district == "mo2"):
+        if(district == "mo2"):
             sortEthnic(mo2bl, mo2bb, mo2bw, tw)
-        elif(district == "mo3"):
+        if(district == "mo3"):
             sortEthnic(mo3bl, mo3bb, mo3bw, tw)
-        elif(district == "mo4"):
+        if(district == "mo4"):
             sortEthnic(mo4bl, mo4bb, mo4bw, tw)
-        elif(district == "mo5"):
+        if(district == "mo5"):
             sortEthnic(mo5bl, mo5bb, mo5bw, tw)
-        elif(district == "mo6"):
+        if(district == "mo6"):
             sortEthnic(mo6bl, mo6bb, mo6bw, tw)
-        elif(district == "mo7"):
+        if(district == "mo7"):
             sortEthnic(mo7bl, mo7bb, mo7bw, tw)
-        elif(district == "mo8"):
+        if(district == "mo8"):
             sortEthnic(mo8bl, mo8bb, mo8bw, tw)
-        elif(district == "sc1"):
+        if(district == "sc1"):
             sortEthnic(sc1bl, sc1bb, sc1bw, tw)
-        elif(district == "sc2"):
+        if(district == "sc2"):
             sortEthnic(sc2bl, sc2bb, sc2bw, tw)
-        elif(district == "sc3"):
+        if(district == "sc3"):
             sortEthnic(sc3bl, sc3bb, sc3bw, tw)
-        elif(district == "sc4"):
+        if(district == "sc4"):
             sortEthnic(sc4bl, sc4bb, sc4bw, tw)
-        elif(district == "sc5"):
+        if(district == "sc5"):
             sortEthnic(sc5bl, sc5bb, sc5bw, tw)
-        elif(district == "sc6"):
+        if(district == "sc6"):
             sortEthnic(sc6bl, sc6bb, sc6bw, tw)
-        elif(district == "sc7"):
+        if(district == "sc7"):
             sortEthnic(sc7bl, sc7bb, sc7bw, tw)
-        elif(district == "ky1"):
+        if(district == "ky1"):
             sortEthnic(ky1bl, ky1bb, ky1bw, tw)
-        elif(district == "ky2"):
+        if(district == "ky2"):
             sortEthnic(ky2bl, ky2bb, ky2bw, tw)
-        elif(district == "ky3"):
+        if(district == "ky3"):
             sortEthnic(ky3bl, ky3bb, ky3bw, tw)
-        elif(district == "ky4"):
+        if(district == "ky4"):
             sortEthnic(ky4bl, ky4bb, ky4bw, tw)
-        elif(district == "ky5"):
+        if(district == "ky5"):
             sortEthnic(ky5bl, ky5bb, ky5bw, tw)
-        elif(district == "ky6"):
+        if(district == "ky6"):
             sortEthnic(ky6bl, ky6bb, ky6bw, tw)
-        elif(district == "ok1"):
+        if(district == "ok1"):
             sortEthnic(ok1bl, ok1bb, ok1bw, tw) #done
-        elif(district == "ok2"):
+        if(district == "ok2"):
             sortEthnic(ok2bl, ok2bb, ok2bw, tw)
-        elif(district == "ok3"):
+        if(district == "ok3"):
             sortEthnic(ok3bl, ok3bb, ok3bw, tw)	#done
-        elif(district == "ok4"):
+        if(district == "ok4"):
             sortEthnic(ok4bl, ok4bb, ok4bw, tw)	#done
-        elif(district == "ok5"):
+        if(district == "ok5"):
             sortEthnic(ok5bl, ok5bb, ok5bw, tw)
-        elif(district == "ia1"):
+        if(district == "ia1"):
             sortEthnic(ia1bl, ia1bb, ia1bw, tw) #done
-        elif(district == "ia2"):
+        if(district == "ia2"):
             sortEthnic(ia2bl, ia2bb, ia2bw, tw) #done
-        elif(district == "ia3"):
+        if(district == "ia3"):
             sortEthnic(ia3bl, ia3bb, ia3bw, tw)	#done
-        elif(district == "ia4"):
+        if(district == "ia4"):
             sortEthnic(ia4bl, ia4bb, ia4bw, tw)	#done
-        elif(district == "ks1"):
+        if(district == "ks1"):
             sortEthnic(ks1bl, ks1bb, ks1bw, tw) #done
-        elif(district == "ks2"):
+        if(district == "ks2"):
             sortEthnic(ks2bl, ks2bb, ks2bw, tw) #done
-        elif(district == "ks3"):
+        if(district == "ks3"):
             sortEthnic(ks3bl, ks3bb, ks3bw, tw)
-        elif(district == "ks4"):
+        if(district == "ks4"):
             sortEthnic(ks4bl, ks4bb, ks4bw, tw)
-        elif(district == "ca1"):
+        if(district == "ca1"):
             sortEthnic(ca1bl, ca1bb, ca1bw, tw) #done
-        elif(district == "ca2"):
+        if(district == "ca2"):
             sortEthnic(ca2bl, ca2bb, ca2bw, tw) #done
-        elif(district == "ca3"):
+        if(district == "ca3"):
             sortEthnic(ca3bl, ca3bb, ca3bw, tw)
-        elif(district == "ca4"):
+        if(district == "ca4"):
             sortEthnic(ca4bl, ca4bb, ca4bw, tw)
-        elif(district == "ca5"):
+        if(district == "ca5"):
             sortEthnic(ca5bl, ca5bb, ca5bw, tw) #done
-        elif(district == "ca6"):
+        if(district == "ca6"):
             sortEthnic(ca6bl, ca6bb, ca6bw, tw)
-        elif(district == "ca7"):
+        if(district == "ca7"):
             sortEthnic(ca7bl, ca7bb, ca7bw, tw) #done
-        elif(district == "ca8"):
+        if(district == "ca8"):
             sortEthnic(ca8bl, ca8bb, ca8bw, tw)
-        elif(district == "ca9"):
+        if(district == "ca9"):
             sortEthnic(ca9bl, ca9bb, ca9bw, tw) #done
-        elif(district == "ca10"):
+        if(district == "ca10"):
             sortEthnic(ca10bl, ca10bb, ca10bw, tw) #done
-        elif(district == "ca11"):
+        if(district == "ca11"):
             sortEthnic(ca11bl, ca11bb, ca11bw, tw)
-        elif(district == "ca12"):
+        if(district == "ca12"):
             sortEthnic(ca12bl, ca12bb, ca12bw, tw)
-        elif(district == "ca13"):
+        if(district == "ca13"):
             sortEthnic(ca13bl, ca13bb, ca13bw, tw)
-        elif(district == "ca14"):
+        if(district == "ca14"):
             sortEthnic(ca14bl, ca14bb, ca14bw, tw)
-        elif(district == "ca15"):
+        if(district == "ca15"):
             sortEthnic(ca15bl, ca15bb, ca15bw, tw)
-        elif(district == "ca16"):
+        if(district == "ca16"):
             sortEthnic(ca16bl, ca16bb, ca16bw, tw) #done
-        elif(district == "ca17"):
+        if(district == "ca17"):
             sortEthnic(ca17bl, ca17bb, ca17bw, tw) #done
-        elif(district == "ca18"):
+        if(district == "ca18"):
             sortEthnic(ca18bl, ca18bb, ca18bw, tw)
-        elif(district == "ca19"):
+        if(district == "ca19"):
             sortEthnic(ca19bl, ca19bb, ca19bw, tw) #done
-        elif(district == "ca20"):
+        if(district == "ca20"):
             sortEthnic(ca20bl, ca20bb, ca20bw, tw)
-        elif(district == "ca21"):
+        if(district == "ca21"):
             sortEthnic(ca21bl, ca21bb, ca21bw, tw)
-        elif(district == "ca22"):
+        if(district == "ca22"):
             sortEthnic(ca22bl, ca22bb, ca22bw, tw)
-        elif(district == "ca23"):
+        if(district == "ca23"):
             sortEthnic(ca23bl, ca23bb, ca23bw, tw)
-        elif(district == "ca24"):
+        if(district == "ca24"):
             sortEthnic(ca24bl, ca24bb, ca24bw, tw)
-        elif(district == "ca25"):
+        if(district == "ca25"):
             sortEthnic(ca25bl, ca25bb, ca25bw, tw)
-        elif(district == "ca26"):
+        if(district == "ca26"):
             sortEthnic(ca26bl, ca26bb, ca26bw, tw) #done
-        elif(district == "ca27"):
+        if(district == "ca27"):
             sortEthnic(ca27bl, ca27bb, ca27bw, tw)
-        elif(district == "ca28"):
+        if(district == "ca28"):
             sortEthnic(ca28bl, ca28bb, ca28bw, tw)
-        elif(district == "ca29"):
+        if(district == "ca29"):
             sortEthnic(ca29bl, ca29bb, ca29bw, tw)
-        elif(district == "ca30"):
+        if(district == "ca30"):
             sortEthnic(ca30bl, ca30bb, ca30bw, tw)
-        elif(district == "ca31"):
+        if(district == "ca31"):
             sortEthnic(ca31bl, ca31bb, ca31bw, tw) #done
-        elif(district == "ca32"):
+        if(district == "ca32"):
             sortEthnic(ca32bl, ca32bb, ca32bw, tw) #done
-        elif(district == "ca33"):
+        if(district == "ca33"):
             sortEthnic(ca33bl, ca33bb, ca33bw, tw)
-        elif(district == "ca34"):
+        if(district == "ca34"):
             sortEthnic(ca34bl, ca34bb, ca34bw, tw)
-        elif(district == "ca35"):
+        if(district == "ca35"):
             sortEthnic(ca35bl, ca35bb, ca35bw, tw) #done
-        elif(district == "ca36"):
+        if(district == "ca36"):
             sortEthnic(ca36bl, ca36bb, ca36bw, tw)
-        elif(district == "ca37"):
+        if(district == "ca37"):
             sortEthnic(ca37bl, ca37bb, ca37bw, tw) #done
-        elif(district == "ca38"):
+        if(district == "ca38"):
             sortEthnic(ca38bl, ca38bb, ca38bw, tw) #done
-        elif(district == "ca39"):
+        if(district == "ca39"):
             sortEthnic(ca39bl, ca39bb, ca39bw, tw)
-        elif(district == "ca40"):
+        if(district == "ca40"):
             sortEthnic(ca40bl, ca40bb, ca40bw, tw) #done
-        elif(district == "ca41"):
+        if(district == "ca41"):
             sortEthnic(ca41bl, ca41bb, ca41bw, tw) #done
-        elif(district == "ca42"):
+        if(district == "ca42"):
             sortEthnic(ca42bl, ca42bb, ca42bw, tw)
-        elif(district == "ca43"):
+        if(district == "ca43"):
             sortEthnic(ca43bl, ca43bb, ca43bw, tw)
-        elif(district == "ca44"):
+        if(district == "ca44"):
             sortEthnic(ca44bl, ca44bb, ca44bw, tw)
-        elif(district == "ca45"):
+        if(district == "ca45"):
             sortEthnic(ca45bl, ca45bb, ca45bw, tw)
-        elif(district == "ca46"):
+        if(district == "ca46"):
             sortEthnic(ca46bl, ca46bb, ca46bw, tw) #done
-        elif(district == "ca47"):
+        if(district == "ca47"):
             sortEthnic(ca47bl, ca47bb, ca47bw, tw)
-        elif(district == "ca48"):
+        if(district == "ca48"):
             sortEthnic(ca48bl, ca48bb, ca48bw, tw) #done
-        elif(district == "ca49"):
+        if(district == "ca49"):
             sortEthnic(ca49bl, ca49bb, ca49bw, tw) #done
-        elif(district == "ca50"):
+        if(district == "ca50"):
             sortEthnic(ca50bl, ca50bb, ca50bw, tw)
-        elif(district == "ca51"):
+        if(district == "ca51"):
             sortEthnic(ca51bl, ca51bb, ca51bw, tw) #done
-        elif(district == "ca52"):
+        if(district == "ca52"):
             sortEthnic(ca52bl, ca52bb, ca52bw, tw) #done
-        elif(district == "ca53"):
+        if(district == "ca53"):
             sortEthnic(ca53bl, ca53bb, ca53bw, tw) #done
-        elif(district == "la1"):
+        if(district == "la1"):
             sortEthnic(la1bl, la1bb, la1bw, tw)
-        elif(district == "la2"):
+        if(district == "la2"):
             sortEthnic(la2bl, la2bb, la2bw, tw) #done
-        elif(district == "la3"):
+        if(district == "la3"):
             sortEthnic(la3bl, la3bb, la3bw, tw)
-        elif(district == "la4"):
+        if(district == "la4"):
             sortEthnic(la4bl, la4bb, la4bw, tw)
-        elif(district == "la5"):
+        if(district == "la5"):
             sortEthnic(la5bl, la5bb, la5bw, tw)
-        elif(district == "la6"):
+        if(district == "la6"):
             sortEthnic(la6bl, la6bb, la6bw, tw)
-        elif(district == "ct1"):
+        if(district == "ct1"):
             sortEthnic(ct1bl, ct1bb, ct1bw, tw)
-        elif(district == "ct2"):
+        if(district == "ct2"):
             sortEthnic(ct2bl, ct2bb, ct2bw, tw) #done
-        elif(district == "ct3"):
+        if(district == "ct3"):
             sortEthnic(ct3bl, ct3bb, ct3bw, tw)
-        elif(district == "ct4"):
+        if(district == "ct4"):
             sortEthnic(ct4bl, ct4bb, ct4bw, tw)	 #done
-        elif(district == "ct5"):
+        if(district == "ct5"):
             sortEthnic(ct5bl, ct5bb, ct5bw, tw)
-        elif(district == "mt1"):
+        if(district == "mt1"):
             sortEthnic(mt1bl, mt1bb, mt1bw, tw) #done
-        elif(district == "ms1"):
+        if(district == "ms1"):
             sortEthnic(ms1bl, ms1bb, ms1bw, tw) #done
-        elif(district == "ms2"):
+        if(district == "ms2"):
             sortEthnic(ms2bl, ms2bb, ms2bw, tw)
-        elif(district == "ms3"):
+        if(district == "ms3"):
             sortEthnic(ms3bl, ms3bb, ms3bw, tw)
-        elif(district == "ms4"):
+        if(district == "ms4"):
             sortEthnic(ms4bl, ms4bb, ms4bw, tw)
-        elif(district == "pa1"):
+        if(district == "pa1"):
             sortEthnic(pa1bl, pa1bb, pa1bw, tw)
-        elif(district == "pa2"):
+        if(district == "pa2"):
             sortEthnic(pa2bl, pa2bb, pa2bw, tw) #done
-        elif(district == "pa3"):
+        if(district == "pa3"):
             sortEthnic(pa3bl, pa3bb, pa3bw, tw)	#done
-        elif(district == "pa4"):
+        if(district == "pa4"):
             sortEthnic(pa4bl, pa4bb, pa4bw, tw)	#done
-        elif(district == "pa5"):
+        if(district == "pa5"):
             sortEthnic(pa5bl, pa5bb, pa5bw, tw) #done
-        elif(district == "pa6"):
+        if(district == "pa6"):
             sortEthnic(pa6bl, pa6bb, pa6bw, tw)
-        elif(district == "pa7"):
+        if(district == "pa7"):
             sortEthnic(pa7bl, pa7bb, pa7bw, tw) #done
-        elif(district == "pa8"):
+        if(district == "pa8"):
             sortEthnic(pa8bl, pa8bb, pa8bw, tw) #done
-        elif(district == "pa9"):
+        if(district == "pa9"):
             sortEthnic(pa9bl, pa9bb, pa9bw, tw)
-        elif(district == "pa10"):
+        if(district == "pa10"):
             sortEthnic(pa10bl, pa10bb, pa10bw, tw) #done
-        elif(district == "pa11"):
+        if(district == "pa11"):
             sortEthnic(pa11bl, pa11bb, pa11bw, tw)
-        elif(district == "pa12"):
+        if(district == "pa12"):
             sortEthnic(pa12bl, pa12bb, pa12bw, tw) #done
-        elif(district == "pa13"):
+        if(district == "pa13"):
             sortEthnic(pa13bl, pa13bb, pa13bw, tw) #done
-        elif(district == "pa14"):
+        if(district == "pa14"):
             sortEthnic(pa14bl, pa14bb, pa14bw, tw)
-        elif(district == "pa15"):
+        if(district == "pa15"):
             sortEthnic(pa15bl, pa15bb, pa15bw, tw) #done
-        elif(district == "pa16"):
+        if(district == "pa16"):
             sortEthnic(pa16bl, pa16bb, pa16bw, tw) #done
-        elif(district == "pa17"):
+        if(district == "pa17"):
             sortEthnic(pa17bl, pa17bb, pa17bw, tw) #done
-        elif(district == "pa18"):
+        if(district == "pa18"):
             sortEthnic(pa18bl, pa18bb, pa18bw, tw) #done
-        elif(district == "oh1"):
+        if(district == "oh1"):
             sortEthnic(oh1bl, oh1bb, oh1bw, tw)
-        elif(district == "oh2"):
+        if(district == "oh2"):
             sortEthnic(oh2bl, oh2bb, oh2bw, tw)
-        elif(district == "oh3"):
+        if(district == "oh3"):
             sortEthnic(oh3bl, oh3bb, oh3bw, tw)
-        elif(district == "oh4"):
+        if(district == "oh4"):
             sortEthnic(oh4bl, oh4bb, oh4bw, tw)
-        elif(district == "oh5"):
+        if(district == "oh5"):
             sortEthnic(oh5bl, oh5bb, oh5bw, tw)
         if(district == "oh6"):
             sortEthnic(oh6bl, oh6bb, oh6bw, tw)
-        elif(district == "oh7"):
+        if(district == "oh7"):
             sortEthnic(oh7bl, oh7bb, oh7bw, tw)
-        elif(district == "oh8"):
+        if(district == "oh8"):
             sortEthnic(oh8bl, oh8bb, oh8bw, tw)
-        elif(district == "oh9"):
+        if(district == "oh9"):
             sortEthnic(oh9bl, oh9bb, oh9bw, tw)
-        elif(district == "oh10"):
+        if(district == "oh10"):
             sortEthnic(oh10bl, oh10bb, oh10bw, tw)
-        elif(district == "oh11"):
+        if(district == "oh11"):
             sortEthnic(oh11bl, oh11bb, oh11bw, tw)
-        elif(district == "oh12"):
+        if(district == "oh12"):
             sortEthnic(oh12bl, oh12bb, oh12bw, tw)
-        elif(district == "oh13"):
+        if(district == "oh13"):
             sortEthnic(oh13bl, oh13bb, oh13bw, tw)
-        elif(district == "oh14"):
+        if(district == "oh14"):
             sortEthnic(oh14bl, oh14bb, oh14bw, tw)
-        elif(district == "oh15"):
+        if(district == "oh15"):
             sortEthnic(oh15bl, oh15bb, oh15bw, tw)
-        elif(district == "oh16"):
+        if(district == "oh16"):
             sortEthnic(oh16bl, oh16bb, oh16bw, tw)
-        elif(district == "fl1"):
+        if(district == "fl1"):
             sortEthnic(fl1bl, fl1bb, fl1bw, tw)
-        elif(district == "fl2"):
+        if(district == "fl2"):
             sortEthnic(fl2bl, fl2bb, fl2bw, tw)
-        elif(district == "fl3"):
+        if(district == "fl3"):
             sortEthnic(fl3bl, fl3bb, fl3bw, tw)
-        elif(district == "fl4"):
+        if(district == "fl4"):
             sortEthnic(fl4bl, fl4bb, fl4bw, tw)
-        elif(district == "fl5"):
+        if(district == "fl5"):
             sortEthnic(fl5bl, fl5bb, fl5bw, tw) #done
-        elif(district == "fl6"):
+        if(district == "fl6"):
             sortEthnic(fl6bl, fl6bb, fl6bw, tw)
-        elif(district == "fl7"):
+        if(district == "fl7"):
             sortEthnic(fl7bl, fl7bb, fl7bw, tw)
-        elif(district == "fl8"):
+        if(district == "fl8"):
             sortEthnic(fl8bl, fl8bb, fl8bw, tw)
-        elif(district == "fl9"):
+        if(district == "fl9"):
             sortEthnic(fl9bl, fl9bb, fl9bw, tw)
-        elif(district == "fl10"):
+        if(district == "fl10"):
             sortEthnic(fl10bl, fl10bb, fl10bw, tw)
-        elif(district == "fl11"):
+        if(district == "fl11"):
             sortEthnic(fl11bl, fl11bb, fl11bw, tw)
-        elif(district == "fl12"):
+        if(district == "fl12"):
             sortEthnic(fl12bl, fl12bb, fl12bw, tw)
-        elif(district == "fl13"):
+        if(district == "fl13"):
             sortEthnic(fl13bl, fl13bb, fl13bw, tw)
-        elif(district == "fl14"):
+        if(district == "fl14"):
             sortEthnic(fl14bl, fl14bb, fl14bw, tw)
-        elif(district == "fl15"):
+        if(district == "fl15"):
             sortEthnic(fl15bl, fl15bb, fl15bw, tw)
-        elif(district == "fl16"):
+        if(district == "fl16"):
             sortEthnic(fl16bl, fl16bb, fl16bw, tw)
-        elif(district == "fl17"):
+        if(district == "fl17"):
             sortEthnic(fl17bl, fl17bb, fl17bw, tw)
-        elif(district == "fl18"):
+        if(district == "fl18"):
             sortEthnic(fl18bl, fl18bb, fl18bw, tw)
-        elif(district == "fl19"):
+        if(district == "fl19"):
             sortEthnic(fl19bl, fl19bb, fl19bw, tw)
-        elif(district == "fl20"):
+        if(district == "fl20"):
             sortEthnic(fl20bl, fl20bb, fl20bw, tw)
-        elif(district == "fl21"):
+        if(district == "fl21"):
             sortEthnic(fl21bl, fl21bb, fl21bw, tw) #done
-        elif(district == "fl22"):
+        if(district == "fl22"):
             sortEthnic(fl22bl, fl22bb, fl22bw, tw)
-        elif(district == "fl23"):
+        if(district == "fl23"):
             sortEthnic(fl23bl, fl23bb, fl23bw, tw)
-        elif(district == "fl24"):
+        if(district == "fl24"):
             sortEthnic(fl24bl, fl24bb, fl24bw, tw)
-        elif(district == "fl25"):
+        if(district == "fl25"):
             sortEthnic(fl25bl, fl25bb, fl25bw, tw) #done
-        elif(district == "fl26"):
+        if(district == "fl26"):
             sortEthnic(fl26bl, fl26bb, fl26bw, tw) #done
-        elif(district == "fl27"):
+        if(district == "fl27"):
             sortEthnic(fl27bl, fl27bb, fl27bw, tw)
-        elif(district == "wa1"):
+        if(district == "wa1"):
             sortEthnic(wa1bl, wa1bb, wa1bw, tw)
-        elif(district == "wa2"):
+        if(district == "wa2"):
             sortEthnic(wa2bl, wa2bb, wa2bw, tw)
-        elif(district == "wa3"):
+        if(district == "wa3"):
             sortEthnic(wa3bl, wa3bb, wa3bw, tw)
-        elif(district == "wa4"):
+        if(district == "wa4"):
             sortEthnic(wa4bl, wa4bb, wa4bw, tw)
-        elif(district == "wa5"):
+        if(district == "wa5"):
             sortEthnic(wa5bl, wa5bb, wa5bw, tw)
-        elif(district == "wa6"):
+        if(district == "wa6"):
             sortEthnic(wa6bl, wa6bb, wa6bw, tw)
-        elif(district == "wa7"):
+        if(district == "wa7"):
             sortEthnic(wa7bl, wa7bb, wa7bw, tw)
-        elif(district == "wa8"):
+        if(district == "wa8"):
             sortEthnic(wa8bl, wa8bb, wa8bw, tw)
-        elif(district == "wa9"):
+        if(district == "wa9"):
             sortEthnic(wa9bl, wa9bb, wa9bw, tw)
-        elif(district == "wa10"):
+        if(district == "wa10"):
             sortEthnic(wa10bl, wa10bb, wa10bw, tw)
-        elif(district == "hi1"):
+        if(district == "hi1"):
             sortEthnic(hi1bl, hi1bb, hi1bw, tw) #done
-        elif(district == "hi2"):
+        if(district == "hi2"):
             sortEthnic(hi2bl, hi2bb, hi2bw, tw) #done
-        elif(district == "nj1"):
+        if(district == "nj1"):
             sortEthnic(nj1bl, nj1bb, nj1bw, tw) #done
-        elif(district == "nj2"):
+        if(district == "nj2"):
             sortEthnic(nj2bl, nj2bb, nj2bw, tw) #done
-        elif(district == "nj3"):
+        if(district == "nj3"):
             sortEthnic(nj3bl, nj3bb, nj3bw, tw)	#done
-        elif(district == "nj4"):
+        if(district == "nj4"):
             sortEthnic(nj4bl, nj4bb, nj4bw, tw)	#done
-        elif(district == "nj5"):
+        if(district == "nj5"):
             sortEthnic(nj5bl, nj5bb, nj5bw, tw) #done
-        elif(district == "nj6"):
+        if(district == "nj6"):
             sortEthnic(nj6bl, nj6bb, nj6bw, tw) #done
-        elif(district == "nj7"):
+        if(district == "nj7"):
             sortEthnic(nj7bl, nj7bb, nj7bw, tw) #done
-        elif(district == "nj8"):
+        if(district == "nj8"):
             sortEthnic(nj8bl, nj8bb, nj8bw, tw) #done
-        elif(district == "nj9"):
+        if(district == "nj9"):
             sortEthnic(nj9bl, nj9bb, nj9bw, tw) #done
-        elif(district == "nj10"):
+        if(district == "nj10"):
             sortEthnic(nj10bl, nj10bb, nj10bw, tw) #done
-        elif(district == "nj11"):
+        if(district == "nj11"):
             sortEthnic(nj11bl, nj11bb, nj11bw, tw) #done
-        elif(district == "nj12"):
+        if(district == "nj12"):
             sortEthnic(nj12bl, nj12bb, nj12bw, tw) #done
-        elif(district == "ny1"):
+        if(district == "ny1"):
             sortEthnic(ny1bl, ny1bb, ny1bw, tw) #done
-        elif(district == "ny2"):
+        if(district == "ny2"):
             sortEthnic(ny2bl, ny2bb, ny2bw, tw) #done
-        elif(district == "ny3"):
+        if(district == "ny3"):
             sortEthnic(ny3bl, ny3bb, ny3bw, tw)
-        elif(district == "ny4"):
+        if(district == "ny4"):
             sortEthnic(ny4bl, ny4bb, ny4bw, tw)
-        elif(district == "ny5"):
+        if(district == "ny5"):
             sortEthnic(ny5bl, ny5bb, ny5bw, tw)
-        elif(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
+        if(district == "ny6" or district == "ny7" or district == "ny8" or district == "ny9" or district == "ny10" or district == "ny11" or district == "ny12" or district == "ny13" or district == "ny14" or district == "ny15"):
             sortEthnic(ny6bl, ny6bb, ny6bw, tw)
             sortEthnic(ny7bl, ny7bb, ny7bw, tw)
             sortEthnic(ny8bl, ny8bb, ny8bw, tw)
@@ -3258,469 +3258,469 @@ for tw in cursor:
             sortEthnic(ny13bl, ny13bb, ny13bw, tw)
             sortEthnic(ny14bl, ny14bb, ny14bw, tw)
             sortEthnic(ny15bl, ny15bb, ny15bw, tw)
-        elif(district == "ny16"):
+        if(district == "ny16"):
             sortEthnic(ny16bl, ny16bb, ny16bw, tw)
-        elif(district == "ny17"):
+        if(district == "ny17"):
             sortEthnic(ny17bl, ny17bb, ny17bw, tw) #done
-        elif(district == "ny18"):
+        if(district == "ny18"):
             sortEthnic(ny18bl, ny18bb, ny18bw, tw)
-        elif(district == "ny19"):
+        if(district == "ny19"):
             sortEthnic(ny19bl, ny19bb, ny19bw, tw) #done
-        elif(district == "ny20"):
+        if(district == "ny20"):
             sortEthnic(ny20bl, ny20bb, ny20bw, tw)
-        elif(district == "ny21"):
+        if(district == "ny21"):
             sortEthnic(ny21bl, ny21bb, ny21bw, tw) #done
-        elif(district == "ny22"):
+        if(district == "ny22"):
             sortEthnic(ny22bl, ny22bb, ny22bw, tw) #done
-        elif(district == "ny23"):
+        if(district == "ny23"):
             sortEthnic(ny23bl, ny23bb, ny23bw, tw)
-        elif(district == "ny24"):
+        if(district == "ny24"):
             sortEthnic(ny24bl, ny24bb, ny24bw, tw)
-        elif(district == "ny25"):
+        if(district == "ny25"):
             sortEthnic(ny25bl, ny25bb, ny25bw, tw)
-        elif(district == "ny26"):
+        if(district == "ny26"):
             sortEthnic(ny26bl, ny26bb, ny26bw, tw)
-        elif(district == "ny27"):
+        if(district == "ny27"):
             sortEthnic(ny27bl, ny27bb, ny27bw, tw) #done
-        elif(district == "ri1"):
+        if(district == "ri1"):
             sortEthnic(ri1bl, ri1bb, ri1bw, tw)	#done
-        elif(district == "ri2"):
+        if(district == "ri2"):
             sortEthnic(ri2bl, ri2bb, ri2bw, tw)
-        elif(district == "mn1"):
+        if(district == "mn1"):
             sortEthnic(mn1bl, mn1bb, mn1bw, tw) #done
-        elif(district == "mn2"):
+        if(district == "mn2"):
             sortEthnic(mn2bl, mn2bb, mn2bw, tw)
-        elif(district == "mn3"):
+        if(district == "mn3"):
             sortEthnic(mn3bl, mn3bb, mn3bw, tw)	#done
-        elif(district == "mn4"):
+        if(district == "mn4"):
             sortEthnic(mn4bl, mn4bb, mn4bw, tw)
-        elif(district == "mn5"):
+        if(district == "mn5"):
             sortEthnic(mn5bl, mn5bb, mn5bw, tw) #done
-        elif(district == "mn6"):
+        if(district == "mn6"):
             sortEthnic(mn6bl, mn6bb, mn6bw, tw) #done
-        elif(district == "mn7"):
+        if(district == "mn7"):
             sortEthnic(mn7bl, mn7bb, mn7bw, tw) #done
-        elif(district == "mn8"):
+        if(district == "mn8"):
             sortEthnic(mn8bl, mn8bb, mn8bw, tw)
-        elif(district == "mi1"):
+        if(district == "mi1"):
             sortEthnic(mi1bl, mi1bb, mi1bw, tw)
-        elif(district == "mi2"):
+        if(district == "mi2"):
             sortEthnic(mi2bl, mi2bb, mi2bw, tw) #done
-        elif(district == "mi3"):
+        if(district == "mi3"):
             sortEthnic(mi3bl, mi3bb, mi3bw, tw)
-        elif(district == "mi4"):
+        if(district == "mi4"):
             sortEthnic(mi4bl, mi4bb, mi4bw, tw)	#done
-        elif(district == "mi5"):
+        if(district == "mi5"):
             sortEthnic(mi5bl, mi5bb, mi5bw, tw) #done
-        elif(district == "mi6"):
+        if(district == "mi6"):
             sortEthnic(mi6bl, mi6bb, mi6bw, tw)
-        elif(district == "mi7"):
+        if(district == "mi7"):
             sortEthnic(mi7bl, mi7bb, mi7bw, tw)
-        elif(district == "mi8"):
+        if(district == "mi8"):
             sortEthnic(mi8bl, mi8bb, mi8bw, tw)
-        elif(district == "mi9"):
+        if(district == "mi9"):
             sortEthnic(mi9bl, mi9bb, mi9bw, tw) #done
-        elif(district == "mi10"):
+        if(district == "mi10"):
             sortEthnic(mi10bl, mi10bb, mi10bw, tw) #done
-        elif(district == "mi11"):
+        if(district == "mi11"):
             sortEthnic(mi11bl, mi11bb, mi11bw, tw)
-        elif(district == "mi12"):
+        if(district == "mi12"):
             sortEthnic(mi12bl, mi12bb, mi12bw, tw)
-        elif(district == "mi13"):
+        if(district == "mi13"):
             sortEthnic(mi13bl, mi13bb, mi13bw, tw) #done
-        elif(district == "mi14"):
+        if(district == "mi14"):
             sortEthnic(mi14bl, mi14bb, mi14bw, tw) #done
-        elif(district == "wi1"):
+        if(district == "wi1"):
             sortEthnic(wi1bl, wi1bb, wi1bw, tw)
-        elif(district == "wi2"):
+        if(district == "wi2"):
             sortEthnic(wi2bl, wi2bb, wi2bw, tw)
-        elif(district == "wi3"):
+        if(district == "wi3"):
             sortEthnic(wi3bl, wi3bb, wi3bw, tw)	#done
-        elif(district == "wi4"):
+        if(district == "wi4"):
             sortEthnic(wi4bl, wi4bb, wi4bw, tw)
-        elif(district == "wi5"):
+        if(district == "wi5"):
             sortEthnic(wi5bl, wi5bb, wi5bw, tw) #done
-        elif(district == "wi6"):
+        if(district == "wi6"):
             sortEthnic(wi6bl, wi6bb, wi6bw, tw)
-        elif(district == "wi7"):
+        if(district == "wi7"):
             sortEthnic(wi7bl, wi7bb, wi7bw, tw) #done
-        elif(district == "wi8"):
+        if(district == "wi8"):
             sortEthnic(wi8bl, wi8bb, wi8bw, tw)
-        elif(district == "or1"):
+        if(district == "or1"):
             sortEthnic(or1bl, or1bb, or1bw, tw)
-        elif(district == "or2"):
+        if(district == "or2"):
             sortEthnic(or2bl, or2bb, or2bw, tw) #done
-        elif(district == "or3"):
+        if(district == "or3"):
             sortEthnic(or3bl, or3bb, or3bw, tw)
-        elif(district == "or4"):
+        if(district == "or4"):
             sortEthnic(or4bl, or4bb, or4bw, tw)
-        elif(district == "or5"):
+        if(district == "or5"):
             sortEthnic(or5bl, or5bb, or5bw, tw)
-        elif(district == "md1"):
+        if(district == "md1"):
             sortEthnic(md1bl, md1bb, md1bw, tw) #done
-        elif(district == "md2"):
+        if(district == "md2"):
             sortEthnic(md2bl, md2bb, md2bw, tw)
-        elif(district == "md3"):
+        if(district == "md3"):
             sortEthnic(md3bl, md3bb, md3bw, tw)	#done
-        elif(district == "md4"):
+        if(district == "md4"):
             sortEthnic(md4bl, md4bb, md4bw, tw)	#done
-        elif(district == "md5"):
+        if(district == "md5"):
             sortEthnic(md5bl, md5bb, md5bw, tw) #done
-        elif(district == "md6"):
+        if(district == "md6"):
             sortEthnic(md6bl, md6bb, md6bw, tw) #done
-        elif(district == "md7"):
+        if(district == "md7"):
             sortEthnic(md7bl, md7bb, md7bw, tw)
-        elif(district == "md8"):
+        if(district == "md8"):
             sortEthnic(md8bl, md8bb, md8bw, tw)
-        elif(district == "ma1"):
+        if(district == "ma1"):
             sortEthnic(ma1bl, ma1bb, ma1bw, tw) #done
-        elif(district == "ma2"):
+        if(district == "ma2"):
             sortEthnic(ma2bl, ma2bb, ma2bw, tw)
-        elif(district == "ma3"):
+        if(district == "ma3"):
             sortEthnic(ma3bl, ma3bb, ma3bw, tw)	 #done
-        elif(district == "ma4"):
+        if(district == "ma4"):
             sortEthnic(ma4bl, ma4bb, ma4bw, tw)
-        elif(district == "ma5"):
+        if(district == "ma5"):
             sortEthnic(ma5bl, ma5bb, ma5bw, tw)
-        elif(district == "ma6"):
+        if(district == "ma6"):
             sortEthnic(ma6bl, ma6bb, ma6bw, tw)
-        elif(district == "ma7"):
+        if(district == "ma7"):
             sortEthnic(ma7bl, ma7bb, ma7bw, tw)
-        elif(district == "ma8"):
+        if(district == "ma8"):
             sortEthnic(ma8bl, ma8bb, ma8bw, tw)
-        elif(district == "ma9"):
+        if(district == "ma9"):
             sortEthnic(ma9bl, ma9bb, ma9bw, tw) #done
-        elif(district == "me1"):
+        if(district == "me1"):
             sortEthnic(me1bl, me1bb, me1bw, tw) #done
-        elif(district == "me2"):
+        if(district == "me2"):
             sortEthnic(me2bl, me2bb, me2bw, tw) #done
-        elif(district == "id1"):
+        if(district == "id1"):
             sortEthnic(id1bl, id1bb, id1bw, tw) #done
-        elif(district == "id2"):
+        if(district == "id2"):
             sortEthnic(id2bl, id2bb, id2bw, tw) #done
-        elif(district == "nc1"):
+        if(district == "nc1"):
             sortEthnic(nc1bl, nc1bb, nc1bw, tw)
-        elif(district == "nc2"):
+        if(district == "nc2"):
             sortEthnic(nc2bl, nc2bb, nc2bw, tw)
-        elif(district == "nc3"):
+        if(district == "nc3"):
             sortEthnic(nc3bl, nc3bb, nc3bw, tw)
-        elif(district == "nc4"):
+        if(district == "nc4"):
             sortEthnic(nc4bl, nc4bb, nc4bw, tw)
-        elif(district == "nc5"):
+        if(district == "nc5"):
             sortEthnic(nc5bl, nc5bb, nc5bw, tw)
-        elif(district == "nc6"):
+        if(district == "nc6"):
             sortEthnic(nc6bl, nc6bb, nc6bw, tw)
-        elif(district == "nc7"):
+        if(district == "nc7"):
             sortEthnic(nc7bl, nc7bb, nc7bw, tw)
-        elif(district == "nc8"):
+        if(district == "nc8"):
             sortEthnic(nc8bl, nc8bb, nc8bw, tw) #done
-        elif(district == "nc9"):
+        if(district == "nc9"):
             sortEthnic(nc9bl, nc9bb, nc9bw, tw)
-        elif(district == "nc10"):
+        if(district == "nc10"):
             sortEthnic(nc10bl, nc10bb, nc10bw, tw)
-        elif(district == "nc11"):
+        if(district == "nc11"):
             sortEthnic(nc11bl, nc11bb, nc11bw, tw)
-        elif(district == "nc12"):
+        if(district == "nc12"):
             sortEthnic(nc12bl, nc12bb, nc12bw, tw)
-        elif(district == "nc13"):
+        if(district == "nc13"):
             sortEthnic(nc13bl, nc13bb, nc13bw, tw)
-        elif(district == "nh1"):
+        if(district == "nh1"):
             sortEthnic(nh1bl, nh1bb, nh1bw, tw) #done
-        elif(district == "nh2"):
+        if(district == "nh2"):
             sortEthnic(nh2bl, nh2bb, nh2bw, tw) #done
-        elif(district == "nv1"):
+        if(district == "nv1"):
             sortEthnic(nv1bl, nv1bb, nv1bw, tw) #done
-        elif(district == "nv2"):
+        if(district == "nv2"):
             sortEthnic(nv2bl, nv2bb, nv2bw, tw)
-        elif(district == "nv3"):
+        if(district == "nv3"):
             sortEthnic(nv3bl, nv3bb, nv3bw, tw)
-        elif(district == "nv4"):
+        if(district == "nv4"):
             sortEthnic(nv4bl, nv4bb, nv4bw, tw)
-        elif(district == "co1"):
+        if(district == "co1"):
             sortEthnic(co1bl, co1bb, co1bw, tw)
-        elif(district == "co2"):
+        if(district == "co2"):
             sortEthnic(co2bl, co2bb, co2bw, tw) #done
-        elif(district == "co3"):
+        if(district == "co3"):
             sortEthnic(co3bl, co3bb, co3bw, tw)
-        elif(district == "co4"):
+        if(district == "co4"):
             sortEthnic(co4bl, co4bb, co4bw, tw)
-        elif(district == "co5"):
+        if(district == "co5"):
             sortEthnic(co5bl, co5bb, co5bw, tw)
-        elif(district == "co6"):
+        if(district == "co6"):
             sortEthnic(co6bl, co6bb, co6bw, tw) #done
-        elif(district == "co7"):
+        if(district == "co7"):
             sortEthnic(co7bl, co7bb, co7bw, tw) #done
-        elif(district == "nm1"):
+        if(district == "nm1"):
             sortEthnic(nm1bl, nm1bb, nm1bw, tw) #done
-        elif(district == "nm2"):
+        if(district == "nm2"):
             sortEthnic(nm2bl, nm2bb, nm2bw, tw)
-        elif(district == "nm3"):
+        if(district == "nm3"):
             sortEthnic(nm3bl, nm3bb, nm3bw, tw) #done
-        elif(district == "az1"):
+        if(district == "az1"):
             sortEthnic(az1bl, az1bb, az1bw, tw)
-        elif(district == "az2"):
+        if(district == "az2"):
             sortEthnic(az2bl, az2bb, az2bw, tw)
-        elif(district == "az3"):
+        if(district == "az3"):
             sortEthnic(az3bl, az3bb, az3bw, tw)		#done
-        elif(district == "az4"):
+        if(district == "az4"):
             sortEthnic(az4bl, az4bb, az4bw, tw)
-        elif(district == "az5"):
+        if(district == "az5"):
             sortEthnic(az5bl, az5bb, az5bw, tw)
-        elif(district == "az6"):
+        if(district == "az6"):
             sortEthnic(az6bl, az6bb, az6bw, tw) #done
-        elif(district == "az7"):
+        if(district == "az7"):
             sortEthnic(az7bl, az7bb, az7bw, tw)		#done
-        elif(district == "az8"):
+        if(district == "az8"):
             sortEthnic(az8bl, az8bb, az8bw, tw)
-        elif(district == "az9"):
+        if(district == "az9"):
             sortEthnic(az9bl, az9bb, az9bw, tw)			#done
-        elif(district == "ga1"):
+        if(district == "ga1"):
             sortEthnic(ga1bl, ga1bb, ga1bw, tw)
-        elif(district == "ga2"):
+        if(district == "ga2"):
             sortEthnic(ga2bl, ga2bb, ga2bw, tw)
-        elif(district == "ga3"):
+        if(district == "ga3"):
             sortEthnic(ga3bl, ga3bb, ga3bw, tw)	#done
-        elif(district == "ga4"):
+        if(district == "ga4"):
             sortEthnic(ga4bl, ga4bb, ga4bw, tw)
-        elif(district == "ga5"):
+        if(district == "ga5"):
             sortEthnic(ga5bl, ga5bb, ga5bw, tw)
-        elif(district == "ga6"):
+        if(district == "ga6"):
             sortEthnic(ga6bl, ga6bb, ga6bw, tw)
-        elif(district == "ga7"):
+        if(district == "ga7"):
             sortEthnic(ga7bl, ga7bb, ga7bw, tw)
-        elif(district == "ga8"):
+        if(district == "ga8"):
             sortEthnic(ga8bl, ga8bb, ga8bw, tw)
-        elif(district == "ga9"):
+        if(district == "ga9"):
             sortEthnic(ga9bl, ga9bb, ga9bw, tw)
-        elif(district == "ga10"):
+        if(district == "ga10"):
             sortEthnic(ga10bl, ga10bb, ga10bw, tw)
-        elif(district == "ga11"):
+        if(district == "ga11"):
             sortEthnic(ga11bl, ga11bb, ga11bw, tw)
-        elif(district == "ga12"):
+        if(district == "ga12"):
             sortEthnic(ga12bl, ga12bb, ga12bw, tw)
-        elif(district == "ga13"):
+        if(district == "ga13"):
             sortEthnic(ga13bl, ga13bb, ga13bw, tw)
-        elif(district == "ga14"):
+        if(district == "ga14"):
             sortEthnic(ga14bl, ga14bb, ga14bw, tw)
-        elif(district == "tx1"):
+        if(district == "tx1"):
             sortEthnic(tx1bl, tx1bb, tx1bw, tw) #done
-        elif(district == "tx2"):
+        if(district == "tx2"):
             sortEthnic(tx2bl, tx2bb, tx2bw, tw)
-        elif(district == "tx3"):
+        if(district == "tx3"):
             sortEthnic(tx3bl, tx3bb, tx3bw, tw)
-        elif(district == "tx4"):
+        if(district == "tx4"):
             sortEthnic(tx4bl, tx4bb, tx4bw, tw)
-        elif(district == "tx5"):
+        if(district == "tx5"):
             sortEthnic(tx5bl, tx5bb, tx5bw, tw) #done
-        elif(district == "tx6"):
+        if(district == "tx6"):
             sortEthnic(tx6bl, tx6bb, tx6bw, tw) #done
-        elif(district == "tx7"):
+        if(district == "tx7"):
             sortEthnic(tx7bl, tx7bb, tx7bw, tw)
-        elif(district == "tx8"):
+        if(district == "tx8"):
             sortEthnic(tx8bl, tx8bb, tx8bw, tw)
-        elif(district == "tx9"):
+        if(district == "tx9"):
             sortEthnic(tx9bl, tx9bb, tx9bw, tw)
-        elif(district == "tx10"):
+        if(district == "tx10"):
             sortEthnic(tx10bl, tx10bb, tx10bw, tw) #done
-        elif(district == "tx11"):
+        if(district == "tx11"):
             sortEthnic(tx11bl, tx11bb, tx11bw, tw)
-        elif(district == "tx12"):
+        if(district == "tx12"):
             sortEthnic(tx12bl, tx12bb, tx12bw, tw)
-        elif(district == "tx13"):
+        if(district == "tx13"):
             sortEthnic(tx13bl, tx13bb, tx13bw, tw)
-        elif(district == "tx14"):
+        if(district == "tx14"):
             sortEthnic(tx14bl, tx14bb, tx14bw, tw)
-        elif(district == "tx15"):
+        if(district == "tx15"):
             sortEthnic(tx15bl, tx15bb, tx15bw, tw)
-        elif(district == "tx16"):
+        if(district == "tx16"):
             sortEthnic(tx16bl, tx16bb, tx16bw, tw)
-        elif(district == "tx17"):
+        if(district == "tx17"):
             sortEthnic(tx17bl, tx17bb, tx17bw, tw)
-        elif(district == "tx18"):
+        if(district == "tx18"):
             sortEthnic(tx18bl, tx18bb, tx18bw, tw)
-        elif(district == "tx19"):
+        if(district == "tx19"):
             sortEthnic(tx19bl, tx19bb, tx19bw, tw)
-        elif(district == "tx20"):
+        if(district == "tx20"):
             sortEthnic(tx20bl, tx20bb, tx20bw, tw)
-        elif(district == "tx21"):
+        if(district == "tx21"):
             sortEthnic(tx21bl, tx21bb, tx21bw, tw)
-        elif(district == "tx22"):
+        if(district == "tx22"):
             sortEthnic(tx22bl, tx22bb, tx22bw, tw)
-        elif(district == "tx23"):
+        if(district == "tx23"):
             sortEthnic(tx23bl, tx23bb, tx23bw, tw)
-        elif(district == "tx24"):
+        if(district == "tx24"):
             sortEthnic(tx24bl, tx24bb, tx24bw, tw) #done
-        elif(district == "tx25"):
+        if(district == "tx25"):
             sortEthnic(tx25bl, tx25bb, tx25bw, tw)
-        elif(district == "tx26"):
+        if(district == "tx26"):
             sortEthnic(tx26bl, tx26bb, tx26bw, tw)
-        elif(district == "tx27"):
+        if(district == "tx27"):
             sortEthnic(tx27bl, tx27bb, tx27bw, tw)
-        elif(district == "tx28"):
+        if(district == "tx28"):
             sortEthnic(tx28bl, tx28bb, tx28bw, tw)
-        elif(district == "tx29"):
+        if(district == "tx29"):
             sortEthnic(tx29bl, tx29bb, tx29bw, tw)
-        elif(district == "tx30"):
+        if(district == "tx30"):
             sortEthnic(tx30bl, tx30bb, tx30bw, tw)
-        elif(district == "tx31"):
+        if(district == "tx31"):
             sortEthnic(tx31bl, tx31bb, tx31bw, tw)
-        elif(district == "tx32"):
+        if(district == "tx32"):
             sortEthnic(tx32bl, tx32bb, tx32bw, tw) #done
-        elif(district == "tx33"):
+        if(district == "tx33"):
             sortEthnic(tx33bl, tx33bb, tx33bw, tw)
-        elif(district == "tx34"):
+        if(district == "tx34"):
             sortEthnic(tx34bl, tx34bb, tx34bw, tw)
-        elif(district == "tx35"):
+        if(district == "tx35"):
             sortEthnic(tx35bl, tx35bb, tx35bw, tw)
-        elif(district == "tx36"):
+        if(district == "tx36"):
             sortEthnic(tx36bl, tx36bb, tx36bw, tw)
-        elif(district == "in1"):
+        if(district == "in1"):
             sortEthnic(in1bl, in1bb, in1bw, tw)
-        elif(district == "in2"):
+        if(district == "in2"):
             sortEthnic(in2bl, in2bb, in2bw, tw)
-        elif(district == "in3"):
+        if(district == "in3"):
             sortEthnic(in3bl, in3bb, in3bw, tw)	 #done
-        elif(district == "in4"):
+        if(district == "in4"):
             sortEthnic(in4bl, in4bb, in4bw, tw)
-        elif(district == "in5"):
+        if(district == "in5"):
             sortEthnic(in5bl, in5bb, in5bw, tw)
-        elif(district == "in6"):
+        if(district == "in6"):
             sortEthnic(in6bl, in6bb, in6bw, tw)
-        elif(district == "in7"):
+        if(district == "in7"):
             sortEthnic(in7bl, in7bb, in7bw, tw)
-        elif(district == "in8"):
+        if(district == "in8"):
             sortEthnic(in8bl, in8bb, in8bw, tw)
-        elif(district == "in9"):
+        if(district == "in9"):
             sortEthnic(in9bl, in9bb, in9bw, tw)
-        elif(district == "va1"):
+        if(district == "va1"):
             sortEthnic(va1bl, va1bb, va1bw, tw)
-        elif(district == "va2"):
+        if(district == "va2"):
             sortEthnic(va2bl, va2bb, va2bw, tw)
-        elif(district == "va3"):
+        if(district == "va3"):
             sortEthnic(va3bl, va3bb, va3bw, tw)
-        elif(district == "va4"):
+        if(district == "va4"):
             sortEthnic(va4bl, va4bb, va4bw, tw)	#done
-        elif(district == "va5"):
+        if(district == "va5"):
             sortEthnic(va5bl, va5bb, va5bw, tw)
-        elif(district == "va6"):
+        if(district == "va6"):
             sortEthnic(va6bl, va6bb, va6bw, tw)
-        elif(district == "va7"):
+        if(district == "va7"):
             sortEthnic(va7bl, va7bb, va7bw, tw)
-        elif(district == "va8"):
+        if(district == "va8"):
             sortEthnic(va8bl, va8bb, va8bw, tw)
-        elif(district == "va9"):
+        if(district == "va9"):
             sortEthnic(va9bl, va9bb, va9bw, tw)
-        elif(district == "va10"):
+        if(district == "va10"):
             sortEthnic(va10bl, va10bb, va10bw, tw)
-        elif(district == "va11"):
+        if(district == "va11"):
             sortEthnic(va11bl, va11bb, va11bw, tw)
-        elif(district == "il1"):
+        if(district == "il1"):
             sortEthnic(il1bl, il1bb, il1bw, tw)
-        elif(district == "il2"):
+        if(district == "il2"):
             sortEthnic(il2bl, il2bb, il2bw, tw)
-        elif(district == "il3"):
+        if(district == "il3"):
             sortEthnic(il3bl, il3bb, il3bw, tw)
-        elif(district == "il4"):
+        if(district == "il4"):
             sortEthnic(il4bl, il4bb, il4bw, tw)	#done
-        elif(district == "il5"):
+        if(district == "il5"):
             sortEthnic(il5bl, il5bb, il5bw, tw)
-        elif(district == "il6"):
+        if(district == "il6"):
             sortEthnic(il6bl, il6bb, il6bw, tw)
-        elif(district == "il7"):
+        if(district == "il7"):
             sortEthnic(il7bl, il7bb, il7bw, tw)
-        elif(district == "il8"):
+        if(district == "il8"):
             sortEthnic(il8bl, il8bb, il8bw, tw)
-        elif(district == "il9"):
+        if(district == "il9"):
             sortEthnic(il9bl, il9bb, il9bw, tw)
-        elif(district == "il10"):
+        if(district == "il10"):
             sortEthnic(il10bl, il10bb, il10bw, tw) #done
-        elif(district == "il11"):
+        if(district == "il11"):
             sortEthnic(il11bl, il11bb, il11bw, tw)
-        elif(district == "il12"):
+        if(district == "il12"):
             sortEthnic(il12bl, il12bb, il12bw, tw) #done
-        elif(district == "il13"):
+        if(district == "il13"):
             sortEthnic(il13bl, il13bb, il13bw, tw)
-        elif(district == "il14"):
+        if(district == "il14"):
             sortEthnic(il14bl, il14bb, il14bw, tw)#done
-        elif(district == "il15"):
+        if(district == "il15"):
             sortEthnic(il15bl, il15bb, il15bw, tw) #done
-        elif(district == "il16"):
+        if(district == "il16"):
             sortEthnic(il16bl, il16bb, il16bw, tw)
-        elif(district == "il17"):
+        if(district == "il17"):
             sortEthnic(il17bl, il17bb, il17bw, tw)
-        elif(district == "il18"):
+        if(district == "il18"):
             sortEthnic(il18bl, il18bb, il18bw, tw)
-        elif(district == "de1"):
+        if(district == "de1"):
             sortEthnic(de1bl, de1bb, de1bw, tw) #done
-        elif(district == "vt1"):
+        if(district == "vt1"):
             sortEthnic(vt1bl, vt1bb, vt1bw, tw) #done
-        elif(district == "ut1"):
+        if(district == "ut1"):
             sortEthnic(ut1bl, ut1bb, ut1bw, tw)
-        elif(district == "ut2"):
+        if(district == "ut2"):
             sortEthnic(ut2bl, ut2bb, ut2bw, tw)
-        elif(district == "ut3"):
+        if(district == "ut3"):
             sortEthnic(ut3bl, ut3bb, ut3bw, tw)
-        elif(district == "ut4"):
+        if(district == "ut4"):
             sortEthnic(ut4bl, ut4bb, ut4bw, tw)
-        elif(district == "ne1"):
+        if(district == "ne1"):
             sortEthnic(ne1bl, ne1bb, ne1bw, tw)
-        elif(district == "ne2"):
+        if(district == "ne2"):
             sortEthnic(ne2bl, ne2bb, ne2bw, tw)
-        elif(district == "ne3"):
+        if(district == "ne3"):
             sortEthnic(ne3bl, ne3bb, ne3bw, tw)	#done
-        elif(district == "ak1"):
+        if(district == "ak1"):
             sortEthnic(ak1bl, ak1bb, ak1bw, tw) #done
-        elif(district == "wy1"):
+        if(district == "wy1"):
             sortEthnic(wy1bl, wy1bb, wy1bw, tw) #done
-        elif(district == "al1"):
+        if(district == "al1"):
             sortEthnic(al1bl, al1bb, al1bw, tw)
-        elif(district == "al2"):
+        if(district == "al2"):
             sortEthnic(al2bl, al2bb, al2bw, tw)
-        elif(district == "al3"):
+        if(district == "al3"):
             sortEthnic(al3bl, al3bb, al3bw, tw)
-        elif(district == "al4"):
+        if(district == "al4"):
             sortEthnic(al4bl, al4bb, al4bw, tw)
-        elif(district == "al5"):
+        if(district == "al5"):
             sortEthnic(al5bl, al5bb, al5bw, tw)
-        elif(district == "al6"):
+        if(district == "al6"):
             sortEthnic(al6bl, al6bb, al6bw, tw)
-        elif(district == "al7"):
+        if(district == "al7"):
             sortEthnic(al7bl, al7bb, al7bw, tw)	#done
-        elif(district == "tn1"):
+        if(district == "tn1"):
             sortEthnic(tn1bl, tn1bb, tn1bw, tw)
-        elif(district == "tn2"):
+        if(district == "tn2"):
             sortEthnic(tn2bl, tn2bb, tn2bw, tw)
-        elif(district == "tn3"):
+        if(district == "tn3"):
             sortEthnic(tn3bl, tn3bb, tn3bw, tw)
-        elif(district == "tn4"):
+        if(district == "tn4"):
             sortEthnic(tn4bl, tn4bb, tn4bw, tw)
-        elif(district == "tn5"):
+        if(district == "tn5"):
             sortEthnic(tn5bl, tn5bb, tn5bw, tw)
-        elif(district == "tn6"):
+        if(district == "tn6"):
             sortEthnic(tn6bl, tn6bb, tn6bw, tw)
-        elif(district == "tn7"):
+        if(district == "tn7"):
             sortEthnic(tn7bl, tn7bb, tn7bw, tw)
-        elif(district == "tn8"):
+        if(district == "tn8"):
             sortEthnic(tn8bl, tn8bb, tn8bw, tw)
-        elif(district == "tn9"):
+        if(district == "tn9"):
             sortEthnic(tn9bl, tn9bb, tn9bw, tw)
-        elif(district == "nd1"):
+        if(district == "nd1"):
             sortEthnic(nd1bl, nd1bb, nd1bw, tw) #done
-        elif(district == "sd1"):
+        if(district == "sd1"):
             sortEthnic(sd1bl, sd1bb, sd1bw, tw) #done
-        elif(district == "wv1"):
+        if(district == "wv1"):
             sortEthnic(wv1bl, wv1bb, wv1bw, tw)
-        elif(district == "wv2"):
+        if(district == "wv2"):
             sortEthnic(wv2bl, wv2bb, wv2bw, tw)
-        elif(district == "wv3"):
+        if(district == "wv3"):
             sortEthnic(wv3bl, wv3bb, wv3bw, tw) #done
-        elif(district == "ar1"):
+        if(district == "ar1"):
             sortEthnic(ar1bl, ar1bb, ar1bw, tw) #done
-        elif(district == "ar2"):
+        if(district == "ar2"):
             sortEthnic(ar2bl, ar2bb, ar2bw, tw)
-        elif(district == "ar3"):
+        if(district == "ar3"):
             sortEthnic(ar3bl, ar3bb, ar3bw, tw)
-        elif(district == "ar4"):
+        if(district == "ar4"):
             sortEthnic(ar4bl, ar4bb, ar4bw, tw)
 
 

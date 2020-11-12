@@ -217,59 +217,59 @@ def calcStateResult(name, tlat, tbla, twhi, blat, bbla, bwhi, plat, pbla, pwhi):
 #	results.append(name + " - Trump: " + str((tl*plat)+(tw*pwhi)) + "; Biden: " + str((bl*plat)+(bw*pwhi)))
 
 
-mo1tl, mo1tb, mo1tw, mo1bl, mo1bb, mo1bw = [], [], [], [], [], []
-co1tl, co1tb, co1tw, co1bl, co1bb, co1bw = [], [], [], [], [], []
-sc1tl, sc1tb, sc1tw, sc1bl, sc1bb, sc1bw = [], [], [], [], [], []
-mn1tl, mn1tb, mn1tw, mn1bl, mn1bb, mn1bw = [], [], [], [], [], []
-in1tl, in1tb, in1tw, in1bl, in1bb, in1bw = [], [], [], [], [], []
-md1tl, md1tb, md1tw, md1bl, md1bb, md1bw = [], [], [], [], [], []
-sd1tl, sd1tb, sd1tw, sd1bl, sd1bb, sd1bw =  [], [], [], [], [], []
-vt1tl, vt1tb, vt1tw, vt1bl, vt1bb, vt1bw =  [], [], [], [], [], []
-nd1tl, nd1tb, nd1tw, nd1bl, nd1bb, nd1bw =  [], [], [], [], [], []
-de1tl, de1tb, de1tw, de1bl, de1bb, de1bw =  [], [], [], [], [], []
-mt1tl, mt1tb, mt1tw, mt1bl, mt1bb, mt1bw =  [], [], [], [], [], []
-ne1tl, ne1tb, ne1tw, ne1bl, ne1bb, ne1bw = [], [], [], [], [], []
-ma1tl, ma1tb, ma1tw, ma1bl, ma1bb, ma1bw = [], [], [], [], [], []
-va1tl, va1tb, va1tw, va1bl, va1bb, va1bw = [], [], [], [], [], []
-me1tl, me1tb, me1tw, me1bl, me1bb, me1bw = [], [], [], [], [], []
-id1tl, id1tb, id1tw, id1bl, id1bb, id1bw = [], [], [], [], [], []
-wi1tl, wi1tb, wi1tw, wi1bl, wi1bb, wi1bw = [], [], [], [], [], []
-wv1tl, wv1tb, wv1tw, wv1bl, wv1bb, wv1bw = [], [], [], [], [], []
-ia1tl, ia1tb, ia1tw, ia1bl, ia1bb, ia1bw = [], [], [], [], [], []
-ms1tl, ms1tb, ms1tw, ms1bl, ms1bb, ms1bw = [], [], [], [], [], []
-hi1tl, hi1tb, hi1tw, hi1bl, hi1bb, hi1bw = [], [], [], [], [], []
-ri1bl, ri1bb, ri1bw, ri1tl, ri1tb, ri1tw = [], [], [], [], [], []
-wa1tl, wa1tb, wa1tw, wa1bl, wa1bb, wa1bw = [], [], [], [], [], []
-fl1tl, fl1tb, fl1tw, fl1bl, fl1bb, fl1bw = [], [], [], [], [], []
-al1tl, al1tb, al1tw, al1bl, al1bb, al1bw = [], [], [], [], [], []
-il1tl, il1tb, il1tw, il1bl, il1bb, il1bw = [], [], [], [], [], []
-ca1tl, ca1tb, ca1tw, ca1bl, ca1bb, ca1bw = [], [], [], [], [], []
-ks1tl, ks1tb, ks1tw, ks1bl, ks1bb, ks1bw = [], [], [], [], [], []
-ga1tl, ga1tb, ga1tw, ga1bl, ga1bb, ga1bw = [], [], [], [], [], []
-az1tl, az1tb, az1tw, az1bl, az1bb, az1bw = [], [], [], [], [], []
-ak1tl, ak1tb, ak1tw, ak1bl, ak1bb, ak1bw =  [], [], [], [], [], []
-ar1tl, ar1tb, ar1tw, ar1bl, ar1bb, ar1bw = [], [], [], [], [], []
-nj1tl, nj1tb, nj1tw, nj1bl, nj1bb, nj1bw = [], [], [], [], [], []
-nv1tl, nv1tb, nv1tw, nv1bl, nv1bb, nv1bw = [], [], [], [], [], []
-nh1tl, nh1tb, nh1tw, nh1bl, nh1bb, nh1bw = [], [], [], [], [], []
-nc1tl, nc1tb, nc1tw, nc1bl, nc1bb, nc1bw = [], [], [], [], [], []
-tx1tl, tx1tb, tx1tw, tx1bl, tx1bb, tx1bw = [], [], [], [], [], []
-tn1tl, tn1tb, tn1tw, tn1bl, tn1bb, tn1bw = [], [], [], [], [], []
-nm1tl, nm1tb, nm1tw, nm1bl, nm1bb, nm1bw = [], [], [], [], [], []
-ny1tl, ny1tb, ny1tw, ny1bl, ny1bb, ny1bw = [], [], [], [], [], []
-wy1tl, wy1tb, wy1tw, wy1bl, wy1bb, wy1bw =  [], [], [], [], [], []
-pa1tl, pa1tb, pa1tw, pa1bl, pa1bb, pa1bw = [], [], [], [], [], []
-ct1tl, ct1tb, ct1tw, ct1bl, ct1bb, ct1bw = [], [], [], [], [], []
-ky1tl, ky1tb, ky1tw, ky1bl, ky1bb, ky1bw = [], [], [], [], [], []
-la1tl, la1tb, la1tw, la1bl, la1bb, la1bw = [], [], [], [], [], []
-ok1tl, ok1tb, ok1tw, ok1bl, ok1bb, ok1bw = [], [], [], [], [], []
-ut1tl, ut1tb, ut1tw, ut1bl, ut1bb, ut1bw = [], [], [], [], [], []
-oh1tl, oh1tb, oh1tw, oh1bl, oh1bb, oh1bw = [], [], [], [], [], []
-or1tl, or1tb, or1tw, or1bl, or1bb, or1bw=  [], [], [], [], [], []
-mi1tl, mi1tb, mi1tw, mi1bl, mi1bb, mi1bw=  [], [], [], [], [], []
+# mo1tl, mo1tb, mo1tw, mo1bl, mo1bb, mo1bw = [], [], [], [], [], []
+# co1tl, co1tb, co1tw, co1bl, co1bb, co1bw = [], [], [], [], [], []
+# sc1tl, sc1tb, sc1tw, sc1bl, sc1bb, sc1bw = [], [], [], [], [], []
+# mn1tl, mn1tb, mn1tw, mn1bl, mn1bb, mn1bw = [], [], [], [], [], []
+# in1tl, in1tb, in1tw, in1bl, in1bb, in1bw = [], [], [], [], [], []
+# md1tl, md1tb, md1tw, md1bl, md1bb, md1bw = [], [], [], [], [], []
+# sd1tl, sd1tb, sd1tw, sd1bl, sd1bb, sd1bw =  [], [], [], [], [], []
+# vt1tl, vt1tb, vt1tw, vt1bl, vt1bb, vt1bw =  [], [], [], [], [], []
+# nd1tl, nd1tb, nd1tw, nd1bl, nd1bb, nd1bw =  [], [], [], [], [], []
+# de1tl, de1tb, de1tw, de1bl, de1bb, de1bw =  [], [], [], [], [], []
+# mt1tl, mt1tb, mt1tw, mt1bl, mt1bb, mt1bw =  [], [], [], [], [], []
+# ne1tl, ne1tb, ne1tw, ne1bl, ne1bb, ne1bw = [], [], [], [], [], []
+# ma1tl, ma1tb, ma1tw, ma1bl, ma1bb, ma1bw = [], [], [], [], [], []
+# va1tl, va1tb, va1tw, va1bl, va1bb, va1bw = [], [], [], [], [], []
+# me1tl, me1tb, me1tw, me1bl, me1bb, me1bw = [], [], [], [], [], []
+# id1tl, id1tb, id1tw, id1bl, id1bb, id1bw = [], [], [], [], [], []
+# wi1tl, wi1tb, wi1tw, wi1bl, wi1bb, wi1bw = [], [], [], [], [], []
+# wv1tl, wv1tb, wv1tw, wv1bl, wv1bb, wv1bw = [], [], [], [], [], []
+# ia1tl, ia1tb, ia1tw, ia1bl, ia1bb, ia1bw = [], [], [], [], [], []
+# ms1tl, ms1tb, ms1tw, ms1bl, ms1bb, ms1bw = [], [], [], [], [], []
+# hi1tl, hi1tb, hi1tw, hi1bl, hi1bb, hi1bw = [], [], [], [], [], []
+# ri1bl, ri1bb, ri1bw, ri1tl, ri1tb, ri1tw = [], [], [], [], [], []
+# wa1tl, wa1tb, wa1tw, wa1bl, wa1bb, wa1bw = [], [], [], [], [], []
+# fl1tl, fl1tb, fl1tw, fl1bl, fl1bb, fl1bw = [], [], [], [], [], []
+# al1tl, al1tb, al1tw, al1bl, al1bb, al1bw = [], [], [], [], [], []
+# il1tl, il1tb, il1tw, il1bl, il1bb, il1bw = [], [], [], [], [], []
+# ca1tl, ca1tb, ca1tw, ca1bl, ca1bb, ca1bw = [], [], [], [], [], []
+# ks1tl, ks1tb, ks1tw, ks1bl, ks1bb, ks1bw = [], [], [], [], [], []
+# ga1tl, ga1tb, ga1tw, ga1bl, ga1bb, ga1bw = [], [], [], [], [], []
+# az1tl, az1tb, az1tw, az1bl, az1bb, az1bw = [], [], [], [], [], []
+# ak1tl, ak1tb, ak1tw, ak1bl, ak1bb, ak1bw =  [], [], [], [], [], []
+# ar1tl, ar1tb, ar1tw, ar1bl, ar1bb, ar1bw = [], [], [], [], [], []
+# nj1tl, nj1tb, nj1tw, nj1bl, nj1bb, nj1bw = [], [], [], [], [], []
+# nv1tl, nv1tb, nv1tw, nv1bl, nv1bb, nv1bw = [], [], [], [], [], []
+# nh1tl, nh1tb, nh1tw, nh1bl, nh1bb, nh1bw = [], [], [], [], [], []
+# nc1tl, nc1tb, nc1tw, nc1bl, nc1bb, nc1bw = [], [], [], [], [], []
+# tx1tl, tx1tb, tx1tw, tx1bl, tx1bb, tx1bw = [], [], [], [], [], []
+# tn1tl, tn1tb, tn1tw, tn1bl, tn1bb, tn1bw = [], [], [], [], [], []
+# nm1tl, nm1tb, nm1tw, nm1bl, nm1bb, nm1bw = [], [], [], [], [], []
+# ny1tl, ny1tb, ny1tw, ny1bl, ny1bb, ny1bw = [], [], [], [], [], []
+# wy1tl, wy1tb, wy1tw, wy1bl, wy1bb, wy1bw =  [], [], [], [], [], []
+# pa1tl, pa1tb, pa1tw, pa1bl, pa1bb, pa1bw = [], [], [], [], [], []
+# ct1tl, ct1tb, ct1tw, ct1bl, ct1bb, ct1bw = [], [], [], [], [], []
+# ky1tl, ky1tb, ky1tw, ky1bl, ky1bb, ky1bw = [], [], [], [], [], []
+# la1tl, la1tb, la1tw, la1bl, la1bb, la1bw = [], [], [], [], [], []
+# ok1tl, ok1tb, ok1tw, ok1bl, ok1bb, ok1bw = [], [], [], [], [], []
+# ut1tl, ut1tb, ut1tw, ut1bl, ut1bb, ut1bw = [], [], [], [], [], []
+# oh1tl, oh1tb, oh1tw, oh1bl, oh1bb, oh1bw = [], [], [], [], [], []
+# or1tl, or1tb, or1tw, or1bl, or1bb, or1bw=  [], [], [], [], [], []
+# mi1tl, mi1tb, mi1tw, mi1bl, mi1bb, mi1bw=  [], [], [], [], [], []
 
-# with open("/Volumes/TOSHIBA_BACKUP/usastateswithgender.txt", 'rb') as f:
-# 	al1tl, al1tb, al1tw, al1bl, al1bb, al1bw, ak1tl, ak1tb, ak1tw, ak1bl, ak1bb, ak1bw, az1tl, az1tb, az1tw, az1bl, az1bb, az1bw, ar1bl, ar1bb, ar1bw, ar1tl, ar1tb, ar1tw, ak1bl, ak1bb, ak1bw, ca1tl, ca1tb, ca1tw, ca1bl, ca1bb, ca1bw, co1tl, co1tb, co1tw, co1bl, co1bb, co1bw, ct1bl, ct1bb, ct1bw, ct1tl, ct1tb, ct1tw, de1tl, de1tb, de1tw, de1bl, de1bb, de1bw, fl1bl, fl1bb, fl1bw, fl1tl, fl1tb, fl1tw, ga1tl, ga1tb, ga1tw, ga1bl, ga1bb, ga1bw, hi1tl, hi1tb, hi1tw, hi1bl, hi1bb, hi1bw, id1tl, id1tb, id1tw, id1bl, id1bb, id1bw, il1bl, il1bb, il1bw, il1tl, il1tb, il1tw, in1tl, in1tb, in1tw, in1bl, in1bb, in1bw, ia1tl, ia1tb, ia1tw, ia1bl, ia1bb, ia1bw, ks1tl, ks1tb, ks1tw, ks1bl, ks1bb, ks1bw, ky1tl, ky1tb, ky1tw, ky1bl, ky1bb, ky1bw, la1tl, la1tb, la1tw, la1bl, la1bb, la1bw, me1tl, me1tb, me1tw, me1bl, me1bb, me1bw, md1tl, md1tb, md1tw, md1bl, md1bb, md1bw, ma1tl, ma1tb, ma1tw, ma1bl, ma1bb, ma1bw, mi1bl, mi1bb, mi1bw, mi1tl, mi1tb, mi1tw, mn1tl, mn1tb, mn1tw, mn1bl, mn1bb, mn1bw, ms1tl, ms1tb, ms1tw, ms1bl, ms1bb, ms1bw, mo1tl, mo1tb, mo1tw, mo1bl, mo1bb, mo1bw, mt1tl, mt1tb, mt1tw, mt1bl, mt1bb, mt1bw, ne1tl, ne1tb, ne1tw, ne1bl, ne1bb, ne1bw, nv1tl, nv1tb, nv1tw, nv1bl, nv1bb, nv1bw, nh1tl, nh1tb, nh1tw, nh1bl, nh1bb, nh1bw, nj1bl, nj1bb, nj1bw, nj1tl, nj1tb, nj1tw, nm1tl, nm1tb, nm1tw, nm1bl, nm1bb, nm1bw, ny1tl, ny1tb, ny1tw, ny1bl, ny1bb, ny1bw, nc1bl, nc1bb, nc1bw, nc1tl, nc1tb, nc1tw, nd1tl, nd1tb, nd1tw, nd1bl, nd1bb, nd1bw, oh1bl, oh1bb, oh1bw, oh1tl, oh1tb, oh1tw, ok1tl, ok1tb, ok1tw, ok1bl, ok1bb, ok1bw, or1tl, or1tb, or1tw, or1bl, or1bb, or1bw, pa1bl, pa1bb, pa1bw, pa1tl, pa1tb, pa1tw, ri1tl, ri1tb, ri1tw, ri1bl, ri1bb, ri1bw, sc1tl, sc1tb, sc1tw, sc1bl, sc1bb, sc1bw, sd1tl, sd1tb, sd1tw, sd1bl, sd1bb, sd1bw, tn1tl, tn1tb, tn1tw, tn1bl, tn1bb, tn1bw, tx1tl, tx1tb, tx1tw, tx1bl, tx1bb, tx1bw, ut1tl, ut1tb, ut1tw, ut1bl, ut1bb, ut1bw, vt1tl, vt1tb, vt1tw, vt1bl, vt1bb, vt1bw, va1bl, va1bb, va1bw, va1tl, va1tb, va1tw, wa1bl, wa1bb, wa1bw, wa1tl, wa1tb, wa1tw, wv1tl, wv1tb, wv1tw, wv1bl, wv1bb, wv1bw, wi1tl, wi1tb, wi1tw, wi1bl, wi1bb, wi1bw, wy1tl, wy1tb, wy1tw, wy1bl, wy1bb, wy1bw = pickle.load(f)
+with open("/Volumes/TOSHIBA_BACKUP/usastateswithgender.txt", 'rb') as f:
+	al1tl, al1tb, al1tw, al1bl, al1bb, al1bw, ak1tl, ak1tb, ak1tw, ak1bl, ak1bb, ak1bw, az1tl, az1tb, az1tw, az1bl, az1bb, az1bw, ar1bl, ar1bb, ar1bw, ar1tl, ar1tb, ar1tw, ak1bl, ak1bb, ak1bw, ca1tl, ca1tb, ca1tw, ca1bl, ca1bb, ca1bw, co1tl, co1tb, co1tw, co1bl, co1bb, co1bw, ct1bl, ct1bb, ct1bw, ct1tl, ct1tb, ct1tw, de1tl, de1tb, de1tw, de1bl, de1bb, de1bw, fl1bl, fl1bb, fl1bw, fl1tl, fl1tb, fl1tw, ga1tl, ga1tb, ga1tw, ga1bl, ga1bb, ga1bw, hi1tl, hi1tb, hi1tw, hi1bl, hi1bb, hi1bw, id1tl, id1tb, id1tw, id1bl, id1bb, id1bw, il1bl, il1bb, il1bw, il1tl, il1tb, il1tw, in1tl, in1tb, in1tw, in1bl, in1bb, in1bw, ia1tl, ia1tb, ia1tw, ia1bl, ia1bb, ia1bw, ks1tl, ks1tb, ks1tw, ks1bl, ks1bb, ks1bw, ky1tl, ky1tb, ky1tw, ky1bl, ky1bb, ky1bw, la1tl, la1tb, la1tw, la1bl, la1bb, la1bw, me1tl, me1tb, me1tw, me1bl, me1bb, me1bw, md1tl, md1tb, md1tw, md1bl, md1bb, md1bw, ma1tl, ma1tb, ma1tw, ma1bl, ma1bb, ma1bw, mi1bl, mi1bb, mi1bw, mi1tl, mi1tb, mi1tw, mn1tl, mn1tb, mn1tw, mn1bl, mn1bb, mn1bw, ms1tl, ms1tb, ms1tw, ms1bl, ms1bb, ms1bw, mo1tl, mo1tb, mo1tw, mo1bl, mo1bb, mo1bw, mt1tl, mt1tb, mt1tw, mt1bl, mt1bb, mt1bw, ne1tl, ne1tb, ne1tw, ne1bl, ne1bb, ne1bw, nv1tl, nv1tb, nv1tw, nv1bl, nv1bb, nv1bw, nh1tl, nh1tb, nh1tw, nh1bl, nh1bb, nh1bw, nj1bl, nj1bb, nj1bw, nj1tl, nj1tb, nj1tw, nm1tl, nm1tb, nm1tw, nm1bl, nm1bb, nm1bw, ny1tl, ny1tb, ny1tw, ny1bl, ny1bb, ny1bw, nc1bl, nc1bb, nc1bw, nc1tl, nc1tb, nc1tw, nd1tl, nd1tb, nd1tw, nd1bl, nd1bb, nd1bw, oh1bl, oh1bb, oh1bw, oh1tl, oh1tb, oh1tw, ok1tl, ok1tb, ok1tw, ok1bl, ok1bb, ok1bw, or1tl, or1tb, or1tw, or1bl, or1bb, or1bw, pa1bl, pa1bb, pa1bw, pa1tl, pa1tb, pa1tw, ri1tl, ri1tb, ri1tw, ri1bl, ri1bb, ri1bw, sc1tl, sc1tb, sc1tw, sc1bl, sc1bb, sc1bw, sd1tl, sd1tb, sd1tw, sd1bl, sd1bb, sd1bw, tn1tl, tn1tb, tn1tw, tn1bl, tn1bb, tn1bw, tx1tl, tx1tb, tx1tw, tx1bl, tx1bb, tx1bw, ut1tl, ut1tb, ut1tw, ut1bl, ut1bb, ut1bw, vt1tl, vt1tb, vt1tw, vt1bl, vt1bb, vt1bw, va1bl, va1bb, va1bw, va1tl, va1tb, va1tw, wa1bl, wa1bb, wa1bw, wa1tl, wa1tb, wa1tw, wv1tl, wv1tb, wv1tw, wv1bl, wv1bb, wv1bw, wi1tl, wi1tb, wi1tw, wi1bl, wi1bb, wi1bw, wy1tl, wy1tb, wy1tw, wy1bl, wy1bb, wy1bw = pickle.load(f)
 
 
 # connect to MongoDB, change the << MONGODB URL >> to reflect your own connection string
@@ -686,105 +686,105 @@ for tw in cursor:
 			sortEthnic(wy1bl, wy1bb, wy1bw, tw)
 
 
-calcResult("Arizona", 759663, az1bl, az1bb, az1bw, az1tl, az1tb, az1tw, 0.46, 0.54, 0)
+calcResult("Arizona", 759663, az1bl, az1bb, az1bw, az1tl, az1tb, az1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Arkansas", 724622, ar1bl, ar1bb, ar1bw, ar1tl, ar1tb, ar1tw, 0.46, 0.54, 0)
+calcResult("Arkansas", 724622, ar1bl, ar1bb, ar1bw, ar1tl, ar1tb, ar1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Alabama", 715346, al1bl, al1bb, al1bw, al1tl, al1tb, al1tw, 0.46, 0.54, 0)
+calcResult("Alabama", 715346, al1bl, al1bb, al1bw, al1tl, al1tb, al1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Colorado", 812843, co1bl, co1bb, co1bw, co1tl, co1tb, co1tw, 0.46, 0.54, 0)
+calcResult("Colorado", 812843, co1bl, co1bb, co1bw, co1tl, co1tb, co1tw, 0.4, 0.6, 0)
 print("")
-calcResult("California", 704012, ca1bl, ca1bb, ca1bw, ca1tl, ca1tb, ca1tw, 0.46, 0.54, 0)
+calcResult("California", 704012, ca1bl, ca1bb, ca1bw, ca1tl, ca1tb, ca1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Connecticut", 710509, ct1bl, ct1bb, ct1bw, ct1tl, ct1tb, ct1tw, 0.46, 0.54, 0)
+calcResult("Connecticut", 710509, ct1bl, ct1bb, ct1bw, ct1tl, ct1tb, ct1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Georgia", 734172, ga1bl, ga1bb, ga1bw, ga1tl, ga1tb, ga1tw, 0.46, 0.54, 0)
+calcResult("Georgia", 734172, ga1bl, ga1bb, ga1bw, ga1tl, ga1tb, ga1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Florida", 762506, fl1bl, fl1bb, fl1bw, fl1tl, fl1tb, fl1tw, 0.46, 0.54, 0)
+calcResult("Florida", 762506, fl1bl, fl1bb, fl1bw, fl1tl, fl1tb, fl1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Indiana", 714756, in1bl, in1bb, in1bw, in1tl, in1tb, in1tw, 0.46, 0.54, 0)
+calcResult("Indiana", 714756, in1bl, in1bb, in1bw, in1tl, in1tb, in1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Iowa", 773628, ia1bl, ia1bb, ia1bw, ia1tl, ia1tb, ia1tw, 0.46, 0.54, 0)
+calcResult("Iowa", 773628, ia1bl, ia1bb, ia1bw, ia1tl, ia1tb, ia1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Illinois", 706550, il1bl, il1bb, il1bw, il1tl, il1tb, il1tw, 0.46, 0.54, 0)
+calcResult("Illinois", 706550, il1bl, il1bb, il1bw, il1tl, il1tb, il1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Idaho", 912950, id1bl, id1bb, id1bw, id1tl, id1tb, id1tw, 0.46, 0.54, 0)
+calcResult("Idaho", 912950, id1bl, id1bb, id1bw, id1tl, id1tb, id1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Kansas", 725222, ks1bl, ks1bb, ks1bw, ks1tl, ks1tb, ks1tw, 0.46, 0.54, 0)
+calcResult("Kansas", 725222, ks1bl, ks1bb, ks1bw, ks1tl, ks1tb, ks1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Kentucky", 717739, ky1bl, ky1bb, ky1bw, ky1tl, ky1tb, ky1tw, 0.46, 0.54, 0)
+calcResult("Kentucky", 717739, ky1bl, ky1bb, ky1bw, ky1tl, ky1tb, ky1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Louisiana", 803427, la1bl, la1bb, la1bw, la1tl, la1tb, la1tw, 0.46, 0.54, 0)
+calcResult("Louisiana", 803427, la1bl, la1bb, la1bw, la1tl, la1tb, la1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Maine", 683279, me1bl, me1bb, me1bw, me1tl, me1tb, me1tw, 0.46, 0.54, 0)
+calcResult("Maine", 683279, me1bl, me1bb, me1bw, me1tl, me1tb, me1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Maryland", 662062, md1bl, md1bb, md1bw, md1tl, md1tb, md1tw, 0.46, 0.54, 0)
+calcResult("Maryland", 662062, md1bl, md1bb, md1bw, md1tl, md1tb, md1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Massachusetts", 634479, ma1bl, ma1bb, ma1bw, ma1tl, ma1tb, ma1tw, 0.46, 0.54, 0)
+calcResult("Massachusetts", 634479, ma1bl, ma1bb, ma1bw, ma1tl, ma1tb, ma1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Michigan", 699621, mi1bl, mi1bb, mi1bw, mi1tl, mi1tb, mi1tw, 0.46, 0.54, 0)
+calcResult("Michigan", 699621, mi1bl, mi1bb, mi1bw, mi1tl, mi1tb, mi1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Mississippi", 762914, ms1bl, ms1bb, ms1bw, ms1tl, ms1tb, ms1tw, 0.46, 0.54, 0)
+calcResult("Mississippi", 762914, ms1bl, ms1bb, ms1bw, ms1tl, ms1tb, ms1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Missouri", 728365, mo1bl, mo1bb, mo1bw, mo1tl, mo1tb, mo1tw, 0.46, 0.54, 0)
+calcResult("Missouri", 728365, mo1bl, mo1bb, mo1bw, mo1tl, mo1tb, mo1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Minnesota", 678418, mn1bl, mn1bb, mn1bw, mn1tl, mn1tb, mn1tw, 0.46, 0.54, 0)
+calcResult("Minnesota", 678418, mn1bl, mn1bb, mn1bw, mn1tl, mn1tb, mn1tw, 0.4, 0.6, 0)
 print("")
-calcResult("New Jersey", 729675, nj1bl, nj1bb, nj1bw, nj1tl, nj1tb, nj1tw, 0.46, 0.54, 0)
+calcResult("New Jersey", 729675, nj1bl, nj1bb, nj1bw, nj1tl, nj1tb, nj1tw, 0.4, 0.6, 0)
 print("")
-calcResult("New Mexico", 690571, nm1bl, nm1bb, nm1bw, nm1tl, nm1tb, nm1tw, 0.46, 0.54, 0)
+calcResult("New Mexico", 690571, nm1bl, nm1bb, nm1bw, nm1tl, nm1tb, nm1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Nebraska", 616728, ne1bl, ne1bb, ne1bw, ne1tl, ne1tb, ne1tw, 0.46, 0.54, 0)
+calcResult("Nebraska", 616728, ne1bl, ne1bb, ne1bw, ne1tl, ne1tb, ne1tw, 0.4, 0.6, 0)
 print("")
-calcResult("New Hampshire", 673194, nh1bl, nh1bb, nh1bw, nh1tl, nh1tb, nh1tw, 0.46, 0.54, 0)
+calcResult("New Hampshire", 673194, nh1bl, nh1bb, nh1bw, nh1tl, nh1tb, nh1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Nevada", 722331, nv1bl, nv1bb, nv1bw, nv1tl, nv1tb, nv1tw, 0.46, 0.54, 0)
+calcResult("Nevada", 722331, nv1bl, nv1bb, nv1bw, nv1tl, nv1tb, nv1tw, 0.4, 0.6, 0)
 print("")
-calcResult("North Carolina", 750278, nc1bl, nc1bb, nc1bw, nc1tl, nc1tb, nc1tw, 0.46, 0.54, 0)
+calcResult("North Carolina", 750278, nc1bl, nc1bb, nc1bw, nc1tl, nc1tb, nc1tw, 0.4, 0.6, 0)
 print("")
-calcResult("New York", 717707, ny1bl, ny1bb, ny1bw, ny1tl, ny1tb, ny1tw, 0.46, 0.54, 0)
+calcResult("New York", 717707, ny1bl, ny1bb, ny1bw, ny1tl, ny1tb, ny1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Ohio", 739216, oh1bl, oh1bb, oh1bw, oh1tl, oh1tb, oh1tw, 0.46, 0.54, 0)
+calcResult("Ohio", 739216, oh1bl, oh1bb, oh1bw, oh1tl, oh1tb, oh1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Oregon", 844175, or1bl, or1bb, or1bw, or1tl, or1tb, or1tw, 0.46, 0.54, 0)
+calcResult("Oregon", 844175, or1bl, or1bb, or1bw, or1tl, or1tb, or1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Oklahoma", 754310, ok1bl, ok1bb, ok1bw, ok1tl, ok1tb, ok1tw, 0.46, 0.54, 0)
+calcResult("Oklahoma", 754310, ok1bl, ok1bb, ok1bw, ok1tl, ok1tb, ok1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Hawaii", 692981, hi1bl, hi1bb, hi1bw, hi1tl, hi1tb, hi1tw, 0.46, 0.54, 0)
+calcResult("Hawaii", 692981, hi1bl, hi1bb, hi1bw, hi1tl, hi1tb, hi1tw, 0.4, 0.6, 0)
 print("")
-calcResult("South Carolina", 668668, sc1bl, sc1bb, sc1bw, sc1tl, sc1tb, sc1tw, 0.46, 0.54, 0)
+calcResult("South Carolina", 668668, sc1bl, sc1bb, sc1bw, sc1tl, sc1tb, sc1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Texas", 717735, tx1bl, tx1bb, tx1bw, tx1tl, tx1tb, tx1tw, 0.46, 0.54, 0)
+calcResult("Texas", 717735, tx1bl, tx1bb, tx1bw, tx1tl, tx1tb, tx1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Tennessee", 714504, tn1bl, tn1bb, tn1bw, tn1tl, tn1tb, tn1tw, 0.46, 0.54, 0)
+calcResult("Tennessee", 714504, tn1bl, tn1bb, tn1bw, tn1tl, tn1tb, tn1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Pennsylvania", 655146, pa1bl, pa1bb, pa1bw, pa1tl, pa1tb, pa1tw, 0.46, 0.54, 0)
+calcResult("Pennsylvania", 655146, pa1bl, pa1bb, pa1bw, pa1tl, pa1tb, pa1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Rhode Island", 539250, ri1bl, ri1bb, ri1bw, ri1tl, ri1tb, ri1tw, 0.46, 0.54, 0 )
+calcResult("Rhode Island", 539250, ri1bl, ri1bb, ri1bw, ri1tl, ri1tb, ri1tw, 0.4, 0.6, 0 )
 print("")
-calcResult("Utah", 100000, ut1bl, ut1bb, ut1bw, ut1tl, ut1tb, ut1tw, 0.46, 0.54, 0)
+calcResult("Utah", 100000, ut1bl, ut1bb, ut1bw, ut1tl, ut1tb, ut1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Virginia", 776836, va1bl, va1bb, va1bw, va1tl, va1tb, va1tw, 0.46, 0.54, 0)
+calcResult("Virginia", 776836, va1bl, va1bb, va1bw, va1tl, va1tb, va1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Washington", 654904, wa1bl, wa1bb, wa1bw, wa1tl, wa1tb, wa1tw, 0.46, 0.54, 0)
+calcResult("Washington", 654904, wa1bl, wa1bb, wa1bw, wa1tl, wa1tb, wa1tw, 0.4, 0.6, 0)
 print("")
-calcResult("West Virginia", 615991, wv1bl, wv1bb, wv1bw, wv1tl, wv1tb, wv1tw, 0.46, 0.54, 0)
+calcResult("West Virginia", 615991, wv1bl, wv1bb, wv1bw, wv1tl, wv1tb, wv1tw, 0.4, 0.6, 0)
 print("")
-calcResult("Wisconsin", 717716, wi1bl, wi1bb, wi1bw, wi1tl, wi1tb, wi1tw, 0.46, 0.54, 0)
+calcResult("Wisconsin", 717716, wi1bl, wi1bb, wi1bw, wi1tl, wi1tb, wi1tw, 0.4, 0.6, 0)
 print("")
-calcResult("DELAWARE", 973764, de1bl, de1bb, de1bw, de1tl, de1tb, de1tw, 0.46, 0.54, 0)
+calcResult("DELAWARE", 973764, de1bl, de1bb, de1bw, de1tl, de1tb, de1tw, 0.4, 0.6, 0)
 print("")
-calcResult("NORTH DAKOTA", 762062, nd1bl, nd1bb, nd1bw, nd1tl, nd1tb, nd1tw, 0.46, 0.54, 0)
+calcResult("NORTH DAKOTA", 762062, nd1bl, nd1bb, nd1bw, nd1tl, nd1tb, nd1tw, 0.4, 0.6, 0)
 print("")
-calcResult("SOUTH DAKOTA", 884659, sd1bl, sd1bb, sd1bw, sd1tl, sd1tb, sd1tw, 0.46, 0.54, 0)
+calcResult("SOUTH DAKOTA", 884659, sd1bl, sd1bb, sd1bw, sd1tl, sd1tb, sd1tw, 0.4, 0.6, 0)
 print("")
-calcResult("MONTANA", 1068778, mt1bl, mt1bb, mt1bw, mt1tl, mt1tb, mt1tw, 0.46, 0.54, 0)
+calcResult("MONTANA", 1068778, mt1bl, mt1bb, mt1bw, mt1tl, mt1tb, mt1tw, 0.4, 0.6, 0)
 print("")
-calcResult("WYOMING", 578759, wy1bl, wy1bb, wy1bw, wy1tl, wy1tb, wy1tw, 0.46, 0.54, 0)
+calcResult("WYOMING", 578759, wy1bl, wy1bb, wy1bw, wy1tl, wy1tb, wy1tw, 0.4, 0.6, 0)
 print("")
-calcResult("ALASKA", 731545, ak1bl, ak1bb, ak1bw, ak1tl, ak1tb, ak1tw, 0.46, 0.54, 0)
+calcResult("ALASKA", 731545, ak1bl, ak1bb, ak1bw, ak1tl, ak1tb, ak1tw, 0.4, 0.6, 0)
 print("")
-calcResult("VERMONT", 623989, vt1bl, vt1bb, vt1bw, vt1tl, vt1tb, vt1tw, 0.46, 0.54, 0)
+calcResult("VERMONT", 623989, vt1bl, vt1bb, vt1bw, vt1tl, vt1tb, vt1tw, 0.4, 0.6, 0)
 
 
 for str in results:
